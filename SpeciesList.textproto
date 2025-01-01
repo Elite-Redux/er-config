@@ -852,6 +852,7 @@ species {
       move: MOVE_LEER
       move: MOVE_SCRATCH
       move: MOVE_SMOKESCREEN
+      move: MOVE_TWISTER
     }
     level {
       level: 17
@@ -6484,7 +6485,6 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_DEFENSE_CURL
       move: MOVE_DOUBLE_SLAP
       move: MOVE_FAIRY_WIND
       move: MOVE_PLAY_NICE
@@ -12879,6 +12879,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
+    tutor: MOVE_MACH_PUNCH
   }
   visuals {
     icon {
@@ -13036,6 +13037,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
+    tutor: MOVE_MACH_PUNCH
   }
   visuals {
     icon {
@@ -13179,6 +13181,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
+    tutor: MOVE_MACH_PUNCH
   }
   visuals {
     icon {
@@ -15216,10 +15219,10 @@ species {
       move: MOVE_DOUBLE_KICK
       move: MOVE_FLAME_WHEEL
       move: MOVE_QUICK_ATTACK
+      move: MOVE_BLAZE_KICK
     }
     level {
       level: 17
-      move: MOVE_BLAZE_KICK
       move: MOVE_MORNING_SUN
       move: MOVE_STOMP
     }
@@ -15326,10 +15329,10 @@ species {
       move: MOVE_DOUBLE_KICK
       move: MOVE_FLAME_WHEEL
       move: MOVE_QUICK_ATTACK
+      move: MOVE_BLAZE_KICK
     }
     level {
       level: 17
-      move: MOVE_BLAZE_KICK
       move: MOVE_MORNING_SUN
       move: MOVE_STOMP
     }
@@ -15809,6 +15812,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SKILL_SWAP
   }
   visuals {
     icon {
@@ -15947,6 +15951,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SKILL_SWAP
   }
   visuals {
     icon {
@@ -16088,6 +16093,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SKILL_SWAP
   }
   visuals {
     icon {
@@ -17332,6 +17338,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_X_SCISSOR
+    tutor: MOVE_DEFOG
   }
   visuals {
     icon {
@@ -22251,7 +22258,7 @@ species {
   spatk: 50
   spdef: 80
   spe: 60
-  ability: ABILITY_FLAME_BODY
+  ability: ABILITY_ILL_WILL
   ability: ABILITY_GREATER_SPIRIT
   ability: ABILITY_SKILL_LINK
   innate: ABILITY_BONE_ZONE
@@ -22293,6 +22300,8 @@ species {
       move: MOVE_POLTERGEIST
       move: MOVE_SHADOW_SNEAK
       move: MOVE_WISH
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_SHADOW_HAMMER
     }
     level {
       level: 51
@@ -23858,6 +23867,8 @@ species {
       move: MOVE_FOCUS_ENERGY
       move: MOVE_SMOKESCREEN
       move: MOVE_WATER_GUN
+      move: MOVE_WRAP
+      move: MOVE_SNIPE_SHOT
     }
     level {
       level: 17
@@ -23907,6 +23918,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_SLUDGE_BOMB
   }
   visuals {
     icon {
@@ -23991,18 +24003,18 @@ species {
     egg_group_2: DRAGON
   }
   type: TYPE_WATER
-  hp: 55
-  atk: 65
+  hp: 65
+  atk: 75
   def: 95
   spatk: 95
-  spdef: 45
+  spdef: 55
   spe: 85
-  ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_IMMUNITY
-  ability: ABILITY_POISON_HEAL
+  ability: ABILITY_DAMP
+  ability: ABILITY_SNIPER
+  ability: ABILITY_NATURAL_CURE
   innate: ABILITY_POISON_POINT
-  innate: ABILITY_MEGA_LAUNCHER
-  innate: ABILITY_SNIPER
+  innate: ABILITY_PARENTAL_BOND
+  innate: ABILITY_POISON_ABSORB
   percent_female: 50.0
   evo {
     to: SPECIES_KINGDRA
@@ -24015,6 +24027,8 @@ species {
       move: MOVE_FOCUS_ENERGY
       move: MOVE_SMOKESCREEN
       move: MOVE_WATER_GUN
+      move: MOVE_WRAP
+      move: MOVE_SNIPE_SHOT
     }
     level {
       level: 17
@@ -24067,6 +24081,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_SLUDGE_BOMB
   }
   visuals {
     icon {
@@ -24172,6 +24187,7 @@ species {
       move: MOVE_FOCUS_ENERGY
       move: MOVE_SMOKESCREEN
       move: MOVE_WATER_GUN
+      move: MOVE_WRAP
     }
     level {
       level: 17
@@ -24226,6 +24242,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_SLUDGE_BOMB
   }
   visuals {
     icon {
@@ -24718,6 +24735,10 @@ species {
     level {
       level: 51
       move: MOVE_FISHIOUS_REND
+    }
+    level {
+      level: 56
+      move: MOVE_SKULL_BASH
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -26634,6 +26655,8 @@ species {
       move: MOVE_HYPER_FANG
       move: MOVE_SCARY_FACE
       move: MOVE_SPLASH
+      move: MOVE_THUNDER_FANG
+      move: MOVE_AQUA_FANG
     }
     level {
       level: 17
@@ -29760,6 +29783,7 @@ species {
       level: 17
       move: MOVE_DRAGON_RAGE
       move: MOVE_HEAL_BELL
+      move: MOVE_DRAGON_DANCE
     }
     level {
       level: 24
@@ -29779,7 +29803,6 @@ species {
     }
     level {
       level: 51
-      move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_EXTREME_SPEED
       move: MOVE_THRASH
@@ -29812,6 +29835,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -29895,6 +29919,7 @@ species {
       level: 17
       move: MOVE_DRAGON_RAGE
       move: MOVE_HEAL_BELL
+      move: MOVE_DRAGON_DANCE
     }
     level {
       level: 24
@@ -29914,7 +29939,6 @@ species {
     }
     level {
       level: 51
-      move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_EXTREME_SPEED
       move: MOVE_THRASH
@@ -29947,6 +29971,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -30033,6 +30058,7 @@ species {
       move: MOVE_DRAGON_RAGE
       move: MOVE_DUAL_WINGBEAT
       move: MOVE_HEAL_BELL
+      move: MOVE_DRAGON_DANCE
     }
     level {
       level: 24
@@ -30054,7 +30080,6 @@ species {
     }
     level {
       level: 51
-      move: MOVE_DRAGON_DANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_EXTREME_SPEED
       move: MOVE_THRASH
@@ -30098,6 +30123,7 @@ species {
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -36392,7 +36418,6 @@ species {
   learnset {
     level {
       level: 1
-      move: MOVE_DEFENSE_CURL
       move: MOVE_DOUBLE_SLAP
       move: MOVE_FAIRY_WIND
       move: MOVE_PLAY_NICE
@@ -38029,6 +38054,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_AQUA_TAIL
   }
   visuals {
     icon {
@@ -38158,6 +38184,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_AQUA_TAIL
   }
   visuals {
     icon {
@@ -38423,6 +38450,7 @@ species {
     level {
       level: 51
       move: MOVE_PERISH_SONG
+      move: MOVE_ECHOED_VOICE
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
@@ -39510,6 +39538,7 @@ species {
       move: MOVE_ROUND
       move: MOVE_SLAM
       move: MOVE_YAWN
+      move: MOVE_MUD_SHOT
     }
     level {
       level: 17
@@ -39534,6 +39563,7 @@ species {
       level: 46
       move: MOVE_ECHOED_VOICE
       move: MOVE_WAVE_CRASH
+      move: MOVE_HYDRO_PUMP
     }
     level {
       level: 51
@@ -39640,6 +39670,7 @@ species {
       move: MOVE_ROUND
       move: MOVE_SLAM
       move: MOVE_YAWN
+      move: MOVE_MUD_SHOT
     }
     level {
       level: 17
@@ -39664,6 +39695,7 @@ species {
       level: 46
       move: MOVE_ECHOED_VOICE
       move: MOVE_WAVE_CRASH
+      move: MOVE_HYDRO_PUMP
     }
     level {
       level: 51
@@ -43352,6 +43384,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_JAW_LOCK
       move: MOVE_LOVELY_BITE
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 17
@@ -43378,7 +43411,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_HYPER_FANG
       move: MOVE_PARTING_SHOT
       move: MOVE_SCARY_FACE
       move: MOVE_SUCKER_PUNCH
@@ -43483,6 +43515,7 @@ species {
       move: MOVE_HOWL
       move: MOVE_JAW_LOCK
       move: MOVE_LOVELY_BITE
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 17
@@ -43506,7 +43539,6 @@ species {
       move: MOVE_DOUBLE_EDGE
       move: MOVE_HEAL_BELL
       move: MOVE_HIGH_HORSEPOWER
-      move: MOVE_HYPER_FANG
       move: MOVE_SPIRIT_BREAK
       move: MOVE_SUPER_FANG
     }
@@ -46732,6 +46764,7 @@ species {
     level {
       level: 51
       move: MOVE_WRING_OUT
+      move: MOVE_WATER_SPOUT
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
@@ -48023,6 +48056,7 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_TECTONIC_FANGS
   }
   visuals {
     icon {
@@ -48158,6 +48192,7 @@ species {
       move: MOVE_GYRO_BALL
       move: MOVE_LAST_RESORT
       move: MOVE_SUPERPOWER
+      move: MOVE_MOUNTAIN_CHUNK
     }
     level {
       level: 46
@@ -48189,6 +48224,7 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_TECTONIC_FANGS
   }
   visuals {
     icon {
@@ -59657,6 +59693,7 @@ species {
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SURF
+    tutor: MOVE_AQUA_TAIL
   }
   visuals {
     icon {
@@ -62834,17 +62871,17 @@ species {
   type: TYPE_GRASS
   type2: TYPE_POISON
   hp: 50
-  atk: 60
+  atk: 90
   def: 45
-  spatk: 100
-  spdef: 80
-  spe: 65
+  spatk: 90
+  spdef: 45
+  spe: 80
   ability: ABILITY_LEAF_GUARD
   ability: ABILITY_LONG_REACH
-  ability: ABILITY_TECHNICIAN
+  ability: ABILITY_POISON_POINT
   innate: ABILITY_NATURAL_CURE
   innate: ABILITY_CHLOROPHYLL
-  innate: ABILITY_POISON_POINT
+  innate: ABILITY_TECHNICIAN
   percent_female: 50.0
   no_flip: true
   evo {
@@ -65630,6 +65667,7 @@ species {
       move: MOVE_DRACONIC_FANGS
       move: MOVE_DRAGON_BREATH
       move: MOVE_ICE_SHARD
+      move: MOVE_NONE
     }
     level {
       level: 37
@@ -65669,6 +65707,7 @@ species {
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
+    tutor: MOVE_DRAGON_PULSE
   }
   visuals {
     icon {
@@ -65737,6 +65776,7 @@ species {
       move: MOVE_DRAGON_BREATH
       move: MOVE_ICE_SHARD
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_NONE
     }
     level {
       level: 37
@@ -65780,6 +65820,7 @@ species {
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
+    tutor: MOVE_DRAGON_PULSE
   }
   visuals {
     icon {
@@ -69002,7 +69043,7 @@ species {
   hp: 20
   atk: 15
   def: 20
-  spatk: 10
+  spatk: 15
   spdef: 55
   spe: 80
   ability: ABILITY_SWIFT_SWIM
@@ -79625,6 +79666,7 @@ species {
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -79753,17 +79795,17 @@ species {
       move: MOVE_SHARPEN
       move: MOVE_SKITTER_SMACK
       move: MOVE_UPROAR
+      move: MOVE_SONIC_BOOM
     }
     level {
       level: 17
       move: MOVE_INFESTATION
       move: MOVE_LUNGE
       move: MOVE_SLASH
-      move: MOVE_SONIC_BOOM
+      move: MOVE_AQUA_CUTTER
     }
     level {
       level: 24
-      move: MOVE_AQUA_CUTTER
       move: MOVE_FURY_SWIPES
       move: MOVE_HEAL_BELL
       move: MOVE_POUNCE
@@ -79807,6 +79849,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -80580,6 +80623,7 @@ species {
       move: MOVE_POISON_STING
       move: MOVE_STUN_SPORE
       move: MOVE_SWEET_SCENT
+      move: MOVE_ACID_SPRAY
     }
     level {
       level: 17
@@ -82279,6 +82323,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_COVET
+    tutor: MOVE_SAFE_PASSAGE
   }
   visuals {
     icon {
@@ -88037,6 +88082,7 @@ species {
       move: MOVE_INSTRUCT
       move: MOVE_MEGA_PUNCH
       move: MOVE_VACUUM_WAVE
+      move: MOVE_ONE_INCH_PUNCH
     }
     level {
       level: 24
@@ -89285,6 +89331,7 @@ species {
       move: MOVE_BOUNCE
       move: MOVE_SIGNAL_BEAM
       move: MOVE_WATER_GUN
+      move: MOVE_DISARMING_VOICE
     }
     level {
       level: 24
@@ -89424,6 +89471,7 @@ species {
       move: MOVE_BOUNCE
       move: MOVE_SIGNAL_BEAM
       move: MOVE_WATER_GUN
+      move: MOVE_DISARMING_VOICE
     }
     level {
       level: 24
@@ -102004,6 +102052,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_BULLDOZE
   }
   visuals {
     icon {
@@ -102136,6 +102185,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_BULLDOZE
   }
   visuals {
     icon {
@@ -133551,6 +133601,7 @@ species {
       move: MOVE_ICICLE_SPEAR
       move: MOVE_ROCK_BLAST
       move: MOVE_ROCK_CLIMB
+      move: MOVE_AQUA_FANG
     }
     level {
       level: 24
@@ -135759,6 +135810,7 @@ species {
       move: MOVE_SHARPEN
       move: MOVE_SOLAR_BLADE
       move: MOVE_TRIPLE_ARROWS
+      move: MOVE_VENOM_BOLT
     }
     level {
       level: 46
@@ -147658,18 +147710,18 @@ species {
     egg_group: UNDISCOVERED
   }
   type: TYPE_STEEL
-  hp: 46
-  atk: 65
-  def: 65
-  spatk: 55
+  hp: 81
+  atk: 81
+  def: 81
+  spatk: 63
   spdef: 35
   spe: 34
-  ability: ABILITY_GALVANIZE
   ability: ABILITY_FULL_METAL_BODY
+  ability: ABILITY_STEELY_SPIRIT
   ability: ABILITY_GOOEY
-  innate: ABILITY_STURDY
   innate: ABILITY_MAGNET_PULL
-  innate: ABILITY_STEELY_SPIRIT
+  innate: ABILITY_STURDY
+  innate: ABILITY_TRANSISTOR
   genderless: true
   tier: 5
   bp_cost: 250
@@ -147755,7 +147807,7 @@ species {
   spatk: 80
   spdef: 65
   spe: 34
-  ability: ABILITY_TRANSISTOR
+  ability: ABILITY_FULL_METAL_BODY
   ability: ABILITY_STEELWORKER
   ability: ABILITY_STAMINA
   innate: ABILITY_MAGNET_PULL
@@ -147794,15 +147846,20 @@ species {
       move: MOVE_PLASMA_FISTS
       move: MOVE_STEEL_BEAM
       move: MOVE_SUPERPOWER
+      move: MOVE_SPIN_OUT
     }
     level {
       level: 51
       move: MOVE_SEISMIC_FIST
+      move: MOVE_ROCKET_PUNCH
     }
     level {
       level: 56
-      move: MOVE_DOUBLE_IRON_BASH
       move: MOVE_DRAIN_PUNCH
+    }
+    level {
+      level: 61
+      move: MOVE_DOUBLE_IRON_BASH
     }
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULK_UP
@@ -150970,11 +151027,11 @@ species {
   spatk: 40
   spdef: 50
   spe: 30
-  ability: ABILITY_FLAME_BODY
+  ability: ABILITY_HOT_COALS
   ability: ABILITY_SOLID_ROCK
   ability: ABILITY_MOUNTAINEER
   innate: ABILITY_STEAM_ENGINE
-  innate: ABILITY_JUGGERNAUT
+  innate: ABILITY_POWER_CORE
   innate: ABILITY_MAGMA_ARMOR
   percent_female: 50.0
   tier: 2
@@ -151023,6 +151080,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_SUNNY_DAY
   }
   visuals {
     icon {
@@ -151063,11 +151122,11 @@ species {
   spatk: 60
   spdef: 70
   spe: 50
-  ability: ABILITY_FLAME_BODY
+  ability: ABILITY_HOT_COALS
   ability: ABILITY_SOLID_ROCK
   ability: ABILITY_MOUNTAINEER
   innate: ABILITY_STEAM_ENGINE
-  innate: ABILITY_JUGGERNAUT
+  innate: ABILITY_POWER_CORE
   innate: ABILITY_MAGMA_ARMOR
   percent_female: 50.0
   evo {
@@ -151134,6 +151193,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_SUNNY_DAY
   }
   visuals {
     icon {
@@ -151252,6 +151313,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_SUNNY_DAY
   }
   visuals {
     icon {
@@ -152695,6 +152758,7 @@ species {
       move: MOVE_BITE
       move: MOVE_ROUND
       move: MOVE_THUNDER_SHOCK
+      move: MOVE_SNARL
     }
     level {
       level: 17
@@ -152790,6 +152854,7 @@ species {
       move: MOVE_BITE
       move: MOVE_ROUND
       move: MOVE_THUNDER_SHOCK
+      move: MOVE_SNARL
     }
     level {
       level: 17
@@ -153273,6 +153338,7 @@ species {
       move: MOVE_CONSTRICT
       move: MOVE_DETECT
       move: MOVE_WRAP
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
@@ -153316,6 +153382,7 @@ species {
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_TOPSY_TURVY
+    tutor: MOVE_TAUNT
   }
   visuals {
     icon {
@@ -153370,6 +153437,7 @@ species {
       move: MOVE_CONSTRICT
       move: MOVE_DETECT
       move: MOVE_WRAP
+      move: MOVE_AQUA_JET
     }
     level {
       level: 17
@@ -153423,6 +153491,8 @@ species {
     tutor: MOVE_SOAK
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TOPSY_TURVY
   }
   visuals {
     icon {
@@ -154878,6 +154948,7 @@ species {
       level: 46
       move: MOVE_FURY_CUTTER
       move: MOVE_SOLAR_BLADE
+      move: MOVE_BRAVE_BIRD
     }
     level {
       level: 51
@@ -154905,6 +154976,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_X_SCISSOR
+    tutor: MOVE_DEFOG
   }
   visuals {
     icon {
@@ -158323,6 +158395,7 @@ species {
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_FEINT
   }
   visuals {
     icon {
@@ -161748,7 +161821,6 @@ species {
       level: 1
       move: MOVE_BITE
       move: MOVE_BULLET_SEED
-      move: MOVE_CONVERSION_2
       move: MOVE_HYPER_FANG
       move: MOVE_QUICK_ATTACK
       move: MOVE_SWEET_SCENT
@@ -162577,6 +162649,7 @@ species {
       level: 17
       move: MOVE_SUPER_FANG
       move: MOVE_TICKLE
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 24
@@ -162605,6 +162678,7 @@ species {
     tutor: MOVE_RETALIATE
     tutor: MOVE_TAUNT
     tutor: MOVE_TRICK
+    tutor: MOVE_SAFE_PASSAGE
   }
   visuals {
     icon {
@@ -162664,6 +162738,7 @@ species {
       level: 17
       move: MOVE_SUPER_FANG
       move: MOVE_TICKLE
+      move: MOVE_HYPER_FANG
     }
     level {
       level: 24
@@ -162699,6 +162774,7 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_TAUNT
     tutor: MOVE_TRICK
+    tutor: MOVE_SAFE_PASSAGE
   }
   visuals {
     icon {
@@ -162796,6 +162872,7 @@ species {
       move: MOVE_BITE
       move: MOVE_GROWL
       move: MOVE_LOVELY_BITE
+      move: MOVE_HOWL
     }
     level {
       level: 17
@@ -162808,6 +162885,7 @@ species {
       move: MOVE_ENCORE
       move: MOVE_FERTILE_FANGS
       move: MOVE_GROWTH
+      move: MOVE_RECYCLE
     }
     level {
       level: 37
@@ -163001,6 +163079,7 @@ species {
       move: MOVE_BITE
       move: MOVE_GROWL
       move: MOVE_LOVELY_BITE
+      move: MOVE_HOWL
     }
     level {
       level: 17
@@ -163013,6 +163092,7 @@ species {
       move: MOVE_ENCORE
       move: MOVE_FERTILE_FANGS
       move: MOVE_GROWTH
+      move: MOVE_RECYCLE
     }
     level {
       level: 37
@@ -163420,6 +163500,7 @@ species {
       move: MOVE_BRAVE_BIRD
       move: MOVE_HURRICANE
       move: MOVE_INSTRUCT
+      move: MOVE_PARTING_SHOT
     }
     level {
       level: 51
@@ -168178,6 +168259,7 @@ species {
       move: MOVE_ROAR
       move: MOVE_SPLASH
       move: MOVE_STEAMROLLER
+      move: MOVE_ENTRAINMENT
     }
     level {
       level: 17
@@ -168278,6 +168360,7 @@ species {
       move: MOVE_ROAR
       move: MOVE_SPLASH
       move: MOVE_STEAMROLLER
+      move: MOVE_ENTRAINMENT
     }
     level {
       level: 17
@@ -177058,6 +177141,10 @@ species {
       level: 51
       move: MOVE_FISHIOUS_REND
     }
+    level {
+      level: 56
+      move: MOVE_SKULL_BASH
+    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AQUA_RING
@@ -179337,6 +179424,7 @@ species {
       move: MOVE_BOUNCE
       move: MOVE_SIGNAL_BEAM
       move: MOVE_WATER_GUN
+      move: MOVE_DISARMING_VOICE
     }
     level {
       level: 24
