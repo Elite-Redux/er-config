@@ -1,0 +1,166 @@
+syntax = "proto3";
+
+package er;
+
+import "MoveEnum.proto";
+import "MoveEffect.proto";
+import "Types.proto";
+import "BattleMoveEffect.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+message MoveList {
+  repeated Move moves = 1;
+}
+
+enum MoveTarget {
+  MOVE_TARGET_SELECTED = 0x0;
+  MOVE_TARGET_DEPENDS = 0x1;
+  MOVE_TARGET_USER_OR_SELECTED = 0x2;
+  MOVE_TARGET_RANDOM = 0x4;
+  MOVE_TARGET_BOTH = 0x8;
+  MOVE_TARGET_USER = 0x10;
+  MOVE_TARGET_FOES_AND_ALLY = 0x20;
+  MOVE_TARGET_OPPONENTS_FIELD = 0x40;
+  MOVE_TARGET_ALLY = 0x80;
+  MOVE_TARGET_USER_OR_ALLY = 0x90;
+  MOVE_TARGET_ALL_BATTLERS = 0x110;
+}
+
+enum MoveSplit {
+  SPLIT_PHYSICAL = 0;
+  SPLIT_SPECIAL = 1;
+  SPLIT_STATUS = 2;
+}
+
+message MoveEffectArgument {
+  BattleMoveEffect effect = 1;
+  bool affects_user = 2;
+  bool certain = 3;
+}
+
+enum Status {
+  STATUS1_NONE = 0;
+  STATUS1_SLEEP = 1;
+  STATUS1_POISON = 2;
+  STATUS1_BURN = 3;
+  STATUS1_FREEZE = 4;
+  STATUS1_PARALYSIS = 5;
+  STATUS1_TOXIC_POISON = 6;
+  STATUS1_POISON_ANY = 7;
+  STATUS1_FROSTBITE = 8;
+  STATUS1_BLEED = 9;
+  STATUS1_ANY = 10;
+}
+
+enum MiscMoveEffect {
+  MISC_EFFECT_NONE = 0;
+  MISC_EFFECT_SUPEREFFECTIVE_BOOST = 1;
+  MISC_EFFECT_FAINTED_MON_BOOST = 2;
+  MISC_EFFECT_ELECTRIC_TERRAIN_BOOST = 3;
+  MISC_EFFECT_TOOK_DAMAGE_BOOST = 4;
+  MISC_EFFECT_INCREASED_CRIT_DAMAGE = 5;
+  MISC_EFFECT_IVY_CUDGEL = 6;
+  MISC_EFFECT_DOUBLE_DAMAGE = 7;
+  MISC_EFFECT_DOUBLE_DAMAGE_VS_BLEEDING = 8;
+  MISC_EFFECT_50_PERCENT_PLUS_DAMAGE_VS_BLEEDING = 9;
+  MISC_EFFECT_TRANSMUTE = 10;
+  MISC_EFFECT_DOUBLE_DAMAGE_IN_FOG = 11;
+}
+
+message Argument {
+  oneof argument {
+    Type type = 1;
+    MoveEffectArgument effect = 2;
+    int32 int = 3;
+    string other = 4;
+    Status status = 5;
+  }
+}
+
+enum Crit {
+  CRIT_NORMAL = 0;
+  HIGH = 1;
+  ALWAYS = 2;
+}
+
+enum HitsAir {
+  DOESNT_HIT_AIR = 0;
+  HITS = 1;
+  DOUBLE_DAMAGE = 2;
+}
+
+enum SplitFlag {
+  USE_BASE_SPLIT = 0;
+  USE_HIGHEST_OFFENSE = 1;
+  USE_LOWEST_DEFENSE = 2;
+  HITS_SPDEF = 3;
+  HITS_DEF = 4;
+  USE_HIGHEST_DAMAGE = 5;
+}
+
+message Move {
+  MoveEnum id = 1;
+  string name = 2;
+  string short_name = 3;
+  string description = 4;
+  string short_description = 5;
+  MoveEffect effect = 6;
+  MoveSplit split = 7;
+  SplitFlag split_modifier = 8;
+  Type type = 9;
+  optional Type type2 = 10;
+  optional MoveTarget target = 11;
+  int32 hit_count = 12;
+  int32 power = 13;
+  int32 accuracy = 14;
+  int32 pp = 15;
+  int32 effect_chance = 16;
+  int32 priority = 17;
+  Argument argument = 18;
+  bool contact = 19;
+  bool ignores_protect = 20;
+  bool magic_coat_affected = 21;
+  bool snatch_affected = 22;
+  bool mirror_move_affected = 23;
+  bool no_kings_rock = 24;
+  Crit crit = 25;
+  bool reckless = 26;
+  bool iron_fist = 27;
+  bool no_sheer_force = 28;
+  bool strong_jaw = 29;
+  bool mega_launcher = 30;
+  bool ignores_stat_stages = 31;
+  bool striker = 32;
+  bool hits_underground = 33;
+  bool hits_underwater = 34;
+  bool sound = 35;
+  bool ballistic = 36;
+  bool is_protection = 37;
+  bool powder_affected = 38;
+  bool ignores_ability = 39;
+  bool dance = 40;
+  HitsAir hits_air = 41;
+  bool ignores_levitation = 42;
+  bool thaw_user = 43;
+  bool ignores_substitute = 44;
+  bool keen_edge = 45;
+  bool bone = 46;
+  bool weather = 47;
+  bool field = 48;
+  bool no_parental_bond = 49;
+  bool two_turn = 50;
+  bool arrow = 51;
+  bool horn = 52;
+  bool air = 53;
+  bool hammer = 54;
+  bool throwing = 55;
+  bool double_damage_vs_mega = 56;
+  bool every_other_turn = 57;
+  bool lunar = 58;
+  bool metronome_banned = 59;
+  bool copycat_banned = 60;
+  bool sleep_talk_banned = 61;
+  bool mimic_banned = 62;
+}
