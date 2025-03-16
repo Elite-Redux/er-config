@@ -8,5 +8,21 @@ help_category {
     title: "Demonstration Category"
     page: "This is a test with a very long string that definitely needs to wrap wow it's long."
         "\nThis forces a linebreak."
+    page: "This is the second page."
+    page: "This is the third page.\n\nWow!"
+  }
+  help_article {
+    title: "Article 2"
+    page: "This is a test with a very long string that definitely needs to wrap wow it's long."
+        "\nThis forces a linebreak."
+  }
+}
+help_category {
+  title: "Some Other Info",
+  color: RED,
+  help_article {
+    title: "Demonstration Category"
+    page: "This is a test with a very long string that definitely needs to wrap wow it's long."
+        "\nThis forces a linebreak."
   }
 }
