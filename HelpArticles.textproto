@@ -1,0 +1,12 @@
+# proto-file: HelpArticles.proto
+# proto-message: er.HelpArticles
+
+help_category {
+  title: "Basic Information",
+  color: RED,
+  help_article {
+    title: "Demonstration Category"
+    page: "This is a test with a very long string that definitely needs to wrap wow it's long."
+        "\nThis forces a linebreak."
+  }
+}
