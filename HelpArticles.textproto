@@ -5,16 +5,16 @@ help_category {
   title: "Basic Information",
   color: RED,
   help_article {
-    title: "Demonstration Category"
-    page: "This is a test with a very long string that definitely needs to wrap wow it's long."
-        "\nThis forces a linebreak."
-    page: "This is the second page."
-    page: "This is the third page.\n\nWow!"
+    title: "Talk to Nurse Joy"
+    page: "Talk to Nurse Joy in any Pokémon Center to receive a DexNav+, Infinite Repel, Battle Items, all Pokéballs, all Berries, all Type Gems, etc."
+    page: "Each time you speak to her, all items get refilled."
+    page: "Mega Stones are the only items not given by Nurse Joy."
   }
   help_article {
-    title: "Article 2"
-    page: "This is a test with a very long string that definitely needs to wrap wow it's long."
-        "\nThis forces a linebreak."
+    title: "Online Pokedex"
+    page: "A full Pokedex is available online at dex.elite-redux.com"
+        "\n\nThe Online Dex shows all information about Pokémon, Abilities, Moves, Locations and Trainers."
+        "\n\nYou can also build teams there, for theorycrafting."
   }
 }
 help_category {
