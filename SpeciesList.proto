@@ -213,14 +213,14 @@ enum EggGroup {
 }
 
 enum BodyColor {
-  RED = 0;
-  BLUE = 1;
-  YELLOW = 2;
-  GREEN = 3;
-  BLACK = 4;
-  BROWN = 5;
-  PURPLE = 6;
-  GRAY = 7;
-  WHITE = 8;
-  PINK = 9;
+  BODY_RED = 0;
+  BODY_BLUE = 1;
+  BODY_YELLOW = 2;
+  BODY_GREEN = 3;
+  BODY_BLACK = 4;
+  BODY_BROWN = 5;
+  BODY_PURPLE = 6;
+  BODY_GRAY = 7;
+  BODY_WHITE = 8;
+  BODY_PINK = 9;
 }
