@@ -7540,7 +7540,7 @@ moves {
   pp: 5
   effect_chance: 10
   argument {
-    other: "MISC_EFFECT_DOUBLE_DAMAGE_IN_FOG"
+    misc: MISC_EFFECT_DOUBLE_DAMAGE_IN_FOG
   }
   mirror_move_affected: true
   weather: true
@@ -14045,7 +14045,7 @@ moves {
   accuracy: 100
   pp: 5
   argument {
-    other: "MISC_EFFECT_TOOK_DAMAGE_BOOST"
+    misc: MISC_EFFECT_TOOK_DAMAGE_BOOST
   }
   contact: true
   mirror_move_affected: true
@@ -14253,7 +14253,7 @@ moves {
   accuracy: 100
   pp: 5
   argument {
-    other: "MISC_EFFECT_FAINTED_MON_BOOST"
+    misc: MISC_EFFECT_FAINTED_MON_BOOST
   }
   mirror_move_affected: true
 }
@@ -14436,7 +14436,7 @@ moves {
   accuracy: 100
   pp: 15
   argument {
-    other: "MISC_EFFECT_ELECTRIC_TERRAIN_BOOST"
+    misc: MISC_EFFECT_ELECTRIC_TERRAIN_BOOST
   }
   contact: true
   crit: HIGH
@@ -14472,7 +14472,7 @@ moves {
   accuracy: 100
   pp: 5
   argument {
-    other: "MISC_EFFECT_SUPEREFFECTIVE_BOOST"
+    misc: MISC_EFFECT_SUPEREFFECTIVE_BOOST
   }
   contact: true
   mirror_move_affected: true
@@ -14491,7 +14491,7 @@ moves {
   accuracy: 100
   pp: 5
   argument {
-    other: "MISC_EFFECT_SUPEREFFECTIVE_BOOST"
+    misc: MISC_EFFECT_SUPEREFFECTIVE_BOOST
   }
   mirror_move_affected: true
 }
@@ -14721,7 +14721,7 @@ moves {
   accuracy: 100
   pp: 10
   argument {
-    other: "MISC_EFFECT_IVY_CUDGEL"
+    misc: MISC_EFFECT_IVY_CUDGEL
   }
   crit: HIGH
   mirror_move_affected: true
@@ -14760,7 +14760,7 @@ moves {
   pp: 5
   effect_chance: 30
   argument {
-    other: "MISC_EFFECT_DOUBLE_DAMAGE"
+    misc: MISC_EFFECT_DOUBLE_DAMAGE
   }
   mirror_move_affected: true
   no_sheer_force: true
@@ -15768,7 +15768,7 @@ moves {
   pp: 15
   effect_chance: 30
   argument {
-    other: "MISC_EFFECT_50_PERCENT_PLUS_DAMAGE_VS_BLEEDING"
+    misc: MISC_EFFECT_50_PERCENT_PLUS_DAMAGE_VS_BLEEDING
   }
   contact: true
   mirror_move_affected: true
@@ -15951,7 +15951,7 @@ moves {
   accuracy: 100
   pp: 5
   argument {
-    other: "MISC_EFFECT_TRANSMUTE"
+    misc: MISC_EFFECT_TRANSMUTE
   }
   mirror_move_affected: true
 }
