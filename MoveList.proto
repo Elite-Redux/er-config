@@ -42,15 +42,15 @@ message MoveEffectArgument {
 
 enum Status {
   STATUS1_NONE = 0;
-  SLEEP = 1;
-  POISON = 2;
-  BURN = 3;
-  FREEZE = 4;
-  PARALYSIS = 5;
-  TOXIC_POISON = 6;
-  POISON_ANY = 7;
-  FROSTBITE = 8;
-  BLEED = 9;
+  STATUS1_SLEEP = 1;
+  STATUS1_POISON = 2;
+  STATUS1_BURN = 3;
+  STATUS1_FREEZE = 4;
+  STATUS1_PARALYSIS = 5;
+  STATUS1_TOXIC_POISON = 6;
+  STATUS1_POISON_ANY = 7;
+  STATUS1_FROSTBITE = 8;
+  STATUS1_BLEED = 9;
   STATUS1_ANY = 10;
 }
 
@@ -107,10 +107,10 @@ message Move {
   string description = 4;
   string short_description = 5;
   MoveEffect effect = 6;
-  MoveSplit split = 7;
+  optional MoveSplit split = 7;
   SplitFlag split_modifier = 8;
-  Type type = 9;
-  optional Type type2 = 10;
+  optional Type type = 9;
+  Type type2 = 10;
   optional MoveTarget target = 11;
   
   int32 hit_count = 12;
