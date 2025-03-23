@@ -76,6 +76,7 @@ message Argument {
     int32 int = 3;
     string other = 4;
     Status status = 5;
+    MiscMoveEffect misc = 6;
   }
 }
 
