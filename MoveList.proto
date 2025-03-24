@@ -11,6 +11,10 @@ import "Common.proto";
 option java_package = "er.proto";
 option java_multiple_files = true;
 
+extend google.protobuf.FieldOptions {
+  optional bool is_flag = 1000001;
+}
+
 message MoveList {
   repeated Move moves = 1;
 }
@@ -126,49 +130,49 @@ message Move {
   bool contact = 19 [(field_name) = "Makes Contact"];
   Crit crit = 20;
 
-  bool ignores_protect = 21 [(field_name) = "Ignores Protect"];
-  bool ignores_stat_stages = 22 [(field_name) = "Ignores Stat Stages"];
-  bool double_damage_vs_mega = 23 [(field_name) = "x2 Damage vs Mega"];
-  bool every_other_turn = 24 [(field_name) = "Every Other Turn"];
-  bool is_protection = 25 [(field_name) = "Protection Move"];
-  bool ignores_ability = 26 [(field_name) = "Ignores Abilities"];
-  bool two_turn = 27 [(field_name) = "Two-Turn"];
+  bool ignores_protect = 21 [(field_name) = "Ignores Protect", (is_flag) = true];
+  bool ignores_stat_stages = 22 [(field_name) = "Ignores Stat Stages", (is_flag) = true];
+  bool double_damage_vs_mega = 23 [(field_name) = "x2 Damage vs Mega", (is_flag) = true];
+  bool every_other_turn = 24 [(field_name) = "Every Other Turn", (is_flag) = true];
+  bool is_protection = 25 [(field_name) = "Protection Move", (is_flag) = true];
+  bool ignores_ability = 26 [(field_name) = "Ignores Abilities", (is_flag) = true];
+  bool two_turn = 27 [(field_name) = "Two-Turn", (is_flag) = true];
 
-  bool snatch_affected = 28 [(field_name) = "Snatch Affected"];
-  bool magic_coat_affected = 29 [(field_name) = "Magic Coat Affected"];
-  bool mirror_move_affected = 30 [(field_name) = "Mirror Move Affected"];
-  bool no_kings_rock = 31 [(field_name) = "Unaffected by Kings Rock"];
-  bool no_sheer_force = 32 [(field_name) = "Unaffected by Sheer Force"];
-  bool hits_underground = 33 [(field_name) = "Hits Underground"];
-  bool hits_underwater = 34 [(field_name) = "Hits Underwater"];
-  bool powder_affected = 35 [(field_name) = "Powder Move"];
-  HitsAir hits_air = 36;
-  bool ignores_levitation = 37 [(field_name) = "Hits Non-Grounded"];
-  bool thaw_user = 38 [(field_name) = "Thaws User"];
-  bool ignores_substitute = 39 [(field_name) = "Ignores Substitute"];
+  bool snatch_affected = 28 [(field_name) = "Snatch Affected", (is_flag) = true];
+  bool magic_coat_affected = 29 [(field_name) = "Magic Coat Affected", (is_flag) = true];
+  bool mirror_move_affected = 30 [(field_name) = "Mirror Move Affected", (is_flag) = true];
+  bool no_kings_rock = 31 [(field_name) = "Unaffected by Kings Rock", (is_flag) = true];
+  bool no_sheer_force = 32 [(field_name) = "Unaffected by Sheer Force", (is_flag) = true];
+  bool hits_underground = 33 [(field_name) = "Hits Underground", (is_flag) = true];
+  bool hits_underwater = 34 [(field_name) = "Hits Underwater", (is_flag) = true];
+  bool powder_affected = 35 [(field_name) = "Powder Move", (is_flag) = true];
+  HitsAir hits_air = 36 [(is_flag) = true];
+  bool ignores_levitation = 37 [(field_name) = "Hits Non-Grounded", (is_flag) = true];
+  bool thaw_user = 38 [(field_name) = "Thaws User", (is_flag) = true];
+  bool ignores_substitute = 39 [(field_name) = "Ignores Substitute", (is_flag) = true];
 
-  bool reckless = 40 [(field_name) = "Causes Recoil"];
-  bool iron_fist = 41 [(field_name) = "Punch Based"];
-  bool strong_jaw = 42 [(field_name) = "Biting Move"];
-  bool mega_launcher = 43 [(field_name) = "Beam/Cannon Move"];
-  bool striker = 44 [(field_name) = "Kick Based"];
-  bool sound = 45 [(field_name) = "Sound Based"];
-  bool ballistic = 46 [(field_name) = "Bullet Move"];
-  bool dance = 47 [(field_name) = "Dance Move"];
-  bool keen_edge = 48 [(field_name) = "Slicing Move"];
-  bool bone = 49 [(field_name) = "Bone Based"];
-  bool weather = 50 [(field_name) = "Weather Based"];
-  bool field = 51 [(field_name) = "Field Based"];
-  bool arrow = 52 [(field_name) = "Arrow Based"];
-  bool horn = 53 [(field_name) = "Horn Based"];
-  bool air = 54 [(field_name) = "Air/Wing Based"];
-  bool hammer = 55 [(field_name) = "Hammer Based"];
-  bool throwing = 56 [(field_name) = "Throw Based"];
-  bool lunar = 57 [(field_name) = "Lunar Move"];
+  bool reckless = 40 [(field_name) = "Causes Recoil", (is_flag) = true];
+  bool iron_fist = 41 [(field_name) = "Punch Based", (is_flag) = true];
+  bool strong_jaw = 42 [(field_name) = "Biting Move", (is_flag) = true];
+  bool mega_launcher = 43 [(field_name) = "Beam/Cannon Move", (is_flag) = true];
+  bool striker = 44 [(field_name) = "Kick Based", (is_flag) = true];
+  bool sound = 45 [(field_name) = "Sound Based", (is_flag) = true];
+  bool ballistic = 46 [(field_name) = "Bullet Move", (is_flag) = true];
+  bool dance = 47 [(field_name) = "Dance Move", (is_flag) = true];
+  bool keen_edge = 48 [(field_name) = "Slicing Move", (is_flag) = true];
+  bool bone = 49 [(field_name) = "Bone Based", (is_flag) = true];
+  bool weather = 50 [(field_name) = "Weather Based", (is_flag) = true];
+  bool field = 51 [(field_name) = "Field Based", (is_flag) = true];
+  bool arrow = 52 [(field_name) = "Arrow Based", (is_flag) = true];
+  bool horn = 53 [(field_name) = "Horn Based", (is_flag) = true];
+  bool air = 54 [(field_name) = "Air/Wing Based", (is_flag) = true];
+  bool hammer = 55 [(field_name) = "Hammer Based", (is_flag) = true];
+  bool throwing = 56 [(field_name) = "Throw Based", (is_flag) = true];
+  bool lunar = 57 [(field_name) = "Lunar Move", (is_flag) = true];
 
-  bool no_parental_bond = 58 [(field_name) = "Can't Multi-Hit"];
-  bool metronome_banned = 59 [(field_name) = "No Metronome"];
-  bool copycat_banned = 60 [(field_name) = "No Copycat"];
-  bool sleep_talk_banned = 61 [(field_name) = "No Sleep Talk"];
-  bool mimic_banned = 62 [(field_name) = "No Mimic"];
+  bool no_parental_bond = 58 [(field_name) = "Can't Multi-Hit", (is_flag) = true];
+  bool metronome_banned = 59 [(field_name) = "No Metronome", (is_flag) = true];
+  bool copycat_banned = 60 [(field_name) = "No Copycat", (is_flag) = true];
+  bool sleep_talk_banned = 61 [(field_name) = "No Sleep Talk", (is_flag) = true];
+  bool mimic_banned = 62 [(field_name) = "No Mimic", (is_flag) = true];
 }
