@@ -49,15 +49,15 @@ flinch_effect: EFFECT_FLINCH_MINIMIZE_HIT
 flinch_effect: EFFECT_FLINCH_STATUS
 flinch_effect: EFFECT_FLINCH_RECOIL_33
 flinch_effect: EFFECT_FLINCH_RECOIL_50
-flinch_effect: EFFECT_COUNTER
 flinch_effect: EFFECT_SNORE
-flinch_effect: EFFECT_MIRROR_COAT
-flinch_effect: EFFECT_FUTURE_SIGHT
-flinch_effect: EFFECT_NATURAL_GIFT
-flinch_effect: EFFECT_METAL_BURST
-flinch_effect: EFFECT_FLING
-flinch_effect: EFFECT_UPPER_HAND
-flinch_effect: EFFECT_PLACEHOLDER
+kings_rock_banned: EFFECT_COUNTER
+kings_rock_banned: EFFECT_MIRROR_COAT
+kings_rock_banned: EFFECT_FUTURE_SIGHT
+kings_rock_banned: EFFECT_NATURAL_GIFT
+kings_rock_banned: EFFECT_METAL_BURST
+kings_rock_banned: EFFECT_FLING
+kings_rock_banned: EFFECT_UPPER_HAND
+kings_rock_banned: EFFECT_PLACEHOLDER
 flinch_move_effect: MOVE_EFFECT_FLINCH
 moves {
   name: "-"
@@ -86,7 +86,7 @@ moves {
 moves {
   id: MOVE_KARATE_CHOP
   name: "Karate Chop"
-  short_name: "KarateChop"
+  short_name: "Karate Chop"
   description: "A chopping attack with a high critical-hit ratio."
   short_description: "A chopping attack with a high critical-hit ratio."
   split: PHYSICAL
@@ -103,7 +103,7 @@ moves {
 moves {
   id: MOVE_DOUBLE_SLAP
   name: "Double Slap"
-  short_name: "DoubleSlap"
+  short_name: "Double Slap"
   description: "Slaps the foe at least twice. May cause confusion."
   short_description: "Slaps the foe at least twice. May cause confusion."
   effect: EFFECT_MULTI_HIT
@@ -126,7 +126,7 @@ moves {
 moves {
   id: MOVE_COMET_PUNCH
   name: "Comet Punch"
-  short_name: "CometPunch"
+  short_name: "Comet Punch"
   description: "Repeatedly punches the foe 2 to 5 times. +1 priority."
   short_description: "Repeatedly punches the foe 2 to 5 times. +1 priority."
   effect: EFFECT_MULTI_HIT
@@ -145,7 +145,7 @@ moves {
 moves {
   id: MOVE_MEGA_PUNCH
   name: "Mega Punch"
-  short_name: "MegaPunch"
+  short_name: "Mega Punch"
   description: "A strong punch thrown with incredible power."
   short_description: "A strong punch thrown with incredible power."
   split: PHYSICAL
@@ -161,7 +161,7 @@ moves {
 moves {
   id: MOVE_PAY_DAY
   name: "Pay Day"
-  short_name: "PayDay"
+  short_name: "Pay Day"
   description: "Throws coins at the foe. Money is recovered after."
   short_description: "Throws coins at the foe. Money is recovered after."
   effect: EFFECT_PAY_DAY
@@ -177,7 +177,7 @@ moves {
 moves {
   id: MOVE_FIRE_PUNCH
   name: "Fire Punch"
-  short_name: "FirePunch"
+  short_name: "Fire Punch"
   description: "A fiery punch that may burn the foe."
   short_description: "A fiery punch that may burn the foe."
   effect: EFFECT_BURN_HIT
@@ -195,7 +195,7 @@ moves {
 moves {
   id: MOVE_ICE_PUNCH
   name: "Ice Punch"
-  short_name: "IcePunch"
+  short_name: "Ice Punch"
   description: "An icy punch that may leave the foe with frostbite."
   short_description: "An icy punch that may leave the foe with frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -246,7 +246,7 @@ moves {
 moves {
   id: MOVE_VISE_GRIP
   name: "Vise Grip"
-  short_name: "ViseGrip"
+  short_name: "Vise Grip"
   description: "Grips the foe with large and powerful pincers."
   short_description: "Grips the foe with large and powerful pincers."
   split: PHYSICAL
@@ -281,7 +281,7 @@ moves {
 moves {
   id: MOVE_RAZOR_WIND
   name: "Razor Wind"
-  short_name: "RazorWind"
+  short_name: "Razor Wind"
   description: "Wind slices through Rock for super effective damage."
   short_description: "Wind slices through Rock for super effective damage."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -302,7 +302,7 @@ moves {
 moves {
   id: MOVE_SWORDS_DANCE
   name: "Swords Dance"
-  short_name: "SwordsDance"
+  short_name: "Swords Dance"
   description: "A fighting dance that sharply raises Attack."
   short_description: "A fighting dance that sharply raises Attack."
   effect: EFFECT_ATTACK_UP_2
@@ -354,7 +354,7 @@ moves {
 moves {
   id: MOVE_WING_ATTACK
   name: "Wing Attack"
-  short_name: "WingAttack"
+  short_name: "Wing Attack"
   description: "Strikes the foe with wings spread wide."
   short_description: "Strikes the foe with wings spread wide."
   split: PHYSICAL
@@ -438,7 +438,7 @@ moves {
 moves {
   id: MOVE_VINE_WHIP
   name: "Vine Whip"
-  short_name: "VineWhip"
+  short_name: "Vine Whip"
   description: "Strikes with slender vines. Has 30% flinch chance."
   short_description: "Strikes with slender vines. Has 30% flinch chance."
   effect: EFFECT_FLINCH_HIT
@@ -477,7 +477,7 @@ moves {
 moves {
   id: MOVE_DOUBLE_KICK
   name: "Double Kick"
-  short_name: "DoubleKick"
+  short_name: "Double Kick"
   description: "A double-kicking attack that strikes the foe twice."
   short_description: "A double-kicking attack that strikes the foe twice."
   effect: EFFECT_DOUBLE_HIT
@@ -495,7 +495,7 @@ moves {
 moves {
   id: MOVE_MEGA_KICK
   name: "Mega Kick"
-  short_name: "MegaKick"
+  short_name: "Mega Kick"
   description: "An extremely powerful kick with intense force."
   short_description: "An extremely powerful kick with intense force."
   split: PHYSICAL
@@ -511,7 +511,7 @@ moves {
 moves {
   id: MOVE_JUMP_KICK
   name: "Jump Kick"
-  short_name: "JumpKick"
+  short_name: "Jump Kick"
   description: "A strong jumping kick. May miss and hurt the kicker."
   short_description: "A strong jumping kick. May miss and hurt the kicker."
   effect: EFFECT_RECOIL_IF_MISS
@@ -529,7 +529,7 @@ moves {
 moves {
   id: MOVE_ROLLING_KICK
   name: "Rolling Kick"
-  short_name: "RollingKick"
+  short_name: "Rolling Kick"
   description: "A fast kick delivered from a rapid spin."
   short_description: "A fast kick delivered from a rapid spin."
   split: PHYSICAL
@@ -546,7 +546,7 @@ moves {
 moves {
   id: MOVE_SAND_ATTACK
   name: "Sand Attack"
-  short_name: "SandAttack"
+  short_name: "Sand Attack"
   description: "Reduces the foe\'s accuracy by hurling sand in its face."
   short_description: "Reduces the foe\'s accuracy by hurling sand in its face."
   effect: EFFECT_ACCURACY_DOWN
@@ -579,7 +579,7 @@ moves {
 moves {
   id: MOVE_HORN_ATTACK
   name: "Horn Attack"
-  short_name: "HornAttack"
+  short_name: "Horn Attack"
   description: "Jabs the foe with sharp horns. High crit chance."
   short_description: "Jabs the foe with sharp horns. High crit chance."
   effect: EFFECT_BLEED_HIT
@@ -598,7 +598,7 @@ moves {
 moves {
   id: MOVE_FURY_ATTACK
   name: "Fury Attack"
-  short_name: "FuryAttack"
+  short_name: "Fury Attack"
   description: "Jabs the foe 2 to 5 times with sharp horns, etc."
   short_description: "Jabs the foe 2 to 5 times with sharp horns, etc."
   effect: EFFECT_MULTI_HIT
@@ -617,7 +617,7 @@ moves {
 moves {
   id: MOVE_HORN_DRILL
   name: "Horn Drill"
-  short_name: "HornDrill"
+  short_name: "Horn Drill"
   description: "Ignores abilities and stat changes. High crit."
   short_description: "Ignores abilities and stat changes. High crit."
   effect: EFFECT_BLEED_HIT
@@ -653,7 +653,7 @@ moves {
 moves {
   id: MOVE_BODY_SLAM
   name: "Body Slam"
-  short_name: "BodySlam"
+  short_name: "Body Slam"
   description: "A full-body slam that may cause paralysis."
   short_description: "A full-body slam that may cause paralysis."
   effect: EFFECT_PARALYZE_HIT
@@ -687,7 +687,7 @@ moves {
 moves {
   id: MOVE_TAKE_DOWN
   name: "Take Down"
-  short_name: "TakeDown"
+  short_name: "Take Down"
   description: "Slams into the foe, knocking them back and lowering speed."
   short_description: "Slams into the foe, knocking them back and lowering speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -738,7 +738,7 @@ moves {
 moves {
   id: MOVE_TAIL_WHIP
   name: "Tail Whip"
-  short_name: "TailWhip"
+  short_name: "Tail Whip"
   description: "Wags the tail to lower the foe\'s Defense."
   short_description: "Wags the tail to lower the foe\'s Defense."
   effect: EFFECT_DEFENSE_DOWN
@@ -753,7 +753,7 @@ moves {
 moves {
   id: MOVE_POISON_STING
   name: "Poison Sting"
-  short_name: "PoisonSting"
+  short_name: "Poison Sting"
   description: "Has 10% poison chance and +1 priority."
   short_description: "Has 10% poison chance and +1 priority."
   effect: EFFECT_POISON_HIT
@@ -790,7 +790,7 @@ moves {
 moves {
   id: MOVE_PIN_MISSILE
   name: "Pin Missile"
-  short_name: "PinMissile"
+  short_name: "Pin Missile"
   description: "Sharp pins are fired to strike 2 to 5 times."
   short_description: "Sharp pins are fired to strike 2 to 5 times."
   effect: EFFECT_MULTI_HIT
@@ -905,7 +905,7 @@ moves {
 moves {
   id: MOVE_SONIC_BOOM
   name: "Sonic Boom"
-  short_name: "SonicBoom"
+  short_name: "Sonic Boom"
   description: "Launches shock waves that are super effective vs rock."
   short_description: "Launches shock waves that are super effective vs rock."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -1000,7 +1000,7 @@ moves {
 moves {
   id: MOVE_WATER_GUN
   name: "Water Gun"
-  short_name: "WaterGun"
+  short_name: "Water Gun"
   description: "Squirts water to attack the foe."
   short_description: "Squirts water to attack the foe."
   split: SPECIAL
@@ -1017,7 +1017,7 @@ moves {
 moves {
   id: MOVE_HYDRO_PUMP
   name: "Hydro Pump"
-  short_name: "HydroPump"
+  short_name: "Hydro Pump"
   description: "Blasts water at high power to strike the foe."
   short_description: "Blasts water at high power to strike the foe."
   split: SPECIAL
@@ -1048,7 +1048,7 @@ moves {
 moves {
   id: MOVE_ICE_BEAM
   name: "Ice Beam"
-  short_name: "IceBeam"
+  short_name: "Ice Beam"
   description: "Blasts the foe with an icy beam. May cause frostbite."
   short_description: "Blasts the foe with an icy beam. May cause frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -1100,7 +1100,7 @@ moves {
 moves {
   id: MOVE_BUBBLE_BEAM
   name: "Bubble Beam"
-  short_name: "BubbleBeam"
+  short_name: "Bubble Beam"
   description: "Forcefully sprays bubbles that hit repeatedly."
   short_description: "Forcefully sprays bubbles that hit repeatedly."
   effect: EFFECT_MULTI_HIT
@@ -1116,7 +1116,7 @@ moves {
 moves {
   id: MOVE_AURORA_BEAM
   name: "Aurora Beam"
-  short_name: "AuroraBeam"
+  short_name: "Aurora Beam"
   description: "A rainbow-colored beam which lowers the foe\'s Attack 100%."
   short_description: "A rainbow-colored beam which lowers the foe\'s Attack 100%."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -1133,7 +1133,7 @@ moves {
 moves {
   id: MOVE_HYPER_BEAM
   name: "Hyper Beam"
-  short_name: "HyperBeam"
+  short_name: "Hyper Beam"
   description: "Powerful, but leaves the user immobile the next turn."
   short_description: "Powerful, but leaves the user immobile the next turn."
   effect: EFFECT_RECHARGE
@@ -1167,7 +1167,7 @@ moves {
 moves {
   id: MOVE_DRILL_PECK
   name: "Drill Peck"
-  short_name: "DrillPeck"
+  short_name: "Drill Peck"
   description: "A corkscrewing attack with a high critical-hit ratio."
   short_description: "A corkscrewing attack with a high critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -1203,7 +1203,7 @@ moves {
 moves {
   id: MOVE_LOW_KICK
   name: "Low Kick"
-  short_name: "LowKick"
+  short_name: "Low Kick"
   description: "A kick that inflicts more damage on heavier foes."
   short_description: "A kick that inflicts more damage on heavier foes."
   effect: EFFECT_LOW_KICK
@@ -1232,14 +1232,13 @@ moves {
   pp: 20
   priority: -5
   contact: true
-  no_kings_rock: true
   metronome_banned: true
   copycat_banned: true
 }
 moves {
   id: MOVE_SEISMIC_TOSS
   name: "Seismic Toss"
-  short_name: "SeismicToss"
+  short_name: "Seismic Toss"
   description: "Carries the foe into the sky then deals damage based on level."
   short_description: "Carries the foe into the sky then deals damage based on level."
   effect: EFFECT_SKY_DROP
@@ -1292,7 +1291,7 @@ moves {
 moves {
   id: MOVE_MEGA_DRAIN
   name: "Mega Drain"
-  short_name: "MegaDrain"
+  short_name: "Mega Drain"
   description: "An attack that absorbs 75% of the damage inflicted."
   short_description: "An attack that absorbs 75% of the damage inflicted."
   effect: EFFECT_ABSORB
@@ -1310,7 +1309,7 @@ moves {
 moves {
   id: MOVE_LEECH_SEED
   name: "Leech Seed"
-  short_name: "LeechSeed"
+  short_name: "Leech Seed"
   description: "Plants a seed on the foe to steal HP on every turn."
   short_description: "Plants a seed on the foe to steal HP on every turn."
   effect: EFFECT_LEECH_SEED
@@ -1338,7 +1337,7 @@ moves {
 moves {
   id: MOVE_RAZOR_LEAF
   name: "Razor Leaf"
-  short_name: "RazorLeaf"
+  short_name: "Razor Leaf"
   description: "Cuts both foes with sharp leaves. Always crits."
   short_description: "Cuts both foes with sharp leaves. Always crits."
   effect: EFFECT_BLEED_HIT
@@ -1356,7 +1355,7 @@ moves {
 moves {
   id: MOVE_SOLAR_BEAM
   name: "Solar Beam"
-  short_name: "SolarBeam"
+  short_name: "Solar Beam"
   description: "Absorbs light in one turn, then attacks next turn."
   short_description: "Absorbs light in one turn, then attacks next turn."
   effect: EFFECT_SOLARBEAM
@@ -1390,7 +1389,7 @@ moves {
 moves {
   id: MOVE_STUN_SPORE
   name: "Stun Spore"
-  short_name: "StunSpore"
+  short_name: "Stun Spore"
   description: "Scatters a powder that may paralyze the foe."
   short_description: "Scatters a powder that may paralyze the foe."
   effect: EFFECT_PARALYZE_IGNORE_TYPE
@@ -1406,7 +1405,7 @@ moves {
 moves {
   id: MOVE_SLEEP_POWDER
   name: "Sleep Powder"
-  short_name: "SleepPowder"
+  short_name: "Sleep Powder"
   description: "Scatters a powder that may cause the foe to sleep."
   short_description: "Scatters a powder that may cause the foe to sleep."
   effect: EFFECT_SLEEP
@@ -1422,7 +1421,7 @@ moves {
 moves {
   id: MOVE_PETAL_DANCE
   name: "Petal Dance"
-  short_name: "PetalDance"
+  short_name: "Petal Dance"
   description: "A rampage of 2 to 3 turns that confuses the user."
   short_description: "A rampage of 2 to 3 turns that confuses the user."
   effect: EFFECT_RAMPAGE
@@ -1440,7 +1439,7 @@ moves {
 moves {
   id: MOVE_STRING_SHOT
   name: "String Shot"
-  short_name: "StringShot"
+  short_name: "String Shot"
   description: "Binds the foes with string to harshly reduce Speed."
   short_description: "Binds the foes with string to harshly reduce Speed."
   effect: EFFECT_SPEED_DOWN_2
@@ -1455,7 +1454,7 @@ moves {
 moves {
   id: MOVE_DRAGON_RAGE
   name: "Dragon Rage"
-  short_name: "DragonRage"
+  short_name: "Dragon Rage"
   description: "Launches shock waves that can damage Fairy mons."
   short_description: "Launches shock waves that can damage Fairy mons."
   effect: EFFECT_IGNORE_TYPE_IMMUNITY
@@ -1470,7 +1469,7 @@ moves {
 moves {
   id: MOVE_FIRE_SPIN
   name: "Fire Spin"
-  short_name: "FireSpin"
+  short_name: "Fire Spin"
   description: "Traps the foe in a ring of fire for 2 to 5 turns."
   short_description: "Traps the foe in a ring of fire for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -1523,7 +1522,7 @@ moves {
 moves {
   id: MOVE_THUNDER_WAVE
   name: "Thunder Wave"
-  short_name: "ThunderWave"
+  short_name: "Thunder Wave"
   description: "A weak jolt of electricity that paralyzes the foe."
   short_description: "A weak jolt of electricity that paralyzes the foe."
   effect: EFFECT_PARALYZE
@@ -1556,7 +1555,7 @@ moves {
 moves {
   id: MOVE_ROCK_THROW
   name: "Rock Throw"
-  short_name: "RockThrow"
+  short_name: "Rock Throw"
   description: "Throws small rocks to strike the foe."
   short_description: "Throws small rocks to strike the foe."
   split: PHYSICAL
@@ -1709,7 +1708,7 @@ moves {
 moves {
   id: MOVE_QUICK_ATTACK
   name: "Quick Attack"
-  short_name: "QuickAttack"
+  short_name: "Quick Attack"
   description: "An extremely fast attack that always strikes first."
   short_description: "An extremely fast attack that always strikes first."
   split: PHYSICAL
@@ -1755,7 +1754,7 @@ moves {
 moves {
   id: MOVE_NIGHT_SHADE
   name: "Night Shade"
-  short_name: "NightShade"
+  short_name: "Night Shade"
   description: "Inflicts damage identical to the user\'s level."
   short_description: "Inflicts damage identical to the user\'s level."
   effect: EFFECT_LEVEL_DAMAGE
@@ -1802,7 +1801,7 @@ moves {
 moves {
   id: MOVE_DOUBLE_TEAM
   name: "Double Team"
-  short_name: "DoubleTeam"
+  short_name: "Double Team"
   description: "Creates illusory copies to raise evasiveness."
   short_description: "Creates illusory copies to raise evasiveness."
   effect: EFFECT_EVASION_UP
@@ -1868,7 +1867,7 @@ moves {
 moves {
   id: MOVE_CONFUSE_RAY
   name: "Confuse Ray"
-  short_name: "ConfuseRay"
+  short_name: "Confuse Ray"
   description: "A sinister ray that confuses the foe."
   short_description: "A sinister ray that confuses the foe."
   effect: EFFECT_CONFUSE
@@ -1897,7 +1896,7 @@ moves {
 moves {
   id: MOVE_DEFENSE_CURL
   name: "Defense Curl"
-  short_name: "DefenseCurl"
+  short_name: "Defense Curl"
   description: "Curls up to conceal weak spots and raise Defense."
   short_description: "Curls up to conceal weak spots and raise Defense."
   effect: EFFECT_DEFENSE_CURL
@@ -1923,7 +1922,7 @@ moves {
 moves {
   id: MOVE_LIGHT_SCREEN
   name: "Light Screen"
-  short_name: "LightScreen"
+  short_name: "Light Screen"
   description: "Creates a wall of light that lowers Sp. Atk damage."
   short_description: "Creates a wall of light that lowers Sp. Atk damage."
   effect: EFFECT_LIGHT_SCREEN
@@ -1961,7 +1960,7 @@ moves {
 moves {
   id: MOVE_FOCUS_ENERGY
   name: "Focus Energy"
-  short_name: "FocusEnergy"
+  short_name: "Focus Energy"
   description: "Focuses power to raise the critical-hit ratio."
   short_description: "Focuses power to raise the critical-hit ratio."
   effect: EFFECT_FOCUS_ENERGY
@@ -2006,7 +2005,7 @@ moves {
 moves {
   id: MOVE_MIRROR_MOVE
   name: "Mirror Move"
-  short_name: "MirrorMove"
+  short_name: "Mirror Move"
   description: "Counters the foe\'s attack with the same move."
   short_description: "Counters the foe\'s attack with the same move."
   effect: EFFECT_MIRROR_MOVE
@@ -2038,7 +2037,7 @@ moves {
 moves {
   id: MOVE_EGG_BOMB
   name: "Egg Bomb"
-  short_name: "EggBomb"
+  short_name: "Egg Bomb"
   description: "An egg is forcibly hurled at the foe."
   short_description: "An egg is forcibly hurled at the foe."
   effect: EFFECT_GRAV_APPLE
@@ -2110,7 +2109,7 @@ moves {
 moves {
   id: MOVE_BONE_CLUB
   name: "Bone Club"
-  short_name: "BoneClub"
+  short_name: "Bone Club"
   description: "Clubs the foe with a bone. May cause flinching."
   short_description: "Clubs the foe with a bone. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -2127,7 +2126,7 @@ moves {
 moves {
   id: MOVE_FIRE_BLAST
   name: "Fire Blast"
-  short_name: "FireBlast"
+  short_name: "Fire Blast"
   description: "Incinerates everything it strikes. May cause a burn."
   short_description: "Incinerates everything it strikes. May cause a burn."
   effect: EFFECT_BURN_HIT
@@ -2193,7 +2192,7 @@ moves {
 moves {
   id: MOVE_SKULL_BASH
   name: "Skull Bash"
-  short_name: "SkullBash"
+  short_name: "Skull Bash"
   description: "Tucks in the head, then attacks on the next turn."
   short_description: "Tucks in the head, then attacks on the next turn."
   effect: EFFECT_TWO_TURN_SECONDARY
@@ -2216,7 +2215,7 @@ moves {
 moves {
   id: MOVE_SPIKE_CANNON
   name: "Spike Cannon"
-  short_name: "SpikeCannon"
+  short_name: "Spike Cannon"
   description: "Launches sharp spikes that strike 2 to 5 times."
   short_description: "Launches sharp spikes that strike 2 to 5 times."
   effect: EFFECT_MULTI_HIT
@@ -2328,7 +2327,7 @@ moves {
 moves {
   id: MOVE_DREAM_EATER
   name: "Dream Eater"
-  short_name: "DreamEater"
+  short_name: "Dream Eater"
   description: "Takes one half the damage inflicted on a sleeping foe."
   short_description: "Takes one half the damage inflicted on a sleeping foe."
   effect: EFFECT_DREAM_EATER
@@ -2343,7 +2342,7 @@ moves {
 moves {
   id: MOVE_POISON_GAS
   name: "Poison Gas"
-  short_name: "PoisonGas"
+  short_name: "Poison Gas"
   description: "Super effective vs Flying. gas that may poison."
   short_description: "Super effective vs Flying. gas that may poison."
   effect: EFFECT_POISON_GAS
@@ -2377,7 +2376,7 @@ moves {
 moves {
   id: MOVE_LEECH_LIFE
   name: "Leech Life"
-  short_name: "LeechLife"
+  short_name: "Leech Life"
   description: "An attack that steals half the damage inflicted."
   short_description: "An attack that steals half the damage inflicted."
   effect: EFFECT_ABSORB
@@ -2394,7 +2393,7 @@ moves {
 moves {
   id: MOVE_LOVELY_KISS
   name: "Lovely Kiss"
-  short_name: "LovelyKiss"
+  short_name: "Lovely Kiss"
   description: "Demands a kiss with a scary face that induces sleep."
   short_description: "Demands a kiss with a scary face that induces sleep."
   effect: EFFECT_SLEEP
@@ -2409,7 +2408,7 @@ moves {
 moves {
   id: MOVE_SKY_ATTACK
   name: "Sky Attack"
-  short_name: "SkyAttack"
+  short_name: "Sky Attack"
   description: "Searches out weak spots, then strikes the next turn."
   short_description: "Searches out weak spots, then strikes the next turn."
   effect: EFFECT_TWO_TURN_SECONDARY
@@ -2464,7 +2463,7 @@ moves {
 moves {
   id: MOVE_DIZZY_PUNCH
   name: "Dizzy Punch"
-  short_name: "DizzyPunch"
+  short_name: "Dizzy Punch"
   description: "A rhythmic punch that may confuse the foe."
   short_description: "A rhythmic punch that may confuse the foe."
   effect: EFFECT_CONFUSE_HIT
@@ -2547,7 +2546,7 @@ moves {
 moves {
   id: MOVE_ACID_ARMOR
   name: "Acid Armor"
-  short_name: "AcidArmor"
+  short_name: "Acid Armor"
   description: "Liquifies the user\'s body to sharply raise Defense."
   short_description: "Liquifies the user\'s body to sharply raise Defense."
   effect: EFFECT_DEFENSE_UP_2
@@ -2595,7 +2594,7 @@ moves {
 moves {
   id: MOVE_FURY_SWIPES
   name: "Fury Swipes"
-  short_name: "FurySwipes"
+  short_name: "Fury Swipes"
   description: "Rakes the foe with sharp claws, etc., 2 to 5 times."
   short_description: "Rakes the foe with sharp claws, etc., 2 to 5 times."
   effect: EFFECT_MULTI_HIT
@@ -2645,7 +2644,7 @@ moves {
 moves {
   id: MOVE_ROCK_SLIDE
   name: "Rock Slide"
-  short_name: "RockSlide"
+  short_name: "Rock Slide"
   description: "Large boulders are hurled. May cause flinching."
   short_description: "Large boulders are hurled. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -2662,7 +2661,7 @@ moves {
 moves {
   id: MOVE_HYPER_FANG
   name: "Hyper Fang"
-  short_name: "HyperFang"
+  short_name: "Hyper Fang"
   description: "Attacks with sharp fangs. May cause flinching."
   short_description: "Attacks with sharp fangs. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -2706,7 +2705,7 @@ moves {
 moves {
   id: MOVE_TRI_ATTACK
   name: "Tri Attack"
-  short_name: "TriAttack"
+  short_name: "Tri Attack"
   description: "Fires three types of beams at the same time."
   short_description: "Fires three types of beams at the same time."
   effect: EFFECT_TRI_ATTACK
@@ -2723,7 +2722,7 @@ moves {
 moves {
   id: MOVE_SUPER_FANG
   name: "Super Fang"
-  short_name: "SuperFang"
+  short_name: "Super Fang"
   description: "Attacks with sharp fangs and cuts half the foe\'s HP."
   short_description: "Attacks with sharp fangs and cuts half the foe\'s HP."
   effect: EFFECT_SUPER_FANG
@@ -2807,7 +2806,7 @@ moves {
 moves {
   id: MOVE_TRIPLE_KICK
   name: "Triple Kick"
-  short_name: "TripleKick"
+  short_name: "Triple Kick"
   description: "Kicks the foe 3 times in a row with rising intensity."
   short_description: "Kicks the foe 3 times in a row with rising intensity."
   effect: EFFECT_TRIPLE_KICK
@@ -2842,7 +2841,7 @@ moves {
 moves {
   id: MOVE_SPIDER_WEB
   name: "Spider Web"
-  short_name: "SpiderWeb"
+  short_name: "Spider Web"
   description: "Ensnares the foe to stop it from fleeing or switching."
   short_description: "Ensnares the foe to stop it from fleeing or switching."
   effect: EFFECT_MEAN_LOOK
@@ -2857,7 +2856,7 @@ moves {
 moves {
   id: MOVE_MIND_READER
   name: "Mind Reader"
-  short_name: "MindReader"
+  short_name: "Mind Reader"
   description: "Reads the opponent\'s mind to dodge their attack."
   short_description: "Reads the opponent\'s mind to dodge their attack."
   effect: EFFECT_PROTECT
@@ -2887,7 +2886,7 @@ moves {
 moves {
   id: MOVE_FLAME_WHEEL
   name: "Flame Wheel"
-  short_name: "FlameWheel"
+  short_name: "Flame Wheel"
   description: "Rolls into a wheel to strike with rising intensity."
   short_description: "Rolls into a wheel to strike with rising intensity."
   effect: EFFECT_ROLLOUT
@@ -2950,7 +2949,7 @@ moves {
 moves {
   id: MOVE_CONVERSION_2
   name: "Conversion 2"
-  short_name: "Conversion2"
+  short_name: "Conversion 2"
   description: "Boosts SpAtk and Speed and changes type."
   short_description: "Boosts SpAtk and Speed and changes type."
   effect: EFFECT_CONVERSION_2
@@ -2978,7 +2977,7 @@ moves {
 moves {
   id: MOVE_COTTON_SPORE
   name: "Cotton Spore"
-  short_name: "CottonSpore"
+  short_name: "Cotton Spore"
   description: "Spores cling to the foe, sharply reducing Speed."
   short_description: "Spores cling to the foe, sharply reducing Speed."
   effect: EFFECT_SPEED_DOWN_2
@@ -3025,7 +3024,7 @@ moves {
 moves {
   id: MOVE_POWDER_SNOW
   name: "Powder Snow"
-  short_name: "PowderSnow"
+  short_name: "Powder Snow"
   description: "Blasts the foe with a snowy gust. May cause freezing."
   short_description: "Blasts the foe with a snowy gust. May cause freezing."
   effect: EFFECT_FROSTBITE_HIT
@@ -3056,7 +3055,7 @@ moves {
 moves {
   id: MOVE_MACH_PUNCH
   name: "Mach Punch"
-  short_name: "MachPunch"
+  short_name: "Mach Punch"
   description: "A punch is thrown at wicked speed to strike first."
   short_description: "A punch is thrown at wicked speed to strike first."
   split: PHYSICAL
@@ -3073,7 +3072,7 @@ moves {
 moves {
   id: MOVE_SCARY_FACE
   name: "Scary Face"
-  short_name: "ScaryFace"
+  short_name: "Scary Face"
   description: "Frightens with a scary face to sharply reduce Speed."
   short_description: "Frightens with a scary face to sharply reduce Speed."
   effect: EFFECT_SCARY_FACE
@@ -3088,7 +3087,7 @@ moves {
 moves {
   id: MOVE_FEINT_ATTACK
   name: "Feint Attack"
-  short_name: "FeintAttack"
+  short_name: "Feint Attack"
   description: "Draws the foe close, then strikes without fail."
   short_description: "Draws the foe close, then strikes without fail."
   split: PHYSICAL
@@ -3103,7 +3102,7 @@ moves {
 moves {
   id: MOVE_SWEET_KISS
   name: "Sweet Kiss"
-  short_name: "SweetKiss"
+  short_name: "Sweet Kiss"
   description: "Demands a kiss, causing confusion and infatuation."
   short_description: "Demands a kiss, causing confusion and infatuation."
   effect: EFFECT_SWEET_KISS
@@ -3118,7 +3117,7 @@ moves {
 moves {
   id: MOVE_BELLY_DRUM
   name: "Belly Drum"
-  short_name: "BellyDrum"
+  short_name: "Belly Drum"
   description: "Maximizes Attack while sacrificing HP."
   short_description: "Maximizes Attack while sacrificing HP."
   effect: EFFECT_BELLY_DRUM
@@ -3131,7 +3130,7 @@ moves {
 moves {
   id: MOVE_SLUDGE_BOMB
   name: "Sludge Bomb"
-  short_name: "SludgeBomb"
+  short_name: "Sludge Bomb"
   description: "Sludge is hurled to inflict damage. May also poison."
   short_description: "Sludge is hurled to inflict damage. May also poison."
   effect: EFFECT_POISON_HIT
@@ -3195,7 +3194,7 @@ moves {
 moves {
   id: MOVE_ZAP_CANNON
   name: "Zap Cannon"
-  short_name: "ZapCannon"
+  short_name: "Zap Cannon"
   description: "Powerful and sure to cause paralysis, but inaccurate."
   short_description: "Powerful and sure to cause paralysis, but inaccurate."
   effect: EFFECT_PARALYZE_HIT
@@ -3227,7 +3226,7 @@ moves {
 moves {
   id: MOVE_DESTINY_BOND
   name: "Destiny Bond"
-  short_name: "DestinyBond"
+  short_name: "Destiny Bond"
   description: "If the user faints, the foe is also made to faint."
   short_description: "If the user faints, the foe is also made to faint."
   effect: EFFECT_DESTINY_BOND
@@ -3241,7 +3240,7 @@ moves {
 moves {
   id: MOVE_PERISH_SONG
   name: "Perish Song"
-  short_name: "PerishSong"
+  short_name: "Perish Song"
   description: "Any Pok\303\251mon hearing this song faints in 3 turns."
   short_description: "Any Pok\303\251mon hearing this song faints in 3 turns."
   effect: EFFECT_PERISH_SONG
@@ -3254,7 +3253,7 @@ moves {
 moves {
   id: MOVE_ICY_WIND
   name: "Icy Wind"
-  short_name: "IcyWind"
+  short_name: "Icy Wind"
   description: "A chilling attack that lowers the foe\'s Speed."
   short_description: "A chilling attack that lowers the foe\'s Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -3285,7 +3284,7 @@ moves {
 moves {
   id: MOVE_BONE_RUSH
   name: "Bone Rush"
-  short_name: "BoneRush"
+  short_name: "Bone Rush"
   description: "Strikes with a bone 2 to 5 times. Always goes first."
   short_description: "Strikes with a bone 2 to 5 times. Always goes first."
   effect: EFFECT_MULTI_HIT
@@ -3346,7 +3345,7 @@ moves {
 moves {
   id: MOVE_GIGA_DRAIN
   name: "Giga Drain"
-  short_name: "GigaDrain"
+  short_name: "Giga Drain"
   description: "An attack that steals half the damage inflicted."
   short_description: "An attack that steals half the damage inflicted."
   effect: EFFECT_ABSORB
@@ -3408,7 +3407,7 @@ moves {
 moves {
   id: MOVE_FALSE_SWIPE
   name: "False Swipe"
-  short_name: "FalseSwipe"
+  short_name: "False Swipe"
   description: "An attack that leaves the foe with at least 1 HP."
   short_description: "An attack that leaves the foe with at least 1 HP."
   effect: EFFECT_FALSE_SWIPE
@@ -3447,7 +3446,7 @@ moves {
 moves {
   id: MOVE_MILK_DRINK
   name: "Milk Drink"
-  short_name: "MilkDrink"
+  short_name: "Milk Drink"
   description: "Recovers up to half the user\'s maximum HP."
   short_description: "Recovers up to half the user\'s maximum HP."
   effect: EFFECT_SOFTBOILED
@@ -3478,7 +3477,7 @@ moves {
 moves {
   id: MOVE_FURY_CUTTER
   name: "Fury Cutter"
-  short_name: "FuryCutter"
+  short_name: "Fury Cutter"
   description: "Slices the foe 3 times in a row with rising intensity."
   short_description: "Slices the foe 3 times in a row with rising intensity."
   effect: EFFECT_TRIPLE_KICK
@@ -3496,7 +3495,7 @@ moves {
 moves {
   id: MOVE_STEEL_WING
   name: "Steel Wing"
-  short_name: "SteelWing"
+  short_name: "Steel Wing"
   description: "Strikes the foe with hard wings spread wide."
   short_description: "Strikes the foe with hard wings spread wide."
   effect: EFFECT_DEFENSE_UP_HIT
@@ -3514,7 +3513,7 @@ moves {
 moves {
   id: MOVE_MEAN_LOOK
   name: "Mean Look"
-  short_name: "MeanLook"
+  short_name: "Mean Look"
   description: "Fixes the foe with a mean look that prevents escape."
   short_description: "Fixes the foe with a mean look that prevents escape."
   effect: EFFECT_MEAN_LOOK
@@ -3544,7 +3543,7 @@ moves {
 moves {
   id: MOVE_SLEEP_TALK
   name: "Sleep Talk"
-  short_name: "SleepTalk"
+  short_name: "Sleep Talk"
   description: "Uses an available move randomly while asleep."
   short_description: "Uses an available move randomly while asleep."
   effect: EFFECT_SLEEP_TALK
@@ -3560,7 +3559,7 @@ moves {
 moves {
   id: MOVE_HEAL_BELL
   name: "Heal Bell"
-  short_name: "HealBell"
+  short_name: "Heal Bell"
   description: "Chimes soothingly to heal all status abnormalities."
   short_description: "Chimes soothingly to heal all status abnormalities."
   effect: EFFECT_HEAL_BELL
@@ -3633,7 +3632,7 @@ moves {
 moves {
   id: MOVE_PAIN_SPLIT
   name: "Pain Split"
-  short_name: "PainSplit"
+  short_name: "Pain Split"
   description: "Adds the user and foe\'s HP, then shares them equally."
   short_description: "Adds the user and foe\'s HP, then shares them equally."
   effect: EFFECT_PAIN_SPLIT
@@ -3646,7 +3645,7 @@ moves {
 moves {
   id: MOVE_SACRED_FIRE
   name: "Sacred Fire"
-  short_name: "SacredFire"
+  short_name: "Sacred Fire"
   description: "A mystical fire attack that may inflict a burn."
   short_description: "A mystical fire attack that may inflict a burn."
   effect: EFFECT_BURN_HIT
@@ -3732,7 +3731,7 @@ moves {
 moves {
   id: MOVE_BATON_PASS
   name: "Baton Pass"
-  short_name: "BatonPass"
+  short_name: "Baton Pass"
   description: "Switches out the user while keeping effects in play."
   short_description: "Switches out the user while keeping effects in play."
   effect: EFFECT_BATON_PASS
@@ -3775,7 +3774,7 @@ moves {
 moves {
   id: MOVE_RAPID_SPIN
   name: "Rapid Spin"
-  short_name: "RapidSpin"
+  short_name: "Rapid Spin"
   description: "Clears some hazards. Ups speed by +1."
   short_description: "Clears some hazards. Ups speed by +1."
   effect: EFFECT_RAPID_SPIN
@@ -3791,7 +3790,7 @@ moves {
 moves {
   id: MOVE_SWEET_SCENT
   name: "Sweet Scent"
-  short_name: "SweetScent"
+  short_name: "Sweet Scent"
   description: "Allures the foe to harshly reduce evasiveness."
   short_description: "Allures the foe to harshly reduce evasiveness."
   effect: EFFECT_EVASION_DOWN_2
@@ -3806,7 +3805,7 @@ moves {
 moves {
   id: MOVE_IRON_TAIL
   name: "Iron Tail"
-  short_name: "IronTail"
+  short_name: "Iron Tail"
   description: "Attacks with a rock-hard tail. May lower Defense."
   short_description: "Attacks with a rock-hard tail. May lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -3823,7 +3822,7 @@ moves {
 moves {
   id: MOVE_METAL_CLAW
   name: "Metal Claw"
-  short_name: "MetalClaw"
+  short_name: "Metal Claw"
   description: "A claw attack that may raise the user\'s Attack."
   short_description: "A claw attack that may raise the user\'s Attack."
   effect: EFFECT_ATTACK_UP_HIT
@@ -3841,7 +3840,7 @@ moves {
 moves {
   id: MOVE_VITAL_THROW
   name: "Vital Throw"
-  short_name: "VitalThrow"
+  short_name: "Vital Throw"
   description: "Makes the user\'s move last, but it never misses."
   short_description: "Makes the user\'s move last, but it never misses."
   split: PHYSICAL
@@ -3856,7 +3855,7 @@ moves {
 moves {
   id: MOVE_MORNING_SUN
   name: "Morning Sun"
-  short_name: "MorningSun"
+  short_name: "Morning Sun"
   description: "Restores HP. The amount varies with the weather."
   short_description: "Restores HP. The amount varies with the weather."
   effect: EFFECT_MORNING_SUN
@@ -3896,7 +3895,7 @@ moves {
 moves {
   id: MOVE_HIDDEN_POWER
   name: "Hidden Power"
-  short_name: "HiddenPower"
+  short_name: "Hidden Power"
   description: "The effectiveness varies with the user."
   short_description: "The effectiveness varies with the user."
   effect: EFFECT_HIDDEN_POWER
@@ -3912,7 +3911,7 @@ moves {
 moves {
   id: MOVE_CROSS_CHOP
   name: "Cross Chop"
-  short_name: "CrossChop"
+  short_name: "Cross Chop"
   description: "A double-chopping attack. High critical-hit ratio."
   short_description: "A double-chopping attack. High critical-hit ratio."
   effect: EFFECT_DOUBLE_HIT
@@ -3948,7 +3947,7 @@ moves {
 moves {
   id: MOVE_RAIN_DANCE
   name: "Rain Dance"
-  short_name: "RainDance"
+  short_name: "Rain Dance"
   description: "Boosts the power of Water- type moves for 5 turns."
   short_description: "Boosts the power of Water- type moves for 5 turns."
   effect: EFFECT_RAIN_DANCE
@@ -3961,7 +3960,7 @@ moves {
 moves {
   id: MOVE_SUNNY_DAY
   name: "Sunny Day"
-  short_name: "SunnyDay"
+  short_name: "Sunny Day"
   description: "Boosts the power of Fire- type moves for 5 turns."
   short_description: "Boosts the power of Fire- type moves for 5 turns."
   effect: EFFECT_SUNNY_DAY
@@ -3992,7 +3991,7 @@ moves {
 moves {
   id: MOVE_MIRROR_COAT
   name: "Mirror Coat"
-  short_name: "MirrorCoat"
+  short_name: "Mirror Coat"
   description: "Counters the foe\'s special attack at double the power."
   short_description: "Counters the foe\'s special attack at double the power."
   effect: EFFECT_MIRROR_COAT
@@ -4003,14 +4002,13 @@ moves {
   accuracy: 100
   pp: 20
   priority: -5
-  no_kings_rock: true
   metronome_banned: true
   copycat_banned: true
 }
 moves {
   id: MOVE_PSYCH_UP
   name: "Psych Up"
-  short_name: "PsychUp"
+  short_name: "Psych Up"
   description: "Copies the foe\'s effect(s) and gives to the user."
   short_description: "Copies the foe\'s effect(s) and gives to the user."
   effect: EFFECT_PSYCH_UP
@@ -4055,7 +4053,7 @@ moves {
 moves {
   id: MOVE_SHADOW_BALL
   name: "Shadow Ball"
-  short_name: "ShadowBall"
+  short_name: "Shadow Ball"
   description: "Hurls a black blob that may lower the foe\'s Sp. Def."
   short_description: "Hurls a black blob that may lower the foe\'s Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -4072,7 +4070,7 @@ moves {
 moves {
   id: MOVE_FUTURE_SIGHT
   name: "Future Sight"
-  short_name: "FutureSight"
+  short_name: "Future Sight"
   description: "Heightens inner power to strike 2 turns later."
   short_description: "Heightens inner power to strike 2 turns later."
   effect: EFFECT_FUTURE_SIGHT
@@ -4083,12 +4081,11 @@ moves {
   accuracy: 100
   pp: 10
   ignores_protect: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_ROCK_SMASH
   name: "Rock Smash"
-  short_name: "RockSmash"
+  short_name: "Rock Smash"
   description: "A rock-crushing attack that lowers the foe\'s Defense."
   short_description: "A rock-crushing attack that lowers the foe\'s Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -4123,7 +4120,7 @@ moves {
 moves {
   id: MOVE_BEAT_UP
   name: "Beat Up"
-  short_name: "BeatUp"
+  short_name: "Beat Up"
   description: "Summons party Pok\303\251mon to join in the attack."
   short_description: "Summons party Pok\303\251mon to join in the attack."
   effect: EFFECT_BEAT_UP
@@ -4139,7 +4136,7 @@ moves {
 moves {
   id: MOVE_FAKE_OUT
   name: "Fake Out"
-  short_name: "FakeOut"
+  short_name: "Fake Out"
   description: "A 1st-turn, 1st-strike move that causes flinching."
   short_description: "A 1st-turn, 1st-strike move that causes flinching."
   effect: EFFECT_FAKE_OUT
@@ -4187,7 +4184,7 @@ moves {
 moves {
   id: MOVE_SPIT_UP
   name: "Spit Up"
-  short_name: "SpitUp"
+  short_name: "Spit Up"
   description: "Spits up stored stockpiles for heavy damage."
   short_description: "Spits up stored stockpiles for heavy damage."
   effect: EFFECT_SPIT_UP
@@ -4215,7 +4212,7 @@ moves {
 moves {
   id: MOVE_HEAT_WAVE
   name: "Heat Wave"
-  short_name: "HeatWave"
+  short_name: "Heat Wave"
   description: "Exhales a hot breath on the foe. May inflict a burn."
   short_description: "Exhales a hot breath on the foe. May inflict a burn."
   effect: EFFECT_BURN_HIT
@@ -4319,7 +4316,7 @@ moves {
 moves {
   id: MOVE_FOCUS_PUNCH
   name: "Focus Punch"
-  short_name: "FocusPunch"
+  short_name: "Focus Punch"
   description: "A powerful loyalty attack. Damage is reduced if hit."
   short_description: "A powerful loyalty attack. Damage is reduced if hit."
   effect: EFFECT_FOCUS_PUNCH
@@ -4355,7 +4352,7 @@ moves {
 moves {
   id: MOVE_FOLLOW_ME
   name: "Follow Me"
-  short_name: "FollowMe"
+  short_name: "Follow Me"
   description: "Draws attention to make foes attack only the user."
   short_description: "Draws attention to make foes attack only the user."
   effect: EFFECT_FOLLOW_ME
@@ -4370,7 +4367,7 @@ moves {
 moves {
   id: MOVE_NATURE_POWER
   name: "Nature Power"
-  short_name: "NaturePower"
+  short_name: "Nature Power"
   description: "Type and power changes depending on the terrain."
   short_description: "Type and power changes depending on the terrain."
   effect: EFFECT_TERRAIN_PULSE
@@ -4415,7 +4412,7 @@ moves {
 moves {
   id: MOVE_HELPING_HAND
   name: "Helping Hand"
-  short_name: "HelpingHand"
+  short_name: "Helping Hand"
   description: "Boosts the power of the recipient\'s moves."
   short_description: "Boosts the power of the recipient\'s moves."
   effect: EFFECT_HELPING_HAND
@@ -4446,7 +4443,7 @@ moves {
 moves {
   id: MOVE_ROLE_PLAY
   name: "Role Play"
-  short_name: "RolePlay"
+  short_name: "Role Play"
   description: "Mimics the target and copies its special ability."
   short_description: "Mimics the target and copies its special ability."
   effect: EFFECT_ROLE_PLAY
@@ -4519,7 +4516,7 @@ moves {
 moves {
   id: MOVE_MAGIC_COAT
   name: "Magic Coat"
-  short_name: "MagicCoat"
+  short_name: "Magic Coat"
   description: "Reflects special effects back to the attacker."
   short_description: "Reflects special effects back to the attacker."
   effect: EFFECT_MAGIC_COAT
@@ -4564,7 +4561,7 @@ moves {
 moves {
   id: MOVE_BRICK_BREAK
   name: "Brick Break"
-  short_name: "BrickBreak"
+  short_name: "Brick Break"
   description: "Destroys barriers such as Reflect and causes damage."
   short_description: "Destroys barriers such as Reflect and causes damage."
   effect: EFFECT_BRICK_BREAK
@@ -4595,7 +4592,7 @@ moves {
 moves {
   id: MOVE_KNOCK_OFF
   name: "Knock Off"
-  short_name: "KnockOff"
+  short_name: "Knock Off"
   description: "Knocks down the foe\'s held item to prevent its use."
   short_description: "Knocks down the foe\'s held item to prevent its use."
   effect: EFFECT_KNOCK_OFF
@@ -4645,7 +4642,7 @@ moves {
 moves {
   id: MOVE_SKILL_SWAP
   name: "Skill Swap"
-  short_name: "SkillSwap"
+  short_name: "Skill Swap"
   description: "The user swaps special abilities with the target."
   short_description: "The user swaps special abilities with the target."
   effect: EFFECT_SKILL_SWAP
@@ -4718,7 +4715,7 @@ moves {
 moves {
   id: MOVE_SECRET_POWER
   name: "Secret Power"
-  short_name: "SecretPower"
+  short_name: "Secret Power"
   description: "Physical Hidden Power. Varies with the user."
   short_description: "Physical Hidden Power. Varies with the user."
   effect: EFFECT_HIDDEN_POWER
@@ -4753,7 +4750,7 @@ moves {
 moves {
   id: MOVE_ARM_THRUST
   name: "Arm Thrust"
-  short_name: "ArmThrust"
+  short_name: "Arm Thrust"
   description: "Straight-arm punches that strike the foe 2 to 5 times."
   short_description: "Straight-arm punches that strike the foe 2 to 5 times."
   effect: EFFECT_MULTI_HIT
@@ -4785,7 +4782,7 @@ moves {
 moves {
   id: MOVE_TAIL_GLOW
   name: "Tail Glow"
-  short_name: "TailGlow"
+  short_name: "Tail Glow"
   description: "Flashes a light that raises Sp. Atk by +3."
   short_description: "Flashes a light that raises Sp. Atk by +3."
   effect: EFFECT_SPECIAL_ATTACK_UP_3
@@ -4798,7 +4795,7 @@ moves {
 moves {
   id: MOVE_LUSTER_PURGE
   name: "Luster Purge"
-  short_name: "LusterPurge"
+  short_name: "Luster Purge"
   description: "Attacks with a burst of light. May lower Sp. Def."
   short_description: "Attacks with a burst of light. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -4814,7 +4811,7 @@ moves {
 moves {
   id: MOVE_MIST_BALL
   name: "Mist Ball"
-  short_name: "MistBall"
+  short_name: "Mist Ball"
   description: "Attacks with a flurry of down. May lower SpAtk"
   short_description: "Attacks with a flurry of down. May lower SpAtk"
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -4847,7 +4844,7 @@ moves {
 moves {
   id: MOVE_TEETER_DANCE
   name: "Teeter Dance"
-  short_name: "TeeterDance"
+  short_name: "Teeter Dance"
   description: "Confuses all Pok\303\251mon on the scene."
   short_description: "Confuses all Pok\303\251mon on the scene."
   effect: EFFECT_TEETER_DANCE
@@ -4862,7 +4859,7 @@ moves {
 moves {
   id: MOVE_BLAZE_KICK
   name: "Blaze Kick"
-  short_name: "BlazeKick"
+  short_name: "Blaze Kick"
   description: "A kick with a high critical- hit ratio. May cause a burn."
   short_description: "A kick with a high critical- hit ratio. May cause a burn."
   effect: EFFECT_BURN_HIT
@@ -4881,7 +4878,7 @@ moves {
 moves {
   id: MOVE_MUD_SPORT
   name: "Mud Sport"
-  short_name: "MudSport"
+  short_name: "Mud Sport"
   description: "Covers the user in mud to raise electrical resistance."
   short_description: "Covers the user in mud to raise electrical resistance."
   effect: EFFECT_MUD_SPORT
@@ -4894,7 +4891,7 @@ moves {
 moves {
   id: MOVE_ICE_BALL
   name: "Ice Ball"
-  short_name: "IceBall"
+  short_name: "Ice Ball"
   description: "Rolls into a ball to strike with rising intensity."
   short_description: "Rolls into a ball to strike with rising intensity."
   effect: EFFECT_ROLLOUT
@@ -4911,7 +4908,7 @@ moves {
 moves {
   id: MOVE_NEEDLE_ARM
   name: "Needle Arm"
-  short_name: "NeedleArm"
+  short_name: "Needle Arm"
   description: "Attacks with thorny arms. May cause flinching."
   short_description: "Attacks with thorny arms. May cause flinching."
   effect: EFFECT_CREEPING_THORNS_HIT
@@ -4929,7 +4926,7 @@ moves {
 moves {
   id: MOVE_SLACK_OFF
   name: "Slack Off"
-  short_name: "SlackOff"
+  short_name: "Slack Off"
   description: "Slacks off and restores half the maximum HP."
   short_description: "Slacks off and restores half the maximum HP."
   effect: EFFECT_RESTORE_HP
@@ -4943,7 +4940,7 @@ moves {
 moves {
   id: MOVE_HYPER_VOICE
   name: "Hyper Voice"
-  short_name: "HyperVoice"
+  short_name: "Hyper Voice"
   description: "A loud attack that uses sound waves to injure."
   short_description: "A loud attack that uses sound waves to injure."
   split: SPECIAL
@@ -4958,7 +4955,7 @@ moves {
 moves {
   id: MOVE_POISON_FANG
   name: "Poison Fang"
-  short_name: "PoisonFang"
+  short_name: "Poison Fang"
   description: "A sharp-fanged attack. May badly poison the foe."
   short_description: "A sharp-fanged attack. May badly poison the foe."
   effect: EFFECT_POISON_FANG
@@ -4976,7 +4973,7 @@ moves {
 moves {
   id: MOVE_CRUSH_CLAW
   name: "Crush Claw"
-  short_name: "CrushClaw"
+  short_name: "Crush Claw"
   description: "Tears at the foe with sharp claws. May lower Defense."
   short_description: "Tears at the foe with sharp claws. May lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -4995,7 +4992,7 @@ moves {
 moves {
   id: MOVE_BLAST_BURN
   name: "Blast Burn"
-  short_name: "BlastBurn"
+  short_name: "Blast Burn"
   description: "Powerful, but can\'t be used next turn."
   short_description: "Powerful, but can\'t be used next turn."
   split: SPECIAL
@@ -5011,7 +5008,7 @@ moves {
 moves {
   id: MOVE_HYDRO_CANNON
   name: "Hydro Cannon"
-  short_name: "HydroCannon"
+  short_name: "Hydro Cannon"
   description: "Powerful, but can\'t be used the next turn."
   short_description: "Powerful, but can\'t be used the next turn."
   split: SPECIAL
@@ -5028,7 +5025,7 @@ moves {
 moves {
   id: MOVE_METEOR_MASH
   name: "Meteor Mash"
-  short_name: "MeteorMash"
+  short_name: "Meteor Mash"
   description: "Fires a meteor-like punch. May raise Attack."
   short_description: "Fires a meteor-like punch. May raise Attack."
   effect: EFFECT_ATTACK_UP_HIT
@@ -5064,7 +5061,7 @@ moves {
 moves {
   id: MOVE_WEATHER_BALL
   name: "Weather Ball"
-  short_name: "WeatherBall"
+  short_name: "Weather Ball"
   description: "The move\'s type and power change with the weather."
   short_description: "The move\'s type and power change with the weather."
   effect: EFFECT_WEATHER_BALL
@@ -5095,7 +5092,7 @@ moves {
 moves {
   id: MOVE_FAKE_TEARS
   name: "Fake Tears"
-  short_name: "FakeTears"
+  short_name: "Fake Tears"
   description: "Feigns crying to sharply lower the foe\'s Sp. Def."
   short_description: "Feigns crying to sharply lower the foe\'s Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_2
@@ -5110,7 +5107,7 @@ moves {
 moves {
   id: MOVE_AIR_CUTTER
   name: "Air Cutter"
-  short_name: "AirCutter"
+  short_name: "Air Cutter"
   description: "Hacks with razorlike wind. High critical-hit ratio."
   short_description: "Hacks with razorlike wind. High critical-hit ratio."
   split: PHYSICAL
@@ -5143,7 +5140,7 @@ moves {
 moves {
   id: MOVE_ODOR_SLEUTH
   name: "Odor Sleuth"
-  short_name: "OdorSleuth"
+  short_name: "Odor Sleuth"
   description: "Negates the foe\'s efforts to heighten evasiveness."
   short_description: "Negates the foe\'s efforts to heighten evasiveness."
   effect: EFFECT_FORESIGHT
@@ -5157,7 +5154,7 @@ moves {
 moves {
   id: MOVE_ROCK_TOMB
   name: "Rock Tomb"
-  short_name: "RockTomb"
+  short_name: "Rock Tomb"
   description: "Stops the foe from moving with rocks and cuts Speed."
   short_description: "Stops the foe from moving with rocks and cuts Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -5174,7 +5171,7 @@ moves {
 moves {
   id: MOVE_SILVER_WIND
   name: "Silver Wind"
-  short_name: "SilverWind"
+  short_name: "Silver Wind"
   description: "A powdery attack that may raise abilities."
   short_description: "A powdery attack that may raise abilities."
   effect: EFFECT_ALL_STATS_UP_HIT
@@ -5191,7 +5188,7 @@ moves {
 moves {
   id: MOVE_METAL_SOUND
   name: "Metal Sound"
-  short_name: "MetalSound"
+  short_name: "Metal Sound"
   description: "Emits a horrible screech that sharply lowers Sp. Def."
   short_description: "Emits a horrible screech that sharply lowers Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_2
@@ -5238,7 +5235,7 @@ moves {
 moves {
   id: MOVE_COSMIC_POWER
   name: "Cosmic Power"
-  short_name: "CosmicPower"
+  short_name: "Cosmic Power"
   description: "Raises Defense and Sp. Def with a mystic power."
   short_description: "Raises Defense and Sp. Def with a mystic power."
   effect: EFFECT_COSMIC_POWER
@@ -5251,7 +5248,7 @@ moves {
 moves {
   id: MOVE_WATER_SPOUT
   name: "Water Spout"
-  short_name: "WaterSpout"
+  short_name: "Water Spout"
   description: "Inflicts more damage if the user\'s HP is high."
   short_description: "Inflicts more damage if the user\'s HP is high."
   effect: EFFECT_ERUPTION
@@ -5267,7 +5264,7 @@ moves {
 moves {
   id: MOVE_SIGNAL_BEAM
   name: "Signal Beam"
-  short_name: "SignalBeam"
+  short_name: "Signal Beam"
   description: "A strange beam attack that may confuse the foe."
   short_description: "A strange beam attack that may confuse the foe."
   effect: EFFECT_CONFUSE_HIT
@@ -5284,7 +5281,7 @@ moves {
 moves {
   id: MOVE_SHADOW_PUNCH
   name: "Shadow Punch"
-  short_name: "ShadowPunch"
+  short_name: "Shadow Punch"
   description: "An unavoidable punch that is thrown from shadows."
   short_description: "An unavoidable punch that is thrown from shadows."
   split: PHYSICAL
@@ -5315,7 +5312,7 @@ moves {
 moves {
   id: MOVE_SKY_UPPERCUT
   name: "Sky Uppercut"
-  short_name: "SkyUppercut"
+  short_name: "Sky Uppercut"
   description: "An uppercut thrown as if leaping into the sky."
   short_description: "An uppercut thrown as if leaping into the sky."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -5336,7 +5333,7 @@ moves {
 moves {
   id: MOVE_SAND_TOMB
   name: "Sand Tomb"
-  short_name: "SandTomb"
+  short_name: "Sand Tomb"
   description: "Traps and hurts the foe in quicksand for 2 to 5 turns."
   short_description: "Traps and hurts the foe in quicksand for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -5352,7 +5349,7 @@ moves {
 moves {
   id: MOVE_SHEER_COLD
   name: "Sheer Cold"
-  short_name: "SheerCold"
+  short_name: "Sheer Cold"
   description: "Super effective on Water. 20% frostbite chance."
   short_description: "Super effective on Water. 20% frostbite chance."
   effect: EFFECT_FREEZE_DRY
@@ -5369,7 +5366,7 @@ moves {
 moves {
   id: MOVE_MUDDY_WATER
   name: "Muddy Water"
-  short_name: "MuddyWater"
+  short_name: "Muddy Water"
   description: "Attacks with muddy water. May lower accuracy."
   short_description: "Attacks with muddy water. May lower accuracy."
   effect: EFFECT_ACCURACY_DOWN_HIT
@@ -5386,7 +5383,7 @@ moves {
 moves {
   id: MOVE_BULLET_SEED
   name: "Bullet Seed"
-  short_name: "BulletSeed"
+  short_name: "Bullet Seed"
   description: "Shoots 2 to 5 seeds in a row to strike the foe."
   short_description: "Shoots 2 to 5 seeds in a row to strike the foe."
   effect: EFFECT_MULTI_HIT
@@ -5403,7 +5400,7 @@ moves {
 moves {
   id: MOVE_AERIAL_ACE
   name: "Aerial Ace"
-  short_name: "AerialAce"
+  short_name: "Aerial Ace"
   description: "An extremely speedy and unavoidable attack."
   short_description: "An extremely speedy and unavoidable attack."
   split: PHYSICAL
@@ -5419,7 +5416,7 @@ moves {
 moves {
   id: MOVE_ICICLE_SPEAR
   name: "Icicle Spear"
-  short_name: "IcicleSpear"
+  short_name: "Icicle Spear"
   description: "Attacks the foe by firing 2 to 5 icicles in a row."
   short_description: "Attacks the foe by firing 2 to 5 icicles in a row."
   effect: EFFECT_MULTI_HIT
@@ -5435,7 +5432,7 @@ moves {
 moves {
   id: MOVE_IRON_DEFENSE
   name: "Iron Defense"
-  short_name: "IronDefense"
+  short_name: "Iron Defense"
   description: "Hardens the body\'s surface to sharply raise Defense."
   short_description: "Hardens the body\'s surface to sharply raise Defense."
   effect: EFFECT_DEFENSE_UP_2
@@ -5477,7 +5474,7 @@ moves {
 moves {
   id: MOVE_DRAGON_CLAW
   name: "Dragon Claw"
-  short_name: "DragonClaw"
+  short_name: "Dragon Claw"
   description: "Slashes the foe with sharp claws."
   short_description: "Slashes the foe with sharp claws."
   effect: EFFECT_BLEED_HIT
@@ -5496,7 +5493,7 @@ moves {
 moves {
   id: MOVE_FRENZY_PLANT
   name: "Frenzy Plant"
-  short_name: "FrenzyPlant"
+  short_name: "Frenzy Plant"
   description: "Powerful, but can\'t be used next turn."
   short_description: "Powerful, but can\'t be used next turn."
   split: SPECIAL
@@ -5513,7 +5510,7 @@ moves {
 moves {
   id: MOVE_BULK_UP
   name: "Bulk Up"
-  short_name: "BulkUp"
+  short_name: "Bulk Up"
   description: "Bulks up the body to boost both Attack and Defense."
   short_description: "Bulks up the body to boost both Attack and Defense."
   effect: EFFECT_BULK_UP
@@ -5549,7 +5546,7 @@ moves {
 moves {
   id: MOVE_MUD_SHOT
   name: "Mud Shot"
-  short_name: "MudShot"
+  short_name: "Mud Shot"
   description: "10% Speed drop chance. Has +1 priority."
   short_description: "10% Speed drop chance. Has +1 priority."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -5569,7 +5566,7 @@ moves {
 moves {
   id: MOVE_POISON_TAIL
   name: "Poison Tail"
-  short_name: "PoisonTail"
+  short_name: "Poison Tail"
   description: "Forces the target to Switch. May also poison."
   short_description: "Forces the target to Switch. May also poison."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -5609,7 +5606,7 @@ moves {
 moves {
   id: MOVE_VOLT_TACKLE
   name: "Volt Tackle"
-  short_name: "VoltTackle"
+  short_name: "Volt Tackle"
   description: "A life-risking tackle that slightly hurts the user."
   short_description: "A life-risking tackle that slightly hurts the user."
   effect: EFFECT_RECOIL_25_STATUS
@@ -5632,7 +5629,7 @@ moves {
 moves {
   id: MOVE_MAGICAL_LEAF
   name: "Magical Leaf"
-  short_name: "MagicalLeaf"
+  short_name: "Magical Leaf"
   description: "Attacks with a strange leaf that cannot be evaded."
   short_description: "Attacks with a strange leaf that cannot be evaded."
   split: SPECIAL
@@ -5646,7 +5643,7 @@ moves {
 moves {
   id: MOVE_WATER_SPORT
   name: "Water Sport"
-  short_name: "WaterSport"
+  short_name: "Water Sport"
   description: "The user becomes soaked to raise resistance to fire."
   short_description: "The user becomes soaked to raise resistance to fire."
   effect: EFFECT_WATER_SPORT
@@ -5659,7 +5656,7 @@ moves {
 moves {
   id: MOVE_CALM_MIND
   name: "Calm Mind"
-  short_name: "CalmMind"
+  short_name: "Calm Mind"
   description: "Raises Sp. Atk and Sp. Def by focusing the mind."
   short_description: "Raises Sp. Atk and Sp. Def by focusing the mind."
   effect: EFFECT_CALM_MIND
@@ -5672,7 +5669,7 @@ moves {
 moves {
   id: MOVE_LEAF_BLADE
   name: "Leaf Blade"
-  short_name: "LeafBlade"
+  short_name: "Leaf Blade"
   description: "Slashes with a sharp leaf. High critical-hit ratio."
   short_description: "Slashes with a sharp leaf. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -5691,7 +5688,7 @@ moves {
 moves {
   id: MOVE_DRAGON_DANCE
   name: "Dragon Dance"
-  short_name: "DragonDance"
+  short_name: "Dragon Dance"
   description: "A mystical dance that ups Attack and Speed."
   short_description: "A mystical dance that ups Attack and Speed."
   effect: EFFECT_DRAGON_DANCE
@@ -5705,7 +5702,7 @@ moves {
 moves {
   id: MOVE_ROCK_BLAST
   name: "Rock Blast"
-  short_name: "RockBlast"
+  short_name: "Rock Blast"
   description: "Hurls boulders at the foe 2 to 5 times in a row."
   short_description: "Hurls boulders at the foe 2 to 5 times in a row."
   effect: EFFECT_MULTI_HIT
@@ -5723,7 +5720,7 @@ moves {
 moves {
   id: MOVE_SHOCK_WAVE
   name: "Shock Wave"
-  short_name: "ShockWave"
+  short_name: "Shock Wave"
   description: "A fast and unavoidable +2 priority attack."
   short_description: "A fast and unavoidable +2 priority attack."
   split: SPECIAL
@@ -5737,7 +5734,7 @@ moves {
 moves {
   id: MOVE_WATER_PULSE
   name: "Water Pulse"
-  short_name: "WaterPulse"
+  short_name: "Water Pulse"
   description: "Attacks with ultrasonic waves. May confuse the foe."
   short_description: "Attacks with ultrasonic waves. May confuse the foe."
   effect: EFFECT_CONFUSE_HIT
@@ -5754,7 +5751,7 @@ moves {
 moves {
   id: MOVE_DOOM_DESIRE
   name: "Doom Desire"
-  short_name: "DoomDesire"
+  short_name: "Doom Desire"
   description: "Summons strong sunlight to attack 2 turns later."
   short_description: "Summons strong sunlight to attack 2 turns later."
   effect: EFFECT_FUTURE_SIGHT
@@ -5765,12 +5762,11 @@ moves {
   accuracy: 100
   pp: 5
   ignores_protect: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_PSYCHO_BOOST
   name: "Psycho Boost"
-  short_name: "PsychoBoost"
+  short_name: "Psycho Boost"
   description: "Allows a full-power attack, but sharply lowers SpAtk"
   short_description: "Allows a full-power attack, but sharply lowers SpAtk"
   effect: EFFECT_OVERHEAT
@@ -5811,7 +5807,7 @@ moves {
 moves {
   id: MOVE_MIRACLE_EYE
   name: "Miracle Eye"
-  short_name: "MiracleEye"
+  short_name: "Miracle Eye"
   description: "Inverts the target\'s type matchups."
   short_description: "Inverts the target\'s type matchups."
   effect: EFFECT_MIRACLE_EYE
@@ -5825,7 +5821,7 @@ moves {
 moves {
   id: MOVE_WAKE_UP_SLAP
   name: "Wake-Up Slap"
-  short_name: "Wake-UpSlap"
+  short_name: "Wake-Up Slap"
   description: "Powerful against sleeping foes, but also heals them."
   short_description: "Powerful against sleeping foes, but also heals them."
   effect: EFFECT_WAKE_UP_SLAP
@@ -5845,7 +5841,7 @@ moves {
 moves {
   id: MOVE_HAMMER_ARM
   name: "Hammer Arm"
-  short_name: "HammerArm"
+  short_name: "Hammer Arm"
   description: "A swinging fist attack that also lowers Speed."
   short_description: "A swinging fist attack that also lowers Speed."
   effect: EFFECT_HAMMER_ARM
@@ -5864,7 +5860,7 @@ moves {
 moves {
   id: MOVE_GYRO_BALL
   name: "Gyro Ball"
-  short_name: "GyroBall"
+  short_name: "Gyro Ball"
   description: "A high-speed spin that does more damage to faster foes."
   short_description: "A high-speed spin that does more damage to faster foes."
   effect: EFFECT_GYRO_BALL
@@ -5881,7 +5877,7 @@ moves {
 moves {
   id: MOVE_HEALING_WISH
   name: "Healing Wish"
-  short_name: "HealingWish"
+  short_name: "Healing Wish"
   description: "The user faints to heal up the recipient."
   short_description: "The user faints to heal up the recipient."
   effect: EFFECT_HEALING_WISH
@@ -5912,7 +5908,7 @@ moves {
 moves {
   id: MOVE_NATURAL_GIFT
   name: "Natural Gift"
-  short_name: "NaturalGift"
+  short_name: "Natural Gift"
   description: "The effectiveness varies with the held Berry."
   short_description: "The effectiveness varies with the held Berry."
   effect: EFFECT_NATURAL_GIFT
@@ -5923,7 +5919,6 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
-  no_kings_rock: true
   no_parental_bond: true
 }
 moves {
@@ -5992,7 +5987,7 @@ moves {
 moves {
   id: MOVE_METAL_BURST
   name: "Metal Burst"
-  short_name: "MetalBurst"
+  short_name: "Metal Burst"
   description: "Retaliates any hit with greater power."
   short_description: "Retaliates any hit with greater power."
   effect: EFFECT_METAL_BURST
@@ -6003,7 +5998,6 @@ moves {
   pp: 10
   priority: -5
   mirror_move_affected: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_U_TURN
@@ -6024,7 +6018,7 @@ moves {
 moves {
   id: MOVE_CLOSE_COMBAT
   name: "Close Combat"
-  short_name: "CloseCombat"
+  short_name: "Close Combat"
   description: "A strong attack but lowers the defensive stats."
   short_description: "A strong attack but lowers the defensive stats."
   effect: EFFECT_CLOSE_COMBAT
@@ -6106,7 +6100,7 @@ moves {
 moves {
   id: MOVE_PSYCHO_SHIFT
   name: "Psycho Shift"
-  short_name: "PsychoShift"
+  short_name: "Psycho Shift"
   description: "Transfers status problems to the foe."
   short_description: "Transfers status problems to the foe."
   effect: EFFECT_PSYCHO_SHIFT
@@ -6120,7 +6114,7 @@ moves {
 moves {
   id: MOVE_TRUMP_CARD
   name: "Trump Card"
-  short_name: "TrumpCard"
+  short_name: "Trump Card"
   description: "Inflicts critical damage when the user\'s HP is low."
   short_description: "Inflicts critical damage when the user\'s HP is low."
   effect: EFFECT_FLAIL
@@ -6136,7 +6130,7 @@ moves {
 moves {
   id: MOVE_HEAL_BLOCK
   name: "Heal Block"
-  short_name: "HealBlock"
+  short_name: "Heal Block"
   description: "Prevents the foe from recovering any HP."
   short_description: "Prevents the foe from recovering any HP."
   effect: EFFECT_HEAL_BLOCK
@@ -6151,7 +6145,7 @@ moves {
 moves {
   id: MOVE_WRING_OUT
   name: "Wring Out"
-  short_name: "WringOut"
+  short_name: "Wring Out"
   description: "Crushes quicker foes, nullifying their ability."
   short_description: "Crushes quicker foes, nullifying their ability."
   effect: EFFECT_CORE_ENFORCER
@@ -6168,7 +6162,7 @@ moves {
 moves {
   id: MOVE_POWER_TRICK
   name: "Power Trick"
-  short_name: "PowerTrick"
+  short_name: "Power Trick"
   description: "The user swaps its Attack and Defense stats."
   short_description: "The user swaps its Attack and Defense stats."
   effect: EFFECT_POWER_TRICK
@@ -6181,7 +6175,7 @@ moves {
 moves {
   id: MOVE_GASTRO_ACID
   name: "Gastro Acid"
-  short_name: "GastroAcid"
+  short_name: "Gastro Acid"
   description: "Stomach acid suppresses the foe\'s ability."
   short_description: "Stomach acid suppresses the foe\'s ability."
   effect: EFFECT_GASTRO_ACID
@@ -6196,7 +6190,7 @@ moves {
 moves {
   id: MOVE_LUCKY_CHANT
   name: "Lucky Chant"
-  short_name: "LuckyChant"
+  short_name: "Lucky Chant"
   description: "Prevents the foe from landing critical hits."
   short_description: "Prevents the foe from landing critical hits."
   effect: EFFECT_LUCKY_CHANT
@@ -6209,7 +6203,7 @@ moves {
 moves {
   id: MOVE_ME_FIRST
   name: "Me First"
-  short_name: "MeFirst"
+  short_name: "Me First"
   description: "Executes the foe\'s attack with greater power."
   short_description: "Executes the foe\'s attack with greater power."
   effect: EFFECT_ME_FIRST
@@ -6240,7 +6234,7 @@ moves {
 moves {
   id: MOVE_POWER_SWAP
   name: "Power Swap"
-  short_name: "PowerSwap"
+  short_name: "Power Swap"
   description: "Swaps Attack and Special Attack with the foe."
   short_description: "Swaps Attack and Special Attack with the foe."
   effect: EFFECT_POWER_SWAP
@@ -6253,7 +6247,7 @@ moves {
 moves {
   id: MOVE_GUARD_SWAP
   name: "Guard Swap"
-  short_name: "GuardSwap"
+  short_name: "Guard Swap"
   description: "Swaps Defense and Special Defense with the foe."
   short_description: "Swaps Defense and Special Defense with the foe."
   effect: EFFECT_GUARD_SWAP
@@ -6283,7 +6277,7 @@ moves {
 moves {
   id: MOVE_LAST_RESORT
   name: "Last Resort"
-  short_name: "LastResort"
+  short_name: "Last Resort"
   description: "Can only be used if every other move has been used."
   short_description: "Can only be used if every other move has been used."
   effect: EFFECT_LAST_RESORT
@@ -6299,7 +6293,7 @@ moves {
 moves {
   id: MOVE_WORRY_SEED
   name: "Worry Seed"
-  short_name: "WorrySeed"
+  short_name: "Worry Seed"
   description: "Plants a seed that causes Fear and gives Insomina."
   short_description: "Plants a seed that causes Fear and gives Insomina."
   effect: EFFECT_WORRY_SEED
@@ -6314,7 +6308,7 @@ moves {
 moves {
   id: MOVE_SUCKER_PUNCH
   name: "Sucker Punch"
-  short_name: "SuckerPunch"
+  short_name: "Sucker Punch"
   description: "Strikes first if the foe is preparing an attack."
   short_description: "Strikes first if the foe is preparing an attack."
   effect: EFFECT_SUCKER_PUNCH
@@ -6331,7 +6325,7 @@ moves {
 moves {
   id: MOVE_TOXIC_SPIKES
   name: "Toxic Spikes"
-  short_name: "ToxicSpikes"
+  short_name: "Toxic Spikes"
   description: "Sets spikes that poison a foe switching in."
   short_description: "Sets spikes that poison a foe switching in."
   effect: EFFECT_TOXIC_SPIKES
@@ -6344,7 +6338,7 @@ moves {
 moves {
   id: MOVE_HEART_SWAP
   name: "Heart Swap"
-  short_name: "HeartSwap"
+  short_name: "Heart Swap"
   description: "Swaps any stat changes with the foe."
   short_description: "Swaps any stat changes with the foe."
   effect: EFFECT_HEART_SWAP
@@ -6356,7 +6350,7 @@ moves {
 moves {
   id: MOVE_AQUA_RING
   name: "Aqua Ring"
-  short_name: "AquaRing"
+  short_name: "Aqua Ring"
   description: "Forms a veil of water that restores HP."
   short_description: "Forms a veil of water that restores HP."
   effect: EFFECT_AQUA_RING
@@ -6369,7 +6363,7 @@ moves {
 moves {
   id: MOVE_MAGNET_RISE
   name: "Magnet Rise"
-  short_name: "MagnetRise"
+  short_name: "Magnet Rise"
   description: "The user levitates with electromagnetism."
   short_description: "The user levitates with electromagnetism."
   effect: EFFECT_MAGNET_RISE
@@ -6382,7 +6376,7 @@ moves {
 moves {
   id: MOVE_FLARE_BLITZ
   name: "Flare Blitz"
-  short_name: "FlareBlitz"
+  short_name: "Flare Blitz"
   description: "A charge that may burn the foe. Also hurts the user."
   short_description: "A charge that may burn the foe. Also hurts the user."
   effect: EFFECT_RECOIL_33_STATUS
@@ -6405,7 +6399,7 @@ moves {
 moves {
   id: MOVE_FORCE_PALM
   name: "Force Palm"
-  short_name: "ForcePalm"
+  short_name: "Force Palm"
   description: "Sends a shock wave through the foe, clearing their stats."
   short_description: "Sends a shock wave through the foe, clearing their stats."
   effect: EFFECT_CLEAR_SMOG
@@ -6422,7 +6416,7 @@ moves {
 moves {
   id: MOVE_AURA_SPHERE
   name: "Aura Sphere"
-  short_name: "AuraSphere"
+  short_name: "Aura Sphere"
   description: "Attacks with an aura blast that cannot be evaded."
   short_description: "Attacks with an aura blast that cannot be evaded."
   split: SPECIAL
@@ -6437,7 +6431,7 @@ moves {
 moves {
   id: MOVE_ROCK_POLISH
   name: "Rock Polish"
-  short_name: "RockPolish"
+  short_name: "Rock Polish"
   description: "Polishes the body to sharply raise Speed."
   short_description: "Polishes the body to sharply raise Speed."
   effect: EFFECT_SPEED_UP_2
@@ -6450,7 +6444,7 @@ moves {
 moves {
   id: MOVE_POISON_JAB
   name: "Poison Jab"
-  short_name: "PoisonJab"
+  short_name: "Poison Jab"
   description: "A stabbing attack that may poison the foe."
   short_description: "A stabbing attack that may poison the foe."
   effect: EFFECT_POISON_HIT
@@ -6469,7 +6463,7 @@ moves {
 moves {
   id: MOVE_DARK_PULSE
   name: "Dark Pulse"
-  short_name: "DarkPulse"
+  short_name: "Dark Pulse"
   description: "Attacks with a horrible aura. May cause flinching."
   short_description: "Attacks with a horrible aura. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -6486,7 +6480,7 @@ moves {
 moves {
   id: MOVE_NIGHT_SLASH
   name: "Night Slash"
-  short_name: "NightSlash"
+  short_name: "Night Slash"
   description: "Hits as soon as possible. High critical-hit ratio."
   short_description: "Hits as soon as possible. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6505,7 +6499,7 @@ moves {
 moves {
   id: MOVE_AQUA_TAIL
   name: "Aqua Tail"
-  short_name: "AquaTail"
+  short_name: "Aqua Tail"
   description: "The user swings its tail like a wave to attack."
   short_description: "The user swings its tail like a wave to attack."
   split: PHYSICAL
@@ -6521,7 +6515,7 @@ moves {
 moves {
   id: MOVE_SEED_BOMB
   name: "Seed Bomb"
-  short_name: "SeedBomb"
+  short_name: "Seed Bomb"
   description: "A barrage of hard seeds is fired at the foe."
   short_description: "A barrage of hard seeds is fired at the foe."
   split: PHYSICAL
@@ -6536,7 +6530,7 @@ moves {
 moves {
   id: MOVE_AIR_SLASH
   name: "Air Slash"
-  short_name: "AirSlash"
+  short_name: "Air Slash"
   description: "Attacks with a blade of air. May cause flinching."
   short_description: "Attacks with a blade of air. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -6573,7 +6567,7 @@ moves {
 moves {
   id: MOVE_BUG_BUZZ
   name: "Bug Buzz"
-  short_name: "BugBuzz"
+  short_name: "Bug Buzz"
   description: "A damaging sound wave that may lower Sp. Def."
   short_description: "A damaging sound wave that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6590,7 +6584,7 @@ moves {
 moves {
   id: MOVE_DRAGON_PULSE
   name: "Dragon Pulse"
-  short_name: "DragonPulse"
+  short_name: "Dragon Pulse"
   description: "Generates a shock wave to damage the foe."
   short_description: "Generates a shock wave to damage the foe."
   split: SPECIAL
@@ -6605,7 +6599,7 @@ moves {
 moves {
   id: MOVE_DRAGON_RUSH
   name: "Dragon Rush"
-  short_name: "DragonRush"
+  short_name: "Dragon Rush"
   description: "Tackles the foe with menace. Damages the user."
   short_description: "Tackles the foe with menace. Damages the user."
   effect: EFFECT_FLINCH_RECOIL_33
@@ -6623,7 +6617,7 @@ moves {
 moves {
   id: MOVE_POWER_GEM
   name: "Power Gem"
-  short_name: "PowerGem"
+  short_name: "Power Gem"
   description: "Attacks with rays of light that sparkle like diamonds."
   short_description: "Attacks with rays of light that sparkle like diamonds."
   split: SPECIAL
@@ -6637,7 +6631,7 @@ moves {
 moves {
   id: MOVE_DRAIN_PUNCH
   name: "Drain Punch"
-  short_name: "DrainPunch"
+  short_name: "Drain Punch"
   description: "A punch that absorbs over 30% of damage inflicted."
   short_description: "A punch that absorbs over 30% of damage inflicted."
   effect: EFFECT_ABSORB
@@ -6654,7 +6648,7 @@ moves {
 moves {
   id: MOVE_VACUUM_WAVE
   name: "Vacuum Wave"
-  short_name: "VacuumWave"
+  short_name: "Vacuum Wave"
   description: "Whirls its fists to send a wave that strikes first."
   short_description: "Whirls its fists to send a wave that strikes first."
   split: SPECIAL
@@ -6670,7 +6664,7 @@ moves {
 moves {
   id: MOVE_FOCUS_BLAST
   name: "Focus Blast"
-  short_name: "FocusBlast"
+  short_name: "Focus Blast"
   description: "Attacks at full power. May lower Sp. Def."
   short_description: "Attacks at full power. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6688,7 +6682,7 @@ moves {
 moves {
   id: MOVE_ENERGY_BALL
   name: "Energy Ball"
-  short_name: "EnergyBall"
+  short_name: "Energy Ball"
   description: "Draws power from nature to attack. May lower Sp. Def."
   short_description: "Draws power from nature to attack. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6705,7 +6699,7 @@ moves {
 moves {
   id: MOVE_BRAVE_BIRD
   name: "Brave Bird"
-  short_name: "BraveBird"
+  short_name: "Brave Bird"
   description: "A low altitude charge that also hurts the user."
   short_description: "A low altitude charge that also hurts the user."
   effect: EFFECT_RECOIL_33
@@ -6723,7 +6717,7 @@ moves {
 moves {
   id: MOVE_EARTH_POWER
   name: "Earth Power"
-  short_name: "EarthPower"
+  short_name: "Earth Power"
   description: "Makes the ground erupt with power. May lower Sp. Def."
   short_description: "Makes the ground erupt with power. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -6753,7 +6747,7 @@ moves {
 moves {
   id: MOVE_GIGA_IMPACT
   name: "Giga Impact"
-  short_name: "GigaImpact"
+  short_name: "Giga Impact"
   description: "Powerful, but leaves the user immobile the next turn."
   short_description: "Powerful, but leaves the user immobile the next turn."
   effect: EFFECT_RECHARGE
@@ -6769,7 +6763,7 @@ moves {
 moves {
   id: MOVE_NASTY_PLOT
   name: "Nasty Plot"
-  short_name: "NastyPlot"
+  short_name: "Nasty Plot"
   description: "Thinks bad thoughts to sharply boost SpAtk"
   short_description: "Thinks bad thoughts to sharply boost SpAtk"
   effect: EFFECT_SPECIAL_ATTACK_UP_2
@@ -6782,7 +6776,7 @@ moves {
 moves {
   id: MOVE_BULLET_PUNCH
   name: "Bullet Punch"
-  short_name: "BulletPunch"
+  short_name: "Bullet Punch"
   description: "Punches as fast as a bul- let. It always hits first."
   short_description: "Punches as fast as a bul- let. It always hits first."
   split: PHYSICAL
@@ -6816,7 +6810,7 @@ moves {
 moves {
   id: MOVE_ICE_SHARD
   name: "Ice Shard"
-  short_name: "IceShard"
+  short_name: "Ice Shard"
   description: "Hurls a chunk of ice that always strike first."
   short_description: "Hurls a chunk of ice that always strike first."
   split: PHYSICAL
@@ -6831,7 +6825,7 @@ moves {
 moves {
   id: MOVE_SHADOW_CLAW
   name: "Shadow Claw"
-  short_name: "ShadowClaw"
+  short_name: "Shadow Claw"
   description: "Strikes with a shadow claw. High critical-hit ratio."
   short_description: "Strikes with a shadow claw. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6850,7 +6844,7 @@ moves {
 moves {
   id: MOVE_THUNDER_FANG
   name: "Thunder Fang"
-  short_name: "ThunderFang"
+  short_name: "Thunder Fang"
   description: "May cause flinching or leave the foe paralyzed."
   short_description: "May cause flinching or leave the foe paralyzed."
   effect: EFFECT_FLINCH_STATUS
@@ -6873,7 +6867,7 @@ moves {
 moves {
   id: MOVE_ICE_FANG
   name: "Ice Fang"
-  short_name: "IceFang"
+  short_name: "Ice Fang"
   description: "May cause flinching or leave the foe frostbiten."
   short_description: "May cause flinching or leave the foe frostbiten."
   effect: EFFECT_FLINCH_STATUS
@@ -6896,7 +6890,7 @@ moves {
 moves {
   id: MOVE_FIRE_FANG
   name: "Fire Fang"
-  short_name: "FireFang"
+  short_name: "Fire Fang"
   description: "May cause flinching or leave the foe with a burn."
   short_description: "May cause flinching or leave the foe with a burn."
   effect: EFFECT_FLINCH_STATUS
@@ -6919,7 +6913,7 @@ moves {
 moves {
   id: MOVE_SHADOW_SNEAK
   name: "Shadow Sneak"
-  short_name: "ShadowSneak"
+  short_name: "Shadow Sneak"
   description: "Extends the user\'s shadow to strike first."
   short_description: "Extends the user\'s shadow to strike first."
   split: PHYSICAL
@@ -6935,7 +6929,7 @@ moves {
 moves {
   id: MOVE_MUD_BOMB
   name: "Mud Bomb"
-  short_name: "MudBomb"
+  short_name: "Mud Bomb"
   description: "Can hit Flying foes, then knocks them to the ground."
   short_description: "Can hit Flying foes, then knocks them to the ground."
   effect: EFFECT_SMACK_DOWN
@@ -6953,7 +6947,7 @@ moves {
 moves {
   id: MOVE_PSYCHO_CUT
   name: "Psycho Cut"
-  short_name: "PsychoCut"
+  short_name: "Psycho Cut"
   description: "Tears with psychic blades. High critical-hit ratio."
   short_description: "Tears with psychic blades. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -6972,7 +6966,7 @@ moves {
 moves {
   id: MOVE_ZEN_HEADBUTT
   name: "Zen Headbutt"
-  short_name: "ZenHeadbutt"
+  short_name: "Zen Headbutt"
   description: "Hits with a strong head- butt. May cause flinching."
   short_description: "Hits with a strong head- butt. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -6990,7 +6984,7 @@ moves {
 moves {
   id: MOVE_MIRROR_SHOT
   name: "Mirror Shot"
-  short_name: "MirrorShot"
+  short_name: "Mirror Shot"
   description: "Emits a flash of energy to damage and cut SpDef."
   short_description: "Emits a flash of energy to damage and cut SpDef."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -7007,7 +7001,7 @@ moves {
 moves {
   id: MOVE_FLASH_CANNON
   name: "Flash Cannon"
-  short_name: "FlashCannon"
+  short_name: "Flash Cannon"
   description: "Releases a blast of light that may lower Sp. Def."
   short_description: "Releases a blast of light that may lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -7025,7 +7019,7 @@ moves {
 moves {
   id: MOVE_ROCK_CLIMB
   name: "Rock Climb"
-  short_name: "RockClimb"
+  short_name: "Rock Climb"
   description: "A charging attack that may confuse the foe."
   short_description: "A charging attack that may confuse the foe."
   effect: EFFECT_TWO_TURNS_ATTACK
@@ -7063,7 +7057,7 @@ moves {
 moves {
   id: MOVE_TRICK_ROOM
   name: "Trick Room"
-  short_name: "TrickRoom"
+  short_name: "Trick Room"
   description: "Slower Pok\303\251mon get to move first for 5 turns."
   short_description: "Slower Pok\303\251mon get to move first for 5 turns."
   effect: EFFECT_TRICK_ROOM
@@ -7077,7 +7071,7 @@ moves {
 moves {
   id: MOVE_DRACO_METEOR
   name: "Draco Meteor"
-  short_name: "DracoMeteor"
+  short_name: "Draco Meteor"
   description: "Casts comets onto the foe. Harshly lowers the SpAtk"
   short_description: "Casts comets onto the foe. Harshly lowers the SpAtk"
   effect: EFFECT_OVERHEAT
@@ -7109,7 +7103,7 @@ moves {
 moves {
   id: MOVE_LAVA_PLUME
   name: "Lava Plume"
-  short_name: "LavaPlume"
+  short_name: "Lava Plume"
   description: "Scarlet flames torch everything around the user."
   short_description: "Scarlet flames torch everything around the user."
   effect: EFFECT_BURN_HIT
@@ -7125,7 +7119,7 @@ moves {
 moves {
   id: MOVE_LEAF_STORM
   name: "Leaf Storm"
-  short_name: "LeafStorm"
+  short_name: "Leaf Storm"
   description: "Whips up a storm of leaves. Harshly lowers SpAtk"
   short_description: "Whips up a storm of leaves. Harshly lowers SpAtk"
   effect: EFFECT_OVERHEAT
@@ -7141,7 +7135,7 @@ moves {
 moves {
   id: MOVE_POWER_WHIP
   name: "Power Whip"
-  short_name: "PowerWhip"
+  short_name: "Power Whip"
   description: "Violently lashes the foe with vines or tentacles."
   short_description: "Violently lashes the foe with vines or tentacles."
   split: PHYSICAL
@@ -7156,7 +7150,7 @@ moves {
 moves {
   id: MOVE_ROCK_WRECKER
   name: "Rock Wrecker"
-  short_name: "RockWrecker"
+  short_name: "Rock Wrecker"
   description: "Powerful, but leaves the user immobile the next turn."
   short_description: "Powerful, but leaves the user immobile the next turn."
   split: PHYSICAL
@@ -7175,7 +7169,7 @@ moves {
 moves {
   id: MOVE_CROSS_POISON
   name: "Cross Poison"
-  short_name: "CrossPoison"
+  short_name: "Cross Poison"
   description: "Two slashes that may poison a foe and do critical damage."
   short_description: "Two slashes that may poison a foe and do critical damage."
   effect: EFFECT_POISON_HIT
@@ -7195,7 +7189,7 @@ moves {
 moves {
   id: MOVE_GUNK_SHOT
   name: "Gunk Shot"
-  short_name: "GunkShot"
+  short_name: "Gunk Shot"
   description: "Shoots filthy garbage at the foe. May also poison."
   short_description: "Shoots filthy garbage at the foe. May also poison."
   effect: EFFECT_POISON_HIT
@@ -7213,7 +7207,7 @@ moves {
 moves {
   id: MOVE_IRON_HEAD
   name: "Iron Head"
-  short_name: "IronHead"
+  short_name: "Iron Head"
   description: "Slams the foe with a hard head. May cause flinching."
   short_description: "Slams the foe with a hard head. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -7230,7 +7224,7 @@ moves {
 moves {
   id: MOVE_MAGNET_BOMB
   name: "Magnet Bomb"
-  short_name: "MagnetBomb"
+  short_name: "Magnet Bomb"
   description: "Launches a magnet that is Super Effective vs Steel."
   short_description: "Launches a magnet that is Super Effective vs Steel."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -7248,7 +7242,7 @@ moves {
 moves {
   id: MOVE_STONE_EDGE
   name: "Stone Edge"
-  short_name: "StoneEdge"
+  short_name: "Stone Edge"
   description: "Stabs the foe with stones. High critical-hit ratio."
   short_description: "Stabs the foe with stones. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -7282,7 +7276,7 @@ moves {
 moves {
   id: MOVE_STEALTH_ROCK
   name: "Stealth Rock"
-  short_name: "StealthRock"
+  short_name: "Stealth Rock"
   description: "Sets floating stones that hurt a foe switching in."
   short_description: "Sets floating stones that hurt a foe switching in."
   effect: EFFECT_STEALTH_ROCK
@@ -7295,7 +7289,7 @@ moves {
 moves {
   id: MOVE_GRASS_KNOT
   name: "Grass Knot"
-  short_name: "GrassKnot"
+  short_name: "Grass Knot"
   description: "A snare attack that does more damage to heavier foes."
   short_description: "A snare attack that does more damage to heavier foes."
   effect: EFFECT_LOW_KICK
@@ -7349,7 +7343,7 @@ moves {
 moves {
   id: MOVE_BUG_BITE
   name: "Bug Bite"
-  short_name: "BugBite"
+  short_name: "Bug Bite"
   description: "Tears away the foe\'s item, eating it if it\'s a Berry."
   short_description: "Tears away the foe\'s item, eating it if it\'s a Berry."
   effect: EFFECT_BUG_BITE
@@ -7367,7 +7361,7 @@ moves {
 moves {
   id: MOVE_CHARGE_BEAM
   name: "Charge Beam"
-  short_name: "ChargeBeam"
+  short_name: "Charge Beam"
   description: "Fires a beam of electricity. Raises Sp. Atk by one stage."
   short_description: "Fires a beam of electricity. Raises Sp. Atk by one stage."
   effect: EFFECT_SP_ATTACK_UP_HIT
@@ -7384,7 +7378,7 @@ moves {
 moves {
   id: MOVE_WOOD_HAMMER
   name: "Wood Hammer"
-  short_name: "WoodHammer"
+  short_name: "Wood Hammer"
   description: "Slams the body into a foe The user gets hurt too."
   short_description: "Slams the body into a foe The user gets hurt too."
   effect: EFFECT_RECOIL_33
@@ -7402,7 +7396,7 @@ moves {
 moves {
   id: MOVE_AQUA_JET
   name: "Aqua Jet"
-  short_name: "AquaJet"
+  short_name: "Aqua Jet"
   description: "Strikes first by dashing at the foe at a high speed."
   short_description: "Strikes first by dashing at the foe at a high speed."
   split: PHYSICAL
@@ -7418,7 +7412,7 @@ moves {
 moves {
   id: MOVE_ATTACK_ORDER
   name: "Attack Order"
-  short_name: "AttackOrder"
+  short_name: "Attack Order"
   description: "Underlings pummel the foe. High critical-hit ratio."
   short_description: "Underlings pummel the foe. High critical-hit ratio."
   split: PHYSICAL
@@ -7434,7 +7428,7 @@ moves {
 moves {
   id: MOVE_DEFEND_ORDER
   name: "Defend Order"
-  short_name: "DefendOrder"
+  short_name: "Defend Order"
   description: "Raises Defense and Sp. Def with a living shield."
   short_description: "Raises Defense and Sp. Def with a living shield."
   effect: EFFECT_COSMIC_POWER
@@ -7447,7 +7441,7 @@ moves {
 moves {
   id: MOVE_HEAL_ORDER
   name: "Heal Order"
-  short_name: "HealOrder"
+  short_name: "Heal Order"
   description: "The user\'s underlings show up to heal half its max HP."
   short_description: "The user\'s underlings show up to heal half its max HP."
   effect: EFFECT_RESTORE_HP
@@ -7460,7 +7454,7 @@ moves {
 moves {
   id: MOVE_HEAD_SMASH
   name: "Head Smash"
-  short_name: "HeadSmash"
+  short_name: "Head Smash"
   description: "A life-risking headbutt that seriously hurts the user."
   short_description: "A life-risking headbutt that seriously hurts the user."
   effect: EFFECT_RECOIL_50
@@ -7477,7 +7471,7 @@ moves {
 moves {
   id: MOVE_DOUBLE_HIT
   name: "Double Hit"
-  short_name: "DoubleHit"
+  short_name: "Double Hit"
   description: "Slams the foe with a tail etc. Strikes twice."
   short_description: "Slams the foe with a tail etc. Strikes twice."
   effect: EFFECT_DOUBLE_HIT
@@ -7495,7 +7489,7 @@ moves {
 moves {
   id: MOVE_ROAR_OF_TIME
   name: "Roar of Time"
-  short_name: "RoarofTime"
+  short_name: "Roar of Time"
   description: "Moves last, but forces the target to switch out."
   short_description: "Moves last, but forces the target to switch out."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -7512,7 +7506,7 @@ moves {
 moves {
   id: MOVE_SPACIAL_REND
   name: "Spacial Rend"
-  short_name: "SpacialRend"
+  short_name: "Spacial Rend"
   description: "Tears the foe, and space. High critical-hit ratio."
   short_description: "Tears the foe, and space. High critical-hit ratio."
   split: SPECIAL
@@ -7527,7 +7521,7 @@ moves {
 moves {
   id: MOVE_LUNAR_DANCE
   name: "Lunar Dance"
-  short_name: "LunarDance"
+  short_name: "Lunar Dance"
   description: "The user faints to heal up the recipient."
   short_description: "The user faints to heal up the recipient."
   effect: EFFECT_HEALING_WISH
@@ -7542,7 +7536,7 @@ moves {
 moves {
   id: MOVE_CRUSH_GRIP
   name: "Crush Grip"
-  short_name: "CrushGrip"
+  short_name: "Crush Grip"
   description: "Crushes quicker foes, nullifying their ability."
   short_description: "Crushes quicker foes, nullifying their ability."
   effect: EFFECT_CORE_ENFORCER
@@ -7558,7 +7552,7 @@ moves {
 moves {
   id: MOVE_MAGMA_STORM
   name: "Magma Storm"
-  short_name: "MagmaStorm"
+  short_name: "Magma Storm"
   description: "Traps the foe in a vortex of fire for 2 to 5 turns."
   short_description: "Traps the foe in a vortex of fire for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -7574,7 +7568,7 @@ moves {
 moves {
   id: MOVE_DARK_VOID
   name: "Dark Void"
-  short_name: "DarkVoid"
+  short_name: "Dark Void"
   description: "Drags the foe into total darkness, inducing Sleep."
   short_description: "Drags the foe into total darkness, inducing Sleep."
   effect: EFFECT_SLEEP
@@ -7589,7 +7583,7 @@ moves {
 moves {
   id: MOVE_SEED_FLARE
   name: "Seed Flare"
-  short_name: "SeedFlare"
+  short_name: "Seed Flare"
   description: "Generates a shock wave that sharply reduces Sp. Def."
   short_description: "Generates a shock wave that sharply reduces Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
@@ -7605,7 +7599,7 @@ moves {
 moves {
   id: MOVE_OMINOUS_WIND
   name: "Ominous Wind"
-  short_name: "OminousWind"
+  short_name: "Ominous Wind"
   description: "A repulsive attack that may raise all stats."
   short_description: "A repulsive attack that may raise all stats."
   effect: EFFECT_ALL_STATS_UP_HIT
@@ -7626,7 +7620,7 @@ moves {
 moves {
   id: MOVE_SHADOW_FORCE
   name: "Shadow Force"
-  short_name: "ShadowForce"
+  short_name: "Shadow Force"
   description: "Vanishes on the first turn then strikes the next turn."
   short_description: "Vanishes on the first turn then strikes the next turn."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -7650,7 +7644,7 @@ moves {
 moves {
   id: MOVE_HONE_CLAWS
   name: "Hone Claws"
-  short_name: "HoneClaws"
+  short_name: "Hone Claws"
   description: "Sharpens its claws to raise Attack and Accuracy."
   short_description: "Sharpens its claws to raise Attack and Accuracy."
   effect: EFFECT_ATTACK_ACCURACY_UP
@@ -7663,7 +7657,7 @@ moves {
 moves {
   id: MOVE_WIDE_GUARD
   name: "Wide Guard"
-  short_name: "WideGuard"
+  short_name: "Wide Guard"
   description: "Evades wide-ranging attacks for one turn."
   short_description: "Evades wide-ranging attacks for one turn."
   effect: EFFECT_PROTECT
@@ -7681,7 +7675,7 @@ moves {
 moves {
   id: MOVE_GUARD_SPLIT
   name: "Guard Split"
-  short_name: "GuardSplit"
+  short_name: "Guard Split"
   description: "Averages changes to Defense and Sp. Def with the foe."
   short_description: "Averages changes to Defense and Sp. Def with the foe."
   effect: EFFECT_GUARD_SPLIT
@@ -7693,7 +7687,7 @@ moves {
 moves {
   id: MOVE_POWER_SPLIT
   name: "Power Split"
-  short_name: "PowerSplit"
+  short_name: "Power Split"
   description: "Averages changes to Attack and Sp. Atk with the foe."
   short_description: "Averages changes to Attack and Sp. Atk with the foe."
   effect: EFFECT_POWER_SPLIT
@@ -7705,7 +7699,7 @@ moves {
 moves {
   id: MOVE_WONDER_ROOM
   name: "Wonder Room"
-  short_name: "WonderRoom"
+  short_name: "Wonder Room"
   description: "Attack and SpAtk stats are swapped for 5 turns."
   short_description: "Attack and SpAtk stats are swapped for 5 turns."
   effect: EFFECT_WONDER_ROOM
@@ -7764,7 +7758,7 @@ moves {
 moves {
   id: MOVE_RAGE_POWDER
   name: "Rage Powder"
-  short_name: "RagePowder"
+  short_name: "Rage Powder"
   description: "Scatters powder to make foes attack only the user."
   short_description: "Scatters powder to make foes attack only the user."
   effect: EFFECT_FOLLOW_ME
@@ -7794,7 +7788,7 @@ moves {
 moves {
   id: MOVE_MAGIC_ROOM
   name: "Magic Room"
-  short_name: "MagicRoom"
+  short_name: "Magic Room"
   description: "Hold items lose their effects for 5 turns."
   short_description: "Hold items lose their effects for 5 turns."
   effect: EFFECT_MAGIC_ROOM
@@ -7807,7 +7801,7 @@ moves {
 moves {
   id: MOVE_SMACK_DOWN
   name: "Smack Down"
-  short_name: "SmackDown"
+  short_name: "Smack Down"
   description: "Throws a rock to knock the foe down to the ground."
   short_description: "Throws a rock to knock the foe down to the ground."
   effect: EFFECT_SMACK_DOWN
@@ -7824,7 +7818,7 @@ moves {
 moves {
   id: MOVE_STORM_THROW
   name: "Storm Throw"
-  short_name: "StormThrow"
+  short_name: "Storm Throw"
   description: "This attack always results in a critical hit."
   short_description: "This attack always results in a critical hit."
   split: PHYSICAL
@@ -7840,7 +7834,7 @@ moves {
 moves {
   id: MOVE_FLAME_BURST
   name: "Flame Burst"
-  short_name: "FlameBurst"
+  short_name: "Flame Burst"
   description: "Also hits the foe\'s ally for 1/4 dmg. Has +1 priority."
   short_description: "Also hits the foe\'s ally for 1/4 dmg. Has +1 priority."
   effect: EFFECT_FLAME_BURST
@@ -7858,7 +7852,7 @@ moves {
 moves {
   id: MOVE_SLUDGE_WAVE
   name: "Sludge Wave"
-  short_name: "SludgeWave"
+  short_name: "Sludge Wave"
   description: "Swamps the foe with a wave of sludge. May also poison."
   short_description: "Swamps the foe with a wave of sludge. May also poison."
   effect: EFFECT_POISON_HIT
@@ -7874,7 +7868,7 @@ moves {
 moves {
   id: MOVE_QUIVER_DANCE
   name: "Quiver Dance"
-  short_name: "QuiverDance"
+  short_name: "Quiver Dance"
   description: "Dances to raise Sp. Atk Sp. Def and Speed."
   short_description: "Dances to raise Sp. Atk Sp. Def and Speed."
   effect: EFFECT_QUIVER_DANCE
@@ -7888,7 +7882,7 @@ moves {
 moves {
   id: MOVE_HEAVY_SLAM
   name: "Heavy Slam"
-  short_name: "HeavySlam"
+  short_name: "Heavy Slam"
   description: "Does more damage if the user outweighs the foe."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
@@ -7920,7 +7914,7 @@ moves {
 moves {
   id: MOVE_ELECTRO_BALL
   name: "Electro Ball"
-  short_name: "ElectroBall"
+  short_name: "Electro Ball"
   description: "Hurls an orb that does more damage to slower foes."
   short_description: "Hurls an orb that does more damage to slower foes."
   effect: EFFECT_ELECTRO_BALL
@@ -7951,7 +7945,7 @@ moves {
 moves {
   id: MOVE_FLAME_CHARGE
   name: "Flame Charge"
-  short_name: "FlameCharge"
+  short_name: "Flame Charge"
   description: "Attacks in a cloak of flames. Raises Speed."
   short_description: "Attacks in a cloak of flames. Raises Speed."
   effect: EFFECT_SPEED_UP_HIT
@@ -7981,7 +7975,7 @@ moves {
 moves {
   id: MOVE_LOW_SWEEP
   name: "Low Sweep"
-  short_name: "LowSweep"
+  short_name: "Low Sweep"
   description: "Attacks the foe\'s legs lowering its Speed."
   short_description: "Attacks the foe\'s legs lowering its Speed."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -7998,7 +7992,7 @@ moves {
 moves {
   id: MOVE_ACID_SPRAY
   name: "Acid Spray"
-  short_name: "AcidSpray"
+  short_name: "Acid Spray"
   description: "Sprays a hide-melting acid. Sharply reduces Sp. Def."
   short_description: "Sprays a hide-melting acid. Sharply reduces Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
@@ -8015,7 +8009,7 @@ moves {
 moves {
   id: MOVE_FOUL_PLAY
   name: "Foul Play"
-  short_name: "FoulPlay"
+  short_name: "Foul Play"
   description: "The higher the foe\'s Attack the more damage caused."
   short_description: "The higher the foe\'s Attack the more damage caused."
   effect: EFFECT_FOUL_PLAY
@@ -8031,7 +8025,7 @@ moves {
 moves {
   id: MOVE_SIMPLE_BEAM
   name: "Simple Beam"
-  short_name: "SimpleBeam"
+  short_name: "Simple Beam"
   description: "A beam that changes the foe\'s ability to Simple."
   short_description: "A beam that changes the foe\'s ability to Simple."
   effect: EFFECT_SIMPLE_BEAM
@@ -8061,7 +8055,7 @@ moves {
 moves {
   id: MOVE_AFTER_YOU
   name: "After You"
-  short_name: "AfterYou"
+  short_name: "After You"
   description: "Helps out the foe, letting it move next."
   short_description: "Helps out the foe, letting it move next."
   effect: EFFECT_AFTER_YOU
@@ -8097,7 +8091,7 @@ moves {
 moves {
   id: MOVE_ECHOED_VOICE
   name: "Echoed Voice"
-  short_name: "EchoedVoice"
+  short_name: "Echoed Voice"
   description: "Slices the foe 3 times in a with rising intensity."
   short_description: "Slices the foe 3 times in a with rising intensity."
   effect: EFFECT_TRIPLE_KICK
@@ -8114,7 +8108,7 @@ moves {
 moves {
   id: MOVE_CHIP_AWAY
   name: "Chip Away"
-  short_name: "ChipAway"
+  short_name: "Chip Away"
   description: "Chips away at the foe\'s attack and defense."
   short_description: "Chips away at the foe\'s attack and defense."
   effect: EFFECT_CHIP_AWAY
@@ -8132,7 +8126,7 @@ moves {
 moves {
   id: MOVE_CLEAR_SMOG
   name: "Clear Smog"
-  short_name: "ClearSmog"
+  short_name: "Clear Smog"
   description: "Attacks with white haze that eliminates all stat changes."
   short_description: "Attacks with white haze that eliminates all stat changes."
   effect: EFFECT_CLEAR_SMOG
@@ -8147,7 +8141,7 @@ moves {
 moves {
   id: MOVE_STORED_POWER
   name: "Stored Power"
-  short_name: "StoredPower"
+  short_name: "Stored Power"
   description: "The higher the user\'s stats the more damage caused."
   short_description: "The higher the user\'s stats the more damage caused."
   effect: EFFECT_STORED_POWER
@@ -8162,7 +8156,7 @@ moves {
 moves {
   id: MOVE_QUICK_GUARD
   name: "Quick Guard"
-  short_name: "QuickGuard"
+  short_name: "Quick Guard"
   description: "Protects against priority attacks for 3 turns."
   short_description: "Protects against priority attacks for 3 turns."
   effect: EFFECT_QUICK_GUARD
@@ -8176,7 +8170,7 @@ moves {
 moves {
   id: MOVE_ALLY_SWITCH
   name: "Ally Switch"
-  short_name: "AllySwitch"
+  short_name: "Ally Switch"
   description: "The user switches places with its partner."
   short_description: "The user switches places with its partner."
   effect: EFFECT_ALLY_SWITCH
@@ -8207,7 +8201,7 @@ moves {
 moves {
   id: MOVE_SHELL_SMASH
   name: "Shell Smash"
-  short_name: "ShellSmash"
+  short_name: "Shell Smash"
   description: "Raises offensive stats, but lowers defensive stats."
   short_description: "Raises offensive stats, but lowers defensive stats."
   effect: EFFECT_SHELL_SMASH
@@ -8220,7 +8214,7 @@ moves {
 moves {
   id: MOVE_HEAL_PULSE
   name: "Heal Pulse"
-  short_name: "HealPulse"
+  short_name: "Heal Pulse"
   description: "Recovers up to half the target\'s maximum HP."
   short_description: "Recovers up to half the target\'s maximum HP."
   effect: EFFECT_HEAL_PULSE
@@ -8249,7 +8243,7 @@ moves {
 moves {
   id: MOVE_SKY_DROP
   name: "Sky Drop"
-  short_name: "SkyDrop"
+  short_name: "Sky Drop"
   description: "Takes the foe into the sky then drops it the next turn."
   short_description: "Takes the foe into the sky then drops it the next turn."
   effect: EFFECT_SKY_DROP
@@ -8268,7 +8262,7 @@ moves {
 moves {
   id: MOVE_SHIFT_GEAR
   name: "Shift Gear"
-  short_name: "ShiftGear"
+  short_name: "Shift Gear"
   description: "Rotates its gears to raise Attack and Speed."
   short_description: "Rotates its gears to raise Attack and Speed."
   effect: EFFECT_SHIFT_GEAR
@@ -8281,7 +8275,7 @@ moves {
 moves {
   id: MOVE_CIRCLE_THROW
   name: "Circle Throw"
-  short_name: "CircleThrow"
+  short_name: "Circle Throw"
   description: "Knocks the foe away to end the battle."
   short_description: "Knocks the foe away to end the battle."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -8345,7 +8339,7 @@ moves {
 moves {
   id: MOVE_REFLECT_TYPE
   name: "Reflect Type"
-  short_name: "ReflectType"
+  short_name: "Reflect Type"
   description: "The user reflects the foe\'s type, copying it."
   short_description: "The user reflects the foe\'s type, copying it."
   effect: EFFECT_REFLECT_TYPE
@@ -8375,7 +8369,7 @@ moves {
 moves {
   id: MOVE_FINAL_GAMBIT
   name: "Final Gambit"
-  short_name: "FinalGambit"
+  short_name: "Final Gambit"
   description: "The user faints to damage the foe equal to its HP."
   short_description: "The user faints to damage the foe equal to its HP."
   effect: EFFECT_FINAL_GAMBIT
@@ -8423,7 +8417,7 @@ moves {
 moves {
   id: MOVE_WATER_PLEDGE
   name: "Water Pledge"
-  short_name: "WaterPledge"
+  short_name: "Water Pledge"
   description: "Attacks with a column of water. May make a rainbow."
   short_description: "Attacks with a column of water. May make a rainbow."
   effect: EFFECT_ARGUMENT_HIT
@@ -8447,7 +8441,7 @@ moves {
 moves {
   id: MOVE_FIRE_PLEDGE
   name: "Fire Pledge"
-  short_name: "FirePledge"
+  short_name: "Fire Pledge"
   description: "Attacks with a column of fire. May burn the grass."
   short_description: "Attacks with a column of fire. May burn the grass."
   effect: EFFECT_ARGUMENT_HIT
@@ -8471,7 +8465,7 @@ moves {
 moves {
   id: MOVE_GRASS_PLEDGE
   name: "Grass Pledge"
-  short_name: "GrassPledge"
+  short_name: "Grass Pledge"
   description: "Attacks with a column of grass. May create a swamp."
   short_description: "Attacks with a column of grass. May create a swamp."
   effect: EFFECT_ARGUMENT_HIT
@@ -8495,7 +8489,7 @@ moves {
 moves {
   id: MOVE_VOLT_SWITCH
   name: "Volt Switch"
-  short_name: "VoltSwitch"
+  short_name: "Volt Switch"
   description: "Does damage then switches out the user."
   short_description: "Does damage then switches out the user."
   effect: EFFECT_HIT_ESCAPE
@@ -8510,7 +8504,7 @@ moves {
 moves {
   id: MOVE_STRUGGLE_BUG
   name: "Struggle Bug"
-  short_name: "StruggleBug"
+  short_name: "Struggle Bug"
   description: "Inflicts critical damage when the user\'s HP is low."
   short_description: "Inflicts critical damage when the user\'s HP is low."
   effect: EFFECT_FLAIL
@@ -8541,7 +8535,7 @@ moves {
 moves {
   id: MOVE_FROST_BREATH
   name: "Frost Breath"
-  short_name: "FrostBreath"
+  short_name: "Frost Breath"
   description: "This attack always results in a critical hit."
   short_description: "This attack always results in a critical hit."
   effect: EFFECT_FROSTBITE_HIT
@@ -8558,7 +8552,7 @@ moves {
 moves {
   id: MOVE_DRAGON_TAIL
   name: "Dragon Tail"
-  short_name: "DragonTail"
+  short_name: "Dragon Tail"
   description: "Knocks the foe away to end the battle."
   short_description: "Knocks the foe away to end the battle."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -8575,7 +8569,7 @@ moves {
 moves {
   id: MOVE_WORK_UP
   name: "Work Up"
-  short_name: "WorkUp"
+  short_name: "Work Up"
   description: "The user is roused. Ups Attack and SpAtk"
   short_description: "The user is roused. Ups Attack and SpAtk"
   effect: EFFECT_ATTACK_SPATK_UP
@@ -8604,7 +8598,7 @@ moves {
 moves {
   id: MOVE_WILD_CHARGE
   name: "Wild Charge"
-  short_name: "WildCharge"
+  short_name: "Wild Charge"
   description: "An electrical tackle with 10% paralyze chance."
   short_description: "An electrical tackle with 10% paralyze chance."
   effect: EFFECT_PARALYZE_HIT
@@ -8621,7 +8615,7 @@ moves {
 moves {
   id: MOVE_DRILL_RUN
   name: "Drill Run"
-  short_name: "DrillRun"
+  short_name: "Drill Run"
   description: "Spins its body like a drill. High critical-hit ratio."
   short_description: "Spins its body like a drill. High critical-hit ratio."
   effect: EFFECT_BLEED_HIT
@@ -8640,7 +8634,7 @@ moves {
 moves {
   id: MOVE_DUAL_CHOP
   name: "Dual Chop"
-  short_name: "DualChop"
+  short_name: "Dual Chop"
   description: "Attacks with brutal hits that strike twice."
   short_description: "Attacks with brutal hits that strike twice."
   effect: EFFECT_DOUBLE_HIT
@@ -8659,7 +8653,7 @@ moves {
 moves {
   id: MOVE_HEART_STAMP
   name: "Heart Stamp"
-  short_name: "HeartStamp"
+  short_name: "Heart Stamp"
   description: "A sudden blow after a cute act. May cause flinching."
   short_description: "A sudden blow after a cute act. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -8676,7 +8670,7 @@ moves {
 moves {
   id: MOVE_HORN_LEECH
   name: "Horn Leech"
-  short_name: "HornLeech"
+  short_name: "Horn Leech"
   description: "An attack that absorbs half the damage inflicted."
   short_description: "An attack that absorbs half the damage inflicted."
   effect: EFFECT_ABSORB
@@ -8694,7 +8688,7 @@ moves {
 moves {
   id: MOVE_SACRED_SWORD
   name: "Sacred Sword"
-  short_name: "SacredSword"
+  short_name: "Sacred Sword"
   description: "Strikes through the foe\'s stat changes."
   short_description: "Strikes through the foe\'s stat changes."
   split: PHYSICAL
@@ -8711,7 +8705,7 @@ moves {
 moves {
   id: MOVE_RAZOR_SHELL
   name: "Razor Shell"
-  short_name: "RazorShell"
+  short_name: "Razor Shell"
   description: "Tears at the foe with sharp shells. May lower Defense."
   short_description: "Tears at the foe with sharp shells. May lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -8730,7 +8724,7 @@ moves {
 moves {
   id: MOVE_HEAT_CRASH
   name: "Heat Crash"
-  short_name: "HeatCrash"
+  short_name: "Heat Crash"
   description: "Does more damage if the user outweighs the foe."
   short_description: "Does more damage if the user outweighs the foe."
   effect: EFFECT_HEAT_CRASH
@@ -8746,7 +8740,7 @@ moves {
 moves {
   id: MOVE_LEAF_TORNADO
   name: "Leaf Tornado"
-  short_name: "LeafTornado"
+  short_name: "Leaf Tornado"
   description: "Traps and hurts the foe in a tornado for 2 to 5 turns."
   short_description: "Traps and hurts the foe in a tornado for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -8778,7 +8772,7 @@ moves {
 moves {
   id: MOVE_COTTON_GUARD
   name: "Cotton Guard"
-  short_name: "CottonGuard"
+  short_name: "Cotton Guard"
   description: "Wraps its body in cotton. Drastically raises Defense."
   short_description: "Wraps its body in cotton. Drastically raises Defense."
   effect: EFFECT_DEFENSE_UP_3
@@ -8791,7 +8785,7 @@ moves {
 moves {
   id: MOVE_NIGHT_DAZE
   name: "Night Daze"
-  short_name: "NightDaze"
+  short_name: "Night Daze"
   description: "Looses a pitch-black shock wave. Has +1 priority."
   short_description: "Looses a pitch-black shock wave. Has +1 priority."
   split: SPECIAL
@@ -8821,7 +8815,7 @@ moves {
 moves {
   id: MOVE_TAIL_SLAP
   name: "Tail Slap"
-  short_name: "TailSlap"
+  short_name: "Tail Slap"
   description: "Strikes the foe with its tail 2 to 5 times."
   short_description: "Strikes the foe with its tail 2 to 5 times."
   effect: EFFECT_MULTI_HIT
@@ -8857,7 +8851,7 @@ moves {
 moves {
   id: MOVE_HEAD_CHARGE
   name: "Head Charge"
-  short_name: "HeadCharge"
+  short_name: "Head Charge"
   description: "A charge using guard hair. It hurts the user a little."
   short_description: "A charge using guard hair. It hurts the user a little."
   effect: EFFECT_RECOIL_25
@@ -8874,7 +8868,7 @@ moves {
 moves {
   id: MOVE_GEAR_GRIND
   name: "Gear Grind"
-  short_name: "GearGrind"
+  short_name: "Gear Grind"
   description: "Throws two steel gears that strike twice."
   short_description: "Throws two steel gears that strike twice."
   effect: EFFECT_DOUBLE_HIT
@@ -8891,7 +8885,7 @@ moves {
 moves {
   id: MOVE_SEARING_SHOT
   name: "Searing Shot"
-  short_name: "SearingShot"
+  short_name: "Searing Shot"
   description: "Scarlet flames torch everything around the user."
   short_description: "Scarlet flames torch everything around the user."
   effect: EFFECT_BURN_HIT
@@ -8909,7 +8903,7 @@ moves {
 moves {
   id: MOVE_TECHNO_BLAST
   name: "Techno Blast"
-  short_name: "TechnoBlast"
+  short_name: "Techno Blast"
   description: "The type varies based on the user."
   short_description: "The type varies based on the user."
   effect: EFFECT_HIDDEN_POWER
@@ -8925,7 +8919,7 @@ moves {
 moves {
   id: MOVE_RELIC_SONG
   name: "Relic Song"
-  short_name: "RelicSong"
+  short_name: "Relic Song"
   description: "Attacks with an ancient song. May induce sleep."
   short_description: "Attacks with an ancient song. May induce sleep."
   effect: EFFECT_SLEEP_HIT
@@ -8943,7 +8937,7 @@ moves {
 moves {
   id: MOVE_SECRET_SWORD
   name: "Secret Sword"
-  short_name: "SecretSword"
+  short_name: "Secret Sword"
   description: "Cuts with a long horn that does physical damage."
   short_description: "Cuts with a long horn that does physical damage."
   split: SPECIAL
@@ -8975,7 +8969,7 @@ moves {
 moves {
   id: MOVE_BOLT_STRIKE
   name: "Bolt Strike"
-  short_name: "BoltStrike"
+  short_name: "Bolt Strike"
   description: "Strikes with a great amount of lightning. May paralyze."
   short_description: "Strikes with a great amount of lightning. May paralyze."
   effect: EFFECT_PARALYZE_HIT
@@ -8992,7 +8986,7 @@ moves {
 moves {
   id: MOVE_BLUE_FLARE
   name: "Blue Flare"
-  short_name: "BlueFlare"
+  short_name: "Blue Flare"
   description: "Engulfs the foe in a blue flame. May inflict a burn."
   short_description: "Engulfs the foe in a blue flame. May inflict a burn."
   effect: EFFECT_BURN_HIT
@@ -9008,7 +9002,7 @@ moves {
 moves {
   id: MOVE_FIERY_DANCE
   name: "Fiery Dance"
-  short_name: "FieryDance"
+  short_name: "Fiery Dance"
   description: "Dances cloaked in flames. May raise SpAtk"
   short_description: "Dances cloaked in flames. May raise SpAtk"
   effect: EFFECT_SP_ATTACK_UP_HIT
@@ -9025,7 +9019,7 @@ moves {
 moves {
   id: MOVE_FREEZE_SHOCK
   name: "Freeze Shock"
-  short_name: "FreezeShock"
+  short_name: "Freeze Shock"
   description: "A powerful 2-turn move that may paralyze the foe."
   short_description: "A powerful 2-turn move that may paralyze the foe."
   effect: EFFECT_TWO_TURNS_ATTACK
@@ -9047,7 +9041,7 @@ moves {
 moves {
   id: MOVE_ICE_BURN
   name: "Ice Burn"
-  short_name: "IceBurn"
+  short_name: "Ice Burn"
   description: "A powerful 2-turn move that may inflict a burn."
   short_description: "A powerful 2-turn move that may inflict a burn."
   effect: EFFECT_TWO_TURNS_ATTACK
@@ -9086,7 +9080,7 @@ moves {
 moves {
   id: MOVE_ICICLE_CRASH
   name: "Icicle Crash"
-  short_name: "IcicleCrash"
+  short_name: "Icicle Crash"
   description: "Drops large icicles on the foe. May cause flinching."
   short_description: "Drops large icicles on the foe. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -9119,7 +9113,7 @@ moves {
 moves {
   id: MOVE_FUSION_FLARE
   name: "Fusion Flare"
-  short_name: "FusionFlare"
+  short_name: "Fusion Flare"
   description: "Summons a fireball. Works well with a thunderbolt."
   short_description: "Summons a fireball. Works well with a thunderbolt."
   effect: EFFECT_FUSION_COMBO
@@ -9135,7 +9129,7 @@ moves {
 moves {
   id: MOVE_FUSION_BOLT
   name: "Fusion Bolt"
-  short_name: "FusionBolt"
+  short_name: "Fusion Bolt"
   description: "Summons a thunderbolt. Works well with a fireball."
   short_description: "Summons a thunderbolt. Works well with a fireball."
   effect: EFFECT_FUSION_COMBO
@@ -9150,7 +9144,7 @@ moves {
 moves {
   id: MOVE_FLYING_PRESS
   name: "Flying Press"
-  short_name: "FlyingPress"
+  short_name: "Flying Press"
   description: "This attack does Fighting and Flying-type damage."
   short_description: "This attack does Fighting and Flying-type damage."
   split: PHYSICAL
@@ -9166,7 +9160,7 @@ moves {
 moves {
   id: MOVE_MAT_BLOCK
   name: "Mat Block"
-  short_name: "MatBlock"
+  short_name: "Mat Block"
   description: "Evades damaging moves for one turn."
   short_description: "Evades damaging moves for one turn."
   effect: EFFECT_MAT_BLOCK
@@ -9208,7 +9202,7 @@ moves {
 moves {
   id: MOVE_STICKY_WEB
   name: "Sticky Web"
-  short_name: "StickyWeb"
+  short_name: "Sticky Web"
   description: "Weaves a sticky net that slows foes switching in."
   short_description: "Weaves a sticky net that slows foes switching in."
   effect: EFFECT_STICKY_WEB
@@ -9221,7 +9215,7 @@ moves {
 moves {
   id: MOVE_FELL_STINGER
   name: "Fell Stinger"
-  short_name: "FellStinger"
+  short_name: "Fell Stinger"
   description: "If it knocks out a foe the Attack stat is raised."
   short_description: "If it knocks out a foe the Attack stat is raised."
   effect: EFFECT_FELL_STINGER
@@ -9278,7 +9272,7 @@ moves {
 moves {
   id: MOVE_NOBLE_ROAR
   name: "Noble Roar"
-  short_name: "NobleRoar"
+  short_name: "Noble Roar"
   description: "Intimidates foes, cutting their Attack and SpAtk"
   short_description: "Intimidates foes, cutting their Attack and SpAtk"
   effect: EFFECT_NOBLE_ROAR
@@ -9294,7 +9288,7 @@ moves {
 moves {
   id: MOVE_ION_DELUGE
   name: "Ion Deluge"
-  short_name: "IonDeluge"
+  short_name: "Ion Deluge"
   description: "Electrifies Normal-type moves with charged atoms."
   short_description: "Electrifies Normal-type moves with charged atoms."
   effect: EFFECT_ION_DELUGE
@@ -9387,7 +9381,7 @@ moves {
 moves {
   id: MOVE_PARTING_SHOT
   name: "Parting Shot"
-  short_name: "PartingShot"
+  short_name: "Parting Shot"
   description: "Lowers the foe\'s Attack and Sp. Atk, then switches out."
   short_description: "Lowers the foe\'s Attack and Sp. Atk, then switches out."
   effect: EFFECT_PARTING_SHOT
@@ -9500,7 +9494,7 @@ moves {
 moves {
   id: MOVE_PLAY_ROUGH
   name: "Play Rough"
-  short_name: "PlayRough"
+  short_name: "Play Rough"
   description: "Plays rough with the foe. May lower Attack."
   short_description: "Plays rough with the foe. May lower Attack."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -9517,7 +9511,7 @@ moves {
 moves {
   id: MOVE_FAIRY_WIND
   name: "Fairy Wind"
-  short_name: "FairyWind"
+  short_name: "Fairy Wind"
   description: "Quick cloud of pixie dust. Has +1 priority."
   short_description: "Quick cloud of pixie dust. Has +1 priority."
   split: SPECIAL
@@ -9565,7 +9559,7 @@ moves {
 moves {
   id: MOVE_FAIRY_LOCK
   name: "Fairy Lock"
-  short_name: "FairyLock"
+  short_name: "Fairy Lock"
   description: "Locks down the battlefield preventing escape next turn."
   short_description: "Locks down the battlefield preventing escape next turn."
   effect: EFFECT_FAIRY_LOCK
@@ -9592,7 +9586,7 @@ moves {
 moves {
   id: MOVE_PLAY_NICE
   name: "Play Nice"
-  short_name: "PlayNice"
+  short_name: "Play Nice"
   description: "Befriend the foe, lowering its Attack without fail."
   short_description: "Befriend the foe, lowering its Attack without fail."
   effect: EFFECT_ATTACK_DOWN
@@ -9705,7 +9699,7 @@ moves {
 moves {
   id: MOVE_SPIKY_SHIELD
   name: "Spiky Shield"
-  short_name: "SpikyShield"
+  short_name: "Spiky Shield"
   description: "Evades attack, and causes bleeding if struck."
   short_description: "Evades attack, and causes bleeding if struck."
   effect: EFFECT_PROTECT
@@ -9746,7 +9740,7 @@ moves {
 moves {
   id: MOVE_VENOM_DRENCH
   name: "Venom Drench"
-  short_name: "VenomDrench"
+  short_name: "Venom Drench"
   description: "Lowers the Attack, Sp. Atk and Speed of a poisoned foe."
   short_description: "Lowers the Attack, Sp. Atk and Speed of a poisoned foe."
   effect: EFFECT_VENOM_DRENCH
@@ -9804,7 +9798,7 @@ moves {
 moves {
   id: MOVE_HAPPY_HOUR
   name: "Happy Hour"
-  short_name: "HappyHour"
+  short_name: "Happy Hour"
   description: "Doubles the amount of Prize Money received."
   short_description: "Doubles the amount of Prize Money received."
   effect: EFFECT_DO_NOTHING
@@ -9854,7 +9848,7 @@ moves {
 moves {
   id: MOVE_HOLD_HANDS
   name: "Hold Hands"
-  short_name: "HoldHands"
+  short_name: "Hold Hands"
   description: "The user and ally hold hands making them happy."
   short_description: "The user and ally hold hands making them happy."
   effect: EFFECT_DO_NOTHING
@@ -9899,7 +9893,7 @@ moves {
 moves {
   id: MOVE_HOLD_BACK
   name: "Hold Back"
-  short_name: "HoldBack"
+  short_name: "Hold Back"
   description: "An attack that leaves the foe with at least 1 HP."
   short_description: "An attack that leaves the foe with at least 1 HP."
   effect: EFFECT_FALSE_SWIPE
@@ -10010,7 +10004,7 @@ moves {
 moves {
   id: MOVE_LANDS_WRATH
   name: "Land\'s Wrath"
-  short_name: "Land\'sWrath"
+  short_name: "Land\'s Wrath"
   description: "Gathers the energy of the land to attack every foe."
   short_description: "Gathers the energy of the land to attack every foe."
   effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
@@ -10041,7 +10035,7 @@ moves {
 moves {
   id: MOVE_ORIGIN_PULSE
   name: "Origin Pulse"
-  short_name: "OriginPulse"
+  short_name: "Origin Pulse"
   description: "Beams of glowing blue light blast both foes."
   short_description: "Beams of glowing blue light blast both foes."
   split: SPECIAL
@@ -10106,7 +10100,7 @@ moves {
 moves {
   id: MOVE_SHORE_UP
   name: "Shore Up"
-  short_name: "ShoreUp"
+  short_name: "Shore Up"
   description: "Restores the user\'s HP. More HP in a sandstorm."
   short_description: "Restores the user\'s HP. More HP in a sandstorm."
   effect: EFFECT_SHORE_UP
@@ -10207,7 +10201,7 @@ moves {
 moves {
   id: MOVE_ICE_HAMMER
   name: "Ice Hammer"
-  short_name: "IceHammer"
+  short_name: "Ice Hammer"
   description: "Swings a fist to strike. Deals good, consistent damage."
   short_description: "Swings a fist to strike. Deals good, consistent damage."
   split: PHYSICAL
@@ -10253,7 +10247,7 @@ moves {
 moves {
   id: MOVE_STRENGTH_SAP
   name: "Strength Sap"
-  short_name: "StrengthSap"
+  short_name: "Strength Sap"
   description: "Saps the foe\'s Attack to heal HP, then drops Attack."
   short_description: "Saps the foe\'s Attack to heal HP, then drops Attack."
   effect: EFFECT_STRENGTH_SAP
@@ -10268,7 +10262,7 @@ moves {
 moves {
   id: MOVE_SOLAR_BLADE
   name: "Solar Blade"
-  short_name: "SolarBlade"
+  short_name: "Solar Blade"
   description: "Charges first turn, then chops with a blade of light."
   short_description: "Charges first turn, then chops with a blade of light."
   effect: EFFECT_SOLARBEAM
@@ -10317,7 +10311,7 @@ moves {
 moves {
   id: MOVE_TOXIC_THREAD
   name: "Toxic Thread"
-  short_name: "ToxicThread"
+  short_name: "Toxic Thread"
   description: "Attacks with a thread that poisons and drops Speed."
   short_description: "Attacks with a thread that poisons and drops Speed."
   effect: EFFECT_TOXIC_THREAD
@@ -10332,7 +10326,7 @@ moves {
 moves {
   id: MOVE_LASER_FOCUS
   name: "Laser Focus"
-  short_name: "LaserFocus"
+  short_name: "Laser Focus"
   description: "Guarantees the next move will be a critical hit."
   short_description: "Guarantees the next move will be a critical hit."
   effect: EFFECT_LASER_FOCUS
@@ -10345,7 +10339,7 @@ moves {
 moves {
   id: MOVE_GEAR_UP
   name: "Gear Up"
-  short_name: "GearUp"
+  short_name: "Gear Up"
   description: "Boosts the attacks of those with Plus or Minus."
   short_description: "Boosts the attacks of those with Plus or Minus."
   effect: EFFECT_GEAR_UP
@@ -10358,7 +10352,7 @@ moves {
 moves {
   id: MOVE_THROAT_CHOP
   name: "Throat Chop"
-  short_name: "ThroatChop"
+  short_name: "Throat Chop"
   description: "Chops the throat to disable sound moves for 2 turns."
   short_description: "Chops the throat to disable sound moves for 2 turns."
   effect: EFFECT_THROAT_CHOP
@@ -10374,7 +10368,7 @@ moves {
 moves {
   id: MOVE_POLLEN_PUFF
   name: "Pollen Puff"
-  short_name: "PollenPuff"
+  short_name: "Pollen Puff"
   description: "Explodes on foes, but restores ally\'s HP."
   short_description: "Explodes on foes, but restores ally\'s HP."
   effect: EFFECT_HIT_ENEMY_HEAL_ALLY
@@ -10390,7 +10384,7 @@ moves {
 moves {
   id: MOVE_ANCHOR_SHOT
   name: "Anchor Shot"
-  short_name: "AnchorShot"
+  short_name: "Anchor Shot"
   description: "Strangles the foe with a chain. The foe can\'t switch."
   short_description: "Strangles the foe with a chain. The foe can\'t switch."
   effect: EFFECT_HIT_PREVENT_ESCAPE
@@ -10438,7 +10432,7 @@ moves {
 moves {
   id: MOVE_FIRE_LASH
   name: "Fire Lash"
-  short_name: "FireLash"
+  short_name: "Fire Lash"
   description: "Whips the foe with fire lowering its Defense."
   short_description: "Whips the foe with fire lowering its Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -10455,7 +10449,7 @@ moves {
 moves {
   id: MOVE_POWER_TRIP
   name: "Power Trip"
-  short_name: "PowerTrip"
+  short_name: "Power Trip"
   description: "It hits harder the more stat boosts the user has."
   short_description: "It hits harder the more stat boosts the user has."
   effect: EFFECT_STORED_POWER
@@ -10471,7 +10465,7 @@ moves {
 moves {
   id: MOVE_BURN_UP
   name: "Burn Up"
-  short_name: "BurnUp"
+  short_name: "Burn Up"
   description: "Burns out the user fully removing the Fire type."
   short_description: "Burns out the user fully removing the Fire type."
   effect: EFFECT_BURN_UP
@@ -10488,7 +10482,7 @@ moves {
 moves {
   id: MOVE_SPEED_SWAP
   name: "Speed Swap"
-  short_name: "SpeedSwap"
+  short_name: "Speed Swap"
   description: "Swaps Speed with the foe."
   short_description: "Swaps Speed with the foe."
   effect: EFFECT_SPEED_SWAP
@@ -10501,7 +10495,7 @@ moves {
 moves {
   id: MOVE_SMART_STRIKE
   name: "Smart Strike"
-  short_name: "SmartStrike"
+  short_name: "Smart Strike"
   description: "Hits with an accurate horn that never misses."
   short_description: "Hits with an accurate horn that never misses."
   split: PHYSICAL
@@ -10560,7 +10554,7 @@ moves {
 moves {
   id: MOVE_TROP_KICK
   name: "Trop Kick"
-  short_name: "TropKick"
+  short_name: "Trop Kick"
   description: "An intense kick from the tropics. Lowers Attack."
   short_description: "An intense kick from the tropics. Lowers Attack."
   effect: EFFECT_ATTACK_DOWN_HIT
@@ -10591,7 +10585,7 @@ moves {
 moves {
   id: MOVE_BEAK_BLAST
   name: "Beak Blast"
-  short_name: "BeakBlast"
+  short_name: "Beak Blast"
   description: "Heats up beak to attack. Burns foe on contact."
   short_description: "Heats up beak to attack. Burns foe on contact."
   effect: EFFECT_SCALD
@@ -10639,7 +10633,7 @@ moves {
 moves {
   id: MOVE_BRUTAL_SWING
   name: "Brutal Swing"
-  short_name: "BrutalSwing"
+  short_name: "Brutal Swing"
   description: "Violently swings around to hurt everyone nearby."
   short_description: "Violently swings around to hurt everyone nearby."
   split: PHYSICAL
@@ -10655,7 +10649,7 @@ moves {
 moves {
   id: MOVE_AURORA_VEIL
   name: "Aurora Veil"
-  short_name: "AuroraVeil"
+  short_name: "Aurora Veil"
   description: "Weakens all attacks, but only usable with hail."
   short_description: "Weakens all attacks, but only usable with hail."
   effect: EFFECT_AURORA_VEIL
@@ -10668,7 +10662,7 @@ moves {
 moves {
   id: MOVE_SHELL_TRAP
   name: "Shell Trap"
-  short_name: "ShellTrap"
+  short_name: "Shell Trap"
   description: "Sets a shell trap that damages on contact."
   short_description: "Sets a shell trap that damages on contact."
   effect: EFFECT_SHELL_TRAP
@@ -10686,7 +10680,7 @@ moves {
 moves {
   id: MOVE_FLEUR_CANNON
   name: "Fleur Cannon"
-  short_name: "FleurCannon"
+  short_name: "Fleur Cannon"
   description: "A strong ray that harshly lowers Sp. Attack."
   short_description: "A strong ray that harshly lowers Sp. Attack."
   effect: EFFECT_OVERHEAT
@@ -10736,7 +10730,7 @@ moves {
 moves {
   id: MOVE_SHADOW_BONE
   name: "Shadow Bone"
-  short_name: "ShadowBone"
+  short_name: "Shadow Bone"
   description: "Strikes with a haunted bone. Might drop Defense."
   short_description: "Strikes with a haunted bone. Might drop Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -10854,7 +10848,7 @@ moves {
 moves {
   id: MOVE_TEARFUL_LOOK
   name: "Tearful Look"
-  short_name: "TearfulLook"
+  short_name: "Tearful Look"
   description: "The user tears up, dropping Special Attack."
   short_description: "The user tears up, dropping Special Attack."
   effect: EFFECT_SPECIAL_ATTACK_DOWN
@@ -10869,7 +10863,7 @@ moves {
 moves {
   id: MOVE_ZING_ZAP
   name: "Zing Zap"
-  short_name: "ZingZap"
+  short_name: "Zing Zap"
   description: "An electrified impact that can cause flinching."
   short_description: "An electrified impact that can cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -10922,7 +10916,7 @@ moves {
 moves {
   id: MOVE_MIND_BLOWN
   name: "Mind Blown"
-  short_name: "MindBlown"
+  short_name: "Mind Blown"
   description: "It explodes the user\'s head to damage everything around."
   short_description: "It explodes the user\'s head to damage everything around."
   effect: EFFECT_MIND_BLOWN
@@ -10943,7 +10937,7 @@ moves {
 moves {
   id: MOVE_PLASMA_FISTS
   name: "Plasma Fists"
-  short_name: "PlasmaFists"
+  short_name: "Plasma Fists"
   description: "Hits with electrical fists. Normal moves become Electric."
   short_description: "Hits with electrical fists. Normal moves become Electric."
   effect: EFFECT_PLASMA_FISTS
@@ -10977,7 +10971,7 @@ moves {
 moves {
   id: MOVE_ZIPPY_ZAP
   name: "Zippy Zap"
-  short_name: "ZippyZap"
+  short_name: "Zippy Zap"
   description: "Electric bursts always go first and land a critical hit."
   short_description: "Electric bursts always go first and land a critical hit."
   split: PHYSICAL
@@ -11009,7 +11003,7 @@ moves {
 moves {
   id: MOVE_FLOATY_FALL
   name: "Floaty Fall"
-  short_name: "FloatyFall"
+  short_name: "Floaty Fall"
   description: "Floats in air and dives at angle. May cause flinching."
   short_description: "Floats in air and dives at angle. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -11026,7 +11020,7 @@ moves {
 moves {
   id: MOVE_PIKA_PAPOW
   name: "Pika Papow"
-  short_name: "PikaPapow"
+  short_name: "Pika Papow"
   description: "A reliable and strong Electric type attack. Uses best offense."
   short_description: "A reliable and strong Electric type attack. Uses best offense."
   split: SPECIAL
@@ -11059,7 +11053,7 @@ moves {
 moves {
   id: MOVE_BUZZY_BUZZ
   name: "Buzzy Buzz"
-  short_name: "BuzzyBuzz"
+  short_name: "Buzzy Buzz"
   description: "Shoots a jolt of electricity that always paralyzes."
   short_description: "Shoots a jolt of electricity that always paralyzes."
   effect: EFFECT_PARALYZE_HIT
@@ -11075,7 +11069,7 @@ moves {
 moves {
   id: MOVE_SIZZLY_SLIDE
   name: "Sizzly Slide"
-  short_name: "SizzlySlide"
+  short_name: "Sizzly Slide"
   description: "User cloaked in fire charges. Leaves the foe with a burn."
   short_description: "User cloaked in fire charges. Leaves the foe with a burn."
   effect: EFFECT_BURN_HIT
@@ -11093,7 +11087,7 @@ moves {
 moves {
   id: MOVE_GLITZY_GLOW
   name: "Glitzy Glow"
-  short_name: "GlitzyGlow"
+  short_name: "Glitzy Glow"
   description: "Telekinetic force that sets wall, lowering Sp. Atk damage."
   short_description: "Telekinetic force that sets wall, lowering Sp. Atk damage."
   effect: EFFECT_GLITZY_GLOW
@@ -11108,7 +11102,7 @@ moves {
 moves {
   id: MOVE_BADDY_BAD
   name: "Baddy Bad"
-  short_name: "BaddyBad"
+  short_name: "Baddy Bad"
   description: "Acting badly, attacks. Sets wall, lowering Attack damage."
   short_description: "Acting badly, attacks. Sets wall, lowering Attack damage."
   effect: EFFECT_BADDY_BAD
@@ -11123,7 +11117,7 @@ moves {
 moves {
   id: MOVE_SAPPY_SEED
   name: "Sappy Seed"
-  short_name: "SappySeed"
+  short_name: "Sappy Seed"
   description: "Giant stalk scatters seeds that drain HP every turn."
   short_description: "Giant stalk scatters seeds that drain HP every turn."
   effect: EFFECT_SAPPY_SEED
@@ -11139,7 +11133,7 @@ moves {
 moves {
   id: MOVE_FREEZY_FROST
   name: "Freezy Frost"
-  short_name: "FreezyFrost"
+  short_name: "Freezy Frost"
   description: "Crystal from cold haze hits. Eliminates all stat changes."
   short_description: "Crystal from cold haze hits. Eliminates all stat changes."
   effect: EFFECT_FREEZY_FROST
@@ -11222,7 +11216,7 @@ moves {
 moves {
   id: MOVE_SNIPE_SHOT
   name: "Snipe Shot"
-  short_name: "SnipeShot"
+  short_name: "Snipe Shot"
   description: "The user ignores effects that draw in moves."
   short_description: "The user ignores effects that draw in moves."
   effect: EFFECT_SNIPE_SHOT
@@ -11240,7 +11234,7 @@ moves {
 moves {
   id: MOVE_JAW_LOCK
   name: "Jaw Lock"
-  short_name: "JawLock"
+  short_name: "Jaw Lock"
   description: "Prevents the user and the target from escaping."
   short_description: "Prevents the user and the target from escaping."
   effect: EFFECT_JAW_LOCK
@@ -11257,7 +11251,7 @@ moves {
 moves {
   id: MOVE_STUFF_CHEEKS
   name: "Stuff Cheeks"
-  short_name: "StuffCheeks"
+  short_name: "Stuff Cheeks"
   description: "Consumes the user\'s Berry, then sharply raises Def."
   short_description: "Consumes the user\'s Berry, then sharply raises Def."
   effect: EFFECT_STUFF_CHEEKS
@@ -11270,7 +11264,7 @@ moves {
 moves {
   id: MOVE_NO_RETREAT
   name: "No Retreat"
-  short_name: "NoRetreat"
+  short_name: "No Retreat"
   description: "Raises all of the user\'s stats but prevents escape."
   short_description: "Raises all of the user\'s stats but prevents escape."
   effect: EFFECT_NO_RETREAT
@@ -11283,7 +11277,7 @@ moves {
 moves {
   id: MOVE_TAR_SHOT
   name: "Tar Shot"
-  short_name: "TarShot"
+  short_name: "Tar Shot"
   description: "Lowers the foe\'s Speed and makes it weak to Fire."
   short_description: "Lowers the foe\'s Speed and makes it weak to Fire."
   effect: EFFECT_TAR_SHOT
@@ -11300,7 +11294,7 @@ moves {
 moves {
   id: MOVE_MAGIC_POWDER
   name: "Magic Powder"
-  short_name: "MagicPowder"
+  short_name: "Magic Powder"
   description: "Magic powder changes the target into a Psychic-type."
   short_description: "Magic powder changes the target into a Psychic-type."
   effect: EFFECT_SOAK
@@ -11319,7 +11313,7 @@ moves {
 moves {
   id: MOVE_DRAGON_DARTS
   name: "Dragon Darts"
-  short_name: "DragonDarts"
+  short_name: "Dragon Darts"
   description: "The user attacks twice. Parental Bond boost."
   short_description: "The user attacks twice. Parental Bond boost."
   effect: EFFECT_DOUBLE_HIT
@@ -11362,7 +11356,7 @@ moves {
 moves {
   id: MOVE_BOLT_BEAK
   name: "Bolt Beak"
-  short_name: "BoltBeak"
+  short_name: "Bolt Beak"
   description: "Double power if the user moves before the target."
   short_description: "Double power if the user moves before the target."
   effect: EFFECT_BOLT_BEAK
@@ -11396,7 +11390,7 @@ moves {
 moves {
   id: MOVE_COURT_CHANGE
   name: "Court Change"
-  short_name: "CourtChange"
+  short_name: "Court Change"
   description: "The user swaps effects on either side of the field."
   short_description: "The user swaps effects on either side of the field."
   effect: EFFECT_COURT_CHANGE
@@ -11425,7 +11419,7 @@ moves {
 moves {
   id: MOVE_BODY_PRESS
   name: "Body Press"
-  short_name: "BodyPress"
+  short_name: "Body Press"
   description: "Does more damage the higher the user\'s Def."
   short_description: "Does more damage the higher the user\'s Def."
   effect: EFFECT_BODY_PRESS
@@ -11457,7 +11451,7 @@ moves {
 moves {
   id: MOVE_DRUM_BEATING
   name: "Drum Beating"
-  short_name: "DrumBeating"
+  short_name: "Drum Beating"
   description: "Plays a drum to attack. The foe\'s Speed is lowered."
   short_description: "Plays a drum to attack. The foe\'s Speed is lowered."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -11473,7 +11467,7 @@ moves {
 moves {
   id: MOVE_SNAP_TRAP
   name: "Snap Trap"
-  short_name: "SnapTrap"
+  short_name: "Snap Trap"
   description: "Snares the target in a snap trap for four to five turns."
   short_description: "Snares the target in a snap trap for four to five turns."
   effect: EFFECT_TRAP
@@ -11491,7 +11485,7 @@ moves {
 moves {
   id: MOVE_PYRO_BALL
   name: "Pyro Ball"
-  short_name: "PyroBall"
+  short_name: "Pyro Ball"
   description: "Launches a fiery ball at the target. It may cause a burn."
   short_description: "Launches a fiery ball at the target. It may cause a burn."
   effect: EFFECT_BURN_HIT
@@ -11544,7 +11538,7 @@ moves {
 moves {
   id: MOVE_AURA_WHEEL
   name: "Aura Wheel"
-  short_name: "AuraWheel"
+  short_name: "Aura Wheel"
   description: "Raises Speed to attack. Both Electric- and Dark-type."
   short_description: "Raises Speed to attack. Both Electric- and Dark-type."
   effect: EFFECT_SPEED_UP_HIT
@@ -11580,7 +11574,7 @@ moves {
 moves {
   id: MOVE_BRANCH_POKE
   name: "Branch Poke"
-  short_name: "BranchPoke"
+  short_name: "Branch Poke"
   description: "The user pokes the target with a pointed branch."
   short_description: "The user pokes the target with a pointed branch."
   split: PHYSICAL
@@ -11610,7 +11604,7 @@ moves {
 moves {
   id: MOVE_APPLE_ACID
   name: "Apple Acid"
-  short_name: "AppleAcid"
+  short_name: "Apple Acid"
   description: "Attacks with tart apple acid to lower the foe\'s Sp. Def."
   short_description: "Attacks with tart apple acid to lower the foe\'s Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -11626,7 +11620,7 @@ moves {
 moves {
   id: MOVE_GRAV_APPLE
   name: "Grav Apple"
-  short_name: "GravApple"
+  short_name: "Grav Apple"
   description: "Drops an apple from above. Lowers the foe\'s Defense."
   short_description: "Drops an apple from above. Lowers the foe\'s Defense."
   effect: EFFECT_GRAV_APPLE
@@ -11648,7 +11642,7 @@ moves {
 moves {
   id: MOVE_SPIRIT_BREAK
   name: "Spirit Break"
-  short_name: "SpiritBreak"
+  short_name: "Spirit Break"
   description: "Attacks with spirit-breaking force. Lowers SpAtk"
   short_description: "Attacks with spirit-breaking force. Lowers SpAtk"
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -11681,7 +11675,7 @@ moves {
 moves {
   id: MOVE_LIFE_DEW
   name: "Life Dew"
-  short_name: "LifeDew"
+  short_name: "Life Dew"
   description: "Scatters water to restore the HP of itself and allies."
   short_description: "Scatters water to restore the HP of itself and allies."
   effect: EFFECT_JUNGLE_HEALING
@@ -11755,7 +11749,7 @@ moves {
 moves {
   id: MOVE_STEEL_BEAM
   name: "Steel Beam"
-  short_name: "SteelBeam"
+  short_name: "Steel Beam"
   description: "Fires a beam of steel from its body. It hurts the user."
   short_description: "Fires a beam of steel from its body. It hurts the user."
   effect: EFFECT_STEEL_BEAM
@@ -11787,7 +11781,7 @@ moves {
 moves {
   id: MOVE_STEEL_ROLLER
   name: "Steel Roller"
-  short_name: "SteelRoller"
+  short_name: "Steel Roller"
   description: "Rolls over the opponent while destroying terrain."
   short_description: "Rolls over the opponent while destroying terrain."
   effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
@@ -11804,7 +11798,7 @@ moves {
 moves {
   id: MOVE_SCALE_SHOT
   name: "Scale Shot"
-  short_name: "ScaleShot"
+  short_name: "Scale Shot"
   description: "Shoots scales 2 to 5 times. Ups Speed, lowers defense."
   short_description: "Shoots scales 2 to 5 times. Ups Speed, lowers defense."
   effect: EFFECT_MULTI_HIT
@@ -11828,7 +11822,7 @@ moves {
 moves {
   id: MOVE_METEOR_BEAM
   name: "Meteor Beam"
-  short_name: "MeteorBeam"
+  short_name: "Meteor Beam"
   description: "A 2-turn move that raises Sp. Attack before attacking."
   short_description: "A 2-turn move that raises Sp. Attack before attacking."
   effect: EFFECT_TWO_TURN_SECONDARY
@@ -11885,7 +11879,7 @@ moves {
 moves {
   id: MOVE_GRASSY_GLIDE
   name: "Grassy Glide"
-  short_name: "GrassyGlide"
+  short_name: "Grassy Glide"
   description: "Gliding on ground, hits. Goes first on Grassy Terrain."
   short_description: "Gliding on ground, hits. Goes first on Grassy Terrain."
   effect: EFFECT_GRASSY_GLIDE
@@ -11969,7 +11963,7 @@ moves {
 moves {
   id: MOVE_LASH_OUT
   name: "Lash Out"
-  short_name: "LashOut"
+  short_name: "Lash Out"
   description: "Increases in damage as the user\'s stats are lowered"
   short_description: "Increases in damage as the user\'s stats are lowered"
   effect: EFFECT_LASH_OUT
@@ -12029,7 +12023,7 @@ moves {
 moves {
   id: MOVE_FLIP_TURN
   name: "Flip Turn"
-  short_name: "FlipTurn"
+  short_name: "Flip Turn"
   description: "Attacks and rushes back to switch with a party Pok\303\251mon."
   short_description: "Attacks and rushes back to switch with a party Pok\303\251mon."
   effect: EFFECT_HIT_ESCAPE
@@ -12045,7 +12039,7 @@ moves {
 moves {
   id: MOVE_TRIPLE_AXEL
   name: "Triple Axel"
-  short_name: "TripleAxel"
+  short_name: "Triple Axel"
   description: "A 3-kick attack that gets more powerful with each hit."
   short_description: "A 3-kick attack that gets more powerful with each hit."
   effect: EFFECT_TRIPLE_KICK
@@ -12110,7 +12104,7 @@ moves {
 moves {
   id: MOVE_WICKED_BLOW
   name: "Wicked Blow"
-  short_name: "WickedBlow"
+  short_name: "Wicked Blow"
   description: "Mastering the Dark style, strikes with a critical hit."
   short_description: "Mastering the Dark style, strikes with a critical hit."
   split: PHYSICAL
@@ -12149,7 +12143,7 @@ moves {
 moves {
   id: MOVE_THUNDER_CAGE
   name: "Thunder Cage"
-  short_name: "ThunderCage"
+  short_name: "Thunder Cage"
   description: "Traps the foe in a cage of electricity for 2 to 5 turns."
   short_description: "Traps the foe in a cage of electricity for 2 to 5 turns."
   effect: EFFECT_TRAP
@@ -12197,7 +12191,7 @@ moves {
 moves {
   id: MOVE_FIERY_WRATH
   name: "Fiery Wrath"
-  short_name: "FieryWrath"
+  short_name: "Fiery Wrath"
   description: "An attack fueled by your wrath. May cause flinching."
   short_description: "An attack fueled by your wrath. May cause flinching."
   effect: EFFECT_FLINCH_HIT
@@ -12260,7 +12254,7 @@ moves {
 moves {
   id: MOVE_EERIE_SPELL
   name: "Eerie Spell"
-  short_name: "EerieSpell"
+  short_name: "Eerie Spell"
   description: "Attacks with psychic power. Foe\'s last move has 3 PP cut."
   short_description: "Attacks with psychic power. Foe\'s last move has 3 PP cut."
   effect: EFFECT_EERIE_SPELL
@@ -12317,7 +12311,7 @@ moves {
 moves {
   id: MOVE_AQUA_FANG
   name: "Aqua Fang"
-  short_name: "AquaFang"
+  short_name: "Aqua Fang"
   description: "Has 10% flinch chance. Strong Jaw boost."
   short_description: "Has 10% flinch chance. Strong Jaw boost."
   effect: EFFECT_FLINCH_HIT
@@ -12334,7 +12328,7 @@ moves {
 moves {
   id: MOVE_WAVE_CRASH
   name: "Wave Crash"
-  short_name: "WaveCrash"
+  short_name: "Wave Crash"
   description: "A life-risking tackle that with 33% recoil damage."
   short_description: "A life-risking tackle that with 33% recoil damage."
   effect: EFFECT_RECOIL_33
@@ -12390,7 +12384,7 @@ moves {
 moves {
   id: MOVE_SEISMIC_FIST
   name: "Seismic Fist"
-  short_name: "SeismicFist"
+  short_name: "Seismic Fist"
   description: "A ground-breaking punch. 20% chance to drop Def."
   short_description: "A ground-breaking punch. 20% chance to drop Def."
   effect: EFFECT_DEFENSE_DOWN_HIT
@@ -12408,7 +12402,7 @@ moves {
 moves {
   id: MOVE_IRON_FANGS
   name: "Iron Fangs"
-  short_name: "IronFangs"
+  short_name: "Iron Fangs"
   description: "Chomps with hard fangs. Destroys any barriers."
   short_description: "Chomps with hard fangs. Destroys any barriers."
   effect: EFFECT_BRICK_BREAK
@@ -12425,7 +12419,7 @@ moves {
 moves {
   id: MOVE_SHADOW_FANGS
   name: "Shadow Fangs"
-  short_name: "ShadowFangs"
+  short_name: "Shadow Fangs"
   description: "A bone-chilling bite. 10% curse chance."
   short_description: "A bone-chilling bite. 10% curse chance."
   effect: EFFECT_CURSE_HIT
@@ -12443,7 +12437,7 @@ moves {
 moves {
   id: MOVE_LOVELY_BITE
   name: "Lovely Bite"
-  short_name: "LovelyBite"
+  short_name: "Lovely Bite"
   description: "Bites the foe with love. 10% chance to infatuate."
   short_description: "Bites the foe with love. 10% chance to infatuate."
   effect: EFFECT_ATTRACT_HIT
@@ -12461,7 +12455,7 @@ moves {
 moves {
   id: MOVE_JAGGED_FANGS
   name: "Jagged Fangs"
-  short_name: "JaggedFangs"
+  short_name: "Jagged Fangs"
   description: "Bites aggressively. 10% chance to up Atk."
   short_description: "Bites aggressively. 10% chance to up Atk."
   effect: EFFECT_ATTACK_UP_HIT
@@ -12496,7 +12490,7 @@ moves {
 moves {
   id: MOVE_RAGING_FURY
   name: "Raging Fury"
-  short_name: "RagingFury"
+  short_name: "Raging Fury"
   description: "A rampage of 2 to 3 turns that confuses the user."
   short_description: "A rampage of 2 to 3 turns that confuses the user."
   effect: EFFECT_RAMPAGE
@@ -12513,7 +12507,7 @@ moves {
 moves {
   id: MOVE_PLASMA_PULSE
   name: "Plasma Pulse"
-  short_name: "PlasmaPulse"
+  short_name: "Plasma Pulse"
   description: "Double damage to foes with status problems."
   short_description: "Double damage to foes with status problems."
   effect: EFFECT_HEX
@@ -12535,7 +12529,7 @@ moves {
 moves {
   id: MOVE_PRIMAL_BEAM
   name: "Primal Beam"
-  short_name: "PrimalBeam"
+  short_name: "Primal Beam"
   description: "An strange beam that uses the user\'s Attack, may rise it."
   short_description: "An strange beam that uses the user\'s Attack, may rise it."
   effect: EFFECT_ATTACK_UP_HIT
@@ -12570,7 +12564,7 @@ moves {
 moves {
   id: MOVE_PIXIE_BEAM
   name: "Pixie Beam"
-  short_name: "PixieBeam"
+  short_name: "Pixie Beam"
   description: "A powerfull magic beam 30% chance to drop user SpAtk."
   short_description: "A powerfull magic beam 30% chance to drop user SpAtk."
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
@@ -12587,7 +12581,7 @@ moves {
 moves {
   id: MOVE_PIXIE_SLASH
   name: "Pixie Slash"
-  short_name: "PixieSlash"
+  short_name: "Pixie Slash"
   description: "The foe is slashed with a whimsical blade. High Crit ratio."
   short_description: "The foe is slashed with a whimsical blade. High Crit ratio."
   split: PHYSICAL
@@ -12638,7 +12632,7 @@ moves {
 moves {
   id: MOVE_ARCHER_SHOT
   name: "Archer Shot"
-  short_name: "ArcherShot"
+  short_name: "Archer Shot"
   description: "Shoots a dead center arrow at the target. Archer boost."
   short_description: "Shoots a dead center arrow at the target. Archer boost."
   split: PHYSICAL
@@ -12653,7 +12647,7 @@ moves {
 moves {
   id: MOVE_FROST_BRAND
   name: "Frost Brand"
-  short_name: "FrostBrand"
+  short_name: "Frost Brand"
   description: "The foe is slashed with an icy blade. 10% chance to inflict frostbite."
   short_description: "The foe is slashed with an icy blade. 10% chance to inflict frostbite."
   effect: EFFECT_FROSTBITE_HIT
@@ -12670,7 +12664,7 @@ moves {
 moves {
   id: MOVE_FROST_BOLT
   name: "Frost Bolt"
-  short_name: "FrostBolt"
+  short_name: "Frost Bolt"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_FROSTBITE_HIT
@@ -12719,7 +12713,7 @@ moves {
 moves {
   id: MOVE_ZEPHYR_RUSH
   name: "Zephyr Rush"
-  short_name: "ZephyrRush"
+  short_name: "Zephyr Rush"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_RECOIL_IF_MISS
@@ -12738,7 +12732,7 @@ moves {
 moves {
   id: MOVE_SHOCKING_JAB
   name: "Shocking Jab"
-  short_name: "ShockJab"
+  short_name: "Shocking Jab"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_PARALYZE_HIT
@@ -12792,7 +12786,7 @@ moves {
 moves {
   id: MOVE_VOLT_BOLT
   name: "Volt Bolt"
-  short_name: "VoltBolt"
+  short_name: "Volt Bolt"
   description: "Not done yet."
   short_description: "Not done yet."
   split: PHYSICAL
@@ -12859,7 +12853,7 @@ moves {
 moves {
   id: MOVE_JAGGED_PUNCH
   name: "Jagged Punch"
-  short_name: "JaggedPunch"
+  short_name: "Jagged Punch"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_STEALTH_ROCK_HIT
@@ -12877,7 +12871,7 @@ moves {
 moves {
   id: MOVE_CUTSIE_SLAP
   name: "Cutsie Slap"
-  short_name: "CutsieSlap"
+  short_name: "Cutsie Slap"
   description: "Slaps the foe cutely. May cause infatuation."
   short_description: "Slaps the foe cutely. May cause infatuation."
   effect: EFFECT_ATTRACT_HIT
@@ -12946,7 +12940,7 @@ moves {
 moves {
   id: MOVE_AQUA_BASH
   name: "Aqua Bash"
-  short_name: "AquaBash"
+  short_name: "Aqua Bash"
   description: "A mystical jab strikes the foe. 20% flinch chance."
   short_description: "A mystical jab strikes the foe. 20% flinch chance."
   effect: EFFECT_FLINCH_HIT
@@ -12982,7 +12976,7 @@ moves {
 moves {
   id: MOVE_CUPID_SHOT
   name: "Cupid Shot"
-  short_name: "CupidShot"
+  short_name: "Cupid Shot"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_ATTRACT_HIT
@@ -12999,7 +12993,7 @@ moves {
 moves {
   id: MOVE_CLAY_DART
   name: "Clay Dart"
-  short_name: "ClayDart"
+  short_name: "Clay Dart"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -13052,7 +13046,7 @@ moves {
 moves {
   id: MOVE_VENOM_BOLT
   name: "Venom Bolt"
-  short_name: "VenomBolt"
+  short_name: "Venom Bolt"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_POISON_HIT
@@ -13089,7 +13083,7 @@ moves {
 moves {
   id: MOVE_BLACK_MAGIC
   name: "Black Magic"
-  short_name: "BlackMagic"
+  short_name: "Black Magic"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_BLEED_HIT
@@ -13107,7 +13101,7 @@ moves {
 moves {
   id: MOVE_FLAME_TONGUE
   name: "Flame Tongue"
-  short_name: "FlameTongue"
+  short_name: "Flame Tongue"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_BURN_HIT
@@ -13143,7 +13137,7 @@ moves {
 moves {
   id: MOVE_ROCKET_PUNCH
   name: "Rocket Shot"
-  short_name: "RocketShot"
+  short_name: "Rocket Shot"
   description: "Not done yet."
   short_description: "Not done yet."
   split: PHYSICAL
@@ -13159,7 +13153,7 @@ moves {
 moves {
   id: MOVE_WEB_SHOT
   name: "Web Shot"
-  short_name: "WebShot"
+  short_name: "Web Shot"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_STICKY_WEB_HIT
@@ -13177,7 +13171,7 @@ moves {
 moves {
   id: MOVE_AURA_FORCE
   name: "Aura Force"
-  short_name: "AuraForce"
+  short_name: "Aura Force"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -13212,7 +13206,7 @@ moves {
 moves {
   id: MOVE_LOTUS_SHOWER
   name: "Lotus Shower"
-  short_name: "LotusShower"
+  short_name: "Lotus Shower"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_SLEEP_HIT
@@ -13229,7 +13223,7 @@ moves {
 moves {
   id: MOVE_JAGGED_HORNS
   name: "Jagged Horns"
-  short_name: "JaggedHorns"
+  short_name: "Jagged Horns"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_FLINCH_STATUS
@@ -13252,7 +13246,7 @@ moves {
 moves {
   id: MOVE_BLOOD_SHOT
   name: "Blood Shot"
-  short_name: "BloodShot"
+  short_name: "Blood Shot"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_BLEED
@@ -13267,7 +13261,7 @@ moves {
 moves {
   id: MOVE_FLASH_FREEZE
   name: "Flash Freeze"
-  short_name: "FlashFreeze"
+  short_name: "Flash Freeze"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_FROSTBITE
@@ -13355,7 +13349,7 @@ moves {
 moves {
   id: MOVE_DEVIOUS_SHOT
   name: "Devious Shot"
-  short_name: "DeviousShot"
+  short_name: "Devious Shot"
   description: "Not done yet."
   short_description: "Not done yet."
   effect: EFFECT_BLEED_HIT
@@ -13389,7 +13383,7 @@ moves {
 moves {
   id: MOVE_CHEAP_SHOT
   name: "Cheap Shot"
-  short_name: "CheapShot"
+  short_name: "Cheap Shot"
   description: "The user sneaks into the shadows, then attacks. Mega Launcher boost."
   short_description: "The user sneaks into the shadows, then attacks. Mega Launcher boost."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -13406,7 +13400,7 @@ moves {
 moves {
   id: MOVE_TORRENT_FIST
   name: "Torrent Fist"
-  short_name: "TorrentFist"
+  short_name: "Torrent Fist"
   description: "20% chance to drop speed. Iron Fist boost."
   short_description: "20% chance to drop speed. Iron Fist boost."
   effect: EFFECT_SPEED_DOWN_HIT
@@ -13423,7 +13417,7 @@ moves {
 moves {
   id: MOVE_STAR_CRASH
   name: "Star Crash"
-  short_name: "StarCrash"
+  short_name: "Star Crash"
   description: "33% recoil damage."
   short_description: "33% recoil damage."
   effect: EFFECT_RECOIL_33
@@ -13440,7 +13434,7 @@ moves {
 moves {
   id: MOVE_STONE_AXE
   name: "Stone Axe"
-  short_name: "StoneAxe"
+  short_name: "Stone Axe"
   description: "Deals damage and sets stealth rock. Keen edge."
   short_description: "Deals damage and sets stealth rock. Keen edge."
   effect: EFFECT_STEALTH_ROCK_HIT
@@ -13458,7 +13452,7 @@ moves {
 moves {
   id: MOVE_ENERGY_WAVE
   name: "Energy Wave"
-  short_name: "EnergyWave"
+  short_name: "Energy Wave"
   description: "Deals damage."
   short_description: "Deals damage."
   split: SPECIAL
@@ -13536,7 +13530,7 @@ moves {
 moves {
   id: MOVE_MIND_BREAK
   name: "Mind Break"
-  short_name: "MindBreak"
+  short_name: "Mind Break"
   description: "20% confuse chance."
   short_description: "20% confuse chance."
   effect: EFFECT_CONFUSE_HIT
@@ -13552,7 +13546,7 @@ moves {
 moves {
   id: MOVE_WYRM_WIND
   name: "Wyrm Wind"
-  short_name: "WyrmWind"
+  short_name: "Wyrm Wind"
   description: "Hits 2-5 times. Drops SpDef, raises Speed."
   short_description: "Hits 2-5 times. Drops SpDef, raises Speed."
   effect: EFFECT_MULTI_HIT
@@ -13576,7 +13570,7 @@ moves {
 moves {
   id: MOVE_SHED_TAIL
   name: "Shed Tail"
-  short_name: "ShedTail"
+  short_name: "Shed Tail"
   description: "Uses 50% HP to create substitute and switch out."
   short_description: "Uses 50% HP to create substitute and switch out."
   effect: EFFECT_SHED_TAIL
@@ -13588,7 +13582,7 @@ moves {
 moves {
   id: MOVE_BERRY_SMASH
   name: "Berry Smash"
-  short_name: "BerrySmash"
+  short_name: "Berry Smash"
   description: "Deals damage. User eats their berry."
   short_description: "Deals damage. User eats their berry."
   effect: EFFECT_BERRY_SMASH
@@ -13605,7 +13599,7 @@ moves {
 moves {
   id: MOVE_HYDRO_STEAM
   name: "Hydro Steam"
-  short_name: "HydroSteam"
+  short_name: "Hydro Steam"
   description: "The user blasts the target with boiling-hot water. Boosted by the sun."
   short_description: "The user blasts the target with boiling-hot water. Boosted by the sun."
   effect: EFFECT_WEATHER_BOOST
@@ -13670,7 +13664,7 @@ moves {
 moves {
   id: MOVE_LEECH_BLADE
   name: "Leech Blade"
-  short_name: "LeechBlade"
+  short_name: "Leech Blade"
   description: "Heals 50% damage done."
   short_description: "Heals 50% damage done."
   effect: EFFECT_ABSORB
@@ -13703,7 +13697,7 @@ moves {
 moves {
   id: MOVE_DRAIN_BRAIN
   name: "Drain Brain"
-  short_name: "BrainDrain"
+  short_name: "Drain Brain"
   description: "Lowers targets SpAtk. Heals that much HP."
   short_description: "Lowers targets SpAtk. Heals that much HP."
   effect: EFFECT_DRAIN_BRAIN
@@ -13735,7 +13729,7 @@ moves {
 moves {
   id: MOVE_ESPER_WING
   name: "Esper Wing"
-  short_name: "EsperWing"
+  short_name: "Esper Wing"
   description: "Deals damage. Drains 50% hp."
   short_description: "Deals damage. Drains 50% hp."
   effect: EFFECT_ABSORB
@@ -13754,7 +13748,7 @@ moves {
 moves {
   id: MOVE_MORTAL_SPIN
   name: "Mortal Spin"
-  short_name: "MortalSpin"
+  short_name: "Mortal Spin"
   description: "Deals damage. Removes hazards. Poisons targets."
   short_description: "Deals damage. Removes hazards. Poisons targets."
   effect: EFFECT_MORTAL_SPIN
@@ -13775,7 +13769,7 @@ moves {
 moves {
   id: MOVE_GEM_MISSILE
   name: "Gem Missile"
-  short_name: "GemMissile"
+  short_name: "Gem Missile"
   description: "+1 priority."
   short_description: "+1 priority."
   split: SPECIAL
@@ -13790,7 +13784,7 @@ moves {
 moves {
   id: MOVE_RIDER_KICK
   name: "Rider Kick"
-  short_name: "RiderKick"
+  short_name: "Rider Kick"
   description: "Deals damage that can\'t miss. Ignores target ability."
   short_description: "Deals damage that can\'t miss. Ignores target ability."
   split: PHYSICAL
@@ -13806,7 +13800,7 @@ moves {
 moves {
   id: MOVE_AQUA_CUTTER
   name: "Aqua Cutter"
-  short_name: "AquaCutter"
+  short_name: "Aqua Cutter"
   description: "20% chance to bleed. High-crit."
   short_description: "20% chance to bleed. High-crit."
   effect: EFFECT_BLEED_HIT
@@ -13824,7 +13818,7 @@ moves {
 moves {
   id: MOVE_INVERSE_ROOM
   name: "Inverse Room"
-  short_name: "InverseRoom"
+  short_name: "Inverse Room"
   description: "Reverses type matchups for 5 turns."
   short_description: "Reverses type matchups for 5 turns."
   effect: EFFECT_INVERSE_ROOM
@@ -13837,7 +13831,7 @@ moves {
 moves {
   id: MOVE_BLAZING_BONE
   name: "Blazing Bone"
-  short_name: "BlazingBone"
+  short_name: "Blazing Bone"
   description: "Hits 2-5 times. +1 priority."
   short_description: "Hits 2-5 times. +1 priority."
   effect: EFFECT_MULTI_HIT
@@ -13885,7 +13879,7 @@ moves {
 moves {
   id: MOVE_GHASTLY_ECHO
   name: "Ghastly Echo"
-  short_name: "GhastlyEcho"
+  short_name: "Ghastly Echo"
   description: "Deals damage and switches out. New battler does 50% more damage for first turn."
   short_description: "Deals damage and switches out. New battler does 50% more damage for first turn."
   effect: EFFECT_GHASTLY_ECHO
@@ -13913,7 +13907,7 @@ moves {
 moves {
   id: MOVE_ICE_SPINNER
   name: "Ice Spinner"
-  short_name: "IceSpinner"
+  short_name: "Ice Spinner"
   description: "Deals damage and removes terrain."
   short_description: "Deals damage and removes terrain."
   effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
@@ -13931,7 +13925,7 @@ moves {
 moves {
   id: MOVE_TIDY_UP
   name: "Tidy Up"
-  short_name: "TidyUp"
+  short_name: "Tidy Up"
   description: "Removes hazards. Boosts Atk and Speed."
   short_description: "Removes hazards. Boosts Atk and Speed."
   effect: EFFECT_TIDY_UP
@@ -13960,7 +13954,7 @@ moves {
 moves {
   id: MOVE_RAGING_SOULS
   name: "Raging Souls"
-  short_name: "RagingSouls"
+  short_name: "Raging Souls"
   description: "Sharply lowers user\'s SpAtk."
   short_description: "Sharply lowers user\'s SpAtk."
   effect: EFFECT_OVERHEAT
@@ -13976,7 +13970,7 @@ moves {
 moves {
   id: MOVE_TWIN_BEAM
   name: "Twin Beam"
-  short_name: "TwinBeam"
+  short_name: "Twin Beam"
   description: "Hits twice."
   short_description: "Hits twice."
   effect: EFFECT_DOUBLE_HIT
@@ -14010,7 +14004,7 @@ moves {
 moves {
   id: MOVE_ARMOR_CANNON
   name: "Armor Cannon"
-  short_name: "ArmorCannon"
+  short_name: "Armor Cannon"
   description: "Lowers user\'s Atk and Def."
   short_description: "Lowers user\'s Atk and Def."
   effect: EFFECT_CLOSE_COMBAT
@@ -14027,7 +14021,7 @@ moves {
 moves {
   id: MOVE_BITTER_BLADE
   name: "Bitter Blade"
-  short_name: "BitterBlade"
+  short_name: "Bitter Blade"
   description: "Heals 50% damage done."
   short_description: "Heals 50% damage done."
   effect: EFFECT_ABSORB
@@ -14044,7 +14038,7 @@ moves {
 moves {
   id: MOVE_SOIL_DRAIN
   name: "Soil Drain"
-  short_name: "SoilDrain"
+  short_name: "Soil Drain"
   description: "Heals 50% damage done."
   short_description: "Heals 50% damage done."
   effect: EFFECT_ABSORB
@@ -14079,7 +14073,7 @@ moves {
 moves {
   id: MOVE_TRIPLE_DIVE
   name: "Triple Dive"
-  short_name: "TripleDive"
+  short_name: "Triple Dive"
   description: "Hits 3 times."
   short_description: "Hits 3 times."
   effect: EFFECT_TRIPLE_KICK
@@ -14099,7 +14093,7 @@ moves {
 moves {
   id: MOVE_JET_PUNCH
   name: "Jet Punch"
-  short_name: "JetPunch"
+  short_name: "Jet Punch"
   description: "+1 priority."
   short_description: "+1 priority."
   split: PHYSICAL
@@ -14116,7 +14110,7 @@ moves {
 moves {
   id: MOVE_RAGE_FIST
   name: "Rage Fist"
-  short_name: "RageFist"
+  short_name: "Rage Fist"
   description: "+20 base power per time damaged."
   short_description: "+20 base power per time damaged."
   effect: EFFECT_MISC_HIT
@@ -14237,7 +14231,7 @@ moves {
 moves {
   id: MOVE_FLOWER_TRICK
   name: "Flower Trick"
-  short_name: "FlowerTrick"
+  short_name: "Flower Trick"
   description: "Can\'t miss. Always crits."
   short_description: "Can\'t miss. Always crits."
   effect: EFFECT_MISC_HIT
@@ -14253,7 +14247,7 @@ moves {
 moves {
   id: MOVE_AQUA_STEP
   name: "Aqua Step"
-  short_name: "AquaStep"
+  short_name: "Aqua Step"
   description: "Deals damage. Raises speed."
   short_description: "Deals damage. Raises speed."
   effect: EFFECT_SPEED_UP_HIT
@@ -14271,7 +14265,7 @@ moves {
 moves {
   id: MOVE_TORCH_SONG
   name: "Torch Song"
-  short_name: "TorchSong"
+  short_name: "Torch Song"
   description: "Deals damage. Raises SpAtk."
   short_description: "Deals damage. Raises SpAtk."
   effect: EFFECT_SPECIAL_ATTACK_UP_HIT
@@ -14288,7 +14282,7 @@ moves {
 moves {
   id: MOVE_GLAIVE_RUSH
   name: "Glaive Rush"
-  short_name: "GlaiveRush"
+  short_name: "Glaive Rush"
   description: "Deals damage. User takes double damage for rest of turn."
   short_description: "Deals damage. User takes double damage for rest of turn."
   effect: EFFECT_ARGUMENT_HIT
@@ -14312,7 +14306,7 @@ moves {
 moves {
   id: MOVE_SILK_TRAP
   name: "Silk Trap"
-  short_name: "SilkTrap"
+  short_name: "Silk Trap"
   description: "The user spins a silken trap protects and lowers target speed"
   short_description: "The user spins a silken trap protects and lowers target speed"
   effect: EFFECT_PROTECT
@@ -14344,7 +14338,7 @@ moves {
 moves {
   id: MOVE_LUMINA_CRASH
   name: "Lumina Crash"
-  short_name: "LuminaCrash"
+  short_name: "Lumina Crash"
   description: "The user attacks by unleashing a peculiar light harshly lowers the target\'s Sp. Def stat."
   short_description: "The user attacks by unleashing a peculiar light harshly lowers the target\'s Sp. Def stat."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
@@ -14360,7 +14354,7 @@ moves {
 moves {
   id: MOVE_ORDER_UP
   name: "Order Up"
-  short_name: "OrderUp"
+  short_name: "Order Up"
   description: "The user attacks with elegant poise Boosts stat with Tatsugiri."
   short_description: "The user attacks with elegant poise Boosts stat with Tatsugiri."
   effect: EFFECT_ARGUMENT_HIT
@@ -14402,7 +14396,7 @@ moves {
 moves {
   id: MOVE_SPIN_OUT
   name: "Spin Out"
-  short_name: "SpinOut"
+  short_name: "Spin Out"
   description: "The user spins furiously by straining its legs. Inflicta damage and lowers speed"
   short_description: "The user spins furiously by straining its legs. Inflicta damage and lowers speed"
   effect: EFFECT_ARGUMENT_HIT
@@ -14427,7 +14421,7 @@ moves {
 moves {
   id: MOVE_SALT_CURE
   name: "Salt Cure"
-  short_name: "SaltCure"
+  short_name: "Salt Cure"
   description: "The user salt cures the target, inflicting damage every turn."
   short_description: "The user salt cures the target, inflicting damage every turn."
   effect: EFFECT_ARGUMENT_HIT
@@ -14463,7 +14457,7 @@ moves {
 moves {
   id: MOVE_FILLET_AWAY
   name: "Fillet Away"
-  short_name: "FilletAway"
+  short_name: "Fillet Away"
   description: "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
   short_description: "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
   effect: EFFECT_FILLET_AWAY
@@ -14476,7 +14470,7 @@ moves {
 moves {
   id: MOVE_RAGING_BULL
   name: "Raging Bull"
-  short_name: "RagingBull"
+  short_name: "Raging Bull"
   description: "The user performs a tackle like a raging bull. Break\'s barriers, such as Light Screen and Reflect."
   short_description: "The user performs a tackle like a raging bull. Break\'s barriers, such as Light Screen and Reflect."
   effect: EFFECT_BRICK_BREAK
@@ -14492,7 +14486,7 @@ moves {
 moves {
   id: MOVE_MAKE_IT_RAIN
   name: "Make It Rain"
-  short_name: "MakeItRain"
+  short_name: "Make It Rain"
   description: "The user attacks by throwing out a mass of coins Lower\'s user SPA"
   short_description: "The user attacks by throwing out a mass of coins Lower\'s user SPA"
   effect: EFFECT_ARGUMENT_HIT
@@ -14624,7 +14618,7 @@ moves {
 moves {
   id: MOVE_HYPER_DRILL
   name: "Hyper Drill"
-  short_name: "HyperDrill"
+  short_name: "Hyper Drill"
   description: "Spins and pierces the target Hits through protect."
   short_description: "Spins and pierces the target Hits through protect."
   split: PHYSICAL
@@ -14641,7 +14635,7 @@ moves {
 moves {
   id: MOVE_DOUBLE_SHOCK
   name: "Double Shock"
-  short_name: "DoubleShock"
+  short_name: "Double Shock"
   description: "The user discharges all the electricity After attacking, no longer will the user be Electric."
   short_description: "The user discharges all the electricity After attacking, no longer will the user be Electric."
   effect: EFFECT_BURN_UP
@@ -14669,12 +14663,11 @@ moves {
   pp: 10
   priority: -5
   mirror_move_affected: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_BLOOD_MOON
   name: "Blood Moon"
-  short_name: "BloodMoon"
+  short_name: "Blood Moon"
   description: "The user unleashes the spirit from a full red moon This move can\'t be used twice in a row."
   short_description: "The user unleashes the spirit from a full red moon This move can\'t be used twice in a row."
   split: SPECIAL
@@ -14690,7 +14683,7 @@ moves {
 moves {
   id: MOVE_AXE_KICK
   name: "Axe Kick"
-  short_name: "AxeKick"
+  short_name: "Axe Kick"
   description: "The user attacks by kicking May cause confusion and hurts when missing."
   short_description: "The user attacks by kicking May cause confusion and hurts when missing."
   effect: EFFECT_RECOIL_IF_MISS
@@ -14714,7 +14707,7 @@ moves {
 moves {
   id: MOVE_BARB_BARRAGE
   name: "Barb Barrage"
-  short_name: "BarbBarrage"
+  short_name: "Barb Barrage"
   description: "The user launches countless toxic barbs 30% chance to poison"
   short_description: "The user launches countless toxic barbs 30% chance to poison"
   effect: EFFECT_INFERNAL_PARADE
@@ -14783,7 +14776,7 @@ moves {
 moves {
   id: MOVE_SYRUP_BOMB
   name: "Syrup Bomb"
-  short_name: "SyrupBomb"
+  short_name: "Syrup Bomb"
   description: "an explosion of sticky candy syrup. 3 turns of speed reductions by -1"
   short_description: "an explosion of sticky candy syrup. 3 turns of speed reductions by -1"
   effect: EFFECT_ARGUMENT_HIT
@@ -14806,7 +14799,7 @@ moves {
 moves {
   id: MOVE_IVY_CUDGEL
   name: "Ivy Cudgel"
-  short_name: "IvyCudgel"
+  short_name: "Ivy Cudgel"
   description: "The user strikes with an ivy-wrapped cudgel. type changes depending on the mask. +1 crit"
   short_description: "The user strikes with an ivy-wrapped cudgel. type changes depending on the mask. +1 crit"
   effect: EFFECT_SYNCHRONOISE
@@ -14826,7 +14819,7 @@ moves {
 moves {
   id: MOVE_ELECTRO_SHOT
   name: "Electro Shot"
-  short_name: "ElectroShot"
+  short_name: "Electro Shot"
   description: "gathers electricity for a high-voltage shot. +1 SPA"
   short_description: "gathers electricity for a high-voltage shot. +1 SPA"
   effect: EFFECT_ELECTRO_SHOT
@@ -14844,7 +14837,7 @@ moves {
 moves {
   id: MOVE_FICKLE_BEAM
   name: "Fickle Beam"
-  short_name: "FickleBeam"
+  short_name: "Fickle Beam"
   description: "Shoots a beam of light to inflict damage. 30% chance to double damage when there are more heads"
   short_description: "Shoots a beam of light to inflict damage. 30% chance to double damage when there are more heads"
   effect: EFFECT_MISC_HIT
@@ -14911,7 +14904,7 @@ moves {
 moves {
   id: MOVE_HARD_PRESS
   name: "Hard Press"
-  short_name: "HardPress"
+  short_name: "Hard Press"
   description: "Crushes quicker foes, nullifying their ability."
   short_description: "Crushes quicker foes, nullifying their ability."
   effect: EFFECT_CORE_ENFORCER
@@ -14927,7 +14920,7 @@ moves {
 moves {
   id: MOVE_DRAGON_CHEER
   name: "Dragon Cheer"
-  short_name: "DragonCheer"
+  short_name: "Dragon Cheer"
   description: "Raises crit by one stage for all allies. +2 if DRAGON"
   short_description: "Raises crit by one stage for all allies. +2 if DRAGON"
   effect: EFFECT_DRAGON_CHEER
@@ -14979,7 +14972,7 @@ moves {
 moves {
   id: MOVE_TEMPER_FLARE
   name: "Temper Flare"
-  short_name: "TemperFlare"
+  short_name: "Temper Flare"
   description: "Attacks desperately, Doubles dmg if it missed the previous turn"
   short_description: "Attacks desperately, Doubles dmg if it missed the previous turn"
   effect: EFFECT_STOMPING_TANTRUM
@@ -15034,7 +15027,7 @@ moves {
 moves {
   id: MOVE_UPPER_HAND
   name: "Upper Hand"
-  short_name: "UpperHand"
+  short_name: "Upper Hand"
   description: "Deals damage and flinches if the target uses a prio. move."
   short_description: "Deals damage and flinches if the target uses a prio. move."
   effect: EFFECT_UPPER_HAND
@@ -15226,7 +15219,7 @@ moves {
 moves {
   id: MOVE_DIRE_CLAW
   name: "Dire Claw"
-  short_name: "DireClaw"
+  short_name: "Dire Claw"
   description: "Deals damage and has a 50% chance to poison, paralyze, or bleed the target."
   short_description: "Deals damage and has a 50% chance to poison, paralyze, or bleed the target."
   effect: EFFECT_ARGUMENT_HIT
@@ -15262,7 +15255,7 @@ moves {
 moves {
   id: MOVE_WILD_SWING
   name: "Wild Swing"
-  short_name: "WildSwing"
+  short_name: "Wild Swing"
   description: "The user swings their weapon so hard that it sends the target back into its pokeball and forces out another pokemon in its place."
   short_description: "The user swings their weapon so hard that it sends the target back into its pokeball and forces out another pokemon in its place."
   effect: EFFECT_HIT_SWITCH_TARGET
@@ -15358,7 +15351,6 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   ignores_protect: true
-  no_kings_rock: true
   hammer: true
 }
 moves {
@@ -15382,7 +15374,7 @@ moves {
 moves {
   id: MOVE_CRACKLE_SLAM
   name: "Crackle Slam"
-  short_name: "CrackleSlam"
+  short_name: "Crackle Slam"
   description: "Attacks with an electrically charged weapon. Super effective against Steel types."
   short_description: "Attacks with an electrically charged weapon. Super effective against Steel types."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
@@ -15479,7 +15471,7 @@ moves {
 moves {
   id: MOVE_VIRAL_STRIKE
   name: "Viral Strike"
-  short_name: "ViralStrike"
+  short_name: "Viral Strike"
   description: "Attacks with a weaponized sickness. If the user is afflicted with a status condition they pass that status condition onto the target and are cured of it."
   short_description: "Attacks with a weaponized sickness. If the user is afflicted with a status condition they pass that status condition onto the target and are cured of it."
   split: PHYSICAL
@@ -15553,7 +15545,7 @@ moves {
 moves {
   id: MOVE_MIRAGE_SLAM
   name: "Mirage Slam"
-  short_name: "MirageSlam"
+  short_name: "Mirage Slam"
   description: "A psychedelic slam that shows the target its future. Activates a 40bp Future Sight."
   short_description: "A psychedelic slam that shows the target its future. Activates a 40bp Future Sight."
   split: PHYSICAL
@@ -15587,7 +15579,7 @@ moves {
 moves {
   id: MOVE_BEETLE_BASH
   name: "Beetle Bash"
-  short_name: "BeelteBash"
+  short_name: "Beetle Bash"
   description: "The user brings its hammer into the air like a flying beetle, before smashing it into its opponent. 30% to confuse the foe."
   short_description: "The user brings its hammer into the air like a flying beetle, before smashing it into its opponent. 30% to confuse the foe."
   effect: EFFECT_CONFUSE_HIT
@@ -15621,7 +15613,7 @@ moves {
 moves {
   id: MOVE_RAPID_RIVER
   name: "Rapid River"
-  short_name: "RapidRiver"
+  short_name: "Rapid River"
   description: "Hits twice. Mega Launcher boost."
   short_description: "Hits twice. Mega Launcher boost."
   effect: EFFECT_DOUBLE_HIT
@@ -15662,7 +15654,7 @@ moves {
 moves {
   id: MOVE_SMOLDER_BASH
   name: "Smolder Bash"
-  short_name: "SmolderBash"
+  short_name: "Smolder Bash"
   description: "A scorching jab that has a 10% chance to burn."
   short_description: "A scorching jab that has a 10% chance to burn."
   effect: EFFECT_BURN_HIT
@@ -15697,7 +15689,7 @@ moves {
 moves {
   id: MOVE_EERIE_FOG
   name: "Eerie Fog"
-  short_name: "EerieFog"
+  short_name: "Eerie Fog"
   description: "An unnatural fog descends, draining stat boosts."
   short_description: "An unnatural fog descends, draining stat boosts."
   effect: EFFECT_EERIE_FOG
@@ -15710,7 +15702,7 @@ moves {
 moves {
   id: MOVE_MYSTIC_DANCE
   name: "Mystic Dance"
-  short_name: "MysticDance"
+  short_name: "Mystic Dance"
   description: "Not implemented."
   short_description: "Not implemented."
   effect: EFFECT_MYSTIC_DANCE
@@ -15796,7 +15788,7 @@ moves {
 moves {
   id: MOVE_RIP_AND_TEAR
   name: "Rip and Tear"
-  short_name: "RipandTear"
+  short_name: "Rip and Tear"
   description: "The user tears into the foe with its fangs."
   short_description: "The user tears into the foe with its fangs."
   effect: EFFECT_RIP_AND_TEAR
@@ -15848,7 +15840,7 @@ moves {
 moves {
   id: MOVE_TERROR_LOCKS
   name: "Terror Locks"
-  short_name: "TerrorLocks"
+  short_name: "Terror Locks"
   description: "Cut the foe with long, black hair."
   short_description: "Cut the foe with long, black hair."
   effect: EFFECT_BLEED_HIT
@@ -15954,7 +15946,7 @@ moves {
 moves {
   id: MOVE_BIG_BLAST
   name: "Big Bang"
-  short_name: "IncendBlast"
+  short_name: "Big Bang"
   description: "Does Damage. Small burn chance."
   short_description: "Does Damage. Small burn chance."
   effect: EFFECT_BURN_HIT
@@ -15979,7 +15971,6 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   ignores_protect: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_TREPIDATION
@@ -16000,7 +15991,7 @@ moves {
 moves {
   id: MOVE_ASTRAL_HAND
   name: "Astral Hand"
-  short_name: "AstralHand"
+  short_name: "Astral Hand"
   description: "Projects a fist to strike the foe."
   short_description: "Projects a fist to strike the foe."
   split: PHYSICAL
@@ -16025,7 +16016,6 @@ moves {
   type: TYPE_NORMAL
   target: SELECTED
   ignores_protect: true
-  no_kings_rock: true
 }
 moves {
   id: MOVE_TRANSMUTE
@@ -16048,7 +16038,7 @@ moves {
 moves {
   id: MOVE_CLEAR_SKIES
   name: "Clear Skies"
-  short_name: "ClearSkies"
+  short_name: "Clear Skies"
   description: "Clears the weather and prevents new weather."
   short_description: "Clears the weather and prevents new weather."
   effect: EFFECT_CLEAR_SKIES
@@ -16060,7 +16050,7 @@ moves {
 moves {
   id: MOVE_READY_OR_NOT
   name: "Ready or Not"
-  short_name: "ReadyorNot"
+  short_name: "Ready or Not"
   description: "Hides on the first turn and then surprises the foe."
   short_description: "Hides on the first turn and then surprises the foe."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -16082,7 +16072,7 @@ moves {
 moves {
   id: MOVE_GIANT_GALE
   name: "Giant Gale"
-  short_name: "GiantGale"
+  short_name: "Giant Gale"
   description: "Strikes the foe with a mighty gale, but lowers Speed."
   short_description: "Strikes the foe with a mighty gale, but lowers Speed."
   effect: EFFECT_ARGUMENT_HIT
@@ -16107,7 +16097,7 @@ moves {
 moves {
   id: MOVE_VEXING_VOID
   name: "Vexing Void"
-  short_name: "VexingVoid"
+  short_name: "Vexing Void"
   description: "A terrifying void engulfs the foe."
   short_description: "A terrifying void engulfs the foe."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
@@ -16139,7 +16129,7 @@ moves {
 moves {
   id: MOVE_TAKE_FLIGHT
   name: "Take Flight"
-  short_name: "TakeFlight"
+  short_name: "Take Flight"
   description: "Blasts the foe with wind and takes to the sky."
   short_description: "Blasts the foe with wind and takes to the sky."
   effect: EFFECT_HIT_ESCAPE
@@ -16168,7 +16158,7 @@ moves {
 moves {
   id: MOVE_TAKE_HEART
   name: "Take Heart"
-  short_name: "TakeHeart"
+  short_name: "Take Heart"
   description: "Steadies itself, healing its status and boosting Special."
   short_description: "Steadies itself, healing its status and boosting Special."
   effect: EFFECT_TAKE_HEART
@@ -16181,7 +16171,7 @@ moves {
 moves {
   id: MOVE_SAFE_PASSAGE
   name: "Safe Passage"
-  short_name: "SafePassage"
+  short_name: "Safe Passage"
   description: "Guides an ally onto the field, shielding them from harm."
   short_description: "Guides an ally onto the field, shielding them from harm."
   effect: EFFECT_SWITCH_ARGUMENT
@@ -16193,7 +16183,7 @@ moves {
 moves {
   id: MOVE_ESPER_WALTZ
   name: "Esper Waltz"
-  short_name: "EsperWaltz"
+  short_name: "Esper Waltz"
   description: "A mesmerizing waltz that may raise Special Attack."
   short_description: "A mesmerizing waltz that may raise Special Attack."
   effect: EFFECT_SP_ATTACK_UP_HIT
@@ -16210,7 +16200,7 @@ moves {
 moves {
   id: MOVE_ZAP_JIVE
   name: "Zap Jive"
-  short_name: "ZapJive"
+  short_name: "Zap Jive"
   description: "An electrifying dance that may raise Speed."
   short_description: "An electrifying dance that may raise Speed."
   effect: EFFECT_SPEED_UP_HIT
@@ -16227,7 +16217,7 @@ moves {
 moves {
   id: MOVE_HEX_TROT
   name: "Hex Trot"
-  short_name: "HexTrot"
+  short_name: "Hex Trot"
   description: "A lively yet haunting dance that may raise Speed."
   short_description: "A lively yet haunting dance that may raise Speed."
   effect: EFFECT_SPEED_UP_HIT
@@ -16261,7 +16251,7 @@ moves {
 moves {
   id: MOVE_BAD_EGG
   name: "Bad Egg"
-  short_name: "BadEgg"
+  short_name: "Bad Egg"
   description: "Throws an egg filled with toxins. Poisons on hit."
   short_description: "Throws an egg filled with toxins. Poisons on hit."
   effect: EFFECT_ARGUMENT_HIT
@@ -16305,7 +16295,7 @@ moves {
 moves {
   id: MOVE_DRAGON_JAB
   name: "Dragon Jab"
-  short_name: "DragonJab"
+  short_name: "Dragon Jab"
   description: "Jabs with a horn. can bleed on hit."
   short_description: "Jabs with a horn. can bleed on hit."
   effect: EFFECT_BLEED_HIT
@@ -16341,7 +16331,7 @@ moves {
 moves {
   id: MOVE_TOXIC_PLUNGE
   name: "Toxic Plunge"
-  short_name: "ToxicPlunge"
+  short_name: "Toxic Plunge"
   description: "Dives into a pool of poison then strikes on the next turn."
   short_description: "Dives into a pool of poison then strikes on the next turn."
   effect: EFFECT_SEMI_INVULNERABLE
@@ -16417,7 +16407,7 @@ moves {
 moves {
   id: MOVE_FIRE_GLAIVE
   name: "Fire Glaive"
-  short_name: "FireGlaive"
+  short_name: "Fire Glaive"
   description: "The user strikes with a white hot horn."
   short_description: "The user strikes with a white hot horn."
   split: PHYSICAL
@@ -16489,7 +16479,7 @@ moves {
 moves {
   id: MOVE_ONI_FIST
   name: "Oni Fist"
-  short_name: "OniFist"
+  short_name: "Oni Fist"
   description: "An unavoidable punch that is thrown from shadows."
   short_description: "An unavoidable punch that is thrown from shadows."
   split: PHYSICAL
@@ -16555,7 +16545,7 @@ moves {
 moves {
   id: MOVE_BLUE_MOON
   name: "Blue Moon"
-  short_name: "BlueMoon"
+  short_name: "Blue Moon"
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
