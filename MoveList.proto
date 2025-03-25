@@ -26,8 +26,9 @@ message MoveList {
   repeated MoveEffect non_sheer_force_effect = 1;
   repeated BattleMoveEffect non_sheer_force_move_effect = 2;
   repeated MoveEffect flinch_effect = 3;
-  repeated BattleMoveEffect flinch_move_effect = 4;
-  repeated Move moves = 5;
+  repeated MoveEffect kings_rock_banned = 4;
+  repeated BattleMoveEffect flinch_move_effect = 5;
+  repeated Move moves = 6;
 }
 
 enum MoveTarget {
