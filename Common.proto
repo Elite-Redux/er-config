@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package er;
+
+import "google/protobuf/descriptor.proto";
+
+extend google.protobuf.EnumValueOptions {
+  optional string enum_name = 1000000;
+}
+
+extend google.protobuf.FieldOptions {
+  optional string field_name = 1000000;
+}
