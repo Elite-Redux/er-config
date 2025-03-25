@@ -283,7 +283,7 @@ ability {
 ability {
   id: ABILITY_CUTE_CHARM
   name: "Cute Charm"
-  description: "30% chance to charm attacker on contact, which halves its power."
+  description: "50% chance to attract on contact. Also works on offense."
 }
 ability {
   id: ABILITY_PLUS
@@ -1568,7 +1568,7 @@ ability {
 ability {
   id: ABILITY_DRAGONSLAYER
   name: "Dragonslayer"
-  description: "Deals 1.5x damage to Dragons. Takes .5x damage from Dragons."
+  description: "Deals 1.5x damage to Dragons. Takes 0.5x damage from Dragons."
 }
 ability {
   id: ABILITY_MOUNTAINEER
@@ -2488,7 +2488,7 @@ ability {
 ability {
   id: ABILITY_YUKI_ONNA
   name: "Yuki Onna"
-  description: "Scare + Intimidate. 10% chance to infatuate on hit."
+  description: "Scare + Intimidate. 30% chance to infatuate on hit."
 }
 ability {
   id: ABILITY_SUPPRESS
@@ -3453,7 +3453,7 @@ ability {
 ability {
   id: ABILITY_RESTRAINING_ORDER
   name: "Restraining Order"
-  description: "Forces the attacker when hit once each switch-in."
+  description: "Forces the attacker out when hit     once each switch-in."
 }
 ability {
   id: ABILITY_ASSASSINS_TOOLS
@@ -3835,7 +3835,7 @@ ability {
 }
 ability {
   name: "Junshi Sanda"
-  description: "Every move gets a 30% boost from Combat Specialist."
+  description: "Punching or Kicking moves count as both Punching and Kicking moves."
 }
 ability {
   name: "Gladiator"
@@ -3895,7 +3895,7 @@ ability {
 }
 ability {
   name: "Poseidon\'s Dominion"
-  description: "Whirlpool on entry."
+  description: "Uses Whirlpool on entry."
 }
 ability {
   name: "Two-Faced"

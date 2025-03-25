@@ -31,7 +31,6 @@ non_sheer_force_effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
 non_sheer_force_effect: EFFECT_MISC_HIT
 non_sheer_force_effect: EFFECT_SPIKE_HIT
 non_sheer_force_effect: EFFECT_TREPIDATION
-
 non_sheer_force_move_effect: MOVE_EFFECT_FEINT
 non_sheer_force_move_effect: MOVE_EFFECT_WATER_PLEDGE
 non_sheer_force_move_effect: MOVE_EFFECT_FIRE_PLEDGE
@@ -41,7 +40,6 @@ non_sheer_force_move_effect: MOVE_EFFECT_WYRM_WIND
 non_sheer_force_move_effect: MOVE_EFFECT_GLAIVE_RUSH
 non_sheer_force_move_effect: MOVE_EFFECT_SALT_CURE
 non_sheer_force_move_effect: MOVE_EFFECT_PREVENT_ESCAPE
-
 moves {
   name: "-"
   short_name: "-"
@@ -267,6 +265,7 @@ moves {
   short_name: "RazorWind"
   description: "Wind slices through Rock for super effective damage."
   short_description: "Wind slices through Rock for super effective damage."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: SPECIAL
   type: TYPE_FLYING
   target: BOTH
@@ -287,6 +286,7 @@ moves {
   short_name: "SwordsDance"
   description: "A fighting dance that sharply raises Attack."
   short_description: "A fighting dance that sharply raises Attack."
+  effect: EFFECT_ATTACK_UP_2
   split: STATUS
   type: TYPE_NORMAL
   target: USER
@@ -354,6 +354,7 @@ moves {
   short_name: "Whirlwind"
   description: "Blows away the foe with wind and ends the battle."
   short_description: "Blows away the foe with wind and ends the battle."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: SPECIAL
   type: TYPE_FLYING
   target: SELECTED
@@ -437,6 +438,7 @@ moves {
   short_name: "Stomp"
   description: "Stomps the foe and terrain flat. May cause flinching."
   short_description: "Stomps the foe and terrain flat. May cause flinching."
+  effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -494,6 +496,7 @@ moves {
   short_name: "JumpKick"
   description: "A strong jumping kick. May miss and hurt the kicker."
   short_description: "A strong jumping kick. May miss and hurt the kicker."
+  effect: EFFECT_RECOIL_IF_MISS
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -670,7 +673,7 @@ moves {
   short_name: "TakeDown"
   description: "Slams into the foe, knocking them back and lowering speed."
   short_description: "Slams into the foe, knocking them back and lowering speed."
-  effect: EFFECT_SPEED_DOWN_HIT,
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -823,6 +826,7 @@ moves {
   short_name: "Growl"
   description: "Growls cutely to reduce the foe\'s Attack."
   short_description: "Growls cutely to reduce the foe\'s Attack."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_NORMAL
   target: BOTH
@@ -888,6 +892,7 @@ moves {
   short_name: "SonicBoom"
   description: "Launches shock waves that are super effective vs rock."
   short_description: "Launches shock waves that are super effective vs rock."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: SPECIAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -1065,6 +1070,7 @@ moves {
   short_name: "Psybeam"
   description: "Fires a peculiar ray that lowers Special Attack."
   short_description: "Fires a peculiar ray that lowers Special Attack."
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -1097,6 +1103,7 @@ moves {
   short_name: "AuroraBeam"
   description: "A rainbow-colored beam which lowers the foe\'s Attack 100%."
   short_description: "A rainbow-colored beam which lowers the foe\'s Attack 100%."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
@@ -1370,6 +1377,7 @@ moves {
   short_name: "StunSpore"
   description: "Scatters a powder that may paralyze the foe."
   short_description: "Scatters a powder that may paralyze the foe."
+  effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
   type: TYPE_GRASS
   target: SELECTED
@@ -1419,6 +1427,7 @@ moves {
   short_name: "StringShot"
   description: "Binds the foes with string to harshly reduce Speed."
   short_description: "Binds the foes with string to harshly reduce Speed."
+  effect: EFFECT_SPEED_DOWN_2
   split: STATUS
   type: TYPE_BUG
   target: BOTH
@@ -1433,6 +1442,7 @@ moves {
   short_name: "DragonRage"
   description: "Launches shock waves that can damage Fairy mons."
   short_description: "Launches shock waves that can damage Fairy mons."
+  effect: EFFECT_IGNORE_TYPE_IMMUNITY
   split: SPECIAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -1630,6 +1640,7 @@ moves {
   short_name: "Psychic"
   description: "A powerful psychic attack that may lower Sp. Def."
   short_description: "A powerful psychic attack that may lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -1673,6 +1684,7 @@ moves {
   short_name: "Agility"
   description: "Relaxes the body to sharply boost Speed."
   short_description: "Relaxes the body to sharply boost Speed."
+  effect: EFFECT_SPEED_UP_2
   split: STATUS
   type: TYPE_PSYCHIC
   target: USER
@@ -1762,6 +1774,7 @@ moves {
   short_name: "Screech"
   description: "Emits a screech to sharply reduce the foe\'s Defense."
   short_description: "Emits a screech to sharply reduce the foe\'s Defense."
+  effect: EFFECT_DEFENSE_DOWN_2
   split: STATUS
   type: TYPE_NORMAL
   target: SELECTED
@@ -2171,6 +2184,7 @@ moves {
   short_name: "SkullBash"
   description: "Tucks in the head, then attacks on the next turn."
   short_description: "Tucks in the head, then attacks on the next turn."
+  effect: EFFECT_TWO_TURN_SECONDARY
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -2180,6 +2194,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_ATK_PLUS_1
+      affects_user: true
     }
   }
   contact: true
@@ -2210,6 +2225,7 @@ moves {
   short_name: "Constrict"
   description: "Constricts to inflict pain. May lower Speed."
   short_description: "Constricts to inflict pain. May lower Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -2226,6 +2242,7 @@ moves {
   short_name: "Amnesia"
   description: "Forgets about something and sharply raises Sp. Def."
   short_description: "Forgets about something and sharply raises Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_UP_2
   split: STATUS
   type: TYPE_PSYCHIC
   target: USER
@@ -2269,6 +2286,7 @@ moves {
   short_name: "HighJumpKick"
   description: "A jumping knee kick. If it misses, the user is hurt."
   short_description: "A jumping knee kick. If it misses, the user is hurt."
+  effect: EFFECT_RECOIL_IF_MISS
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -2286,6 +2304,7 @@ moves {
   short_name: "Glare"
   description: "Intimidates and frightens the foe into paralysis."
   short_description: "Intimidates and frightens the foe into paralysis."
+  effect: EFFECT_PARALYZE_IGNORE_TYPE
   split: STATUS
   type: TYPE_NORMAL
   target: SELECTED
@@ -2381,6 +2400,7 @@ moves {
   short_name: "SkyAttack"
   description: "Searches out weak spots, then strikes the next turn."
   short_description: "Searches out weak spots, then strikes the next turn."
+  effect: EFFECT_TWO_TURN_SECONDARY
   split: PHYSICAL
   type: TYPE_FLYING
   target: SELECTED
@@ -2390,6 +2410,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_ATK_PLUS_1
+      affects_user: true
     }
   }
   contact: true
@@ -2418,6 +2439,7 @@ moves {
   short_name: "Bubble"
   description: "An attack using bubbles. Always lowers foe\'s Speed."
   short_description: "An attack using bubbles. Always lowers foe\'s Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: BOTH
@@ -2467,6 +2489,7 @@ moves {
   short_name: "Flash"
   description: "Looses a blast of light. 50% chance to drop Atk."
   short_description: "Looses a blast of light. 50% chance to drop Atk."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -2515,6 +2538,7 @@ moves {
   short_name: "AcidArmor"
   description: "Liquifies the user\'s body to sharply raise Defense."
   short_description: "Liquifies the user\'s body to sharply raise Defense."
+  effect: EFFECT_DEFENSE_UP_2
   split: STATUS
   type: TYPE_POISON
   target: USER
@@ -2741,6 +2765,7 @@ moves {
   short_name: "Struggle"
   description: "Used only if all PP are gone. Also hurts the user a little."
   short_description: "Used only if all PP are gone. Also hurts the user a little."
+  effect: EFFECT_RECOIL_HP_25
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -2947,6 +2972,7 @@ moves {
   short_name: "CottonSpore"
   description: "Spores cling to the foe, sharply reducing Speed."
   short_description: "Spores cling to the foe, sharply reducing Speed."
+  effect: EFFECT_SPEED_DOWN_2
   split: STATUS
   type: TYPE_GRASS
   target: BOTH
@@ -3132,6 +3158,7 @@ moves {
   short_name: "Octazooka"
   description: "Fires a lump of ink to damage and cut accuracy."
   short_description: "Fires a lump of ink to damage and cut accuracy."
+  effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -3221,6 +3248,7 @@ moves {
   short_name: "IcyWind"
   description: "A chilling attack that lowers the foe\'s Speed."
   short_description: "A chilling attack that lowers the foe\'s Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: SPECIAL
   type: TYPE_ICE
   target: BOTH
@@ -3343,6 +3371,7 @@ moves {
   short_name: "Charm"
   description: "Charms the foe and sharply reduces its Attack."
   short_description: "Charms the foe and sharply reduces its Attack."
+  effect: EFFECT_ATTACK_DOWN_2
   split: STATUS
   type: TYPE_FAIRY
   target: SELECTED
@@ -3461,6 +3490,7 @@ moves {
   short_name: "SteelWing"
   description: "Strikes the foe with hard wings spread wide."
   short_description: "Strikes the foe with hard wings spread wide."
+  effect: EFFECT_DEFENSE_UP_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -3553,6 +3583,7 @@ moves {
   short_name: "Present"
   description: "Gifts a present to the target. Allies get a treat, foes get a bomb."
   short_description: "Gifts a present to the target. Allies get a treat, foes get a bomb."
+  effect: EFFECT_HIT_ENEMY_HEAL_ALLY
   split: SPECIAL
   type: TYPE_MYSTERY
   target: SELECTED
@@ -3754,6 +3785,7 @@ moves {
   short_name: "SweetScent"
   description: "Allures the foe to harshly reduce evasiveness."
   short_description: "Allures the foe to harshly reduce evasiveness."
+  effect: EFFECT_EVASION_DOWN_2
   split: STATUS
   type: TYPE_NORMAL
   target: BOTH
@@ -3768,6 +3800,7 @@ moves {
   short_name: "IronTail"
   description: "Attacks with a rock-hard tail. May lower Defense."
   short_description: "Attacks with a rock-hard tail. May lower Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -3784,6 +3817,7 @@ moves {
   short_name: "MetalClaw"
   description: "A claw attack that may raise the user\'s Attack."
   short_description: "A claw attack that may raise the user\'s Attack."
+  effect: EFFECT_ATTACK_UP_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -3935,6 +3969,7 @@ moves {
   short_name: "Crunch"
   description: "Crunches with sharp fangs. May lower Defense."
   short_description: "Crunches with sharp fangs. May lower Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -3999,6 +4034,7 @@ moves {
   short_name: "AncientPower"
   description: "An attack that may raise all stats."
   short_description: "An attack that may raise all stats."
+  effect: EFFECT_ALL_STATS_UP_HIT
   split: SPECIAL
   type: TYPE_ROCK
   target: SELECTED
@@ -4014,6 +4050,7 @@ moves {
   short_name: "ShadowBall"
   description: "Hurls a black blob that may lower the foe\'s Sp. Def."
   short_description: "Hurls a black blob that may lower the foe\'s Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_GHOST
   target: SELECTED
@@ -4046,6 +4083,7 @@ moves {
   short_name: "RockSmash"
   description: "A rock-crushing attack that lowers the foe\'s Defense."
   short_description: "A rock-crushing attack that lowers the foe\'s Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -4232,6 +4270,7 @@ moves {
   short_name: "Will-O-Wisp"
   description: "Inflicts a burn on the foe with intense fire."
   short_description: "Inflicts a burn on the foe with intense fire."
+  effect: EFFECT_WILL_O_WISP
   split: STATUS
   type: TYPE_FIRE
   target: SELECTED
@@ -4742,6 +4781,7 @@ moves {
   short_name: "TailGlow"
   description: "Flashes a light that raises Sp. Atk by +3."
   short_description: "Flashes a light that raises Sp. Atk by +3."
+  effect: EFFECT_SPECIAL_ATTACK_UP_3
   split: STATUS
   type: TYPE_BUG
   target: USER
@@ -4754,6 +4794,7 @@ moves {
   short_name: "LusterPurge"
   description: "Attacks with a burst of light. May lower Sp. Def."
   short_description: "Attacks with a burst of light. May lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -4769,6 +4810,7 @@ moves {
   short_name: "MistBall"
   description: "Attacks with a flurry of down. May lower SpAtk"
   short_description: "Attacks with a flurry of down. May lower SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -4785,6 +4827,7 @@ moves {
   short_name: "FeatherDance"
   description: "Envelops the foe with down to sharply reduce Attack."
   short_description: "Envelops the foe with down to sharply reduce Attack."
+  effect: EFFECT_ATTACK_DOWN_2
   split: STATUS
   type: TYPE_FLYING
   target: SELECTED
@@ -4864,6 +4907,7 @@ moves {
   short_name: "NeedleArm"
   description: "Attacks with thorny arms. May cause flinching."
   short_description: "Attacks with thorny arms. May cause flinching."
+  effect: EFFECT_CREEPING_THORNS_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -4928,6 +4972,7 @@ moves {
   short_name: "CrushClaw"
   description: "Tears at the foe with sharp claws. May lower Defense."
   short_description: "Tears at the foe with sharp claws. May lower Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -4979,6 +5024,7 @@ moves {
   short_name: "MeteorMash"
   description: "Fires a meteor-like punch. May raise Attack."
   short_description: "Fires a meteor-like punch. May raise Attack."
+  effect: EFFECT_ATTACK_UP_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -5046,6 +5092,7 @@ moves {
   short_name: "FakeTears"
   description: "Feigns crying to sharply lower the foe\'s Sp. Def."
   short_description: "Feigns crying to sharply lower the foe\'s Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_2
   split: STATUS
   type: TYPE_DARK
   target: SELECTED
@@ -5107,6 +5154,7 @@ moves {
   short_name: "RockTomb"
   description: "Stops the foe from moving with rocks and cuts Speed."
   short_description: "Stops the foe from moving with rocks and cuts Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
@@ -5123,6 +5171,7 @@ moves {
   short_name: "SilverWind"
   description: "A powdery attack that may raise abilities."
   short_description: "A powdery attack that may raise abilities."
+  effect: EFFECT_ALL_STATS_UP_HIT
   split: SPECIAL
   type: TYPE_BUG
   target: SELECTED
@@ -5139,6 +5188,7 @@ moves {
   short_name: "MetalSound"
   description: "Emits a horrible screech that sharply lowers Sp. Def."
   short_description: "Emits a horrible screech that sharply lowers Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_2
   split: STATUS
   type: TYPE_STEEL
   target: SELECTED
@@ -5263,6 +5313,7 @@ moves {
   short_name: "SkyUppercut"
   description: "An uppercut thrown as if leaping into the sky."
   short_description: "An uppercut thrown as if leaping into the sky."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -5316,6 +5367,7 @@ moves {
   short_name: "MuddyWater"
   description: "Attacks with muddy water. May lower accuracy."
   short_description: "Attacks with muddy water. May lower accuracy."
+  effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_GROUND
   type2: TYPE_WATER
@@ -5381,6 +5433,7 @@ moves {
   short_name: "IronDefense"
   description: "Hardens the body\'s surface to sharply raise Defense."
   short_description: "Hardens the body\'s surface to sharply raise Defense."
+  effect: EFFECT_DEFENSE_UP_2
   split: STATUS
   type: TYPE_STEEL
   target: USER
@@ -5494,6 +5547,7 @@ moves {
   short_name: "MudShot"
   description: "10% Speed drop chance. Has +1 priority."
   short_description: "10% Speed drop chance. Has +1 priority."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: SPECIAL
   type: TYPE_GROUND
   target: SELECTED
@@ -5513,6 +5567,7 @@ moves {
   short_name: "PoisonTail"
   description: "Forces the target to Switch. May also poison."
   short_description: "Forces the target to Switch. May also poison."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
   type: TYPE_POISON
   target: SELECTED
@@ -5552,6 +5607,7 @@ moves {
   short_name: "VoltTackle"
   description: "A life-risking tackle that slightly hurts the user."
   short_description: "A life-risking tackle that slightly hurts the user."
+  effect: EFFECT_RECOIL_25_STATUS
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -5767,6 +5823,7 @@ moves {
   short_name: "Wake-UpSlap"
   description: "Powerful against sleeping foes, but also heals them."
   short_description: "Powerful against sleeping foes, but also heals them."
+  effect: EFFECT_WAKE_UP_SLAP
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -5835,6 +5892,7 @@ moves {
   short_name: "Brine"
   description: "Deals Super Effective damage vs Water."
   short_description: "Deals Super Effective damage vs Water."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -6323,6 +6381,7 @@ moves {
   short_name: "FlareBlitz"
   description: "A charge that may burn the foe. Also hurts the user."
   short_description: "A charge that may burn the foe. Also hurts the user."
+  effect: EFFECT_RECOIL_33_STATUS
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -6377,6 +6436,7 @@ moves {
   short_name: "RockPolish"
   description: "Polishes the body to sharply raise Speed."
   short_description: "Polishes the body to sharply raise Speed."
+  effect: EFFECT_SPEED_UP_2
   split: STATUS
   type: TYPE_ROCK
   target: USER
@@ -6514,6 +6574,7 @@ moves {
   short_name: "BugBuzz"
   description: "A damaging sound wave that may lower Sp. Def."
   short_description: "A damaging sound wave that may lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_BUG
   target: SELECTED
@@ -6545,6 +6606,7 @@ moves {
   short_name: "DragonRush"
   description: "Tackles the foe with menace. Damages the user."
   short_description: "Tackles the foe with menace. Damages the user."
+  effect: EFFECT_FLINCH_RECOIL_33
   split: PHYSICAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -6610,6 +6672,7 @@ moves {
   short_name: "FocusBlast"
   description: "Attacks at full power. May lower Sp. Def."
   short_description: "Attacks at full power. May lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -6627,6 +6690,7 @@ moves {
   short_name: "EnergyBall"
   description: "Draws power from nature to attack. May lower Sp. Def."
   short_description: "Draws power from nature to attack. May lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_GRASS
   target: SELECTED
@@ -6661,6 +6725,7 @@ moves {
   short_name: "EarthPower"
   description: "Makes the ground erupt with power. May lower Sp. Def."
   short_description: "Makes the ground erupt with power. May lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_GROUND
   target: SELECTED
@@ -6706,6 +6771,7 @@ moves {
   short_name: "NastyPlot"
   description: "Thinks bad thoughts to sharply boost SpAtk"
   short_description: "Thinks bad thoughts to sharply boost SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_UP_2
   split: STATUS
   type: TYPE_DARK
   target: USER
@@ -6930,6 +6996,7 @@ moves {
   short_name: "MirrorShot"
   description: "Emits a flash of energy to damage and cut SpDef."
   short_description: "Emits a flash of energy to damage and cut SpDef."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_STEEL
   target: SELECTED
@@ -6946,6 +7013,7 @@ moves {
   short_name: "FlashCannon"
   description: "Releases a blast of light that may lower Sp. Def."
   short_description: "Releases a blast of light that may lower Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_STEEL
   target: SELECTED
@@ -6963,6 +7031,7 @@ moves {
   short_name: "RockClimb"
   description: "A charging attack that may confuse the foe."
   short_description: "A charging attack that may confuse the foe."
+  effect: EFFECT_TWO_TURNS_ATTACK
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
@@ -7168,6 +7237,7 @@ moves {
   short_name: "MagnetBomb"
   description: "Launches a magnet that is Super Effective vs Steel."
   short_description: "Launches a magnet that is Super Effective vs Steel."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: SPECIAL
   type: TYPE_STEEL
   target: SELECTED
@@ -7268,6 +7338,7 @@ moves {
   short_name: "Judgment"
   description: "The type varies with the kind of Plate held."
   short_description: "The type varies with the kind of Plate held."
+  effect: EFFECT_CHANGE_TYPE_ON_ITEM
   split: SPECIAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -7303,6 +7374,7 @@ moves {
   short_name: "ChargeBeam"
   description: "Fires a beam of electricity. Raises Sp. Atk by one stage."
   short_description: "Fires a beam of electricity. Raises Sp. Atk by one stage."
+  effect: EFFECT_SP_ATTACK_UP_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -7430,6 +7502,7 @@ moves {
   short_name: "RoarofTime"
   description: "Moves last, but forces the target to switch out."
   short_description: "Moves last, but forces the target to switch out."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: SPECIAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -7523,6 +7596,7 @@ moves {
   short_name: "SeedFlare"
   description: "Generates a shock wave that sharply reduces Sp. Def."
   short_description: "Generates a shock wave that sharply reduces Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
   split: SPECIAL
   type: TYPE_GRASS
   target: SELECTED
@@ -7538,6 +7612,7 @@ moves {
   short_name: "OminousWind"
   description: "A repulsive attack that may raise all stats."
   short_description: "A repulsive attack that may raise all stats."
+  effect: EFFECT_ALL_STATS_UP_HIT
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
@@ -7565,6 +7640,7 @@ moves {
   power: 120
   accuracy: 100
   pp: 5
+  effect_chance: 100
   argument {
     effect {
       effect: MOVE_EFFECT_FEINT
@@ -7581,6 +7657,7 @@ moves {
   short_name: "HoneClaws"
   description: "Sharpens its claws to raise Attack and Accuracy."
   short_description: "Sharpens its claws to raise Attack and Accuracy."
+  effect: EFFECT_ATTACK_ACCURACY_UP
   split: STATUS
   type: TYPE_DARK
   target: USER
@@ -7663,6 +7740,7 @@ moves {
   short_name: "Venoshock"
   description: "Does double damage if the foe is poisoned."
   short_description: "Does double damage if the foe is poisoned."
+  effect: EFFECT_DOUBLE_DMG_IF_STATUS1
   split: SPECIAL
   type: TYPE_POISON
   target: SELECTED
@@ -7880,6 +7958,7 @@ moves {
   short_name: "FlameCharge"
   description: "Attacks in a cloak of flames. Raises Speed."
   short_description: "Attacks in a cloak of flames. Raises Speed."
+  effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -7909,6 +7988,7 @@ moves {
   short_name: "LowSweep"
   description: "Attacks the foe\'s legs lowering its Speed."
   short_description: "Attacks the foe\'s legs lowering its Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -7925,6 +8005,7 @@ moves {
   short_name: "AcidSpray"
   description: "Sprays a hide-melting acid. Sharply reduces Sp. Def."
   short_description: "Sprays a hide-melting acid. Sharply reduces Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
   split: SPECIAL
   type: TYPE_POISON
   target: SELECTED
@@ -8207,6 +8288,7 @@ moves {
   short_name: "CircleThrow"
   description: "Knocks the foe away to end the battle."
   short_description: "Knocks the foe away to end the battle."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -8360,6 +8442,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_WATER_PLEDGE
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -8383,6 +8466,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_FIRE_PLEDGE
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -8406,6 +8490,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_GRASS_PLEDGE
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -8439,7 +8524,6 @@ moves {
   power: 80
   accuracy: 100
   pp: 10
-  effect_chance: 100
   mirror_move_affected: true
 }
 moves {
@@ -8481,6 +8565,7 @@ moves {
   short_name: "DragonTail"
   description: "Knocks the foe away to end the battle."
   short_description: "Knocks the foe away to end the battle."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -8497,6 +8582,7 @@ moves {
   short_name: "WorkUp"
   description: "The user is roused. Ups Attack and SpAtk"
   short_description: "The user is roused. Ups Attack and SpAtk"
+  effect: EFFECT_ATTACK_SPATK_UP
   split: STATUS
   type: TYPE_NORMAL
   target: USER
@@ -8509,6 +8595,7 @@ moves {
   short_name: "Electroweb"
   description: "Snares the foe with an electric net. Lowers Speed."
   short_description: "Snares the foe with an electric net. Lowers Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: BOTH
@@ -8632,6 +8719,7 @@ moves {
   short_name: "RazorShell"
   description: "Tears at the foe with sharp shells. May lower Defense."
   short_description: "Tears at the foe with sharp shells. May lower Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -8699,6 +8787,7 @@ moves {
   short_name: "CottonGuard"
   description: "Wraps its body in cotton. Drastically raises Defense."
   short_description: "Wraps its body in cotton. Drastically raises Defense."
+  effect: EFFECT_DEFENSE_UP_3
   split: STATUS
   type: TYPE_GRASS
   target: USER
@@ -8879,6 +8968,7 @@ moves {
   short_name: "Glaciate"
   description: "Blows very cold air at the foe. It lowers their Speed."
   short_description: "Blows very cold air at the foe. It lowers their Speed."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: SPECIAL
   type: TYPE_ICE
   target: BOTH
@@ -8927,6 +9017,7 @@ moves {
   short_name: "FieryDance"
   description: "Dances cloaked in flames. May raise SpAtk"
   short_description: "Dances cloaked in flames. May raise SpAtk"
+  effect: EFFECT_SP_ATTACK_UP_HIT
   split: SPECIAL
   type: TYPE_FIRE
   target: SELECTED
@@ -8943,6 +9034,7 @@ moves {
   short_name: "FreezeShock"
   description: "A powerful 2-turn move that may paralyze the foe."
   short_description: "A powerful 2-turn move that may paralyze the foe."
+  effect: EFFECT_TWO_TURNS_ATTACK
   split: PHYSICAL
   type: TYPE_ICE
   target: SELECTED
@@ -8964,6 +9056,7 @@ moves {
   short_name: "IceBurn"
   description: "A powerful 2-turn move that may inflict a burn."
   short_description: "A powerful 2-turn move that may inflict a burn."
+  effect: EFFECT_TWO_TURNS_ATTACK
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
@@ -8985,6 +9078,7 @@ moves {
   short_name: "Snarl"
   description: "Yells and rants at the foe lowering its SpAtk"
   short_description: "Yells and rants at the foe lowering its SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_DARK
   target: BOTH
@@ -9416,6 +9510,7 @@ moves {
   short_name: "PlayRough"
   description: "Plays rough with the foe. May lower Attack."
   short_description: "Plays rough with the foe. May lower Attack."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -9448,6 +9543,7 @@ moves {
   short_name: "Moonblast"
   description: "Attacks with the power of the moon. May lower SpAtk"
   short_description: "Attacks with the power of the moon. May lower SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -9521,6 +9617,7 @@ moves {
   short_name: "Confide"
   description: "Shares a secret with the foe, lowering SpAtk"
   short_description: "Shares a secret with the foe, lowering SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN
   split: STATUS
   type: TYPE_NORMAL
   target: SELECTED
@@ -9536,6 +9633,7 @@ moves {
   short_name: "DiamondStorm"
   description: "Whips up a storm of diamonds. May up Defense."
   short_description: "Whips up a storm of diamonds. May up Defense."
+  effect: EFFECT_DEFENSE_UP2_HIT
   split: SPECIAL
   type: TYPE_ROCK
   target: BOTH
@@ -9601,6 +9699,7 @@ moves {
   short_name: "MysticalFire"
   description: "Breathes a special, hot fire. May lower SpAtk"
   short_description: "Breathes a special, hot fire. May lower SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_FIRE
   target: SELECTED
@@ -9642,6 +9741,7 @@ moves {
   short_name: "EerieImpulse"
   description: "Exposes the foe to a pulse that sharply cuts SpAtk"
   short_description: "Exposes the foe to a pulse that sharply cuts SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_2
   split: STATUS
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -9847,6 +9947,7 @@ moves {
   short_name: "PowerUpPunch"
   description: "A hard punch that raises the user\'s Attack."
   short_description: "A hard punch that raises the user\'s Attack."
+  effect: EFFECT_ATTACK_UP_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -9903,6 +10004,7 @@ moves {
   short_name: "ThousndWaves"
   description: "Those hit by the wave can no longer escape."
   short_description: "Those hit by the wave can no longer escape."
+  effect: EFFECT_HIT_PREVENT_ESCAPE
   split: PHYSICAL
   type: TYPE_GROUND
   target: BOTH
@@ -9918,6 +10020,7 @@ moves {
   short_name: "Land\'sWrath"
   description: "Gathers the energy of the land to attack every foe."
   short_description: "Gathers the energy of the land to attack every foe."
+  effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
   split: PHYSICAL
   type: TYPE_GROUND
   target: BOTH
@@ -10059,6 +10162,7 @@ moves {
   short_name: "SpiritShackl"
   description: "After being hit, foes can no longer escape."
   short_description: "After being hit, foes can no longer escape."
+  effect: EFFECT_HIT_PREVENT_ESCAPE
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
@@ -10281,6 +10385,7 @@ moves {
   short_name: "PollenPuff"
   description: "Explodes on foes, but restores ally\'s HP."
   short_description: "Explodes on foes, but restores ally\'s HP."
+  effect: EFFECT_HIT_ENEMY_HEAL_ALLY
   split: SPECIAL
   type: TYPE_BUG
   target: SELECTED
@@ -10296,6 +10401,7 @@ moves {
   short_name: "AnchorShot"
   description: "Strangles the foe with a chain. The foe can\'t switch."
   short_description: "Strangles the foe with a chain. The foe can\'t switch."
+  effect: EFFECT_HIT_PREVENT_ESCAPE
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -10326,6 +10432,7 @@ moves {
   short_name: "Lunge"
   description: "Lunges at the foe to lower its Attack stat."
   short_description: "Lunges at the foe to lower its Attack stat."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
@@ -10342,6 +10449,7 @@ moves {
   short_name: "FireLash"
   description: "Whips the foe with fire lowering its Defense."
   short_description: "Whips the foe with fire lowering its Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FIRE
   target: SELECTED
@@ -10463,6 +10571,7 @@ moves {
   short_name: "TropKick"
   description: "An intense kick from the tropics. Lowers Attack."
   short_description: "An intense kick from the tropics. Lowers Attack."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -10509,6 +10618,7 @@ moves {
   short_name: "ClngngScales"
   description: "Makes a big noise with its scales. Drops Defense."
   short_description: "Makes a big noise with its scales. Drops Defense."
+  effect: EFFECT_ATTACKER_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_DRAGON
   target: BOTH
@@ -10637,6 +10747,7 @@ moves {
   short_name: "ShadowBone"
   description: "Strikes with a haunted bone. Might drop Defense."
   short_description: "Strikes with a haunted bone. Might drop Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
@@ -10669,6 +10780,7 @@ moves {
   short_name: "Liquidation"
   description: "Slams the foe with water. Can lower Defense."
   short_description: "Slams the foe with water. Can lower Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -10753,6 +10865,7 @@ moves {
   short_name: "TearfulLook"
   description: "The user tears up, dropping Special Attack."
   short_description: "The user tears up, dropping Special Attack."
+  effect: EFFECT_SPECIAL_ATTACK_DOWN
   split: STATUS
   type: TYPE_NORMAL
   target: SELECTED
@@ -10785,6 +10898,7 @@ moves {
   short_name: "Natur\'sMadns"
   description: "Halves the foe\'s HP with the power of nature."
   short_description: "Halves the foe\'s HP with the power of nature."
+  effect: EFFECT_SUPER_FANG_HAZE
   split: SPECIAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -10800,6 +10914,7 @@ moves {
   short_name: "Multi-Attack"
   description: "An attack that changes with Memories."
   short_description: "An attack that changes with Memories."
+  effect: EFFECT_CHANGE_TYPE_ON_ITEM
   split: PHYSICAL
   split_modifier: USE_HIGHEST_OFFENSE
   type: TYPE_NORMAL
@@ -10880,7 +10995,6 @@ moves {
   power: 50
   accuracy: 100
   pp: 15
-  effect_chance: 100
   priority: 2
   contact: true
   crit: ALWAYS
@@ -11357,6 +11471,7 @@ moves {
   short_name: "DrumBeating"
   description: "Plays a drum to attack. The foe\'s Speed is lowered."
   short_description: "Plays a drum to attack. The foe\'s Speed is lowered."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -11443,6 +11558,7 @@ moves {
   short_name: "AuraWheel"
   description: "Raises Speed to attack. Both Electric- and Dark-type."
   short_description: "Raises Speed to attack. Both Electric- and Dark-type."
+  effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -11460,6 +11576,7 @@ moves {
   short_name: "BreakngSwipe"
   description: "Swings its tail to attack. Lowers the Atk of those hit."
   short_description: "Swings its tail to attack. Lowers the Atk of those hit."
+  effect: EFFECT_ATTACK_DOWN_HIT
   split: PHYSICAL
   type: TYPE_DRAGON
   target: BOTH
@@ -11507,6 +11624,7 @@ moves {
   short_name: "AppleAcid"
   description: "Attacks with tart apple acid to lower the foe\'s Sp. Def."
   short_description: "Attacks with tart apple acid to lower the foe\'s Sp. Def."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_GRASS
   target: SELECTED
@@ -11544,6 +11662,7 @@ moves {
   short_name: "SpiritBreak"
   description: "Attacks with spirit-breaking force. Lowers SpAtk"
   short_description: "Attacks with spirit-breaking force. Lowers SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -11682,6 +11801,7 @@ moves {
   short_name: "SteelRoller"
   description: "Rolls over the opponent while destroying terrain."
   short_description: "Rolls over the opponent while destroying terrain."
+  effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -11722,6 +11842,7 @@ moves {
   short_name: "MeteorBeam"
   description: "A 2-turn move that raises Sp. Attack before attacking."
   short_description: "A 2-turn move that raises Sp. Attack before attacking."
+  effect: EFFECT_TWO_TURN_SECONDARY
   split: SPECIAL
   type: TYPE_ROCK
   target: SELECTED
@@ -11731,6 +11852,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SP_ATK_PLUS_1
+      affects_user: true
     }
   }
   two_turn: true
@@ -11824,6 +11946,7 @@ moves {
   short_name: "SkitterSmack"
   description: "User skitters behind foe to attack. Lowers foe\'s SpAtk"
   short_description: "User skitters behind foe to attack. Lowers foe\'s SpAtk"
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_BUG
   target: SELECTED
@@ -11839,6 +11962,7 @@ moves {
   short_name: "BrningJelosy"
   description: "Attacks both foes with a 50% chance to burn them."
   short_description: "Attacks both foes with a 50% chance to burn them."
+  effect: EFFECT_ARGUMENT_HIT_IF_STAT_UP
   split: SPECIAL
   type: TYPE_FIRE
   target: BOTH
@@ -12105,6 +12229,7 @@ moves {
   short_name: "ThnderusKick"
   description: "Uses a lightning-like kick to hit. Lowers foe\'s Defense."
   short_description: "Uses a lightning-like kick to hit. Lowers foe\'s Defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -12282,6 +12407,7 @@ moves {
   short_name: "SeismicFist"
   description: "A ground-breaking punch. 20% chance to drop Def."
   short_description: "A ground-breaking punch. 20% chance to drop Def."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_GROUND
   target: SELECTED
@@ -12352,6 +12478,7 @@ moves {
   short_name: "JaggedFangs"
   description: "Bites aggressively. 10% chance to up Atk."
   short_description: "Bites aggressively. 10% chance to up Atk."
+  effect: EFFECT_ATTACK_UP_HIT
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
@@ -12425,6 +12552,7 @@ moves {
   short_name: "PrimalBeam"
   description: "An strange beam that uses the user\'s Attack, may rise it."
   short_description: "An strange beam that uses the user\'s Attack, may rise it."
+  effect: EFFECT_ATTACK_UP_HIT
   split: PHYSICAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -12460,6 +12588,7 @@ moves {
   short_name: "PixieBeam"
   description: "A powerfull magic beam 30% chance to drop user SpAtk."
   short_description: "A powerfull magic beam 30% chance to drop user SpAtk."
+  effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -12608,6 +12737,7 @@ moves {
   short_name: "ZephyrRush"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_RECOIL_IF_MISS
   split: PHYSICAL
   type: TYPE_FLYING
   target: SELECTED
@@ -12660,6 +12790,7 @@ moves {
   short_name: "LightStrike"
   description: "A rapid strike with a lightning bolt, maybe raising Speed."
   short_description: "A rapid strike with a lightning bolt, maybe raising Speed."
+  effect: EFFECT_DOUBLE_DMG_IF_STATUS1
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -12711,6 +12842,7 @@ moves {
   short_name: "FertileFangs"
   description: "User inserts its ingraining fangs, 10% chance to apply leech seed."
   short_description: "User inserts its ingraining fangs, 10% chance to apply leech seed."
+  effect: EFFECT_LEECH_SEED_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -12728,6 +12860,7 @@ moves {
   short_name: "ScatterBlast"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_STEALTH_ROCK_HIT
   split: SPECIAL
   type: TYPE_GROUND
   target: SELECTED
@@ -12744,6 +12877,7 @@ moves {
   short_name: "JaggedPunch"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_STEALTH_ROCK_HIT
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
@@ -12798,6 +12932,7 @@ moves {
   short_name: "BrambleBlast"
   description: "30% chance to apply leech seed. Archer boost."
   short_description: "30% chance to apply leech seed. Archer boost."
+  effect: EFFECT_LEECH_SEED_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -12884,6 +13019,7 @@ moves {
   short_name: "ClayDart"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_GROUND
   target: SELECTED
@@ -12954,6 +13090,7 @@ moves {
   short_name: "Fumi.Bomb"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_POISON
   target: SELECTED
@@ -13042,6 +13179,7 @@ moves {
   short_name: "WebShot"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_STICKY_WEB_HIT
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
@@ -13059,13 +13197,13 @@ moves {
   short_name: "AuraForce"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 70
   accuracy: 100
   pp: 10
-  effect_chance: 100
   argument {
     type: TYPE_GHOST
   }
@@ -13165,6 +13303,7 @@ moves {
   short_name: "PhantomGlove"
   description: "Not done yet."
   short_description: "Not done yet."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
@@ -13288,6 +13427,7 @@ moves {
   short_name: "TorrentFist"
   description: "20% chance to drop speed. Iron Fist boost."
   short_description: "20% chance to drop speed. Iron Fist boost."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -13321,6 +13461,7 @@ moves {
   short_name: "StoneAxe"
   description: "Deals damage and sets stealth rock. Keen edge."
   short_description: "Deals damage and sets stealth rock. Keen edge."
+  effect: EFFECT_STEALTH_ROCK_HIT
   split: PHYSICAL
   type: TYPE_ROCK
   target: SELECTED
@@ -13794,6 +13935,7 @@ moves {
   short_name: "IceSpinner"
   description: "Deals damage and removes terrain."
   short_description: "Deals damage and removes terrain."
+  effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
   split: PHYSICAL
   type: TYPE_ICE
   target: SELECTED
@@ -13939,6 +14081,7 @@ moves {
   short_name: "GigatonHammr"
   description: "Super effective vs Steel. Can\'t be used twice in a row."
   short_description: "Super effective vs Steel. Can\'t be used twice in a row."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -14132,6 +14275,7 @@ moves {
   short_name: "AquaStep"
   description: "Deals damage. Raises speed."
   short_description: "Deals damage. Raises speed."
+  effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
   type: TYPE_WATER
   target: SELECTED
@@ -14149,6 +14293,7 @@ moves {
   short_name: "TorchSong"
   description: "Deals damage. Raises SpAtk."
   short_description: "Deals damage. Raises SpAtk."
+  effect: EFFECT_SPECIAL_ATTACK_UP_HIT
   split: SPECIAL
   type: TYPE_FIRE
   target: SELECTED
@@ -14176,6 +14321,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_GLAIVE_RUSH
+      certain: true
     }
   }
   contact: true
@@ -14220,6 +14366,7 @@ moves {
   short_name: "LuminaCrash"
   description: "The user attacks by unleashing a peculiar light harshly lowers the target\'s Sp. Def stat."
   short_description: "The user attacks by unleashing a peculiar light harshly lowers the target\'s Sp. Def stat."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -14246,6 +14393,8 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_ORDER_UP
+      affects_user: true
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -14286,6 +14435,8 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SPD_MINUS_2
+      affects_user: true
+      certain: true
     }
   }
   contact: true
@@ -14309,6 +14460,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SALT_CURE
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -14373,6 +14525,8 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SP_ATK_MINUS_1
+      affects_user: true
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -14406,6 +14560,7 @@ moves {
   short_name: "Ruination"
   description: "The user summons a ruinous disaster. This cuts the target\'s HP in half."
   short_description: "The user summons a ruinous disaster. This cuts the target\'s HP in half."
+  effect: EFFECT_SUPER_FANG_HAZE
   split: SPECIAL
   type: TYPE_DARK
   target: SELECTED
@@ -14457,6 +14612,7 @@ moves {
   short_name: "Pounce"
   description: "The user attacks by pouncing on the target. This also lowers the target\'s Speed stat."
   short_description: "The user attacks by pouncing on the target. This also lowers the target\'s Speed stat."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
@@ -14473,6 +14629,7 @@ moves {
   short_name: "Trailblaze"
   description: "Deals damage and boosts the user\'s Speed stat."
   short_description: "Deals damage and boosts the user\'s Speed stat."
+  effect: EFFECT_SPEED_UP_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -14555,6 +14712,7 @@ moves {
   short_name: "AxeKick"
   description: "The user attacks by kicking May cause confusion and hurts when missing."
   short_description: "The user attacks by kicking May cause confusion and hurts when missing."
+  effect: EFFECT_RECOIL_IF_MISS
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -14600,6 +14758,7 @@ moves {
   short_name: "SmashReality"
   description: "smashes the realities around it. Removes weather and terrain"
   short_description: "smashes the realities around it. Removes weather and terrain"
+  effect: EFFECT_CLEAR_WEATHER_AND_TERRAIN_HIT
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -14657,6 +14816,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SYRUP
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -14802,6 +14962,7 @@ moves {
   short_name: "Allur.Voice"
   description: "Attacks the target using its angelic voice May confuse the target."
   short_description: "Attacks the target using its angelic voice May confuse the target."
+  effect: EFFECT_ARGUMENT_HIT_IF_STAT_UP
   split: SPECIAL
   type: TYPE_FAIRY
   target: SELECTED
@@ -14856,6 +15017,7 @@ moves {
   short_name: "SupercelSlam"
   description: "Tackles with its shock body. Hurts on miss."
   short_description: "Tackles with its shock body. Hurts on miss."
+  effect: EFFECT_RECOIL_IF_MISS
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -14961,6 +15123,7 @@ moves {
   short_name: "PsyshieldBsh"
   description: "Deals damage. Raises Defense by 1 stage."
   short_description: "Deals damage. Raises Defense by 1 stage."
+  effect: EFFECT_DEFENSE_UP_HIT
   split: PHYSICAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -15067,6 +15230,7 @@ moves {
   short_name: "SprngtidStrm"
   description: "Attacks with winds of love and hate. Sets fairy terrain."
   short_description: "Attacks with winds of love and hate. Sets fairy terrain."
+  effect: EFFECT_FAIRY_TERRAIN_HIT
   split: SPECIAL
   split_modifier: USE_HIGHEST_OFFENSE
   type: TYPE_FAIRY
@@ -15121,6 +15285,7 @@ moves {
   short_name: "WildSwing"
   description: "The user swings their weapon so hard that it sends the target back into its pokeball and forces out another pokemon in its place."
   short_description: "The user swings their weapon so hard that it sends the target back into its pokeball and forces out another pokemon in its place."
+  effect: EFFECT_HIT_SWITCH_TARGET
   split: PHYSICAL
   type: TYPE_NORMAL
   target: SELECTED
@@ -15191,7 +15356,7 @@ moves {
   short_name: "SmshngPmpkns"
   description: "Smashes the ground in front of the opponent with a pumpkin filled with nature\'s finest inside, setting up Grassy Terrain."
   short_description: "Smashes the ground in front of the opponent with a pumpkin filled with nature\'s finest inside, setting up Grassy Terrain."
-  effect: EFFECT_GRASSY_TERRAIN
+  effect: EFFECT_GRASSY_TERRAIN_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -15240,6 +15405,7 @@ moves {
   short_name: "CrackleSlam"
   description: "Attacks with an electrically charged weapon. Super effective against Steel types."
   short_description: "Attacks with an electrically charged weapon. Super effective against Steel types."
+  effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: PHYSICAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -15426,6 +15592,7 @@ moves {
   short_name: "Earthspltter"
   description: "The user strikes the ground relentlessly. Lowers the defense of the target if it\'s Grass, Ground, or Rock type."
   short_description: "The user strikes the ground relentlessly. Lowers the defense of the target if it\'s Grass, Ground, or Rock type."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_STEEL
   target: SELECTED
@@ -15654,6 +15821,7 @@ moves {
   short_name: "RipandTear"
   description: "The user tears into the foe with its fangs."
   short_description: "The user tears into the foe with its fangs."
+  effect: EFFECT_RIP_AND_TEAR
   split: PHYSICAL
   type: TYPE_DARK
   target: SELECTED
@@ -15952,6 +16120,8 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_SPD_MINUS_1
+      affects_user: true
+      certain: true
     }
   }
   mirror_move_affected: true
@@ -15964,6 +16134,7 @@ moves {
   short_name: "VexingVoid"
   description: "A terrifying void engulfs the foe."
   short_description: "A terrifying void engulfs the foe."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_DARK
   target: SELECTED
@@ -16049,6 +16220,7 @@ moves {
   short_name: "EsperWaltz"
   description: "A mesmerizing waltz that may raise Special Attack."
   short_description: "A mesmerizing waltz that may raise Special Attack."
+  effect: EFFECT_SP_ATTACK_UP_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
@@ -16065,6 +16237,7 @@ moves {
   short_name: "ZapJive"
   description: "An electrifying dance that may raise Speed."
   short_description: "An electrifying dance that may raise Speed."
+  effect: EFFECT_SPEED_UP_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
@@ -16081,6 +16254,7 @@ moves {
   short_name: "HexTrot"
   description: "A lively yet haunting dance that may raise Speed."
   short_description: "A lively yet haunting dance that may raise Speed."
+  effect: EFFECT_SPEED_UP_HIT
   split: SPECIAL
   type: TYPE_GHOST
   target: SELECTED
@@ -16147,6 +16321,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_HIGHEST_STAT_EXCEPT_SPEED_PLUS_1
+      affects_user: true
     }
   }
   mirror_move_affected: true
@@ -16175,6 +16350,7 @@ moves {
   short_name: "IcicleImaple"
   description: "Jabs with a horn. May lower defense."
   short_description: "Jabs with a horn. May lower defense."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_ICE
   target: SELECTED
@@ -16240,6 +16416,7 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_HIGHEST_STAT_EXCEPT_SPEED_PLUS_1
+      affects_user: true
     }
   }
   mirror_move_affected: true
@@ -16355,6 +16532,7 @@ moves {
   short_name: "InsectImpact"
   description: "A punch that may drop the target\'s defense stat."
   short_description: "A punch that may drop the target\'s defense stat."
+  effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
   type: TYPE_BUG
   target: SELECTED
@@ -16402,9 +16580,7 @@ moves {
 moves {
   id: MOVE_BLUE_MOON
   name: "Blue Moon"
-  short_name: "Blue Moon"
-  description: "The user's spirit surges from a azure full moon. Cannot be used twice consecutively."
-  short_description: "The user unleashes the spirit from a full blue moon. This move can't be used twice in a row."
+  short_name: "BlueMoon"
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
