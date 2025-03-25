@@ -1,6 +1,47 @@
 # proto-file: MoveList.proto
 # proto-message: er.MoveList
 
+non_sheer_force_effect: EFFECT_PAY_DAY
+non_sheer_force_effect: EFFECT_TRAP
+non_sheer_force_effect: EFFECT_RAMPAGE
+non_sheer_force_effect: EFFECT_STEALTH_ROCK_HIT
+non_sheer_force_effect: EFFECT_SMACK_DOWN
+non_sheer_force_effect: EFFECT_OVERHEAT
+non_sheer_force_effect: EFFECT_CLOSE_COMBAT
+non_sheer_force_effect: EFFECT_CLEAR_SMOG
+non_sheer_force_effect: EFFECT_INCINERATE
+non_sheer_force_effect: EFFECT_KNOCK_OFF
+non_sheer_force_effect: EFFECT_THIEF
+non_sheer_force_effect: EFFECT_NIGHTMARE
+non_sheer_force_effect: EFFECT_CREEPING_THORNS_HIT
+non_sheer_force_effect: EFFECT_WAKE_UP_SLAP
+non_sheer_force_effect: EFFECT_HAMMER_ARM
+non_sheer_force_effect: EFFECT_FEINT
+non_sheer_force_effect: EFFECT_BUG_BITE
+non_sheer_force_effect: EFFECT_FLING
+non_sheer_force_effect: EFFECT_FLAME_BURST
+non_sheer_force_effect: EFFECT_V_CREATE
+non_sheer_force_effect: EFFECT_HIT_PREVENT_ESCAPE
+non_sheer_force_effect: EFFECT_HYPERSPACE_FURY
+non_sheer_force_effect: EFFECT_BURN_UP
+non_sheer_force_effect: EFFECT_SPECTRAL_THIEF
+non_sheer_force_effect: EFFECT_CORROSIVE_GAS
+non_sheer_force_effect: EFFECT_STICKY_WEB_HIT
+non_sheer_force_effect: EFFECT_REMOVE_TERRAIN_NO_FAIL
+non_sheer_force_effect: EFFECT_MISC_HIT
+non_sheer_force_effect: EFFECT_SPIKE_HIT
+non_sheer_force_effect: EFFECT_TREPIDATION
+
+non_sheer_force_move_effect: MOVE_EFFECT_FEINT
+non_sheer_force_move_effect: MOVE_EFFECT_WATER_PLEDGE
+non_sheer_force_move_effect: MOVE_EFFECT_FIRE_PLEDGE
+non_sheer_force_move_effect: MOVE_EFFECT_GRASS_PLEDGE
+non_sheer_force_move_effect: MOVE_EFFECT_SCALE_SHOT
+non_sheer_force_move_effect: MOVE_EFFECT_WYRM_WIND
+non_sheer_force_move_effect: MOVE_EFFECT_GLAIVE_RUSH
+non_sheer_force_move_effect: MOVE_EFFECT_SALT_CURE
+non_sheer_force_move_effect: MOVE_EFFECT_PREVENT_ESCAPE
+
 moves {
   name: "-"
   short_name: "-"
@@ -63,7 +104,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   no_parental_bond: true
 }
 moves {
@@ -116,7 +156,6 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_FIRE_PUNCH
@@ -359,7 +398,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SLAM
@@ -625,7 +663,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_TAKE_DOWN
@@ -633,6 +670,7 @@ moves {
   short_name: "TakeDown"
   description: "Slams into the foe, knocking them back and lowering speed."
   short_description: "Slams into the foe, knocking them back and lowering speed."
+  effect: EFFECT_SPEED_DOWN_HIT,
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -642,7 +680,6 @@ moves {
   effect_chance: 20
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_THRASH
@@ -660,7 +697,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_DOUBLE_EDGE
@@ -1212,7 +1248,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   field: true
 }
 moves {
@@ -1230,7 +1265,6 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_MEGA_DRAIN
@@ -1377,7 +1411,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   dance: true
 }
 moves {
@@ -1423,7 +1456,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_THUNDER_SHOCK
@@ -1679,7 +1711,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_TELEPORT
@@ -2118,7 +2149,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SWIFT
@@ -2773,7 +2803,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SPIDER_WEB
@@ -2819,7 +2848,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_FLAME_WHEEL
@@ -3264,7 +3292,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SANDSTORM
@@ -3361,7 +3388,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -4045,7 +4071,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   hits_underwater: true
   field: true
 }
@@ -4099,7 +4124,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   sound: true
 }
 moves {
@@ -4538,7 +4562,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_ENDEAVOR
@@ -4850,7 +4873,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   iron_fist: true
 }
 moves {
@@ -5064,7 +5086,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_ODOR_SLEUTH
@@ -5271,7 +5292,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SHEER_COLD
@@ -5525,7 +5545,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_VOLT_TACKLE
@@ -5702,7 +5721,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_ROOST
@@ -5761,7 +5779,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_HAMMER_ARM
@@ -5779,7 +5796,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   iron_fist: true
   hammer: true
 }
@@ -5864,7 +5880,6 @@ moves {
   priority: 2
   ignores_protect: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_PLUCK
@@ -5882,7 +5897,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   strong_jaw: true
 }
 moves {
@@ -5960,7 +5974,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_PAYBACK
@@ -6025,7 +6038,6 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   no_kings_rock: true
-  no_sheer_force: true
   throwing: true
   no_parental_bond: true
 }
@@ -6343,7 +6355,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_AURA_SPHERE
@@ -6872,7 +6883,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   ignores_levitation: true
   ballistic: true
 }
@@ -7013,7 +7023,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_DISCHARGE
@@ -7062,7 +7071,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_POWER_WHIP
@@ -7287,7 +7295,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   strong_jaw: true
 }
 moves {
@@ -7494,7 +7501,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_DARK_VOID
@@ -7739,7 +7745,6 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   hits_air: HITS
 }
 moves {
@@ -7774,7 +7779,6 @@ moves {
   effect_chance: 100
   priority: 1
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -8011,7 +8015,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   sound: true
 }
 moves {
@@ -8063,7 +8066,6 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_STORED_POWER
@@ -8231,7 +8233,6 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_QUASH
@@ -8362,7 +8363,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   weather: true
 }
 moves {
@@ -8386,7 +8386,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   weather: true
 }
 moves {
@@ -8410,7 +8409,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   weather: true
 }
 moves {
@@ -8443,7 +8441,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_BULLDOZE
@@ -8678,7 +8675,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   air: true
 }
 moves {
@@ -9032,7 +9028,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_FUSION_FLARE
@@ -9175,7 +9170,6 @@ moves {
   ignores_protect: true
   two_turn: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_TRICK_OR_TREAT
@@ -9846,7 +9840,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_POWER_UP_PUNCH
@@ -9900,7 +9893,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   hits_air: HITS
   ignores_levitation: true
   no_parental_bond: true
@@ -9919,7 +9911,6 @@ moves {
   pp: 10
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_LANDS_WRATH
@@ -9997,7 +9988,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_HYPERSPACE_FURY
@@ -10015,7 +10005,6 @@ moves {
   priority: 1
   ignores_protect: true
   mirror_move_affected: true
-  no_sheer_force: true
   ignores_substitute: true
 }
 moves {
@@ -10394,7 +10383,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   thaw_user: true
 }
 moves {
@@ -10608,7 +10596,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -10725,7 +10712,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SUNSTEEL_STRIKE
@@ -10847,7 +10833,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_PLASMA_FISTS
@@ -10899,7 +10884,6 @@ moves {
   priority: 2
   contact: true
   crit: ALWAYS
-  no_sheer_force: true
 }
 moves {
   id: MOVE_SPLISHY_SPLASH
@@ -11398,7 +11382,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   strong_jaw: true
 }
 moves {
@@ -11470,7 +11453,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_BREAKING_SWIPE
@@ -11730,7 +11712,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
   ballistic: true
   no_parental_bond: true
@@ -11918,7 +11899,6 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_COACHING
@@ -12001,7 +11981,6 @@ moves {
   effect_chance: 30
   mirror_move_affected: true
   no_kings_rock: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -12070,7 +12049,6 @@ moves {
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_DRAGON_ENERGY
@@ -12418,7 +12396,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_PLASMA_PULSE
@@ -12592,7 +12569,6 @@ moves {
   effect_chance: 20
   crit: HIGH
   mirror_move_affected: true
-  no_sheer_force: true
   arrow: true
 }
 moves {
@@ -12659,7 +12635,6 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
-  no_sheer_force: true
   horn: true
 }
 moves {
@@ -12677,7 +12652,6 @@ moves {
   pp: 10
   effect_chance: 10
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -12762,7 +12736,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -12903,7 +12876,6 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
-  no_sheer_force: true
   arrow: true
 }
 moves {
@@ -12974,7 +12946,6 @@ moves {
   effect_chance: 20
   crit: HIGH
   mirror_move_affected: true
-  no_sheer_force: true
   arrow: true
 }
 moves {
@@ -13011,7 +12982,6 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -13030,7 +13000,6 @@ moves {
   effect_chance: 10
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -13049,7 +13018,6 @@ moves {
   effect_chance: 20
   crit: HIGH
   mirror_move_affected: true
-  no_sheer_force: true
   arrow: true
 }
 moves {
@@ -13083,7 +13051,6 @@ moves {
   effect_chance: 100
   crit: HIGH
   mirror_move_affected: true
-  no_sheer_force: true
   arrow: true
 }
 moves {
@@ -13104,7 +13071,6 @@ moves {
   }
   crit: HIGH
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -13137,7 +13103,6 @@ moves {
   pp: 10
   effect_chance: 10
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -13365,7 +13330,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -13414,7 +13378,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_REVIVAL_BLESSING
@@ -13462,7 +13425,6 @@ moves {
   pp: 10
   effect_chance: 20
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_WYRM_WIND
@@ -13484,7 +13446,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
   ballistic: true
   no_parental_bond: true
@@ -13842,7 +13803,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   field: true
 }
 moves {
@@ -13889,7 +13849,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_TWIN_BEAM
@@ -13940,7 +13899,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -14222,7 +14180,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -14355,7 +14312,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_DOODLE
@@ -14560,7 +14516,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_COMEUPPANCE
@@ -14763,7 +14718,6 @@ moves {
     misc: MISC_EFFECT_DOUBLE_DAMAGE
   }
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
@@ -15034,7 +14988,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -15247,7 +15200,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15280,7 +15232,6 @@ moves {
   effect_chance: 30
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15377,7 +15328,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15452,7 +15402,6 @@ moves {
   effect_chance: 100
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15486,7 +15435,6 @@ moves {
   effect_chance: 50
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15505,7 +15453,6 @@ moves {
   effect_chance: 30
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   hammer: true
 }
 moves {
@@ -15666,7 +15613,6 @@ moves {
     }
   }
   mirror_move_affected: true
-  no_sheer_force: true
   ballistic: true
   no_parental_bond: true
 }
@@ -15772,7 +15718,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   keen_edge: true
 }
 moves {
@@ -15905,7 +15850,6 @@ moves {
   pp: 20
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_ASTRAL_HAND
@@ -16044,7 +15988,6 @@ moves {
   pp: 5
   effect_chance: 100
   mirror_move_affected: true
-  no_sheer_force: true
 }
 moves {
   id: MOVE_TAKE_FLIGHT
@@ -16163,7 +16106,6 @@ moves {
   pp: 10
   effect_chance: 30
   mirror_move_affected: true
-  no_sheer_force: true
   air: true
 }
 moves {
@@ -16422,7 +16364,6 @@ moves {
   effect_chance: 30
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   iron_fist: true
 }
 moves {
@@ -16441,10 +16382,10 @@ moves {
   effect_chance: 10
   contact: true
   mirror_move_affected: true
-  no_sheer_force: true
   mega_launcher: true
 }
 moves {
+  id: MOVE_METALLIC_MELODY
   name: "Metallic Melody"
   short_name: "MetalcMelody"
   description: "Hits the body rhythmically to damage the opponent with sound."
@@ -16459,8 +16400,11 @@ moves {
   sound: true
 }
 moves {
+  id: MOVE_BLUE_MOON
   name: "Blue Moon"
-  short_name: "BlueMoon"
+  short_name: "Blue Moon"
+  description: "The user's spirit surges from a azure full moon. Cannot be used twice consecutively."
+  short_description: "The user unleashes the spirit from a full blue moon. This move can't be used twice in a row."
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED

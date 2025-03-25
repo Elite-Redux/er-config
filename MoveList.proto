@@ -23,7 +23,9 @@ extend google.protobuf.EnumValueOptions {
 }
 
 message MoveList {
-  repeated Move moves = 1;
+  repeated MoveEffect non_sheer_force_effect = 1;
+  repeated BattleMoveEffect non_sheer_force_move_effect = 2;
+  repeated Move moves = 3;
 }
 
 enum MoveTarget {
