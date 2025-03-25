@@ -638,7 +638,7 @@ ability {
 ability {
   id: ABILITY_UNNERVE
   name: "Unnerve"
-  description: "Foes can\'t eat Berries as long as this Pok\303\251mon is in battle."
+  description: "Foes can\'t use consumable items."
 }
 ability {
   id: ABILITY_DEFIANT
@@ -738,7 +738,7 @@ ability {
 ability {
   id: ABILITY_WONDER_SKIN
   name: "Wonder Skin"
-  description: "Opposing status moves have their accuracy halved."
+  description: "Blocks most damage boosting and multihit abilities."
 }
 ability {
   id: ABILITY_ANALYTIC
@@ -1938,7 +1938,7 @@ ability {
 ability {
   id: ABILITY_DISCIPLINE
   name: "Discipline"
-  description: "Rampage moves no longer trap you. Can\'t be confused or intimidated."
+  description: "You can switch during lock-in moves. Immune to confusion/intimidate."
 }
 ability {
   id: ABILITY_THUNDERCALL
@@ -2193,7 +2193,7 @@ ability {
 ability {
   id: ABILITY_JAWS_OF_CARNAGE
   name: "Jaws of Carnage"
-  description: "Devours 1/2 of the foe when defeating it."
+  description: "Heals 1/2 HP when KO\'ing with a biting move. 1/4 HP otherwise."
 }
 ability {
   id: ABILITY_ANGELS_WRATH
@@ -2783,7 +2783,7 @@ ability {
 ability {
   id: ABILITY_SUBDUE
   name: "Subdue"
-  description: "Doubles the power of stat dropping moves."
+  description: "Doubles stat drop effects used by this pokemon."
 }
 ability {
   id: ABILITY_READIED_ACTION
@@ -2988,7 +2988,7 @@ ability {
 ability {
   id: ABILITY_OLE
   name: "Ol\303\251!"
-  description: "30% chance to evade single- target moves."
+  description: "20% chance to evade single- target moves."
 }
 ability {
   id: ABILITY_MALICIOUS
@@ -3133,7 +3133,7 @@ ability {
 ability {
   id: ABILITY_RESONANCE
   name: "Resonance"
-  description: "Sound moves cause the target to  bleed."
+  description: "Sound moves have a 30% bleed chance."
 }
 ability {
   id: ABILITY_ETHEREAL_RUSH
@@ -3142,7 +3142,7 @@ ability {
 }
 ability {
   id: ABILITY_CUTE_ANTECEDENCE
-  name: "Cute Antecedence"
+  name: "Pretty Privilege"
   description: "At full HP, gives +1 priority to its Fairy-type moves."
 }
 ability {
@@ -3198,7 +3198,7 @@ ability {
 ability {
   id: ABILITY_PIERCING_SOLO
   name: "Piercing Solo"
-  description: "Sound moves have a 30% chance to cause bleeding."
+  description: "Sound moves cause bleeding."
 }
 ability {
   id: ABILITY_RHYTHMIC
@@ -3333,7 +3333,7 @@ ability {
 ability {
   id: ABILITY_SNOWY_WRATH
   name: "Snowy Wrath"
-  description: "Snow Warning + Whiteout."
+  description: "Snow Warning + Cryomancy."
 }
 ability {
   id: ABILITY_PATTERN_CHANGE
@@ -3442,7 +3442,7 @@ ability {
 }
 ability {
   id: ABILITY_HUGE_WINGS
-  name: "Huge Wings"
+  name: "Imposing Wings"
   description: "Giant Wings + Levitate."
 }
 ability {
@@ -3588,7 +3588,7 @@ ability {
 ability {
   id: ABILITY_WILDFIRE
   name: "Wildfire"
-  description: "Attacks with 20BP Fire Spin when hit by a contact move."
+  description: "Attacks with Fire Spin on entry."
 }
 ability {
   id: ABILITY_JUMP_SCARE
@@ -3613,7 +3613,7 @@ ability {
 ability {
   id: ABILITY_WHIPLASH
   name: "Whiplash"
-  description: "Physical attacks have a 50% chance to lower Defense."
+  description: "Physical attacks lower Defense."
 }
 ability {
   id: ABILITY_SUPERSWEET_SYRUP
@@ -3753,7 +3753,7 @@ ability {
 ability {
   id: ABILITY_NEUROTOXIN
   name: "Neurotoxin"
-  description: "Inflicting poison also lowers Attack, Defense, and Speed."
+  description: "Inflicting poison also lowers Attack, SpAtk, and Speed."
 }
 ability {
   id: ABILITY_ENERGIZED_HORNS
@@ -3784,4 +3784,136 @@ ability {
   id: ABILITY_STRIKER_PIXILATE
   name: "Twinkle Toes"
   description: "Striker + Pixilate."
+}
+ability {
+  name: "Doom Blast"
+  description: "Boosts own Dark moves by 1.35x, takes 10% of dmg dealt as recoil."
+}
+ability {
+  name: "Bruteforce"
+  description: "Rock Head + Reckless."
+}
+ability {
+  name: "Faraday Cage"
+  description: "Shell Armor + 50BP Thunder Cage when hit by contact."
+}
+ability {
+  name: "Acidic Slime"
+  description: "Corrosion + Poison STAB."
+}
+ability {
+  name: "Rose Garden"
+  description: "Sets 2 layers of Toxic Spikes on entry."
+}
+ability {
+  name: "Qigong"
+  description: "Always hits. Fighting Spirit + Rampage."
+}
+ability {
+  name: "Deceit Conjourer"
+  description: "Magic Guard + Magic Bounce."
+}
+ability {
+  name: "Deep Freeze"
+  description: "Boosts water and ice by 25% and halves fire damage taken"
+}
+ability {
+  name: "Soul Devourer"
+  description: "Phantom Pain + Soul Eater."
+}
+ability {
+  name: "Champion\'s Entrance"
+  description: "Intimidate + Violent Rush."
+}
+ability {
+  name: "Presto"
+  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Sound-based moves."
+}
+ability {
+  name: "Samba"
+  description: "Striker + Dancer."
+}
+ability {
+  name: "Junshi Sanda"
+  description: "Every move gets a 30% boost from Combat Specialist."
+}
+ability {
+  name: "Gladiator"
+  description: "Boosts Fighting-type moves by 1.3x, or 1.8x when below 1/3 HP."
+}
+ability {
+  name: "Forsaken Heart"
+  description: "KOs dealt anywhere on the field raise Attack by one stage."
+}
+ability {
+  name: "Relentless"
+  description: "Exploit Weakness + Merciless."
+}
+ability {
+  name: "Soothsayer"
+  description: "All hits will be not very effective for 5 turns against this Pokemon."
+}
+ability {
+  name: "Corrupted Mind"
+  description: "Psychic moves used by this Pokemon always hit super-effectively."
+}
+ability {
+  name: "Flame Coat"
+  description: "Non-Fire-types take 1/8 dmg every turn when on field + Flash Fire."
+}
+ability {
+  name: "Unown Power"
+  description: "Mystic Power + Hidden and Secret Power hit Super-effectively."
+}
+ability {
+  name: "Super Scope"
+  description: "Mega Launcher + Artillery."
+}
+ability {
+  name: "Venom Crown"
+  description: "Mighty Horn + Poison Point."
+}
+ability {
+  name: "Blight Scale"
+  description: "Multiscale + Poison Point."
+}
+ability {
+  name: "Gunman"
+  description: "Mega Launcher + All moves are Mega Launcher boosted."
+}
+ability {
+  name: "Hunter\'s Mark"
+  description: "Attacks switching foes with 40BP Spirit Shackle."
+}
+ability {
+  name: "Hemolysis"
+  description: "Poisoned foes can\'t heal and lose all stat buffs."
+}
+ability {
+  name: "Caretaker"
+  description: "Healer + Friend Guard."
+}
+ability {
+  name: "Poseidon\'s Dominion"
+  description: "Whirlpool on entry."
+}
+ability {
+  name: "Two-Faced"
+  description: "Changes form each turn. boosts elec/dark moves by 35% with 10% recoil."
+}
+ability {
+  name: "Lullaby"
+  description: "Sing accuracy is 90% when used by this Pok\303\251mon."
+}
+ability {
+  name: "Cryo Architect"
+  description: "Boosts attack and def from ice and water"
+}
+ability {
+  name: "Glacial Rage"
+  description: "Triggers 50 BP Blizzard after using a Ice-type move."
+}
+ability {
+  name: "Immovable Object"
+  description: "Impenetrable + Sturdy"
 }
