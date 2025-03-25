@@ -7,6 +7,7 @@ import "MoveEffect.proto";
 import "Types.proto";
 import "BattleMoveEffect.proto";
 import "Common.proto";
+import "google/protobuf/descriptor.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
