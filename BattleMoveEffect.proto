@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package er;
 
+import "MoveEffect.proto";
+
 option java_package = "er.proto";
 option java_multiple_files = true;
 
@@ -16,7 +18,7 @@ enum BattleMoveEffect {
   MOVE_EFFECT_FROSTBITE = 7;
   MOVE_EFFECT_BLEED = 8;
   MOVE_EFFECT_CONFUSION = 9;
-  MOVE_EFFECT_FLINCH = 10;
+  MOVE_EFFECT_FLINCH = 10 [(no_kings_rock) = true];
   MOVE_EFFECT_TRI_ATTACK = 11;
   MOVE_EFFECT_UPROAR = 12;
   MOVE_EFFECT_PAYDAY = 13;
@@ -40,7 +42,7 @@ enum BattleMoveEffect {
   MOVE_EFFECT_RECHARGE = 31;
   MOVE_EFFECT_RAGE = 32;
   MOVE_EFFECT_STEAL_ITEM = 33;
-  MOVE_EFFECT_PREVENT_ESCAPE = 34;
+  MOVE_EFFECT_PREVENT_ESCAPE = 34 [(no_sheer_force) = true];
   MOVE_EFFECT_NIGHTMARE = 35;
   MOVE_EFFECT_ALL_STATS_UP = 36;
   MOVE_EFFECT_RAPIDSPIN = 37;
@@ -70,7 +72,7 @@ enum BattleMoveEffect {
   MOVE_EFFECT_SP_ATK_TWO_DOWN = 61;
   MOVE_EFFECT_SMACK_DOWN = 62;
   MOVE_EFFECT_FLAME_BURST = 63;
-  MOVE_EFFECT_FEINT = 64;
+  MOVE_EFFECT_FEINT = 64 [(no_sheer_force) = true];
   MOVE_EFFECT_SPECTRAL_THIEF = 65;
   MOVE_EFFECT_V_CREATE = 66;
   MOVE_EFFECT_HAPPY_HOUR = 67;
@@ -82,12 +84,12 @@ enum BattleMoveEffect {
   MOVE_EFFECT_ATTRACT = 73;
   MOVE_EFFECT_CURSE = 74;
   MOVE_EFFECT_DISABLE = 75;
-  MOVE_EFFECT_GLAIVE_RUSH = 76;
-  MOVE_EFFECT_SALT_CURE = 77;
+  MOVE_EFFECT_GLAIVE_RUSH = 76 [(no_sheer_force) = true];
+  MOVE_EFFECT_SALT_CURE = 77 [(no_sheer_force) = true];
   MOVE_EFFECT_ORDER_UP = 78;
-  MOVE_EFFECT_WATER_PLEDGE = 79;
-  MOVE_EFFECT_FIRE_PLEDGE = 80;
-  MOVE_EFFECT_GRASS_PLEDGE = 81;
+  MOVE_EFFECT_WATER_PLEDGE = 79 [(no_sheer_force) = true];
+  MOVE_EFFECT_FIRE_PLEDGE = 80 [(no_sheer_force) = true];
+  MOVE_EFFECT_GRASS_PLEDGE = 81 [(no_sheer_force) = true];
   MOVE_EFFECT_RAINBOW = 82;
   MOVE_EFFECT_FIRE_SEA = 83;
   MOVE_EFFECT_SWAMP = 84;
@@ -99,7 +101,7 @@ enum BattleMoveEffect {
   MOVE_EFFECT_PSYCHIC_NOISE = 90;
   MOVE_EFFECT_HIGHEST_STAT_EXCEPT_SPEED_PLUS_1 = 91;
   MOVE_EFFECT_MAKE_IT_RAIN = 92;
-  MOVE_EFFECT_WYRM_WIND = 93;
-  MOVE_EFFECT_SCALE_SHOT = 94;
+  MOVE_EFFECT_WYRM_WIND = 93 [(no_sheer_force) = true];
+  MOVE_EFFECT_SCALE_SHOT = 94 [(no_sheer_force) = true];
   MOVE_EFFECT_DOUBLESLAP = 95;
 }
