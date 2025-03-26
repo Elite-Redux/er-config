@@ -3,9 +3,9 @@ syntax = "proto3";
 package er;
 
 import "MoveEnum.proto";
-import "MoveEffect.proto";
+import "MoveBehavior.proto";
 import "Types.proto";
-import "BattleMoveEffect.proto";
+import "MoveEffect.proto";
 import "google/protobuf/descriptor.proto";
 
 option java_package = "er.proto";
@@ -47,7 +47,7 @@ enum MoveSplit {
 }
 
 message MoveEffectArgument {
-  BattleMoveEffect effect = 1;
+  MoveEffect effect = 1;
   bool affects_user = 2;
   bool certain = 3;
 }
@@ -119,7 +119,7 @@ message Move {
   string short_name = 3;
   string description = 4;
   string short_description = 5;
-  MoveEffect effect = 6;
+  MoveBehavior effect = 6;
   optional MoveSplit split = 7;
   SplitFlag split_modifier = 8;
   optional Type type = 9;
