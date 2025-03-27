@@ -11,6 +11,8 @@ extend google.protobuf.EnumValueOptions {
   optional bool no_sheer_force = 1001000;
   optional bool flinch_effect = 1001001;
   optional bool no_kings_rock = 1001002;
+  optional bool two_turn = 1001003;
+  optional bool no_parental_bond = 1001004;
 }
 
 enum MoveBehavior {
@@ -21,7 +23,7 @@ enum MoveBehavior {
   EFFECT_BURN_HIT = 4;
   EFFECT_FREEZE_HIT = 5;
   EFFECT_PARALYZE_HIT = 6;
-  EFFECT_EXPLOSION = 7;
+  EFFECT_EXPLOSION = 7 [(no_parental_bond) = true];
   EFFECT_DREAM_EATER = 8;
   EFFECT_MIRROR_MOVE = 9;
   EFFECT_ATTACK_UP = 10;
@@ -43,7 +45,7 @@ enum MoveBehavior {
   EFFECT_BIDE = 26;
   EFFECT_RAMPAGE = 27 [(no_sheer_force) = true];
   EFFECT_ROAR = 28;
-  EFFECT_MULTI_HIT = 29;
+  EFFECT_MULTI_HIT = 29 [(no_parental_bond) = true];
   EFFECT_CONVERSION = 30;
   EFFECT_FLINCH_HIT = 31 [(flinch_effect) = true];
   EFFECT_RESTORE_HP = 32;
@@ -58,7 +60,7 @@ enum MoveBehavior {
   EFFECT_DRAGON_RAGE = 41;
   EFFECT_TRAP = 42 [(no_sheer_force) = true];
   EFFECT_HEAL_BLOCK = 43;
-  EFFECT_DOUBLE_HIT = 44;
+  EFFECT_DOUBLE_HIT = 44 [(no_parental_bond) = true];
   EFFECT_RECOIL_IF_MISS = 45;
   EFFECT_MIST = 46;
   EFFECT_FOCUS_ENERGY = 47;
@@ -89,7 +91,7 @@ enum MoveBehavior {
   EFFECT_SPECIAL_DEFENSE_DOWN_HIT = 72;
   EFFECT_ACCURACY_DOWN_HIT = 73;
   EFFECT_EVASION_DOWN_HIT = 74;
-  EFFECT_TWO_TURNS_ATTACK = 75;
+  EFFECT_TWO_TURNS_ATTACK = 75 [(two_turn) = true];
   EFFECT_CONFUSE_HIT = 76;
   EFFECT_TWINEEDLE = 77;
   EFFECT_VITAL_THROW = 78;
@@ -118,7 +120,7 @@ enum MoveBehavior {
   EFFECT_FALSE_SWIPE = 101;
   EFFECT_HEAL_BELL = 102;
   EFFECT_ALWAYS_CRIT = 103;
-  EFFECT_TRIPLE_KICK = 104;
+  EFFECT_TRIPLE_KICK = 104 [(no_parental_bond) = true];
   EFFECT_THIEF = 105 [(no_sheer_force) = true];
   EFFECT_MEAN_LOOK = 106;
   EFFECT_NIGHTMARE = 107 [(no_sheer_force) = true];
@@ -165,11 +167,11 @@ enum MoveBehavior {
   EFFECT_FUTURE_SIGHT = 148 [(no_kings_rock) = true];
   EFFECT_GUST = 149;
   EFFECT_FLINCH_MINIMIZE_HIT = 150 [(flinch_effect) = true];
-  EFFECT_SOLARBEAM = 151;
+  EFFECT_SOLARBEAM = 151 [(two_turn) = true];
   EFFECT_THUNDER = 152;
   EFFECT_SWITCH_ARGUMENT = 153;
-  EFFECT_BEAT_UP = 154;
-  EFFECT_SEMI_INVULNERABLE = 155;
+  EFFECT_BEAT_UP = 154 [(no_parental_bond) = true];
+  EFFECT_SEMI_INVULNERABLE = 155 [(two_turn) = true];
   EFFECT_DEFENSE_CURL = 156;
   EFFECT_SOFTBOILED = 157;
   EFFECT_FAKE_OUT = 158 [(flinch_effect) = true];
@@ -203,7 +205,7 @@ enum MoveBehavior {
   EFFECT_BRICK_BREAK = 186;
   EFFECT_YAWN = 187;
   EFFECT_KNOCK_OFF = 188 [(no_sheer_force) = true];
-  EFFECT_ENDEAVOR = 189;
+  EFFECT_ENDEAVOR = 189 [(no_parental_bond) = true];
   EFFECT_ERUPTION = 190;
   EFFECT_SKILL_SWAP = 191;
   EFFECT_IMPRISON = 192;
@@ -229,8 +231,8 @@ enum MoveBehavior {
   EFFECT_DRAGON_DANCE = 212;
   EFFECT_CAMOUFLAGE = 213;
   EFFECT_PLEDGE = 214;
-  EFFECT_FLING = 215 [(no_sheer_force) = true, (no_kings_rock) = true];
-  EFFECT_NATURAL_GIFT = 216 [(no_kings_rock) = true];
+  EFFECT_FLING = 215 [(no_sheer_force) = true, (no_kings_rock) = true, (no_parental_bond) = true];
+  EFFECT_NATURAL_GIFT = 216 [(no_kings_rock) = true, (no_parental_bond) = true];
   EFFECT_WAKE_UP_SLAP = 217 [(no_sheer_force) = true];
   EFFECT_WRING_OUT = 218;
   EFFECT_HEX = 219;
@@ -312,7 +314,7 @@ enum MoveBehavior {
   EFFECT_TOXIC_THREAD = 295;
   EFFECT_CLEAR_SMOG = 296 [(no_sheer_force) = true];
   EFFECT_HIT_SWITCH_TARGET = 297;
-  EFFECT_FINAL_GAMBIT = 298;
+  EFFECT_FINAL_GAMBIT = 298 [(no_parental_bond) = true];
   EFFECT_CHANGE_TYPE_ON_ITEM = 299;
   EFFECT_AUTOTOMIZE = 300;
   EFFECT_COPYCAT = 301;
@@ -358,7 +360,7 @@ enum MoveBehavior {
   EFFECT_PURIFY = 341;
   EFFECT_BURN_UP = 342 [(no_sheer_force) = true];
   EFFECT_SHORE_UP = 343;
-  EFFECT_GEOMANCY = 344;
+  EFFECT_GEOMANCY = 344 [(two_turn) = true];
   EFFECT_FAIRY_LOCK = 345;
   EFFECT_ALLY_SWITCH = 346;
   EFFECT_RELIC_SONG = 347;
@@ -431,8 +433,8 @@ enum MoveBehavior {
   EFFECT_MORTAL_SPIN = 414;
   EFFECT_KARMA = 415;
   EFFECT_REMOVE_TERRAIN_NO_FAIL = 416 [(no_sheer_force) = true];
-  EFFECT_TEN_HITS = 417;
-  EFFECT_TWO_TURN_SECONDARY = 418;
+  EFFECT_TEN_HITS = 417 [(no_sheer_force) = true];
+  EFFECT_TWO_TURN_SECONDARY = 418 [(two_turn) = true];
   EFFECT_SPECIAL_ATTACK_UP_HIT = 419;
   EFFECT_ARGUMENT_HIT = 420;
   EFFECT_EVERY_OTHER_TURN = 421;
@@ -467,7 +469,7 @@ enum MoveBehavior {
   EFFECT_MYSTIC_DANCE = 450;
   EFFECT_SNAP_JAW = 451;
   EFFECT_RIP_AND_TEAR = 452;
-  EFFECT_SKY_DROP = 453;
+  EFFECT_SKY_DROP = 453 [(two_turn) = true];
   EFFECT_TERROR_CHARGE = 454;
   EFFECT_TAILWIND_HIT = 455;
   EFFECT_SANDSTORM_HIT = 456;
@@ -486,7 +488,7 @@ enum MoveBehavior {
   EFFECT_CALTROPS = 469;
   EFFECT_SWEET_KISS = 470;
   EFFECT_QUICK_GUARD = 471;
-  EFFECT_TWO_TURN_RETALIATION = 472;
+  EFFECT_TWO_TURN_RETALIATION = 472 [(two_turn) = true];
   EFFECT_SHELL_TRAP = 473;
   EFFECT_GRASSY_TERRAIN_HIT = 474;
 }

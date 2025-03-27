@@ -63,7 +63,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_COMET_PUNCH
@@ -82,7 +81,6 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_MEGA_PUNCH
@@ -224,7 +222,7 @@ moves {
   id: MOVE_RAZOR_WIND
   name: "Razor Wind"
   short_name: "Razor Wind"
-  description: "super effective vs Rock. +1 priority in tailwind. High crit. Keen edge boost."
+  description: "super effective vs Rock. +1 priority in tailwind. High crit. keen edge boost."
   short_description: "Wind slices through Rock for super effective damage."
   effect: EFFECT_SE_AGAINST_TYPE_HIT
   split: SPECIAL
@@ -340,7 +338,6 @@ moves {
   accuracy: 100
   pp: 15
   contact: true
-  two_turn: true
   mirror_move_affected: true
   field: true
 }
@@ -432,7 +429,6 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_MEGA_KICK
@@ -554,7 +550,6 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   horn: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_HORN_DRILL
@@ -727,7 +722,6 @@ moves {
   effect_chance: 50
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_PIN_MISSILE
@@ -743,7 +737,6 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_LEER
@@ -1026,7 +1019,7 @@ moves {
   id: MOVE_PSYBEAM
   name: "Psybeam"
   short_name: "Psybeam"
-  description: "A peculiar ray is shot at the foe. That lowers SpAtk. Mega Launcher boost"
+  description: "A peculiar ray is shot at the foe. that lowers SpAtk. Mega Launcher boost"
   short_description: "Fires a peculiar ray that lowers Special Attack."
   effect: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   split: SPECIAL
@@ -1104,7 +1097,6 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_DRILL_PECK
@@ -1191,10 +1183,8 @@ moves {
   accuracy: 100
   pp: 10
   contact: true
-  two_turn: true
   mirror_move_affected: true
   throwing: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_STRENGTH
@@ -1267,7 +1257,7 @@ moves {
   id: MOVE_GROWTH
   name: "Growth"
   short_name: "Growth"
-  description: "The user\'s body is forced to grow, raising its Atk. And Sp. Atk stat."
+  description: "The user\'s body is forced to grow, raising its Atk. and Sp. Atk stat."
   short_description: "Forces the body to grow. Ups Attack and SpAtk"
   effect: EFFECT_GROWTH
   split: STATUS
@@ -1307,7 +1297,6 @@ moves {
   power: 120
   accuracy: 100
   pp: 10
-  two_turn: true
   mirror_move_affected: true
   mega_launcher: true
   weather: true
@@ -1554,7 +1543,6 @@ moves {
   accuracy: 100
   pp: 10
   contact: true
-  two_turn: true
   mirror_move_affected: true
   field: true
 }
@@ -1974,7 +1962,6 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_EGG_BOMB
@@ -2151,7 +2138,6 @@ moves {
     }
   }
   contact: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -2170,7 +2156,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_CONSTRICT
@@ -2286,7 +2271,7 @@ moves {
   name: "Poison Gas"
   short_name: "Poison Gas"
   description: "Super effective vs Flying. Hits both foes. 30% chance to poison."
-  short_description: "Super effective vs Flying. Gas that may poison."
+  short_description: "Super effective vs Flying. gas that may poison."
   effect: EFFECT_POISON_GAS
   split: SPECIAL
   type: TYPE_POISON
@@ -2313,7 +2298,6 @@ moves {
   pp: 15
   mirror_move_affected: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_LEECH_LIFE
@@ -2367,7 +2351,6 @@ moves {
     }
   }
   contact: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -2531,7 +2514,6 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_FURY_SWIPES
@@ -2550,7 +2532,6 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_BONEMERANG
@@ -2568,7 +2549,6 @@ moves {
   mirror_move_affected: true
   ignores_levitation: true
   bone: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_REST
@@ -2761,7 +2741,6 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_THIEF
@@ -3239,7 +3218,6 @@ moves {
   priority: 1
   mirror_move_affected: true
   bone: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_LOCK_ON
@@ -3432,7 +3410,6 @@ moves {
   contact: true
   mirror_move_affected: true
   keen_edge: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_STEEL_WING
@@ -4073,7 +4050,6 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_FAKE_OUT
@@ -4563,7 +4539,6 @@ moves {
   pp: 5
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_ERUPTION
@@ -4685,7 +4660,6 @@ moves {
   accuracy: 100
   pp: 15
   contact: true
-  two_turn: true
   mirror_move_affected: true
   field: true
 }
@@ -4705,7 +4679,6 @@ moves {
   contact: true
   crit: HIGH
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_CAMOUFLAGE
@@ -5337,7 +5310,6 @@ moves {
   pp: 20
   mirror_move_affected: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_AERIAL_ACE
@@ -5369,7 +5341,6 @@ moves {
   accuracy: 100
   pp: 20
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_IRON_DEFENSE
@@ -5482,7 +5453,6 @@ moves {
     }
   }
   contact: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -5657,7 +5627,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SHOCK_WAVE
@@ -5861,7 +5830,6 @@ moves {
   accuracy: 100
   pp: 15
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_FEINT
@@ -6037,7 +6005,6 @@ moves {
   effect_chance: 100
   mirror_move_affected: true
   throwing: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_PSYCHO_SHIFT
@@ -6978,7 +6945,6 @@ moves {
     }
   }
   contact: true
-  two_turn: true
   mirror_move_affected: true
   field: true
 }
@@ -7426,7 +7392,6 @@ moves {
   contact: true
   crit: HIGH
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_ROAR_OF_TIME
@@ -7580,7 +7545,6 @@ moves {
   }
   contact: true
   ignores_protect: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -8045,7 +8009,6 @@ moves {
   pp: 15
   mirror_move_affected: true
   sound: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_CHIP_AWAY
@@ -8196,10 +8159,8 @@ moves {
   accuracy: 100
   pp: 10
   contact: true
-  two_turn: true
   mirror_move_affected: true
   throwing: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SHIFT_GEAR
@@ -8321,7 +8282,6 @@ moves {
   power: 1
   accuracy: 100
   pp: 5
-  no_parental_bond: true
 }
 moves {
   id: MOVE_BESTOW
@@ -8590,7 +8550,6 @@ moves {
   crit: HIGH
   mirror_move_affected: true
   keen_edge: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_HEART_STAMP
@@ -8769,7 +8728,6 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_HURRICANE
@@ -8822,7 +8780,6 @@ moves {
   pp: 15
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SEARING_SHOT
@@ -8964,7 +8921,7 @@ moves {
   short_name: "Freeze Shock"
   description: "Paralyzes attackers that make contact while charging. 30% paralyze chance."
   short_description: "A powerful 2-turn move that may paralyze the foe."
-  effect: EFFECT_TWO_TURNS_ATTACK
+  effect: EFFECT_TWO_TURN_RETALIATION
   split: PHYSICAL
   type: TYPE_ICE
   target: SELECTED
@@ -8977,7 +8934,6 @@ moves {
       effect: MOVE_EFFECT_PARALYSIS
     }
   }
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -8986,7 +8942,7 @@ moves {
   short_name: "Ice Burn"
   description: "Burns attackers that make contact while charging. 30% burn chance."
   short_description: "A powerful 2-turn move that may inflict a burn."
-  effect: EFFECT_TWO_TURNS_ATTACK
+  effect: EFFECT_TWO_TURN_RETALIATION
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
@@ -8999,7 +8955,6 @@ moves {
       effect: MOVE_EFFECT_BURN
     }
   }
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -9191,7 +9146,6 @@ moves {
   }
   contact: true
   ignores_protect: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -9722,7 +9676,6 @@ moves {
   type: TYPE_FAIRY
   target: USER
   pp: 10
-  two_turn: true
 }
 moves {
   id: MOVE_MAGNETIC_FLUX
@@ -10215,7 +10168,6 @@ moves {
   accuracy: 100
   pp: 10
   contact: true
-  two_turn: true
   mirror_move_affected: true
   keen_edge: true
   weather: true
@@ -11136,7 +11088,6 @@ moves {
   contact: true
   mirror_move_affected: true
   iron_fist: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_DYNAMAX_CANNON
@@ -11266,7 +11217,6 @@ moves {
   accuracy: 100
   pp: 10
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_TEATIME
@@ -11759,7 +11709,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_METEOR_BEAM
@@ -11780,7 +11729,6 @@ moves {
       affects_user: true
     }
   }
-  two_turn: true
   mirror_move_affected: true
   mega_launcher: true
 }
@@ -11816,7 +11764,6 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_GRASSY_GLIDE
@@ -11994,7 +11941,6 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_DUAL_WINGBEAT
@@ -12012,7 +11958,6 @@ moves {
   contact: true
   mirror_move_affected: true
   air: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SCORCHING_SANDS
@@ -12080,7 +12025,6 @@ moves {
   crit: ALWAYS
   mirror_move_affected: true
   iron_fist: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_THUNDER_CAGE
@@ -12321,7 +12265,6 @@ moves {
   accuracy: 100
   pp: 5
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SEISMIC_FIST
@@ -12845,7 +12788,6 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_BRAMBLE_BLAST
@@ -13335,7 +13277,6 @@ moves {
   power: 120
   accuracy: 100
   pp: 20
-  two_turn: true
   mirror_move_affected: true
   mega_launcher: true
 }
@@ -13467,7 +13408,6 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_MIND_BREAK
@@ -13507,7 +13447,6 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SHED_TAIL
@@ -13786,7 +13725,6 @@ moves {
   priority: 1
   mirror_move_affected: true
   bone: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_KARMA
@@ -13891,7 +13829,6 @@ moves {
   pp: 10
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_RAGING_SOULS
@@ -13924,7 +13861,6 @@ moves {
   pp: 10
   mirror_move_affected: true
   mega_launcher: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_REQUIEM
@@ -14030,7 +13966,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_JET_PUNCH
@@ -14400,7 +14335,7 @@ moves {
   id: MOVE_FILLET_AWAY
   name: "Fillet Away"
   short_name: "Fillet Away"
-  description: "The user sharply boosts its Sp. Atk, Sp. Def. And Speed by using its HP."
+  description: "The user sharply boosts its Sp. Atk, Sp. Def. and Speed by using its HP."
   short_description: "The user sharply boosts stats using its own HP."
   effect: EFFECT_FILLET_AWAY
   split: STATUS
@@ -14830,7 +14765,7 @@ moves {
   id: MOVE_TACHYON_CUTTER
   name: "Tachyon Cutter"
   short_name: "TachyonCut."
-  description: "Launches particle blades twice. Never misses. Uses higher offense."
+  description: "Launches particle blades twice. Never misses. uses higher offense."
   short_description: "Launches particle blades at the target twice in a row."
   effect: EFFECT_DOUBLE_HIT
   split: SPECIAL
@@ -14841,7 +14776,6 @@ moves {
   pp: 10
   mirror_move_affected: true
   keen_edge: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_HARD_PRESS
@@ -14971,7 +14905,7 @@ moves {
   name: "Upper Hand"
   short_name: "Upper Hand"
   description: "Flinches the target. +3 priority. Fails if the target doesn\'t use a priority move."
-  short_description: "Deals damage and flinches if the target uses a prio. Move."
+  short_description: "Deals damage and flinches if the target uses a prio. move."
   effect: EFFECT_UPPER_HAND
   split: PHYSICAL
   type: TYPE_FIGHTING
@@ -14987,7 +14921,7 @@ moves {
   id: MOVE_MALIGNANT_CHAIN
   name: "Malignant Chain"
   short_name: "Malig.Chain"
-  description: "Attacks with a poison imbued chain. 50% toxic chance. Uses higher offense."
+  description: "Attacks with a poison imbued chain. 50% toxic chance. uses higher offense."
   short_description: "The user pours toxins into the target. Badly poisons the target"
   effect: EFFECT_ARGUMENT_HIT
   split: SPECIAL
@@ -15568,7 +15502,6 @@ moves {
   contact: true
   mirror_move_affected: true
   mega_launcher: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_TOXIC_NEEDLES
@@ -15591,7 +15524,6 @@ moves {
   }
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_SMOLDER_BASH
@@ -15615,7 +15547,7 @@ moves {
   id: MOVE_BEATDOWN
   name: "Beatdown"
   short_name: "Beatdown"
-  description: "Attacks the foe with a flurry of blows. Hits 2-5 times."
+  description: "Attacks the foe with a flurry of blows. hits 2-5 times."
   short_description: "Hits 2-5 times with an attack flurry."
   effect: EFFECT_MULTI_HIT
   split: PHYSICAL
@@ -15626,7 +15558,6 @@ moves {
   pp: 20
   contact: true
   mirror_move_affected: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_EERIE_FOG
@@ -15671,7 +15602,6 @@ moves {
   contact: true
   mirror_move_affected: true
   hammer: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_POP_MAYHEM
@@ -15694,7 +15624,6 @@ moves {
   }
   mirror_move_affected: true
   ballistic: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_KILOBITE
@@ -16008,7 +15937,6 @@ moves {
       effect: MOVE_EFFECT_FLINCH
     }
   }
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -16239,7 +16167,7 @@ moves {
   name: "Dragon Jab"
   short_name: "Dragon Jab"
   description: "A jabbing attack. 30%  chance to inflict bleeding. Mighty Horn boost."
-  short_description: "Jabs with a horn. Can bleed on hit."
+  short_description: "Jabs with a horn. can bleed on hit."
   effect: EFFECT_BLEED_HIT
   split: PHYSICAL
   type: TYPE_DRAGON
@@ -16290,7 +16218,6 @@ moves {
     }
   }
   contact: true
-  two_turn: true
   mirror_move_affected: true
 }
 moves {
@@ -16344,7 +16271,6 @@ moves {
   contact: true
   mirror_move_affected: true
   striker: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_FIRE_GLAIVE

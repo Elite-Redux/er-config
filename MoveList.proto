@@ -135,7 +135,7 @@ message Move {
   Argument argument = 18;
 
   bool contact = 19 [(field_name) = "Makes Contact", (is_flag) = true, (flag_code_value) = "FLAG_MAKES_CONTACT"];
-  Crit crit = 20;
+  Crit crit = 20 [(is_flag) = true];
 
   bool ignores_protect = 21 [(field_name) = "Ignores Protect", (is_flag) = true];
   bool ignores_stat_stages = 22 [(field_name) = "Ignores Stat Stages", (is_flag) = true, (flag_code_value) = "FLAG_STAT_STAGES_IGNORED"];
@@ -143,7 +143,7 @@ message Move {
   bool every_other_turn = 24 [(field_name) = "Every Other Turn", (is_flag) = true, (flag_code_value) = "everyOtherTurn"];
   bool is_protection = 25 [(field_name) = "Protection Move", (is_flag) = true, (flag_code_value) = "FLAG_PROTECTION_MOVE"];
   bool ignores_ability = 26 [(field_name) = "Ignores Abilities", (is_flag) = true, (flag_code_value) = "FLAG_TARGET_ABILITY_IGNORED"];
-  bool two_turn = 27 [(field_name) = "Two-Turn", (is_flag) = true, (flag_code_value) = "twoTurnMove"];
+  bool two_turn = 27 [(field_name) = "Two-Turn", (is_flag) = true];
 
   bool snatch_affected = 28 [(field_name) = "Snatch Affected", (is_flag) = true, (flag_code_value) = "FLAG_SNATCH_AFFECTED"];
   bool magic_coat_affected = 29 [(field_name) = "Magic Coat Affected", (is_flag) = true, (flag_code_value) = "FLAG_MAGIC_COAT_AFFECTED"];
@@ -177,7 +177,7 @@ message Move {
   bool throwing = 56 [(field_name) = "Throw Based", (is_flag) = true, (flag_code_value) = "throwingBased"];
   bool lunar = 57 [(field_name) = "Lunar Move", (is_flag) = true, (flag_code_value) = "lunar"];
 
-  bool no_parental_bond = 58 [(field_name) = "Can't Multi-Hit", (is_flag) = true, (flag_code_value) = "parentalBondBanned"];
+  bool no_parental_bond = 58 [(field_name) = "Can't Multi-Hit", (is_flag) = true];
   bool metronome_banned = 59 [(field_name) = "No Metronome", (is_flag) = true, (flag_code_value) = "metronomeBanned"];
   bool copycat_banned = 60 [(field_name) = "No Copycat", (is_flag) = true, (flag_code_value) = "copycatBanned"];
   bool sleep_talk_banned = 61 [(field_name) = "No Sleep Talk", (is_flag) = true, (flag_code_value) = "sleepTalkBanned"];
