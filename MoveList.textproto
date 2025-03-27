@@ -9878,7 +9878,6 @@ moves {
   mirror_move_affected: true
   hits_air: HITS
   ignores_levitation: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_THOUSAND_WAVES
@@ -10091,7 +10090,6 @@ moves {
   }
   mirror_move_affected: true
   sound: true
-  no_parental_bond: true
 }
 moves {
   id: MOVE_ICE_HAMMER
