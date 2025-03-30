@@ -3955,3 +3955,8 @@ ability {
   name: "Frenzied Phantom"
   description: "Hyper Aggressive + Shadow Tag."
 }
+ability {
+  id: ABILITY_DNA_SCRAMBLE
+  name: "DNA Scramble"
+  description: "Changes into Attack, Speed, or Defense form based on move used."
+}

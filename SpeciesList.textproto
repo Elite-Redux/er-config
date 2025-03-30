@@ -77271,7 +77271,7 @@ species {
   ability: ABILITY_INVERSE_ROOM
   innate: ABILITY_INNER_FOCUS
   innate: ABILITY_CLEAR_BODY
-  innate: ABILITY_PSYCHIC_MIND
+  innate: ABILITY_DNA_SCRAMBLE
   genderless: true
   learnset {
     level {
@@ -77452,7 +77452,7 @@ species {
   ability: ABILITY_SPEED_BOOST
   innate: ABILITY_INNER_FOCUS
   innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_PSYCHIC_MIND
+  innate: ABILITY_DNA_SCRAMBLE
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
@@ -77541,7 +77541,7 @@ species {
   ability: ABILITY_FORT_KNOX
   innate: ABILITY_INNER_FOCUS
   innate: ABILITY_STAMINA
-  innate: ABILITY_REGENERATOR
+  innate: ABILITY_DNA_SCRAMBLE
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
@@ -77630,7 +77630,7 @@ species {
   ability: ABILITY_SPEED_BOOST
   innate: ABILITY_LEVITATE
   innate: ABILITY_FATAL_PRECISION
-  innate: ABILITY_PSYCHIC_MIND
+  innate: ABILITY_DNA_SCRAMBLE
   genderless: true
   form_shift_of: SPECIES_DEOXYS
   visuals {
