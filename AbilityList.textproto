@@ -2,6 +2,7 @@
 # proto-message: er.AbilityList
 
 ability {
+  id: ABILITY_NONE
   name: "-------"
   description: "Empty ability slot."
 }
@@ -108,17 +109,17 @@ ability {
 ability {
   id: ABILITY_SUCTION_CUPS
   name: "Suction Cups"
-  description: "Cannot be forced to switch out by an enemy\'s move."
+  description: "Cannot be forced to switch out by an enemy's move."
 }
 ability {
   id: ABILITY_INTIMIDATE
   name: "Intimidate"
-  description: "Lowers foes\' Atk by one stage on entry."
+  description: "Lowers foes' Atk by one stage on entry."
 }
 ability {
   id: ABILITY_SHADOW_TAG
   name: "Shadow Tag"
-  description: "Opponents can\'t be switched out. Ghosts aren\'t affected."
+  description: "Opponents can't be switched out. Ghosts aren't affected."
 }
 ability {
   id: ABILITY_ROUGH_SKIN
@@ -143,7 +144,7 @@ ability {
 ability {
   id: ABILITY_SYNCHRONIZE
   name: "Synchronize"
-  description: "Enemies inflicting status on this Pok\303\251mon get same status."
+  description: "Enemies inflicting status on this Pokémon get same status."
 }
 ability {
   id: ABILITY_CLEAR_BODY
@@ -168,12 +169,12 @@ ability {
 ability {
   id: ABILITY_SWIFT_SWIM
   name: "Swift Swim"
-  description: "This Pok\303\251mon\'s Speed gets a 1.5x boost if rain is active."
+  description: "This Pokémon's Speed gets a 1.5x boost if rain is active."
 }
 ability {
   id: ABILITY_CHLOROPHYLL
   name: "Chlorophyll"
-  description: "This Pok\303\251mon\'s Speed gets a 1.5x boost if sun is active."
+  description: "This Pokémon's Speed gets a 1.5x boost if sun is active."
 }
 ability {
   id: ABILITY_ILLUMINATE
@@ -183,7 +184,7 @@ ability {
 ability {
   id: ABILITY_TRACE
   name: "Trace"
-  description: "Copies the foe\'s ability. Does not copy innates."
+  description: "Copies the foe's ability. Does not copy innates."
 }
 ability {
   id: ABILITY_HUGE_POWER
@@ -213,7 +214,7 @@ ability {
 ability {
   id: ABILITY_MAGNET_PULL
   name: "Magnet Pull"
-  description: "Traps opposing Steel-types. Ghosts aren\'t affected."
+  description: "Traps opposing Steel-types. Ghosts aren't affected."
 }
 ability {
   id: ABILITY_SOUNDPROOF
@@ -233,7 +234,7 @@ ability {
 ability {
   id: ABILITY_PRESSURE
   name: "Pressure"
-  description: "Doubles foe\'s PP usage. Clears stat buffs on entry."
+  description: "Doubles foe's PP usage. Clears stat buffs on entry."
 }
 ability {
   id: ABILITY_THICK_FAT
@@ -263,7 +264,7 @@ ability {
 ability {
   id: ABILITY_HYPER_CUTTER
   name: "Hyper Cutter"
-  description: "Enemies can\'t lower Atk/Sp. Atk. Crit rate of contact moves: +1."
+  description: "Enemies can't lower Atk/SpAtk. Contact moves get +1 Crit."
 }
 ability {
   id: ABILITY_PICKUP
@@ -278,7 +279,7 @@ ability {
 ability {
   id: ABILITY_HUSTLE
   name: "Hustle"
-  description: "0.9x accuracy. Raises Atk & SpAtk by 1.4x."
+  description: "0.9x accuracy. Boosts damage by 1.4x."
 }
 ability {
   id: ABILITY_CUTE_CHARM
@@ -288,12 +289,12 @@ ability {
 ability {
   id: ABILITY_PLUS
   name: "Plus"
-  description: "Deals double damage if an ally Pok\303\251mon has Minus or Plus."
+  description: "Deals double damage if an ally Pokémon has Minus or Plus."
 }
 ability {
   id: ABILITY_MINUS
   name: "Minus"
-  description: "Deals double damage if an ally Pok\303\251mon has Minus or Plus."
+  description: "Deals double damage if an ally Pokémon has Minus or Plus."
 }
 ability {
   id: ABILITY_FORECAST
@@ -303,7 +304,7 @@ ability {
 ability {
   id: ABILITY_STICKY_HOLD
   name: "Sticky Hold"
-  description: "Can\'t lose its item."
+  description: "Can't lose its item."
 }
 ability {
   id: ABILITY_SHED_SKIN
@@ -358,12 +359,12 @@ ability {
 ability {
   id: ABILITY_ARENA_TRAP
   name: "Arena Trap"
-  description: "Enemies can\'t flee. Ghosts and ungrounded Pok\303\251mon are immune."
+  description: "Enemies can't flee. Ghosts and ungrounded Pokémon are immune."
 }
 ability {
   id: ABILITY_VITAL_SPIRIT
   name: "Vital Spirit"
-  description: "Can\'t fall asleep. Heals status after using Fighting-type moves."
+  description: "Can't fall asleep. Heals status after using Fighting-type moves."
 }
 ability {
   id: ABILITY_WHITE_SMOKE
@@ -403,7 +404,7 @@ ability {
 ability {
   id: ABILITY_STEADFAST
   name: "Steadfast"
-  description: "Raises Speed by one stage if this Pok\303\251mon flinches."
+  description: "Raises Speed by one stage if this Pokémon flinches."
 }
 ability {
   id: ABILITY_SNOW_CLOAK
@@ -428,12 +429,12 @@ ability {
 ability {
   id: ABILITY_HEATPROOF
   name: "Heatproof"
-  description: "Halves damage taken from Fire- type moves. Takes no burn damage."
+  description: "Halves damage taken from Fire-type moves. Takes no burn damage."
 }
 ability {
   id: ABILITY_SIMPLE
   name: "Simple"
-  description: "Doubles all stat changes on this Pok\303\251mon."
+  description: "Doubles all stat changes on this Pokémon."
 }
 ability {
   id: ABILITY_DRY_SKIN
@@ -498,12 +499,12 @@ ability {
 ability {
   id: ABILITY_NO_GUARD
   name: "No Guard"
-  description: "Attacks used by and on this Pok\303\251mon bypass accuracy checks."
+  description: "Attacks used by and on this Pokémon bypass accuracy checks."
 }
 ability {
   id: ABILITY_STALL
   name: "Stall"
-  description: "Takes 30% less damage if it hasn\'t moved yet."
+  description: "Takes 30% less damage if it hasn't moved yet."
 }
 ability {
   id: ABILITY_TECHNICIAN
@@ -548,7 +549,7 @@ ability {
 ability {
   id: ABILITY_UNAWARE
   name: "Unaware"
-  description: "Ignores foes\' stat changes, both positive and negative ones."
+  description: "Ignores foes' stat changes, both positive and negative ones."
 }
 ability {
   id: ABILITY_TINTED_LENS
@@ -598,7 +599,7 @@ ability {
 ability {
   id: ABILITY_FRISK
   name: "Frisk"
-  description: "Checks foes\' item and disables their items for two turns."
+  description: "Checks foes' item and disables their items for two turns."
 }
 ability {
   id: ABILITY_RECKLESS
@@ -608,22 +609,22 @@ ability {
 ability {
   id: ABILITY_MULTITYPE
   name: "Multitype"
-  description: "Held Plate item decides holder\'s type."
+  description: "Held Plate item decides holder's type."
 }
 ability {
   id: ABILITY_FLOWER_GIFT
   name: "Flower Gift"
-  description: "Increases the party\'s SpAtk and SpDef by 1.5x in Sun."
+  description: "Increases the party's SpAtk and SpDef by 1.5x in Sun."
 }
 ability {
   id: ABILITY_BAD_DREAMS
   name: "Bad Dreams"
-  description: "Sleeping Pok\303\251mon lose 1/4 of max HP at the end of each turn."
+  description: "Sleeping Pokémon lose 1/4 of max HP at the end of each turn."
 }
 ability {
   id: ABILITY_PICKPOCKET
   name: "Pickpocket"
-  description: "Steals the foe\'s held item on contact."
+  description: "Steals the foe's held item on contact."
 }
 ability {
   id: ABILITY_SHEER_FORCE
@@ -633,12 +634,12 @@ ability {
 ability {
   id: ABILITY_CONTRARY
   name: "Contrary"
-  description: "Stat raises turn into stat drops for this Pok\303\251mon and vice versa."
+  description: "Stat raises turn into stat drops for this Pokémon and vice versa."
 }
 ability {
   id: ABILITY_UNNERVE
   name: "Unnerve"
-  description: "Foes can\'t use consumable items."
+  description: "Foes can't use consumable items."
 }
 ability {
   id: ABILITY_DEFIANT
@@ -658,7 +659,7 @@ ability {
 ability {
   id: ABILITY_HEALER
   name: "Healer"
-  description: "30% chance to heal user or ally\'s status at the end of each turn."
+  description: "30% chance to heal user or ally's status at the end of each turn."
 }
 ability {
   id: ABILITY_FRIEND_GUARD
@@ -673,12 +674,12 @@ ability {
 ability {
   id: ABILITY_HEAVY_METAL
   name: "Heavy Metal"
-  description: "Doubles this Pok\303\251mon\'s weight."
+  description: "Doubles this Pokémon's weight."
 }
 ability {
   id: ABILITY_LIGHT_METAL
   name: "Light Metal"
-  description: "Boosts Speed by 1.3x and halves this Pok\303\251mon\'s weight."
+  description: "Boosts Speed by 1.3x and halves this Pokémon's weight."
 }
 ability {
   id: ABILITY_MULTISCALE
@@ -703,7 +704,7 @@ ability {
 ability {
   id: ABILITY_TELEPATHY
   name: "Telepathy"
-  description: "Can\'t be damaged by ally attacks."
+  description: "Can't be damaged by ally attacks. Doesn't damage allies with attacks.\n"
 }
 ability {
   id: ABILITY_MOODY
@@ -733,7 +734,7 @@ ability {
 ability {
   id: ABILITY_SAND_RUSH
   name: "Sand Rush"
-  description: "This Pok\303\251mon\'s Speed gets a 1.5x boost in a sandstorm."
+  description: "This Pokémon's Speed gets a 1.5x boost in a sandstorm."
 }
 ability {
   id: ABILITY_WONDER_SKIN
@@ -763,7 +764,7 @@ ability {
 ability {
   id: ABILITY_MUMMY
   name: "Mummy"
-  description: "If hit, makes the attacker\'s ability Mummy."
+  description: "If hit, makes the attacker's ability Mummy."
 }
 ability {
   id: ABILITY_MOXIE
@@ -813,7 +814,7 @@ ability {
 ability {
   id: ABILITY_VICTORY_STAR
   name: "Victory Star"
-  description: "Gives 1.2x accuracy boost to its own and its allies\' moves."
+  description: "Gives 1.2x accuracy boost to its own and its allies' moves."
 }
 ability {
   id: ABILITY_TURBOBLAZE
@@ -828,12 +829,12 @@ ability {
 ability {
   id: ABILITY_AROMA_VEIL
   name: "Aroma Veil"
-  description: "Immune to Encore, Attract, Taunt, Torment, Disable, Heal Block."
+  description: "Protects the team from infatuation, heal block, and move restriction."
 }
 ability {
   id: ABILITY_FLOWER_VEIL
   name: "Flower Veil"
-  description: "Grass-types on this Pok\303\251mon\'s side are immune to stat drops."
+  description: "Protects Grass-type allies from status and stat drops."
 }
 ability {
   id: ABILITY_CHEEK_POUCH
@@ -843,7 +844,7 @@ ability {
 ability {
   id: ABILITY_PROTEAN
   name: "Protean"
-  description: "Changes type depending on the move it\'s about to use."
+  description: "Changes type depending on the move it's about to use."
 }
 ability {
   id: ABILITY_FUR_COAT
@@ -853,7 +854,7 @@ ability {
 ability {
   id: ABILITY_MAGICIAN
   name: "Magician"
-  description: "Steals the foe\'s held item after using a non-contact move."
+  description: "Steals the foe's held item after using a non-contact move."
 }
 ability {
   id: ABILITY_BULLETPROOF
@@ -873,12 +874,12 @@ ability {
 ability {
   id: ABILITY_REFRIGERATE
   name: "Refrigerate"
-  description: "Normal-type moves become Ice- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Ice-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_SWEET_VEIL
   name: "Sweet Veil"
-  description: "This Pok\303\251mon and its ally are immune to sleep."
+  description: "This Pokémon and its ally are immune to sleep."
 }
 ability {
   id: ABILITY_STANCE_CHANGE
@@ -888,7 +889,7 @@ ability {
 ability {
   id: ABILITY_GALE_WINGS
   name: "Gale Wings"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Flying-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Flying-type moves."
 }
 ability {
   id: ABILITY_MEGA_LAUNCHER
@@ -898,7 +899,7 @@ ability {
 ability {
   id: ABILITY_GRASS_PELT
   name: "Grass Pelt"
-  description: "This Pok\303\251mon\'s Defense gets a 1.5x boost in Grassy Terrain."
+  description: "This Pokémon's Defense gets a 1.5x boost in Grassy Terrain."
 }
 ability {
   id: ABILITY_SYMBIOSIS
@@ -913,17 +914,17 @@ ability {
 ability {
   id: ABILITY_PIXILATE
   name: "Pixilate"
-  description: "Normal-type moves become Fairy- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Fairy-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_GOOEY
   name: "Gooey"
-  description: "Lowers Speed of enemies that make contact with this Pok\303\251mon."
+  description: "Lowers Speed of enemies that make contact with this Pokémon."
 }
 ability {
   id: ABILITY_AERILATE
   name: "Aerilate"
-  description: "Normal-type moves become Flying- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Flying-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_PARENTAL_BOND
@@ -933,12 +934,12 @@ ability {
 ability {
   id: ABILITY_DARK_AURA
   name: "Dark Aura"
-  description: "Boosts Dark moves by 1.33x for all while this Pok\303\251mon is out."
+  description: "Boosts Dark moves by 1.33x for all while this Pokémon is out."
 }
 ability {
   id: ABILITY_FAIRY_AURA
   name: "Fairy Aura"
-  description: "Boosts Fairy moves by 1.33x for all while this Pok\303\251mon is out."
+  description: "Boosts Fairy moves by 1.33x for all while this Pokémon is out."
 }
 ability {
   id: ABILITY_AURA_BREAK
@@ -983,7 +984,7 @@ ability {
 ability {
   id: ABILITY_MERCILESS
   name: "Merciless"
-  description: "100% crit if targetting slowed, poisoned, paralyzed, or bleeding foes."
+  description: "Always crits slowed, poisoned, paralyzed, or bleeding foes."
 }
 ability {
   id: ABILITY_SHIELDS_DOWN
@@ -1013,12 +1014,12 @@ ability {
 ability {
   id: ABILITY_SLUSH_RUSH
   name: "Slush Rush"
-  description: "This Pok\303\251mon\'s Speed gets a 1.5x boost in hail."
+  description: "This Pokémon's Speed gets a 1.5x boost in hail."
 }
 ability {
   id: ABILITY_LONG_REACH
   name: "Long Reach"
-  description: "Doesn\'t make contact. Boosts Phys. non-contact moves by 1.2x."
+  description: "Doesn't make contact. Boosts Phys. non-contact moves by 1.2x."
 }
 ability {
   id: ABILITY_LIQUID_VOICE
@@ -1078,7 +1079,7 @@ ability {
 ability {
   id: ABILITY_INNARDS_OUT
   name: "Innards Out"
-  description: "If KO\'d, deals as much damage as what the fatal attack dealt."
+  description: "If KO'd, deals as much damage as what the fatal attack dealt."
 }
 ability {
   id: ABILITY_DANCER
@@ -1088,7 +1089,7 @@ ability {
 ability {
   id: ABILITY_BATTERY
   name: "Battery"
-  description: "Grants a 1.3x power boost to ally\'s Special attacks."
+  description: "Grants a 1.3x power boost to ally's Special attacks."
 }
 ability {
   id: ABILITY_FLUFFY
@@ -1108,12 +1109,12 @@ ability {
 ability {
   id: ABILITY_TANGLING_HAIR
   name: "Tangling Hair"
-  description: "Lowers Speed of enemies that make contact with this Pok\303\251mon."
+  description: "Lowers Speed of enemies that make contact with this Pokémon."
 }
 ability {
   id: ABILITY_RECEIVER
   name: "Receiver"
-  description: "In Double Battles, copies its fainting partner\'s ability."
+  description: "In Double Battles, copies its fainting partner's ability."
 }
 ability {
   id: ABILITY_POWER_OF_ALCHEMY
@@ -1183,7 +1184,7 @@ ability {
 ability {
   id: ABILITY_LIBERO
   name: "Libero"
-  description: "Before using a move, changes its type to the move\'s type."
+  description: "Before using a move, changes its type to the move's type."
 }
 ability {
   id: ABILITY_BALL_FETCH
@@ -1198,7 +1199,7 @@ ability {
 ability {
   id: ABILITY_PROPELLER_TAIL
   name: "Propeller Tail"
-  description: "Isn\'t affected by target redirection."
+  description: "Isn't affected by target redirection."
 }
 ability {
   id: ABILITY_MIRROR_ARMOR
@@ -1213,7 +1214,7 @@ ability {
 ability {
   id: ABILITY_STALWART
   name: "Stalwart"
-  description: "Isn\'t affected by target redirection."
+  description: "Isn't affected by target redirection."
 }
 ability {
   id: ABILITY_STEAM_ENGINE
@@ -1248,7 +1249,7 @@ ability {
 ability {
   id: ABILITY_POWER_SPOT
   name: "Power Spot"
-  description: "Grants a 1.3x boost to ally\'s attacks."
+  description: "Grants a 1.3x boost to ally's attacks."
 }
 ability {
   id: ABILITY_MIMICRY
@@ -1263,7 +1264,7 @@ ability {
 ability {
   id: ABILITY_STEELY_SPIRIT
   name: "Steely Spirit"
-  description: "Boosts own & ally\'s Steel-type moves by 1.3x."
+  description: "Boosts own & ally's Steel-type moves by 1.3x."
 }
 ability {
   id: ABILITY_PERISH_BODY
@@ -1308,16 +1309,16 @@ ability {
 ability {
   id: ABILITY_CURIOUS_MEDICINE
   name: "CuriusMedicn"
-  description: "Resets its ally\'s stat changes on entry."
+  description: "Resets its ally's stat changes on entry."
 }
 ability {
   id: ABILITY_TRANSISTOR
   name: "Transistor"
-  description: "Boosts the power of Electric- type moves by 1.5x."
+  description: "Boosts the power of Electric-type moves by 1.5x."
 }
 ability {
   id: ABILITY_DRAGONS_MAW
-  name: "Dragon\'s Maw"
+  name: "Dragon's Maw"
   description: "Boosts the power of Dragon-type moves by 1.5x."
 }
 ability {
@@ -1388,7 +1389,7 @@ ability {
 ability {
   id: ABILITY_BLITZ_BOXER
   name: "Blitz Boxer"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s punching moves."
+  description: "At full HP, gives +1 priority to this Pokémon's punching moves."
 }
 ability {
   id: ABILITY_ANTARCTIC_BIRD
@@ -1398,7 +1399,7 @@ ability {
 ability {
   id: ABILITY_IMMOLATE
   name: "Immolate"
-  description: "Normal-type moves become Fire- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Fire-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_CRYSTALLIZE
@@ -1408,7 +1409,7 @@ ability {
 ability {
   id: ABILITY_ELECTROCYTES
   name: "Electrocytes"
-  description: "Boosts the power of Electric- type moves by 1.25x."
+  description: "Boosts the power of Electric-type moves by 1.25x."
 }
 ability {
   id: ABILITY_AERODYNAMICS
@@ -1423,12 +1424,12 @@ ability {
 ability {
   id: ABILITY_EXPLOIT_WEAKNESS
   name: "Exploit Weakness"
-  description: "Moves are 1.25x stronger on foes affected by a status condition."
+  description: "Deals 1.25x and targets lowest defense vs statused foes."
 }
 ability {
   id: ABILITY_GROUND_SHOCK
   name: "Ground Shock"
-  description: "Target Grounds aren\'t immune to Electric but resist it instead."
+  description: "Target Grounds aren't immune to Electric but resist it instead."
 }
 ability {
   id: ABILITY_ANCIENT_IDOL
@@ -1463,11 +1464,11 @@ ability {
 ability {
   id: ABILITY_AVENGER
   name: "Avenger"
-  description: "If a party Pok\303\251mon fainted last turn, next move gets 1.5x boost."
+  description: "If a party Pokémon fainted last turn, next move gets 1.5x boost."
 }
 ability {
   id: ABILITY_LETS_ROLL
-  name: "Let\'s Roll"
+  name: "Let's Roll"
   description: "Casts Defense Curl on entry."
 }
 ability {
@@ -1483,7 +1484,7 @@ ability {
 ability {
   id: ABILITY_LEAD_COAT
   name: "Lead Coat"
-  description: "Takes 40% less from Phys. moves. This Pok\303\251mon\'s Speed is 0.9x."
+  description: "Takes 40% less from Phys. moves. This Pokémon's Speed is 0.9x."
 }
 ability {
   id: ABILITY_AMPHIBIOUS
@@ -1543,7 +1544,7 @@ ability {
 ability {
   id: ABILITY_TECTONIZE
   name: "Tectonize"
-  description: "Normal-type moves become Ground- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Ground-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_ICE_AGE
@@ -1578,7 +1579,7 @@ ability {
 ability {
   id: ABILITY_HYDRATE
   name: "Hydrate"
-  description: "Normal-type moves become Water- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Water-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_METALLIC
@@ -1628,7 +1629,7 @@ ability {
 ability {
   id: ABILITY_INTOXICATE
   name: "Intoxicate"
-  description: "Normal-type moves become Poison- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Poison-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_IMPENETRABLE
@@ -1638,7 +1639,7 @@ ability {
 ability {
   id: ABILITY_HYPNOTIST
   name: "Hypnotist"
-  description: "Hypnosis accuracy is 90% when used by this Pok\303\251mon."
+  description: "Hypnosis accuracy is 90% when used by this Pokémon."
 }
 ability {
   id: ABILITY_OVERWHELM
@@ -1648,7 +1649,7 @@ ability {
 ability {
   id: ABILITY_SCARE
   name: "Scare"
-  description: "Lowers foes\' Sp. Atk by one stage on entry."
+  description: "Lowers foes' Sp. Atk by one stage on entry."
 }
 ability {
   id: ABILITY_MAJESTIC_MOTH
@@ -1658,12 +1659,12 @@ ability {
 ability {
   id: ABILITY_SOUL_EATER
   name: "Soul Eater"
-  description: "Dealing a KO heals 1/4 of this Pok\303\251mon\'s max HP."
+  description: "Dealing a KO heals 1/4 of this Pokémon's max HP."
 }
 ability {
   id: ABILITY_SOUL_LINKER
   name: "Soul Linker"
-  description: "Enemies take all the damage they deal, same for this Pok\303\251mon."
+  description: "Enemies take all the damage they deal, same for this Pokémon."
 }
 ability {
   id: ABILITY_SWEET_DREAMS
@@ -1673,12 +1674,12 @@ ability {
 ability {
   id: ABILITY_BAD_LUCK
   name: "Bad Luck"
-  description: "Foes hit the lowest damage roll, have 5% less acc. and can\'t crit."
+  description: "Foes hit the lowest damage roll, have 5% less acc. and can't crit."
 }
 ability {
   id: ABILITY_HAUNTED_SPIRIT
   name: "Haunted Spirit"
-  description: "When this Pok\303\251mon is KO\'d, casts a Curse on the attacker."
+  description: "When this Pokémon is KO'd, casts a Curse on the attacker."
 }
 ability {
   id: ABILITY_ELECTRIC_BURST
@@ -1728,7 +1729,7 @@ ability {
 ability {
   id: ABILITY_SCAVENGER
   name: "Scavenger"
-  description: "Dealing a KO heals 1/4 of this Pok\303\251mon\'s max HP."
+  description: "Dealing a KO heals 1/4 of this Pokémon's max HP."
 }
 ability {
   id: ABILITY_TWISTED_DIMENSION
@@ -1758,7 +1759,7 @@ ability {
 ability {
   id: ABILITY_FLAMING_SOUL
   name: "Flaming Soul"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Fire-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Fire-type moves."
 }
 ability {
   id: ABILITY_SAGE_POWER
@@ -1813,17 +1814,17 @@ ability {
 ability {
   id: ABILITY_FROZEN_SOUL
   name: "Frozen Soul"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Ice-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Ice-type moves."
 }
 ability {
   id: ABILITY_PREDATOR
   name: "Predator"
-  description: "Dealing a KO heals 1/4 of this Pok\303\251mon\'s max HP."
+  description: "Dealing a KO heals 1/4 of this Pokémon's max HP."
 }
 ability {
   id: ABILITY_LOOTER
   name: "Looter"
-  description: "Dealing a KO heals 1/4 of this Pok\303\251mon\'s max HP."
+  description: "Dealing a KO heals 1/4 of this Pokémon's max HP."
 }
 ability {
   id: ABILITY_LUNAR_ECLIPSE
@@ -1838,7 +1839,7 @@ ability {
 ability {
   id: ABILITY_POWER_CORE
   name: "Power Core"
-  description: "The Pok\303\251mon uses +20% of its Defense or SpDef during moves."
+  description: "The Pokémon uses +20% of its Defense or SpDef during moves."
 }
 ability {
   id: ABILITY_SIGHTING_SYSTEM
@@ -1908,7 +1909,7 @@ ability {
 ability {
   id: ABILITY_POLLINATE
   name: "Pollinate"
-  description: "Normal-type moves become Bug- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Bug-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_VOLCANO_RAGE
@@ -1931,6 +1932,11 @@ ability {
   description: "Contact moves do +20% damage and heal 1/2 of damage dealt."
 }
 ability {
+  id: ABILITY_SPECTRALIZE
+  name: "Spectralize"
+  description: "Normal-type moves become Ghost-type moves and get a 1.1x boost."
+}
+ability {
   id: ABILITY_SPECTRAL_SHROUD
   name: "Spectral Shroud"
   description: "Spectralize + 30% chance to badly poison the foe."
@@ -1938,7 +1944,7 @@ ability {
 ability {
   id: ABILITY_DISCIPLINE
   name: "Discipline"
-  description: "You can switch during lock-in moves. Immune to confusion/intimidate."
+  description: "Rampage moves no longer trap you. Can't be confused or intimidated."
 }
 ability {
   id: ABILITY_THUNDERCALL
@@ -1948,7 +1954,7 @@ ability {
 ability {
   id: ABILITY_MARINE_APEX
   name: "Marine Apex"
-  description: "50% more damage to Water- types + Infiltrator."
+  description: "50% more damage to Water-types + Infiltrator."
 }
 ability {
   id: ABILITY_MIGHTY_HORN
@@ -1966,11 +1972,6 @@ ability {
   description: "Weakens incoming physical and special moves by 35%."
 }
 ability {
-  id: ABILITY_SPECTRALIZE
-  name: "Spectralize"
-  description: "Normal-type moves become Ghost- type moves and get a 1.1x boost."
-}
-ability {
   id: ABILITY_LETHARGY
   name: "Lethargy"
   description: "Damage drops 20% each turn to 20%. Resets on switch-in."
@@ -1978,7 +1979,7 @@ ability {
 ability {
   id: ABILITY_IRON_BARRAGE
   name: "Iron Barrage"
-  description: "Combines Mega Launcher with Sighting System."
+  description: "Mega Launcher + Sighting System."
 }
 ability {
   id: ABILITY_STEEL_BARREL
@@ -2018,12 +2019,12 @@ ability {
 ability {
   id: ABILITY_ROUNDHOUSE
   name: "Roundhouse"
-  description: "Kicks always hit. Damages foes\' weaker defenses."
+  description: "Kicks always hit. Damages foes' weaker defenses."
 }
 ability {
   id: ABILITY_MINERALIZE
   name: "Mineralize"
-  description: "Normal-type moves become Rock- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Rock-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_LOOSE_ROCKS
@@ -2047,12 +2048,12 @@ ability {
 }
 ability {
   id: ABILITY_KINGS_WRATH
-  name: "King\'s Wrath"
+  name: "King's Wrath"
   description: "Lowering any stats on its side raises Atk and Def."
 }
 ability {
   id: ABILITY_QUEENS_MOURNING
-  name: "Queen\'s Mourning"
+  name: "Queen's Mourning"
   description: "Lowering any stats on its side raises SpAtk and SpDef."
 }
 ability {
@@ -2068,7 +2069,7 @@ ability {
 ability {
   id: ABILITY_DRACONIZE
   name: "Draconize"
-  description: "Normal-type moves become Dragon- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Dragon-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_PRETTY_PRINCESS
@@ -2193,11 +2194,11 @@ ability {
 ability {
   id: ABILITY_JAWS_OF_CARNAGE
   name: "Jaws of Carnage"
-  description: "Heals 1/2 HP when KO\'ing with a biting move. 1/4 HP otherwise."
+  description: "Devours 1/2 of the foe when defeating it."
 }
 ability {
   id: ABILITY_ANGELS_WRATH
-  name: "Angel\'s Wrath"
+  name: "Angel's Wrath"
   description: "Drastically alters all of the users moves."
 }
 ability {
@@ -2258,7 +2259,7 @@ ability {
 ability {
   id: ABILITY_LINGERING_AROMA
   name: "Lingering Aroma"
-  description: "If hit, makes the attacker\'s ability Lingering Aroma."
+  description: "If hit, makes the attacker's ability Lingering Aroma."
 }
 ability {
   id: ABILITY_FAIRY_TALE
@@ -2302,8 +2303,8 @@ ability {
 }
 ability {
   id: ABILITY_KUNOICHI_BLADE
-  name: "Kunoichi\'s Blade"
-  description: "Boosts weaker moves and increases the frequency of multi-hit moves."
+  name: "Kunoichi's Blade"
+  description: "Technician + Skill Link."
 }
 ability {
   id: ABILITY_MONKEY_BUSINESS
@@ -2317,12 +2318,12 @@ ability {
 }
 ability {
   id: ABILITY_JUNGLES_GUARD
-  name: "Jungle\'s Guard"
-  description: "Grass-types on user side: immune to status/stat drops from enemy."
+  name: "Jungle's Guard"
+  description: "Protects Grass-type allies from status and stat drops."
 }
 ability {
   id: ABILITY_HUNTERS_HORN
-  name: "Hunter\'s Horn"
+  name: "Hunter's Horn"
   description: "Boost horn moves and heals 1/4 HP when defeating an enemy."
 }
 ability {
@@ -2473,7 +2474,7 @@ ability {
 ability {
   id: ABILITY_ARCANE_FORCE
   name: "Arcane Force"
-  description: "All moves gain STAB. Ups \342\200\234supereffective\342\200\235 by 10%."
+  description: "All moves gain STAB. Ups “supereffective” by 10%."
 }
 ability {
   id: ABILITY_DOOMBRINGER
@@ -2538,7 +2539,7 @@ ability {
 ability {
   id: ABILITY_FERTILIZE
   name: "Fertilize"
-  description: "Normal-type moves become Grass- type moves and get a 1.1x boost."
+  description: "Normal-type moves become Grass-type moves and get a 1.1x boost."
 }
 ability {
   id: ABILITY_PURE_LOVE
@@ -2567,7 +2568,7 @@ ability {
 }
 ability {
   id: ABILITY_PONY_POWER
-  name: "Blade\'s Essence"
+  name: "Blade's Essence"
   description: "Keen Edge + Mystic Blades."
 }
 ability {
@@ -2593,7 +2594,7 @@ ability {
 ability {
   id: ABILITY_SPITEFUL
   name: "Spiteful"
-  description: "Reduces attacker\'s PP on contact."
+  description: "Reduces attacker's PP on contact."
 }
 ability {
   id: ABILITY_FORTITUDE
@@ -2613,7 +2614,7 @@ ability {
 ability {
   id: ABILITY_EARLY_GRAVE
   name: "Early Grave"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Ghost-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Ghost-type moves."
 }
 ability {
   id: ABILITY_GRAPPLER
@@ -2663,7 +2664,7 @@ ability {
 ability {
   id: ABILITY_PERMANENCE
   name: "Permanence"
-  description: "Foes can\'t heal in any way."
+  description: "Foes can't heal in any way."
 }
 ability {
   id: ABILITY_HUBRIS
@@ -2677,8 +2678,8 @@ ability {
 }
 ability {
   id: ABILITY_MINDS_EYE
-  name: "Mind\'s Eye"
-  description: "Hits Ghost-type Pok\303\251mon. Accuracy can\'t be lowered."
+  name: "Mind's Eye"
+  description: "Hits Ghost-type Pokémon. Accuracy can't be lowered."
 }
 ability {
   id: ABILITY_BLOOD_PRICE
@@ -2723,7 +2724,7 @@ ability {
 ability {
   id: ABILITY_AIRBORNE
   name: "Airborne"
-  description: "Boosts own & ally\'s Flying-type moves by 1.3x."
+  description: "Boosts own & ally's Flying-type moves by 1.3x."
 }
 ability {
   id: ABILITY_PARROTING
@@ -2768,7 +2769,7 @@ ability {
 ability {
   id: ABILITY_GUARD_DOG
   name: "Guard Dog"
-  description: "Can\'t be forced out. Inverts Intimidate effects."
+  description: "Can't be forced out. Inverts Intimidate effects."
 }
 ability {
   id: ABILITY_ANGER_SHELL
@@ -2793,17 +2794,17 @@ ability {
 ability {
   id: ABILITY_DARK_GALE_WINGS
   name: "Stygian Rush"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Dark-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Dark-type moves."
 }
 ability {
   id: ABILITY_GUILT_TRIP
   name: "Guilt Trip"
-  description: "Sharply lowers attacker\'s Attack and SpAtk when fainting."
+  description: "Sharply lowers attacker's Attack and SpAtk when fainting."
 }
 ability {
   id: ABILITY_WATER_GALE_WINGS
   name: "Tidal Rush"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Water-type moves."
+  description: "At full HP, gives +1 priority to this Pokémon's Water-type moves."
 }
 ability {
   id: ABILITY_ZERO_TO_HERO
@@ -2813,12 +2814,12 @@ ability {
 ability {
   id: ABILITY_COSTAR
   name: "Costar"
-  description: "Copies its ally\'s stat changes on switch-in."
+  description: "Copies its ally's stat changes on switch-in."
 }
 ability {
   id: ABILITY_COMMANDER
   name: "Commander"
-  description: "Hops inside an allied Dondozo. Boosts its ally but can\'t act."
+  description: "Hops inside an allied Dondozo. Boosts its ally but can't act."
 }
 ability {
   id: ABILITY_EJECT_PACK_ABILITY
@@ -2933,7 +2934,7 @@ ability {
 ability {
   id: ABILITY_WINGED_KING
   name: "Winged King"
-  description: "Ups \342\200\234supereffective\342\200\235 by 33%."
+  description: "Ups “supereffective” by 33%."
 }
 ability {
   id: ABILITY_HADRON_ENGINE
@@ -2943,7 +2944,7 @@ ability {
 ability {
   id: ABILITY_IRON_SERPENT
   name: "Iron Serpent"
-  description: "Ups \342\200\234supereffective\342\200\235 by 33%."
+  description: "Ups “supereffective” by 33%."
 }
 ability {
   id: ABILITY_WEATHER_DOUBLE_BOOST
@@ -2978,7 +2979,7 @@ ability {
 ability {
   id: ABILITY_NOISE_CANCEL
   name: "Noise Cancel"
-  description: "Protects the party from sound- based moves."
+  description: "Protects the party from sound-based moves."
 }
 ability {
   id: ABILITY_RADIO_JAM
@@ -2987,13 +2988,13 @@ ability {
 }
 ability {
   id: ABILITY_OLE
-  name: "Ol\303\251!"
-  description: "20% chance to evade single- target moves."
+  name: "Olé!"
+  description: "20% chance to evade single-target moves."
 }
 ability {
   id: ABILITY_MALICIOUS
   name: "Malicious"
-  description: "Lowers the foe\'s highest Attack and Defense stat."
+  description: "Lowers the foe's highest Attack and Defense stat."
 }
 ability {
   id: ABILITY_DEAD_POWER
@@ -3048,7 +3049,7 @@ ability {
 ability {
   id: ABILITY_PARASITIC_SPORES
   name: "Parasitic Spores"
-  description: "Deals 1/8 HP damage to non- Ghost. Spreads on contact."
+  description: "Deals 1/8 HP damage to non-Ghost. Spreads on contact."
 }
 ability {
   id: ABILITY_POISON_PUPPETEER
@@ -3133,12 +3134,12 @@ ability {
 ability {
   id: ABILITY_RESONANCE
   name: "Resonance"
-  description: "Sound moves have a 30% bleed chance."
+  description: "Sound moves have a 30% chance to cause bleeding."
 }
 ability {
   id: ABILITY_ETHEREAL_RUSH
   name: "Ethereal Rush"
-  description: "This Pok\303\251mon\'s Speed gets a 1.5x boost in fog."
+  description: "This Pokémon's Speed gets a 1.5x boost in fog."
 }
 ability {
   id: ABILITY_CUTE_ANTECEDENCE
@@ -3163,7 +3164,7 @@ ability {
 ability {
   id: ABILITY_TERRIFY
   name: "Terrify"
-  description: "Lowers foes\' Sp. Atk by two stages on entry."
+  description: "Lowers foes' Sp. Atk by two stages on entry."
 }
 ability {
   id: ABILITY_ICE_DOWNFALL
@@ -3228,7 +3229,7 @@ ability {
 ability {
   id: ABILITY_SOUL_CRUSHER
   name: "Soul Crusher"
-  description: "Hammer moves become Special and get a 1.1x power boost."
+  description: "Hammer moves hit SpDef and get a 1.1x power boost."
 }
 ability {
   id: ABILITY_ARC_FLASH
@@ -3263,7 +3264,7 @@ ability {
 ability {
   id: ABILITY_SUGAR_RUSH
   name: "Sugar Rush"
-  description: "Gluttony + eats foe\'s berry when hitting with contact move."
+  description: "Gluttony + eats foe's berry when hitting with contact move."
 }
 ability {
   id: ABILITY_PEACEFUL_REST
@@ -3338,12 +3339,12 @@ ability {
 ability {
   id: ABILITY_PATTERN_CHANGE
   name: "Pattern Change"
-  description: "Changes type depending on the move it\'s about to use."
+  description: "Changes type depending on the move it's about to use."
 }
 ability {
   id: ABILITY_NO_TURNING_BACK
   name: "No Turning Back"
-  description: "Boosts all stats but can\'t retreat when below 1/2 max HP."
+  description: "Boosts all stats but can't retreat when below 1/2 max HP."
 }
 ability {
   id: ABILITY_FLAMMABLE_COAT
@@ -3363,12 +3364,12 @@ ability {
 ability {
   id: ABILITY_MOSH_PIT
   name: "Mosh Pit"
-  description: "Ally\'s attacks get a 1.25x boost. 1.5x if attack causes recoil."
+  description: "Ally's attacks get a 1.25x boost. 1.5x if attack causes recoil."
 }
 ability {
   id: ABILITY_BLOOD_STAIN
   name: "Blood Stain"
-  description: "Bleeds if not immune. Can\'t get other status. Spreads on contact."
+  description: "Bleeds if not immune. Can't get other status. Spreads on contact."
 }
 ability {
   id: ABILITY_BLOOD_STIGMA
@@ -3453,11 +3454,11 @@ ability {
 ability {
   id: ABILITY_RESTRAINING_ORDER
   name: "Restraining Order"
-  description: "Forces the attacker out when hit     once each switch-in."
+  description: "Forces the attacker out when hit, once each switch-in."
 }
 ability {
   id: ABILITY_ASSASSINS_TOOLS
-  name: "Assassin\'s Tools"
+  name: "Assassin's Tools"
   description: "Contact moves have a 30% chance to PSN, PRLZ, or BLD."
 }
 ability {
@@ -3487,7 +3488,7 @@ ability {
 }
 ability {
   id: ABILITY_DRAGONS_RITUAL
-  name: "Dragon\'s Ritual"
+  name: "Dragon's Ritual"
   description: "Dealing a KO raises Attack and Speed by one stage."
 }
 ability {
@@ -3613,12 +3614,12 @@ ability {
 ability {
   id: ABILITY_WHIPLASH
   name: "Whiplash"
-  description: "Physical attacks lower Defense."
+  description: "Physical attacks lower defense."
 }
 ability {
   id: ABILITY_SUPERSWEET_SYRUP
   name: "Supersweet Syrup"
-  description: "Can\'t lose its item. Disables foe\'s item for 2 turns on contact."
+  description: "Can't lose its item. Disables foe's item for 2 turns on contact."
 }
 ability {
   id: ABILITY_LUCKY_HALO
@@ -3643,7 +3644,7 @@ ability {
 ability {
   id: ABILITY_WIND_RAGE
   name: "Wind Rage"
-  description: "Uses Defog on switch-in. Air- based moves get a 1.3x boost."
+  description: "Uses Defog on switch-in. Air-based moves get a 1.3x boost."
 }
 ability {
   id: ABILITY_VICTORY_BOMB
@@ -3783,7 +3784,7 @@ ability {
 ability {
   id: ABILITY_STRIKER_PIXILATE
   name: "Twinkle Toes"
-  description: "Striker + Pixilate."
+  description: "Boosts the power of kicking moves by 1.3x + Pixilate."
 }
 ability {
   id: ABILITY_DOOM_BLAST
@@ -3792,8 +3793,8 @@ ability {
 }
 ability {
   id: ABILITY_BRUTEFORCE
-  name: "Bruteforce"
-  description: "Rock Head + Reckless."
+  name: "Brute Force"
+  description: "Rock Head + Reckless"
 }
 ability {
   id: ABILITY_FARADAY_CAGE
@@ -3808,7 +3809,7 @@ ability {
 ability {
   id: ABILITY_ROSE_GARDEN
   name: "Rose Garden"
-  description: "Sets 2 layers of Toxic Spikes on entry."
+  description: "Spreads two layers of Toxic Spikes on switch-in."
 }
 ability {
   id: ABILITY_QIGONG
@@ -3817,37 +3818,37 @@ ability {
 }
 ability {
   id: ABILITY_CONJOURER_OF_DECEIT
-  name: "Deceit Conjourer"
-  description: "Magic Guard + Magic Bounce."
+  name: "Conjurer Of Deceit"
+  description: "Magic Guard + Magic Bounce"
 }
 ability {
   id: ABILITY_DEEP_FREEZE
   name: "Deep Freeze"
-  description: "Boosts water and ice by 25% and halves fire damage taken"
+  description: "Boosts Water and Ice by 1.25x. Halves Fire damage taken."
 }
 ability {
   id: ABILITY_SOUL_DEVOURER
   name: "Soul Devourer"
-  description: "Phantom Pain + Soul Eater."
+  description: "Soul Eater + Phantom Pain"
 }
 ability {
   id: ABILITY_CHAMPIONS_ENTRANCE
-  name: "Champion\'s Entrance"
-  description: "Intimidate + Violent Rush."
+  name: "Champion's Entrance"
+  description: "Intimidate + Violent Rush"
 }
 ability {
   id: ABILITY_PRESTO
   name: "Presto"
-  description: "At full HP, gives +1 priority to this Pok\303\251mon\'s Sound-based moves."
+  description: "Sound moves get +1 priority at full HP."
 }
 ability {
   id: ABILITY_SAMBA
   name: "Samba"
-  description: "Striker + Dancer."
+  description: "Striker + Dancer"
 }
 ability {
   id: ABILITY_JUNSHI_SANDA
-  name: "Junshi Sanda"
+  name: "JunshiSanda"
   description: "Punching or Kicking moves count as both Punching and Kicking moves."
 }
 ability {
@@ -3863,22 +3864,22 @@ ability {
 ability {
   id: ABILITY_RELENTLESS
   name: "Relentless"
-  description: "Exploit Weakness + Merciless."
+  description: "Exploit Weakness + Merciless"
 }
 ability {
   id: ABILITY_SOOTHSAYER
   name: "Soothsayer"
-  description: "All hits will be not very effective for 5 turns against this Pokemon."
+  description: "Resists all attacks for three turns on first entry."
 }
 ability {
   id: ABILITY_CORRUPTED_MIND
   name: "Corrupted Mind"
-  description: "Psychic moves used by this Pokemon always hit super-effectively."
+  description: "Psychic-type moves deal Super-effective damage."
 }
 ability {
   id: ABILITY_FLAME_COAT
   name: "Flame Coat"
-  description: "Non-Fire-types take 1/8 dmg every turn when on field + Flash Fire."
+  description: "Non-Fire-types take 1/8 dmg every turn when on field."
 }
 ability {
   id: ABILITY_UNOWN_POWER
@@ -3893,27 +3894,27 @@ ability {
 ability {
   id: ABILITY_VENOM_CROWN
   name: "Venom Crown"
-  description: "Mighty Horn + Poison Point."
+  description: "Poison Point + Mighty Horn."
 }
 ability {
   id: ABILITY_BLIGHT_SCALE
   name: "Blight Scale"
-  description: "Multiscale + Poison Point."
+  description: "Multiscale + Poison Point"
 }
 ability {
   id: ABILITY_GUNMAN
   name: "Gunman"
-  description: "Mega Launcher + All moves are Mega Launcher boosted."
+  description: "Mega Launcher + Status moves are Mega Launcher moves."
 }
 ability {
   id: ABILITY_HUNTERS_MARK
-  name: "Hunter\'s Mark"
-  description: "Attacks switching foes with 40BP Spirit Shackle."
+  name: "Hunter's Mark"
+  description: "Attacks with 40BP Spirit Shackle when foes try to switch."
 }
 ability {
   id: ABILITY_HEMOLYSIS
   name: "Hemolysis"
-  description: "Poisoned foes can\'t heal and lose all stat buffs."
+  description: "Poisoned foes lose all stat buffs and can't heal."
 }
 ability {
   id: ABILITY_CARETAKER
@@ -3922,23 +3923,23 @@ ability {
 }
 ability {
   id: ABILITY_POSEIDONS_DOMINION
-  name: "Poseidon\'s Dominion"
-  description: "Uses Whirlpool on entry."
+  name: "Poseidon's Dominion"
+  description: "Attacks with Whirlpool on entry."
 }
 ability {
   id: ABILITY_DUAL_SHADOW
   name: "Two-Faced"
-  description: "Changes form each turn. boosts elec/dark moves by 35% with 10% recoil."
+  description: "Hunger Switch + Elec and Dark deal 1.35x with 10% recoil."
 }
 ability {
   id: ABILITY_LULLABY
   name: "Lullaby"
-  description: "Sing accuracy is 90% when used by this Pok\303\251mon."
+  description: "Sing accuracy is 90% when used by this Pokémon."
 }
 ability {
   id: ABILITY_CRYO_ARCHITECT
   name: "Cryo Architect"
-  description: "Boosts attack and def from ice and water"
+  description: "Boosts Attack and Def when hit by Water or Ice."
 }
 ability {
   id: ABILITY_GLACIAL_RAGE
@@ -3948,7 +3949,7 @@ ability {
 ability {
   id: ABILITY_IMMOVABLE_OBJECT
   name: "Immovable Object"
-  description: "Impenetrable + Sturdy"
+  description: "Impenetrable + Sturdy."
 }
 ability {
   id: ABILITY_FRENZIED_PHANTOM
