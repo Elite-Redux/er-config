@@ -18,11 +18,14 @@ message SpeciesList {
 message Species {
   message SpeciesDexInfo {
     string name = 1;
-    int32 national_dex_num = 2;
-    int32 hoenn_dex_num = 3;
-    optional BodyColor body_color = 4;
-    EggGroup egg_group = 5;
-    EggGroup egg_group_2 = 6;
+    string description = 2;
+    int32 national_dex_num = 3;
+    int32 hoenn_dex_num = 4;
+    optional BodyColor body_color = 5;
+    EggGroup egg_group = 6;
+    EggGroup egg_group_2 = 7;
+    int32 height = 8;
+    int32 weight = 9;
   }
 
   enum Gender {
