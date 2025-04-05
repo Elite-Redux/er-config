@@ -192323,11 +192323,7 @@ species {
 }
 species {
   id: SPECIES_WEAVILE_MEGA
-  dex {
-    name: "Weavile"
-    body_color: BODY_COLOR_BLACK
-    egg_group: FIELD
-  }
+  form_of: SPECIES_WEAVILE
   type: TYPE_DARK
   type2: TYPE_ICE
   hp: 70
@@ -192370,11 +192366,7 @@ species {
 }
 species {
   id: SPECIES_SAMUROTT_MEGA
-  dex {
-    name: "Samurott"
-    body_color: BODY_COLOR_BLUE
-    egg_group: FIELD
-  }
+  form_of: SPECIES_SAMUROTT
   type: TYPE_WATER
   type2: TYPE_FIGHTING
   hp: 95
@@ -192418,11 +192410,7 @@ species {
 }
 species {
   id: SPECIES_ARCANINE_MEGA
-  dex {
-    name: "Arcanine"
-    body_color: BODY_COLOR_BROWN
-    egg_group: FIELD
-  }
+  form_of: SPECIES_ARCANINE
   type: TYPE_FIRE
   hp: 90
   atk: 145
@@ -192465,11 +192453,7 @@ species {
 }
 species {
   id: SPECIES_GOODRA_MEGA
-  dex {
-    name: "Goodra"
-    body_color: BODY_COLOR_PURPLE
-    egg_group: DRAGON
-  }
+  form_of: SPECIES_GOODRA
   type: TYPE_DRAGON
   type2: TYPE_WATER
   hp: 90
@@ -192512,12 +192496,7 @@ species {
 }
 species {
   id: SPECIES_SLOWBRO_MEGA_GALARIAN
-  dex {
-    name: "Slowbro"
-    body_color: BODY_COLOR_PINK
-    egg_group: MONSTER
-    egg_group_2: WATER_1
-  }
+  form_of: SPECIES_SLOWBRO
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
   hp: 95
@@ -192560,12 +192539,7 @@ species {
 }
 species {
   id: SPECIES_SLOWKING_MEGA_GALARIAN
-  dex {
-    name: "Slowking"
-    body_color: BODY_COLOR_PINK
-    egg_group: MONSTER
-    egg_group_2: WATER_1
-  }
+  form_of: SPECIES_SLOWKING
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
   hp: 95
