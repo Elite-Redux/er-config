@@ -30215,6 +30215,7 @@ species {
 }
 species {
   id: SPECIES_ARTICUNO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Articuno"
     category: "Freeze"
@@ -30373,6 +30374,7 @@ species {
 }
 species {
   id: SPECIES_ARTICUNO_GALARIAN
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ARTICUNO
   type: TYPE_PSYCHIC
   type2: TYPE_FLYING
@@ -30496,6 +30498,7 @@ species {
 }
 species {
   id: SPECIES_ZAPDOS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zapdos"
     category: "Electric"
@@ -30642,6 +30645,7 @@ species {
 }
 species {
   id: SPECIES_ZAPDOS_GALARIAN
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ZAPDOS
   type: TYPE_FIGHTING
   type2: TYPE_FLYING
@@ -30750,6 +30754,7 @@ species {
 }
 species {
   id: SPECIES_MOLTRES
+  randomizer_banned: LEGENDARY
   dex {
     name: "Moltres"
     category: "Flame"
@@ -30900,6 +30905,7 @@ species {
 }
 species {
   id: SPECIES_MOLTRES_GALARIAN
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_MOLTRES
   type: TYPE_DARK
   type2: TYPE_FLYING
@@ -31766,6 +31772,7 @@ species {
 }
 species {
   id: SPECIES_MEWTWO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Mewtwo"
     category: "Genetic"
@@ -32038,6 +32045,7 @@ species {
 }
 species {
   id: SPECIES_MEW
+  randomizer_banned: LEGENDARY
   dex {
     name: "Mew"
     category: "New Species"
@@ -52995,6 +53003,7 @@ species {
 }
 species {
   id: SPECIES_RAIKOU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Raikou"
     category: "Thunder"
@@ -53136,6 +53145,7 @@ species {
 }
 species {
   id: SPECIES_ENTEI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Entei"
     category: "Volcano"
@@ -53275,6 +53285,7 @@ species {
 }
 species {
   id: SPECIES_SUICUNE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Suicune"
     category: "Aurora"
@@ -54249,6 +54260,7 @@ species {
 }
 species {
   id: SPECIES_LUGIA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Lugia"
     category: "Diving"
@@ -54441,6 +54453,7 @@ species {
 }
 species {
   id: SPECIES_HO_OH
+  randomizer_banned: LEGENDARY
   dex {
     name: "Ho-Oh"
     category: "Rainbow"
@@ -54594,6 +54607,7 @@ species {
 }
 species {
   id: SPECIES_CELEBI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Celebi"
     category: "Time Travel"
@@ -78214,6 +78228,7 @@ species {
 }
 species {
   id: SPECIES_REGIROCK
+  randomizer_banned: LEGENDARY
   dex {
     name: "Regirock"
     category: "Rock Peak"
@@ -78391,6 +78406,7 @@ species {
 }
 species {
   id: SPECIES_REGICE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Regice"
     category: "Iceberg"
@@ -78548,6 +78564,7 @@ species {
 }
 species {
   id: SPECIES_REGISTEEL
+  randomizer_banned: LEGENDARY
   dex {
     name: "Registeel"
     category: "Iron"
@@ -78732,6 +78749,7 @@ species {
 }
 species {
   id: SPECIES_LATIAS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Latias"
     category: "Eon"
@@ -78953,6 +78971,7 @@ species {
 }
 species {
   id: SPECIES_LATIOS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Latios"
     category: "Eon"
@@ -79173,6 +79192,7 @@ species {
 }
 species {
   id: SPECIES_KYOGRE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Kyogre"
     category: "Sea Basin"
@@ -79390,6 +79410,7 @@ species {
 }
 species {
   id: SPECIES_GROUDON
+  randomizer_banned: LEGENDARY
   dex {
     name: "Groudon"
     category: "Continent"
@@ -79610,6 +79631,7 @@ species {
 }
 species {
   id: SPECIES_RAYQUAZA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Rayquaza"
     category: "Sky High"
@@ -79832,6 +79854,7 @@ species {
 }
 species {
   id: SPECIES_JIRACHI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Jirachi"
     category: "Wish"
@@ -80029,6 +80052,7 @@ species {
 }
 species {
   id: SPECIES_DEOXYS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Deoxys"
     category: "DNA"
@@ -97846,6 +97870,7 @@ species {
 }
 species {
   id: SPECIES_UXIE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Uxie"
     category: "Knowledge"
@@ -98115,6 +98140,7 @@ species {
 }
 species {
   id: SPECIES_MESPRIT
+  randomizer_banned: LEGENDARY
   dex {
     name: "Mesprit"
     category: "Emotion"
@@ -98403,6 +98429,7 @@ species {
 }
 species {
   id: SPECIES_AZELF
+  randomizer_banned: LEGENDARY
   dex {
     name: "Azelf"
     category: "Willpower"
@@ -98671,6 +98698,7 @@ species {
 }
 species {
   id: SPECIES_DIALGA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Dialga"
     category: "Temporal"
@@ -98854,6 +98882,7 @@ species {
 }
 species {
   id: SPECIES_PALKIA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Palkia"
     category: "Spatial"
@@ -99053,6 +99082,7 @@ species {
 }
 species {
   id: SPECIES_HEATRAN
+  randomizer_banned: LEGENDARY
   dex {
     name: "Heatran"
     category: "Lava Dome"
@@ -99202,6 +99232,7 @@ species {
 }
 species {
   id: SPECIES_REGIGIGAS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Regigigas"
     category: "Colossal"
@@ -99344,6 +99375,7 @@ species {
 }
 species {
   id: SPECIES_GIRATINA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Giratina"
     category: "Renegade"
@@ -99594,6 +99626,7 @@ species {
 }
 species {
   id: SPECIES_CRESSELIA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Cresselia"
     category: "Lunar"
@@ -99766,6 +99799,7 @@ species {
 }
 species {
   id: SPECIES_PHIONE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Phione"
     category: "Sea Drifter"
@@ -99901,6 +99935,7 @@ species {
 }
 species {
   id: SPECIES_MANAPHY
+  randomizer_banned: LEGENDARY
   dex {
     name: "Manaphy"
     category: "Seafaring"
@@ -100041,6 +100076,7 @@ species {
 }
 species {
   id: SPECIES_DARKRAI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Darkrai"
     category: "Pitch-Black"
@@ -100226,6 +100262,7 @@ species {
 }
 species {
   id: SPECIES_SHAYMIN
+  randomizer_banned: LEGENDARY
   dex {
     name: "Shaymin"
     category: "Gratitude"
@@ -100433,6 +100470,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Arceus"
     category: "Alpha"
@@ -101130,6 +101168,7 @@ species {
 }
 species {
   id: SPECIES_VICTINI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Victini"
     category: "Victory"
@@ -126734,6 +126773,7 @@ species {
 }
 species {
   id: SPECIES_COBALION
+  randomizer_banned: LEGENDARY
   dex {
     name: "Cobalion"
     category: "Iron Will"
@@ -126874,6 +126914,7 @@ species {
 }
 species {
   id: SPECIES_TERRAKION
+  randomizer_banned: LEGENDARY
   dex {
     name: "Terrakion"
     category: "Cavern"
@@ -127048,6 +127089,7 @@ species {
 }
 species {
   id: SPECIES_VIRIZION
+  randomizer_banned: LEGENDARY
   dex {
     name: "Virizion"
     category: "Grassland"
@@ -127183,6 +127225,7 @@ species {
 }
 species {
   id: SPECIES_TORNADUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Tornadus"
     category: "Cyclone"
@@ -127402,6 +127445,7 @@ species {
 }
 species {
   id: SPECIES_THUNDURUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Thundurus"
     category: "Bolt Strike"
@@ -127666,6 +127710,7 @@ species {
 }
 species {
   id: SPECIES_RESHIRAM
+  randomizer_banned: LEGENDARY
   dex {
     name: "Reshiram"
     category: "Vast White"
@@ -127810,6 +127855,7 @@ species {
 }
 species {
   id: SPECIES_ZEKROM
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zekrom"
     category: "Deep Black"
@@ -127947,6 +127993,7 @@ species {
 }
 species {
   id: SPECIES_LANDORUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Landorus"
     category: "Abundance"
@@ -128167,6 +128214,7 @@ species {
 }
 species {
   id: SPECIES_KYUREM
+  randomizer_banned: LEGENDARY
   dex {
     name: "Kyurem"
     category: "Boundary"
@@ -128441,6 +128489,7 @@ species {
 }
 species {
   id: SPECIES_KELDEO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Keldeo"
     category: "Colt"
@@ -128631,6 +128680,7 @@ species {
 }
 species {
   id: SPECIES_MELOETTA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Meloetta"
     category: "Melody"
@@ -128892,6 +128942,7 @@ species {
 }
 species {
   id: SPECIES_GENESECT
+  randomizer_banned: LEGENDARY
   dex {
     name: "Genesect"
     category: "Paleozoic"
@@ -142102,6 +142153,7 @@ species {
 }
 species {
   id: SPECIES_XERNEAS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Xerneas"
     category: "Life"
@@ -142298,6 +142350,7 @@ species {
 }
 species {
   id: SPECIES_YVELTAL
+  randomizer_banned: LEGENDARY
   dex {
     name: "Yveltal"
     category: "Destruction"
@@ -142511,6 +142564,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zygarde"
     category: "Order"
@@ -142832,6 +142886,7 @@ species {
 }
 species {
   id: SPECIES_DIANCIE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Diancie"
     category: "Jewel"
@@ -143026,6 +143081,7 @@ species {
 }
 species {
   id: SPECIES_HOOPA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Hoopa"
     category: "Mischief"
@@ -143266,6 +143322,7 @@ species {
 }
 species {
   id: SPECIES_VOLCANION
+  randomizer_banned: LEGENDARY
   dex {
     name: "Volcanion"
     category: "Steam"
@@ -151533,6 +151590,7 @@ species {
 }
 species {
   id: SPECIES_TYPE_NULL
+  randomizer_banned: LEGENDARY
   dex {
     name: "Type: Null"
     category: "Synthetic"
@@ -151637,6 +151695,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY
+  randomizer_banned: LEGENDARY
   dex {
     name: "Silvally"
     category: "Synthetic"
@@ -154770,6 +154829,7 @@ species {
 }
 species {
   id: SPECIES_TAPU_KOKO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Tapu Koko"
     category: "Land Spirit"
@@ -154925,6 +154985,7 @@ species {
 }
 species {
   id: SPECIES_TAPU_LELE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Tapu Lele"
     category: "Land Spirit"
@@ -155062,6 +155123,7 @@ species {
 }
 species {
   id: SPECIES_TAPU_BULU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Tapu Bulu"
     category: "Land Spirit"
@@ -155209,6 +155271,7 @@ species {
 }
 species {
   id: SPECIES_TAPU_FINI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Tapu Fini"
     category: "Land Spirit"
@@ -155346,6 +155409,7 @@ species {
 }
 species {
   id: SPECIES_COSMOG
+  randomizer_banned: LEGENDARY
   dex {
     name: "Cosmog"
     category: "Nebula"
@@ -155414,6 +155478,7 @@ species {
 }
 species {
   id: SPECIES_COSMOEM
+  randomizer_banned: LEGENDARY
   dex {
     name: "Cosmoem"
     category: "Protostar"
@@ -155497,6 +155562,7 @@ species {
 }
 species {
   id: SPECIES_SOLGALEO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Solgaleo"
     category: "Sunne"
@@ -155652,6 +155718,7 @@ species {
 }
 species {
   id: SPECIES_LUNALA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Lunala"
     category: "Moone"
@@ -156680,6 +156747,7 @@ species {
 }
 species {
   id: SPECIES_NECROZMA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Necrozma"
     category: "Prism"
@@ -156977,6 +157045,7 @@ species {
 }
 species {
   id: SPECIES_MAGEARNA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Magearna"
     category: "Artificial"
@@ -157152,6 +157221,7 @@ species {
 }
 species {
   id: SPECIES_MARSHADOW
+  randomizer_banned: LEGENDARY
   dex {
     name: "Marshadow"
     category: "Gloomdwellr"
@@ -157787,6 +157857,7 @@ species {
 }
 species {
   id: SPECIES_ZERAORA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zeraora"
     category: "Thunderclap"
@@ -157908,6 +157979,7 @@ species {
 }
 species {
   id: SPECIES_MELTAN
+  randomizer_banned: LEGENDARY
   dex {
     name: "Meltan"
     category: "Hex Nut"
@@ -158007,6 +158079,7 @@ species {
 }
 species {
   id: SPECIES_MELMETAL
+  randomizer_banned: LEGENDARY
   dex {
     name: "Melmetal"
     category: "Hex Nut"
@@ -169173,6 +169246,7 @@ species {
 }
 species {
   id: SPECIES_ZACIAN
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zacian"
     category: "Warrior"
@@ -169328,6 +169402,7 @@ species {
 }
 species {
   id: SPECIES_ZAMAZENTA
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zamazenta"
     category: "Warrior"
@@ -169484,6 +169559,7 @@ species {
 }
 species {
   id: SPECIES_ETERNATUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Eternatus"
     category: "Gigantic"
@@ -169640,6 +169716,7 @@ species {
 }
 species {
   id: SPECIES_KUBFU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Kubfu"
     category: "Wushu"
@@ -169742,6 +169819,7 @@ species {
 }
 species {
   id: SPECIES_URSHIFU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Urshifu"
     category: "Wushu"
@@ -169902,6 +169980,7 @@ species {
 }
 species {
   id: SPECIES_URSHIFU_RAPID_STRIKE_STYLE
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_URSHIFU
   type: TYPE_FIGHTING
   type2: TYPE_WATER
@@ -170047,6 +170126,7 @@ species {
 }
 species {
   id: SPECIES_ZARUDE
+  randomizer_banned: LEGENDARY
   dex {
     name: "Zarude"
     category: "Rogue Monkey"
@@ -170197,6 +170277,7 @@ species {
 }
 species {
   id: SPECIES_ZARUDE_DADA
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ZARUDE
   type: TYPE_FAIRY
   type2: TYPE_GRASS
@@ -170347,6 +170428,7 @@ species {
 }
 species {
   id: SPECIES_REGIELEKI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Regieleki"
     category: "Electron"
@@ -170487,6 +170569,7 @@ species {
 }
 species {
   id: SPECIES_REGIDRAGO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Regidrago"
     category: "Dragon Orb"
@@ -170605,6 +170688,7 @@ species {
 }
 species {
   id: SPECIES_GLASTRIER
+  randomizer_banned: LEGENDARY
   dex {
     name: "Glastrier"
     category: "Wild Horse"
@@ -170706,6 +170790,7 @@ species {
 }
 species {
   id: SPECIES_SPECTRIER
+  randomizer_banned: LEGENDARY
   dex {
     name: "Spectrier"
     category: "Swift Horse"
@@ -170850,6 +170935,7 @@ species {
 }
 species {
   id: SPECIES_CALYREX
+  randomizer_banned: LEGENDARY
   dex {
     name: "Calyrex"
     category: "King"
@@ -171775,6 +171861,7 @@ species {
 }
 species {
   id: SPECIES_ENAMORUS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Enamorus"
     category: "Love-Hate"
@@ -183085,6 +183172,7 @@ species {
 }
 species {
   id: SPECIES_WO_CHIEN
+  randomizer_banned: LEGENDARY
   dex {
     name: "Wo Chien"
     category: "Ruinous"
@@ -183227,6 +183315,7 @@ species {
 }
 species {
   id: SPECIES_CHIEN_PAO
+  randomizer_banned: LEGENDARY
   dex {
     name: "Chien Pao"
     category: "Ruinous"
@@ -183404,6 +183493,7 @@ species {
 }
 species {
   id: SPECIES_TING_LU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Ting Lu"
     category: "Ruinous"
@@ -183544,6 +183634,7 @@ species {
 }
 species {
   id: SPECIES_CHI_YU
+  randomizer_banned: LEGENDARY
   dex {
     name: "Chi Yu"
     category: "Ruinous"
@@ -183921,6 +184012,7 @@ species {
 }
 species {
   id: SPECIES_KORAIDON
+  randomizer_banned: LEGENDARY
   dex {
     name: "Koraidon"
     category: "Paradox"
@@ -184052,6 +184144,7 @@ species {
 }
 species {
   id: SPECIES_MIRAIDON
+  randomizer_banned: LEGENDARY
   dex {
     name: "Miraidon"
     category: "Paradox"
@@ -184734,6 +184827,7 @@ species {
 }
 species {
   id: SPECIES_OKIDOGI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Okidogi"
     category: "Retainer"
@@ -184864,6 +184958,7 @@ species {
 }
 species {
   id: SPECIES_MUNKIDORI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Munkidori"
     category: "Retainer"
@@ -184994,6 +185089,7 @@ species {
 }
 species {
   id: SPECIES_FEZANDIPITI
+  randomizer_banned: LEGENDARY
   dex {
     name: "Fezandipiti"
     category: "Retainer"
@@ -185124,6 +185220,7 @@ species {
 }
 species {
   id: SPECIES_OGERPON
+  randomizer_banned: LEGENDARY
   dex {
     name: "Ogerpon"
     category: "Mask"
@@ -186064,6 +186161,7 @@ species {
 }
 species {
   id: SPECIES_TERAPAGOS
+  randomizer_banned: LEGENDARY
   dex {
     name: "Terapagos"
     category: "Tera"
@@ -186227,6 +186325,7 @@ species {
 }
 species {
   id: SPECIES_PECHARUNT
+  randomizer_banned: LEGENDARY
   dex {
     name: "Pecharunt"
     category: "Pecharunt"
