@@ -192622,8 +192622,8 @@ species {
 species {
   id: SPECIES_DUDUDUNSPARCE_MEGA
   randomizer_banned: SPECIES_HIDDEN
-  type: TYPE_GHOST
-  type2: TYPE_ELECTRIC
+  type: TYPE_NORMAL
+  type2: TYPE_GROUND
   hp: 145
   atk: 135
   def: 100
