@@ -7243,6 +7243,7 @@ species {
 }
 species {
   id: SPECIES_WIGGLYTUFF_APEX
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_WIGGLYTUFF
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
@@ -28678,6 +28679,7 @@ species {
 }
 species {
   id: SPECIES_ESPEON_GALAXY
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_ESPEON
   type: TYPE_PSYCHIC
   hp: 65
@@ -31521,6 +31523,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_DELIVERY
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -34916,7 +34919,14 @@ species {
 }
 species {
   id: SPECIES_LEDIAN_PARADOX
-  form_of: SPECIES_LEDIAN
+  randomizer_banned: MONOTYPE
+  dex {
+    name: "Iron Heart"
+    category: "Paradox"
+    national_dex_num: 1066
+    body_color: BODY_COLOR_RED
+    egg_group: UNDISCOVERED
+  }
   type: TYPE_STEEL
   type2: TYPE_BUG
   hp: 78
@@ -36857,6 +36867,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_COSPLAY
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_NORMAL
@@ -36971,6 +36982,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_ROCK_STAR
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_STEEL
@@ -37087,6 +37099,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_BELLE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_ICE
@@ -37204,6 +37217,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_POP_STAR
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_FAIRY
@@ -37323,6 +37337,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_PH_D
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_PSYCHIC
@@ -37442,6 +37457,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_LIBRE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   type2: TYPE_FIGHTING
@@ -37559,6 +37575,7 @@ species {
 }
 species {
   id: SPECIES_PIKACHU_PARTNER_CAP
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_PIKACHU
   type: TYPE_ELECTRIC
   hp: 50
@@ -42752,6 +42769,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_REVELATION
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 58
@@ -42791,6 +42809,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_B
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -42851,6 +42870,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_C
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -42911,6 +42931,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_D
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -42971,6 +42992,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_E
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43031,6 +43053,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_F
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43091,6 +43114,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_G
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43151,6 +43175,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_H
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43211,6 +43236,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_I
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43271,6 +43297,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_J
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43331,6 +43358,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_K
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43391,6 +43419,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_L
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43451,6 +43480,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_M
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43510,6 +43540,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_N
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43570,6 +43601,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_O
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43629,6 +43661,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_P
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43689,6 +43722,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_Q
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43749,6 +43783,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_R
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43809,6 +43844,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_S
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43869,6 +43905,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_T
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43928,6 +43965,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_U
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -43987,6 +44025,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_V
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44047,6 +44086,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_W
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44106,6 +44146,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_X
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44165,6 +44206,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_Y
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44224,6 +44266,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_Z
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44284,6 +44327,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_EMARK
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -44343,6 +44387,7 @@ species {
 }
 species {
   id: SPECIES_UNOWN_QMARK
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 48
@@ -47044,6 +47089,7 @@ species {
 }
 species {
   id: SPECIES_WEAVILE_REDUX
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_WEAVILE
   type: TYPE_GROUND
   type2: TYPE_DARK
@@ -61168,6 +61214,7 @@ species {
 }
 species {
   id: SPECIES_SLAKING_MEGA_APE_SHIFT
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SLAKING
   type: TYPE_NORMAL
   type2: TYPE_ICE
@@ -64104,6 +64151,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_REDUX_B
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_MAWILE
   type: TYPE_GRASS
   type2: TYPE_POISON
@@ -68969,6 +69017,7 @@ species {
 }
 species {
   id: SPECIES_FLYGON_REDUX_B
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_FLYGON
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -70947,6 +70996,7 @@ species {
 }
 species {
   id: SPECIES_SOLROCK_SYSTEM
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_SOLROCK
   type: TYPE_ROCK
   type2: TYPE_PSYCHIC
@@ -73271,6 +73321,7 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SANDY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_ROCK
   hp: 75
@@ -73309,6 +73360,7 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SUNNY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_FIRE
   hp: 75
@@ -73347,6 +73399,7 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_RAINY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_WATER
   hp: 75
@@ -73385,6 +73438,7 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SNOWY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_ICE
   hp: 75
@@ -73423,6 +73477,7 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_FOGGY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_GHOST
   hp: 75
@@ -87481,6 +87536,7 @@ species {
 }
 species {
   id: SPECIES_CHERRIM_SUNSHINE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CHERRIM
   type: TYPE_GRASS
   type2: TYPE_FAIRY
@@ -95302,6 +95358,7 @@ species {
 }
 species {
   id: SPECIES_ABOMASNOW_SANTA
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_ABOMASNOW
   type: TYPE_GRASS
   type2: TYPE_ICE
@@ -100224,6 +100281,7 @@ species {
 }
 species {
   id: SPECIES_DARKRAI_NIGHTMARE
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_DARKRAI
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -100828,6 +100886,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_FIGHTING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_FIGHTING
   hp: 120
@@ -100848,6 +100907,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_FLYING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_FLYING
   hp: 120
@@ -100868,6 +100928,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_POISON
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_POISON
   hp: 120
@@ -100888,6 +100949,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_GROUND
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_GROUND
   hp: 120
@@ -100908,6 +100970,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_ROCK
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_ROCK
   hp: 120
@@ -100928,6 +100991,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_BUG
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_BUG
   hp: 120
@@ -100948,6 +101012,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_GHOST
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_GHOST
   hp: 120
@@ -100968,6 +101033,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_STEEL
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_STEEL
   hp: 120
@@ -100988,6 +101054,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_FIRE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_FIRE
   hp: 120
@@ -101008,6 +101075,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_WATER
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_WATER
   hp: 120
@@ -101028,6 +101096,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_GRASS
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_GRASS
   hp: 120
@@ -101048,6 +101117,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_ELECTRIC
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_ELECTRIC
   hp: 120
@@ -101068,6 +101138,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_PSYCHIC
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_PSYCHIC
   hp: 120
@@ -101088,6 +101159,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_ICE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_ICE
   hp: 120
@@ -101108,6 +101180,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_DRAGON
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_DRAGON
   hp: 120
@@ -101128,6 +101201,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_DARK
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_DARK
   hp: 120
@@ -101148,6 +101222,7 @@ species {
 }
 species {
   id: SPECIES_ARCEUS_FAIRY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ARCEUS
   type: TYPE_FAIRY
   hp: 120
@@ -112214,6 +112289,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX_BLUNDER
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
@@ -113031,7 +113107,14 @@ species {
 }
 species {
   id: SPECIES_SCRAFTY_MEGA
-  form_of: SPECIES_SCRAFTY
+  dex {
+    name: "Scrafster"
+    category: "Hoodlum"
+    national_dex_num: 1067
+    body_color: BODY_COLOR_RED
+    egg_group: FIELD
+    egg_group_2: DRAGON
+  }
   type: TYPE_DARK
   type2: TYPE_FIGHTING
   hp: 90
@@ -128376,6 +128459,7 @@ species {
 }
 species {
   id: SPECIES_KYUREM_WHITE
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_KYUREM
   type: TYPE_DRAGON
   type2: TYPE_ICE
@@ -128432,6 +128516,7 @@ species {
 }
 species {
   id: SPECIES_KYUREM_BLACK
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_KYUREM
   type: TYPE_DRAGON
   type2: TYPE_ICE
@@ -129116,6 +129201,7 @@ species {
 }
 species {
   id: SPECIES_GENESECT_DOUSE_DRIVE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GENESECT
   type: TYPE_BUG
   type2: TYPE_STEEL
@@ -129137,6 +129223,7 @@ species {
 }
 species {
   id: SPECIES_GENESECT_SHOCK_DRIVE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GENESECT
   type: TYPE_BUG
   type2: TYPE_STEEL
@@ -129158,6 +129245,7 @@ species {
 }
 species {
   id: SPECIES_GENESECT_BURN_DRIVE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GENESECT
   type: TYPE_BUG
   type2: TYPE_STEEL
@@ -129179,6 +129267,7 @@ species {
 }
 species {
   id: SPECIES_GENESECT_CHILL_DRIVE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GENESECT
   type: TYPE_BUG
   type2: TYPE_STEEL
@@ -129675,6 +129764,7 @@ species {
 }
 species {
   id: SPECIES_CHESNAUGHT_CLEMONT
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CHESNAUGHT
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
@@ -130141,6 +130231,7 @@ species {
 }
 species {
   id: SPECIES_DELPHOX_SERENA
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_DELPHOX
   type: TYPE_FIRE
   type2: TYPE_PSYCHIC
@@ -130630,6 +130721,7 @@ species {
 }
 species {
   id: SPECIES_GRENINJA_ASH
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GRENINJA
   type: TYPE_WATER
   type2: TYPE_DARK
@@ -132031,6 +132123,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_MEADOW
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132071,6 +132164,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_MODERN
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132112,6 +132206,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_MARINE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132152,6 +132247,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_ARCHIPELAGO
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132233,6 +132329,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_SANDSTORM
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132274,6 +132371,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_RIVER
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132315,6 +132413,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_MONSOON
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132355,6 +132454,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_SAVANNA
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132436,6 +132536,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_OCEAN
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -132476,6 +132577,7 @@ species {
 }
 species {
   id: SPECIES_VIVILLON_JUNGLE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_VIVILLON
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -135660,6 +135762,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_BLADE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_AEGISLASH
   type: TYPE_STEEL
   type2: TYPE_GHOST
@@ -135999,6 +136102,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_BLADE_REDUX
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -136097,7 +136201,10 @@ species {
   innate: ABILITY_MYTHICAL_ARROWS
   innate: ABILITY_STANCE_CHANGE
   percent_female: 50.0
-  uses_learnset: SPECIES_AEGISLASH_REDUX
+  mega {
+    from: SPECIES_AEGISLASH_BLADE_REDUX
+    item: "ITEM_AEGISLASHITE_R"
+  }
   visuals {
     icon {
       path: "aegislash/blade_redux_mega/icon"
@@ -140972,11 +141079,11 @@ species {
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
   percent_female: 50.0
+  form_shift_of: SPECIES_PUMPKABOO
   evo {
     to: SPECIES_GOURGEIST_SMALL
     level: 20
   }
-  uses_learnset: SPECIES_PUMPKABOO
   visuals {
     reuse_icon: SPECIES_PUMPKABOO
     front {
@@ -141056,11 +141163,11 @@ species {
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
   percent_female: 50.0
+  form_shift_of: SPECIES_PUMPKABOO
   evo {
     to: SPECIES_GOURGEIST_LARGE
     level: 20
   }
-  uses_learnset: SPECIES_PUMPKABOO
   visuals {
     reuse_icon: SPECIES_PUMPKABOO
     front {
@@ -141099,8 +141206,8 @@ species {
   innate: ABILITY_INSOMNIA
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
+  form_shift_of: SPECIES_GOURGEIST
   percent_female: 50.0
-  uses_learnset: SPECIES_GOURGEIST
   visuals {
     reuse_icon: SPECIES_GOURGEIST
     front {
@@ -141139,12 +141246,12 @@ species {
   innate: ABILITY_INSOMNIA
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
+  form_shift_of: SPECIES_PUMPKABOO
   percent_female: 50.0
   evo {
     to: SPECIES_GOURGEIST_SUPER
     level: 20
   }
-  uses_learnset: SPECIES_PUMPKABOO
   visuals {
     reuse_icon: SPECIES_PUMPKABOO
     front {
@@ -141183,8 +141290,8 @@ species {
   innate: ABILITY_INSOMNIA
   innate: ABILITY_CURSED_BODY
   innate: ABILITY_HAUNTED_SPIRIT
+  form_shift_of: SPECIES_GOURGEIST
   percent_female: 50.0
-  uses_learnset: SPECIES_GOURGEIST
   visuals {
     reuse_icon: SPECIES_GOURGEIST
     front {
@@ -142718,6 +142825,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_10
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -142780,6 +142888,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_10_POWER_CONSTRUCT
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -142802,6 +142911,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_50_POWER_CONSTRUCT
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -142824,6 +142934,7 @@ species {
 }
 species {
   id: SPECIES_ZYGARDE_COMPLETE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_ZYGARDE
   type: TYPE_DRAGON
   type2: TYPE_GROUND
@@ -146765,6 +146876,7 @@ species {
 }
 species {
   id: SPECIES_RIBOMBEE_REDUX
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_RIBOMBEE
   type: TYPE_BUG
   type2: TYPE_ELECTRIC
@@ -147761,6 +147873,7 @@ species {
 }
 species {
   id: SPECIES_WISHIWASHI_SCHOOL
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_WISHIWASHI
   type: TYPE_WATER
   hp: 45
@@ -149615,6 +149728,7 @@ species {
 }
 species {
   id: SPECIES_BEWEAR_ANGRY
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_BEWEAR
   type: TYPE_NORMAL
   type2: TYPE_FIGHTING
@@ -151848,6 +151962,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_FIGHTING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_FIGHTING
   hp: 95
@@ -151909,6 +152024,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_FLYING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_FLYING
   hp: 95
@@ -151969,6 +152085,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_POISON
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_POISON
   hp: 95
@@ -152030,6 +152147,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_GROUND
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_GROUND
   hp: 95
@@ -152091,6 +152209,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_ROCK
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_ROCK
   hp: 95
@@ -152152,6 +152271,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_BUG
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_BUG
   hp: 95
@@ -152213,6 +152333,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_GHOST
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_GHOST
   hp: 95
@@ -152274,6 +152395,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_STEEL
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_STEEL
   hp: 95
@@ -152335,6 +152457,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_FIRE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_FIRE
   hp: 95
@@ -152395,6 +152518,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_WATER
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_WATER
   hp: 95
@@ -152456,6 +152580,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_GRASS
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_GRASS
   hp: 95
@@ -152517,6 +152642,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_ELECTRIC
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_ELECTRIC
   hp: 95
@@ -152578,6 +152704,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_PSYCHIC
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_PSYCHIC
   hp: 95
@@ -152635,6 +152762,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_ICE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_ICE
   hp: 95
@@ -152695,6 +152823,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_DRAGON
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_DRAGON
   hp: 95
@@ -152756,6 +152885,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_DARK
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_DARK
   hp: 95
@@ -152817,6 +152947,7 @@ species {
 }
 species {
   id: SPECIES_SILVALLY_FAIRY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SILVALLY
   type: TYPE_FAIRY
   hp: 95
@@ -153131,6 +153262,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_RED
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153173,6 +153305,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_ORANGE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153195,6 +153328,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_YELLOW
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153217,6 +153351,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_GREEN
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153239,6 +153374,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_BLUE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153261,6 +153397,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_INDIGO
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153283,6 +153420,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_VIOLET
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -153767,6 +153905,7 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_BUSTED
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -153925,6 +154064,7 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_RAYQUAZA
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -153967,6 +154107,7 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_APEX_BUSTED
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -153989,6 +154130,7 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_RAYQUAZA_BUSTED
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -156600,6 +156742,7 @@ species {
 }
 species {
   id: SPECIES_KARTANA_FALLEN
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_KARTANA
   type: TYPE_GRASS
   type2: TYPE_STEEL
@@ -157203,8 +157346,8 @@ species {
   innate: ABILITY_MIRROR_ARMOR
   innate: ABILITY_SOUL_HEART
   innate: ABILITY_POWER_CORE
+  form_shift_of: SPECIES_MAGEARNA
   genderless: true
-  uses_learnset: SPECIES_MAGEARNA
   visuals {
     icon {
       path: "magearna/original_color/icon"
@@ -162655,6 +162798,7 @@ species {
 }
 species {
   id: SPECIES_CRAMORANT_GULPING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CRAMORANT
   type: TYPE_FLYING
   type2: TYPE_WATER
@@ -162695,6 +162839,7 @@ species {
 }
 species {
   id: SPECIES_CRAMORANT_GORGING
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CRAMORANT
   type: TYPE_FLYING
   type2: TYPE_WATER
@@ -164373,6 +164518,7 @@ species {
 }
 species {
   id: SPECIES_SINISTEA_ANTIQUE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_SINISTEA
   type: TYPE_GHOST
   hp: 40
@@ -164397,6 +164543,7 @@ species {
 }
 species {
   id: SPECIES_POLTEAGEIST_ANTIQUE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_POLTEAGEIST
   type: TYPE_GHOST
   hp: 60
@@ -166459,8 +166606,8 @@ species {
   innate: ABILITY_FLUFFY
   innate: ABILITY_AROMA_VEIL
   innate: ABILITY_SELF_SUFFICIENT
+  form_shift_of: SPECIES_ALCREMIE
   percent_female: 100.0
-  uses_learnset: SPECIES_ALCREMIE
   visuals {
     reuse_icon: SPECIES_ALCREMIE
     front {
@@ -167290,6 +167437,7 @@ species {
 }
 species {
   id: SPECIES_EISCUE_NOICE_FACE
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_EISCUE
   type: TYPE_ICE
   hp: 85
@@ -167787,6 +167935,7 @@ species {
 }
 species {
   id: SPECIES_MORPEKYLL_HANGRY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MORPEKYLL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -167826,6 +167975,7 @@ species {
 }
 species {
   id: SPECIES_MORPEKO_HANGRY
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MORPEKO
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -170904,6 +171054,7 @@ species {
 }
 species {
   id: SPECIES_SPECTRIER_CLOUD
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_SPECTRIER
   type: TYPE_FLYING
   hp: 100
@@ -171063,6 +171214,7 @@ species {
 }
 species {
   id: SPECIES_CALYREX_CLOUD_RIDER
+  randomizer_banned: MONOTYPE
   form_of: SPECIES_CALYREX
   type: TYPE_PSYCHIC
   type2: TYPE_FLYING
@@ -171165,6 +171317,7 @@ species {
 }
 species {
   id: SPECIES_CALYREX_ICE_RIDER
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_CALYREX
   type: TYPE_PSYCHIC
   type2: TYPE_ICE
@@ -171282,6 +171435,7 @@ species {
 }
 species {
   id: SPECIES_CALYREX_SHADOW_RIDER
+  randomizer_banned: LEGENDARY
   form_of: SPECIES_CALYREX
   type: TYPE_PSYCHIC
   type2: TYPE_GHOST
@@ -175219,6 +175373,7 @@ species {
 }
 species {
   id: SPECIES_SQUAWKABILLY_GREEN_PLUMAGE
+  randomizer_banned: BANNED_OTHER
   form_of: SPECIES_SQUAWKABILLY
   type: TYPE_NORMAL
   type2: TYPE_FLYING
@@ -178966,6 +179121,7 @@ species {
 species {
   id: SPECIES_PALAFIN_HERO
   form_of: SPECIES_PALAFIN
+  randomizer_banned: IN_BATTLE
   type: TYPE_WATER
   hp: 100
   atk: 160
@@ -189109,6 +189265,7 @@ species {
 }
 species {
   id: SPECIES_IRON_CARAPACE
+  randomizer_banned: PARADOX
   dex {
     name: "IronCarapace"
     national_dex_num: 1050

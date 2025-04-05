@@ -106,6 +106,7 @@ message Species {
     SPECIES_HIDDEN = 3;
     IN_BATTLE = 4;
     PARADOX = 5;
+    BANNED_OTHER = 6;
   }
 
   SpeciesEnum id = 1;
