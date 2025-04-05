@@ -48141,7 +48141,7 @@ species {
   dex {
     name: "Escarginite"
     category: "Escarginite"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    description: "This is not a actually Pokémon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
     national_dex_num: 1028
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -132504,7 +132504,7 @@ species {
 species {
   id: SPECIES_VIVILLON_POKE_BALL
   form_of: SPECIES_VIVILLON
-  long_name: "Vivillon Pokeball"
+  long_name: "Vivillon Pokéball"
   type: TYPE_BUG
   type2: TYPE_FLYING
   hp: 85
@@ -186365,7 +186365,7 @@ species {
   dex {
     name: "Phantowl"
     category: "Phantowl"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    description: "This is not a actually Pokémon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
     national_dex_num: 1026
     body_color: BODY_COLOR_BROWN
     egg_group: FLYING
@@ -186495,7 +186495,7 @@ species {
   dex {
     name: "Duelumber"
     category: "Duelumber"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    description: "This is not a actually Pokémon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
     national_dex_num: 1027
     body_color: BODY_COLOR_BROWN
     egg_group: MINERAL
@@ -188197,10 +188197,14 @@ species {
   id: SPECIES_DREDWOOD
   dex {
     name: "Dredwood"
+    category: "Elder Tree"
+    description: "This pokemon is the soul of the forest and its greatest protector. It will bring ruin to all who attempt to destroy its home."
     national_dex_num: 1044
     body_color: BODY_COLOR_BROWN
     egg_group: GRASS
     egg_group_2: AMORPHOUS
+    height: 32
+    weight: 5000
   }
   type: TYPE_GHOST
   type2: TYPE_GRASS
@@ -190206,9 +190210,13 @@ species {
   id: SPECIES_SKULBERUS
   dex {
     name: "Skulberus"
+    category: "Alpha Bite"
+    description: "The alpha of its pack, Skulberus are rarely seen with trainers as they will only acknowledge the truly strong."
     national_dex_num: 1061
     body_color: BODY_COLOR_GRAY
     egg_group: FIELD
+    height: 19
+    weight: 1650
   }
   type: TYPE_DARK
   hp: 100
@@ -192283,8 +192291,16 @@ species {
   id: SPECIES_IRON_EXO
   dex {
     name: "Iron Exo"
+    category: "Exosuit"
+    description: "An unknown virus Ultra Beast from Ultra Megalopolis that has taken refuge in the husk of a deceased Scizor. It closes resembles a future paradox pokemon."
+    national_dex_num: 1063
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
+    height: 20
+    weight: 970
+    pokemon_scale: 278
+    trainer_scale: 256
+    pokemon_offset: 1
   }
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
