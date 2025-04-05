@@ -192487,7 +192487,7 @@ species {
     category: "Land Snake"
     national_dex_num: 1065
     body_color: BODY_COLOR_YELLOW
-    egg_group: EGG_GROUP_FIELD
+    egg_group: FIELD
   }
   type: TYPE_NORMAL
   type2: TYPE_GROUND
