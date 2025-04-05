@@ -186965,9 +186965,13 @@ species {
   id: SPECIES_DREADNAUT
   dex {
     name: "Dreadnaut"
+    category: "Sea Wanderer"
+    description: "Despite its daunting appearance, it coexists peacefully with other Pokémon. It has never been witnessed feeding."
     national_dex_num: 1033
     body_color: BODY_COLOR_GREEN
     egg_group: MINERAL
+    height: 100
+    weight: 7000
   }
   type: TYPE_GHOST
   type2: TYPE_GRASS
@@ -187488,9 +187492,13 @@ species {
   id: SPECIES_BEEFENDER
   dex {
     name: "Beefender"
+    category: "Beehive"
+    description: "An unbelievably aggressive Pokémon, they evolve from male Combee in response to a serious threat against their Vespiquen."
     national_dex_num: 1037
     body_color: BODY_COLOR_YELLOW
     egg_group: BUG
+    height: 18
+    weight: 1000
   }
   type: TYPE_BUG
   type2: TYPE_FLYING
@@ -189529,10 +189537,14 @@ species {
   id: SPECIES_MARBEEP
   dex {
     name: "Marbeep"
+    category: "Woolly Bee"
+    description: "It is timid and stings lightly to avoid hurting itself. Most of those stung do not receive any venom."
     national_dex_num: 1055
     body_color: BODY_COLOR_WHITE
     egg_group: MONSTER
     egg_group_2: FIELD
+    height: 4
+    weight: 23
   }
   type: TYPE_BUG
   hp: 70
@@ -189619,10 +189631,14 @@ species {
   id: SPECIES_FLUFFBEE
   dex {
     name: "Fluffbee"
+    category: "Woolly Bee"
+    description: "To repel parasites, they collect harsh pollen in their fleece. They often brush against each other to share their pollen."
     national_dex_num: 1056
     body_color: BODY_COLOR_PINK
     egg_group: MONSTER
     egg_group_2: FIELD
+    height: 7
+    weight: 90
   }
   type: TYPE_BUG
   hp: 85
@@ -189714,10 +189730,14 @@ species {
   id: SPECIES_AMPHYBUZZ
   dex {
     name: "Amphybuzz"
+    category: "Woolly Bee"
+    description: "They scent their honeycombs using the pollen of many flowers. They recognize each other at a distance by their aromas."
     national_dex_num: 1057
     body_color: BODY_COLOR_YELLOW
     egg_group: MONSTER
     egg_group_2: FIELD
+    height: 12
+    weight: 387
   }
   type: TYPE_BUG
   type2: TYPE_FAIRY
