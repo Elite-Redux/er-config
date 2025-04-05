@@ -184569,9 +184569,13 @@ species {
   id: SPECIES_ARACHTRES
   dex {
     name: "Arachtres"
+    category: "Two-Faced"
+    description: "It can use its 4 accessory legs walk upside-down and rotate its head 180 degrees. Beholding its uncanny movements incites fear to its now webbed victims."
     national_dex_num: 1029
     body_color: BODY_COLOR_RED
     egg_group: BUG
+    height: 14
+    weight: 470
   }
   type: TYPE_BUG
   type2: TYPE_POISON
@@ -184682,9 +184686,13 @@ species {
   id: SPECIES_FLAIRGRANCE
   dex {
     name: "Flairgrance"
+    category: "Pheromone"
+    description: "It unleashes waves of phermones to daze its targets. Its scents are powerful enough that some are used in making repels."
     national_dex_num: 1030
     body_color: BODY_COLOR_PINK
     egg_group: FAIRY
+    height: 10
+    weight: 270
   }
   type: TYPE_FAIRY
   type2: TYPE_POISON
@@ -185048,9 +185056,13 @@ species {
   id: SPECIES_BOARLOCK
   dex {
     name: "Boarlock"
+    category: "Turncoat"
+    description: "Its enemies can see visions of their demise reflected in its giant black pearl. Those that gaze at their reflection are lost in a trance and are easily compelled."
     national_dex_num: 1034
     body_color: BODY_COLOR_PURPLE
     egg_group: FIELD
+    height: 17
+    weight: 1060
   }
   type: TYPE_PSYCHIC
   hp: 120
@@ -185575,10 +185587,14 @@ species {
   id: SPECIES_SALAZARUS
   dex {
     name: "Salazarus"
+    category: "Toxic Lizard"
+    description: "It could evolve because it was unaffected by Salazzle's phermones. It attracts female Salandit, but it pines for the Salazzle that rejected it."
     national_dex_num: 1038
     body_color: BODY_COLOR_BLACK
     egg_group: MONSTER
     egg_group_2: DRAGON
+    height: 10
+    weight: 489
   }
   type: TYPE_POISON
   type2: TYPE_FIRE
@@ -185701,9 +185717,13 @@ species {
   id: SPECIES_GOOSCHASE
   dex {
     name: "Gooschase"
+    category: "Pursuit"
+    description: "It keeps a watchful eye of its prey and only moves when unobserved by them. Only when it's too late will it be seen in motion."
     national_dex_num: 1040
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
+    height: 10
+    weight: 460
   }
   type: TYPE_NORMAL
   hp: 98
@@ -185813,9 +185833,13 @@ species {
   id: SPECIES_LEPASTRY
   dex {
     name: "Lepastry"
+    category: "Chef"
+    description: "It is desired by chefs all over due to its hammer producing the sweetest extract in the known world. The sweetness is so overwhelming it causes hysteria."
     national_dex_num: 1039
     body_color: BODY_COLOR_WHITE
     egg_group: FAIRY
+    height: 13
+    weight: 400
   }
   type: TYPE_FAIRY
   type2: TYPE_FIGHTING
@@ -186037,10 +186061,14 @@ species {
   id: SPECIES_BRONTONANA
   dex {
     name: "Brontonana"
+    category: "Dragon Fruit"
+    description: "This long-lived Pokémon stores accumulated energy in its fruit. Unleashing all of its stored power at once will cause it to wilt and wither."
     national_dex_num: 1043
     body_color: BODY_COLOR_GREEN
     egg_group: MONSTER
     egg_group_2: GRASS
+    height: 46
+    weight: 2810
   }
   type: TYPE_GRASS
   type2: TYPE_DRAGON
@@ -186285,9 +186313,13 @@ species {
   id: SPECIES_CORM
   dex {
     name: "Corm"
+    category: "Syrup"
+    description: "They release sweet syrup if fed a diet of sweet crops and fruits. Humans have domesticated Corm from its wild species thousands of years ago."
     national_dex_num: 1045
     body_color: BODY_COLOR_WHITE
     egg_group: BUG
+    height: 3
+    weight: 38
   }
   type: TYPE_GRASS
   hp: 50
@@ -186933,10 +186965,14 @@ species {
   id: SPECIES_IRON_CARAPACE
   randomizer_banned: PARADOX
   dex {
-    name: "IronCarapace"
+    name: "Iron Carapace"
+    category: "Paradox"
+    description: "Studies show that this Pokémon's internal core is almost as hot as Magcargo. It is found around scrapyards eating cast off metals to power its body."
     national_dex_num: 1050
     body_color: BODY_COLOR_RED
     egg_group: BUG
+    height: 5
+    weight: 590
   }
   type: TYPE_ELECTRIC
   type2: TYPE_STEEL
@@ -187170,9 +187206,13 @@ species {
   id: SPECIES_KAIOSEA
   dex {
     name: "Kaiosea"
+    category: "King Koi"
+    description: "It claims ocean currents as its domain and uses them to propel itself out of the water for true flight."
     national_dex_num: 1052
     body_color: BODY_COLOR_RED
     egg_group: WATER_2
+    height: 25
+    weight: 920
   }
   type: TYPE_WATER
   type2: TYPE_FLYING
@@ -188074,10 +188114,14 @@ species {
   id: SPECIES_PHANFERNAL
   dex {
     name: "Phanfernal"
+    category: "Pumpkin"
+    description: "Its pumpkin body can emit intense flames comparable to even a Heatran. The longer its flames burn, the more agile it becomes."
     national_dex_num: 1060
     body_color: BODY_COLOR_BROWN
     egg_group: GRASS
     egg_group_2: AMORPHOUS
+    height: 19
+    weight: 680
   }
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -188529,8 +188573,13 @@ species {
   id: SPECIES_BUBBLEO
   dex {
     name: "Bubbleo"
+    category: "Cat Fish"
+    description: "Despite blending in perfectly in dark waters, these Pokémon prefer to hunt by chasing after their prey."
+    national_dex_num: 1068
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
+    height: 9
+    weight: 200
   }
   type: TYPE_WATER
   type2: TYPE_POISON
@@ -188657,8 +188706,13 @@ species {
   id: SPECIES_HYDROAR
   dex {
     name: "Hydroar"
+    category: "Lion Fish"
+    description: "Able to travel faster than a Barraskewda in short bursts, these Pokémon now have the patience to lie in wait for prey to appear."
+    national_dex_num: 1069
     body_color: BODY_COLOR_BROWN
     egg_group: FIELD
+    height: 15
+    weight: 540
   }
   type: TYPE_WATER
   type2: TYPE_POISON
@@ -189049,8 +189103,13 @@ species {
   id: SPECIES_KNAIVER
   dex {
     name: "Knaiver"
+    category: "Hatchling"
+    description: "An elusive Pokémon, it adapts to almost any surroundings, scavenging until it reaches its incredible potential."
+    national_dex_num: 1071
     body_color: BODY_COLOR_GREEN
     egg_group: BUG
+    height: 4
+    weight: 40
   }
   type: TYPE_BUG
   hp: 50
@@ -189514,8 +189573,13 @@ species {
   id: SPECIES_LUMINOSITEON
   dex {
     name: "Lucineon"
+    category: "Bioluminescent"
+    description: "It appears that this species evolves from Lumineon who reside in proximity to the waters in the Cave of Origin."
+    national_dex_num: 1072
     body_color: BODY_COLOR_BLUE
     egg_group: WATER_2
+    height: 21
+    weight: 450
   }
   type: TYPE_WATER
   type2: TYPE_FAIRY
@@ -189759,8 +189823,13 @@ species {
   randomizer_banned: PARADOX
   dex {
     name: "Iron Voca"
+    category: "Paradox"
+    description: "A peculiar robot Pokémon said to resemble Wigglytuff mixed with a pop star. It is capable of singing in any voice it desires."
+    national_dex_num: 1070
     body_color: BODY_COLOR_PINK
     egg_group: FAIRY
+    height: 8
+    weight: 226
   }
   type: TYPE_STEEL
   type2: TYPE_NORMAL
@@ -190414,9 +190483,12 @@ species {
   dex {
     name: "Dududunsparce"
     category: "Land Snake"
+    description: "They live in underground and only a few sightings have ever been recorded. Legends say that one got so large that it could circle around the entire world."
     national_dex_num: 1065
     body_color: BODY_COLOR_YELLOW
     egg_group: FIELD
+    height: 45
+    weight: 7700
   }
   type: TYPE_NORMAL
   type2: TYPE_GROUND
