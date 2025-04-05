@@ -104,6 +104,7 @@ message Species {
     LEGENDARY = 1;
     MONOTYPE = 2;
     SPECIES_HIDDEN = 3;
+    BANNED = 4;
   }
 
   SpeciesEnum id = 1;
