@@ -69,6 +69,7 @@ message Species {
       PRIMAL = 0;
       ORIGIN = 1;
       CROWNED = 2;
+      ULTRA = 7;
     }
 
     SpeciesEnum from = 1;
@@ -109,6 +110,15 @@ message Species {
     BANNED_OTHER = 6;
   }
 
+  enum Region {
+    REGION_NONE = 0;
+    ALOLA = 1;
+    GALAR = 2;
+    HISUI = 3;
+    PALDEA = 4;
+    REDUX= 5;
+  }
+
   SpeciesEnum id = 1;
   RandomizeBanned randomizer_banned = 2;
   oneof base_species_info {
@@ -116,6 +126,7 @@ message Species {
     SpeciesDexInfo dex = 4;
   }
   string long_name = 5;
+  Region region_prefix = 31;
   Type type = 6;
   Type type2 = 7;
   int32 hp = 8;
@@ -179,7 +190,7 @@ message Visuals {
     message AnimCmd {
       enum Type {
         FRAME = 0;
-        END = 1;
+        reserved 1;
         JUMP = 2;
         LOOP = 3;
       }

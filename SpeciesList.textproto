@@ -41,9 +41,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -188,9 +185,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -333,9 +327,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -489,9 +480,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -719,9 +707,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -859,9 +844,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -1008,9 +990,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -1279,9 +1258,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -1425,9 +1401,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -1592,9 +1565,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -1789,9 +1759,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -1876,9 +1843,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -2061,9 +2025,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -2212,9 +2173,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -2333,9 +2291,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -2477,9 +2432,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -2528,6 +2480,7 @@ species {
 }
 species {
   id: SPECIES_WEEDLE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_WEEDLE
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -2597,6 +2550,7 @@ species {
 }
 species {
   id: SPECIES_KAKUNA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_KAKUNA
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -2667,6 +2621,7 @@ species {
 }
 species {
   id: SPECIES_BEEDRILL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BEEDRILL
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -2768,6 +2723,7 @@ species {
 }
 species {
   id: SPECIES_BEEDRILL_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BEEDRILL
   type: TYPE_ICE
   type2: TYPE_POISON
@@ -2975,9 +2931,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -3119,9 +3072,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -3261,9 +3211,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -3444,9 +3391,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -3613,9 +3557,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -3623,6 +3564,7 @@ species {
 species {
   id: SPECIES_RATTATA_ALOLAN
   form_of: SPECIES_RATTATA
+  region_prefix: ALOLA
   type: TYPE_DARK
   type2: TYPE_NORMAL
   hp: 30
@@ -3733,6 +3675,7 @@ species {
 species {
   id: SPECIES_RATICATE_ALOLAN
   form_of: SPECIES_RATICATE
+  region_prefix: ALOLA
   type: TYPE_DARK
   type2: TYPE_NORMAL
   hp: 95
@@ -4025,9 +3968,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -4176,9 +4116,6 @@ species {
         frame {
           image: 0
           duration: 7
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -4334,9 +4271,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -4483,9 +4417,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -4680,9 +4611,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -4700,9 +4628,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -4854,9 +4779,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -4874,9 +4796,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -4929,6 +4848,7 @@ species {
 species {
   id: SPECIES_SANDSHREW_ALOLAN
   form_of: SPECIES_SANDSHREW
+  region_prefix: ALOLA
   type: TYPE_ICE
   type2: TYPE_STEEL
   hp: 70
@@ -5041,6 +4961,7 @@ species {
 species {
   id: SPECIES_SANDSLASH_ALOLAN
   form_of: SPECIES_SANDSLASH
+  region_prefix: ALOLA
   type: TYPE_ICE
   type2: TYPE_STEEL
   hp: 95
@@ -5308,9 +5229,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -5449,9 +5367,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -5596,9 +5511,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -5779,9 +5691,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -5921,9 +5830,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -6073,9 +5979,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -6292,9 +6195,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -6312,9 +6212,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -6484,9 +6381,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -6505,9 +6399,6 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -6515,6 +6406,7 @@ species {
 species {
   id: SPECIES_VULPIX_ALOLAN
   form_of: SPECIES_VULPIX
+  region_prefix: ALOLA
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 38
@@ -6646,6 +6538,7 @@ species {
 species {
   id: SPECIES_NINETALES_ALOLAN
   form_of: SPECIES_NINETALES
+  region_prefix: ALOLA
   type: TYPE_ICE
   type2: TYPE_FAIRY
   hp: 73
@@ -6927,9 +6820,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -6947,9 +6837,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -7121,9 +7008,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -7141,9 +7025,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -7627,9 +7508,6 @@ species {
           image: 0
           duration: 3
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -7774,9 +7652,6 @@ species {
         frame {
           image: 1
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -7987,9 +7862,6 @@ species {
           image: 0
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -8190,9 +8062,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -8339,9 +8208,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -8492,9 +8358,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -8690,9 +8553,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -8855,9 +8715,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -9014,9 +8871,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -9175,9 +9029,6 @@ species {
           image: 1
           duration: 4
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -9306,9 +9157,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -9473,9 +9321,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -9483,6 +9328,7 @@ species {
 species {
   id: SPECIES_DIGLETT_ALOLAN
   form_of: SPECIES_DIGLETT
+  region_prefix: ALOLA
   type: TYPE_GROUND
   type2: TYPE_STEEL
   hp: 10
@@ -9586,6 +9432,7 @@ species {
 species {
   id: SPECIES_DUGTRIO_ALOLAN
   form_of: SPECIES_DUGTRIO
+  region_prefix: ALOLA
   type: TYPE_GROUND
   type2: TYPE_STEEL
   hp: 35
@@ -9839,9 +9686,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -9977,9 +9821,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -9987,6 +9828,7 @@ species {
 species {
   id: SPECIES_MEOWTH_ALOLAN
   form_of: SPECIES_MEOWTH
+  region_prefix: ALOLA
   type: TYPE_DARK
   hp: 40
   atk: 45
@@ -10094,6 +9936,7 @@ species {
 species {
   id: SPECIES_PERSIAN_ALOLAN
   form_of: SPECIES_PERSIAN
+  region_prefix: ALOLA
   type: TYPE_DARK
   hp: 65
   atk: 75
@@ -10207,6 +10050,7 @@ species {
 }
 species {
   id: SPECIES_MEOWTH_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_MEOWTH
   type: TYPE_STEEL
   hp: 50
@@ -10632,9 +10476,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -10653,15 +10494,13 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_PSYDUCK_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PSYDUCK
   type: TYPE_DARK
   hp: 50
@@ -10914,9 +10753,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -10934,9 +10770,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -11087,9 +10920,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -11244,9 +11074,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -11395,9 +11222,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -11559,15 +11383,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_GROWLITHE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GROWLITHE
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -11687,6 +11509,7 @@ species {
 }
 species {
   id: SPECIES_ARCANINE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ARCANINE
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -11804,6 +11627,7 @@ species {
 }
 species {
   id: SPECIES_ARCANINE_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ARCANINE
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -11846,6 +11670,7 @@ species {
 }
 species {
   id: SPECIES_GROWLITHE_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_GROWLITHE
   type: TYPE_FIRE
   type2: TYPE_ROCK
@@ -11956,6 +11781,7 @@ species {
 }
 species {
   id: SPECIES_ARCANINE_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_ARCANINE
   type: TYPE_FIRE
   type2: TYPE_ROCK
@@ -12193,9 +12019,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -12347,9 +12170,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -12492,9 +12312,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -12658,9 +12475,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -12822,9 +12636,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -12984,9 +12795,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -13033,6 +12841,7 @@ species {
 }
 species {
   id: SPECIES_ABRA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ABRA
   type: TYPE_DARK
   hp: 25
@@ -13123,6 +12932,7 @@ species {
 }
 species {
   id: SPECIES_KADABRA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_KADABRA
   type: TYPE_DARK
   type2: TYPE_FIGHTING
@@ -13234,6 +13044,7 @@ species {
 }
 species {
   id: SPECIES_ALAKAZAM_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ALAKAZAM
   type: TYPE_DARK
   hp: 55
@@ -13349,6 +13160,7 @@ species {
 }
 species {
   id: SPECIES_ALAKAZAM_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ALAKAZAM
   type: TYPE_DARK
   hp: 55
@@ -13547,9 +13359,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -13699,9 +13508,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -13869,9 +13675,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -13921,6 +13724,7 @@ species {
 }
 species {
   id: SPECIES_MACHOP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MACHOP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
@@ -14022,6 +13826,7 @@ species {
 }
 species {
   id: SPECIES_MACHOKE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MACHOKE
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
@@ -14124,6 +13929,7 @@ species {
 }
 species {
   id: SPECIES_MACHAMP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MACHAMP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
@@ -14230,6 +14036,7 @@ species {
 }
 species {
   id: SPECIES_MACHAMP_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MACHAMP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
@@ -14416,9 +14223,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -14586,9 +14390,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -14758,9 +14559,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -14917,9 +14715,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -15078,9 +14873,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -15223,9 +15015,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -15377,9 +15166,6 @@ species {
           image: 0
           duration: 16
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -15530,9 +15316,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -15540,6 +15323,7 @@ species {
 species {
   id: SPECIES_GEODUDE_ALOLAN
   form_of: SPECIES_GEODUDE
+  region_prefix: ALOLA
   type: TYPE_ROCK
   type2: TYPE_ELECTRIC
   hp: 40
@@ -15660,6 +15444,7 @@ species {
 species {
   id: SPECIES_GRAVELER_ALOLAN
   form_of: SPECIES_GRAVELER
+  region_prefix: ALOLA
   type: TYPE_ROCK
   type2: TYPE_ELECTRIC
   hp: 55
@@ -15779,6 +15564,7 @@ species {
 species {
   id: SPECIES_GOLEM_ALOLAN
   form_of: SPECIES_GOLEM
+  region_prefix: ALOLA
   type: TYPE_ROCK
   type2: TYPE_ELECTRIC
   hp: 90
@@ -16020,9 +15806,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -16153,9 +15936,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -16205,6 +15985,7 @@ species {
 }
 species {
   id: SPECIES_PONYTA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_PONYTA
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -16309,6 +16090,7 @@ species {
 }
 species {
   id: SPECIES_RAPIDASH_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_RAPIDASH
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -16415,6 +16197,7 @@ species {
 }
 species {
   id: SPECIES_RAPIDASH_MEGA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_RAPIDASH
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -16598,9 +16381,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -16746,9 +16526,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -16898,9 +16675,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -16990,6 +16764,7 @@ species {
 }
 species {
   id: SPECIES_SLOWPOKE_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_SLOWPOKE
   type: TYPE_PSYCHIC
   hp: 90
@@ -17113,6 +16888,7 @@ species {
 }
 species {
   id: SPECIES_SLOWKING_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_SLOWKING
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
@@ -17237,6 +17013,7 @@ species {
 }
 species {
   id: SPECIES_SLOWBRO_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_SLOWBRO
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
@@ -17504,9 +17281,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -17667,9 +17441,6 @@ species {
           image: 0
           duration: 14
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -17819,9 +17590,6 @@ species {
         frame {
           image: 0
           duration: 16
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -18060,15 +17828,13 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_FARFETCHD_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_FARFETCHD
   type: TYPE_FIGHTING
   hp: 52
@@ -18319,9 +18085,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -18486,15 +18249,13 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_DODUO_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DODUO
   type: TYPE_POISON
   type2: TYPE_DARK
@@ -18599,6 +18360,7 @@ species {
 }
 species {
   id: SPECIES_DODRIO_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DODRIO
   type: TYPE_DARK
   type2: TYPE_POISON
@@ -18856,9 +18618,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -19017,9 +18776,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -19288,6 +19044,7 @@ species {
 }
 species {
   id: SPECIES_SEEL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SEEL
   type: TYPE_ICE
   type2: TYPE_DRAGON
@@ -19382,6 +19139,7 @@ species {
 }
 species {
   id: SPECIES_DEWGONG_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DEWGONG
   type: TYPE_ICE
   type2: TYPE_DRAGON
@@ -19640,9 +19398,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -19660,9 +19415,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -19818,9 +19570,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -19839,9 +19588,6 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -19849,6 +19595,7 @@ species {
 species {
   id: SPECIES_GRIMER_ALOLAN
   form_of: SPECIES_GRIMER
+  region_prefix: ALOLA
   type: TYPE_POISON
   type2: TYPE_DARK
   hp: 90
@@ -19972,6 +19719,7 @@ species {
 species {
   id: SPECIES_MUK_ALOLAN
   form_of: SPECIES_MUK
+  region_prefix: ALOLA
   type: TYPE_POISON
   type2: TYPE_DARK
   hp: 105
@@ -20214,9 +19962,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -20399,9 +20144,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -20551,9 +20293,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -20719,9 +20458,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -20882,9 +20618,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -21124,9 +20857,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -21289,9 +21019,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -21498,9 +21225,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -21665,9 +21389,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -21818,9 +21539,6 @@ species {
         frame {
           image: 0
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -21983,9 +21701,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -22167,9 +21882,6 @@ species {
           image: 0
           duration: 4
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -22311,15 +22023,13 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_VOLTORB_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_VOLTORB
   type: TYPE_ELECTRIC
   type2: TYPE_GRASS
@@ -22418,6 +22128,7 @@ species {
 }
 species {
   id: SPECIES_ELECTRODE_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_ELECTRODE
   type: TYPE_ELECTRIC
   type2: TYPE_GRASS
@@ -22681,9 +22392,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -22826,9 +22534,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -22836,6 +22541,7 @@ species {
 species {
   id: SPECIES_EXEGGUTOR_ALOLAN
   form_of: SPECIES_EXEGGUTOR
+  region_prefix: ALOLA
   type: TYPE_GRASS
   type2: TYPE_DRAGON
   hp: 95
@@ -23095,9 +22801,6 @@ species {
           image: 0
           duration: 14
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -23258,9 +22961,6 @@ species {
           image: 0
           duration: 14
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -23268,6 +22968,7 @@ species {
 species {
   id: SPECIES_MAROWAK_ALOLAN
   form_of: SPECIES_MAROWAK
+  region_prefix: ALOLA
   type: TYPE_FIRE
   type2: TYPE_GHOST
   hp: 75
@@ -23522,9 +23223,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -23663,9 +23361,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -23683,9 +23378,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -23832,9 +23524,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -23853,15 +23542,13 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_WEEZING_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_WEEZING
   type: TYPE_POISON
   type2: TYPE_FAIRY
@@ -24107,9 +23794,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -24127,9 +23811,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -24297,9 +23978,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -24317,9 +23995,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -24486,9 +24161,6 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -24624,9 +24296,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -24941,9 +24610,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -24961,9 +24627,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -25113,9 +24776,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -25133,9 +24793,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -25284,9 +24941,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -25304,9 +24958,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -25680,9 +25331,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -25820,9 +25468,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -25973,9 +25618,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -25993,9 +25635,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -26143,9 +25782,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -26163,9 +25799,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -26325,9 +25958,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -26493,9 +26123,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -26644,9 +26271,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -26770,9 +26394,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -26921,9 +26542,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -26941,9 +26559,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -27128,15 +26743,13 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_TAUROS_PALDEAN_COMBAT_BREED
+  region_prefix: PALDEA
   form_of: SPECIES_TAUROS
   type: TYPE_FIGHTING
   hp: 95
@@ -27240,6 +26853,7 @@ species {
 }
 species {
   id: SPECIES_TAUROS_PALDEAN_BLAZE_BREED
+  region_prefix: PALDEA
   form_of: SPECIES_TAUROS
   type: TYPE_FIGHTING
   type2: TYPE_FIRE
@@ -27349,6 +26963,7 @@ species {
 }
 species {
   id: SPECIES_TAUROS_PALDEAN_AQUA_BREED
+  region_prefix: PALDEA
   form_of: SPECIES_TAUROS
   type: TYPE_FIGHTING
   type2: TYPE_WATER
@@ -27586,9 +27201,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -27746,9 +27358,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -28196,9 +27805,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -28376,9 +27982,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -28527,9 +28130,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -28669,9 +28269,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -28987,9 +28584,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -29120,9 +28714,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -29250,9 +28841,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -29404,9 +28992,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -29570,9 +29155,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -29715,9 +29297,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -29875,9 +29454,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -30019,9 +29595,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -30165,9 +29738,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -30367,15 +29937,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_ARTICUNO_GALARIAN
+  region_prefix: GALAR
   randomizer_banned: LEGENDARY
   form_of: SPECIES_ARTICUNO
   type: TYPE_PSYCHIC
@@ -30638,15 +30206,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_ZAPDOS_GALARIAN
+  region_prefix: GALAR
   randomizer_banned: LEGENDARY
   form_of: SPECIES_ZAPDOS
   type: TYPE_FIGHTING
@@ -30898,15 +30464,13 @@ species {
           image: 0
           duration: 3
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_MOLTRES_GALARIAN
+  region_prefix: GALAR
   randomizer_banned: LEGENDARY
   form_of: SPECIES_MOLTRES
   type: TYPE_DARK
@@ -31161,9 +30725,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -31310,9 +30871,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -31467,9 +31025,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -31952,9 +31507,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -32450,9 +32002,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -32583,9 +32132,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -32724,9 +32270,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -32876,9 +32419,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -33053,9 +32593,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -33187,9 +32724,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -33331,9 +32865,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -33383,6 +32914,7 @@ species {
 }
 species {
   id: SPECIES_TYPHLOSION_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_TYPHLOSION
   type: TYPE_FIRE
   type2: TYPE_GHOST
@@ -33497,6 +33029,7 @@ species {
 }
 species {
   id: SPECIES_TYPHLOSION_HISUIAN_MEGA
+  region_prefix: HISUI
   form_of: SPECIES_TYPHLOSION
   type: TYPE_FIRE
   type2: TYPE_GHOST
@@ -33680,9 +33213,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -33814,9 +33344,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -33962,9 +33489,6 @@ species {
         frame {
           image: 0
           duration: 40
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -34179,9 +33703,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -34307,9 +33828,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -34485,9 +34003,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -34630,9 +34145,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -34763,9 +34275,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -34909,9 +34418,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -35178,9 +34684,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -35315,9 +34818,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -35462,9 +34962,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -35482,9 +34979,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -35628,9 +35122,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -35648,9 +35139,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -35850,9 +35338,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -35870,9 +35355,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -36032,9 +35514,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -36052,9 +35531,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -36217,9 +35693,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -36238,9 +35711,6 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -36248,6 +35718,7 @@ species {
 species {
   id: SPECIES_RAICHU_ALOLAN
   form_of: SPECIES_RAICHU
+  region_prefix: ALOLA
   type: TYPE_ELECTRIC
   type2: TYPE_PSYCHIC
   hp: 60
@@ -37815,9 +37286,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -37970,9 +37438,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -38138,15 +37603,13 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_CLEFFA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CLEFFA
   type: TYPE_ROCK
   hp: 50
@@ -38235,6 +37698,7 @@ species {
 }
 species {
   id: SPECIES_CLEFAIRY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CLEFAIRY
   type: TYPE_ROCK
   hp: 70
@@ -38330,6 +37794,7 @@ species {
 }
 species {
   id: SPECIES_CLEFABLE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CLEFABLE
   type: TYPE_ROCK
   hp: 95
@@ -38438,6 +37903,7 @@ species {
 }
 species {
   id: SPECIES_CLEFABLE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_CLEFABLE
   type: TYPE_ROCK
   hp: 95
@@ -38638,9 +38104,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -38658,9 +38121,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -38790,9 +38250,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -38936,9 +38393,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -39110,9 +38564,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -39130,9 +38581,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -39312,9 +38760,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -39332,9 +38777,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -39476,9 +38918,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -39622,9 +39061,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -39765,9 +39201,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -40136,9 +39569,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -40275,9 +39705,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -40423,9 +39850,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -40577,9 +40001,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -40743,9 +40164,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -40895,9 +40313,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -41062,9 +40477,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -41231,9 +40643,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -41365,9 +40774,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -41506,9 +40912,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -41645,9 +41048,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -41775,9 +41175,6 @@ species {
         frame {
           image: 1
           duration: 2
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -41921,9 +41318,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -42060,9 +41454,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -42114,6 +41505,7 @@ species {
 }
 species {
   id: SPECIES_WOOPER_PALDEAN
+  region_prefix: PALDEA
   form_of: SPECIES_WOOPER
   type: TYPE_POISON
   type2: TYPE_GROUND
@@ -42337,9 +41729,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -42488,9 +41877,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -42665,9 +42051,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -42759,9 +42142,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -42861,9 +42241,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -42921,9 +42298,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -42983,9 +42357,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43043,9 +42414,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43105,9 +42473,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43165,9 +42530,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43227,9 +42589,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43287,9 +42646,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43349,9 +42705,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43409,9 +42762,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43471,9 +42821,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43530,9 +42877,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43592,9 +42936,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43651,9 +42992,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43713,9 +43051,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43773,9 +43108,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -43835,9 +43167,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43896,9 +43225,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -43956,9 +43282,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -44015,9 +43338,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44077,9 +43397,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -44136,9 +43453,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44197,9 +43511,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -44256,9 +43567,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44318,9 +43626,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -44377,9 +43682,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44438,9 +43740,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44533,9 +43832,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -44557,9 +43853,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44695,9 +43988,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -44715,9 +44005,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -44863,9 +44150,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -45000,9 +44284,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -45148,9 +44429,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -45468,9 +44746,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -45620,15 +44895,13 @@ species {
           image: 0
           duration: 40
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_GLIGAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GLIGAR
   type: TYPE_POISON
   type2: TYPE_FIRE
@@ -45731,6 +45004,7 @@ species {
 }
 species {
   id: SPECIES_GLISCOR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GLISCOR
   type: TYPE_POISON
   type2: TYPE_FIRE
@@ -45976,9 +45250,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -46119,9 +45390,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -46315,15 +45583,13 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_QWILFISH_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_QWILFISH
   type: TYPE_DARK
   type2: TYPE_POISON
@@ -46562,9 +45828,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -46755,9 +46018,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -46947,9 +46207,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -47080,15 +46337,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_WEAVILE_REDUX
+  region_prefix: REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_WEAVILE
   type: TYPE_GROUND
@@ -47193,6 +46448,7 @@ species {
 }
 species {
   id: SPECIES_WEAVILE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_WEAVILE
   type: TYPE_GROUND
   type2: TYPE_DARK
@@ -47235,6 +46491,7 @@ species {
 }
 species {
   id: SPECIES_SNEASEL_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_SNEASEL
   type: TYPE_POISON
   type2: TYPE_FIGHTING
@@ -47457,9 +46714,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -47584,9 +46838,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -48002,9 +47253,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -48022,9 +47270,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -48166,9 +47411,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -48186,9 +47428,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -48313,6 +47552,7 @@ species {
 }
 species {
   id: SPECIES_SLUGMA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SLUGMA
   type: TYPE_GRASS
   hp: 50
@@ -48421,6 +47661,7 @@ species {
 }
 species {
   id: SPECIES_MAGCARGO_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MAGCARGO
   type: TYPE_GRASS
   type2: TYPE_ROCK
@@ -48532,6 +47773,7 @@ species {
 }
 species {
   id: SPECIES_ESCARGINITE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ESCARGINITE
   type: TYPE_GRASS
   type2: TYPE_ROCK
@@ -48773,9 +48015,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -48914,9 +48153,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -49071,9 +48307,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -49092,15 +48325,13 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_CORSOLA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_CORSOLA
   type: TYPE_GHOST
   hp: 60
@@ -49325,9 +48556,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -49471,9 +48699,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -49606,9 +48831,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -49756,9 +48978,6 @@ species {
           image: 0
           duration: 40
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -49887,9 +49106,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -49941,6 +49157,7 @@ species {
 }
 species {
   id: SPECIES_SKARMORY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SKARMORY
   type: TYPE_STEEL
   type2: TYPE_FIRE
@@ -50052,6 +49269,7 @@ species {
 }
 species {
   id: SPECIES_SKARMORY_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SKARMORY
   type: TYPE_STEEL
   type2: TYPE_FIRE
@@ -50231,9 +49449,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -50375,9 +49590,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -50424,6 +49636,7 @@ species {
 }
 species {
   id: SPECIES_HOUNDOUR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HOUNDOUR
   type: TYPE_GHOST
   hp: 45
@@ -50516,6 +49729,7 @@ species {
 }
 species {
   id: SPECIES_HOUNDOOM_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HOUNDOOM
   type: TYPE_GHOST
   hp: 75
@@ -50618,6 +49832,7 @@ species {
 }
 species {
   id: SPECIES_HOUNDOOM_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HOUNDOOM
   type: TYPE_GHOST
   hp: 75
@@ -50802,9 +50017,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -50822,9 +50034,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -50961,9 +50170,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -51117,9 +50323,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -51254,9 +50457,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -51634,9 +50834,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -51761,9 +50958,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -51896,9 +51090,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -52056,9 +51247,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -52231,9 +51419,6 @@ species {
         frame {
           image: 0
           duration: 4
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -52640,9 +51825,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -52781,9 +51963,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -52917,9 +52096,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -53039,9 +52215,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -53182,9 +52355,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -53321,9 +52491,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -53468,9 +52635,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -53617,9 +52781,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -53755,9 +52916,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -53903,9 +53061,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -53953,6 +53108,7 @@ species {
 }
 species {
   id: SPECIES_LARVITAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_LARVITAR
   type: TYPE_ROCK
   type2: TYPE_FIRE
@@ -54047,6 +53203,7 @@ species {
 }
 species {
   id: SPECIES_PUPITAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PUPITAR
   type: TYPE_ROCK
   type2: TYPE_FIRE
@@ -54151,6 +53308,7 @@ species {
 }
 species {
   id: SPECIES_TYRANITAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TYRANITAR
   type: TYPE_ROCK
   type2: TYPE_FIRE
@@ -54265,6 +53423,7 @@ species {
 }
 species {
   id: SPECIES_TYRANITAR_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TYRANITAR
   type: TYPE_ROCK
   type2: TYPE_FIRE
@@ -54490,9 +53649,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -54643,9 +53799,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -54810,9 +53963,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -54952,9 +54102,6 @@ species {
         frame {
           image: 0
           duration: 3
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -55110,9 +54257,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -55260,9 +54404,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -55448,9 +54589,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -55594,9 +54732,6 @@ species {
         frame {
           image: 0
           duration: 12
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -55749,9 +54884,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -55766,9 +54898,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -55779,17 +54908,11 @@ species {
           image: 2
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -55969,9 +55092,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -56134,9 +55254,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -56288,9 +55405,6 @@ species {
         frame {
           image: 0
           duration: 7
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -56467,9 +55581,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -56615,9 +55726,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -56755,9 +55863,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -56894,15 +55999,13 @@ species {
           image: 0
           duration: 14
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_ZIGZAGOON_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_ZIGZAGOON
   type: TYPE_DARK
   type2: TYPE_NORMAL
@@ -57000,6 +56103,7 @@ species {
 }
 species {
   id: SPECIES_LINOONE_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_LINOONE
   type: TYPE_DARK
   type2: TYPE_NORMAL
@@ -57181,9 +56285,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -57284,17 +56385,11 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -57426,17 +56521,11 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -57595,17 +56684,11 @@ species {
           image: 0
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -57792,17 +56875,11 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -57935,9 +57012,6 @@ species {
         frame {
           image: 0
           duration: 22
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -58089,9 +57163,6 @@ species {
         frame {
           image: 0
           duration: 7
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -58257,9 +57328,6 @@ species {
           image: 0
           duration: 22
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -58403,9 +57471,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -58575,9 +57640,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -58734,9 +57796,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -58905,9 +57964,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -59049,9 +58105,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -59181,9 +58234,6 @@ species {
         frame {
           image: 0
           duration: 13
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -59344,9 +58394,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -59485,9 +58532,6 @@ species {
         frame {
           image: 0
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -59631,9 +58675,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -59790,9 +58831,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -59958,9 +58996,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -60187,17 +59222,11 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -60364,17 +59393,11 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
           image: 1
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -60530,9 +59553,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -60687,9 +59707,6 @@ species {
         frame {
           image: 0
           duration: 7
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -60855,9 +59872,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -61001,9 +60015,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -61159,9 +60170,6 @@ species {
         frame {
           image: 0
           duration: 22
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -61376,9 +60384,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -61532,9 +60537,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -61712,9 +60714,6 @@ species {
           image: 1
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -61870,9 +60869,6 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -62007,9 +61003,6 @@ species {
         frame {
           image: 0
           duration: 33
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -62148,15 +61141,13 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_WHISMUR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_WHISMUR
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
@@ -62257,6 +61248,7 @@ species {
 }
 species {
   id: SPECIES_LOUDRED_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_LOUDRED
   type: TYPE_GHOST
   type2: TYPE_ELECTRIC
@@ -62361,6 +61353,7 @@ species {
 }
 species {
   id: SPECIES_EXPLOUD_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_EXPLOUD
   type: TYPE_ELECTRIC
   type2: TYPE_GHOST
@@ -62627,9 +61620,6 @@ species {
           image: 0
           duration: 22
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -62779,9 +61769,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -62924,9 +61911,6 @@ species {
         frame {
           image: 0
           duration: 12
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -63098,9 +62082,6 @@ species {
           image: 0
           duration: 3
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -63244,9 +62225,6 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -63388,9 +62366,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -63564,9 +62539,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -63616,6 +62588,7 @@ species {
 }
 species {
   id: SPECIES_SABLEYE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SABLEYE
   type: TYPE_STEEL
   type2: TYPE_FAIRY
@@ -63736,6 +62709,7 @@ species {
 }
 species {
   id: SPECIES_SABLEYE_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SABLEYE
   type: TYPE_STEEL
   type2: TYPE_FAIRY
@@ -63942,9 +62916,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -63994,6 +62965,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MAWILE
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -64108,6 +63080,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MAWILE
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -64151,6 +63124,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_REDUX_B
+  region_prefix: REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_MAWILE
   type: TYPE_GRASS
@@ -64304,6 +63278,7 @@ species {
 }
 species {
   id: SPECIES_MAWILE_REDUX_B_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_MAWILE
   type: TYPE_GRASS
   type2: TYPE_POISON
@@ -64504,9 +63479,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -64669,9 +63641,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -64828,9 +63797,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -65013,9 +63979,6 @@ species {
           image: 0
           duration: 22
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -65171,9 +64134,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -65374,9 +64334,6 @@ species {
           image: 0
           duration: 3
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -65529,9 +64486,6 @@ species {
         frame {
           image: 0
           duration: 3
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -65732,9 +64686,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -65893,9 +64844,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -66045,9 +64993,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -66188,9 +65133,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -66342,9 +65284,6 @@ species {
           image: 0
           duration: 22
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -66491,9 +65430,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -66692,9 +65628,6 @@ species {
           image: 0
           duration: 4
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -66839,9 +65772,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -67041,9 +65971,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -67197,9 +66124,6 @@ species {
         frame {
           image: 0
           duration: 22
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -67397,9 +66321,6 @@ species {
           image: 0
           duration: 22
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -67534,9 +66455,6 @@ species {
         frame {
           image: 0
           duration: 33
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -67685,9 +66603,6 @@ species {
         frame {
           image: 0
           duration: 40
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -67847,9 +66762,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -68041,9 +66953,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -68216,9 +67125,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -68376,9 +67282,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -68650,9 +67553,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -68826,9 +67726,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -69008,15 +67905,13 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_FLYGON_REDUX_B
+  region_prefix: REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_FLYGON
   type: TYPE_ELECTRIC
@@ -69126,6 +68021,7 @@ species {
 }
 species {
   id: SPECIES_FLYGON_REDUX_B_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_FLYGON
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -69213,6 +68109,7 @@ species {
 }
 species {
   id: SPECIES_TRAPINCH_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TRAPINCH
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -69311,6 +68208,7 @@ species {
 }
 species {
   id: SPECIES_VIBRAVA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_VIBRAVA
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -69420,6 +68318,7 @@ species {
 }
 species {
   id: SPECIES_FLYGON_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_FLYGON
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -69527,6 +68426,7 @@ species {
 }
 species {
   id: SPECIES_FLYGON_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_FLYGON
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -69743,9 +68643,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -69901,9 +68798,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -70061,9 +68955,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -70089,9 +68980,6 @@ species {
         frame {
           image: 2
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -70249,9 +69137,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -70269,9 +69154,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -70462,9 +69344,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -70622,9 +69501,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -70785,9 +69661,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -70805,9 +69678,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -70966,9 +69836,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -70986,9 +69853,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -71345,9 +70209,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -71542,9 +70403,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -71715,9 +70573,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -71881,9 +70736,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -72059,9 +70911,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -72243,9 +71092,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -72392,9 +71238,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -72557,9 +71400,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -72713,9 +71553,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -72863,9 +71700,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -72985,9 +71819,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -73146,9 +71977,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -73665,9 +72493,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -73840,9 +72665,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -74012,9 +72834,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -74210,9 +73029,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -74373,9 +73189,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -74529,9 +73342,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -74718,9 +73528,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -74888,9 +73695,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -75028,9 +73832,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -75195,9 +73996,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -75359,9 +74157,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -75527,9 +74322,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -75619,6 +74411,7 @@ species {
 }
 species {
   id: SPECIES_SNORUNT_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SNORUNT
   type: TYPE_DARK
   hp: 65
@@ -75737,6 +74530,7 @@ species {
 }
 species {
   id: SPECIES_GLALIE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GLALIE
   type: TYPE_DARK
   type2: TYPE_FIGHTING
@@ -75863,6 +74657,7 @@ species {
 }
 species {
   id: SPECIES_FROSLASS_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_FROSLASS
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -75992,6 +74787,7 @@ species {
 }
 species {
   id: SPECIES_GLALIE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_GLALIE
   type: TYPE_DARK
   type2: TYPE_FIGHTING
@@ -76035,6 +74831,7 @@ species {
 }
 species {
   id: SPECIES_FROSLASS_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_FROSLASS
   type: TYPE_DARK
   type2: TYPE_GHOST
@@ -76240,9 +75037,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -76400,9 +75194,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -76557,9 +75348,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -76672,9 +75460,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -76825,9 +75610,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -76977,9 +75759,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -77122,9 +75901,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -77310,9 +76086,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -77453,9 +76226,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -77601,9 +76371,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -77761,9 +76528,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -77903,9 +76667,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -78068,9 +76829,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -78232,9 +76990,6 @@ species {
         frame {
           image: 0
           duration: 16
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -78431,9 +77186,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -78451,9 +77203,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -78609,9 +77358,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -78774,9 +77520,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -78794,9 +77537,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -78954,9 +77694,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -78974,9 +77711,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -79175,9 +77909,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -79195,9 +77926,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -79393,9 +78121,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -79413,9 +78138,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -79613,9 +78335,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -79633,9 +78352,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -79838,9 +78554,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -79858,9 +78571,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80077,9 +78787,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -80097,9 +78804,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80271,9 +78975,6 @@ species {
           image: 0
           duration: 16
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -80291,9 +78992,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80360,9 +79058,6 @@ species {
           image: 0
           duration: 16
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -80380,9 +79075,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80449,9 +79141,6 @@ species {
           image: 0
           duration: 16
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -80469,9 +79158,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80537,9 +79223,6 @@ species {
           image: 0
           duration: 16
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -80557,9 +79240,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80701,9 +79381,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -80850,9 +79527,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -81008,9 +79682,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -81064,6 +79735,7 @@ species {
 }
 species {
   id: SPECIES_TURTWIG_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TURTWIG
   type: TYPE_FLYING
   type2: TYPE_FAIRY
@@ -81158,6 +79830,7 @@ species {
 }
 species {
   id: SPECIES_GROTLE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GROTLE
   type: TYPE_FLYING
   type2: TYPE_FAIRY
@@ -81254,6 +79927,7 @@ species {
 }
 species {
   id: SPECIES_TORTERRA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TORTERRA
   type: TYPE_FLYING
   type2: TYPE_FAIRY
@@ -81366,6 +80040,7 @@ species {
 }
 species {
   id: SPECIES_TORTERRA_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_TORTERRA
   type: TYPE_FLYING
   type2: TYPE_ELECTRIC
@@ -81558,9 +80233,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -81713,9 +80385,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -81863,9 +80532,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -81917,6 +80583,7 @@ species {
 }
 species {
   id: SPECIES_INFERNAPE_REDUX_B
+  region_prefix: REDUX
   form_of: SPECIES_INFERNAPE
   learnset {
     level {
@@ -81990,6 +80657,7 @@ species {
 }
 species {
   id: SPECIES_CHIMCHAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CHIMCHAR
   type: TYPE_WATER
   hp: 44
@@ -82079,6 +80747,7 @@ species {
 }
 species {
   id: SPECIES_MONFERNO_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MONFERNO
   type: TYPE_WATER
   type2: TYPE_FIGHTING
@@ -82184,6 +80853,7 @@ species {
 }
 species {
   id: SPECIES_INFERNAPE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_INFERNAPE
   type: TYPE_WATER
   type2: TYPE_FIGHTING
@@ -82292,6 +80962,7 @@ species {
 }
 species {
   id: SPECIES_INFERNAPE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_INFERNAPE
   type: TYPE_WATER
   type2: TYPE_FIGHTING
@@ -82463,9 +81134,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -82629,9 +81297,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -82781,9 +81446,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -82834,6 +81496,7 @@ species {
 }
 species {
   id: SPECIES_PIPLUP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PIPLUP
   type: TYPE_FIRE
   type2: TYPE_ICE
@@ -82943,6 +81606,7 @@ species {
 }
 species {
   id: SPECIES_PRINPLUP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PRINPLUP
   type: TYPE_FIRE
   type2: TYPE_ICE
@@ -83052,6 +81716,7 @@ species {
 }
 species {
   id: SPECIES_EMPOLEON_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_EMPOLEON
   type: TYPE_FIRE
   type2: TYPE_ICE
@@ -83160,6 +81825,7 @@ species {
 }
 species {
   id: SPECIES_EMPOLEON_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_EMPOLEON
   type: TYPE_FIRE
   type2: TYPE_ICE
@@ -83335,9 +82001,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -83461,9 +82124,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -83594,9 +82254,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -83746,9 +82403,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -83897,9 +82551,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -83917,9 +82568,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -84093,9 +82741,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -84248,9 +82893,6 @@ species {
           image: 0
           duration: 3
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -84380,9 +83022,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -84508,9 +83147,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -84653,9 +83289,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -84673,9 +83306,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -84727,6 +83357,7 @@ species {
 }
 species {
   id: SPECIES_LUXRAY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_LUXRAY
   type: TYPE_ELECTRIC
   type2: TYPE_ICE
@@ -84957,9 +83588,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -85072,9 +83700,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -85198,9 +83823,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -85333,9 +83955,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -85477,9 +84096,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -85499,6 +84115,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
+  long_name: "Burmy Plant"
   type: TYPE_BUG
   hp: 55
   atk: 29
@@ -85567,9 +84184,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -85589,6 +84203,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
+  long_name: "Wormadam Plant"
   type: TYPE_BUG
   type2: TYPE_GRASS
   hp: 84
@@ -85707,9 +84322,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -85717,6 +84329,7 @@ species {
 species {
   id: SPECIES_BURMY_SANDY_CLOAK
   form_of: SPECIES_BURMY
+  long_name: "Burmy Sandy"
   type: TYPE_BUG
   hp: 55
   atk: 29
@@ -85769,6 +84382,7 @@ species {
 species {
   id: SPECIES_WORMADAM_SANDY_CLOAK
   form_of: SPECIES_WORMADAM
+  long_name: "Wormadam Sandy"
   type: TYPE_BUG
   type2: TYPE_GROUND
   hp: 84
@@ -85889,6 +84503,7 @@ species {
 species {
   id: SPECIES_BURMY_TRASH_CLOAK
   form_of: SPECIES_BURMY
+  long_name: "Burmy Trash"
   type: TYPE_BUG
   hp: 55
   atk: 29
@@ -85939,6 +84554,7 @@ species {
 species {
   id: SPECIES_WORMADAM_TRASH_CLOAK
   form_of: SPECIES_WORMADAM
+  long_name: "Wormadam Trash"
   type: TYPE_BUG
   type2: TYPE_STEEL
   hp: 84
@@ -86276,9 +84892,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -86389,9 +85002,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -86556,9 +85166,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -86707,9 +85314,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -86849,9 +85453,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -87006,15 +85607,13 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_BUIZEL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BUIZEL
   type: TYPE_FLYING
   hp: 50
@@ -87106,6 +85705,7 @@ species {
 }
 species {
   id: SPECIES_FLOATZEL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_FLOATZEL
   type: TYPE_FLYING
   hp: 80
@@ -87354,9 +85954,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -87506,9 +86103,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -87526,9 +86120,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -87614,9 +86205,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -87637,6 +86225,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
+  long_name: "Shellos West"
   type: TYPE_WATER
   hp: 76
   atk: 48
@@ -87760,9 +86349,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -87783,6 +86369,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
+  long_name: "Gastrodon West"
   type: TYPE_WATER
   type2: TYPE_GROUND
   hp: 111
@@ -87914,9 +86501,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -87924,6 +86508,7 @@ species {
 species {
   id: SPECIES_SHELLOS_EAST_SEA
   form_of: SPECIES_SHELLOS
+  long_name: "Shellos East"
   type: TYPE_WATER
   hp: 76
   atk: 48
@@ -87969,6 +86554,7 @@ species {
 species {
   id: SPECIES_GASTRODON_EAST_SEA
   form_of: SPECIES_GASTRODON
+  long_name: "Gastrodon East"
   type: TYPE_WATER
   type2: TYPE_GROUND
   hp: 111
@@ -88141,9 +86727,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -88291,9 +86874,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -88458,9 +87038,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -88587,9 +87164,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -88725,9 +87299,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -88948,9 +87519,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -89109,9 +87677,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -89235,9 +87800,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -89383,9 +87945,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -89565,9 +88124,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -89705,9 +88261,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -89836,9 +88389,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -90008,9 +88558,6 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -90164,9 +88711,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -90184,9 +88728,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -90326,9 +88867,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -90488,9 +89026,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -90658,15 +89193,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_MR_MIME_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_MR_MIME
   type: TYPE_ICE
   type2: TYPE_PSYCHIC
@@ -90919,9 +89452,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -91049,9 +89579,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -91188,15 +89715,13 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_HAPPINY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HAPPINY
   type: TYPE_FIGHTING
   hp: 15
@@ -91270,6 +89795,7 @@ species {
 }
 species {
   id: SPECIES_CHANSEY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CHANSEY
   type: TYPE_FIGHTING
   hp: 35
@@ -91353,6 +89879,7 @@ species {
 }
 species {
   id: SPECIES_BLISSEY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BLISSEY
   type: TYPE_FIGHTING
   hp: 45
@@ -91623,9 +90150,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -91765,15 +90289,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_SPIRITOMB_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SPIRITOMB
   type: TYPE_GHOST
   type2: TYPE_POISON
@@ -92011,9 +90533,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -92156,9 +90675,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -92322,9 +90838,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -92373,6 +90886,7 @@ species {
 }
 species {
   id: SPECIES_GIBLE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GIBLE
   type: TYPE_WATER
   type2: TYPE_GHOST
@@ -92485,6 +90999,7 @@ species {
 }
 species {
   id: SPECIES_GABITE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GABITE
   type: TYPE_WATER
   type2: TYPE_GHOST
@@ -92597,6 +91112,7 @@ species {
 }
 species {
   id: SPECIES_GARCHOMP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GARCHOMP
   type: TYPE_WATER
   type2: TYPE_GHOST
@@ -92714,6 +91230,7 @@ species {
 }
 species {
   id: SPECIES_GARCHOMP_MEGA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_GARCHOMP
   type: TYPE_GHOST
   type2: TYPE_WATER
@@ -92889,9 +91406,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -93044,9 +91558,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -93278,9 +91789,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -93436,9 +91944,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -93653,9 +92158,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -93778,9 +92280,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -93968,9 +92467,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -94131,9 +92627,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -94280,9 +92773,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -94432,9 +92922,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -94602,9 +93089,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -94753,9 +93237,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -94901,9 +93382,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -95042,9 +93520,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -95193,9 +93668,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -95348,9 +93820,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -95600,9 +94069,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -95768,9 +94234,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -95920,9 +94383,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -96065,9 +94525,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -96199,9 +94656,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -96370,9 +94824,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -96501,9 +94952,6 @@ species {
         frame {
           image: 1
           duration: 3
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -96636,9 +95084,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -96766,9 +95211,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -96904,9 +95346,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97054,9 +95493,6 @@ species {
         frame {
           image: 0
           duration: 40
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97223,9 +95659,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -97243,9 +95676,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97433,9 +95863,6 @@ species {
           image: 0
           duration: 9
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -97582,9 +96009,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -97602,9 +96026,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97663,9 +96084,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97727,9 +96145,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -97785,9 +96200,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97847,9 +96259,6 @@ species {
         frame {
           image: 1
           duration: 3
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -97917,9 +96326,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -98073,15 +96479,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_UXIE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_UXIE
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -98362,15 +96766,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_MESPRIT_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_MESPRIT
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -98632,15 +97034,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_AZELF_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_AZELF
   type: TYPE_DARK
   type2: TYPE_FAIRY
@@ -98888,9 +97288,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -99086,9 +97483,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -99280,9 +97674,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -99422,9 +97813,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -99580,9 +97968,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -99653,9 +98038,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -99673,9 +98055,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -99847,9 +98226,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -99982,9 +98358,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -100123,9 +98496,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -100271,9 +98641,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -100456,9 +98823,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -100518,9 +98882,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -100876,9 +99237,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -101397,9 +99755,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -101582,9 +99937,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -101742,9 +100094,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -101900,9 +100249,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -101920,9 +100266,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -102105,9 +100448,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -102250,9 +100590,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -102397,9 +100734,6 @@ species {
         frame {
           image: 1
           duration: 4
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -102586,9 +100920,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -102732,9 +101063,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -102877,15 +101205,13 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_SAMUROTT_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_SAMUROTT
   type: TYPE_WATER
   type2: TYPE_DARK
@@ -103000,6 +101326,7 @@ species {
 }
 species {
   id: SPECIES_SAMUROTT_HISUIAN_MEGA
+  region_prefix: HISUI
   form_of: SPECIES_SAMUROTT
   type: TYPE_WATER
   type2: TYPE_DARK
@@ -103182,9 +101509,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -103354,9 +101678,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -103494,9 +101815,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -103630,9 +101948,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -103760,9 +102075,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -103893,9 +102205,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -104022,9 +102331,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -104171,9 +102477,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -104318,15 +102621,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_PANSAGE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PANSAGE
   type: TYPE_FIGHTING
   hp: 44
@@ -104421,6 +102722,7 @@ species {
 }
 species {
   id: SPECIES_SIMISAGE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SIMISAGE
   type: TYPE_FIGHTING
   hp: 75
@@ -104655,9 +102957,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -104808,9 +103107,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -104829,15 +103125,13 @@ species {
           image: 2
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_PANSEAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PANSEAR
   type: TYPE_DARK
   hp: 50
@@ -104931,6 +103225,7 @@ species {
 }
 species {
   id: SPECIES_SIMISEAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SIMISEAR
   type: TYPE_DARK
   hp: 80
@@ -105170,9 +103465,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -105312,15 +103604,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_PANPOUR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PANPOUR
   type: TYPE_PSYCHIC
   hp: 50
@@ -105413,6 +103703,7 @@ species {
 }
 species {
   id: SPECIES_SIMIPOUR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SIMIPOUR
   type: TYPE_PSYCHIC
   hp: 110
@@ -105670,9 +103961,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -105818,9 +104106,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -105838,9 +104123,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -105971,9 +104253,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -106110,9 +104389,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -106254,9 +104530,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -106397,9 +104670,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -106524,9 +104794,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -106655,9 +104922,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -106799,9 +105063,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -106935,9 +105196,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -107064,9 +105322,6 @@ species {
         frame {
           image: 1
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -107219,9 +105474,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -107356,9 +105608,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -107376,9 +105625,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -107518,9 +105764,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -107664,9 +105907,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -107847,9 +106087,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -108003,9 +106240,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -108138,9 +106372,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -108280,9 +106511,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -108434,9 +106662,6 @@ species {
         frame {
           image: 0
           duration: 7
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -108597,9 +106822,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -108745,9 +106967,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -108883,9 +107102,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -108984,9 +107200,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -109004,9 +107217,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -109138,9 +107348,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -109276,9 +107483,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -109416,9 +107620,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -109551,9 +107752,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -109668,9 +107866,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -109840,9 +108035,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -109994,9 +108186,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -110135,9 +108324,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -110281,15 +108467,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_LILLIGANT_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_LILLIGANT
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
@@ -110543,9 +108727,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -110791,6 +108972,7 @@ species {
 species {
   id: SPECIES_BASCULIN_WHITESTRIPED
   form_of: SPECIES_BASCULIN
+  long_name: "Basculin White"
   type: TYPE_WATER
   hp: 70
   atk: 80
@@ -110839,6 +109021,7 @@ species {
 species {
   id: SPECIES_BASCULIN_BLUE_STRIPED
   form_of: SPECIES_BASCULIN
+  long_name: "Basculin Blue"
   type: TYPE_WATER
   hp: 70
   atk: 92
@@ -111017,9 +109200,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -111151,9 +109331,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -111297,9 +109474,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -111317,9 +109491,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -111507,9 +109678,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -111683,9 +109851,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -111741,15 +109906,13 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_DARUMAKA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_DARUMAKA
   type: TYPE_ICE
   hp: 70
@@ -111858,6 +110021,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_DARMANITAN
   type: TYPE_ICE
   hp: 105
@@ -111964,7 +110128,9 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_ZEN_MODE_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_DARMANITAN
+  long_name: "Darmanitan Zen"
   type: TYPE_ICE
   type2: TYPE_FIRE
   hp: 105
@@ -112005,6 +110171,7 @@ species {
 }
 species {
   id: SPECIES_DARUMAKA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DARUMAKA
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
@@ -112108,6 +110275,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
@@ -112226,6 +110394,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX_AURA
+  region_prefix: REDUX
   form_of: SPECIES_DARMANITAN
   long_name: "Darmanitan Aura"
   type: TYPE_ROCK
@@ -112268,6 +110437,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX_BOND
+  region_prefix: REDUX
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
@@ -112289,6 +110459,7 @@ species {
 }
 species {
   id: SPECIES_DARMANITAN_REDUX_BLUNDER
+  region_prefix: REDUX
   randomizer_banned: IN_BATTLE
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
@@ -112488,9 +110659,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -112643,9 +110811,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -112784,9 +110949,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -112938,9 +111100,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -113097,9 +111256,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -113305,9 +111461,6 @@ species {
           image: 0
           duration: 7
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -113453,15 +111606,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_YAMASK_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_YAMASK
   type: TYPE_GROUND
   type2: TYPE_GHOST
@@ -113712,9 +111863,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -113853,9 +112001,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -114022,9 +112167,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -114161,9 +112303,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -114327,9 +112466,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -114459,9 +112595,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -114610,9 +112743,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -114797,9 +112927,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -114944,15 +113071,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_ZORUA_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_ZORUA
   type: TYPE_NORMAL
   type2: TYPE_GHOST
@@ -115055,6 +113180,7 @@ species {
 }
 species {
   id: SPECIES_ZOROARK_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_ZOROARK
   type: TYPE_NORMAL
   type2: TYPE_GHOST
@@ -115278,9 +113404,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -115406,9 +113529,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -115567,9 +113687,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -115734,9 +113851,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -115754,9 +113868,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -115918,9 +114029,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -116058,9 +114166,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -116195,9 +114300,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -116355,9 +114457,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -116421,6 +114520,7 @@ species {
 }
 species {
   id: SPECIES_SOLOSIS_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SOLOSIS
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -116505,6 +114605,7 @@ species {
 }
 species {
   id: SPECIES_DUOSION_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DUOSION
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -116597,6 +114698,7 @@ species {
 }
 species {
   id: SPECIES_REUNICLUS_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_REUNICLUS
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -116695,6 +114797,7 @@ species {
 }
 species {
   id: SPECIES_REUNICLUS_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_REUNICLUS
   type: TYPE_FIRE
   type2: TYPE_WATER
@@ -116886,9 +114989,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -117032,9 +115132,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -117170,9 +115267,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -117304,9 +115398,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -117446,9 +115537,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -117566,9 +115654,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -117701,9 +115786,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -118049,9 +116131,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -118169,9 +116248,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -118305,9 +116381,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -118445,9 +116518,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -118465,9 +116535,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -118615,9 +116682,6 @@ species {
         frame {
           image: 0
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -118771,9 +116835,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -118926,9 +116987,6 @@ species {
         frame {
           image: 0
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -119107,9 +117165,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -119249,9 +117304,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -119416,9 +117468,6 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -119564,9 +117613,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -119716,9 +117762,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -119736,9 +117779,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -119863,9 +117903,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -120001,9 +118038,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -120137,9 +118171,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -120309,9 +118340,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -120463,9 +118491,6 @@ species {
         frame {
           image: 0
           duration: 4
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -120629,9 +118654,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -120805,9 +118827,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -120953,9 +118972,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -121096,9 +119112,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -121237,9 +119250,6 @@ species {
           image: 0
           duration: 25
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -121374,9 +119384,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -121500,9 +119507,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -121630,9 +119634,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -121768,9 +119769,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -121954,9 +119952,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -122103,9 +120098,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -122480,9 +120472,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -122500,9 +120489,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -122646,9 +120632,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -122796,9 +120779,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -122936,15 +120916,13 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_STUNFISK_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_STUNFISK
   type: TYPE_GROUND
   type2: TYPE_STEEL
@@ -123181,9 +121159,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -123346,9 +121321,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -123553,9 +121525,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -123695,9 +121664,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -123842,9 +121808,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -123985,9 +121948,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -124110,9 +122070,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -124223,6 +122180,7 @@ species {
 }
 species {
   id: SPECIES_PAWNIARD_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_PAWNIARD
   type: TYPE_FIGHTING
   type2: TYPE_STEEL
@@ -124314,6 +122272,7 @@ species {
 }
 species {
   id: SPECIES_BISHARP_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BISHARP
   type: TYPE_FIGHTING
   type2: TYPE_STEEL
@@ -124408,6 +122367,7 @@ species {
 }
 species {
   id: SPECIES_KINGAMBIT_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_KINGAMBIT
   type: TYPE_FIGHTING
   type2: TYPE_STEEL
@@ -124508,6 +122468,7 @@ species {
 }
 species {
   id: SPECIES_KINGAMBIT_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_KINGAMBIT
   type: TYPE_FIGHTING
   type2: TYPE_STEEL
@@ -124678,9 +122639,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -124813,9 +122771,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -124950,15 +122905,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_BRAVIARY_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_BRAVIARY
   type: TYPE_PSYCHIC
   type2: TYPE_FLYING
@@ -125207,9 +123160,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -125349,9 +123299,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -125490,9 +123437,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -125675,9 +123619,6 @@ species {
           image: 0
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -125806,9 +123747,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -125935,9 +123873,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -126106,15 +124041,13 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_DEINO_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DEINO
   type: TYPE_FAIRY
   type2: TYPE_DRAGON
@@ -126219,6 +124152,7 @@ species {
 }
 species {
   id: SPECIES_ZWEILOUS_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ZWEILOUS
   type: TYPE_FAIRY
   type2: TYPE_DRAGON
@@ -126328,6 +124262,7 @@ species {
 }
 species {
   id: SPECIES_HYDREIGON_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HYDREIGON
   type: TYPE_FAIRY
   type2: TYPE_DRAGON
@@ -126449,6 +124384,7 @@ species {
 }
 species {
   id: SPECIES_HYDREIGON_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_HYDREIGON
   type: TYPE_FAIRY
   type2: TYPE_DRAGON
@@ -126641,9 +124577,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -126786,9 +124719,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -126988,9 +124918,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -127142,9 +125069,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -127162,9 +125086,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -127298,9 +125219,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -127450,9 +125368,6 @@ species {
           image: 1
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -127518,9 +125433,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -127671,9 +125583,6 @@ species {
           image: 1
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -127783,9 +125692,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -127929,9 +125835,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -128066,9 +125969,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -128218,9 +126118,6 @@ species {
           image: 1
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -128287,9 +126184,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -128450,9 +126344,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -128506,9 +126397,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -128564,9 +126452,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -128694,9 +126579,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -128755,9 +126637,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -128922,9 +126801,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -128942,9 +126818,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -129017,9 +126890,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -129191,9 +127061,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -129419,9 +127286,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -129565,9 +127429,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -129585,9 +127446,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -129733,9 +127591,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -129939,9 +127794,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -130074,9 +127926,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -130410,9 +128259,6 @@ species {
           image: 0
           duration: 11
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -130546,9 +128392,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -130690,9 +128533,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -130782,9 +128622,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -130915,9 +128752,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -131055,9 +128889,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -131184,9 +129015,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -131384,9 +129212,6 @@ species {
           image: 0
           duration: 2
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -131539,9 +129364,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -131559,9 +129381,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -131658,9 +129477,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -131759,9 +129575,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -131906,9 +129719,6 @@ species {
         frame {
           image: 0
           duration: 50
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -132832,9 +130642,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -132971,9 +130778,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -133094,9 +130898,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -133114,9 +130915,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -133257,9 +131055,6 @@ species {
         frame {
           image: 0
           duration: 11
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -133404,9 +131199,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -133424,9 +131216,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -133943,9 +131732,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -134077,9 +131863,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -134229,9 +132012,6 @@ species {
         frame {
           image: 0
           duration: 8
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -134392,9 +132172,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -134531,9 +132308,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -134541,6 +132315,7 @@ species {
 species {
   id: SPECIES_FURFROU_HEART_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Heart"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134583,6 +132358,7 @@ species {
 species {
   id: SPECIES_FURFROU_STAR_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Star"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134625,6 +132401,7 @@ species {
 species {
   id: SPECIES_FURFROU_DIAMOND_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Diamond"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134666,6 +132443,7 @@ species {
 species {
   id: SPECIES_FURFROU_DEBUTANTE_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Debutante"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134708,6 +132486,7 @@ species {
 species {
   id: SPECIES_FURFROU_MATRON_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Matron"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134750,6 +132529,7 @@ species {
 species {
   id: SPECIES_FURFROU_DANDY_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Dandy"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134792,6 +132572,7 @@ species {
 species {
   id: SPECIES_FURFROU_LA_REINE_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou La Reine"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134833,6 +132614,7 @@ species {
 species {
   id: SPECIES_FURFROU_KABUKI_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Kabuki"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -134874,6 +132656,7 @@ species {
 species {
   id: SPECIES_FURFROU_PHARAOH_TRIM
   form_of: SPECIES_FURFROU
+  long_name: "Furfrou Pharaoh"
   type: TYPE_NORMAL
   hp: 75
   atk: 80
@@ -135057,9 +132840,6 @@ species {
           image: 0
           duration: 50
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -135197,9 +132977,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -135438,9 +133215,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -135579,9 +133353,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -135599,9 +133370,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -135753,9 +133521,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -135824,15 +133589,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_HONEDGE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_HONEDGE
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -135917,6 +133680,7 @@ species {
 }
 species {
   id: SPECIES_DOUBLADE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DOUBLADE
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -136002,6 +133766,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -136102,6 +133867,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_BLADE_REDUX
+  region_prefix: REDUX
   randomizer_banned: IN_BATTLE
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
@@ -136142,6 +133908,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -136185,6 +133952,7 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_BLADE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -136359,9 +134127,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -136487,9 +134252,6 @@ species {
         frame {
           image: 0
           duration: 30
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -136630,9 +134392,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -136768,9 +134527,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -136914,9 +134670,6 @@ species {
         frame {
           image: 0
           duration: 25
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -137063,9 +134816,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -137220,9 +134970,6 @@ species {
           image: 0
           duration: 8
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -137356,9 +135103,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -137511,9 +135255,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -137659,9 +135400,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -137787,9 +135525,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -137934,15 +135669,13 @@ species {
           image: 0
           duration: 6
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_CLAWITZER_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CLAWITZER
   type: TYPE_FIRE
   type2: TYPE_ELECTRIC
@@ -138189,9 +135922,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -138332,9 +136062,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -138473,9 +136200,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -138609,9 +136333,6 @@ species {
         frame {
           image: 0
           duration: 5
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -138767,9 +136488,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -138907,9 +136625,6 @@ species {
         frame {
           image: 0
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -139165,9 +136880,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -139318,9 +137030,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -139463,9 +137172,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -139631,9 +137337,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -139770,9 +137473,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -139915,9 +137615,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -140083,15 +137780,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_SLIGGOO_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_SLIGGOO
   type: TYPE_DRAGON
   type2: TYPE_STEEL
@@ -140201,6 +137896,7 @@ species {
 }
 species {
   id: SPECIES_GOODRA_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_GOODRA
   type: TYPE_DRAGON
   type2: TYPE_STEEL
@@ -140474,9 +138170,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -140608,9 +138301,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -140765,9 +138455,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -140915,9 +138602,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -141054,9 +138738,6 @@ species {
           image: 0
           duration: 5
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -141064,6 +138745,7 @@ species {
 species {
   id: SPECIES_PUMPKABOO_SMALL
   form_of: SPECIES_PUMPKABOO
+  long_name: "Pumpkaboo Small"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 49
@@ -141148,6 +138830,7 @@ species {
 species {
   id: SPECIES_PUMPKABOO_LARGE
   form_of: SPECIES_PUMPKABOO
+  long_name: "Pumpkaboo Large"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 49
@@ -141192,6 +138875,7 @@ species {
 species {
   id: SPECIES_GOURGEIST_LARGE
   form_of: SPECIES_GOURGEIST
+  long_name: "Gourgeist Large"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 75
@@ -141232,6 +138916,7 @@ species {
 species {
   id: SPECIES_PUMPKABOO_SUPER
   form_of: SPECIES_PUMPKABOO
+  long_name: "Pumpkaboo Super"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 49
@@ -141276,6 +138961,7 @@ species {
 species {
   id: SPECIES_GOURGEIST_SUPER
   form_of: SPECIES_GOURGEIST
+  long_name: "Gourgeist Super"
   type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 85
@@ -141456,9 +139142,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
       step {
         frame {
@@ -141476,9 +139159,6 @@ species {
         frame {
           image: 2
           duration: 20
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -141620,15 +139300,13 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_AVALUGG_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_AVALUGG
   type: TYPE_ICE
   type2: TYPE_ROCK
@@ -141885,9 +139563,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -142029,15 +139704,13 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
 }
 species {
   id: SPECIES_NOIBAT_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_NOIBAT
   type: TYPE_ROCK
   type2: TYPE_GHOST
@@ -142148,6 +139821,7 @@ species {
 }
 species {
   id: SPECIES_NOIVERN_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_NOIVERN
   type: TYPE_ROCK
   type2: TYPE_GHOST
@@ -142409,9 +140083,6 @@ species {
           image: 0
           duration: 15
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -142620,9 +140291,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -142816,9 +140484,6 @@ species {
           image: 0
           duration: 30
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -142878,9 +140543,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -142987,9 +140649,6 @@ species {
         frame {
           image: 0
           duration: 15
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -143141,9 +140800,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -143367,9 +141023,6 @@ species {
           image: 0
           duration: 10
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -143423,9 +141076,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -143560,9 +141210,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -143975,6 +141622,7 @@ species {
 }
 species {
   id: SPECIES_DECIDUEYE_HISUIAN
+  region_prefix: HISUI
   form_of: SPECIES_DECIDUEYE
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
@@ -144091,6 +141739,7 @@ species {
 }
 species {
   id: SPECIES_DECIDUEYE_HISUIAN_MEGA
+  region_prefix: HISUI
   form_of: SPECIES_DECIDUEYE
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
@@ -146087,6 +143736,7 @@ species {
 }
 species {
   id: SPECIES_CRABRAWLER_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CRABRAWLER
   type: TYPE_FIGHTING
   type2: TYPE_DARK
@@ -146203,6 +143853,7 @@ species {
 }
 species {
   id: SPECIES_CRABOMINABLE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_CRABOMINABLE
   type: TYPE_FIGHTING
   type2: TYPE_DARK
@@ -146876,6 +144527,7 @@ species {
 }
 species {
   id: SPECIES_RIBOMBEE_REDUX
+  region_prefix: REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_RIBOMBEE
   type: TYPE_BUG
@@ -146981,6 +144633,7 @@ species {
 }
 species {
   id: SPECIES_RIBOMBEE_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_RIBOMBEE
   type: TYPE_BUG
   type2: TYPE_ELECTRIC
@@ -148572,6 +146225,7 @@ species {
 }
 species {
   id: SPECIES_DEWPIDER_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_DEWPIDER
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -148673,6 +146327,7 @@ species {
 }
 species {
   id: SPECIES_ARAQUANID_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_ARAQUANID
   type: TYPE_ICE
   type2: TYPE_BUG
@@ -149854,6 +147509,7 @@ species {
 }
 species {
   id: SPECIES_STUFFUL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_STUFFUL
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
@@ -149963,6 +147619,7 @@ species {
 }
 species {
   id: SPECIES_BEWEAR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BEWEAR
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
@@ -150396,6 +148053,7 @@ species {
 }
 species {
   id: SPECIES_BOUNSWEET_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_BOUNSWEET
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -150491,6 +148149,7 @@ species {
 }
 species {
   id: SPECIES_STEENEE_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_STEENEE
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -150594,6 +148253,7 @@ species {
 }
 species {
   id: SPECIES_TSAREENA_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TSAREENA
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -150704,6 +148364,7 @@ species {
 }
 species {
   id: SPECIES_TSAREENA_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_TSAREENA
   type: TYPE_PSYCHIC
   type2: TYPE_FAIRY
@@ -153018,6 +150679,7 @@ species {
     trainer_scale: 256
     pokemon_offset: 17
   }
+  long_name: "Minior Red"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153125,6 +150787,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_ORANGE
   form_of: SPECIES_MINIOR
+  long_name: "Minior Orange"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153148,6 +150811,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_YELLOW
   form_of: SPECIES_MINIOR
+  long_name: "Minior Yellow"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153171,6 +150835,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_GREEN
   form_of: SPECIES_MINIOR
+  long_name: "Minior Green"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153194,6 +150859,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_BLUE
   form_of: SPECIES_MINIOR
+  long_name: "Minior Blue"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153217,6 +150883,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_INDIGO
   form_of: SPECIES_MINIOR
+  long_name: "Minior Indigo"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -153240,6 +150907,7 @@ species {
 species {
   id: SPECIES_MINIOR_METEOR_VIOLET
   form_of: SPECIES_MINIOR
+  long_name: "Minior Violet"
   type: TYPE_ROCK
   type2: TYPE_FLYING
   hp: 60
@@ -155118,9 +152786,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -155255,9 +152920,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -155404,9 +153066,6 @@ species {
           image: 0
           duration: 1
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -155541,9 +153200,6 @@ species {
         frame {
           image: 0
           duration: 1
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -157122,10 +154778,12 @@ species {
   primal {
     from: SPECIES_NECROZMA_DUSK_MANE
     item: "ITEM_ULTRANECROZIUM_P"
+    type: ULTRA
   }
   primal {
     from: SPECIES_NECROZMA_DAWN_WINGS
     item: "ITEM_ULTRANECROZIUM_P"
+    type: ULTRA
   }
   visuals {
     icon {
@@ -157332,6 +154990,7 @@ species {
 species {
   id: SPECIES_MAGEARNA_ORIGINAL_COLOR
   form_of: SPECIES_MAGEARNA
+  long_name: "Magearna Original"
   type: TYPE_STEEL
   type2: TYPE_FAIRY
   hp: 80
@@ -157533,9 +155192,6 @@ species {
         frame {
           image: 0
           duration: 10
-        }
-        frame {
-          type: END
         }
       }
     }
@@ -163467,6 +161123,7 @@ species {
 }
 species {
   id: SPECIES_TOXEL_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TOXEL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -163574,6 +161231,7 @@ species {
 }
 species {
   id: SPECIES_TOXTRICITY_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_TOXTRICITY
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -163685,6 +161343,7 @@ species {
 }
 species {
   id: SPECIES_TOXTRICITY_REDUX_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_TOXTRICITY
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -163729,6 +161388,7 @@ species {
 }
 species {
   id: SPECIES_TOXTRICITY_REDUX_FUZZ
+  region_prefix: REDUX
   form_of: SPECIES_TOXTRICITY
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -163771,6 +161431,7 @@ species {
 }
 species {
   id: SPECIES_TOXTRICITY_REDUX_FUZZ_MEGA
+  region_prefix: REDUX
   form_of: SPECIES_TOXTRICITY
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -166593,6 +164254,7 @@ species {
 species {
   id: SPECIES_ALCREMIE_SALTED_CREAM
   form_of: SPECIES_ALCREMIE
+  long_name: "Alcremie Salted"
   type: TYPE_FAIRY
   hp: 75
   atk: 60
@@ -175146,6 +172808,7 @@ species {
     pokemon_scale: 255
     trainer_scale: 255
   }
+  long_name: "Squawkabilly Green"
   type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 90
@@ -175251,6 +172914,7 @@ species {
 species {
   id: SPECIES_SQUAWKABILLY_WHITE_PLUMAGE
   form_of: SPECIES_SQUAWKABILLY
+  long_name: "Squawkabilly White"
   type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 90
@@ -175292,6 +172956,7 @@ species {
 species {
   id: SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE
   form_of: SPECIES_SQUAWKABILLY
+  long_name: "Squawkabilly Yellow"
   type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 90
@@ -175333,6 +172998,7 @@ species {
 species {
   id: SPECIES_SQUAWKABILLY_BLUE_PLUMAGE
   form_of: SPECIES_SQUAWKABILLY
+  long_name: "Squawkabilly Blue"
   type: TYPE_NORMAL
   type2: TYPE_FLYING
   hp: 90
@@ -191620,9 +189286,6 @@ species {
           image: 0
           duration: 20
         }
-        frame {
-          type: END
-        }
       }
     }
   }
@@ -191670,6 +189333,7 @@ species {
 }
 species {
   id: SPECIES_SCIZOR_REDUX
+  region_prefix: REDUX
   form_of: SPECIES_SCIZOR
   type: TYPE_BUG
   type2: TYPE_FAIRY
@@ -192496,6 +190160,7 @@ species {
 }
 species {
   id: SPECIES_SLOWBRO_MEGA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_SLOWBRO
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
@@ -192539,6 +190204,7 @@ species {
 }
 species {
   id: SPECIES_SLOWKING_MEGA_GALARIAN
+  region_prefix: GALAR
   form_of: SPECIES_SLOWKING
   type: TYPE_POISON
   type2: TYPE_PSYCHIC
@@ -192738,9 +190404,6 @@ species {
         frame {
           image: 3
           duration: 6
-        }
-        frame {
-          type: END
         }
       }
     }
