@@ -105,6 +105,7 @@ message Species {
     MONOTYPE = 2;
     SPECIES_HIDDEN = 3;
     IN_BATTLE = 4;
+    PARADOX = 5;
   }
 
   SpeciesEnum id = 1;

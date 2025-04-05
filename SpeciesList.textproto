@@ -155876,6 +155876,7 @@ species {
 }
 species {
   id: SPECIES_NIHILEGO
+  randomizer_banned: PARADOX
   dex {
     name: "Nihilego"
     category: "Parasite"
@@ -156001,6 +156002,7 @@ species {
 }
 species {
   id: SPECIES_BUZZWOLE
+  randomizer_banned: PARADOX
   dex {
     name: "Buzzwole"
     category: "Swollen"
@@ -156124,6 +156126,7 @@ species {
 }
 species {
   id: SPECIES_PHEROMOSA
+  randomizer_banned: PARADOX
   dex {
     name: "Pheromosa"
     category: "Lissome"
@@ -156249,6 +156252,7 @@ species {
 }
 species {
   id: SPECIES_XURKITREE
+  randomizer_banned: PARADOX
   dex {
     name: "Xurkitree"
     category: "Glowing"
@@ -156366,6 +156370,7 @@ species {
 }
 species {
   id: SPECIES_CELESTEELA
+  randomizer_banned: PARADOX
   dex {
     name: "Celesteela"
     category: "Launch"
@@ -156490,6 +156495,7 @@ species {
 }
 species {
   id: SPECIES_KARTANA
+  randomizer_banned: PARADOX
   dex {
     name: "Kartana"
     category: "Drawn Sword"
@@ -156632,6 +156638,7 @@ species {
 }
 species {
   id: SPECIES_GUZZLORD
+  randomizer_banned: PARADOX
   dex {
     name: "Guzzlord"
     category: "Junkivore"
@@ -157393,6 +157400,7 @@ species {
 }
 species {
   id: SPECIES_POIPOLE
+  randomizer_banned: PARADOX
   dex {
     name: "Poipole"
     category: "Poison Pin"
@@ -157498,6 +157506,7 @@ species {
 }
 species {
   id: SPECIES_NAGANADEL
+  randomizer_banned: PARADOX
   dex {
     name: "Naganadel"
     category: "Poison Pin"
@@ -157613,6 +157622,7 @@ species {
 }
 species {
   id: SPECIES_STAKATAKA
+  randomizer_banned: PARADOX
   dex {
     name: "Stakataka"
     category: "Rampart"
@@ -157719,6 +157729,7 @@ species {
 }
 species {
   id: SPECIES_BLACEPHALON
+  randomizer_banned: PARADOX
   dex {
     name: "Blacephalon"
     category: "Fireworks"
@@ -181073,6 +181084,7 @@ species {
 }
 species {
   id: SPECIES_GREAT_TUSK
+  randomizer_banned: PARADOX
   dex {
     name: "Great Tusk"
     category: "Paradox"
@@ -181202,6 +181214,7 @@ species {
 }
 species {
   id: SPECIES_SCREAM_TAIL
+  randomizer_banned: PARADOX
   dex {
     name: "Scream Tail"
     category: "Paradox"
@@ -181324,6 +181337,7 @@ species {
 }
 species {
   id: SPECIES_BRUTE_BONNET
+  randomizer_banned: PARADOX
   dex {
     name: "Brute Bonnet"
     category: "Paradox"
@@ -181455,6 +181469,7 @@ species {
 }
 species {
   id: SPECIES_FLUTTER_MANE
+  randomizer_banned: PARADOX
   dex {
     name: "Flutter Mane"
     category: "Paradox"
@@ -181585,6 +181600,7 @@ species {
 }
 species {
   id: SPECIES_SLITHER_WING
+  randomizer_banned: PARADOX
   dex {
     name: "Slither Wing"
     category: "Paradox"
@@ -181708,6 +181724,7 @@ species {
 }
 species {
   id: SPECIES_SANDY_SHOCKS
+  randomizer_banned: PARADOX
   dex {
     name: "Sandy Shocks"
     category: "Paradox"
@@ -181837,6 +181854,7 @@ species {
 }
 species {
   id: SPECIES_IRON_TREADS
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Treads"
     category: "Paradox"
@@ -181968,6 +181986,7 @@ species {
 }
 species {
   id: SPECIES_IRON_BUNDLE
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Bundle"
     category: "Paradox"
@@ -182090,6 +182109,7 @@ species {
 }
 species {
   id: SPECIES_IRON_HANDS
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Hands"
     category: "Paradox"
@@ -182210,6 +182230,7 @@ species {
 }
 species {
   id: SPECIES_IRON_JUGULIS
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Jugulis"
     category: "Paradox"
@@ -182336,6 +182357,7 @@ species {
 }
 species {
   id: SPECIES_IRON_MOTH
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Moth"
     category: "Paradox"
@@ -182450,6 +182472,7 @@ species {
 }
 species {
   id: SPECIES_IRON_THORNS
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Thorns"
     category: "Paradox"
@@ -183754,6 +183777,7 @@ species {
 }
 species {
   id: SPECIES_ROARING_MOON
+  randomizer_banned: PARADOX
   dex {
     name: "Roaring Moon"
     category: "Paradox"
@@ -183880,6 +183904,7 @@ species {
 }
 species {
   id: SPECIES_IRON_VALIANT
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Valiant"
     category: "Paradox"
@@ -184271,6 +184296,7 @@ species {
 }
 species {
   id: SPECIES_WALKING_WAKE
+  randomizer_banned: PARADOX
   dex {
     name: "Walking Wake"
     category: "Paradox"
@@ -184386,6 +184412,7 @@ species {
 }
 species {
   id: SPECIES_IRON_LEAVES
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Leaves"
     category: "Paradox"
@@ -185704,6 +185731,7 @@ species {
 }
 species {
   id: SPECIES_GOUGING_FIRE
+  randomizer_banned: PARADOX
   dex {
     name: "Gouging Fire"
     category: "Paradox"
@@ -185818,6 +185846,7 @@ species {
 }
 species {
   id: SPECIES_RAGING_BOLT
+  randomizer_banned: PARADOX
   dex {
     name: "Raging Bolt"
     category: "Paradox"
@@ -185932,6 +185961,7 @@ species {
 }
 species {
   id: SPECIES_IRON_BOULDER
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Boulder"
     category: "Paradox"
@@ -186051,6 +186081,7 @@ species {
 }
 species {
   id: SPECIES_IRON_CROWN
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Crown"
     category: "Paradox"
@@ -188810,6 +188841,7 @@ species {
 }
 species {
   id: SPECIES_BLIZZARD_MAW
+  randomizer_banned: PARADOX
   dex {
     name: "Blizzard Maw"
     national_dex_num: 1048
@@ -188919,6 +188951,7 @@ species {
 }
 species {
   id: SPECIES_LUMBERING_SLOTH
+  randomizer_banned: PARADOX
   dex {
     name: "Lumber Sloth"
     national_dex_num: 1049
@@ -189032,6 +189065,7 @@ species {
 }
 species {
   id: SPECIES_LUMBERING_SLOTH_ENGULFED
+  randomizer_banned: IN_BATTLE
   form_of: SPECIES_LUMBERING_SLOTH
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -191901,6 +191935,7 @@ species {
 }
 species {
   id: SPECIES_IRON_VOCA
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Voca"
     body_color: BODY_COLOR_PINK
@@ -192417,6 +192452,7 @@ species {
 }
 species {
   id: SPECIES_IRON_EXO
+  randomizer_banned: PARADOX
   dex {
     name: "Iron Exo"
     category: "Exosuit"
