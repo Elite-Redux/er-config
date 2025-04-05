@@ -185372,8 +185372,8 @@ species {
   id: SPECIES_ARCHALUDON
   dex {
     name: "Archaludon"
-    category: "Archaludon"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Alloy"
+    description: "It digs holes on mountains, searching for food. It's so durable that being caught in a cave-in won't faze it."
     national_dex_num: 1018
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -185492,8 +185492,8 @@ species {
   id: SPECIES_HYDRAPPLE
   dex {
     name: "Hydrapple"
-    category: "Hydrapple"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Apple Hydra"
+    description: "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander."
     national_dex_num: 1019
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -185605,8 +185605,8 @@ species {
   id: SPECIES_GOUGING_FIRE
   dex {
     name: "Gouging Fire"
-    category: "Gouging Fire"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Paradox"
+    description: "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame."
     national_dex_num: 1020
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -185719,8 +185719,8 @@ species {
   id: SPECIES_RAGING_BOLT
   dex {
     name: "Raging Bolt"
-    category: "Raging Bolt"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Paradox"
+    description: "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature."
     national_dex_num: 1021
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -185833,8 +185833,8 @@ species {
   id: SPECIES_IRON_BOULDER
   dex {
     name: "Iron Boulder"
-    category: "Iron Boulder"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Paradox"
+    description: "It was named after a mysterious object recorded in an old book. Its body seems to be metallic."
     national_dex_num: 1022
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -185952,8 +185952,8 @@ species {
   id: SPECIES_IRON_CROWN
   dex {
     name: "Iron Crown"
-    category: "Iron Crown"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Paradox"
+    description: "There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it."
     national_dex_num: 1023
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
@@ -186062,8 +186062,8 @@ species {
   id: SPECIES_TERAPAGOS
   dex {
     name: "Terapagos"
-    category: "Terapagos"
-    description: "This is not a actually Pokemon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Tera"
+    description: "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy."
     national_dex_num: 1024
     body_color: BODY_COLOR_PINK
     egg_group: UNDISCOVERED
