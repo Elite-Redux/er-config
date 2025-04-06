@@ -113,8 +113,22 @@ enum SplitFlag {
   USE_HIGHEST_DAMAGE = 5 [(enum_name) = "Use Highest Damage"];
 }
 
+enum TutorType {
+  TUTOR_NONE = 0;
+  TUTOR_ATTACK = 1;
+  TUTOR_UTILITY_ATTACK = 2;
+  TUTOR_GOOD_STATUS = 3;
+  TUTOR_NICHE_STATUS = 4;
+  TUTOR_UNIVERSAL_ATTACK = 5;
+  TUTOR_UNIVERSAL_STATUS = 6;
+  TUTOR_UNIVERSAL_STATUS_GENDERED = 7;
+  TUTOR_TERRAIN = 8;
+  TUTOR_WEATHER = 9;
+}
+
 message Move {
   MoveEnum id = 1;
+  TutorType tutor = 63;
   string name = 2;
   string short_name = 3;
   string description = 4;
