@@ -190606,14 +190606,14 @@ species {
       path: "dududunsparce/front"
       coords {
         size: 0x88
-        y_offset: 0
+        y_offset: 6
       }
     }
     back {
       path: "dududunsparce/back"
       coords {
         size: 0x78
-        y_offset: 0
+        y_offset: 11
       }
     }
     palette: "dududunsparce/normal"
@@ -190647,14 +190647,14 @@ species {
       path: "dududunsparce/mega/front"
       coords {
         size: 0x88
-        y_offset: 0
+        y_offset: 4
       }
     }
     back {
       path: "dududunsparce/mega/back"
       coords {
         size: 0x78
-        y_offset: 0
+        y_offset: 11
       }
     }
     palette: "dududunsparce/mega/normal"
