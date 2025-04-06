@@ -3569,7 +3569,7 @@ ability {
 ability {
   id: ABILITY_AQUATIC_DWELLER
   name: "Aquatic Dweller"
-  description: "Boosts the power of Water-type moves by 1.5x."
+  description: "Aquatic + Boosts the power of Water-type moves by 1.5x."
 }
 ability {
   id: ABILITY_APPLE_PIE
