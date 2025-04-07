@@ -111266,10 +111266,13 @@ species {
   dex {
     name: "Scrafster"
     category: "Hoodlum"
+    description: "They keep their shed skin even after it has fully dried up to make them look more imposing. They use their tails as a bat to engage in combat."
     national_dex_num: 1067
     body_color: BODY_COLOR_RED
     egg_group: FIELD
     egg_group_2: DRAGON
+    height: 16
+    weight: 620
   }
   type: TYPE_DARK
   type2: TYPE_FIGHTING
@@ -184320,13 +184323,13 @@ species {
   id: SPECIES_PHANTOWL
   dex {
     name: "Phantowl"
-    category: "Phantowl"
-    description: "This is not a actually Pokémon. It's really just a potato Dont ask me why potato. Maybe because I like potatos."
+    category: "Spirit Owl"
+    description: "They fly through the night in total silence, searching for prey. They can faintly see the energy of living creatures, so the darker it is the harder it is to hide."
     national_dex_num: 1026
     body_color: BODY_COLOR_BROWN
     egg_group: FLYING
-    height: 10
-    weight: 100
+    height: 20
+    weight: 638
     pokemon_scale: 255
     trainer_scale: 255
   }
@@ -184807,10 +184810,14 @@ species {
   id: SPECIES_ARASHINNE
   dex {
     name: "Arashinne"
+    category: "Antenna"
+    description: "They are very clever and love to be taught new tricks. In the past, specially trained Arashinne were often used to send messages over great distances."
     national_dex_num: 1032
     body_color: BODY_COLOR_YELLOW
     egg_group: FIELD
     egg_group_2: FAIRY
+    height: 3
+    weight: 74
   }
   type: TYPE_ELECTRIC
   type2: TYPE_FAIRY
@@ -185195,10 +185202,14 @@ species {
   id: SPECIES_HELIOSUNNY
   dex {
     name: "Heliomodo"
+    category: "Generator"
+    description: "Its paracolic frill allows it to harness and focus solar energy, which can be fired in the direction of its breath. It often scorches itself in the process."
     national_dex_num: 1035
     body_color: BODY_COLOR_YELLOW
     egg_group: MONSTER
     egg_group_2: DRAGON
+    height: 13
+    weight: 510
   }
   type: TYPE_ELECTRIC
   type2: TYPE_FIRE
@@ -188344,10 +188355,14 @@ species {
   id: SPECIES_VELOZEL
   dex {
     name: "Velozel"
+    category: "Jet Stream"
+    description: "They never stop moving, chasing the sun across the sky at supersonic speeds. You'll know one has passed by when your meal disappears with a sonic boom."
     national_dex_num: 1062
     body_color: BODY_COLOR_BROWN
     egg_group: WATER_1
     egg_group_2: FIELD
+    height: 14
+    weight: 138
   }
   type: TYPE_FLYING
   hp: 95
@@ -189943,9 +189958,14 @@ species {
   id: SPECIES_FROSTULA
   dex {
     name: "Frostula"
+    category: "Ice Fortress"
+    description: "They construct breathtaking lairs of ice polished to a mirror sheen. Those who wander inside to admire the beauty are rarely seen again."
+    national_dex_num: 1073
     body_color: BODY_COLOR_GREEN
     egg_group: WATER_1
     egg_group_2: BUG
+    height: 23
+    weight: 1800
   }
   type: TYPE_ICE
   type2: TYPE_BUG
