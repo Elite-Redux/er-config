@@ -42149,7 +42149,6 @@ species {
 }
 species {
   id: SPECIES_UNOWN_REVELATION
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_UNOWN
   type: TYPE_PSYCHIC
   hp: 58
@@ -42167,6 +42166,9 @@ species {
   genderless: true
   tier: 1
   uses_learnset: SPECIES_UNOWN
+  battle_form {
+    of: SPECIES_UNOWN
+  }
   visuals {
     icon {
       path: "unown/revelation/icon"
@@ -60222,7 +60224,6 @@ species {
 }
 species {
   id: SPECIES_SLAKING_MEGA_APE_SHIFT
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_SLAKING
   type: TYPE_NORMAL
   type2: TYPE_ICE
@@ -60240,6 +60241,10 @@ species {
   innate: ABILITY_CRYSTALLIZE
   percent_female: 50.0
   uses_learnset: SPECIES_SLAKING
+  battle_form {
+    of: SPECIES_SLAKING_MEGA
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "slaking/mega/ape_shift/icon"
@@ -72149,7 +72154,6 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SANDY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_ROCK
   hp: 75
@@ -72166,6 +72170,9 @@ species {
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
   uses_learnset: SPECIES_CASTFORM
+  battle_form {
+    of: SPECIES_CASTFORM
+  }
   visuals {
     icon {
       path: "castform/sandy/icon"
@@ -72188,7 +72195,6 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SUNNY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_FIRE
   hp: 75
@@ -72205,6 +72211,9 @@ species {
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
   uses_learnset: SPECIES_CASTFORM
+  battle_form {
+    of: SPECIES_CASTFORM
+  }
   visuals {
     icon {
       path: "castform/sunny/icon"
@@ -72227,7 +72236,6 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_RAINY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_WATER
   hp: 75
@@ -72244,6 +72252,9 @@ species {
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
   uses_learnset: SPECIES_CASTFORM
+  battle_form {
+    of: SPECIES_CASTFORM
+  }
   visuals {
     icon {
       path: "castform/rainy/icon"
@@ -72266,7 +72277,6 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_SNOWY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_ICE
   hp: 75
@@ -72283,6 +72293,9 @@ species {
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
   uses_learnset: SPECIES_CASTFORM
+  battle_form {
+    of: SPECIES_CASTFORM
+  }
   visuals {
     icon {
       path: "castform/snowy/icon"
@@ -72305,7 +72318,6 @@ species {
 }
 species {
   id: SPECIES_CASTFORM_FOGGY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CASTFORM
   type: TYPE_GHOST
   hp: 75
@@ -72321,6 +72333,9 @@ species {
   innate: ABILITY_WEATHER_CONTROL
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
+  battle_form {
+    of: SPECIES_CASTFORM
+  }
   tier: 4
   uses_learnset: SPECIES_CASTFORM
   visuals {
@@ -86127,7 +86142,6 @@ species {
 }
 species {
   id: SPECIES_CHERRIM_SUNSHINE
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CHERRIM
   type: TYPE_GRASS
   type2: TYPE_FAIRY
@@ -86145,6 +86159,9 @@ species {
   innate: ABILITY_SOLAR_FLARE
   percent_female: 50.0
   uses_learnset: SPECIES_CHERRIM
+  battle_form {
+    of: SPECIES_CHERRIM
+  }
   visuals {
     icon {
       path: "cherrim/sunshine/icon"
@@ -110460,7 +110477,6 @@ species {
 species {
   id: SPECIES_DARMANITAN_REDUX_BLUNDER
   region_prefix: REDUX
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_DARMANITAN
   type: TYPE_GROUND
   type2: TYPE_FIGHTING
@@ -110478,6 +110494,10 @@ species {
   innate: ABILITY_MOLD_BREAKER
   percent_female: 50.0
   uses_learnset: SPECIES_DARMANITAN_REDUX
+  battle_form {
+    of: SPECIES_DARMANITAN_REDUX_BOND
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "darmanitan/redux/battle_bond/icon"
@@ -127622,8 +127642,8 @@ species {
 }
 species {
   id: SPECIES_CHESNAUGHT_CLEMONT
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CHESNAUGHT
+  long_name: "Chesnaught-Clemont"
   type: TYPE_GRASS
   type2: TYPE_FIGHTING
   hp: 88
@@ -127640,6 +127660,10 @@ species {
   innate: ABILITY_BATTLE_BOND
   percent_female: 50.0
   uses_learnset: SPECIES_CHESNAUGHT
+  battle_form {
+    of: SPECIES_CHESNAUGHT
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "chesnaught/clemont/icon"
@@ -128083,8 +128107,8 @@ species {
 }
 species {
   id: SPECIES_DELPHOX_SERENA
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_DELPHOX
+  long_name: "Delphox-Serena"
   type: TYPE_FIRE
   type2: TYPE_PSYCHIC
   hp: 75
@@ -128101,6 +128125,10 @@ species {
   innate: ABILITY_BATTLE_BOND
   percent_female: 50.0
   uses_learnset: SPECIES_DELPHOX
+  battle_form {
+    of: SPECIES_DELPHOX_BATTLE_BOND
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "delphox/serena/icon"
@@ -128564,8 +128592,8 @@ species {
 }
 species {
   id: SPECIES_GRENINJA_ASH
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_GRENINJA
+  long_name: "Greninja-Ash"
   type: TYPE_WATER
   type2: TYPE_DARK
   hp: 72
@@ -128583,6 +128611,10 @@ species {
   percent_female: 0.0
   no_flip: true
   uses_learnset: SPECIES_GRENINJA
+  battle_form {
+    of: SPECIES_GRENINJA_BATTLE_BOND
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "greninja/ash/icon"
@@ -133530,7 +133562,6 @@ species {
 }
 species {
   id: SPECIES_AEGISLASH_BLADE
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_AEGISLASH
   type: TYPE_STEEL
   type2: TYPE_GHOST
@@ -133548,6 +133579,9 @@ species {
   innate: ABILITY_STANCE_CHANGE
   percent_female: 50.0
   uses_learnset: SPECIES_AEGISLASH
+  battle_form {
+    of: SPECIES_AEGISLASH
+  }
   visuals {
     icon {
       path: "aegislash/blade/icon"
@@ -133871,7 +133905,6 @@ species {
 species {
   id: SPECIES_AEGISLASH_BLADE_REDUX
   region_prefix: REDUX
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_AEGISLASH
   type: TYPE_FIGHTING
   type2: TYPE_GHOST
@@ -133889,6 +133922,9 @@ species {
   innate: ABILITY_STANCE_CHANGE
   percent_female: 50.0
   uses_learnset: SPECIES_AEGISLASH_REDUX
+  battle_form {
+    of: SPECIES_AEGISLASH_REDUX
+  }
   visuals {
     icon {
       path: "aegislash/blade_redux/icon"
@@ -133975,6 +134011,9 @@ species {
   mega {
     from: SPECIES_AEGISLASH_BLADE_REDUX
     item: "ITEM_AEGISLASHITE_R"
+  }
+  battle_form {
+    of: SPECIES_AEGISLASH_REDUX_MEGA
   }
   visuals {
     icon {
@@ -145529,7 +145568,6 @@ species {
 }
 species {
   id: SPECIES_WISHIWASHI_SCHOOL
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_WISHIWASHI
   type: TYPE_WATER
   hp: 45
@@ -145546,6 +145584,9 @@ species {
   innate: ABILITY_MULTISCALE
   percent_female: 50.0
   uses_learnset: SPECIES_WISHIWASHI
+  battle_form {
+    of: SPECIES_WISHIWASHI
+  }
   visuals {
     icon {
       path: "wishiwashi/school/icon"
@@ -150933,7 +150974,6 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_RED
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -150952,6 +150992,9 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR
+  }
   visuals {
     icon {
       path: "minior/core/red/icon"
@@ -150976,7 +151019,6 @@ species {
 }
 species {
   id: SPECIES_MINIOR_CORE_ORANGE
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -150995,11 +151037,13 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_ORANGE
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
   id: SPECIES_MINIOR_CORE_YELLOW
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -151018,11 +151062,13 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_YELLOW
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
   id: SPECIES_MINIOR_CORE_GREEN
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -151041,11 +151087,13 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_GREEN
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
   id: SPECIES_MINIOR_CORE_BLUE
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -151064,11 +151112,13 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_BLUE
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
   id: SPECIES_MINIOR_CORE_INDIGO
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -151087,11 +151137,13 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_INDIGO
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
   id: SPECIES_MINIOR_CORE_VIOLET
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MINIOR
   type: TYPE_ROCK
   type2: TYPE_FLYING
@@ -151110,6 +151162,9 @@ species {
   genderless: true
   no_flip: true
   uses_learnset: SPECIES_MINIOR
+  battle_form {
+    of: SPECIES_MINIOR_METEOR_VIOLET
+  }
   reuse_visuals: SPECIES_MINIOR_CORE_RED
 }
 species {
@@ -151576,7 +151631,6 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_BUSTED
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -151594,6 +151648,10 @@ species {
   innate: ABILITY_PHANTOM_PAIN
   percent_female: 50.0
   uses_learnset: SPECIES_MIMIKYU
+  battle_form {
+    of: SPECIES_MIMIKYU
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "mimikyu/busted/icon"
@@ -151778,7 +151836,6 @@ species {
 }
 species {
   id: SPECIES_MIMIKYU_APEX_BUSTED
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -151797,11 +151854,14 @@ species {
   percent_female: 50.0
   tier: 3
   uses_learnset: SPECIES_MIMIKYU_APEX
+  battle_form {
+    of: SPECIES_MIMIKYU_APEX
+    keep_on_switch: true
+  }
   reuse_visuals: SPECIES_MIMIKYU_BUSTED
 }
 species {
   id: SPECIES_MIMIKYU_RAYQUAZA_BUSTED
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MIMIKYU
   type: TYPE_GHOST
   type2: TYPE_FAIRY
@@ -151821,6 +151881,10 @@ species {
   primal {
     from: SPECIES_MIMIKYU_APEX_BUSTED
     item: "ITEM_PHANTOM_METEOR"
+  }
+  battle_form {
+    of: SPECIES_MIMIKYU_RAYQUAZA
+    keep_on_switch: true
   }
   visuals {
     icon {
@@ -160457,7 +160521,6 @@ species {
 }
 species {
   id: SPECIES_CRAMORANT_GULPING
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CRAMORANT
   type: TYPE_FLYING
   type2: TYPE_WATER
@@ -160475,6 +160538,9 @@ species {
   innate: ABILITY_FIELD_EXPLORER
   percent_female: 50.0
   uses_learnset: SPECIES_CRAMORANT
+  battle_form {
+    of: SPECIES_CRAMORANT
+  }
   visuals {
     icon {
       path: "cramorant/gulping/icon"
@@ -160498,7 +160564,6 @@ species {
 }
 species {
   id: SPECIES_CRAMORANT_GORGING
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_CRAMORANT
   type: TYPE_FLYING
   type2: TYPE_WATER
@@ -160516,6 +160581,9 @@ species {
   innate: ABILITY_FIELD_EXPLORER
   percent_female: 50.0
   uses_learnset: SPECIES_CRAMORANT
+  battle_form {
+    of: SPECIES_CRAMORANT
+  }
   visuals {
     icon {
       path: "cramorant/gorging/icon"
@@ -165102,7 +165170,6 @@ species {
 }
 species {
   id: SPECIES_EISCUE_NOICE_FACE
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_EISCUE
   type: TYPE_ICE
   hp: 85
@@ -165119,6 +165186,10 @@ species {
   innate: ABILITY_AMPHIBIOUS
   percent_female: 50.0
   uses_learnset: SPECIES_EISCUE
+  battle_form {
+    of: SPECIES_EISCUE
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "eiscue/noice_face/icon"
@@ -165600,7 +165671,6 @@ species {
 }
 species {
   id: SPECIES_MORPEKYLL_HANGRY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MORPEKYLL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -165618,6 +165688,9 @@ species {
   innate: ABILITY_LIGHTNING_ROD
   percent_female: 50.0
   uses_learnset: SPECIES_MORPEKYLL
+  battle_form {
+    of: SPECIES_MORPEKYLL
+  }
   visuals {
     icon {
       path: "morpekyll/hangry/icon"
@@ -165640,7 +165713,6 @@ species {
 }
 species {
   id: SPECIES_MORPEKO_HANGRY
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_MORPEKO
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
@@ -165658,6 +165730,9 @@ species {
   innate: ABILITY_LIGHTNING_ROD
   percent_female: 50.0
   uses_learnset: SPECIES_MORPEKO
+  battle_form {
+    of: SPECIES_MORPEKO
+  }
   visuals {
     icon {
       path: "morpeko/hangry/icon"
@@ -176790,7 +176865,6 @@ species {
 species {
   id: SPECIES_PALAFIN_HERO
   form_of: SPECIES_PALAFIN
-  randomizer_banned: IN_BATTLE
   type: TYPE_WATER
   hp: 100
   atk: 160
@@ -176806,6 +176880,10 @@ species {
   innate: ABILITY_ADAPTABILITY
   percent_female: 50.0
   uses_learnset: SPECIES_PALAFIN
+  battle_form {
+    of: SPECIES_PALAFIN
+    keep_on_switch: true
+  }
   visuals {
     icon {
       path: "palafin/hero/icon"
@@ -186930,7 +187008,6 @@ species {
 }
 species {
   id: SPECIES_LUMBERING_SLOTH_ENGULFED
-  randomizer_banned: IN_BATTLE
   form_of: SPECIES_LUMBERING_SLOTH
   type: TYPE_FIRE
   type2: TYPE_GRASS
@@ -186948,6 +187025,9 @@ species {
   innate: ABILITY_PYROMANCY
   genderless: true
   uses_learnset: SPECIES_LUMBERING_SLOTH
+  battle_form {
+    of: SPECIES_LUMBERING_SLOTH
+  }
   visuals {
     icon {
       path: "lumbering_sloth/engulfed/icon"

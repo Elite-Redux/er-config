@@ -77,6 +77,11 @@ message Species {
     PrimalType type = 3;
   }
 
+  message BattleForm {
+    SpeciesEnum of = 1;
+    bool keep_on_switch = 2;
+  }
+
   message Learnset {
     message LevelUpMove {
       int32 level = 1;
@@ -150,6 +155,7 @@ message Species {
   repeated PrimalEvolution primal = 24;
   optional SpeciesEnum form_shift_of = 25;
   optional Gender form_shift_gender = 26;
+  optional BattleForm battle_form = 32;
   oneof learnset_or_ref {
     Learnset learnset = 27;
     SpeciesEnum uses_learnset = 28;
