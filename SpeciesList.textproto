@@ -189407,6 +189407,7 @@ species {
 }
 species {
   id: SPECIES_SCIZOR_REDUX
+  randomizer_banned: SPECIES_HIDDEN
   region_prefix: REDUX
   form_of: SPECIES_SCIZOR
   type: TYPE_BUG
