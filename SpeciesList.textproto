@@ -135718,7 +135718,16 @@ species {
 species {
   id: SPECIES_CLAWITZER_REDUX
   region_prefix: REDUX
-  form_of: SPECIES_CLAWITZER
+  dex {
+    name: "Clawtificer"
+    category: "Elemental"
+    national_dex_num: 1074
+    body_color: BODY_COLOR_BLUE
+    egg_group: WATER_1
+    egg_group_2: WATER_3
+    height: 13
+    weight: 353
+  }
   type: TYPE_FIRE
   type2: TYPE_ELECTRIC
   hp: 86
