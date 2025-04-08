@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+package er;
+
+import "ItemEnum.proto";
+import "MegaEnum.proto";
+import "Types.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+enum HoldEffect {
+  HOLD_EFFECT_NONE = 0;
+  HOLD_EFFECT_CUSTOM = 1;
+  HOLD_EFFECT_RESTORE_HP = 2;
+  HOLD_EFFECT_EVASION_UP = 3;
+  HOLD_EFFECT_FLINCH = 4;
+  HOLD_EFFECT_REPEL = 5;
+  HOLD_EFFECT_SCOPE_LENS = 6;
+  HOLD_EFFECT_RESIST_BERRY = 7;
+  HOLD_EFFECT_TYPE_POWER = 8;
+  HOLD_EFFECT_POWER_ITEM = 9;
+  HOLD_EFFECT_LAGGING_TAIL = 10;
+  HOLD_EFFECT_PRIMAL_ORB = 11;
+  HOLD_EFFECT_MEMORY = 12;
+  HOLD_EFFECT_PLATE = 13;
+  HOLD_EFFECT_DRIVE = 14;
+  HOLD_EFFECT_GEMS = 15;
+  HOLD_EFFECT_MEGA_STONE = 16;
+  HOLD_EFFECT_SEEDS = 17;
+  HOLD_EFFECT_Z_CRYSTAL = 18;
+}
+
+enum UseType {
+  ITEM_USE_BAG_MENU = 0;
+  ITEM_USE_MAIL = 1;
+  ITEM_USE_FIELD = 2;
+  ITEM_USE_PBLOCK_CASE = 3;
+  ITEM_USE_PARTY_MENU = 4;
+}
+
+enum Pocket {
+  POCKET_NONE = 0;
+  POCKET_ITEMS = 1;
+  POCKET_MEDICINE = 2;
+  POCKET_BATTLE = 3;
+  POCKET_TM_HM = 4;
+  POCKET_BERRIES = 5;
+  POCKET_POKE_BALLS = 6;
+  POCKET_KEY_ITEMS = 7;
+  POCKET_MEGA_STONES = 8;
+}
+
+message ItemList {
+  repeated MegaFlag mega = 1;
+  repeated Item item = 2;
+}
+
+message MegaFlag {
+  MegaEnum id = 1;
+  int32 legacy_flag_id = 2;
+  string name = 3;
+  ItemEnum display_item = 4;
+  int32 price = 5;
+  string aquisition_hint = 6;
+}
+
+message Item {
+  ItemEnum id = 1;
+  string name = 2;
+  string description = 3;
+  int32 bp_price = 4;
+  Pocket grouping = 5;
+  HoldEffect hold_effect = 6;
+  string hold_effect_alias = 7;
+  int32 hold_effect_strength = 8;
+  Type hold_effect_type = 9;
+  string hold_effect_misc_param = 10;
+  UseType use_type = 11;
+  string image = 12;
+  string palette = 13;
+}
