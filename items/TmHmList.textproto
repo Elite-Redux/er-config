@@ -1,0 +1,976 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_TM01_FOCUS_PUNCH
+  name: "TM01"
+  description: "Powerful, but makes the user flinch if hit by the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM02_DRAGON_CLAW
+  name: "TM02"
+  description: "Hooks and slashes the foe with long, sharp claws."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dragon_tm_hm"
+}
+item {
+  id: ITEM_TM03_WATER_PULSE
+  name: "TM03"
+  description: "Generates an ultrasonic wave that may confuse."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "water_tm_hm"
+}
+item {
+  id: ITEM_TM04_CALM_MIND
+  name: "TM04"
+  description: "Raises Sp. Atk and Sp. Def by focusing the mind."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM05_ROAR
+  name: "TM05"
+  description: "A savage roar that makes the foe flee to end the battle."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM06_TOXIC
+  name: "TM06"
+  description: "Poisons the foe with a toxin that gradually worsens."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "poison_tm_hm"
+}
+item {
+  id: ITEM_TM07_HAIL
+  name: "TM07"
+  description: "Creates a hailstorm that damages all types except Ice."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM08_BULK_UP
+  name: "TM08"
+  description: "Bulks up the body to boost both Attack & Defense."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM09_BULLET_SEED
+  name: "TM09"
+  description: "Shoots 2 to 5 seeds in a row to strike the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "grass_tm_hm"
+}
+item {
+  id: ITEM_TM10_HIDDEN_POWER
+  name: "TM10"
+  description: "The attack power varies among different Pok\303\251mon."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM11_SUNNY_DAY
+  name: "TM11"
+  description: "Raises the power of Fire-type moves for 5 turns."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM12_TAUNT
+  name: "TM12"
+  description: "Enrages the foe so it can only use attack moves."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM13_ICE_BEAM
+  name: "TM13"
+  description: "Fires an icy cold beam that may freeze the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM14_BLIZZARD
+  name: "TM14"
+  description: "A brutal snow-and-wind attack that may freeze the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM15_HYPER_BEAM
+  name: "TM15"
+  description: "Powerful, but needs recharging the next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM16_LIGHT_SCREEN
+  name: "TM16"
+  description: "Creates a wall of light that lowers Sp. Atk damage."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM17_PROTECT
+  name: "TM17"
+  description: "Negates all damage, but may fail if used in succession."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM18_RAIN_DANCE
+  name: "TM18"
+  description: "Raises the power of Water-type moves for 5 turns."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "water_tm_hm"
+}
+item {
+  id: ITEM_TM19_GIGA_DRAIN
+  name: "TM19"
+  description: "Recovers half the HP of the damage  this move inflicts."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "grass_tm_hm"
+}
+item {
+  id: ITEM_TM20_SAFEGUARD
+  name: "TM20"
+  description: "Prevents status abnormality with a mystical power."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM21_FRUSTRATION
+  name: "TM21"
+  description: "The less the user likes you, the more powerful this move."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM22_SOLARBEAM
+  name: "TM22"
+  description: "Absorbs sunlight in the 1st turn, then attacks next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "grass_tm_hm"
+}
+item {
+  id: ITEM_TM23_IRON_TAIL
+  name: "TM23"
+  description: "Slams the foe with a hard tail. It may lower Defense."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "steel_tm_hm"
+}
+item {
+  id: ITEM_TM24_THUNDERBOLT
+  name: "TM24"
+  description: "A powerful electric attack that may cause paralysis."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM25_THUNDER
+  name: "TM25"
+  description: "Strikes the foe with a thunderbolt. It may paralyze."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM26_EARTHQUAKE
+  name: "TM26"
+  description: "Causes a quake that has no effect on flying foes."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ground_tm_hm"
+}
+item {
+  id: ITEM_TM27_RETURN
+  name: "TM27"
+  description: "The more the user likes you, the more powerful this move."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM28_DIG
+  name: "TM28"
+  description: "Digs underground the 1st turn, then strikes next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ground_tm_hm"
+}
+item {
+  id: ITEM_TM29_PSYCHIC
+  name: "TM29"
+  description: "A powerful psychic attack that may lower Sp. Def."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM30_SHADOW_BALL
+  name: "TM30"
+  description: "Hurls a dark lump at the foe. It may lower Sp. Def."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ghost_tm_hm"
+}
+item {
+  id: ITEM_TM31_BRICK_BREAK
+  name: "TM31"
+  description: "Destroys barriers like Light Screen and causes damage."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM32_DOUBLE_TEAM
+  name: "TM32"
+  description: "Creates illusory copies to enhance elusiveness."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM33_REFLECT
+  name: "TM33"
+  description: "Creates a wall of light that weakens physical attacks."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM34_SLUDGE_WAVE
+  name: "TM34"
+  description: "Swamps the foe with a wave of sludge. May also poison."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "poison_tm_hm"
+}
+item {
+  id: ITEM_TM35_FLAMETHROWER
+  name: "TM35"
+  description: "Looses a stream of fire that may burn the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM36_SLUDGE_BOMB
+  name: "TM36"
+  description: "Hurls sludge at the foe. It may poison the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "poison_tm_hm"
+}
+item {
+  id: ITEM_TM37_SANDSTORM
+  name: "TM37"
+  description: "Causes a sandstorm that hits the foe over several turns."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM38_FIRE_BLAST
+  name: "TM38"
+  description: "A powerful fire attack that may burn the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM39_ROCK_TOMB
+  name: "TM39"
+  description: "Stops the foe from moving with rocks. May lower Speed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM40_AERIAL_ACE
+  name: "TM40"
+  description: "An extremely fast attack that can\'t be avoided."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "flying_tm_hm"
+}
+item {
+  id: ITEM_TM41_TORMENT
+  name: "TM41"
+  description: "Prevents the foe from using the same move in a row."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM42_FACADE
+  name: "TM42"
+  description: "Raises Attack when poisoned, burned, or paralyzed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM43_SECRET_POWER
+  name: "TM43"
+  description: "Adds an effect to attack depending on the location."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM44_REST
+  name: "TM44"
+  description: "The user sleeps for 2 turns to restore health and status."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM45_ATTRACT
+  name: "TM45"
+  description: "Makes it tough to attack a foe of the opposite gender."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM46_THIEF
+  name: "TM46"
+  description: "While attacking, it may steal the foe\'s held item."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM47_STEEL_WING
+  name: "TM47"
+  description: "Spreads hard-edged wings and slams into the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "steel_tm_hm"
+}
+item {
+  id: ITEM_TM48_SKILL_SWAP
+  name: "TM48"
+  description: "Switches abilities with the foe on the turn this is used."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM49_SLEEP_TALK
+  name: "TM49"
+  description: "Uses an available move randomly while asleep."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM50_OVERHEAT
+  name: "TM50"
+  description: "Enables full-power attack, but sharply lowers Sp. Atk."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM51_ROOST
+  name: "TM51"
+  description: "The user lands and rests, restoring up to half its max HP."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "flying_tm_hm"
+}
+item {
+  id: ITEM_TM52_FOCUS_BLAST
+  name: "TM52"
+  description: "Attacks at full power. May also lower Sp Def."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM53_ENERGY_BALL
+  name: "TM53"
+  description: "Draws power from nature to attack. May lower Sp Def."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "grass_tm_hm"
+}
+item {
+  id: ITEM_TM54_PSYSHOCK
+  name: "TM54"
+  description: "Attacks with a psychic wave. Does physical damage."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM55_SCALD
+  name: "TM55"
+  description: "Shoots boiling water at the foe. May inflict a burn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "water_tm_hm"
+}
+item {
+  id: ITEM_TM56_LEECH_LIFE
+  name: "TM56"
+  description: "Recovers half the HP of the damage  this move inflicts."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "bug_tm_hm"
+}
+item {
+  id: ITEM_TM57_CHARGE_BEAM
+  name: "TM57"
+  description: "Fires a beam of electricity. May raise Sp. Atk."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM58_ENDURE
+  name: "TM58"
+  description: "Endures any attack for 1 turn, leaving at least 1HP."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM59_DRAGON_PULSE
+  name: "TM59"
+  description: "Generates a shock wave to damage the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dragon_tm_hm"
+}
+item {
+  id: ITEM_TM60_DRAIN_PUNCH
+  name: "TM60"
+  description: "Recovers half the HP of the damage  this move inflicts."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM61_WILL_O_WISP
+  name: "TM61"
+  description: "Inflicts a burn on the foe with intense fire."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM62_ACROBATICS
+  name: "TM62"
+  description: "Does double damage if the user has no held item."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "flying_tm_hm"
+}
+item {
+  id: ITEM_TM63_ROCK_SLIDE
+  name: "TM63"
+  description: "Large boulders are hurled. May cause flinching."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM64_EXPLOSION
+  name: "TM64"
+  description: "Inflicts severe damage but makes the user faint."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM65_SHADOW_CLAW
+  name: "TM65"
+  description: "Slashes with a claw of shadows. High critical-hit ratio."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ghost_tm_hm"
+}
+item {
+  id: ITEM_TM66_PAYBACK
+  name: "TM66"
+  description: "Deals double damage if the user moves after the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM67_RECYCLE
+  name: "TM67"
+  description: "Recycles a used held item for one more use."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM68_GIGA_IMPACT
+  name: "TM68"
+  description: "Powerful, but needs recharging the next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM69_ROCK_POLISH
+  name: "TM69"
+  description: "Polishes the body to sharply raise speed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM70_AURORA_VEIL
+  name: "TM70"
+  description: "Weakens all attacks, but only usable with hail."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM71_STONE_EDGE
+  name: "TM71"
+  description: "Stabs the foe with sharp stones. High critical-hit ratio."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM72_VOLT_SWITCH
+  name: "TM72"
+  description: "Does damage then switches out the user."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM73_THUNDER_WAVE
+  name: "TM73"
+  description: "A weak jolt of electricity that paralyzes the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM74_GYRO_BALL
+  name: "TM74"
+  description: "A high-speed spin that hurts faster foes more."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "steel_tm_hm"
+}
+item {
+  id: ITEM_TM75_SWORDS_DANCE
+  name: "TM75"
+  description: "A fighting dance that sharply raises Attack."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM76_STEALTH_ROCK
+  name: "TM76"
+  description: "A sneaky trap of stones that hurt a foe switching in."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM77_STRUGGLE_BUG
+  name: "TM77"
+  description: "Resisting, the user attacks the foes. Lowers Sp. Atk."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "bug_tm_hm"
+}
+item {
+  id: ITEM_TM78_BULLDOZE
+  name: "TM78"
+  description: "The user stomps down on the ground. Lowers Speed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ground_tm_hm"
+}
+item {
+  id: ITEM_TM79_FREEZE_DRY
+  name: "TM79"
+  description: "Super effective on Water-types. May cause freezing."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM80_VENOSHOCK
+  name: "TM80"
+  description: "Does double damage if the foe is poisoned."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "poison_tm_hm"
+}
+item {
+  id: ITEM_TM81_X_SCISSOR
+  name: "TM81"
+  description: "Slashes foe with crossed scythes, claws, etc."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "bug_tm_hm"
+}
+item {
+  id: ITEM_TM82_DRAGON_TAIL
+  name: "TM82"
+  description: "Knocks the foe away to end the battle."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dragon_tm_hm"
+}
+item {
+  id: ITEM_TM83_FLAME_CHARGE
+  name: "TM83"
+  description: "Attacks in a cloak of flames. Raises the user\'s Speed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fire_tm_hm"
+}
+item {
+  id: ITEM_TM84_POISON_JAB
+  name: "TM84"
+  description: "A stabbing attack that may poison the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "poison_tm_hm"
+}
+item {
+  id: ITEM_TM85_DREAM_EATER
+  name: "TM85"
+  description: "Heals for half the damage inflicted on a sleeping foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM86_GRASS_KNOT
+  name: "TM86"
+  description: "A snare attack that does more damage to heavier foes."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "grass_tm_hm"
+}
+item {
+  id: ITEM_TM87_SMACK_DOWN
+  name: "TM87"
+  description: "Throws a rock to knock the foe to the ground."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_TM88_LOW_SWEEP
+  name: "TM88"
+  description: "Attacks the foe\'s legs, lowering its Speed."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_TM89_U_TURN
+  name: "TM89"
+  description: "Does damage then switches out the user."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "bug_tm_hm"
+}
+item {
+  id: ITEM_TM90_SUBSTITUTE
+  name: "TM90"
+  description: "Creates a decoy using 1/4 of the user\'s maximum HP."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM91_FLASH_CANNON
+  name: "TM91"
+  description: "Releases a blast of light that may lower Sp. Def."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "steel_tm_hm"
+}
+item {
+  id: ITEM_TM92_TRICK_ROOM
+  name: "TM92"
+  description: "Slower Pok\303\251mon get to move first for five turns."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "psychic_tm_hm"
+}
+item {
+  id: ITEM_TM93_WILD_CHARGE
+  name: "TM93"
+  description: "An electric charge attack that also hurts the user."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "electric_tm_hm"
+}
+item {
+  id: ITEM_TM94_SUCKER_PUNCH
+  name: "TM94"
+  description: "Strikes first if the foe is readying an attack."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM95_SNARL
+  name: "TM95"
+  description: "Yells and rants at the foe, lowering its Sp. Atk."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM96_AVALANCHE
+  name: "TM96"
+  description: "An attack that gains power if damaged by the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ice_tm_hm"
+}
+item {
+  id: ITEM_TM97_DARK_PULSE
+  name: "TM97"
+  description: "Releases a horrible aura that may cause flinching."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "dark_tm_hm"
+}
+item {
+  id: ITEM_TM98_FALSE_SWIPE
+  name: "TM98"
+  description: "An attack that leaves the foe with at least 1 HP."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_TM99_DAZZLING_GLEAM
+  name: "TM99"
+  description: "Damages foes by emitting a bright flash."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "fairy_tm_hm"
+}
+item {
+  id: ITEM_TM100_CURSE
+  name: "TM100"
+  description: "A move that works differently for Ghost-types."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tm"
+  palette: "ghost_tm_hm"
+}
+item {
+  id: ITEM_HM01_CUT
+  name: "HM01"
+  description: "Attacks the foe with sharp blades or claws."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "steel_tm_hm"
+}
+item {
+  id: ITEM_HM02_FLY
+  name: "HM02"
+  description: "Flies up on the first turn, then attacks next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "flying_tm_hm"
+}
+item {
+  id: ITEM_HM03_SURF
+  name: "HM03"
+  description: "Creates a huge wave, then crashes it down on the foe."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "water_tm_hm"
+}
+item {
+  id: ITEM_HM04_STRENGTH
+  name: "HM04"
+  description: "A powerful slam attack that also lowers defenses."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "rock_tm_hm"
+}
+item {
+  id: ITEM_HM05_FLASH
+  name: "HM05"
+  description: "Looses a powerful blast of light that reduces accuracy."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "normal_tm_hm"
+}
+item {
+  id: ITEM_HM06_ROCK_SMASH
+  name: "HM06"
+  description: "A rock-crushingly tough attack that may lower Defense."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "fighting_tm_hm"
+}
+item {
+  id: ITEM_HM07_WATERFALL
+  name: "HM07"
+  description: "Attacks the foe with enough power to climb waterfalls."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "water_tm_hm"
+}
+item {
+  id: ITEM_HM08_DIVE
+  name: "HM08"
+  description: "Dives underwater the 1st turn, then attacks next turn."
+  grouping: POCKET_TM_HM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hm"
+  palette: "water_tm_hm"
+}
+

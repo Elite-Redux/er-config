@@ -1,0 +1,83 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_GUARD_SPEC
+  name: "Guard Spec."
+  description: "Prevents stat reduction when used in battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "guard_spec"
+}
+item {
+  id: ITEM_DIRE_HIT
+  name: "Dire Hit"
+  description: "Raises the critical-hit ratio during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "dire_hit"
+}
+item {
+  id: ITEM_X_ATTACK
+  name: "X Attack"
+  description: "Raises the stat Attack during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_attack"
+}
+item {
+  id: ITEM_X_DEFENSE
+  name: "X Defense"
+  description: "Raises the stat Defense during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_defend"
+}
+item {
+  id: ITEM_X_SPEED
+  name: "X Speed"
+  description: "Raises the stat Speed during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_speed"
+}
+item {
+  id: ITEM_X_ACCURACY
+  name: "X Accuracy"
+  description: "Raises accuracy of attack moves during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_accuracy"
+}
+item {
+  id: ITEM_X_SP_ATK
+  name: "X Sp. Atk"
+  description: "Raises the stat Sp. Atk during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_special"
+}
+item {
+  id: ITEM_X_SP_DEF
+  name: "X Sp. Def"
+  description: "Raises the stat Sp. Def during one battle."
+  grouping: POCKET_BATTLE
+  image: "x_special_defense"
+  palette: "x_special_defense"
+}
+item {
+  id: ITEM_POKE_DOLL
+  name: "Pok\303\251 Doll"
+  description: "Use to flee from any battle with a wild Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  image: "poke_doll"
+  palette: "poke_doll"
+}
+item {
+  id: ITEM_FLUFFY_TAIL
+  name: "Fluffy Tail"
+  description: "Use to flee from any battle with a wild Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  image: "fluffy_tail"
+  palette: "fluffy_tail"
+}

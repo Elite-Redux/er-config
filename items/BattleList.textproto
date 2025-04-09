@@ -1,0 +1,1320 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_BRIGHT_POWDER
+  name: "Bright Powder"
+  description: "A hold item that casts a glare to reduce accuracy."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_EVASION_UP
+  hold_effect_strength: 10
+  image: "bright_powder"
+  palette: "bright_powder"
+}
+item {
+  id: ITEM_WHITE_HERB
+  name: "White Herb"
+  description: "A hold item that restores any lowered stat."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "RESTORE_STATS"
+  image: "in_battle_herb"
+  palette: "white_herb"
+}
+item {
+  id: ITEM_MACHO_BRACE
+  name: "Macho Brace"
+  description: "A hold item that promotes growth, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "macho_brace"
+  palette: "macho_brace"
+}
+item {
+  id: ITEM_QUICK_CLAW
+  name: "Quick Claw"
+  description: "A hold item that occasionally allows the first strike."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 20
+  image: "quick_claw"
+  palette: "quick_claw"
+}
+item {
+  id: ITEM_MENTAL_HERB
+  name: "Mental Herb"
+  description: "A hold item that snaps Pok\303\251mon out of infatuation."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "in_battle_herb"
+  palette: "mental_herb"
+}
+item {
+  id: ITEM_CHOICE_BAND
+  name: "Choice Band"
+  description: "Raises a move\'s power, but permits only that move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "choice_band"
+  palette: "choice_band"
+}
+item {
+  id: ITEM_KINGS_ROCK
+  name: "King\'s Rock"
+  description: "A hold item that may cause flinching when the foe is hit."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_FLINCH
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "kings_rock"
+  palette: "kings_rock"
+}
+item {
+  id: ITEM_SILVER_POWDER
+  name: "Silver Powder"
+  description: "A hold item that raises the power of Bug-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_BUG
+  image: "silver_powder"
+  palette: "silver_powder"
+}
+item {
+  id: ITEM_SMOKE_BALL
+  name: "Smoke Ball"
+  description: "Extends the length of Eerie Fog if used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "smoke_ball"
+  palette: "smoke_ball"
+}
+item {
+  id: ITEM_FOCUS_BAND
+  name: "Focus Band"
+  description: "A hold item that occasionally prevents fainting."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  image: "focus_band"
+  palette: "focus_band"
+}
+item {
+  id: ITEM_SCOPE_LENS
+  name: "Scope Lens"
+  description: "A hold item that improves the critical-hit rate."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SCOPE_LENS
+  image: "scope_lens"
+  palette: "scope_lens"
+}
+item {
+  id: ITEM_METAL_COAT
+  name: "Metal Coat"
+  description: "A hold item that raises the power of Steel-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_STEEL
+  use_type: ITEM_USE_PARTY_MENU
+  image: "metal_coat"
+  palette: "metal_coat"
+}
+item {
+  id: ITEM_LEFTOVERS
+  name: "Leftovers"
+  description: "A hold item that gradually restores HP in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  image: "leftovers"
+  palette: "leftovers"
+}
+item {
+  id: ITEM_RAZOR_CLAW
+  name: "Razor Claw"
+  description: "A hooked claw that ups the holder\'s critical-hit ratio."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SCOPE_LENS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "razor_claw"
+  palette: "razor_claw"
+}
+item {
+  id: ITEM_RAZOR_FANG
+  name: "Razor Fang"
+  description: "A hold item that may cause flinching when the foe is hit."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_FLINCH
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "razor_fang"
+  palette: "razor_fang"
+}
+item {
+  id: ITEM_LIGHT_BALL
+  name: "Light Ball"
+  description: "A hold item that raises the power of Pikachu and Raichu."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "light_ball"
+  palette: "light_ball"
+}
+item {
+  id: ITEM_SOFT_SAND
+  name: "Soft Sand"
+  description: "A hold item that raises the power of Ground-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_GROUND
+  image: "soft_sand"
+  palette: "soft_sand"
+}
+item {
+  id: ITEM_HARD_STONE
+  name: "Hard Stone"
+  description: "A hold item that raises the power of Rock-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_ROCK
+  image: "hard_stone"
+  palette: "hard_stone"
+}
+item {
+  id: ITEM_MIRACLE_SEED
+  name: "Miracle Seed"
+  description: "A hold item that raises the power of Grass-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_GRASS
+  image: "miracle_seed"
+  palette: "miracle_seed"
+}
+item {
+  id: ITEM_BLACK_GLASSES
+  name: "Black Glasses"
+  description: "A hold item that raises the power of Dark-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_DARK
+  image: "black_glasses"
+  palette: "black_type_enhancing_item"
+}
+item {
+  id: ITEM_BLACK_BELT
+  name: "Black Belt"
+  description: "A hold item that boosts Fighting-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_FIGHTING
+  image: "black_belt"
+  palette: "black_type_enhancing_item"
+}
+item {
+  id: ITEM_MAGNET
+  name: "Magnet"
+  description: "A hold item that boosts Electric-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_ELECTRIC
+  image: "magnet"
+  palette: "magnet"
+}
+item {
+  id: ITEM_MYSTIC_WATER
+  name: "Mystic Water"
+  description: "A hold item that raises the power of Water-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_WATER
+  image: "mystic_water"
+  palette: "mystic_water"
+}
+item {
+  id: ITEM_SHARP_BEAK
+  name: "Sharp Beak"
+  description: "A hold item that raises the power of Flying-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_FLYING
+  image: "sharp_beak"
+  palette: "sharp_beak"
+}
+item {
+  id: ITEM_POISON_BARB
+  name: "Poison Barb"
+  description: "A hold item that raises the power of Poison-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_POISON
+  image: "poison_barb"
+  palette: "poison_barb"
+}
+item {
+  id: ITEM_NEVER_MELT_ICE
+  name: "Never-MeltIce"
+  description: "A hold item that raises the power of Ice-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_ICE
+  image: "never_melt_ice"
+  palette: "never_melt_ice"
+}
+item {
+  id: ITEM_FAIRY_FEATHER
+  name: "Fairy Feather"
+  description: "A hold item that raises the power of Fairy-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_FAIRY
+  image: "fairy_feather"
+  palette: "fairy_feather"
+}
+item {
+  id: ITEM_SPELL_TAG
+  name: "Spell Tag"
+  description: "A hold item that raises the power of Ghost-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_GHOST
+  image: "spell_tag"
+  palette: "spell_tag"
+}
+item {
+  id: ITEM_TWISTED_SPOON
+  name: "Twisted Spoon"
+  description: "A hold item that boosts Psychic-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_PSYCHIC
+  image: "twisted_spoon"
+  palette: "twisted_spoon"
+}
+item {
+  id: ITEM_CHARCOAL
+  name: "Charcoal"
+  description: "A hold item that raises the power of Fire-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_FIRE
+  image: "charcoal"
+  palette: "charcoal"
+}
+item {
+  id: ITEM_DRAGON_FANG
+  name: "Dragon Fang"
+  description: "A hold item that raises the power of Dragon-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_DRAGON
+  image: "dragon_fang"
+  palette: "dragon_fang"
+}
+item {
+  id: ITEM_SILK_SCARF
+  name: "Silk Scarf"
+  description: "A hold item that raises the power of Normal-type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_TYPE_POWER
+  hold_effect_strength: 30
+  hold_effect_type: TYPE_NORMAL
+  image: "silk_scarf"
+  palette: "silk_scarf"
+}
+item {
+  id: ITEM_SHELL_BELL
+  name: "Shell Bell"
+  description: "A hold item that restores HP upon striking the foe."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 2
+  image: "shell_bell"
+  palette: "shell"
+}
+item {
+  id: ITEM_POWER_BRACER
+  name: "Power Bracer"
+  description: "Hold item. Allows only Attack gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_ATK"
+  image: "power_bracer"
+  palette: "power_bracer"
+}
+item {
+  id: ITEM_POWER_BELT
+  name: "Power Belt"
+  description: "Hold item. Allows only Defense gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_DEF"
+  image: "power_belt"
+  palette: "power_belt"
+}
+item {
+  id: ITEM_POWER_LENS
+  name: "Power Lens"
+  description: "Hold item. Allows only Sp. Atk gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPATK"
+  image: "power_lens"
+  palette: "power_lens"
+}
+item {
+  id: ITEM_POWER_BAND
+  name: "Power Band"
+  description: "Hold item. Allows only Sp. Def gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPDEF"
+  image: "power_band"
+  palette: "power_band"
+}
+item {
+  id: ITEM_POWER_ANKLET
+  name: "Power Anklet"
+  description: "Hold item. Allows only Speed gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPEED"
+  image: "power_anklet"
+  palette: "power_anklet"
+}
+item {
+  id: ITEM_POWER_WEIGHT
+  name: "Power Weight"
+  description: "Hold item. Allows only HP gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_HP"
+  image: "power_weight"
+  palette: "power_weight"
+}
+item {
+  id: ITEM_LUCKY_PUNCH
+  name: "Lucky Punch"
+  description: "A hold item that raises Chansey\'s critical-hit rate."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "lucky_punch"
+  palette: "lucky_punch"
+}
+item {
+  id: ITEM_METAL_POWDER
+  name: "Metal Powder"
+  description: "A hold item that raises Ditto\'s Defense."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "metal_powder"
+  palette: "metal_powder"
+}
+item {
+  id: ITEM_THICK_CLUB
+  name: "Thick Club"
+  description: "A hold item that  raises Cubone or Marowak\'s Attack."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "thick_club"
+  palette: "thick_club"
+}
+item {
+  id: ITEM_LEEK
+  name: "Leek"
+  description: "A hold item that raises Farfetch\'d\'s critical-hit ratio."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "stick"
+  palette: "stick"
+}
+item {
+  id: ITEM_WIDE_LENS
+  name: "Wide Lens"
+  description: "A magnifying lens that boosts the accuracy of moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  image: "wide_lens"
+  palette: "wide_lens"
+}
+item {
+  id: ITEM_MUSCLE_BAND
+  name: "Muscle Band"
+  description: "A headband that boosts the power of physical moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 15
+  image: "muscle_band"
+  palette: "muscle_band"
+}
+item {
+  id: ITEM_WISE_GLASSES
+  name: "Wise Glasses"
+  description: "A pair of glasses that ups the power of special moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 15
+  image: "wise_glasses"
+  palette: "wise_glasses"
+}
+item {
+  id: ITEM_EXPERT_BELT
+  name: "Expert Belt"
+  description: "A belt that boosts the power of super effective moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 30
+  image: "expert_belt"
+  palette: "expert_belt"
+}
+item {
+  id: ITEM_LIGHT_CLAY
+  name: "Light Clay"
+  description: "Extends the length of barrier moves used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "light_clay"
+  palette: "light_clay"
+}
+item {
+  id: ITEM_LIFE_ORB
+  name: "Life Orb"
+  description: "Boosts the power of moves at the cost of some HP per turn."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "life_orb"
+  palette: "life_orb"
+}
+item {
+  id: ITEM_POWER_HERB
+  name: "Power Herb"
+  description: "Allows immediate use of a move that charges first."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "power_herb"
+  palette: "power_herb"
+}
+item {
+  id: ITEM_TOXIC_ORB
+  name: "Toxic Orb"
+  description: "A bizarre orb that badly poisons the holder in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "toxic_orb"
+  palette: "toxic_orb"
+}
+item {
+  id: ITEM_FLAME_ORB
+  name: "Flame Orb"
+  description: "A bizarre orb that inflicts a burn on holder in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "flame_orb"
+  palette: "flame_orb"
+}
+item {
+  id: ITEM_FROST_ORB
+  name: "Frost Orb"
+  description: "A bizarre orb that inflicts frostbite on holder in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "frost_orb"
+  palette: "frost_orb"
+}
+item {
+  id: ITEM_QUICK_POWDER
+  name: "Quick Powder"
+  description: "An item to be held by Ditto. This odd powder boosts Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "quick_powder"
+  palette: "quick_powder"
+}
+item {
+  id: ITEM_FOCUS_SASH
+  name: "Focus Sash"
+  description: "If the holder has full HP, it endures KO hits with 1 HP."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "focus_sash"
+  palette: "focus_sash"
+}
+item {
+  id: ITEM_ZOOM_LENS
+  name: "Zoom Lens"
+  description: "If the holder moves after the foe, it\'ll boost accuracy."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 20
+  image: "zoom_lens"
+  palette: "zoom_lens"
+}
+item {
+  id: ITEM_METRONOME
+  name: "Metronome"
+  description: "A held item that boosts a move used consecutively."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 20
+  image: "metronome"
+  palette: "metronome"
+}
+item {
+  id: ITEM_IRON_BALL
+  name: "Iron Ball"
+  description: "Cuts Speed and lets Flying-types be hit by Ground moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "iron_ball"
+  palette: "iron_ball"
+}
+item {
+  id: ITEM_LAGGING_TAIL
+  name: "Lagging Tail"
+  description: "A held item that makes the holder move slower."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_LAGGING_TAIL
+  image: "lagging_tail"
+  palette: "lagging_tail"
+}
+item {
+  id: ITEM_DESTINY_KNOT
+  name: "Destiny Knot"
+  description: "If the holder falls in love, the foe does too."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "destiny_knot"
+  palette: "destiny_knot"
+}
+item {
+  id: ITEM_BLACK_SLUDGE
+  name: "Black Sludge"
+  description: "Gradually restores HP of Poison-types. Damages others."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "black_sludge"
+  palette: "black_sludge"
+}
+item {
+  id: ITEM_ICY_ROCK
+  name: "Icy Rock"
+  description: "Extends the length of the move Hail used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "icy_rock"
+  palette: "icy_rock"
+}
+item {
+  id: ITEM_SMOOTH_ROCK
+  name: "Smooth Rock"
+  description: "Extends the length of Sandstorm if used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "smooth_rock"
+  palette: "smooth_rock"
+}
+item {
+  id: ITEM_HEAT_ROCK
+  name: "Heat Rock"
+  description: "Extends the length of Sunny Day if used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "heat_rock"
+  palette: "heat_rock"
+}
+item {
+  id: ITEM_DAMP_ROCK
+  name: "Damp Rock"
+  description: "Extends the length of Rain Dance if used by the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "damp_rock"
+  palette: "damp_rock"
+}
+item {
+  id: ITEM_GRIP_CLAW
+  name: "Grip Claw"
+  description: "Makes binding moves used by the holder go on for 7 turns."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "grip_claw"
+  palette: "grip_claw"
+}
+item {
+  id: ITEM_CHOICE_SCARF
+  name: "Choice Scarf"
+  description: "Boosts Speed, but allows the use of only one move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "choice_scarf"
+  palette: "choice_scarf"
+}
+item {
+  id: ITEM_STICKY_BARB
+  name: "Sticky Barb"
+  description: "Damages the holder each turn. May latch on to foes."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "sticky_barb"
+  palette: "sticky_barb"
+}
+item {
+  id: ITEM_SHED_SHELL
+  name: "Shed Shell"
+  description: "Enables the holder to switch out of battle without fail."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "shed_shell"
+  palette: "shed_shell"
+}
+item {
+  id: ITEM_BIG_ROOT
+  name: "Big Root"
+  description: "A held item that boosts the power of HP-stealing moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 30
+  image: "big_root"
+  palette: "big_root"
+}
+item {
+  id: ITEM_CHOICE_SPECS
+  name: "Choice Specs"
+  description: "Boosts Sp. Atk, but allows the use of only one move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "choice_specs"
+  palette: "choice_specs"
+}
+item {
+  id: ITEM_ADAMANT_ORB
+  name: "Adamant Orb"
+  description: "This orb enables Dialga to revert to its origin in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "adamant_orb"
+  palette: "adamant_orb"
+}
+item {
+  id: ITEM_LUSTROUS_ORB
+  name: "Lustrous Orb"
+  description: "This orb enables Palkia to revert to its origin in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "lustrous_orb"
+  palette: "lustrous_orb"
+}
+item {
+  id: ITEM_GRISEOUS_ORB
+  name: "Griseous Orb"
+  description: "This orb enables Giratina to revert to origin in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "griseous_orb"
+  palette: "griseous_orb"
+}
+item {
+  id: ITEM_EVIOLITE
+  name: "Eviolite"
+  description: "Raises the Def and Sp. Def of Pok\303\251mon that can evolve."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 50
+  image: "eviolite"
+  palette: "eviolite"
+}
+item {
+  id: ITEM_FLOAT_STONE
+  name: "Float Stone"
+  description: "It\'s so light that when held, it halves a Pok\303\251mon\'s weight."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "float_stone"
+  palette: "float_stone"
+}
+item {
+  id: ITEM_ROCKY_HELMET
+  name: "Rocky Helmet"
+  description: "Hurts the foe if they touch its holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "rocky_helmet"
+  palette: "rocky_helmet"
+}
+item {
+  id: ITEM_AIR_BALLOON
+  name: "Air Balloon"
+  description: "Elevates the holder in the air. If hit, this item will burst."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "air_balloon"
+  palette: "air_balloon"
+}
+item {
+  id: ITEM_RED_CARD
+  name: "Red Card"
+  description: "Switches out the foe if they hit the holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "red_card"
+  palette: "red_card"
+}
+item {
+  id: ITEM_RING_TARGET
+  name: "Ring Target"
+  description: "Moves that wouldn\'t have effect will land on its holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "ring_target"
+  palette: "ring_target"
+}
+item {
+  id: ITEM_BINDING_BAND
+  name: "Binding Band"
+  description: "Increases the power of binding moves when held."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "binding_band"
+  palette: "binding_band"
+}
+item {
+  id: ITEM_EJECT_BUTTON
+  name: "Eject Button"
+  description: "Switches out the user if they\'re hit by the foe."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "eject_button"
+  palette: "eject_button"
+}
+item {
+  id: ITEM_ABSORB_BULB
+  name: "Absorb Bulb"
+  description: "Raises Sp. Atk if the holder is hit by a Water-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "absorb_bulb"
+  palette: "absorb_bulb"
+}
+item {
+  id: ITEM_CELL_BATTERY
+  name: "Cell Battery"
+  description: "Raises Atk if the holder is hit by an Electric-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "cell_battery"
+  palette: "cell_battery"
+}
+item {
+  id: ITEM_LUMINOUS_MOSS
+  name: "Luminous Moss"
+  description: "Raises Sp. Def if the holder is hit by a Water-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "luminous_moss"
+  palette: "luminous_moss"
+}
+item {
+  id: ITEM_SNOWBALL
+  name: "Snowball"
+  description: "Raises Atk if its holder is hit by an Ice-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "snowball"
+  palette: "snowball"
+}
+item {
+  id: ITEM_WEAKNESS_POLICY
+  name: "Weakness Policy"
+  description: "If hit by a Super Effective move, ups Atk and Sp. Atk."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "weakness_policy"
+  palette: "weakness_policy"
+}
+item {
+  id: ITEM_FIRE_GEM
+  name: "Fire Gem"
+  description: "Increases the power of Fire Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FIRE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fire_gem"
+  palette: "fire_gem"
+}
+item {
+  id: ITEM_WATER_GEM
+  name: "Water Gem"
+  description: "Increases the power of Water Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_WATER
+  use_type: ITEM_USE_PARTY_MENU
+  image: "water_gem"
+  palette: "water_gem"
+}
+item {
+  id: ITEM_ELECTRIC_GEM
+  name: "Electric Gem"
+  description: "Increases the power of Electric Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ELECTRIC
+  use_type: ITEM_USE_PARTY_MENU
+  image: "electric_gem"
+  palette: "electric_gem"
+}
+item {
+  id: ITEM_GRASS_GEM
+  name: "Grass Gem"
+  description: "Increases the power of Grass Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GRASS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "grass_gem"
+  palette: "grass_gem"
+}
+item {
+  id: ITEM_ICE_GEM
+  name: "Ice Gem"
+  description: "Increases the power of Ice Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ICE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ice_gem"
+  palette: "ice_gem"
+}
+item {
+  id: ITEM_FIGHTING_GEM
+  name: "Fighting Gem"
+  description: "Increases the power of Fighting Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FIGHTING
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fighting_gem"
+  palette: "fighting_gem"
+}
+item {
+  id: ITEM_POISON_GEM
+  name: "Poison Gem"
+  description: "Increases the power of Poison Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_POISON
+  use_type: ITEM_USE_PARTY_MENU
+  image: "poison_gem"
+  palette: "poison_gem"
+}
+item {
+  id: ITEM_GROUND_GEM
+  name: "Ground Gem"
+  description: "Increases the power of Ground Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GROUND
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ground_gem"
+  palette: "ground_gem"
+}
+item {
+  id: ITEM_FLYING_GEM
+  name: "Flying Gem"
+  description: "Increases the power of Flying Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FLYING
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flying_gem"
+  palette: "flying_gem"
+}
+item {
+  id: ITEM_PSYCHIC_GEM
+  name: "Psychic Gem"
+  description: "Increases the power of Psychic Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_PSYCHIC
+  use_type: ITEM_USE_PARTY_MENU
+  image: "psychic_gem"
+  palette: "psychic_gem"
+}
+item {
+  id: ITEM_BUG_GEM
+  name: "Bug Gem"
+  description: "Increases the power of Bug Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_BUG
+  use_type: ITEM_USE_PARTY_MENU
+  image: "bug_gem"
+  palette: "bug_gem"
+}
+item {
+  id: ITEM_ROCK_GEM
+  name: "Rock Gem"
+  description: "Increases the power of Rock Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ROCK
+  use_type: ITEM_USE_PARTY_MENU
+  image: "rock_gem"
+  palette: "rock_gem"
+}
+item {
+  id: ITEM_GHOST_GEM
+  name: "Ghost Gem"
+  description: "Increases the power of Ghost Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GHOST
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ghost_gem"
+  palette: "ghost_gem"
+}
+item {
+  id: ITEM_DRAGON_GEM
+  name: "Dragon Gem"
+  description: "Increases the power of Dragon Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_DRAGON
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dragon_gem"
+  palette: "dragon_gem"
+}
+item {
+  id: ITEM_DARK_GEM
+  name: "Dark Gem"
+  description: "Increases the power of Dark Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_DARK
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dark_gem"
+  palette: "dark_gem"
+}
+item {
+  id: ITEM_STEEL_GEM
+  name: "Steel Gem"
+  description: "Increases the power of Steel Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_STEEL
+  use_type: ITEM_USE_PARTY_MENU
+  image: "steel_gem"
+  palette: "steel_gem"
+}
+item {
+  id: ITEM_NORMAL_GEM
+  name: "Normal Gem"
+  description: "Increases the power of Normal Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_NORMAL
+  use_type: ITEM_USE_PARTY_MENU
+  image: "normal_gem"
+  palette: "normal_gem"
+}
+item {
+  id: ITEM_FAIRY_GEM
+  name: "Fairy Gem"
+  description: "Increases the power of Fairy Type moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FAIRY
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fairy_gem"
+  palette: "fairy_gem"
+}
+item {
+  id: ITEM_ASSAULT_VEST
+  name: "Assault Vest"
+  description: "Raises Sp. Def but prevents the use of status moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 50
+  image: "assault_vest"
+  palette: "assault_vest"
+}
+item {
+  id: ITEM_TACTICAL_VEST
+  name: "Tactical Vest"
+  description: "Raises Def but prevents the use of status moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 50
+  image: "physical_vest"
+  palette: "physical_vest"
+}
+item {
+  id: ITEM_SAFETY_GOGGLES
+  name: "Safety Goggles"
+  description: "Protect from weather damage and powder moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "safety_goggles"
+  palette: "safety_goggles"
+}
+item {
+  id: ITEM_PROTECTIVE_PADS
+  name: "Protective Pads"
+  description: "Guard the holder from contact move effects."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "protective_pads"
+  palette: "protective_pads"
+}
+item {
+  id: ITEM_TERRAIN_EXTENDER
+  name: "Terrain Extender"
+  description: "Extends the length of the active battle terrain."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "terrain_extender"
+  palette: "terrain_extender"
+}
+item {
+  id: ITEM_ELECTRIC_SEED
+  name: "Electric Seed"
+  description: "Boosts Defense on Electric Terrain, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_ELECTRIC_TERRAIN"
+  image: "electric_seed"
+  palette: "electric_seed"
+}
+item {
+  id: ITEM_GRASSY_SEED
+  name: "Grassy Seed"
+  description: "Boosts Defense on Grassy Terrain, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_GRASSY_TERRAIN"
+  image: "grassy_seed"
+  palette: "grassy_seed"
+}
+item {
+  id: ITEM_MISTY_SEED
+  name: "Misty Seed"
+  description: "Boosts Sp. Def. on Misty Terrain, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_MISTY_TERRAIN"
+  image: "misty_seed"
+  palette: "misty_seed"
+}
+item {
+  id: ITEM_PSYCHIC_SEED
+  name: "Psychic Seed"
+  description: "Boosts Sp. Def. on Psychic Terrain, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_PSYCHIC_TERRAIN"
+  image: "psychic_seed"
+  palette: "psychic_seed"
+}
+item {
+  id: ITEM_ADRENALINE_ORB
+  name: "Adrenaline Orb"
+  description: "Boosts Speed if the user is intimidated, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "adrenaline_orb"
+  palette: "adrenaline_orb"
+}
+item {
+  id: ITEM_BLUNDER_POLICY
+  name: "Blunder Policy"
+  description: "Sharply raises Speed if the holder misses."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "blunder_policy"
+  palette: "blunder_policy"
+}
+item {
+  id: ITEM_THROAT_SPRAY
+  name: "Throat Spray"
+  description: "Raises Sp. Atk when the holder uses a sound move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "throat_spray"
+  palette: "throat_spray"
+}
+item {
+  id: ITEM_ROOM_SERVICE
+  name: "Room Service"
+  description: "Held item that lowers speed when Trick Room is used."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "room_service"
+  palette: "room_service"
+}
+item {
+  id: ITEM_UTILITY_UMBRELLA
+  name: "Utility Umbrella"
+  description: "Protects the holder from the effects of rain and harsh sun."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "utility_umbrella"
+  palette: "utility_umbrella"
+}
+item {
+  id: ITEM_HEAVY_DUTY_BOOTS
+  name: "Heavy-Duty Boots"
+  description: "These boots prevent the effects of traps in battle."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "heavy_duty_boots"
+  palette: "heavy_duty_boots"
+}
+item {
+  id: ITEM_EJECT_PACK
+  name: "Eject Pack"
+  description: "Switches out the holder if its stats are lowered."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "eject_pack"
+  palette: "eject_pack"
+}
+item {
+  id: ITEM_RUSTED_SHIELD
+  name: "Rusted Shield"
+  description: "A rusty, worn shield used by an ancient hero."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "rusted_shield"
+  palette: "rusted_shield"
+}
+item {
+  id: ITEM_RUSTED_SWORD
+  name: "Rusted Sword"
+  description: "A rusty, worn sword used by an ancient hero."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "rusted_sword"
+  palette: "rusted_sword"
+}
+item {
+  id: ITEM_TRAINING_BAND
+  name: "Training Band"
+  description: "Massively boosts Exp. gain for weaker Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "focus_sash"
+  palette: "training_band"
+}
+item {
+  id: ITEM_ABILITY_SHIELD
+  name: "Ability Shield"
+  description: "Ability changes are prevented for this items\'s holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "ability_shield"
+  palette: "ability_shield"
+}
+item {
+  id: ITEM_CLEAR_AMULET
+  name: "Clear Amulet"
+  description: "Stat lowering is prevented for this items\'s holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "clear_amulet"
+  palette: "clear_amulet"
+}
+item {
+  id: ITEM_PUNCHING_GLOVE
+  name: "Punching Glove"
+  description: "Powers up punching moves and removes their contact."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "punching_glove"
+  palette: "punching_glove"
+}
+item {
+  id: ITEM_COVERT_CLOAK
+  name: "Covert Cloak"
+  description: "Protects the holder from secondary move effects."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "covert_cloak"
+  palette: "covert_cloak"
+}
+item {
+  id: ITEM_LOADED_DICE
+  name: "Loaded Dice"
+  description: "Rolls high numbers. Multihit strikes hit more times."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "loaded_dice"
+  palette: "loaded_dice"
+}
+item {
+  id: ITEM_BOOSTER_ENERGY
+  name: "Booster Energy"
+  description: "Encapsuled energy ups Pok\303\251mon with certain Abilities."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "booster_energy"
+  palette: "booster_energy"
+}
+item {
+  id: ITEM_MIRROR_HERB
+  name: "Mirror Herb"
+  description: "Mirrors an enemy\'s stat increases but only once."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "mirror_herb"
+  palette: "mirror_herb"
+}
+item {
+  id: ITEM_SWIRLY_GLASSES
+  name: "Swirly Glasses"
+  description: "Makes physical moves special and special moves physical."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "swirly_glasses"
+  palette: "swirly_glasses"
+}
+

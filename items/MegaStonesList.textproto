@@ -1,0 +1,1784 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_RED_ORB
+  name: "Red Orb"
+  description: "A red, glowing orb said to contain an ancient power."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "orb"
+  palette: "red_orb"
+}
+item {
+  id: ITEM_ULTRANECROZIUM_P
+  name: "U-Necrozium Z"
+  description: "A crystal to turn fused Necrozma into a new form."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "ultranecrozium_z"
+  palette: "ultranecrozium_z"
+}
+item {
+  id: ITEM_BLUE_ORB
+  name: "Blue Orb"
+  description: "A blue, glowing orb said to contain an ancient power."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "orb"
+  palette: "blue_orb"
+}
+item {
+  id: ITEM_GENGARITE
+  name: "Gengarite Y"
+  description: "This stone enables Gengar to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gengarite"
+  palette: "gengarite"
+}
+item {
+  id: ITEM_GENGARITE_X
+  name: "Gengarite X"
+  description: "This stone enables Gengar to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gengarite"
+  palette: "gengarite"
+}
+item {
+  id: ITEM_GARDEVOIRITE
+  name: "Gardevoirite"
+  description: "This stone enables Gardevoir to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gardevoirite"
+  palette: "gardevoirite"
+}
+item {
+  id: ITEM_AMPHAROSITE
+  name: "Ampharosite"
+  description: "This stone enables Ampharos to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "ampharosite"
+  palette: "ampharosite"
+}
+item {
+  id: ITEM_VENUSAURITE
+  name: "Venusaurite Y"
+  description: "This stone enables Venusaur to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "venusaurite"
+  palette: "venusaurite"
+}
+item {
+  id: ITEM_VENUSAURITE_X
+  name: "Venusaurite X"
+  description: "This stone enables Venusaur to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "venusaurite"
+  palette: "venusaurite"
+}
+item {
+  id: ITEM_CHARIZARDITE_X
+  name: "Charizardite X"
+  description: "This stone enables Charizard to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "charizardite_x"
+  palette: "charizardite_x"
+}
+item {
+  id: ITEM_CHARIZARDITE_Z
+  name: "Charizardite Z"
+  description: "This stone enables Charizard to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "charizardite_y"
+  palette: "charizardite_y"
+}
+item {
+  id: ITEM_BLASTOISINITE
+  name: "Blastoisinite Y"
+  description: "This stone enables Blastoise to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "blastoisinite"
+  palette: "blastoisinite"
+}
+item {
+  id: ITEM_BLASTOISINITE_X
+  name: "Blastoisinite X"
+  description: "This stone enables Blastoise to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "blastoisinite"
+  palette: "blastoisinite"
+}
+item {
+  id: ITEM_MEWTWONITE_X
+  name: "Mewtwonite X"
+  description: "This stone enables Mewtwo to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "mewtwonite_x"
+  palette: "mewtwonite_x"
+}
+item {
+  id: ITEM_MEWTWONITE_Y
+  name: "Mewtwonite Y"
+  description: "This stone enables Mewtwo to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "mewtwonite_y"
+  palette: "mewtwonite_y"
+}
+item {
+  id: ITEM_BLAZIKENITE
+  name: "Blazikenite"
+  description: "This stone enables Blaziken to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "blazikenite"
+  palette: "blazikenite"
+}
+item {
+  id: ITEM_MEDICHAMITE
+  name: "Medichamite"
+  description: "This stone enables Medicham to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "medichamite"
+  palette: "medichamite"
+}
+item {
+  id: ITEM_HOUNDOOMINITE
+  name: "Houndoominite"
+  description: "This stone enables Houndoom to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "houndoominite"
+  palette: "houndoominite"
+}
+item {
+  id: ITEM_AGGRONITE
+  name: "Aggronite"
+  description: "This stone enables Aggron to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aggronite"
+  palette: "aggronite"
+}
+item {
+  id: ITEM_BANETTITE
+  name: "Banettite"
+  description: "This stone enables Banette to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "banettite"
+  palette: "banettite"
+}
+item {
+  id: ITEM_TYRANITARITE
+  name: "Tyranitarite"
+  description: "This stone enables Tyranitar to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "tyranitarite"
+  palette: "tyranitarite"
+}
+item {
+  id: ITEM_SCIZORITE
+  name: "Scizorite"
+  description: "This stone enables Scizor to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "scizorite"
+  palette: "scizorite"
+}
+item {
+  id: ITEM_PINSIRITE
+  name: "Pinsirite"
+  description: "This stone enables Pinsir to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "pinsirite"
+  palette: "pinsirite"
+}
+item {
+  id: ITEM_AERODACTYLITE
+  name: "Aerodactylite"
+  description: "This stone enables Aerodactyl to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aerodactylite"
+  palette: "aerodactylite"
+}
+item {
+  id: ITEM_LUCARIONITE
+  name: "Lucarionite"
+  description: "This stone enables Lucario to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "lucarionite"
+  palette: "lucarionite"
+}
+item {
+  id: ITEM_ABOMASITE
+  name: "Abomasite"
+  description: "This stone enables Abomasnow to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "abomasite"
+  palette: "abomasite"
+}
+item {
+  id: ITEM_KANGASKHANITE
+  name: "Kangaskhanite"
+  description: "This stone enables Kangaskhan to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "kangaskhanite"
+  palette: "kangaskhanite"
+}
+item {
+  id: ITEM_GYARADOSITE
+  name: "Gyaradosite"
+  description: "This stone enables Gyarados to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gyaradosite"
+  palette: "gyaradosite"
+}
+item {
+  id: ITEM_ABSOLITE
+  name: "Absolite"
+  description: "This stone enables Absol to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "absolite"
+  palette: "absolite"
+}
+item {
+  id: ITEM_CHARIZARDITE_Y
+  name: "Charizardite Y"
+  description: "This stone enables Charizard to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "charizardite_y"
+  palette: "charizardite_y"
+}
+item {
+  id: ITEM_ALAKAZITE
+  name: "Alakazite"
+  description: "This stone enables Alakazam to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "alakazite"
+  palette: "alakazite"
+}
+item {
+  id: ITEM_HERACRONITE
+  name: "Heracronite"
+  description: "This stone enables Heracross to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "heracronite"
+  palette: "heracronite"
+}
+item {
+  id: ITEM_MAWILITE
+  name: "Mawilite"
+  description: "This stone enables Mawile to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "mawilite"
+  palette: "mawilite"
+}
+item {
+  id: ITEM_MANECTITE
+  name: "Manectite"
+  description: "This stone enables Manectric to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "manectite"
+  palette: "manectite"
+}
+item {
+  id: ITEM_GARCHOMPITE
+  name: "Garchompite"
+  description: "This stone enables Garchomp to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "garchompite"
+  palette: "garchompite"
+}
+item {
+  id: ITEM_LATIASITE
+  name: "Latiasite"
+  description: "This stone enables Latias to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "latiasite"
+  palette: "latiasite"
+}
+item {
+  id: ITEM_LATIOSITE
+  name: "Latiosite"
+  description: "This stone enables Latios to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "latiosite"
+  palette: "latiosite"
+}
+item {
+  id: ITEM_SWAMPERTITE
+  name: "Swampertite"
+  description: "This stone enables Swampert to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "swampertite"
+  palette: "swampertite"
+}
+item {
+  id: ITEM_SCEPTILITE
+  name: "Sceptilite"
+  description: "This stone enables Sceptile to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "sceptilite"
+  palette: "sceptilite"
+}
+item {
+  id: ITEM_SABLENITE
+  name: "Sablenite"
+  description: "This stone enables Sableye to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "sablenite"
+  palette: "sablenite"
+}
+item {
+  id: ITEM_ALTARIANITE
+  name: "Altarianite"
+  description: "This stone enables Altaria to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "altarianite"
+  palette: "altarianite"
+}
+item {
+  id: ITEM_GALLADITE
+  name: "Galladite"
+  description: "This stone enables Gallade to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "galladite"
+  palette: "galladite"
+}
+item {
+  id: ITEM_AUDINITE
+  name: "Audinite"
+  description: "This stone enables Audino to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "audinite"
+  palette: "audinite"
+}
+item {
+  id: ITEM_METAGROSSITE
+  name: "Metagrossite"
+  description: "This stone enables Metagross to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "metagrossite"
+  palette: "metagrossite"
+}
+item {
+  id: ITEM_SHARPEDONITE
+  name: "Sharpedonite"
+  description: "This stone enables Sharpedo to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "sharpedonite"
+  palette: "sharpedonite"
+}
+item {
+  id: ITEM_SLOWBRONITE
+  name: "Slowbronite"
+  description: "This stone enables Slowbro to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "slowbronite"
+  palette: "slowbronite"
+}
+item {
+  id: ITEM_STEELIXITE
+  name: "Steelixite"
+  description: "This stone enables Steelix to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "steelixite"
+  palette: "steelixite"
+}
+item {
+  id: ITEM_PIDGEOTITE
+  name: "Pidgeotite"
+  description: "This stone enables Pidgeot to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "pidgeotite"
+  palette: "pidgeotite"
+}
+item {
+  id: ITEM_GLALITITE
+  name: "Glalitite"
+  description: "This stone enables Glalie to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "glalitite"
+  palette: "glalitite"
+}
+item {
+  id: ITEM_DIANCITE
+  name: "Diancite"
+  description: "This stone enables Diancie to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "diancite"
+  palette: "diancite"
+}
+item {
+  id: ITEM_MILOTICITE
+  name: "Miloticite"
+  description: "This stone enables Milotic to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "miloticite"
+  palette: "miloticite"
+}
+item {
+  id: ITEM_BUTTERFRENITE
+  name: "Butterfrenite"
+  description: "This stone enables Butterfree to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "butterfrenite"
+  palette: "butterfrenite"
+}
+item {
+  id: ITEM_MACHAMPITE
+  name: "Machampite"
+  description: "This stone enables Machamp to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "machampite"
+  palette: "machampite"
+}
+item {
+  id: ITEM_KINGLERITE
+  name: "Kinglerite"
+  description: "This stone enables Kingler to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "kinglerite"
+  palette: "kinglerite"
+}
+item {
+  id: ITEM_LAPRASITE_Y
+  name: "Laprasite Y"
+  description: "This stone enables Lapras to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "laprasite"
+  palette: "laprasite"
+}
+item {
+  id: ITEM_LAPRASITE_X
+  name: "Laprasite X"
+  description: "This stone enables Lapras to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "laprasite"
+  palette: "laprasite"
+}
+item {
+  id: ITEM_KINGDRANITE
+  name: "Kingdranite"
+  description: "This stone enables Kingdra to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "kingdranite"
+  palette: "kingdranite"
+}
+item {
+  id: ITEM_KINGDRANITE_Y
+  name: "Kingdranite Y"
+  description: "This stone enables Kingdra to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "kingdranite"
+  palette: "kingdranite"
+}
+item {
+  id: ITEM_DEWGONGITE
+  name: "Dewgongite"
+  description: "This stone enables Dewgong to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "dewgongite"
+  palette: "dewgongite"
+}
+item {
+  id: ITEM_HITMONCHANITE
+  name: "Hitmonchanite"
+  description: "This stone enables Hitmonchan to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_HITMONLEENITE
+  name: "Hitmonleenite"
+  description: "This stone enables Hitmonlee to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonlite"
+}
+item {
+  id: ITEM_HITMONTOPITE
+  name: "Hitmontopite"
+  description: "This stone enables Hitmontop to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmontopite"
+}
+item {
+  id: ITEM_CROBATITE
+  name: "Crobatite"
+  description: "This stone enables Crobat to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "crobatite"
+  palette: "crobatite"
+}
+item {
+  id: ITEM_SKARMORITE
+  name: "Skarmorite"
+  description: "This stone enables Skarmory to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_BRUXISHITE
+  name: "Bruxishite"
+  description: "This stone enables Bruxish to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "bruxishite"
+  palette: "bruxishite"
+}
+item {
+  id: ITEM_TORTERRANITE
+  name: "Torterranite"
+  description: "This stone enables Torterra to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_INFERNAPENITE
+  name: "Infernapite"
+  description: "This stone enables Infernape to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "infernapenite"
+}
+item {
+  id: ITEM_EMPOLEONITE
+  name: "Empoleonite"
+  description: "This stone enables Empoleon to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "empoleonite"
+  palette: "empoleonite"
+}
+item {
+  id: ITEM_SHUCKLENITE
+  name: "Shucklenite"
+  description: "This stone enables Shuckle to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_RELICANTHITE
+  name: "Relicanthite"
+  description: "This stone enables Relicanth to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_QUAGSIRENITE
+  name: "Quagsirenite"
+  description: "This stone enables Quagsire to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_JELLICENTITE
+  name: "Jellicentite"
+  description: "This stone enables Jellicent to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_TOUCANNONITE
+  name: "Toucannonite"
+  description: "This stone enables Toucannon to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_DRAGONITENITE
+  name: "Dragonitenite"
+  description: "This stone enables Dragonite to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "dragonitenite"
+  palette: "dragonitenite"
+}
+item {
+  id: ITEM_BRELOOMITE
+  name: "Breloomite"
+  description: "This stone enables Breloom to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "breloomite"
+  palette: "breloomite"
+}
+item {
+  id: ITEM_SLAKINGITE
+  name: "Slakingite"
+  description: "This stone enables Slaking to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_GYARADOSITE_Y
+  name: "Gyaradosite Y"
+  description: "This stone enables Gyarados to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "gyaradosite_y"
+}
+item {
+  id: ITEM_FERALIGATRITE_X
+  name: "Feraligatrite X"
+  description: "This stone enables Feraligatr to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "feraligatrite_x"
+  palette: "feraligatrite_x"
+}
+item {
+  id: ITEM_FERALIGATRITE_Y
+  name: "Feraligatrite Y"
+  description: "This stone enables Feraligatr to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "feraligatrite_y"
+  palette: "feraligatrite_y"
+}
+item {
+  id: ITEM_HAXORUSITE
+  name: "Haxorusite"
+  description: "This stone enables Haxorus to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "haxorusite"
+}
+item {
+  id: ITEM_LUXRAYNITE
+  name: "Luxraynite"
+  description: "This stone enables Luxray to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_GRANBULLITE
+  name: "Granbullite"
+  description: "This stone enables Granbull to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "granbullite"
+}
+item {
+  id: ITEM_TYPHLOSIONITE
+  name: "Typhlosionite"
+  description: "This stone enables Typhlosion to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_NIDOQUEENITE
+  name: "Nidoqueenite"
+  description: "This stone enables Nidoqueen to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_NIDOKINGITE
+  name: "Nidokingite"
+  description: "This stone enables Nidoking to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SANDSLASHITE
+  name: "Sandslashite"
+  description: "This stone enables Sandslash to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_MEGANIUMITE
+  name: "Meganiumite"
+  description: "This stone enables Meganium to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_KROOKODILENITE
+  name: "Krookodilenite"
+  description: "This stone enables Krookodile to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_MAGNEZONITE
+  name: "Magnezonite"
+  description: "This stone enables Magnezone to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SHEDINJITE
+  name: "Shedinjite"
+  description: "This stone enables Shedinja to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SWALOTITE
+  name: "Swalotite"
+  description: "This stone enables Swalot to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_LANTURNITE
+  name: "Lanturnite"
+  description: "This stone enables Lanturn to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SLOWKINGITE
+  name: "Slowkingite"
+  description: "This stone enables Slowking to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_PURPLE_ORB
+  name: "Purple Orb"
+  description: "A purple, glowing orb said to contain an ancient power."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "purple_orb"
+  palette: "purple_orb"
+}
+item {
+  id: ITEM_FLYGONITE
+  name: "Flygonite"
+  description: "This stone enables Flygon to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "flygonite"
+  palette: "flygonite"
+}
+item {
+  id: ITEM_CAMERUPTITE
+  name: "Cameruptite"
+  description: "This stone enables Camerupt to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "cameruptite"
+  palette: "cameruptite"
+}
+item {
+  id: ITEM_LOPUNNITE
+  name: "Lopunnite"
+  description: "This stone enables Lopunny to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "lopunnite"
+  palette: "lopunnite"
+}
+item {
+  id: ITEM_SALAMENCITE
+  name: "Salamencite"
+  description: "This stone enables Salamence to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "salamencite"
+  palette: "salamencite"
+}
+item {
+  id: ITEM_BEEDRILLITE
+  name: "Beedrillite"
+  description: "This stone enables Beedrill to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "beedrillite"
+  palette: "beedrillite"
+}
+item {
+  id: ITEM_KINGAMBITITE_R
+  name: "Kingambitite R"
+  description: "This stone enables Kingambit to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_DURALUDITE
+  name: "Duraludite"
+  description: "This stone enables DuraludonP. to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_RIBOMBITE
+  name: "Ribombite"
+  description: "This stone enables Ribombee to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_GARCHOMPITE_R
+  name: "Garchompite R"
+  description: "This stone enables Garchomp to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "garchompite_r"
+}
+item {
+  id: ITEM_MAWILITE_R
+  name: "Mawilite R"
+  description: "This stone enables Mawile R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_URSALUNITE
+  name: "Ursalunite"
+  description: "This stone enables Ursaring to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_ARCANITE_R
+  name: "Arcanite R"
+  description: "This stone enables Arcanine R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_TYRANITARITE_R
+  name: "Tyranitarite R"
+  description: "This stone enables Tyranitar R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SABLENITE_R
+  name: "Sablenite R"
+  description: "This stone enables Sableye R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_SKARMORITE_R
+  name: "Skarmorite R"
+  description: "This stone enables Skarmory R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_MACHAMPITE_R
+  name: "Machampite R"
+  description: "This stone enables Machamp R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_ALAKAZITE_R
+  name: "Alakazite R"
+  description: "This stone enables Alakazam R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "alakazite_r"
+  palette: "alakazite_r"
+}
+item {
+  id: ITEM_BEEDRILLITE_R
+  name: "Beedrillite R"
+  description: "This stone enables Beedrill R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "beedrillite_r"
+  palette: "beedrillite_r"
+}
+item {
+  id: ITEM_HOUNDOOMINITE_R
+  name: "Houndoominite R"
+  description: "This stone enables Houndoom R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "houndoomite_r"
+}
+item {
+  id: ITEM_FROSLASSITE
+  name: "Froslassite"
+  description: "This stone enables Froslass to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite"
+  palette: "froslassite"
+}
+item {
+  id: ITEM_SCRAFTITE
+  name: "Scraftite"
+  description: "This stone enables Scrafty to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "generic_megastone"
+}
+item {
+  id: ITEM_ULTRANECROZIUM_Z
+  name: "U-Necrozium Z"
+  description: "A crystal to turn fused Necrozma into a new form."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "ultranecrozium_z"
+  palette: "ultranecrozium_z"
+}
+item {
+  id: ITEM_CHIEN_PAOITE
+  name: "Chien-Paoite"
+  description: "This stone enables Chien-Pao to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_DRACOVISHITE
+  name: "Dracovishite"
+  description: "This stone enables Dracovish to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_MAWILITE_R_B
+  name: "Mawilite P"
+  description: "This stone enables Mawile R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_FIDOUGHITE
+  name: "Fidoughite"
+  description: "This stone enables FidoughP. to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_RIBOMBITE_R
+  name: "Ribombite R"
+  description: "This stone enables Ribombee R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_ABOMASITE_S
+  name: "Abomasite S"
+  description: "This stone enables Abomasnow to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+}
+item {
+  id: ITEM_WEAVILEITE_R
+  name: "Weavilite R"
+  description: "This stone enables Weavile R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_FLYGONITE_R_B
+  name: "Flygonite E"
+  description: "This stone enables Flygon R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SNORLAX_ORB
+  name: "Dream Orb"
+  description: "This stone enables Snorlax to Primal Reverse in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_VICTINI_ORB
+  name: "Lucky Orb"
+  description: "This stone enables Victini to Primal Reverse in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_WIGGLITUFF_ORB
+  name: "Ancient Apple"
+  description: "This stone enables Wigglytuff-A to Primal Reverse in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "tart_apple"
+  palette: "tart_apple"
+}
+item {
+  id: ITEM_WIGGLYTUFFITE
+  name: "Wigglytuffite Y"
+  description: "This stone enables Wigglytuff to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "wigglytuffite"
+  palette: "wigglytuffite"
+}
+item {
+  id: ITEM_WIGGLYTUFFITE_X
+  name: "Wigglytuffite X"
+  description: "This stone enables Wigglytuff to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "wigglytuffite"
+  palette: "wigglytuffite"
+}
+item {
+  id: ITEM_SENZU
+  name: "Senzu Bean"
+  description: "This bean enables Lucario to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "senzu"
+  palette: "senzu"
+}
+item {
+  id: ITEM_TINKATITE
+  name: "Tinkatite"
+  description: "This stone enables Tinkaton to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "tinkatite"
+  palette: "tinkatite"
+}
+item {
+  id: ITEM_GYARADEATHITE_X
+  name: "Gyaradeathite"
+  description: "This stone enables Gyaradeath to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gyaradeathite_x"
+  palette: "gyaradeathite_x"
+}
+item {
+  id: ITEM_GYARADEATHITE_Y
+  name: "Gyaradeathite Y"
+  description: "This stone enables Gyaradeath to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "gyaradeathite_y"
+  palette: "gyaradeathite_y"
+}
+item {
+  id: ITEM_AEGISLASHITE_R
+  name: "Aegislashite R"
+  description: "This stone enables Aegislash R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "aegislashite_R"
+  palette: "aegislashite_R"
+}
+item {
+  id: ITEM_CLEFABITE_R
+  name: "Clefabite R"
+  description: "This stone enables Clefable R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "clefabite_R"
+  palette: "clefabite_R"
+}
+item {
+  id: ITEM_FLYGONITE_R
+  name: "Flygonite R"
+  description: "This stone enables Flygon R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "flygonite_R"
+  palette: "flygonite_R"
+}
+item {
+  id: ITEM_EMPOLEONITE_R
+  name: "Empoleonite R"
+  description: "This stone enables Empoleon R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "empoleonite_R"
+  palette: "empoleonite_R"
+}
+item {
+  id: ITEM_ARBOKITE
+  name: "Arbokite"
+  description: "This stone enables Arbok to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "arbokite"
+  palette: "arbokite"
+}
+item {
+  id: ITEM_FROSLASSITE_R
+  name: "Froslassite R"
+  description: "This stone enables Flygon R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "froslassite_R"
+  palette: "froslassite_R"
+}
+item {
+  id: ITEM_GLALITITE_R
+  name: "Glalitite R"
+  description: "This stone enables Glalie R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "glalitite_R"
+  palette: "glalitite_R"
+}
+item {
+  id: ITEM_GOLISOPODITE
+  name: "Golisopodite"
+  description: "This stone enables Golisopod to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "golisopodite"
+  palette: "golisopodite"
+}
+item {
+  id: ITEM_RAPIDASHITE_G
+  name: "Rapidashite G"
+  description: "This stone enables Rapidash G to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "rapidashite_G"
+  palette: "rapidashite_G"
+}
+item {
+  id: ITEM_HYDREIGONITE_R
+  name: "Hydreigonite R"
+  description: "This stone enables Hydreigon R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "hydreigonite_R"
+  palette: "hydreigonite_R"
+}
+item {
+  id: ITEM_INFERNAPENITE_R
+  name: "Infernapite R"
+  description: "This stone enables Infernape R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "infernapenite_R"
+  palette: "infernapenite_R"
+}
+item {
+  id: ITEM_TSAREENITE_R
+  name: "Tsareenite R"
+  description: "This stone enables Tsareena R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "tsareenite_R"
+  palette: "tsareenite_R"
+}
+item {
+  id: ITEM_TOXTRICITITE_R
+  name: "Toxtricitite R"
+  description: "This stone enables Toxtricity R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "toxtricitite_R"
+  palette: "toxtricitite_R"
+}
+item {
+  id: ITEM_TORTERRANITE_R
+  name: "Torterranite R"
+  description: "This stone enables Torterra R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "torterranite_R"
+  palette: "torterranite_R"
+}
+item {
+  id: ITEM_REUNICLUSITE_R
+  name: "Reuniclusite R"
+  description: "This stone enables Reuniclus R to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "reuniclusite_R"
+  palette: "reuniclusite_R"
+}
+item {
+  id: ITEM_CORMOTHITE
+  name: "Cormothite"
+  description: "This stone enables Cormoth to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "cormothite"
+  palette: "cormothite"
+}
+item {
+  id: ITEM_POPCORMITE
+  name: "Popcormite"
+  description: "This stone enables Popcorm to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "popcormite"
+  palette: "popcormite"
+}
+item {
+  id: ITEM_ORICORIONITE
+  name: "Oricorionite"
+  description: "This stone enables Oricorio to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "oricorionite"
+  palette: "oricorionite"
+}
+item {
+  id: ITEM_RAPIDASHITE
+  name: "Rapidashite"
+  description: "This stone enables Rapidash to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "rapidashite"
+  palette: "rapidashite"
+}
+item {
+  id: ITEM_URSHIFITE
+  name: "Urshifite"
+  description: "This stone enables Urshifu to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "urshifite"
+  palette: "urshifite"
+}
+item {
+  id: ITEM_MELMETALITE
+  name: "Melmetalite"
+  description: "This stone enables Melmetal to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "melmetalite"
+  palette: "melmetalite"
+}
+item {
+  id: ITEM_AMPHYBUZZITE
+  name: "Amphybuzzite"
+  description: "This stone enables Amphybuzz to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "amphybuzzite"
+  palette: "amphybuzzite"
+}
+item {
+  id: ITEM_SNORLAXITE
+  name: "Snorlaxite"
+  description: "This stone enables Snorlax to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_RILLABOOMITE
+  name: "Rillaboomite"
+  description: "This stone enables Rillaboom to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_CINDERACEITE
+  name: "Cinderaceite"
+  description: "This stone enables Cinderace to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_INTELEONITE
+  name: "Inteleonite"
+  description: "This stone enables Inteleon to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_CORVINITE
+  name: "Corvinite"
+  description: "This stone enables Corviknight to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_DREDNAWITE
+  name: "Drednawite"
+  description: "This stone enables Drednaw to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_COALOSSITE
+  name: "Coalossite"
+  description: "This stone enables Coalossal to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SANDACONDITE
+  name: "Sandacondite"
+  description: "This stone enables Sandaconda to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_COPPERAJITE
+  name: "Copperajite"
+  description: "This stone enables Copperajah to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_HATTERENITE
+  name: "Hatterenite"
+  description: "This stone enables Hatterene to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_GARBODORITE
+  name: "Garbodorite"
+  description: "This stone enables Garbodor to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_ORBEETITE
+  name: "Orbeetite"
+  description: "This stone enables Orbeetle to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_GRIMMSNARLITE
+  name: "Grimmsnarlite"
+  description: "This stone enables Grimmsnarl to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_CENTISKITE
+  name: "Centiskite"
+  description: "This stone enables Centiskorch to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_ALCREMITE
+  name: "Alcremite"
+  description: "This stone enables Alcremie to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_TOXTRICITITE
+  name: "Toxtricitite"
+  description: "This stone enables Toxtricity to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_PIKANITE
+  name: "Pikanite"
+  description: "This stone enables P.Pikachu to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_EEVITE
+  name: "Eevite"
+  description: "This stone enables P.Eevee to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_MEOWTHITE
+  name: "Meowthite"
+  description: "This stone enables P.Meowth to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_YVELTALITE
+  name: "Yveltalite"
+  description: "This stone enables Yveltal to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_DYNAMAX_ORB
+  name: "Dynamax Orb"
+  description: "This stone enables Eternatus to Primal Revert in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "purple_orb"
+  palette: "purple_orb"
+}
+item {
+  id: ITEM_PHANTOM_METEOR
+  name: "Phantom Meteor"
+  description: "This stone enables MimikyuApex to Primal Revert in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "meteorite"
+  palette: "meteorite"
+}
+item {
+  id: ITEM_GALACTIC_ORB
+  name: "Galactic Orb"
+  description: "This stone enables Espeon to Primal Revert in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "purple_orb"
+  palette: "purple_orb"
+}
+item {
+  id: ITEM_TERA_ORB
+  name: "Tera Orb"
+  description: "This stone enables Terapagos to Primal Revert in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_PRIMAL_ORB
+  image: "tera_orb"
+  palette: "tera_orb"
+}
+item {
+  id: ITEM_WEAVILEITE
+  name: "Weavileite"
+  description: "This stone enables Weavile to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SERPERIORITE
+  name: "Serperiorite"
+  description: "This stone enables Serperior to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_EMBOARITE
+  name: "Emboarite"
+  description: "This stone enables Emboar to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SAMUROTTITE
+  name: "Samurottite"
+  description: "This stone enables Samurott to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SAMUROTTITE_H
+  name: "Samurottite H"
+  description: "This stone enables Samurott H to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_DECIDUITE
+  name: "Deciduite"
+  description: "This stone enables Decidueye to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_DECIDUITE_H
+  name: "Deciduite H"
+  description: "This stone enables Decidueye H to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_INCINERITE
+  name: "Incinerite"
+  description: "This stone enables Incineroar to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_MEOWSCARADITE
+  name: "Meowscaradite"
+  description: "This stone enables Meowscarada to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_PRIMARINITE
+  name: "Primarinite"
+  description: "This stone enables Primarina to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_QUAQUAVITE
+  name: "Quaquavite"
+  description: "This stone enables Quaquaval to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SKELEDIRGEITE
+  name: "Skeledirgeite"
+  description: "This stone enables Skeledirge to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_TYPHLOSIONITE_H
+  name: "Typhlosionite H"
+  description: "This stone enables Typhlosion H to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_MIENSHAOITE
+  name: "Mienshaoite"
+  description: "This stone enables Mienshao to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_GOODRITE
+  name: "Goodranite"
+  description: "This stone enables Goodra to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_SLOWBRONITE_G
+  name: "Slowbronite G"
+  description: "This stone enables Slowbro-G to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "slowbronite"
+  palette: "slowbronite"
+}
+item {
+  id: ITEM_SLOWKINGITE_G
+  name: "Slowkingite G"
+  description: "This stone enables Slowking-G to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_ROSERADEITE
+  name: "Roseradite"
+  description: "This stone enables Roserade to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+item {
+  id: ITEM_ARCANITE
+  name: "Arcanite"
+  description: "This stone enables Arcanine to Mega Evolve in battle."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+}
+
