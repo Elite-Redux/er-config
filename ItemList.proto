@@ -3,7 +3,6 @@ syntax = "proto3";
 package er;
 
 import "ItemEnum.proto";
-import "MegaEnum.proto";
 import "Types.proto";
 
 option java_package = "er.proto";

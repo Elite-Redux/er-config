@@ -1,3 +1,6 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
 item {
   id: ITEM_BERRY_JUICE
   name: "Berry Juice"
