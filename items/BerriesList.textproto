@@ -11,6 +11,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "cheri_berry"
   palette: "cheri_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_CHESTO_BERRY
@@ -22,6 +24,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "chesto_berry"
   palette: "chesto_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_PECHA_BERRY
@@ -33,6 +37,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "pecha_berry"
   palette: "pecha_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_RAWST_BERRY
@@ -44,6 +50,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "rawst_berry"
   palette: "rawst_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_ASPEAR_BERRY
@@ -55,6 +63,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "aspear_berry"
   palette: "aspear_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_LEPPA_BERRY
@@ -67,6 +77,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "leppa_berry"
   palette: "leppa_berry"
+  field_use_func: "PPRecovery"
+  battle_use_func: "PPRecovery"
 }
 item {
   id: ITEM_ORAN_BERRY
@@ -78,6 +90,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "oran_berry"
   palette: "oran_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_PERSIM_BERRY
@@ -88,6 +102,7 @@ item {
   hold_effect_alias: "CURE_CONFUSION"
   image: "persim_berry"
   palette: "persim_berry"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_LUM_BERRY
@@ -99,6 +114,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "lum_berry"
   palette: "lum_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_SITRUS_BERRY
@@ -111,6 +128,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "sitrus_berry"
   palette: "sitrus_berry"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_FIGY_BERRY
@@ -170,7 +189,7 @@ item {
 item {
   id: ITEM_RAZZ_BERRY
   name: "Razz Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Razz."
+  description: "Plant in loamy soil to grow Razz."
   grouping: POCKET_BERRIES
   image: "razz_berry"
   palette: "razz_berry"
@@ -178,7 +197,7 @@ item {
 item {
   id: ITEM_BLUK_BERRY
   name: "Bluk Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Bluk."
+  description: "Plant in loamy soil to grow Bluk."
   grouping: POCKET_BERRIES
   image: "bluk_berry"
   palette: "bluk_berry"
@@ -186,7 +205,7 @@ item {
 item {
   id: ITEM_NANAB_BERRY
   name: "Nanab Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Nanab."
+  description: "Plant in loamy soil to grow Nanab."
   grouping: POCKET_BERRIES
   image: "nanab_berry"
   palette: "nanab_berry"
@@ -194,7 +213,7 @@ item {
 item {
   id: ITEM_WEPEAR_BERRY
   name: "Wepear Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Wepear."
+  description: "Plant in loamy soil to grow Wepear."
   grouping: POCKET_BERRIES
   image: "wepear_berry"
   palette: "wepear_berry"
@@ -202,7 +221,7 @@ item {
 item {
   id: ITEM_PINAP_BERRY
   name: "Pinap Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Pinap."
+  description: "Plant in loamy soil to grow Pinap."
   grouping: POCKET_BERRIES
   image: "pinap_berry"
   palette: "pinap_berry"
@@ -215,6 +234,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "pomeg_berry"
   palette: "pomeg_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_KELPSY_BERRY
@@ -224,6 +244,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "kelpsy_berry"
   palette: "kelpsy_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_QUALOT_BERRY
@@ -233,6 +254,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "qualot_berry"
   palette: "qualot_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_HONDEW_BERRY
@@ -242,6 +264,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "hondew_berry"
   palette: "hondew_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_GREPA_BERRY
@@ -251,6 +274,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "grepa_berry"
   palette: "grepa_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_TAMATO_BERRY
@@ -260,11 +284,12 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "tamato_berry"
   palette: "tamato_berry"
+  field_use_func: "ReduceEV"
 }
 item {
   id: ITEM_CORNN_BERRY
   name: "Cornn Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Cornn."
+  description: "Plant in loamy soil to grow Cornn."
   grouping: POCKET_BERRIES
   image: "cornn_berry"
   palette: "cornn_berry"
@@ -272,7 +297,7 @@ item {
 item {
   id: ITEM_MAGOST_BERRY
   name: "Magost Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Magost."
+  description: "Plant in loamy soil to grow Magost."
   grouping: POCKET_BERRIES
   image: "magost_berry"
   palette: "magost_berry"
@@ -280,7 +305,7 @@ item {
 item {
   id: ITEM_RABUTA_BERRY
   name: "Rabuta Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Rabuta."
+  description: "Plant in loamy soil to grow Rabuta."
   grouping: POCKET_BERRIES
   image: "rabuta_berry"
   palette: "rabuta_berry"
@@ -288,7 +313,7 @@ item {
 item {
   id: ITEM_NOMEL_BERRY
   name: "Nomel Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Nomel."
+  description: "Plant in loamy soil to grow Nomel."
   grouping: POCKET_BERRIES
   image: "nomel_berry"
   palette: "nomel_berry"
@@ -296,7 +321,7 @@ item {
 item {
   id: ITEM_SPELON_BERRY
   name: "Spelon Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Spelon."
+  description: "Plant in loamy soil to grow Spelon."
   grouping: POCKET_BERRIES
   image: "spelon_berry"
   palette: "spelon_berry"
@@ -304,7 +329,7 @@ item {
 item {
   id: ITEM_PAMTRE_BERRY
   name: "Pamtre Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Pamtre."
+  description: "Plant in loamy soil to grow Pamtre."
   grouping: POCKET_BERRIES
   image: "pamtre_berry"
   palette: "pamtre_berry"
@@ -312,7 +337,7 @@ item {
 item {
   id: ITEM_WATMEL_BERRY
   name: "Watmel Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Watmel."
+  description: "Plant in loamy soil to grow Watmel."
   grouping: POCKET_BERRIES
   image: "watmel_berry"
   palette: "watmel_berry"
@@ -320,7 +345,7 @@ item {
 item {
   id: ITEM_DURIN_BERRY
   name: "Durin Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Durin."
+  description: "Plant in loamy soil to grow Durin."
   grouping: POCKET_BERRIES
   image: "durin_berry"
   palette: "durin_berry"
@@ -328,7 +353,7 @@ item {
 item {
   id: ITEM_BELUE_BERRY
   name: "Belue Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow Belue."
+  description: "Plant in loamy soil to grow Belue."
   grouping: POCKET_BERRIES
   image: "belue_berry"
   palette: "belue_berry"
@@ -649,8 +674,10 @@ item {
 item {
   id: ITEM_ENIGMA_BERRY
   name: "Enigma Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow a mystery."
+  description: "Plant in loamy soil to grow a mystery."
   grouping: POCKET_BERRIES
   image: "enigma_berry"
   palette: "enigma_berry"
+  field_use_func: "EnigmaBerry"
+  battle_use_func: "EnigmaBerry"
 }

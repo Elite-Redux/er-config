@@ -11,6 +11,8 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "berry_juice"
   palette: "berry_juice"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
 }
 item {
   id: ITEM_THROAT_SPRAY
@@ -24,7 +26,7 @@ item {
 item {
   id: ITEM_BIG_ROOT
   name: "Big Root"
-  description: "A held item that boosts the power of HP-stealing moves."
+  description: "Boosts the power of the holder's HP-stealing moves."
   grouping: POCKET_MEDICINE
   hold_effect: HOLD_EFFECT_CUSTOM
   hold_effect_strength: 30

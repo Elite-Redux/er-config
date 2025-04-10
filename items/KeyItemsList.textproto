@@ -9,6 +9,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "escape_rope"
   palette: "escape_rope"
+  field_use_func: "EscapeRope"
 }
 item {
   id: ITEM_OLD_ROD
@@ -19,6 +20,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "old_rod"
   palette: "old_rod"
+  field_use_func: "Rod"
 }
 item {
   id: ITEM_GOOD_ROD
@@ -29,6 +31,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "good_rod"
   palette: "good_rod"
+  field_use_func: "Rod"
 }
 item {
   id: ITEM_SUPER_ROD
@@ -39,6 +42,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "super_rod"
   palette: "super_rod"
+  field_use_func: "Rod"
 }
 item {
   id: ITEM_MACH_BIKE
@@ -49,6 +53,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "mach_bike"
   palette: "mach_bike"
+  field_use_func: "Bike"
 }
 item {
   id: ITEM_ACRO_BIKE
@@ -59,6 +64,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "acro_bike"
   palette: "acro_bike"
+  field_use_func: "Bike"
 }
 item {
   id: ITEM_INFINITE_REPEL
@@ -68,6 +74,127 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "repel"
   palette: "infinite_repel"
+  field_use_func: "InfiniteRepel"
+}
+item {
+  id: ITEM_ARMOR_FOSSIL
+  name: "Armor Fossil"
+  description: "A piece of a prehistoric Pok\303\251- mon\'s head."
+  grouping: POCKET_KEY_ITEMS
+  image: "armor_fossil"
+  palette: "armor_fossil"
+}
+item {
+  id: ITEM_SKULL_FOSSIL
+  name: "Skull Fossil"
+  description: "A piece of a prehistoric Pok\303\251- mon\'s head."
+  grouping: POCKET_KEY_ITEMS
+  image: "skull_fossil"
+  palette: "skull_fossil"
+}
+item {
+  id: ITEM_HELIX_FOSSIL
+  name: "Helix Fossil"
+  description: "A piece of an ancient marine Pok\303\251mon\'s seashell."
+  grouping: POCKET_KEY_ITEMS
+  image: "helix_fossil"
+  palette: "kanto_fossil"
+}
+item {
+  id: ITEM_DOME_FOSSIL
+  name: "Dome Fossil"
+  description: "A piece of an ancient marine Pok\303\251mon\'s shell."
+  grouping: POCKET_KEY_ITEMS
+  image: "dome_fossil"
+  palette: "kanto_fossil"
+}
+item {
+  id: ITEM_COVER_FOSSIL
+  name: "Cover Fossil"
+  description: "A piece of a prehistoric Pok\303\251-mon\'s back."
+  grouping: POCKET_KEY_ITEMS
+  image: "cover_fossil"
+  palette: "cover_fossil"
+}
+item {
+  id: ITEM_PLUME_FOSSIL
+  name: "Plume Fossil"
+  description: "A piece of a prehistoric Pok\303\251-mon\'s wing."
+  grouping: POCKET_KEY_ITEMS
+  image: "plume_fossil"
+  palette: "plume_fossil"
+}
+item {
+  id: ITEM_JAW_FOSSIL
+  name: "Jaw Fossil"
+  description: "A piece of a prehis-toric Pok\303\251mon\'s large jaw."
+  grouping: POCKET_KEY_ITEMS
+  image: "jaw_fossil"
+  palette: "jaw_fossil"
+}
+item {
+  id: ITEM_SAIL_FOSSIL
+  name: "Sail Fossil"
+  description: "A piece of a prehis-toric Pok\303\251mon\'s skin sail."
+  grouping: POCKET_KEY_ITEMS
+  image: "sail_fossil"
+  palette: "sail_fossil"
+}
+item {
+  id: ITEM_ROOT_FOSSIL
+  name: "Root Fossil"
+  description: "A fossil of an ancient, seafloor-dwelling Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "root_fossil"
+  palette: "hoenn_fossil"
+}
+item {
+  id: ITEM_CLAW_FOSSIL
+  name: "Claw Fossil"
+  description: "A fossil of an ancient, seafloor-dwelling Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "claw_fossil"
+  palette: "hoenn_fossil"
+}
+item {
+  id: ITEM_FOSSILIZED_BIRD
+  name: "Fossilized Bird"
+  description: "The fossil of an ancient, bird-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_bird"
+  palette: "fossilized_bird"
+}
+item {
+  id: ITEM_FOSSILIZED_FISH
+  name: "Fossilized Fish"
+  description: "The fossil of an ancient, fish-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_fish"
+  palette: "fossilized_fish"
+}
+item {
+  id: ITEM_FOSSILIZED_DRAKE
+  name: "Fossilized Drake"
+  description: "The fossil of an ancient, drake-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_drake"
+  palette: "fossilized_drake"
+}
+item {
+  id: ITEM_FOSSILIZED_DINO
+  name: "Fossilized Dino"
+  description: "The fossil of an ancient, dino-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_dino"
+  palette: "fossilized_dino"
+}
+item {
+  id: ITEM_OLD_AMBER
+  name: "Old Amber"
+  description: "A stone containing the genes of an ancient Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "old_amber"
+  palette: "old_amber"
 }
 item {
   id: ITEM_POKE_VIAL
@@ -77,6 +204,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "poke_vial"
   palette: "poke_vial"
+  field_use_func: "PokeVial"
 }
 item {
   id: ITEM_COIN_CASE
@@ -85,6 +213,7 @@ item {
   grouping: POCKET_KEY_ITEMS
   image: "coin_case"
   palette: "coin_case"
+  field_use_func: "CoinCase"
 }
 item {
   id: ITEM_SS_TICKET
@@ -102,6 +231,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "itemfinder"
   palette: "itemfinder"
+  field_use_func: "Itemfinder"
 }
 item {
   id: ITEM_CONTEST_PASS
@@ -119,6 +249,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "wailmer_pail"
   palette: "wailmer_pail"
+  field_use_func: "WailmerPail"
 }
 item {
   id: ITEM_DEVON_GOODS
@@ -152,6 +283,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "pokeblock_case"
   palette: "pokeblock_case"
+  field_use_func: "EggIncubator"
 }
 item {
   id: ITEM_LETTER
@@ -253,7 +385,7 @@ item {
 item {
   id: ITEM_LUNAR_WING
   name: "Lunar Wing"
-  description: "A feather that glows like the moon. Said to stop nightmares."
+  description: "A feather that glows like the moon."
   grouping: POCKET_KEY_ITEMS
   image: "lunar_wing"
   palette: "lunar_wing"
@@ -428,6 +560,7 @@ item {
   grouping: POCKET_KEY_ITEMS
   image: "powder_jar"
   palette: "powder_jar"
+  field_use_func: "PowderJar"
 }
 item {
   id: ITEM_RUBY
@@ -546,7 +679,7 @@ item {
 item {
   id: ITEM_WOODEN_CROWN
   name: "Wooden Crown"
-  description: "A mysterious wooden object. Is it meant for something?"
+  description: "A mysterious wooden object."
   grouping: POCKET_KEY_ITEMS
   image: "wooden_crown"
   palette: "wooden_crown"
@@ -567,6 +700,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "oaks_parcel"
   palette: "oaks_parcel"
+  field_use_func: "CandyBox"
 }
 item {
   id: ITEM_REVEAL_GLASS
@@ -576,6 +710,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "reveal_glass"
   palette: "reveal_glass"
+  field_use_func: "RevealGlass"
 }
 item {
   id: ITEM_DNA_SPLICERS
@@ -585,6 +720,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "dna_splicers"
   palette: "dna_splicers"
+  field_use_func: "DNASplicers"
 }
 item {
   id: ITEM_GRACIDEA
@@ -595,6 +731,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "gracidea"
   palette: "gracidea"
+  field_use_func: "Gracidea"
 }
 item {
   id: ITEM_PRISON_BOTTLE
@@ -604,6 +741,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "prison_bottle"
   palette: "prison_bottle"
+  field_use_func: "PrisonBottle"
 }
 item {
   id: ITEM_N_LUNARIZER
@@ -613,6 +751,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "n_lunarizer"
   palette: "n_lunarizer"
+  field_use_func: "NLunarizer"
 }
 item {
   id: ITEM_N_SOLARIZER
@@ -622,5 +761,5 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "n_solarizer"
   palette: "n_solarizer"
+  field_use_func: "NSolarizer"
 }
-

@@ -69,7 +69,7 @@ item {
 item {
   id: ITEM_LIFE_ORB
   name: "Life Orb"
-  description: "Boosts the power of moves at the cost of some HP per turn."
+  description: "Boosts the power of moves at the cost of HP."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "life_orb"
@@ -143,7 +143,7 @@ item {
 item {
   id: ITEM_HEAVY_DUTY_BOOTS
   name: "Heavy-Duty Boots"
-  description: "These boots prevent the effects of traps in battle."
+  description: "Makes the wearer immune to battle hazards."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "heavy_duty_boots"
@@ -371,6 +371,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "kings_rock"
   palette: "kings_rock"
+  field_use_func: "EvolutionStone"
 }
 item {
   id: ITEM_MUSCLE_BAND
@@ -422,7 +423,7 @@ item {
 item {
   id: ITEM_COVERT_CLOAK
   name: "Covert Cloak"
-  description: "Protects the holder from secondary move effects."
+  description: "Protects from secondary move effects."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "covert_cloak"
@@ -436,6 +437,15 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "loaded_dice"
   palette: "loaded_dice"
+}
+item {
+  id: ITEM_SWIRLY_GLASSES
+  name: "Swirly Glasses"
+  description: "Swaps the split of attacking moves."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "swirly_glasses"
+  palette: "swirly_glasses"
 }
 item {
   id: ITEM_SILK_SCARF
@@ -547,6 +557,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "metal_coat"
   palette: "metal_coat"
+  field_use_func: "EvolutionStone"
 }
 item {
   id: ITEM_CHARCOAL
@@ -866,7 +877,7 @@ item {
 item {
   id: ITEM_MIND_PLATE
   name: "Mind Plate"
-  description: "A tablet that ups the power of Psy chic-type moves."
+  description: "A tablet that ups the power of Psy-chic-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
   hold_effect_strength: 20
@@ -910,7 +921,7 @@ item {
 item {
   id: ITEM_PIXIE_PLATE
   name: "Pixie Plate"
-  description: "A stone tablet that boosts the power of Fairy-type moves."
+  description: "A tablet that ups the power of Fairy-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
   hold_effect_strength: 20

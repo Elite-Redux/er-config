@@ -11,6 +11,7 @@ item {
   use_type: ITEM_USE_FIELD
   image: "honey"
   palette: "honey"
+  field_use_func: "Honey"
 }
 item {
   id: ITEM_IRON_PILL
@@ -20,6 +21,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "iron_pill"
   palette: "iron_pill"
+  field_use_func: "IronPill"
 }
 item {
   id: ITEM_SOUL_DEW
@@ -40,6 +42,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "deep_sea_scale"
   palette: "deep_sea_scale"
+  field_use_func: "EvolutionStone"
 }
 item {
   id: ITEM_DEEP_SEA_TOOTH
@@ -50,6 +53,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "deep_sea_tooth"
   palette: "deep_sea_tooth"
+  field_use_func: "EvolutionStone"
 }
 item {
   id: ITEM_LIGHT_BALL
@@ -107,6 +111,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "normal_gem"
   palette: "normal_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_FIGHTING_GEM
@@ -119,6 +124,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "fighting_gem"
   palette: "fighting_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_FLYING_GEM
@@ -131,6 +137,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "flying_gem"
   palette: "flying_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_POISON_GEM
@@ -143,6 +150,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "poison_gem"
   palette: "poison_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_GROUND_GEM
@@ -155,6 +163,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "ground_gem"
   palette: "ground_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_ROCK_GEM
@@ -167,6 +176,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "rock_gem"
   palette: "rock_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_BUG_GEM
@@ -179,6 +189,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "bug_gem"
   palette: "bug_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_GHOST_GEM
@@ -191,6 +202,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "ghost_gem"
   palette: "ghost_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_STEEL_GEM
@@ -203,6 +215,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "steel_gem"
   palette: "steel_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_FIRE_GEM
@@ -215,6 +228,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "fire_gem"
   palette: "fire_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_WATER_GEM
@@ -227,6 +241,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "water_gem"
   palette: "water_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_GRASS_GEM
@@ -239,6 +254,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "grass_gem"
   palette: "grass_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_ELECTRIC_GEM
@@ -251,6 +267,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "electric_gem"
   palette: "electric_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_PSYCHIC_GEM
@@ -263,6 +280,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "psychic_gem"
   palette: "psychic_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_ICE_GEM
@@ -275,6 +293,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "ice_gem"
   palette: "ice_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_DRAGON_GEM
@@ -287,6 +306,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "dragon_gem"
   palette: "dragon_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_DARK_GEM
@@ -299,6 +319,7 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "dark_gem"
   palette: "dark_gem"
+  field_use_func: "TypeGems"
 }
 item {
   id: ITEM_FAIRY_GEM
@@ -311,4 +332,5 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "fairy_gem"
   palette: "fairy_gem"
+  field_use_func: "TypeGems"
 }
