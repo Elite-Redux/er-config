@@ -1812,7 +1812,7 @@ item {
   id: ITEM_RUSTED_SWORD
   name: "Rusted Sword"
   description: "A rusty, worn sword used by an ancient hero."
-  grouping: POCKET_BATTLE
+  grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "rusted_sword"
   palette: "rusted_sword"
@@ -1821,7 +1821,7 @@ item {
   id: ITEM_RUSTED_SHIELD
   name: "Rusted Shield"
   description: "A rusty, worn shield used by an ancient hero."
-  grouping: POCKET_BATTLE
+  grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "rusted_shield"
   palette: "rusted_shield"

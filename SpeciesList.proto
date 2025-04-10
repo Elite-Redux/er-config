@@ -7,6 +7,7 @@ import "SpeciesEnum.proto";
 import "AbilityEnum.proto";
 import "Types.proto";
 import "Anims.proto";
+import "ItemEnum.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -58,7 +59,7 @@ message Species {
 
     SpeciesEnum from = 1;
     oneof evo_using {
-      string item = 2;
+      ItemEnum item = 2;
       MoveEnum move = 3;
     }
     MegaType type = 4;
@@ -73,7 +74,7 @@ message Species {
     }
 
     SpeciesEnum from = 1;
-    string item = 2;
+    ItemEnum item = 2;
     PrimalType type = 3;
   }
 

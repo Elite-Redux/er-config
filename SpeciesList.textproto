@@ -505,7 +505,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_VENUSAUR
-    item: "ITEM_VENUSAURITE"
+    item: ITEM_VENUSAURITE
     type: MEGA_Y
   }
   visuals {
@@ -550,7 +550,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_VENUSAUR
-    item: "ITEM_VENUSAURITE_X"
+    item: ITEM_VENUSAURITE_X
     type: MEGA_X
   }
   visuals {
@@ -1015,7 +1015,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CHARIZARD
-    item: "ITEM_CHARIZARDITE_X"
+    item: ITEM_CHARIZARDITE_X
     type: MEGA_X
   }
   visuals {
@@ -1058,7 +1058,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CHARIZARD
-    item: "ITEM_CHARIZARDITE_Y"
+    item: ITEM_CHARIZARDITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -1099,7 +1099,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CHARIZARD
-    item: "ITEM_CHARIZARDITE_Z"
+    item: ITEM_CHARIZARDITE_Z
     type: MEGA_Z
   }
   visuals {
@@ -1590,7 +1590,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BLASTOISE
-    item: "ITEM_BLASTOISINITE"
+    item: ITEM_BLASTOISINITE
     type: MEGA_Y
   }
   visuals {
@@ -1632,7 +1632,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BLASTOISE
-    item: "ITEM_BLASTOISINITE_X"
+    item: ITEM_BLASTOISINITE_X
     type: MEGA_X
   }
   visuals {
@@ -2049,7 +2049,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BUTTERFREE
-    item: "ITEM_BUTTERFRENITE"
+    item: ITEM_BUTTERFRENITE
   }
   visuals {
     icon {
@@ -2456,7 +2456,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BEEDRILL
-    item: "ITEM_BEEDRILLITE"
+    item: ITEM_BEEDRILLITE
   }
   visuals {
     icon {
@@ -2742,7 +2742,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BEEDRILL_REDUX
-    item: "ITEM_BEEDRILLITE_R"
+    item: ITEM_BEEDRILLITE_R
   }
   visuals {
     icon {
@@ -3236,7 +3236,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_PIDGEOT
-    item: "ITEM_PIDGEOTITE"
+    item: ITEM_PIDGEOTITE
   }
   visuals {
     icon {
@@ -4442,7 +4442,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_ARBOK
-    item: "ITEM_ARBOKITE"
+    item: ITEM_ARBOKITE
   }
   visuals {
     icon {
@@ -4820,7 +4820,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SANDSLASH
-    item: "ITEM_SANDSLASHITE"
+    item: ITEM_SANDSLASHITE
   }
   visuals {
     icon {
@@ -5536,7 +5536,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_NIDOQUEEN
-    item: "ITEM_NIDOQUEENITE"
+    item: ITEM_NIDOQUEENITE
   }
   visuals {
     icon {
@@ -6004,7 +6004,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_NIDOKING
-    item: "ITEM_NIDOKINGITE"
+    item: ITEM_NIDOKINGITE
   }
   visuals {
     icon {
@@ -7051,7 +7051,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_WIGGLYTUFF
-    item: "ITEM_WIGGLYTUFFITE"
+    item: ITEM_WIGGLYTUFFITE
     type: MEGA_Y
   }
   visuals {
@@ -7097,7 +7097,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_WIGGLYTUFF
-    item: "ITEM_WIGGLYTUFFITE_X"
+    item: ITEM_WIGGLYTUFFITE_X
     type: MEGA_X
   }
   visuals {
@@ -7303,7 +7303,7 @@ species {
   no_flip: true
   primal {
     from: SPECIES_WIGGLYTUFF_APEX
-    item: "ITEM_WIGGLITUFF_ORB"
+    item: ITEM_WIGGLITUFF_ORB
   }
   visuals {
     icon {
@@ -7886,7 +7886,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CROBAT
-    item: "ITEM_CROBATITE"
+    item: ITEM_CROBATITE
   }
   uses_learnset: SPECIES_CROBAT
   visuals {
@@ -10301,7 +10301,7 @@ species {
   bp_cost: 10
   mega {
     from: SPECIES_MEOWTH_PARTNER
-    item: "ITEM_MEOWTHITE"
+    item: ITEM_MEOWTHITE
   }
   visuals {
     icon {
@@ -11646,7 +11646,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_ARCANINE_REDUX
-    item: "ITEM_ARCANITE_R"
+    item: ITEM_ARCANITE_R
   }
   visuals {
     icon {
@@ -12818,7 +12818,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_ALAKAZAM
-    item: "ITEM_ALAKAZITE"
+    item: ITEM_ALAKAZITE
   }
   visuals {
     icon {
@@ -13178,7 +13178,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_ALAKAZAM_REDUX
-    item: "ITEM_ALAKAZITE_R"
+    item: ITEM_ALAKAZITE_R
   }
   visuals {
     icon {
@@ -13698,7 +13698,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_MACHAMP
-    item: "ITEM_MACHAMPITE"
+    item: ITEM_MACHAMPITE
   }
   visuals {
     icon {
@@ -14055,7 +14055,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_MACHAMP_REDUX
-    item: "ITEM_MACHAMPITE_R"
+    item: ITEM_MACHAMPITE_R
   }
   visuals {
     icon {
@@ -15960,7 +15960,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_RAPIDASH
-    item: "ITEM_RAPIDASHITE"
+    item: ITEM_RAPIDASHITE
   }
   visuals {
     icon {
@@ -16216,7 +16216,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_RAPIDASH_GALARIAN
-    item: "ITEM_RAPIDASHITE_G"
+    item: ITEM_RAPIDASHITE_G
   }
   visuals {
     icon {
@@ -16699,7 +16699,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SLOWBRO
-    item: "ITEM_SLOWBRONITE"
+    item: ITEM_SLOWBRONITE
   }
   visuals {
     icon {
@@ -16739,7 +16739,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SLOWKING
-    item: "ITEM_SLOWKINGITE"
+    item: ITEM_SLOWKINGITE
   }
   visuals {
     icon {
@@ -17616,7 +17616,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_MAGNEZONE
-    item: "ITEM_MAGNEZONITE"
+    item: ITEM_MAGNEZONITE
   }
   visuals {
     icon {
@@ -18801,7 +18801,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DEWGONG
-    item: "ITEM_DEWGONGITE"
+    item: ITEM_DEWGONGITE
   }
   visuals {
     icon {
@@ -20643,7 +20643,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GENGAR
-    item: "ITEM_GENGARITE"
+    item: ITEM_GENGARITE
     type: MEGA_Y
   }
   visuals {
@@ -20686,7 +20686,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GENGAR
-    item: "ITEM_GENGARITE_X"
+    item: ITEM_GENGARITE_X
     type: MEGA_X
   }
   visuals {
@@ -21044,7 +21044,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_STEELIX
-    item: "ITEM_STEELIXITE"
+    item: ITEM_STEELIXITE
   }
   visuals {
     icon {
@@ -21726,7 +21726,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_KINGLER
-    item: "ITEM_KINGLERITE"
+    item: ITEM_KINGLERITE
   }
   visuals {
     icon {
@@ -24320,7 +24320,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_KANGASKHAN
-    item: "ITEM_KANGASKHANITE"
+    item: ITEM_KANGASKHANITE
   }
   visuals {
     icon {
@@ -24380,7 +24380,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_KANGASKHAN_PARTNER
-    item: "ITEM_KANGASKHANITE"
+    item: ITEM_KANGASKHANITE
     type: MEGA_X
   }
 }
@@ -24402,7 +24402,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_KANGASKHAN_PARTNER
-    item: "ITEM_KANGASKHANITE"
+    item: ITEM_KANGASKHANITE
     type: MEGA_B
   }
 }
@@ -24424,7 +24424,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_KANGASKHAN_PARTNER
-    item: "ITEM_KANGASKHANITE"
+    item: ITEM_KANGASKHANITE
     type: MEGA_C
   }
   reuse_visuals: SPECIES_KANGASKHAN_MEGA
@@ -24983,7 +24983,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGDRA
-    item: "ITEM_KINGDRANITE"
+    item: ITEM_KINGDRANITE
     type: MEGA_X
   }
   visuals {
@@ -25028,7 +25028,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGDRA
-    item: "ITEM_KINGDRANITE_Y"
+    item: ITEM_KINGDRANITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -25091,7 +25091,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGDRA_PARTNER
-    item: "ITEM_KINGDRANITE"
+    item: ITEM_KINGDRANITE
   }
 }
 species {
@@ -25133,7 +25133,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGDRA_PARTNER_B
-    item: "ITEM_KINGDRANITE"
+    item: ITEM_KINGDRANITE
     type: MEGA_B
   }
 }
@@ -25176,7 +25176,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGDRA_PARTNER_C
-    item: "ITEM_KINGDRANITE"
+    item: ITEM_KINGDRANITE
     type: MEGA_C
   }
   reuse_visuals: SPECIES_KINGDRA_MEGA
@@ -26584,7 +26584,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_PINSIR
-    item: "ITEM_PINSIRITE"
+    item: ITEM_PINSIRITE
   }
   visuals {
     icon {
@@ -27511,7 +27511,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GYARADOS
-    item: "ITEM_GYARADOSITE"
+    item: ITEM_GYARADOSITE
     type: MEGA_X
   }
   visuals {
@@ -27554,7 +27554,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GYARADEATH
-    item: "ITEM_GYARADEATHITE_X"
+    item: ITEM_GYARADEATHITE_X
     type: MEGA_X
   }
   visuals {
@@ -27598,7 +27598,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GYARADOS
-    item: "ITEM_GYARADOSITE_Y"
+    item: ITEM_GYARADOSITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -27641,7 +27641,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GYARADEATH
-    item: "ITEM_GYARADEATHITE_Y"
+    item: ITEM_GYARADEATHITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -27829,7 +27829,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_LAPRAS
-    item: "ITEM_LAPRASITE_Y"
+    item: ITEM_LAPRASITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -27874,7 +27874,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_LAPRAS
-    item: "ITEM_LAPRASITE_X"
+    item: ITEM_LAPRASITE_X
     type: MEGA_X
   }
   visuals {
@@ -28294,7 +28294,7 @@ species {
   percent_female: 50.0
   primal {
     from: SPECIES_ESPEON
-    item: "ITEM_GALACTIC_ORB"
+    item: ITEM_GALACTIC_ORB
   }
   visuals {
     icon {
@@ -28438,7 +28438,7 @@ species {
   tier: 4
   mega {
     from: SPECIES_EEVEE_PARTNER
-    item: "ITEM_EEVITE"
+    item: ITEM_EEVITE
   }
   visuals {
     icon {
@@ -29763,7 +29763,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_AERODACTYL
-    item: "ITEM_AERODACTYLITE"
+    item: ITEM_AERODACTYLITE
   }
   visuals {
     icon {
@@ -31050,7 +31050,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DRAGONITE
-    item: "ITEM_DRAGONITENITE"
+    item: ITEM_DRAGONITENITE
   }
   uses_learnset: SPECIES_DRAGONITE
   visuals {
@@ -31235,7 +31235,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DRAGONITE_PARTNER
-    item: "ITEM_DRAGONITENITE"
+    item: ITEM_DRAGONITENITE
   }
   uses_learnset: SPECIES_DRAGONITE
 }
@@ -31278,7 +31278,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DRAGONITE_PARTNER_B
-    item: "ITEM_DRAGONITENITE"
+    item: ITEM_DRAGONITENITE
     type: MEGA_B
   }
   uses_learnset: SPECIES_DRAGONITE
@@ -31322,7 +31322,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DRAGONITE_PARTNER_C
-    item: "ITEM_DRAGONITENITE"
+    item: ITEM_DRAGONITENITE
     type: MEGA_C
   }
   uses_learnset: SPECIES_DRAGONITE
@@ -31532,7 +31532,7 @@ species {
   genderless: true
   mega {
     from: SPECIES_MEWTWO
-    item: "ITEM_MEWTWONITE_X"
+    item: ITEM_MEWTWONITE_X
     type: MEGA_X
   }
   visuals {
@@ -31575,7 +31575,7 @@ species {
   genderless: true
   mega {
     from: SPECIES_MEWTWO
-    item: "ITEM_MEWTWONITE_Y"
+    item: ITEM_MEWTWONITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -32444,7 +32444,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_MEGANIUM
-    item: "ITEM_MEGANIUMITE"
+    item: ITEM_MEGANIUMITE
   }
   visuals {
     icon {
@@ -32889,7 +32889,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TYPHLOSION
-    item: "ITEM_TYPHLOSIONITE"
+    item: ITEM_TYPHLOSIONITE
   }
   visuals {
     icon {
@@ -33048,7 +33048,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TYPHLOSION_HISUIAN
-    item: "ITEM_TYPHLOSIONITE_H"
+    item: ITEM_TYPHLOSIONITE_H
   }
   visuals {
     icon {
@@ -33514,7 +33514,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_FERALIGATR
-    item: "ITEM_FERALIGATRITE_X"
+    item: ITEM_FERALIGATRITE_X
     type: MEGA_X
   }
   visuals {
@@ -33557,7 +33557,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_FERALIGATR
-    item: "ITEM_FERALIGATRITE_Y"
+    item: ITEM_FERALIGATRITE_Y
     type: MEGA_Y
   }
   visuals {
@@ -35164,7 +35164,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_LANTURN
-    item: "ITEM_LANTURNITE"
+    item: ITEM_LANTURNITE
   }
   visuals {
     icon {
@@ -35981,39 +35981,39 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_PIKACHU_PARTNER
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_WORLD_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_ORIGINAL_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_HOENN_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_SINNOH_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_UNOVA_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_KALOS_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_ALOLA_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   mega {
     from: SPECIES_PIKACHU_PARTNER_CAP
-    item: "ITEM_PIKANITE"
+    item: ITEM_PIKANITE
   }
   visuals {
     icon {
@@ -37922,7 +37922,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_CLEFABLE_REDUX
-    item: "ITEM_CLEFABITE_R"
+    item: ITEM_CLEFABITE_R
   }
   visuals {
     icon {
@@ -39226,7 +39226,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AMPHAROS
-    item: "ITEM_AMPHAROSITE"
+    item: ITEM_AMPHAROSITE
   }
   visuals {
     icon {
@@ -39286,7 +39286,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AMPHAROS_PARTNER
-    item: "ITEM_AMPHAROSITE"
+    item: ITEM_AMPHAROSITE
   }
 }
 species {
@@ -39328,7 +39328,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AMPHAROS_PARTNER_B
-    item: "ITEM_AMPHAROSITE"
+    item: ITEM_AMPHAROSITE
     type: MEGA_B
   }
 }
@@ -39351,7 +39351,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AMPHAROS_PARTNER_B
-    item: "ITEM_AMPHAROSITE"
+    item: ITEM_AMPHAROSITE
     type: MEGA_C
   }
   reuse_visuals: SPECIES_AMPHAROS_MEGA
@@ -41478,7 +41478,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_QUAGSIRE
-    item: "ITEM_QUAGSIRENITE"
+    item: ITEM_QUAGSIRENITE
   }
   uses_learnset: SPECIES_QUAGSIRE
   visuals {
@@ -45417,7 +45417,7 @@ species {
   percent_female: 75.0
   mega {
     from: SPECIES_GRANBULL
-    item: "ITEM_GRANBULLITE"
+    item: ITEM_GRANBULLITE
   }
   visuals {
     icon {
@@ -45855,7 +45855,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_SHUCKLE
-    item: "ITEM_SHUCKLENITE"
+    item: ITEM_SHUCKLENITE
   }
   uses_learnset: SPECIES_SHUCKLE
   visuals {
@@ -46044,7 +46044,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_HERACROSS
-    item: "ITEM_HERACRONITE"
+    item: ITEM_HERACRONITE
   }
   visuals {
     icon {
@@ -46469,7 +46469,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_WEAVILE_REDUX
-    item: "ITEM_WEAVILEITE_R"
+    item: ITEM_WEAVILEITE_R
   }
   visuals {
     icon {
@@ -46982,7 +46982,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_URSALUNA
-    item: "ITEM_URSALUNITE"
+    item: ITEM_URSALUNITE
   }
   visuals {
     icon {
@@ -49132,7 +49132,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SKARMORY
-    item: "ITEM_SKARMORITE"
+    item: ITEM_SKARMORITE
   }
   uses_learnset: SPECIES_SKARMORY
   visuals {
@@ -49290,7 +49290,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SKARMORY_REDUX
-    item: "ITEM_SKARMORITE_R"
+    item: ITEM_SKARMORITE_R
   }
   visuals {
     icon {
@@ -49616,7 +49616,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_HOUNDOOM
-    item: "ITEM_HOUNDOOMINITE"
+    item: ITEM_HOUNDOOMINITE
   }
   visuals {
     icon {
@@ -49852,7 +49852,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_HOUNDOOM_REDUX
-    item: "ITEM_HOUNDOOMINITE_R"
+    item: ITEM_HOUNDOOMINITE_R
   }
   visuals {
     icon {
@@ -51446,7 +51446,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONCHAN
-    item: "ITEM_HITMONCHANITE"
+    item: ITEM_HITMONCHANITE
   }
   uses_learnset: SPECIES_HITMONCHAN
   visuals {
@@ -51492,7 +51492,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONLEE
-    item: "ITEM_HITMONLEENITE"
+    item: ITEM_HITMONLEENITE
   }
   visuals {
     icon {
@@ -51533,7 +51533,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONTOP
-    item: "ITEM_HITMONTOPITE"
+    item: ITEM_HITMONTOPITE
   }
   uses_learnset: SPECIES_HITMONTOP
   visuals {
@@ -51596,7 +51596,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONCHAN_PARTNER
-    item: "ITEM_HITMONCHANITE"
+    item: ITEM_HITMONCHANITE
   }
   uses_learnset: SPECIES_HITMONCHAN
   reuse_visuals: SPECIES_HITMONCHAN_MEGA
@@ -51639,7 +51639,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONCHAN_PARTNER_B
-    item: "ITEM_HITMONCHANITE"
+    item: ITEM_HITMONCHANITE
     type: MEGA_B
   }
   uses_learnset: SPECIES_HITMONCHAN
@@ -51664,7 +51664,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_HITMONCHAN_PARTNER_B
-    item: "ITEM_HITMONCHANITE"
+    item: ITEM_HITMONCHANITE
     type: MEGA_C
   }
   uses_learnset: SPECIES_HITMONCHAN
@@ -53087,7 +53087,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TYRANITAR
-    item: "ITEM_TYRANITARITE"
+    item: ITEM_TYRANITARITE
   }
   visuals {
     icon {
@@ -53444,7 +53444,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TYRANITAR_REDUX
-    item: "ITEM_TYRANITARITE_R"
+    item: ITEM_TYRANITARITE_R
   }
   visuals {
     icon {
@@ -54431,7 +54431,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SCEPTILE
-    item: "ITEM_SCEPTILITE"
+    item: ITEM_SCEPTILITE
   }
   visuals {
     icon {
@@ -54940,7 +54940,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BLAZIKEN
-    item: "ITEM_BLAZIKENITE"
+    item: ITEM_BLAZIKENITE
   }
   visuals {
     icon {
@@ -55432,7 +55432,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SWAMPERT
-    item: "ITEM_SWAMPERTITE"
+    item: ITEM_SWAMPERTITE
   }
   visuals {
     icon {
@@ -56416,7 +56416,7 @@ species {
   percent_female: 50.0
   primal {
     from: SPECIES_CASCOON
-    item: "ITEM_PURPLE_ORB"
+    item: ITEM_PURPLE_ORB
   }
   visuals {
     icon {
@@ -59023,7 +59023,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GARDEVOIR
-    item: "ITEM_GARDEVOIRITE"
+    item: ITEM_GARDEVOIRITE
   }
   visuals {
     icon {
@@ -59065,7 +59065,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_GALLADE
-    item: "ITEM_GALLADITE"
+    item: ITEM_GALLADITE
   }
   visuals {
     icon {
@@ -59734,7 +59734,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BRELOOM
-    item: "ITEM_BRELOOMITE"
+    item: ITEM_BRELOOMITE
   }
   uses_learnset: SPECIES_BRELOOM
   visuals {
@@ -60197,7 +60197,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SLAKING
-    item: "ITEM_SLAKINGITE"
+    item: ITEM_SLAKINGITE
   }
   uses_learnset: SPECIES_SLAKING
   visuals {
@@ -60567,7 +60567,7 @@ species {
   genderless: true
   mega {
     from: SPECIES_SHEDINJA
-    item: "ITEM_SHEDINJITE"
+    item: ITEM_SHEDINJITE
   }
   visuals {
     icon {
@@ -62568,7 +62568,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SABLEYE
-    item: "ITEM_SABLENITE"
+    item: ITEM_SABLENITE
   }
   visuals {
     icon {
@@ -62733,7 +62733,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SABLEYE_REDUX
-    item: "ITEM_SABLENITE_R"
+    item: ITEM_SABLENITE_R
   }
   visuals {
     icon {
@@ -62946,7 +62946,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_MAWILE
-    item: "ITEM_MAWILITE"
+    item: ITEM_MAWILITE
   }
   visuals {
     icon {
@@ -63105,7 +63105,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_MAWILE_REDUX
-    item: "ITEM_MAWILITE_R"
+    item: ITEM_MAWILITE_R
   }
   visuals {
     icon {
@@ -63303,7 +63303,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_MAWILE_REDUX_B
-    item: "ITEM_MAWILITE_R_B"
+    item: ITEM_MAWILITE_R_B
   }
   visuals {
     icon {
@@ -63826,7 +63826,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AGGRON
-    item: "ITEM_AGGRONITE"
+    item: ITEM_AGGRONITE
   }
   visuals {
     icon {
@@ -64164,7 +64164,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_MEDICHAM
-    item: "ITEM_MEDICHAMITE"
+    item: ITEM_MEDICHAMITE
   }
   visuals {
     icon {
@@ -64515,7 +64515,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_MANECTRIC
-    item: "ITEM_MANECTITE"
+    item: ITEM_MANECTITE
   }
   visuals {
     icon {
@@ -65461,7 +65461,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_ROSERADE
-    item: "ITEM_ROSERADEITE"
+    item: ITEM_ROSERADEITE
   }
   visuals {
     icon {
@@ -65801,7 +65801,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SWALOT
-    item: "ITEM_SWALOTITE"
+    item: ITEM_SWALOTITE
   }
   visuals {
     icon {
@@ -66154,7 +66154,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SHARPEDO
-    item: "ITEM_SHARPEDONITE"
+    item: ITEM_SHARPEDONITE
   }
   visuals {
     icon {
@@ -66792,7 +66792,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CAMERUPT
-    item: "ITEM_CAMERUPTITE"
+    item: ITEM_CAMERUPTITE
   }
   visuals {
     icon {
@@ -68045,7 +68045,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_FLYGON_REDUX_B
-    item: "ITEM_FLYGONITE_R_B"
+    item: ITEM_FLYGONITE_R_B
   }
   visuals {
     icon {
@@ -68087,7 +68087,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_FLYGON
-    item: "ITEM_FLYGONITE"
+    item: ITEM_FLYGONITE
   }
   visuals {
     icon {
@@ -68450,7 +68450,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_FLYGON_REDUX
-    item: "ITEM_FLYGONITE_R"
+    item: ITEM_FLYGONITE_R
   }
   visuals {
     icon {
@@ -69184,7 +69184,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_ALTARIA
-    item: "ITEM_ALTARIANITE"
+    item: ITEM_ALTARIANITE
   }
   visuals {
     icon {
@@ -72007,7 +72007,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_MILOTIC
-    item: "ITEM_MILOTICITE"
+    item: ITEM_MILOTICITE
   }
   visuals {
     icon {
@@ -72874,7 +72874,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BANETTE
-    item: "ITEM_BANETTITE"
+    item: ITEM_BANETTITE
   }
   visuals {
     icon {
@@ -73735,7 +73735,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_ABSOL
-    item: "ITEM_ABSOLITE"
+    item: ITEM_ABSOLITE
   }
   visuals {
     icon {
@@ -74360,7 +74360,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GLALIE
-    item: "ITEM_GLALITITE"
+    item: ITEM_GLALITITE
   }
   visuals {
     icon {
@@ -74402,7 +74402,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_FROSLASS
-    item: "ITEM_FROSLASSITE"
+    item: ITEM_FROSLASSITE
   }
   visuals {
     icon {
@@ -74821,7 +74821,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GLALIE_REDUX
-    item: "ITEM_GLALITITE_R"
+    item: ITEM_GLALITITE_R
   }
   visuals {
     icon {
@@ -74865,7 +74865,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_FROSLASS_REDUX
-    item: "ITEM_FROSLASSITE_R"
+    item: ITEM_FROSLASSITE_R
   }
   visuals {
     icon {
@@ -75941,7 +75941,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_RELICANTH
-    item: "ITEM_RELICANTHITE"
+    item: ITEM_RELICANTHITE
   }
   uses_learnset: SPECIES_RELICANTH
   visuals {
@@ -76567,7 +76567,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SALAMENCE
-    item: "ITEM_SALAMENCITE"
+    item: ITEM_SALAMENCITE
   }
   visuals {
     icon {
@@ -77030,7 +77030,7 @@ species {
   genderless: true
   mega {
     from: SPECIES_METAGROSS
-    item: "ITEM_METAGROSSITE"
+    item: ITEM_METAGROSSITE
   }
   visuals {
     icon {
@@ -77751,7 +77751,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_LATIAS
-    item: "ITEM_LATIASITE"
+    item: ITEM_LATIASITE
   }
   visuals {
     icon {
@@ -77966,7 +77966,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_LATIOS
-    item: "ITEM_LATIOSITE"
+    item: ITEM_LATIOSITE
   }
   visuals {
     icon {
@@ -78177,7 +78177,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_KYOGRE
-    item: "ITEM_BLUE_ORB"
+    item: ITEM_BLUE_ORB
   }
   visuals {
     icon {
@@ -78392,7 +78392,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_GROUDON
-    item: "ITEM_RED_ORB"
+    item: ITEM_RED_ORB
   }
   visuals {
     icon {
@@ -79722,7 +79722,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_TORTERRA
-    item: "ITEM_TORTERRANITE"
+    item: ITEM_TORTERRANITE
   }
   uses_learnset: SPECIES_TORTERRA
   visuals {
@@ -80075,7 +80075,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_TORTERRA_REDUX
-    item: "ITEM_TORTERRANITE_R"
+    item: ITEM_TORTERRANITE_R
   }
   visuals {
     icon {
@@ -80571,7 +80571,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_INFERNAPE
-    item: "ITEM_INFERNAPENITE"
+    item: ITEM_INFERNAPENITE
   }
   uses_learnset: SPECIES_INFERNAPE
   visuals {
@@ -80996,7 +80996,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_INFERNAPE_REDUX
-    item: "ITEM_INFERNAPENITE_R"
+    item: ITEM_INFERNAPENITE_R
   }
   visuals {
     icon {
@@ -81485,7 +81485,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_EMPOLEON
-    item: "ITEM_EMPOLEONITE"
+    item: ITEM_EMPOLEONITE
   }
   uses_learnset: SPECIES_EMPOLEON
   visuals {
@@ -81859,7 +81859,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_EMPOLEON_REDUX
-    item: "ITEM_EMPOLEONITE_R"
+    item: ITEM_EMPOLEONITE_R
   }
   visuals {
     icon {
@@ -83346,7 +83346,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_LUXRAY
-    item: "ITEM_LUXRAYNITE"
+    item: ITEM_LUXRAYNITE
   }
   visuals {
     icon {
@@ -87341,7 +87341,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_LOPUNNY
-    item: "ITEM_LOPUNNITE"
+    item: ITEM_LOPUNNITE
   }
   visuals {
     icon {
@@ -90879,7 +90879,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GARCHOMP
-    item: "ITEM_GARCHOMPITE"
+    item: ITEM_GARCHOMPITE
   }
   visuals {
     icon {
@@ -91266,7 +91266,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GARCHOMP_REDUX
-    item: "ITEM_GARCHOMPITE_R"
+    item: ITEM_GARCHOMPITE_R
   }
   visuals {
     icon {
@@ -91600,7 +91600,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_SNORLAX
-    item: "ITEM_SNORLAXITE"
+    item: ITEM_SNORLAXITE
   }
   visuals {
     icon {
@@ -91644,7 +91644,7 @@ species {
   percent_female: 12.5
   primal {
     from: SPECIES_SNORLAX
-    item: "ITEM_SNORLAX_ORB"
+    item: ITEM_SNORLAX_ORB
   }
   uses_learnset: SPECIES_SNORLAX
   visuals {
@@ -91986,7 +91986,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_LUCARIO
-    item: "ITEM_LUCARIONITE"
+    item: ITEM_LUCARIONITE
     type: MEGA_X
   }
   visuals {
@@ -92028,7 +92028,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_LUCARIO
-    item: "ITEM_SENZU"
+    item: ITEM_SENZU
     type: MEGA_Y
   }
   visuals {
@@ -93863,7 +93863,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_ABOMASNOW
-    item: "ITEM_ABOMASITE_S"
+    item: ITEM_ABOMASITE_S
   }
   visuals {
     icon {
@@ -93905,7 +93905,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_ABOMASNOW
-    item: "ITEM_ABOMASITE"
+    item: ITEM_ABOMASITE
   }
   visuals {
     icon {
@@ -97329,7 +97329,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_DIALGA
-    item: "ITEM_ADAMANT_ORB"
+    item: ITEM_ADAMANT_ORB
     type: ORIGIN
   }
   visuals {
@@ -97524,7 +97524,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_PALKIA
-    item: "ITEM_LUSTROUS_ORB"
+    item: ITEM_LUSTROUS_ORB
     type: ORIGIN
   }
   visuals {
@@ -98009,7 +98009,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_GIRATINA
-    item: "ITEM_GRISEOUS_ORB"
+    item: ITEM_GRISEOUS_ORB
     type: ORIGIN
   }
   visuals {
@@ -99797,7 +99797,7 @@ species {
   tier: 5
   primal {
     from: SPECIES_VICTINI
-    item: "ITEM_VICTINI_ORB"
+    item: ITEM_VICTINI_ORB
   }
   visuals {
     icon {
@@ -100308,7 +100308,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SERPERIOR
-    item: "ITEM_SERPERIORITE"
+    item: ITEM_SERPERIORITE
   }
   visuals {
     icon {
@@ -100777,7 +100777,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_EMBOAR
-    item: "ITEM_EMBOARITE"
+    item: ITEM_EMBOARITE
   }
   visuals {
     icon {
@@ -101362,7 +101362,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SAMUROTT_HISUIAN
-    item: "ITEM_SAMUROTTITE_H"
+    item: ITEM_SAMUROTTITE_H
   }
   visuals {
     icon {
@@ -105949,7 +105949,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AUDINO
-    item: "ITEM_AUDINITE"
+    item: ITEM_AUDINITE
   }
   visuals {
     icon {
@@ -109533,7 +109533,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KROOKODILE
-    item: "ITEM_KROOKODILENITE"
+    item: ITEM_KROOKODILENITE
   }
   visuals {
     icon {
@@ -112792,7 +112792,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_GARBODOR
-    item: "ITEM_GARBODORITE"
+    item: ITEM_GARBODORITE
   }
   visuals {
     icon {
@@ -114839,7 +114839,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_REUNICLUS_REDUX
-    item: "ITEM_REUNICLUSITE_R"
+    item: ITEM_REUNICLUSITE_R
   }
   visuals {
     icon {
@@ -117034,7 +117034,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_JELLICENT
-    item: "ITEM_JELLICENTITE"
+    item: ITEM_JELLICENTITE
   }
   uses_learnset: SPECIES_JELLICENT
   visuals {
@@ -119817,7 +119817,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_HAXORUS
-    item: "ITEM_HAXORUSITE"
+    item: ITEM_HAXORUSITE
   }
   visuals {
     icon {
@@ -121369,7 +121369,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_MIENSHAO
-    item: "ITEM_MIENSHAOITE"
+    item: ITEM_MIENSHAOITE
   }
   visuals {
     icon {
@@ -122510,7 +122510,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_KINGAMBIT_REDUX
-    item: "ITEM_KINGAMBITITE_R"
+    item: ITEM_KINGAMBITITE_R
   }
   visuals {
     icon {
@@ -124427,7 +124427,7 @@ species {
   heads: 3
   mega {
     from: SPECIES_HYDREIGON_REDUX
-    item: "ITEM_HYDREIGONITE_R"
+    item: ITEM_HYDREIGONITE_R
   }
   visuals {
     icon {
@@ -133966,7 +133966,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AEGISLASH_REDUX
-    item: "ITEM_AEGISLASHITE_R"
+    item: ITEM_AEGISLASHITE_R
   }
   visuals {
     icon {
@@ -134010,7 +134010,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AEGISLASH_BLADE_REDUX
-    item: "ITEM_AEGISLASHITE_R"
+    item: ITEM_AEGISLASHITE_R
   }
   battle_form {
     of: SPECIES_AEGISLASH_REDUX_MEGA
@@ -140366,7 +140366,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_YVELTAL
-    item: "ITEM_YVELTALITE"
+    item: ITEM_YVELTALITE
   }
   visuals {
     icon {
@@ -140876,7 +140876,7 @@ species {
   genderless: true
   mega {
     from: SPECIES_DIANCIE
-    item: "ITEM_DIANCITE"
+    item: ITEM_DIANCITE
   }
   visuals {
     icon {
@@ -141648,7 +141648,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DECIDUEYE
-    item: "ITEM_DECIDUITE"
+    item: ITEM_DECIDUITE
   }
   visuals {
     icon {
@@ -141809,7 +141809,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DECIDUEYE_HISUIAN
-    item: "ITEM_DECIDUITE_H"
+    item: ITEM_DECIDUITE_H
   }
   visuals {
     icon {
@@ -142193,7 +142193,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_INCINEROAR
-    item: "ITEM_INCINERITE"
+    item: ITEM_INCINERITE
   }
   visuals {
     icon {
@@ -142603,7 +142603,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_PRIMARINA
-    item: "ITEM_PRIMARINITE"
+    item: ITEM_PRIMARINITE
   }
   visuals {
     icon {
@@ -142989,7 +142989,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TOUCANNON
-    item: "ITEM_TOUCANNONITE"
+    item: ITEM_TOUCANNONITE
   }
   uses_learnset: SPECIES_TOUCANNON
   visuals {
@@ -144295,19 +144295,19 @@ species {
   tier: 2
   mega {
     from: SPECIES_ORICORIO
-    item: "ITEM_ORICORIONITE"
+    item: ITEM_ORICORIONITE
   }
   mega {
     from: SPECIES_ORICORIO_POM_POM
-    item: "ITEM_ORICORIONITE"
+    item: ITEM_ORICORIONITE
   }
   mega {
     from: SPECIES_ORICORIO_PAU
-    item: "ITEM_ORICORIONITE"
+    item: ITEM_ORICORIONITE
   }
   mega {
     from: SPECIES_ORICORIO_SENSU
-    item: "ITEM_ORICORIONITE"
+    item: ITEM_ORICORIONITE
   }
   visuals {
     icon {
@@ -144703,7 +144703,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_RIBOMBEE_REDUX
-    item: "ITEM_RIBOMBITE_R"
+    item: ITEM_RIBOMBITE_R
   }
   visuals {
     icon {
@@ -144745,7 +144745,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_RIBOMBEE
-    item: "ITEM_RIBOMBITE"
+    item: ITEM_RIBOMBITE
   }
   visuals {
     icon {
@@ -148437,7 +148437,7 @@ species {
   no_flip: true
   mega {
     from: SPECIES_TSAREENA_REDUX
-    item: "ITEM_TSAREENITE_R"
+    item: ITEM_TSAREENITE_R
   }
   visuals {
     icon {
@@ -149065,7 +149065,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GOLISOPOD
-    item: "ITEM_GOLISOPODITE"
+    item: ITEM_GOLISOPODITE
   }
   visuals {
     icon {
@@ -151821,7 +151821,7 @@ species {
   percent_female: 50.0
   primal {
     from: SPECIES_MIMIKYU_APEX
-    item: "ITEM_PHANTOM_METEOR"
+    item: ITEM_PHANTOM_METEOR
   }
   visuals {
     icon {
@@ -151889,7 +151889,7 @@ species {
   percent_female: 50.0
   primal {
     from: SPECIES_MIMIKYU_APEX_BUSTED
-    item: "ITEM_PHANTOM_METEOR"
+    item: ITEM_PHANTOM_METEOR
   }
   battle_form {
     of: SPECIES_MIMIKYU_RAYQUAZA
@@ -152066,7 +152066,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_BRUXISH
-    item: "ITEM_BRUXISHITE"
+    item: ITEM_BRUXISHITE
   }
   uses_learnset: SPECIES_BRUXISH
   visuals {
@@ -154853,12 +154853,12 @@ species {
   no_flip: true
   primal {
     from: SPECIES_NECROZMA_DUSK_MANE
-    item: "ITEM_ULTRANECROZIUM_P"
+    item: ITEM_ULTRANECROZIUM_P
     type: ULTRA
   }
   primal {
     from: SPECIES_NECROZMA_DAWN_WINGS
-    item: "ITEM_ULTRANECROZIUM_P"
+    item: ITEM_ULTRANECROZIUM_P
     type: ULTRA
   }
   visuals {
@@ -156112,7 +156112,7 @@ species {
   bp_cost: 350
   mega {
     from: SPECIES_MELMETAL
-    item: "ITEM_MELMETALITE"
+    item: ITEM_MELMETALITE
   }
   visuals {
     icon {
@@ -156478,7 +156478,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_RILLABOOM
-    item: "ITEM_RILLABOOMITE"
+    item: ITEM_RILLABOOMITE
   }
   visuals {
     icon {
@@ -156842,7 +156842,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_CINDERACE
-    item: "ITEM_CINDERACEITE"
+    item: ITEM_CINDERACEITE
   }
   visuals {
     icon {
@@ -157229,7 +157229,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_INTELEON
-    item: "ITEM_INTELEONITE"
+    item: ITEM_INTELEONITE
   }
   visuals {
     icon {
@@ -157835,7 +157835,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CORVIKNIGHT
-    item: "ITEM_CORVINITE"
+    item: ITEM_CORVINITE
   }
   visuals {
     icon {
@@ -158211,7 +158211,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_ORBEETLE
-    item: "ITEM_ORBEETITE"
+    item: ITEM_ORBEETITE
   }
   visuals {
     icon {
@@ -159134,7 +159134,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_DREDNAW
-    item: "ITEM_DREDNAWITE"
+    item: ITEM_DREDNAWITE
   }
   visuals {
     icon {
@@ -159760,7 +159760,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_COALOSSAL
-    item: "ITEM_COALOSSITE"
+    item: ITEM_COALOSSITE
   }
   visuals {
     icon {
@@ -160382,7 +160382,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SANDACONDA
-    item: "ITEM_SANDACONDITE"
+    item: ITEM_SANDACONDITE
   }
   visuals {
     icon {
@@ -161072,11 +161072,11 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TOXTRICITY
-    item: "ITEM_TOXTRICITITE"
+    item: ITEM_TOXTRICITITE
   }
   mega {
     from: SPECIES_TOXTRICITY_LOW_KEY
-    item: "ITEM_TOXTRICITITE"
+    item: ITEM_TOXTRICITITE
   }
   visuals {
     icon {
@@ -161442,7 +161442,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TOXTRICITY_REDUX
-    item: "ITEM_TOXTRICITITE_R"
+    item: ITEM_TOXTRICITITE_R
   }
   visuals {
     icon {
@@ -161530,7 +161530,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_TOXTRICITY_REDUX_FUZZ
-    item: "ITEM_TOXTRICITITE_R"
+    item: ITEM_TOXTRICITITE_R
   }
   visuals {
     icon {
@@ -161778,7 +161778,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CENTISKORCH
-    item: "ITEM_CENTISKITE"
+    item: ITEM_CENTISKITE
   }
   visuals {
     icon {
@@ -162720,7 +162720,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_HATTERENE
-    item: "ITEM_HATTERENITE"
+    item: ITEM_HATTERENITE
   }
   visuals {
     icon {
@@ -163108,7 +163108,7 @@ species {
   percent_female: 0.0
   mega {
     from: SPECIES_GRIMMSNARL
-    item: "ITEM_GRIMMSNARLITE"
+    item: ITEM_GRIMMSNARLITE
   }
   visuals {
     icon {
@@ -164151,7 +164151,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_ALCREMIE
-    item: "ITEM_ALCREMITE"
+    item: ITEM_ALCREMITE
   }
   visuals {
     icon {
@@ -166023,7 +166023,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_COPPERAJAH
-    item: "ITEM_COPPERAJITE"
+    item: ITEM_COPPERAJITE
   }
   visuals {
     icon {
@@ -166377,7 +166377,7 @@ species {
   tier: 4
   mega {
     from: SPECIES_DRACOVISH
-    item: "ITEM_DRACOVISHITE"
+    item: ITEM_DRACOVISHITE
   }
   uses_learnset: SPECIES_DRACOVISH
   visuals {
@@ -166731,7 +166731,7 @@ species {
   tier: 4
   mega {
     from: SPECIES_DURALUDON_PARTNER
-    item: "ITEM_DURALUDITE"
+    item: ITEM_DURALUDITE
   }
   visuals {
     icon {
@@ -167285,7 +167285,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_ZACIAN
-    item: "ITEM_RUSTED_SWORD"
+    item: ITEM_RUSTED_SWORD
     type: CROWNED
   }
   visuals {
@@ -167442,7 +167442,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_ZAMAZENTA
-    item: "ITEM_RUSTED_SHIELD"
+    item: ITEM_RUSTED_SHIELD
     type: CROWNED
   }
   visuals {
@@ -167601,7 +167601,7 @@ species {
   genderless: true
   primal {
     from: SPECIES_ETERNATUS
-    item: "ITEM_DYNAMAX_ORB"
+    item: ITEM_DYNAMAX_ORB
   }
   visuals {
     icon {
@@ -167867,7 +167867,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_URSHIFU
-    item: "ITEM_URSHIFITE"
+    item: ITEM_URSHIFITE
   }
   visuals {
     icon {
@@ -168013,7 +168013,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_URSHIFU_RAPID_STRIKE_STYLE
-    item: "ITEM_URSHIFITE"
+    item: ITEM_URSHIFITE
   }
   visuals {
     icon {
@@ -170282,7 +170282,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_MEOWSCARADA
-    item: "ITEM_MEOWSCARADITE"
+    item: ITEM_MEOWSCARADITE
   }
   visuals {
     icon {
@@ -170635,7 +170635,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_SKELEDIRGE
-    item: "ITEM_SKELEDIRGEITE"
+    item: ITEM_SKELEDIRGEITE
   }
   visuals {
     icon {
@@ -171003,7 +171003,7 @@ species {
   percent_female: 12.5
   mega {
     from: SPECIES_QUAQUAVAL
-    item: "ITEM_QUAQUAVITE"
+    item: ITEM_QUAQUAVITE
   }
   visuals {
     icon {
@@ -172443,7 +172443,7 @@ species {
   tier: 2
   mega {
     from: SPECIES_FIDOUGH_PARTNER
-    item: "ITEM_FIDOUGHITE"
+    item: ITEM_FIDOUGHITE
   }
   visuals {
     icon {
@@ -176315,7 +176315,7 @@ species {
   percent_female: 100.0
   mega {
     from: SPECIES_TINKATON
-    item: "ITEM_TINKATITE"
+    item: ITEM_TINKATITE
   }
   visuals {
     icon {
@@ -181404,7 +181404,7 @@ species {
   tier: 5
   mega {
     from: SPECIES_CHIEN_PAO
-    item: "ITEM_CHIEN_PAOITE"
+    item: ITEM_CHIEN_PAOITE
   }
   visuals {
     icon {
@@ -184245,7 +184245,7 @@ species {
   percent_female: 50.0
   primal {
     from: SPECIES_TERAPAGOS
-    item: "ITEM_TERA_ORB"
+    item: ITEM_TERA_ORB
   }
   visuals {
     icon {
@@ -186723,7 +186723,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_CORMOTH
-    item: "ITEM_CORMOTHITE"
+    item: ITEM_CORMOTHITE
   }
   visuals {
     icon {
@@ -186765,7 +186765,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_POPCORM
-    item: "ITEM_POPCORMITE"
+    item: ITEM_POPCORMITE
   }
   visuals {
     icon {
@@ -187952,7 +187952,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_AMPHYBUZZ
-    item: "ITEM_AMPHYBUZZITE"
+    item: ITEM_AMPHYBUZZITE
   }
   visuals {
     icon {
@@ -189473,7 +189473,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SCIZOR
-    item: "ITEM_SCIZORITE"
+    item: ITEM_SCIZORITE
   }
   visuals {
     icon {
@@ -190184,7 +190184,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_WEAVILE
-    item: "ITEM_WEAVILEITE"
+    item: ITEM_WEAVILEITE
   }
   visuals {
     icon {
@@ -190227,7 +190227,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SAMUROTT
-    item: "ITEM_SAMUROTTITE"
+    item: ITEM_SAMUROTTITE
   }
   visuals {
     icon {
@@ -190270,7 +190270,7 @@ species {
   percent_female: 25.0
   mega {
     from: SPECIES_ARCANINE
-    item: "ITEM_ARCANITE"
+    item: ITEM_ARCANITE
   }
   visuals {
     icon {
@@ -190314,7 +190314,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_GOODRA
-    item: "ITEM_GOODRITE"
+    item: ITEM_GOODRITE
   }
   visuals {
     icon {
@@ -190358,7 +190358,7 @@ species {
   percent_female: 50.0
   mega {
     from: SPECIES_SLOWBRO_GALARIAN
-    item: "ITEM_SLOWBRONITE_G"
+    item: ITEM_SLOWBRONITE_G
   }
   visuals {
     icon {
@@ -190403,7 +190403,7 @@ species {
   tier: 4
   mega {
     from: SPECIES_SLOWKING_GALARIAN
-    item: "ITEM_SLOWKINGITE_G"
+    item: ITEM_SLOWKINGITE_G
   }
   visuals {
     icon {
