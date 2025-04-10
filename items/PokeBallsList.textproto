@@ -6,6 +6,7 @@ item {
   name: "Master Ball"
   description: "The best Ball that catches a Pok\303\251mon without fail."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "master_ball"
   palette: "master_ball"
 }
@@ -14,6 +15,7 @@ item {
   name: "Ultra Ball"
   description: "A better Ball with a higher catch rate than a Great Ball."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "ultra_ball"
   palette: "ultra_ball"
 }
@@ -22,6 +24,7 @@ item {
   name: "Great Ball"
   description: "A good Ball with a higher catch rate than a Pok\303\251 Ball."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "great_ball"
   palette: "great_ball"
 }
@@ -30,6 +33,7 @@ item {
   name: "Pok\303\251 Ball"
   description: "A tool used for catching wild Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "poke_ball"
   palette: "poke_ball"
 }
@@ -38,6 +42,7 @@ item {
   name: "Safari Ball"
   description: "A special Ball that is used only in the Safari Zone."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "safari_ball"
   palette: "safari_ball"
 }
@@ -46,6 +51,7 @@ item {
   name: "Net Ball"
   description: "A Ball that works well on Water-and Bug-type Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "net_ball"
   palette: "net_ball"
 }
@@ -54,6 +60,7 @@ item {
   name: "Dive Ball"
   description: "A Ball that works better on Pok\303\251mon on the ocean floor."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "dive_ball"
   palette: "dive_ball"
 }
@@ -62,6 +69,7 @@ item {
   name: "Nest Ball"
   description: "A Ball that works better on weaker Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "nest_ball"
   palette: "nest_ball"
 }
@@ -70,6 +78,7 @@ item {
   name: "Repeat Ball"
   description: "A Ball that works better on Pok\303\251mon caught before."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "repeat_ball"
   palette: "repeat_ball"
 }
@@ -78,6 +87,7 @@ item {
   name: "Timer Ball"
   description: "A Ball that gains power in battles taking many turns."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "timer_ball"
   palette: "repeat_ball"
 }
@@ -86,6 +96,7 @@ item {
   name: "Luxury Ball"
   description: "A cozy Ball that makes Pok\303\251mon more friendly."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "luxury_ball"
   palette: "luxury_ball"
 }
@@ -94,6 +105,7 @@ item {
   name: "Dusk Ball"
   description: "Works well if used in a dark place."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "dusk_ball"
   palette: "dusk_ball"
 }
@@ -102,6 +114,7 @@ item {
   name: "Heal Ball"
   description: "A remedial Ball that restores caught Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "heal_ball"
   palette: "heal_ball"
 }
@@ -110,6 +123,7 @@ item {
   name: "Quick Ball"
   description: "Works well if used on the first turn."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "quick_ball"
   palette: "quick_ball"
 }
@@ -118,6 +132,7 @@ item {
   name: "Cherish Ball"
   description: "A rare Ball made in commemoration of some event."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "cherish_ball"
   palette: "cherish_ball"
 }
@@ -126,6 +141,7 @@ item {
   name: "Fast Ball"
   description: "Works well on very fast Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "fast_ball"
   palette: "fast_ball"
 }
@@ -134,6 +150,7 @@ item {
   name: "Level Ball"
   description: "A Ball that works well on lower level Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "level_ball"
   palette: "level_ball"
 }
@@ -142,6 +159,7 @@ item {
   name: "Lure Ball"
   description: "A Ball that works well on fished up Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "lure_ball"
   palette: "lure_ball"
 }
@@ -150,6 +168,7 @@ item {
   name: "Heavy Ball"
   description: "Works well on very heavy Pok\303\251mon."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "heavy_ball"
   palette: "heavy_ball"
 }
@@ -158,6 +177,7 @@ item {
   name: "Love Ball"
   description: "Works well on Pok\303\251mon of the opposite gender."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "love_ball"
   palette: "love_ball"
 }
@@ -166,6 +186,7 @@ item {
   name: "Friend Ball"
   description: "A Ball that makes a Pok\303\251mon friendly when caught."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "friend_ball"
   palette: "friend_ball"
 }
@@ -174,6 +195,7 @@ item {
   name: "Moon Ball"
   description: "A Ball that works well on Moon Stone users."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "moon_ball"
   palette: "moon_ball"
 }
@@ -182,6 +204,7 @@ item {
   name: "Sport Ball"
   description: "A special Ball used in the Bug-Catching Contest."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "sport_ball"
   palette: "sport_ball"
 }
@@ -190,6 +213,7 @@ item {
   name: "Park Ball"
   description: "A special Ball for the Pal Park."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "park_ball"
   palette: "park_ball"
 }
@@ -198,6 +222,7 @@ item {
   name: "Dream Ball"
   description: "A Ball that gives a captured Pok\303\251mon its Hidden Ability."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "dream_ball"
   palette: "dream_ball"
 }
@@ -206,6 +231,7 @@ item {
   name: "Beast Ball"
   description: "A Ball designed to catch Ultra Beasts."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "beast_ball"
   palette: "beast_ball"
 }
@@ -214,6 +240,7 @@ item {
   name: "Premier Ball"
   description: "A rare Ball made in commemoration of some event."
   grouping: POCKET_POKE_BALLS
+  use_type: ITEM_USE_PARTY_MENU
   image: "premier_ball"
   palette: "luxury_ball"
 }
