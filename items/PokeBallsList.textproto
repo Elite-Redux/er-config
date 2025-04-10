@@ -90,68 +90,12 @@ item {
   palette: "luxury_ball"
 }
 item {
-  id: ITEM_PREMIER_BALL
-  name: "Premier Ball"
-  description: "A rare Ball made in commemoration of some event."
+  id: ITEM_DUSK_BALL
+  name: "Dusk Ball"
+  description: "Works well if used in a dark place."
   grouping: POCKET_POKE_BALLS
-  image: "premier_ball"
-  palette: "luxury_ball"
-}
-item {
-  id: ITEM_LEVEL_BALL
-  name: "Level Ball"
-  description: "A Ball that works well on lower level Pok\303\251mon."
-  grouping: POCKET_POKE_BALLS
-  image: "level_ball"
-  palette: "level_ball"
-}
-item {
-  id: ITEM_LURE_BALL
-  name: "Lure Ball"
-  description: "A Ball that works well on fished up Pok\303\251mon."
-  grouping: POCKET_POKE_BALLS
-  image: "lure_ball"
-  palette: "lure_ball"
-}
-item {
-  id: ITEM_MOON_BALL
-  name: "Moon Ball"
-  description: "A Ball that works well on Moon Stone users."
-  grouping: POCKET_POKE_BALLS
-  image: "moon_ball"
-  palette: "moon_ball"
-}
-item {
-  id: ITEM_FRIEND_BALL
-  name: "Friend Ball"
-  description: "A Ball that makes a Pok\303\251mon friendly when caught."
-  grouping: POCKET_POKE_BALLS
-  image: "friend_ball"
-  palette: "friend_ball"
-}
-item {
-  id: ITEM_LOVE_BALL
-  name: "Love Ball"
-  description: "Works well on Pok\303\251mon of the opposite gender."
-  grouping: POCKET_POKE_BALLS
-  image: "love_ball"
-  palette: "love_ball"
-}
-item {
-  id: ITEM_HEAVY_BALL
-  name: "Heavy Ball"
-  description: "Works well on very heavy Pok\303\251mon."
-  grouping: POCKET_POKE_BALLS
-  image: "heavy_ball"
-  palette: "heavy_ball"
-}
-item {
-  id: ITEM_FAST_BALL
-  name: "Fast Ball"
-  description: "Works well on very fast Pok\303\251mon."
-  grouping: POCKET_POKE_BALLS
-  image: "fast_ball"
-  palette: "fast_ball"
+  image: "dusk_ball"
+  palette: "dusk_ball"
 }
 item {
   id: ITEM_HEAL_BALL
@@ -170,20 +114,68 @@ item {
   palette: "quick_ball"
 }
 item {
-  id: ITEM_DUSK_BALL
-  name: "Dusk Ball"
-  description: "Works well if used in a dark place."
-  grouping: POCKET_POKE_BALLS
-  image: "dusk_ball"
-  palette: "dusk_ball"
-}
-item {
   id: ITEM_CHERISH_BALL
   name: "Cherish Ball"
   description: "A rare Ball made in commemoration of some event."
   grouping: POCKET_POKE_BALLS
   image: "cherish_ball"
   palette: "cherish_ball"
+}
+item {
+  id: ITEM_FAST_BALL
+  name: "Fast Ball"
+  description: "Works well on very fast Pok\303\251mon."
+  grouping: POCKET_POKE_BALLS
+  image: "fast_ball"
+  palette: "fast_ball"
+}
+item {
+  id: ITEM_LEVEL_BALL
+  name: "Level Ball"
+  description: "A Ball that works well on lower level Pok\303\251mon."
+  grouping: POCKET_POKE_BALLS
+  image: "level_ball"
+  palette: "level_ball"
+}
+item {
+  id: ITEM_LURE_BALL
+  name: "Lure Ball"
+  description: "A Ball that works well on fished up Pok\303\251mon."
+  grouping: POCKET_POKE_BALLS
+  image: "lure_ball"
+  palette: "lure_ball"
+}
+item {
+  id: ITEM_HEAVY_BALL
+  name: "Heavy Ball"
+  description: "Works well on very heavy Pok\303\251mon."
+  grouping: POCKET_POKE_BALLS
+  image: "heavy_ball"
+  palette: "heavy_ball"
+}
+item {
+  id: ITEM_LOVE_BALL
+  name: "Love Ball"
+  description: "Works well on Pok\303\251mon of the opposite gender."
+  grouping: POCKET_POKE_BALLS
+  image: "love_ball"
+  palette: "love_ball"
+}
+item {
+  id: ITEM_FRIEND_BALL
+  name: "Friend Ball"
+  description: "A Ball that makes a Pok\303\251mon friendly when caught."
+  grouping: POCKET_POKE_BALLS
+  image: "friend_ball"
+  palette: "friend_ball"
+}
+item {
+  id: ITEM_MOON_BALL
+  name: "Moon Ball"
+  description: "A Ball that works well on Moon Stone users."
+  grouping: POCKET_POKE_BALLS
+  image: "moon_ball"
+  palette: "moon_ball"
 }
 item {
   id: ITEM_SPORT_BALL
@@ -217,4 +209,11 @@ item {
   image: "beast_ball"
   palette: "beast_ball"
 }
-
+item {
+  id: ITEM_PREMIER_BALL
+  name: "Premier Ball"
+  description: "A rare Ball made in commemoration of some event."
+  grouping: POCKET_POKE_BALLS
+  image: "premier_ball"
+  palette: "luxury_ball"
+}

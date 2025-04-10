@@ -2,15 +2,6 @@
 # proto-message: er.ItemList
 
 item {
-  id: ITEM_POKE_VIAL
-  name: "Pok\303\251 Vial"
-  description: "Potent medicine that fully restores all Pok\303\251mon."
-  grouping: POCKET_KEY_ITEMS
-  use_type: ITEM_USE_FIELD
-  image: "poke_vial"
-  palette: "poke_vial"
-}
-item {
   id: ITEM_ESCAPE_ROPE
   name: "Escape Rope"
   description: "Use to escape instantly from a cave or a dungeon."
@@ -18,33 +9,6 @@ item {
   use_type: ITEM_USE_FIELD
   image: "escape_rope"
   palette: "escape_rope"
-}
-item {
-  id: ITEM_MACH_BIKE
-  name: "Mach Bike"
-  description: "A folding bicycle that doubles your speed or better."
-  grouping: POCKET_KEY_ITEMS
-  hold_effect_misc_param: "MACH_BIKE"
-  use_type: ITEM_USE_FIELD
-  image: "mach_bike"
-  palette: "mach_bike"
-}
-item {
-  id: ITEM_COIN_CASE
-  name: "Coin Case"
-  description: "A case that holds up to 9,999 Coins."
-  grouping: POCKET_KEY_ITEMS
-  image: "coin_case"
-  palette: "coin_case"
-}
-item {
-  id: ITEM_ITEMFINDER
-  name: "Dowsing MCHN"
-  description: "A device that signals an invisible item by sound."
-  grouping: POCKET_KEY_ITEMS
-  use_type: ITEM_USE_FIELD
-  image: "itemfinder"
-  palette: "itemfinder"
 }
 item {
   id: ITEM_OLD_ROD
@@ -77,12 +41,67 @@ item {
   palette: "super_rod"
 }
 item {
+  id: ITEM_MACH_BIKE
+  name: "Mach Bike"
+  description: "A folding bicycle that doubles your speed or better."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "MACH_BIKE"
+  use_type: ITEM_USE_FIELD
+  image: "mach_bike"
+  palette: "mach_bike"
+}
+item {
+  id: ITEM_ACRO_BIKE
+  name: "Acro Bike"
+  description: "A folding bicycle capable of jumps and wheelies."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "ACRO_BIKE"
+  use_type: ITEM_USE_FIELD
+  image: "acro_bike"
+  palette: "acro_bike"
+}
+item {
+  id: ITEM_INFINITE_REPEL
+  name: "Infinite Repel"
+  description: "Repels weak wild Pok\303\251mon until you turn it off."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "repel"
+  palette: "infinite_repel"
+}
+item {
+  id: ITEM_POKE_VIAL
+  name: "Pok\303\251 Vial"
+  description: "Potent medicine that fully restores all Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "poke_vial"
+  palette: "poke_vial"
+}
+item {
+  id: ITEM_COIN_CASE
+  name: "Coin Case"
+  description: "A case that holds up to 9,999 Coins."
+  grouping: POCKET_KEY_ITEMS
+  image: "coin_case"
+  palette: "coin_case"
+}
+item {
   id: ITEM_SS_TICKET
   name: "S.S. Ticket"
   description: "The ticket required for sailing on a ferry."
   grouping: POCKET_KEY_ITEMS
   image: "ss_ticket"
   palette: "ss_ticket"
+}
+item {
+  id: ITEM_ITEMFINDER
+  name: "Dowsing MCHN"
+  description: "A device that signals an invisible item by sound."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "itemfinder"
+  palette: "itemfinder"
 }
 item {
   id: ITEM_CONTEST_PASS
@@ -124,16 +143,6 @@ item {
   grouping: POCKET_KEY_ITEMS
   image: "basement_key"
   palette: "old_key"
-}
-item {
-  id: ITEM_ACRO_BIKE
-  name: "Acro Bike"
-  description: "A folding bicycle capable of jumps and wheelies."
-  grouping: POCKET_KEY_ITEMS
-  hold_effect_misc_param: "ACRO_BIKE"
-  use_type: ITEM_USE_FIELD
-  image: "acro_bike"
-  palette: "acro_bike"
 }
 item {
   id: ITEM_EGG_INCUBATOR
@@ -558,15 +567,6 @@ item {
   use_type: ITEM_USE_PARTY_MENU
   image: "oaks_parcel"
   palette: "oaks_parcel"
-}
-item {
-  id: ITEM_INFINITE_REPEL
-  name: "Infinite Repel"
-  description: "Repels weak wild Pok\303\251mon until you turn it off."
-  grouping: POCKET_KEY_ITEMS
-  use_type: ITEM_USE_PARTY_MENU
-  image: "repel"
-  palette: "infinite_repel"
 }
 item {
   id: ITEM_REVEAL_GLASS

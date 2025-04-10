@@ -1,253 +1,3 @@
-# proto-file: ItemList.proto
-# proto-message: er.ItemList
-
-item {
-  id: ITEM_POTION
-  name: "Potion"
-  description: "Restores the HP of a Pok\303\251mon by 20 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 20
-  use_type: ITEM_USE_PARTY_MENU
-  image: "potion"
-  palette: "potion"
-}
-item {
-  id: ITEM_ANTIDOTE
-  name: "Antidote"
-  description: "Heals a poisoned Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "antidote"
-  palette: "antidote"
-}
-item {
-  id: ITEM_BURN_HEAL
-  name: "Burn Heal"
-  description: "Heals Pok\303\251mon of a burn."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "status_heal"
-  palette: "burn_heal"
-}
-item {
-  id: ITEM_ICE_HEAL
-  name: "Ice Heal"
-  description: "Defrosts a frozen Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "status_heal"
-  palette: "ice_heal"
-}
-item {
-  id: ITEM_AWAKENING
-  name: "Awakening"
-  description: "Awakens a sleeping Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "status_heal"
-  palette: "awakening"
-}
-item {
-  id: ITEM_PARALYZE_HEAL
-  name: "Paralyze Heal"
-  description: "Heals a paralyzed Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "status_heal"
-  palette: "paralyze_heal"
-}
-item {
-  id: ITEM_FULL_RESTORE
-  name: "Full Restore"
-  description: "Fully restores the HP and status of a Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 255
-  use_type: ITEM_USE_PARTY_MENU
-  image: "large_potion"
-  palette: "full_restore"
-}
-item {
-  id: ITEM_MAX_POTION
-  name: "Max Potion"
-  description: "Fully restores the HP of a Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 255
-  use_type: ITEM_USE_PARTY_MENU
-  image: "large_potion"
-  palette: "max_potion"
-}
-item {
-  id: ITEM_HYPER_POTION
-  name: "Hyper Potion"
-  description: "Restores the HP of a Pok\303\251mon by 200 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 200
-  use_type: ITEM_USE_PARTY_MENU
-  image: "potion"
-  palette: "hyper_potion"
-}
-item {
-  id: ITEM_SUPER_POTION
-  name: "Super Potion"
-  description: "Restores the HP of a Pok\303\251mon by 60 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 60
-  use_type: ITEM_USE_PARTY_MENU
-  image: "potion"
-  palette: "super_potion"
-}
-item {
-  id: ITEM_FULL_HEAL
-  name: "Full Heal"
-  description: "Heals all the status problems of one Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "full_heal"
-  palette: "full_heal"
-}
-item {
-  id: ITEM_REVIVE
-  name: "Revive"
-  description: "Revives a fainted Pok\303\251mon with half its HP."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "revive"
-  palette: "revive"
-}
-item {
-  id: ITEM_MAX_REVIVE
-  name: "Max Revive"
-  description: "Revives a fainted Pok\303\251mon with all its HP."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "max_revive"
-  palette: "revive"
-}
-item {
-  id: ITEM_FRESH_WATER
-  name: "Fresh Water"
-  description: "A mineral water that restores HP by 50 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 50
-  use_type: ITEM_USE_PARTY_MENU
-  image: "fresh_water"
-  palette: "fresh_water"
-}
-item {
-  id: ITEM_SODA_POP
-  name: "Soda Pop"
-  description: "A fizzy soda drink that restores HP by 60 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 60
-  use_type: ITEM_USE_PARTY_MENU
-  image: "soda_pop"
-  palette: "soda_pop"
-}
-item {
-  id: ITEM_LEMONADE
-  name: "Lemonade"
-  description: "A very sweet drink that restores HP by 80 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 80
-  use_type: ITEM_USE_PARTY_MENU
-  image: "lemonade"
-  palette: "lemonade"
-}
-item {
-  id: ITEM_MOOMOO_MILK
-  name: "Moomoo Milk"
-  description: "A nutritious milk that restores HP by 100 points."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 100
-  use_type: ITEM_USE_PARTY_MENU
-  image: "moomoo_milk"
-  palette: "moomoo_milk"
-}
-item {
-  id: ITEM_ENERGY_POWDER
-  name: "Energy Powder"
-  description: "A bitter powder that restores HP by 60 points."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "powder"
-  palette: "energy_powder"
-}
-item {
-  id: ITEM_ENERGY_ROOT
-  name: "Energy Root"
-  description: "A bitter root that restores HP by 200 points."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "energy_root"
-  palette: "energy_root"
-}
-item {
-  id: ITEM_HEAL_POWDER
-  name: "Heal Powder"
-  description: "A bitter powder that heals all status problems."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "powder"
-  palette: "heal_powder"
-}
-item {
-  id: ITEM_REVIVAL_HERB
-  name: "Revival Herb"
-  description: "A very bitter herb that revives a fainted Pok\303\251mon."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "revival_herb"
-  palette: "revival_herb"
-}
-item {
-  id: ITEM_ETHER
-  name: "Ether"
-  description: "Restores the PP of a selected move by 10."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 10
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ether"
-  palette: "ether"
-}
-item {
-  id: ITEM_MAX_ETHER
-  name: "Max Ether"
-  description: "Fully restores the PP of a selected move."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 255
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ether"
-  palette: "max_ether"
-}
-item {
-  id: ITEM_ELIXIR
-  name: "Elixir"
-  description: "Restores the PP of all moves by 10."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 10
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ether"
-  palette: "elixir"
-}
-item {
-  id: ITEM_MAX_ELIXIR
-  name: "Max Elixir"
-  description: "Fully restores the PP of a Pok\303\251mon\'s moves."
-  grouping: POCKET_MEDICINE
-  hold_effect_strength: 255
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ether"
-  palette: "max_elixir"
-}
-item {
-  id: ITEM_LAVA_COOKIE
-  name: "Lava Cookie"
-  description: "A local specialty that heals all status problems."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "lava_cookie"
-  palette: "lava_cookie_and_letter"
-}
 item {
   id: ITEM_BERRY_JUICE
   name: "Berry Juice"
@@ -260,139 +10,107 @@ item {
   palette: "berry_juice"
 }
 item {
-  id: ITEM_SWEET_HEART
-  name: "Sweet Heart"
-  description: "A sweet chocolate that restores HP by 20 points."
+  id: ITEM_THROAT_SPRAY
+  name: "Throat Spray"
+  description: "Raises Sp. Atk when the holder uses a sound move."
   grouping: POCKET_MEDICINE
-  hold_effect_strength: 20
-  use_type: ITEM_USE_PARTY_MENU
-  image: "sweet_heart"
-  palette: "sweet_heart"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "throat_spray"
+  palette: "throat_spray"
 }
 item {
-  id: ITEM_BIG_MALASADA
-  name: "Big Malasada"
-  description: "Heals all the status problems of one Pok\303\251mon."
+  id: ITEM_BIG_ROOT
+  name: "Big Root"
+  description: "A held item that boosts the power of HP-stealing moves."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "big_malasada"
-  palette: "big_malasada"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 30
+  image: "big_root"
+  palette: "big_root"
 }
 item {
-  id: ITEM_OLD_GATEAU
-  name: "Old Gateau"
-  description: "Heals all the status problems of one Pok\303\251mon."
+  id: ITEM_MENTAL_HERB
+  name: "Mental Herb"
+  description: "A hold item that snaps Pok\303\251mon out of infatuation."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "old_gateau"
-  palette: "old_gateau"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "in_battle_herb"
+  palette: "mental_herb"
 }
 item {
-  id: ITEM_SACRED_ASH
-  name: "Sacred Ash"
-  description: "Fully revives and restores all fainted Pok\303\251mon."
+  id: ITEM_POWER_HERB
+  name: "Power Herb"
+  description: "Allows immediate use of a move that charges first."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "sacred_ash"
-  palette: "sacred_ash"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "power_herb"
+  palette: "power_herb"
 }
 item {
-  id: ITEM_HP_UP
-  name: "HP Up"
-  description: "Raises the HP IV of one Pok\303\251mon by 8."
+  id: ITEM_WHITE_HERB
+  name: "White Herb"
+  description: "A hold item that restores any lowered stat."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "hp_up"
-  palette: "hp_up"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "RESTORE_STATS"
+  image: "in_battle_herb"
+  palette: "white_herb"
 }
 item {
-  id: ITEM_PROTEIN
-  name: "Protein"
-  description: "Raises the Attack IV of one Pok\303\251mon by 8."
+  id: ITEM_MIRROR_HERB
+  name: "Mirror Herb"
+  description: "Mirrors an enemy\'s stat increases but only once."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "vitamin"
-  palette: "protein"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "mirror_herb"
+  palette: "mirror_herb"
 }
 item {
-  id: ITEM_IRON
-  name: "Iron"
-  description: "Raises the Defense IV of one Pok\303\251mon by 8."
+  id: ITEM_ELECTRIC_SEED
+  name: "Electric Seed"
+  description: "Boosts Defense on Electric Terrain, but only one time."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "vitamin"
-  palette: "iron"
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_ELECTRIC_TERRAIN"
+  image: "electric_seed"
+  palette: "electric_seed"
 }
 item {
-  id: ITEM_CARBOS
-  name: "Carbos"
-  description: "Raises the Speed IV of one Pok\303\251mon by 8."
+  id: ITEM_PSYCHIC_SEED
+  name: "Psychic Seed"
+  description: "Boosts Sp. Def. on Psychic Terrain, but only one time."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "vitamin"
-  palette: "carbos"
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_PSYCHIC_TERRAIN"
+  image: "psychic_seed"
+  palette: "psychic_seed"
 }
 item {
-  id: ITEM_CALCIUM
-  name: "Calcium"
-  description: "Raises the Sp. Atk IV of one Pok\303\251mon by 8."
+  id: ITEM_MISTY_SEED
+  name: "Misty Seed"
+  description: "Boosts Sp. Def. on Misty Terrain, but only one time."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "vitamin"
-  palette: "calcium"
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_MISTY_TERRAIN"
+  image: "misty_seed"
+  palette: "misty_seed"
 }
 item {
-  id: ITEM_RARE_CANDY
-  name: "Rare Candy"
-  description: "Raises the level of a Pok\303\251mon by one."
+  id: ITEM_GRASSY_SEED
+  name: "Grassy Seed"
+  description: "Boosts Defense on Grassy Terrain, but only one time."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "rare_candy"
-  palette: "rare_candy"
+  hold_effect: HOLD_EFFECT_SEEDS
+  hold_effect_misc_param: "HOLD_EFFECT_PARAM_GRASSY_TERRAIN"
+  image: "grassy_seed"
+  palette: "grassy_seed"
 }
 item {
-  id: ITEM_PP_UP
-  name: "PP Up"
-  description: "Raises the maximum PP of a selected move."
+  id: ITEM_BOOSTER_ENERGY
+  name: "Booster Energy"
+  description: "Encapsuled energy ups Pok\303\251mon with certain Abilities."
   grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "pp_up"
-  palette: "pp_up"
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "booster_energy"
+  palette: "booster_energy"
 }
-item {
-  id: ITEM_ZINC
-  name: "Zinc"
-  description: "Raises the Sp. Def IV of one Pok\303\251mon by 8."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "vitamin"
-  palette: "zinc"
-}
-item {
-  id: ITEM_PP_MAX
-  name: "PP Max"
-  description: "Raises the PP of a move to its maximum points."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "pp_max"
-  palette: "pp_max"
-}
-item {
-  id: ITEM_ABILITY_CAPSULE
-  name: "Ability Pill"
-  description: "Switches a Pok\303\251- mon\'s ability."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ability_capsule"
-  palette: "ability_capsule"
-}
-item {
-  id: ITEM_ABILITY_PATCH
-  name: "AbilityPatch"
-  description: "Switches a Pok\303\251- mon\'s ability to its hidden ability."
-  grouping: POCKET_MEDICINE
-  use_type: ITEM_USE_PARTY_MENU
-  image: "ability_patch"
-  palette: "ability_patch"
-}
-

@@ -334,101 +334,6 @@ item {
   palette: "belue_berry"
 }
 item {
-  id: ITEM_LIECHI_BERRY
-  name: "Liechi Berry"
-  description: "A hold item that raises Attack in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "ATTACK_UP"
-  hold_effect_strength: 4
-  image: "liechi_berry"
-  palette: "liechi_berry"
-}
-item {
-  id: ITEM_GANLON_BERRY
-  name: "Ganlon Berry"
-  description: "A hold item that raises Defense in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "DEFENSE_UP"
-  hold_effect_strength: 4
-  image: "ganlon_berry"
-  palette: "ganlon_berry"
-}
-item {
-  id: ITEM_SALAC_BERRY
-  name: "Salac Berry"
-  description: "A hold item that raises Speed in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "SPEED_UP"
-  hold_effect_strength: 4
-  image: "salac_berry"
-  palette: "salac_berry"
-}
-item {
-  id: ITEM_PETAYA_BERRY
-  name: "Petaya Berry"
-  description: "A hold item that raises Sp. Atk in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "SP_ATTACK_UP"
-  hold_effect_strength: 4
-  image: "petaya_berry"
-  palette: "petaya_berry"
-}
-item {
-  id: ITEM_APICOT_BERRY
-  name: "Apicot Berry"
-  description: "A hold item that raises Sp. Def in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "SP_DEFENSE_UP"
-  hold_effect_strength: 4
-  image: "apicot_berry"
-  palette: "apicot_berry"
-}
-item {
-  id: ITEM_LANSAT_BERRY
-  name: "Lansat Berry"
-  description: "A hold item that ups the critical-hit rate in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "CRITICAL_UP"
-  hold_effect_strength: 4
-  image: "lansat_berry"
-  palette: "lansat_berry"
-}
-item {
-  id: ITEM_STARF_BERRY
-  name: "Starf Berry"
-  description: "A hold item that sharply boosts a stat in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "RANDOM_STAT_UP"
-  hold_effect_strength: 4
-  image: "starf_berry"
-  palette: "starf_berry"
-}
-item {
-  id: ITEM_MICLE_BERRY
-  name: "Micle Berry"
-  description: "When held, it ups the Accuracy of a move in a pinch."
-  grouping: POCKET_BERRIES
-  hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_strength: 4
-  image: "micle_berry"
-  palette: "micle_berry"
-}
-item {
-  id: ITEM_ENIGMA_BERRY
-  name: "Enigma Berry"
-  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow a mystery."
-  grouping: POCKET_BERRIES
-  image: "enigma_berry"
-  palette: "enigma_berry"
-}
-item {
   id: ITEM_OCCA_BERRY
   name: "Occa Berry"
   description: "A hold item that weakens a Fire move if weak to it."
@@ -609,6 +514,93 @@ item {
   palette: "roseli_berry"
 }
 item {
+  id: ITEM_LIECHI_BERRY
+  name: "Liechi Berry"
+  description: "A hold item that raises Attack in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "ATTACK_UP"
+  hold_effect_strength: 4
+  image: "liechi_berry"
+  palette: "liechi_berry"
+}
+item {
+  id: ITEM_GANLON_BERRY
+  name: "Ganlon Berry"
+  description: "A hold item that raises Defense in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "DEFENSE_UP"
+  hold_effect_strength: 4
+  image: "ganlon_berry"
+  palette: "ganlon_berry"
+}
+item {
+  id: ITEM_SALAC_BERRY
+  name: "Salac Berry"
+  description: "A hold item that raises Speed in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "SPEED_UP"
+  hold_effect_strength: 4
+  image: "salac_berry"
+  palette: "salac_berry"
+}
+item {
+  id: ITEM_PETAYA_BERRY
+  name: "Petaya Berry"
+  description: "A hold item that raises Sp. Atk in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "SP_ATTACK_UP"
+  hold_effect_strength: 4
+  image: "petaya_berry"
+  palette: "petaya_berry"
+}
+item {
+  id: ITEM_APICOT_BERRY
+  name: "Apicot Berry"
+  description: "A hold item that raises Sp. Def in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "SP_DEFENSE_UP"
+  hold_effect_strength: 4
+  image: "apicot_berry"
+  palette: "apicot_berry"
+}
+item {
+  id: ITEM_LANSAT_BERRY
+  name: "Lansat Berry"
+  description: "A hold item that ups the critical-hit rate in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "CRITICAL_UP"
+  hold_effect_strength: 4
+  image: "lansat_berry"
+  palette: "lansat_berry"
+}
+item {
+  id: ITEM_STARF_BERRY
+  name: "Starf Berry"
+  description: "A hold item that sharply boosts a stat in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "RANDOM_STAT_UP"
+  hold_effect_strength: 4
+  image: "starf_berry"
+  palette: "starf_berry"
+}
+item {
+  id: ITEM_MICLE_BERRY
+  name: "Micle Berry"
+  description: "When held, it ups the Accuracy of a move in a pinch."
+  grouping: POCKET_BERRIES
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 4
+  image: "micle_berry"
+  palette: "micle_berry"
+}
+item {
   id: ITEM_CUSTAP_BERRY
   name: "Custap Berry"
   description: "It allows a Pok\303\251mon in a pinch to move first just once."
@@ -654,4 +646,11 @@ item {
   image: "maranga_berry"
   palette: "maranga_berry"
 }
-
+item {
+  id: ITEM_ENIGMA_BERRY
+  name: "Enigma Berry"
+  description: "{POKEBLOCK} ingredient. Plant in loamy soil to grow a mystery."
+  grouping: POCKET_BERRIES
+  image: "enigma_berry"
+  palette: "enigma_berry"
+}
