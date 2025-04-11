@@ -9,6 +9,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "abomasite"
   palette: "abomasite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ABSOLITE
@@ -18,6 +19,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "absolite"
   palette: "absolite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AERODACTYLITE
@@ -27,6 +29,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aerodactylite"
   palette: "aerodactylite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AGGRONITE
@@ -36,6 +39,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ALAKAZITE
@@ -45,6 +49,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "alakazite"
   palette: "alakazite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ALTARIANITE
@@ -54,6 +59,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "altarianite"
   palette: "altarianite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AMPHAROSITE
@@ -63,6 +69,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "ampharosite"
   palette: "ampharosite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AUDINITE
@@ -72,6 +79,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "audinite"
   palette: "audinite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BANETTITE
@@ -81,6 +89,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "banettite"
   palette: "banettite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BEEDRILLITE
@@ -90,6 +99,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "beedrillite"
   palette: "beedrillite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BLASTOISINITE
@@ -99,6 +109,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "blastoisinite"
   palette: "blastoisinite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BLAZIKENITE
@@ -108,6 +119,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "blazikenite"
   palette: "blazikenite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CAMERUPTITE
@@ -117,6 +129,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "cameruptite"
   palette: "cameruptite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHARIZARDITE_X
@@ -126,6 +139,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "charizardite_x"
   palette: "charizardite_x"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHARIZARDITE_Y
@@ -135,6 +149,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "charizardite_y"
   palette: "charizardite_y"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DIANCITE
@@ -144,6 +159,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "diancite"
   palette: "diancite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GALLADITE
@@ -153,6 +169,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "galladite"
   palette: "galladite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GARCHOMPITE
@@ -162,6 +179,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "garchompite"
   palette: "garchompite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GARDEVOIRITE
@@ -171,6 +189,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gardevoirite"
   palette: "gardevoirite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GENGARITE
@@ -180,6 +199,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gengarite"
   palette: "gengarite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GLALITITE
@@ -189,6 +209,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "glalitite"
   palette: "glalitite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GYARADOSITE
@@ -198,6 +219,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gyaradosite"
   palette: "gyaradosite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_HERACRONITE
@@ -207,6 +229,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "heracronite"
   palette: "heracronite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_HOUNDOOMINITE
@@ -216,6 +239,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "houndoominite"
   palette: "houndoominite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KANGASKHANITE
@@ -225,6 +249,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "kangaskhanite"
   palette: "kangaskhanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LATIASITE
@@ -234,6 +259,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "latiasite"
   palette: "latiasite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LATIOSITE
@@ -243,6 +269,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "latiosite"
   palette: "latiosite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LOPUNNITE
@@ -252,6 +279,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "lopunnite"
   palette: "lopunnite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LUCARIONITE
@@ -261,6 +289,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "lucarionite"
   palette: "lucarionite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MANECTITE
@@ -270,6 +299,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "manectite"
   palette: "manectite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MAWILITE
@@ -279,6 +309,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "mawilite"
   palette: "mawilite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MEDICHAMITE
@@ -288,6 +319,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "medichamite"
   palette: "medichamite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_METAGROSSITE
@@ -297,6 +329,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "metagrossite"
   palette: "metagrossite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MEWTWONITE_X
@@ -306,6 +339,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "mewtwonite_x"
   palette: "mewtwonite_x"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MEWTWONITE_Y
@@ -315,6 +349,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "mewtwonite_y"
   palette: "mewtwonite_y"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PIDGEOTITE
@@ -324,6 +359,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "pidgeotite"
   palette: "pidgeotite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PINSIRITE
@@ -333,6 +369,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "pinsirite"
   palette: "pinsirite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SABLENITE
@@ -342,6 +379,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "sablenite"
   palette: "sablenite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SALAMENCITE
@@ -351,6 +389,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "salamencite"
   palette: "salamencite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SCEPTILITE
@@ -360,6 +399,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "sceptilite"
   palette: "sceptilite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SCIZORITE
@@ -369,6 +409,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "scizorite"
   palette: "scizorite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHARPEDONITE
@@ -378,6 +419,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "sharpedonite"
   palette: "sharpedonite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SLOWBRONITE
@@ -387,6 +429,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "slowbronite"
   palette: "slowbronite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_STEELIXITE
@@ -396,6 +439,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "steelixite"
   palette: "steelixite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SWAMPERTITE
@@ -405,6 +449,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "swampertite"
   palette: "swampertite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TYRANITARITE
@@ -414,6 +459,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "tyranitarite"
   palette: "tyranitarite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_VENUSAURITE
@@ -423,6 +469,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "venusaurite"
   palette: "venusaurite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MILOTICITE
@@ -432,6 +479,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "miloticite"
   palette: "miloticite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_RED_ORB
@@ -441,6 +489,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "orb"
   palette: "red_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_BLUE_ORB
@@ -450,6 +499,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "orb"
   palette: "blue_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FLYGONITE
@@ -459,6 +509,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "flygonite"
   palette: "flygonite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BUTTERFRENITE
@@ -468,6 +519,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "butterfrenite"
   palette: "butterfrenite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LAPRASITE_Y
@@ -477,6 +529,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "laprasite"
   palette: "laprasite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MACHAMPITE
@@ -486,6 +539,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "machampite"
   palette: "machampite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KINGLERITE
@@ -495,6 +549,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "kinglerite"
   palette: "kinglerite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KINGDRANITE
@@ -504,6 +559,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "kingdranite"
   palette: "kingdranite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DEWGONGITE
@@ -513,6 +569,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "dewgongite"
   palette: "dewgongite"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Totem Dewgong in Seafoam Cave B1F."
 }
 item {
   id: ITEM_HITMONCHANITE
@@ -522,6 +580,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  mega_badge_requirement: 6
+  unique_mega_location: "Defeat Blackbelt John in Granite Cave B2F."
 }
 item {
   id: ITEM_HITMONLEENITE
@@ -531,6 +591,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonlite"
+  mega_badge_requirement: 6
+  unique_mega_location: "Defeat Blackbelt John in Granite Cave B2F."
 }
 item {
   id: ITEM_HITMONTOPITE
@@ -540,6 +602,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmontopite"
+  mega_badge_requirement: 6
+  unique_mega_location: "Defeat Blackbelt John in Granite Cave B2F."
 }
 item {
   id: ITEM_CROBATITE
@@ -549,6 +613,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "crobatite"
   palette: "crobatite"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Expert Morticia in Dewford Manor."
 }
 item {
   id: ITEM_SKARMORITE
@@ -558,6 +624,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BRUXISHITE
@@ -576,6 +643,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Youngster Kaixer in the Game Corner."
 }
 item {
   id: ITEM_INFERNAPENITE
@@ -585,6 +654,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "infernapenite"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Youngster Kaixer in the Game Corner."
 }
 item {
   id: ITEM_EMPOLEONITE
@@ -594,6 +665,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "empoleonite"
   palette: "empoleonite"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Youngster Kaixer in the Game Corner."
 }
 item {
   id: ITEM_SHUCKLENITE
@@ -603,6 +676,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  unique_mega_location: "Find in Route 110."
 }
 item {
   id: ITEM_RELICANTHITE
@@ -612,6 +686,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_QUAGSIRENITE
@@ -621,6 +696,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_JELLICENTITE
@@ -639,6 +715,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Leader Winona."
 }
 item {
   id: ITEM_DRAGONITENITE
@@ -648,6 +726,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "dragonitenite"
   palette: "dragonitenite"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat the three sages at Sky Pillar."
 }
 item {
   id: ITEM_BRELOOMITE
@@ -657,6 +737,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "breloomite"
   palette: "breloomite"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Totem Breloom in Petalburg Woods."
 }
 item {
   id: ITEM_SLAKINGITE
@@ -666,6 +748,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 6
+  unique_mega_location: "Speak to Leader Norman."
 }
 item {
   id: ITEM_PURPLE_ORB
@@ -675,6 +759,8 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "purple_orb"
   palette: "purple_orb"
+  mega_badge_requirement: 9
+  unique_mega_location: "Defeat Cooltrainer Baneful in Petalburg Woods."
 }
 item {
   id: ITEM_SLOWKINGITE
@@ -684,6 +770,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Tate & Liza."
 }
 item {
   id: ITEM_GYARADOSITE_Y
@@ -693,6 +781,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "gyaradosite_y"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Totem Gyarados on Route 132."
 }
 item {
   id: ITEM_FERALIGATRITE_X
@@ -702,6 +792,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "feraligatrite_x"
   palette: "feraligatrite_x"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Sailor Caleb on Route 105."
 }
 item {
   id: ITEM_FERALIGATRITE_Y
@@ -711,6 +803,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "feraligatrite_y"
   palette: "feraligatrite_y"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Totem Feraligatr on Route 114."
 }
 item {
   id: ITEM_HAXORUSITE
@@ -720,6 +814,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "haxorusite"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Totem Haxorus in Meteor Falls."
 }
 item {
   id: ITEM_LUXRAYNITE
@@ -729,6 +825,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GRANBULLITE
@@ -738,6 +835,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "granbullite"
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Lady Amelia on Route 123."
 }
 item {
   id: ITEM_TYPHLOSIONITE
@@ -747,6 +846,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Kindler Ignatius in Ashen Woods."
 }
 item {
   id: ITEM_NIDOQUEENITE
@@ -756,6 +857,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 6
+  unique_mega_location: "Defeat Cooltrainer Prince on Route 116."
 }
 item {
   id: ITEM_NIDOKINGITE
@@ -765,6 +868,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 6
+  unique_mega_location: "Defeat Cooltrainer Prince on Route 116."
 }
 item {
   id: ITEM_SANDSLASHITE
@@ -774,6 +879,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Totem Sandslash on Route 111."
 }
 item {
   id: ITEM_MEGANIUMITE
@@ -783,6 +890,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Aroma Lady Lily in Verdanturf Meadow."
 }
 item {
   id: ITEM_KROOKODILENITE
@@ -792,6 +901,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Defeat Ruin Maniac Jones outside Mirage Tower."
 }
 item {
   id: ITEM_MAGNEZONITE
@@ -801,6 +912,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHEDINJITE
@@ -810,6 +922,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 7
+  unique_mega_location: "Find in Abandoned Ship."
 }
 item {
   id: ITEM_SWALOTITE
@@ -819,6 +933,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LANTURNITE
@@ -828,6 +943,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  mega_badge_requirement: 5
+  unique_mega_location: "Solve the mystery at New Mauville."
 }
 item {
   id: ITEM_LAPRASITE_X
@@ -837,6 +954,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "laprasite"
   palette: "laprasite"
+  unique_mega_location: "Find at Oceanic Museam 2F."
 }
 item {
   id: ITEM_KINGAMBITITE_R
@@ -846,6 +964,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_RIBOMBITE
@@ -855,6 +974,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_GARCHOMPITE_R
@@ -864,6 +984,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "garchompite_r"
+  adoption_center: true
 }
 item {
   id: ITEM_SKARMORITE_R
@@ -873,6 +994,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_MACHAMPITE_R
@@ -882,6 +1004,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_ALAKAZITE_R
@@ -891,6 +1014,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "alakazite_r"
   palette: "alakazite_r"
+  adoption_center: true
 }
 item {
   id: ITEM_BEEDRILLITE_R
@@ -900,6 +1024,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "beedrillite_r"
   palette: "beedrillite_r"
+  adoption_center: true
 }
 item {
   id: ITEM_HOUNDOOMINITE_R
@@ -909,6 +1034,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "houndoomite_r"
+  adoption_center: true
 }
 item {
   id: ITEM_FROSLASSITE
@@ -918,6 +1044,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite"
   palette: "froslassite"
+  adoption_center: true
 }
 item {
   id: ITEM_SCRAFTITE
@@ -936,6 +1063,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_SABLENITE_R
@@ -945,6 +1073,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_URSALUNITE
@@ -954,6 +1083,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_ARCANITE_R
@@ -963,6 +1093,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_TYRANITARITE_R
@@ -972,6 +1103,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "generic_megastone"
+  adoption_center: true
 }
 item {
   id: ITEM_WIGGLYTUFFITE
@@ -981,6 +1113,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "wigglytuffite"
   palette: "wigglytuffite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TINKATITE
@@ -990,6 +1123,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "tinkatite"
   palette: "tinkatite"
+  adoption_center: true
 }
 item {
   id: ITEM_GYARADEATHITE_X
@@ -999,6 +1133,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gyaradeathite_x"
   palette: "gyaradeathite_x"
+  adoption_center: true
 }
 item {
   id: ITEM_GYARADEATHITE_Y
@@ -1008,6 +1143,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gyaradeathite_y"
   palette: "gyaradeathite_y"
+  adoption_center: true
 }
 item {
   id: ITEM_SENZU
@@ -1017,6 +1153,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "senzu"
   palette: "senzu"
+  adoption_center: true
 }
 item {
   id: ITEM_AEGISLASHITE_R
@@ -1026,6 +1163,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aegislashite_R"
   palette: "aegislashite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_ARBOKITE
@@ -1035,6 +1173,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "arbokite"
   palette: "arbokite"
+  adoption_center: true
 }
 item {
   id: ITEM_CLEFABITE_R
@@ -1044,6 +1183,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "clefabite_R"
   palette: "clefabite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_FLYGONITE_R
@@ -1053,6 +1193,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "flygonite_R"
   palette: "flygonite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_EMPOLEONITE_R
@@ -1062,6 +1203,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "empoleonite_R"
   palette: "empoleonite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_INFERNAPENITE_R
@@ -1071,6 +1213,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "infernapenite_R"
   palette: "infernapenite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_FROSLASSITE_R
@@ -1080,6 +1223,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "froslassite_R"
   palette: "froslassite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_GLALITITE_R
@@ -1089,6 +1233,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "glalitite_R"
   palette: "glalitite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_RAPIDASHITE_G
@@ -1098,6 +1243,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "rapidashite_G"
   palette: "rapidashite_G"
+  adoption_center: true
 }
 item {
   id: ITEM_GOLISOPODITE
@@ -1107,6 +1253,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "golisopodite"
   palette: "golisopodite"
+  adoption_center: true
 }
 item {
   id: ITEM_HYDREIGONITE_R
@@ -1116,6 +1263,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "hydreigonite_R"
   palette: "hydreigonite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_TORTERRANITE_R
@@ -1125,6 +1273,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "torterranite_R"
   palette: "torterranite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_RAPIDASHITE
@@ -1134,6 +1283,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "rapidashite"
   palette: "rapidashite"
+  adoption_center: true
 }
 item {
   id: ITEM_CORMOTHITE
@@ -1143,6 +1293,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "cormothite"
   palette: "cormothite"
+  adoption_center: true
 }
 item {
   id: ITEM_POPCORMITE
@@ -1152,6 +1303,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "popcormite"
   palette: "popcormite"
+  adoption_center: true
 }
 item {
   id: ITEM_REUNICLUSITE_R
@@ -1161,6 +1313,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "reuniclusite_R"
   palette: "reuniclusite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_TOXTRICITITE_R
@@ -1170,6 +1323,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "toxtricitite_R"
   palette: "toxtricitite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_ORICORIONITE
@@ -1179,6 +1333,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "oricorionite"
   palette: "oricorionite"
+  adoption_center: true
 }
 item {
   id: ITEM_TSAREENITE_R
@@ -1188,6 +1343,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "tsareenite_R"
   palette: "tsareenite_R"
+  adoption_center: true
 }
 item {
   id: ITEM_URSHIFITE
@@ -1197,6 +1353,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "urshifite"
   palette: "urshifite"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_AMPHYBUZZITE
@@ -1206,6 +1363,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "amphybuzzite"
   palette: "amphybuzzite"
+  adoption_center: true
 }
 item {
   id: ITEM_MELMETALITE
@@ -1215,6 +1373,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "melmetalite"
   palette: "melmetalite"
+  mega_badge_requirement: 9
+  unique_mega_location: "Get Meltan from Steven's House in Mossdeep."
 }
 item {
   id: ITEM_DYNAMAX_ORB
@@ -1224,6 +1384,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "purple_orb"
   palette: "purple_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_TERA_ORB
@@ -1233,6 +1394,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "tera_orb"
   palette: "tera_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_VENUSAURITE_X
@@ -1242,6 +1404,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "venusaurite"
   palette: "venusaurite"
+  adoption_center: true
 }
 item {
   id: ITEM_CHARIZARDITE_Z
@@ -1251,6 +1414,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "charizardite_y"
   palette: "charizardite_y"
+  adoption_center: true
 }
 item {
   id: ITEM_BLASTOISINITE_X
@@ -1260,6 +1424,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "blastoisinite"
   palette: "blastoisinite"
+  adoption_center: true
 }
 item {
   id: ITEM_GENGARITE_X
@@ -1269,6 +1434,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "gengarite"
   palette: "gengarite"
+  adoption_center: true
 }
 item {
   id: ITEM_SNORLAXITE
@@ -1278,6 +1444,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_RILLABOOMITE
@@ -1287,6 +1454,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_CINDERACEITE
@@ -1296,6 +1464,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_INTELEONITE
@@ -1305,6 +1474,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_CORVINITE
@@ -1314,6 +1484,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_DREDNAWITE
@@ -1323,6 +1494,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_COALOSSITE
@@ -1332,6 +1504,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_SANDACONDITE
@@ -1341,6 +1514,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_COPPERAJITE
@@ -1350,6 +1524,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_HATTERENITE
@@ -1359,6 +1534,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_GARBODORITE
@@ -1368,6 +1544,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_ORBEETITE
@@ -1377,6 +1554,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_GRIMMSNARLITE
@@ -1386,6 +1564,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_CENTISKITE
@@ -1395,6 +1574,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_ALCREMITE
@@ -1404,6 +1584,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_TOXTRICITITE
@@ -1413,6 +1594,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_PIKANITE
@@ -1458,6 +1640,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "ultranecrozium_z"
   palette: "ultranecrozium_z"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FIDOUGHITE
@@ -1476,6 +1659,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "wigglytuffite"
   palette: "wigglytuffite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SERPERIORITE
@@ -1485,6 +1669,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_EMBOARITE
@@ -1494,6 +1679,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SAMUROTTITE
@@ -1503,6 +1689,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DECIDUITE
@@ -1512,6 +1699,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WEAVILEITE
@@ -1521,6 +1709,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_DECIDUITE_H
@@ -1530,6 +1719,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_INCINERITE
@@ -1539,6 +1729,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MEOWSCARADITE
@@ -1548,6 +1739,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PRIMARINITE
@@ -1557,6 +1749,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_QUAQUAVITE
@@ -1566,6 +1759,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SAMUROTTITE_H
@@ -1575,6 +1769,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SKELEDIRGEITE
@@ -1584,6 +1779,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TYPHLOSIONITE_H
@@ -1593,6 +1789,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MIENSHAOITE
@@ -1602,6 +1799,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_GOODRITE
@@ -1611,6 +1809,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_SLOWBRONITE_G
@@ -1620,6 +1819,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "slowbronite"
   palette: "slowbronite"
+  adoption_center: true
 }
 item {
   id: ITEM_SLOWKINGITE_G
@@ -1629,6 +1829,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_ROSERADEITE
@@ -1638,6 +1839,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ARCANITE
@@ -1647,6 +1849,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "hitmonchanite"
+  adoption_center: true
 }
 item {
   id: ITEM_KINGDRANITE_Y
@@ -1656,6 +1859,7 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "kingdranite"
   palette: "kingdranite"
+  adoption_center: true
 }
 item {
   id: ITEM_PHANTOM_METEOR
@@ -1789,6 +1993,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "adamant_orb"
   palette: "adamant_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_LUSTROUS_ORB
@@ -1798,6 +2003,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "lustrous_orb"
   palette: "lustrous_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_GRISEOUS_ORB
@@ -1807,6 +2013,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "griseous_orb"
   palette: "griseous_orb"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_RUSTED_SWORD
@@ -1816,6 +2023,7 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "rusted_sword"
   palette: "rusted_sword"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_RUSTED_SHIELD
@@ -1825,4 +2033,5 @@ item {
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "rusted_shield"
   palette: "rusted_shield"
+  talk_to_legendary_sage: true
 }

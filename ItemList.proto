@@ -58,21 +58,23 @@ message Item {
   ItemEnum id = 1;
   string name = 2;
   string description = 3;
+  int32 mega_badge_requirement = 4;
   oneof mega_stone_hint {
-     bool talk_to_norman = 4;
-     bool adoption_center = 5;
-     string custom = 6;
+    bool talk_to_nurse_joy = 5;
+     bool adoption_center = 6;
+    bool talk_to_legendary_sage = 7;
+     string unique_mega_location = 8;
   }
-  int32 bp_price = 7;
-  Pocket grouping = 8;
-  HoldEffect hold_effect = 9;
-  string hold_effect_alias = 10;
-  int32 hold_effect_strength = 11;
-  Type hold_effect_type = 12;
-  string hold_effect_misc_param = 13;
-  UseType use_type = 14;
-  string image = 15;
-  string palette = 16;
-  string field_use_func = 17;
-  string battle_use_func = 18;
+  int32 bp_price = 9;
+  Pocket grouping = 10;
+  HoldEffect hold_effect = 11;
+  string hold_effect_alias = 12;
+  int32 hold_effect_strength = 13;
+  Type hold_effect_type = 14;
+  string hold_effect_misc_param = 15;
+  UseType use_type = 16;
+  string image = 17;
+  string palette = 18;
+  string field_use_func = 19;
+  string battle_use_func = 20;
 }
