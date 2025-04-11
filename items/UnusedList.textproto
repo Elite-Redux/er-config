@@ -4,7 +4,7 @@
 item {
   name: "????????"
   description: "?????"
-  grouping: POCKET_ITEMS
+  grouping: POCKET_NONE
   image: "question_mark"
   palette: "question_mark"
 }

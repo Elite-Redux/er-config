@@ -10,6 +10,7 @@ item {
   image: "master_ball"
   palette: "master_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_ULTRA_BALL
@@ -20,6 +21,7 @@ item {
   image: "ultra_ball"
   palette: "ultra_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_GREAT_BALL
@@ -30,6 +32,7 @@ item {
   image: "great_ball"
   palette: "great_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_POKE_BALL
@@ -40,6 +43,7 @@ item {
   image: "poke_ball"
   palette: "poke_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_SAFARI_BALL
@@ -50,6 +54,7 @@ item {
   image: "safari_ball"
   palette: "safari_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_NET_BALL
@@ -60,6 +65,7 @@ item {
   image: "net_ball"
   palette: "net_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_DIVE_BALL
@@ -70,6 +76,7 @@ item {
   image: "dive_ball"
   palette: "dive_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_NEST_BALL
@@ -80,6 +87,7 @@ item {
   image: "nest_ball"
   palette: "nest_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_REPEAT_BALL
@@ -90,6 +98,7 @@ item {
   image: "repeat_ball"
   palette: "repeat_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_TIMER_BALL
@@ -100,6 +109,7 @@ item {
   image: "timer_ball"
   palette: "repeat_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_LUXURY_BALL
@@ -110,6 +120,7 @@ item {
   image: "luxury_ball"
   palette: "luxury_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_DUSK_BALL
@@ -120,6 +131,7 @@ item {
   image: "dusk_ball"
   palette: "dusk_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_HEAL_BALL
@@ -130,6 +142,7 @@ item {
   image: "heal_ball"
   palette: "heal_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_QUICK_BALL
@@ -140,6 +153,7 @@ item {
   image: "quick_ball"
   palette: "quick_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_CHERISH_BALL
@@ -150,6 +164,7 @@ item {
   image: "cherish_ball"
   palette: "cherish_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_FAST_BALL
@@ -160,6 +175,7 @@ item {
   image: "fast_ball"
   palette: "fast_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_LEVEL_BALL
@@ -170,6 +186,7 @@ item {
   image: "level_ball"
   palette: "level_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_LURE_BALL
@@ -180,6 +197,7 @@ item {
   image: "lure_ball"
   palette: "lure_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_HEAVY_BALL
@@ -190,6 +208,7 @@ item {
   image: "heavy_ball"
   palette: "heavy_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_LOVE_BALL
@@ -200,6 +219,7 @@ item {
   image: "love_ball"
   palette: "love_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_FRIEND_BALL
@@ -210,6 +230,7 @@ item {
   image: "friend_ball"
   palette: "friend_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_MOON_BALL
@@ -220,6 +241,7 @@ item {
   image: "moon_ball"
   palette: "moon_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_SPORT_BALL
@@ -230,6 +252,7 @@ item {
   image: "sport_ball"
   palette: "sport_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_PARK_BALL
@@ -240,6 +263,7 @@ item {
   image: "park_ball"
   palette: "park_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_DREAM_BALL
@@ -250,6 +274,7 @@ item {
   image: "dream_ball"
   palette: "dream_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_BEAST_BALL
@@ -260,6 +285,7 @@ item {
   image: "beast_ball"
   palette: "beast_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
 item {
   id: ITEM_PREMIER_BALL
@@ -270,4 +296,5 @@ item {
   image: "premier_ball"
   palette: "luxury_ball"
   battle_use_func: "PokeBall"
+  field_use_func: "PokeBall"
 }
