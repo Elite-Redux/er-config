@@ -4,6 +4,7 @@ package er;
 
 import "ItemEnum.proto";
 import "Types.proto";
+import "MoveEffect.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -50,6 +51,14 @@ enum Pocket {
   POCKET_MEGA_STONES = 8;
 }
 
+message NaturalGiftEffect {
+  int32 power = 1;
+  Type type = 2;
+  MoveEffect effect = 3;
+  bool affects_user = 4;
+  bool certain = 5;
+}
+
 message ItemList {
   repeated Item item = 1;
 }
@@ -77,4 +86,5 @@ message Item {
   string palette = 18;
   string field_use_func = 19;
   string battle_use_func = 20;
+  NaturalGiftEffect natural_gift = 21;
 }

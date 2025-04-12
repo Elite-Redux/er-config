@@ -104,4 +104,5 @@ enum MoveEffect {
   MOVE_EFFECT_WYRM_WIND = 93 [(no_sheer_force) = true];
   MOVE_EFFECT_SCALE_SHOT = 94 [(no_sheer_force) = true];
   MOVE_EFFECT_DOUBLESLAP = 95;
+  MOVE_EFFECT_CRIT_PLUS_1 = 96;
 }
