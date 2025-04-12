@@ -69,6 +69,7 @@ item {
   palette: "aspear_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LEPPA_BERRY
