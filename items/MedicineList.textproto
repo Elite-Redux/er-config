@@ -39,7 +39,7 @@ item {
 item {
   id: ITEM_MENTAL_HERB
   name: "Mental Herb"
-  description: "A hold item that snaps Pok\303\251mon out of infatuation."
+  description: "Cures the Pok\303\251mon of some status effects."
   grouping: POCKET_MEDICINE
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "in_battle_herb"
