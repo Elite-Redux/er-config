@@ -13,6 +13,7 @@ item {
   palette: "berry_juice"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_THROAT_SPRAY
@@ -22,6 +23,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "throat_spray"
   palette: "throat_spray"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BIG_ROOT
@@ -32,6 +34,7 @@ item {
   hold_effect_strength: 30
   image: "big_root"
   palette: "big_root"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MENTAL_HERB
@@ -41,6 +44,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "in_battle_herb"
   palette: "mental_herb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_POWER_HERB
@@ -50,6 +54,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "power_herb"
   palette: "power_herb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WHITE_HERB
@@ -60,6 +65,7 @@ item {
   hold_effect_alias: "RESTORE_STATS"
   image: "in_battle_herb"
   palette: "white_herb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MIRROR_HERB
@@ -69,6 +75,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "mirror_herb"
   palette: "mirror_herb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ELECTRIC_SEED
@@ -79,6 +86,7 @@ item {
   hold_effect_misc_param: "HOLD_EFFECT_PARAM_ELECTRIC_TERRAIN"
   image: "electric_seed"
   palette: "electric_seed"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PSYCHIC_SEED
@@ -89,6 +97,7 @@ item {
   hold_effect_misc_param: "HOLD_EFFECT_PARAM_PSYCHIC_TERRAIN"
   image: "psychic_seed"
   palette: "psychic_seed"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MISTY_SEED
@@ -99,6 +108,7 @@ item {
   hold_effect_misc_param: "HOLD_EFFECT_PARAM_MISTY_TERRAIN"
   image: "misty_seed"
   palette: "misty_seed"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GRASSY_SEED
@@ -109,6 +119,7 @@ item {
   hold_effect_misc_param: "HOLD_EFFECT_PARAM_GRASSY_TERRAIN"
   image: "grassy_seed"
   palette: "grassy_seed"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BOOSTER_ENERGY
@@ -118,4 +129,5 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "booster_energy"
   palette: "booster_energy"
+  talk_to_nurse_joy: true
 }

@@ -13,6 +13,7 @@ item {
   palette: "cheri_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHESTO_BERRY
@@ -26,6 +27,7 @@ item {
   palette: "chesto_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PECHA_BERRY
@@ -39,6 +41,7 @@ item {
   palette: "pecha_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_RAWST_BERRY
@@ -52,6 +55,7 @@ item {
   palette: "rawst_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ASPEAR_BERRY
@@ -103,6 +107,7 @@ item {
   image: "persim_berry"
   palette: "persim_berry"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LUM_BERRY
@@ -130,6 +135,7 @@ item {
   palette: "sitrus_berry"
   field_use_func: "Medicine"
   battle_use_func: "Medicine"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FIGY_BERRY
@@ -141,6 +147,7 @@ item {
   hold_effect_strength: 2
   image: "figy_berry"
   palette: "figy_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WIKI_BERRY
@@ -152,6 +159,7 @@ item {
   hold_effect_strength: 2
   image: "wiki_berry"
   palette: "wiki_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MAGO_BERRY
@@ -163,6 +171,7 @@ item {
   hold_effect_strength: 2
   image: "mago_berry"
   palette: "mago_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AGUAV_BERRY
@@ -174,6 +183,7 @@ item {
   hold_effect_strength: 2
   image: "aguav_berry"
   palette: "aguav_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_IAPAPA_BERRY
@@ -185,6 +195,7 @@ item {
   hold_effect_strength: 2
   image: "iapapa_berry"
   palette: "iapapa_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_RAZZ_BERRY
@@ -367,6 +378,7 @@ item {
   hold_effect_type: TYPE_FIRE
   image: "occa_berry"
   palette: "occa_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PASSHO_BERRY
@@ -377,6 +389,7 @@ item {
   hold_effect_type: TYPE_WATER
   image: "passho_berry"
   palette: "passho_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WACAN_BERRY
@@ -387,6 +400,7 @@ item {
   hold_effect_type: TYPE_ELECTRIC
   image: "wacan_berry"
   palette: "wacan_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_RINDO_BERRY
@@ -397,6 +411,7 @@ item {
   hold_effect_type: TYPE_GRASS
   image: "rindo_berry"
   palette: "rindo_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_YACHE_BERRY
@@ -407,6 +422,7 @@ item {
   hold_effect_type: TYPE_ICE
   image: "yache_berry"
   palette: "yache_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHOPLE_BERRY
@@ -417,6 +433,7 @@ item {
   hold_effect_type: TYPE_FIGHTING
   image: "chople_berry"
   palette: "chople_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KEBIA_BERRY
@@ -427,6 +444,7 @@ item {
   hold_effect_type: TYPE_POISON
   image: "kebia_berry"
   palette: "kebia_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHUCA_BERRY
@@ -437,6 +455,7 @@ item {
   hold_effect_type: TYPE_GROUND
   image: "shuca_berry"
   palette: "shuca_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_COBA_BERRY
@@ -447,6 +466,7 @@ item {
   hold_effect_type: TYPE_FLYING
   image: "coba_berry"
   palette: "coba_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PAYAPA_BERRY
@@ -457,6 +477,7 @@ item {
   hold_effect_type: TYPE_PSYCHIC
   image: "payapa_berry"
   palette: "payapa_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TANGA_BERRY
@@ -477,6 +498,7 @@ item {
   hold_effect_type: TYPE_ROCK
   image: "charti_berry"
   palette: "charti_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KASIB_BERRY
@@ -487,6 +509,7 @@ item {
   hold_effect_type: TYPE_GHOST
   image: "kasib_berry"
   palette: "kasib_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_HABAN_BERRY
@@ -497,6 +520,7 @@ item {
   hold_effect_type: TYPE_DRAGON
   image: "haban_berry"
   palette: "haban_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_COLBUR_BERRY
@@ -507,6 +531,7 @@ item {
   hold_effect_type: TYPE_DARK
   image: "colbur_berry"
   palette: "colbur_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BABIRI_BERRY
@@ -517,6 +542,7 @@ item {
   hold_effect_type: TYPE_STEEL
   image: "babiri_berry"
   palette: "babiri_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHILAN_BERRY
@@ -527,6 +553,7 @@ item {
   hold_effect_type: TYPE_NORMAL
   image: "chilan_berry"
   palette: "chilan_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ROSELI_BERRY
@@ -537,6 +564,7 @@ item {
   hold_effect_type: TYPE_FAIRY
   image: "roseli_berry"
   palette: "roseli_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LIECHI_BERRY
@@ -548,6 +576,7 @@ item {
   hold_effect_strength: 4
   image: "liechi_berry"
   palette: "liechi_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GANLON_BERRY
@@ -559,6 +588,7 @@ item {
   hold_effect_strength: 4
   image: "ganlon_berry"
   palette: "ganlon_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SALAC_BERRY
@@ -570,6 +600,7 @@ item {
   hold_effect_strength: 4
   image: "salac_berry"
   palette: "salac_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PETAYA_BERRY
@@ -581,6 +612,7 @@ item {
   hold_effect_strength: 4
   image: "petaya_berry"
   palette: "petaya_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_APICOT_BERRY
@@ -592,6 +624,7 @@ item {
   hold_effect_strength: 4
   image: "apicot_berry"
   palette: "apicot_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LANSAT_BERRY
@@ -634,6 +667,7 @@ item {
   hold_effect_strength: 4
   image: "custap_berry"
   palette: "custap_berry"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_JABOCA_BERRY

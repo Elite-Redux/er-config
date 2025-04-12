@@ -10,6 +10,7 @@ item {
   image: "escape_rope"
   palette: "escape_rope"
   field_use_func: "EscapeRope"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_OLD_ROD
@@ -75,6 +76,7 @@ item {
   image: "repel"
   palette: "infinite_repel"
   field_use_func: "InfiniteRepel"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ARMOR_FOSSIL
@@ -701,6 +703,7 @@ item {
   image: "oaks_parcel"
   palette: "oaks_parcel"
   field_use_func: "CandyBox"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_REVEAL_GLASS

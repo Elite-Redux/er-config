@@ -12,6 +12,7 @@ item {
   image: "honey"
   palette: "honey"
   field_use_func: "Honey"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_IRON_PILL
@@ -22,6 +23,7 @@ item {
   image: "iron_pill"
   palette: "iron_pill"
   field_use_func: "IronPill"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SOUL_DEW
@@ -32,6 +34,7 @@ item {
   hold_effect_strength: 50
   image: "soul_dew"
   palette: "soul_dew"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DEEP_SEA_SCALE
@@ -43,6 +46,7 @@ item {
   image: "deep_sea_scale"
   palette: "deep_sea_scale"
   field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DEEP_SEA_TOOTH
@@ -54,6 +58,7 @@ item {
   image: "deep_sea_tooth"
   palette: "deep_sea_tooth"
   field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LIGHT_BALL
@@ -63,6 +68,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "light_ball"
   palette: "light_ball"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LEEK
@@ -72,6 +78,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "stick"
   palette: "stick"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LUCKY_PUNCH
@@ -81,6 +88,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "lucky_punch"
   palette: "lucky_punch"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_THICK_CLUB
@@ -90,6 +98,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "thick_club"
   palette: "thick_club"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_METAL_POWDER
@@ -112,6 +121,7 @@ item {
   image: "normal_gem"
   palette: "normal_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FIGHTING_GEM
@@ -125,6 +135,7 @@ item {
   image: "fighting_gem"
   palette: "fighting_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FLYING_GEM
@@ -138,6 +149,7 @@ item {
   image: "flying_gem"
   palette: "flying_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_POISON_GEM
@@ -151,6 +163,7 @@ item {
   image: "poison_gem"
   palette: "poison_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GROUND_GEM
@@ -164,6 +177,7 @@ item {
   image: "ground_gem"
   palette: "ground_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ROCK_GEM
@@ -177,6 +191,7 @@ item {
   image: "rock_gem"
   palette: "rock_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BUG_GEM
@@ -190,6 +205,7 @@ item {
   image: "bug_gem"
   palette: "bug_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GHOST_GEM
@@ -203,6 +219,7 @@ item {
   image: "ghost_gem"
   palette: "ghost_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_STEEL_GEM
@@ -216,6 +233,7 @@ item {
   image: "steel_gem"
   palette: "steel_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FIRE_GEM
@@ -229,6 +247,7 @@ item {
   image: "fire_gem"
   palette: "fire_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WATER_GEM
@@ -242,6 +261,7 @@ item {
   image: "water_gem"
   palette: "water_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_GRASS_GEM
@@ -255,6 +275,7 @@ item {
   image: "grass_gem"
   palette: "grass_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ELECTRIC_GEM
@@ -268,6 +289,7 @@ item {
   image: "electric_gem"
   palette: "electric_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PSYCHIC_GEM
@@ -281,6 +303,7 @@ item {
   image: "psychic_gem"
   palette: "psychic_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ICE_GEM
@@ -294,6 +317,7 @@ item {
   image: "ice_gem"
   palette: "ice_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DRAGON_GEM
@@ -307,6 +331,7 @@ item {
   image: "dragon_gem"
   palette: "dragon_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DARK_GEM
@@ -320,6 +345,7 @@ item {
   image: "dark_gem"
   palette: "dark_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FAIRY_GEM
@@ -333,4 +359,5 @@ item {
   image: "fairy_gem"
   palette: "fairy_gem"
   field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
 }

@@ -10,6 +10,7 @@ item {
   hold_effect_strength: 50
   image: "eviolite"
   palette: "eviolite"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LEFTOVERS
@@ -20,6 +21,7 @@ item {
   hold_effect_strength: 10
   image: "leftovers"
   palette: "leftovers"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BLACK_SLUDGE
@@ -29,6 +31,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "black_sludge"
   palette: "black_sludge"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FOCUS_SASH
@@ -38,6 +41,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "focus_sash"
   palette: "focus_sash"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TOXIC_ORB
@@ -47,6 +51,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "toxic_orb"
   palette: "toxic_orb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FLAME_ORB
@@ -56,6 +61,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "flame_orb"
   palette: "flame_orb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FROST_ORB
@@ -65,6 +71,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "frost_orb"
   palette: "frost_orb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LIFE_ORB
@@ -74,6 +81,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "life_orb"
   palette: "life_orb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHOICE_BAND
@@ -83,6 +91,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "choice_band"
   palette: "choice_band"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHOICE_SPECS
@@ -92,6 +101,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "choice_specs"
   palette: "choice_specs"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHOICE_SCARF
@@ -101,6 +111,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "choice_scarf"
   palette: "choice_scarf"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ROCKY_HELMET
@@ -110,6 +121,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "rocky_helmet"
   palette: "rocky_helmet"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ASSAULT_VEST
@@ -120,6 +132,7 @@ item {
   hold_effect_strength: 50
   image: "assault_vest"
   palette: "assault_vest"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TACTICAL_VEST
@@ -130,6 +143,7 @@ item {
   hold_effect_strength: 50
   image: "physical_vest"
   palette: "physical_vest"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LIGHT_CLAY
@@ -139,6 +153,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "light_clay"
   palette: "light_clay"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_HEAVY_DUTY_BOOTS
@@ -148,6 +163,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "heavy_duty_boots"
   palette: "heavy_duty_boots"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_AIR_BALLOON
@@ -157,6 +173,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "air_balloon"
   palette: "air_balloon"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WEAKNESS_POLICY
@@ -166,6 +183,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "weakness_policy"
   palette: "weakness_policy"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WIDE_LENS
@@ -176,6 +194,7 @@ item {
   hold_effect_strength: 10
   image: "wide_lens"
   palette: "wide_lens"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DAMP_ROCK
@@ -185,6 +204,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "damp_rock"
   palette: "damp_rock"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_HEAT_ROCK
@@ -194,6 +214,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "heat_rock"
   palette: "heat_rock"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ICY_ROCK
@@ -203,6 +224,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "icy_rock"
   palette: "icy_rock"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SMOOTH_ROCK
@@ -212,6 +234,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "smooth_rock"
   palette: "smooth_rock"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SMOKE_BALL
@@ -221,6 +244,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "smoke_ball"
   palette: "smoke_ball"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_EXPERT_BELT
@@ -231,6 +255,7 @@ item {
   hold_effect_strength: 30
   image: "expert_belt"
   palette: "expert_belt"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SCOPE_LENS
@@ -240,6 +265,7 @@ item {
   hold_effect: HOLD_EFFECT_SCOPE_LENS
   image: "scope_lens"
   palette: "scope_lens"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PROTECTIVE_PADS
@@ -249,6 +275,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "protective_pads"
   palette: "protective_pads"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHELL_BELL
@@ -259,6 +286,7 @@ item {
   hold_effect_strength: 2
   image: "shell_bell"
   palette: "shell"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LAGGING_TAIL
@@ -268,6 +296,7 @@ item {
   hold_effect: HOLD_EFFECT_LAGGING_TAIL
   image: "lagging_tail"
   palette: "lagging_tail"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHED_SHELL
@@ -277,6 +306,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "shed_shell"
   palette: "shed_shell"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_TERRAIN_EXTENDER
@@ -286,6 +316,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "terrain_extender"
   palette: "terrain_extender"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BRIGHT_POWDER
@@ -296,6 +327,7 @@ item {
   hold_effect_strength: 10
   image: "bright_powder"
   palette: "bright_powder"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BINDING_BAND
@@ -305,6 +337,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "binding_band"
   palette: "binding_band"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SAFETY_GOGGLES
@@ -314,6 +347,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "safety_goggles"
   palette: "safety_goggles"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_EJECT_BUTTON
@@ -323,6 +357,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "eject_button"
   palette: "eject_button"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_EJECT_PACK
@@ -332,6 +367,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "eject_pack"
   palette: "eject_pack"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_RED_CARD
@@ -341,6 +377,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "red_card"
   palette: "red_card"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_IRON_BALL
@@ -350,6 +387,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "iron_ball"
   palette: "iron_ball"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_QUICK_CLAW
@@ -360,6 +398,7 @@ item {
   hold_effect_strength: 20
   image: "quick_claw"
   palette: "quick_claw"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_KINGS_ROCK
@@ -372,6 +411,7 @@ item {
   image: "kings_rock"
   palette: "kings_rock"
   field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MUSCLE_BAND
@@ -382,6 +422,7 @@ item {
   hold_effect_strength: 15
   image: "muscle_band"
   palette: "muscle_band"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_WISE_GLASSES
@@ -392,6 +433,7 @@ item {
   hold_effect_strength: 15
   image: "wise_glasses"
   palette: "wise_glasses"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ABILITY_SHIELD
@@ -401,6 +443,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "ability_shield"
   palette: "ability_shield"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CLEAR_AMULET
@@ -410,6 +453,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "clear_amulet"
   palette: "clear_amulet"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_PUNCHING_GLOVE
@@ -419,6 +463,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "punching_glove"
   palette: "punching_glove"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_COVERT_CLOAK
@@ -428,6 +473,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "covert_cloak"
   palette: "covert_cloak"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_LOADED_DICE
@@ -437,6 +483,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "loaded_dice"
   palette: "loaded_dice"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SWIRLY_GLASSES
@@ -446,6 +493,7 @@ item {
   hold_effect: HOLD_EFFECT_CUSTOM
   image: "swirly_glasses"
   palette: "swirly_glasses"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SILK_SCARF
@@ -457,6 +505,7 @@ item {
   hold_effect_type: TYPE_NORMAL
   image: "silk_scarf"
   palette: "silk_scarf"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BLACK_BELT
@@ -468,6 +517,7 @@ item {
   hold_effect_type: TYPE_FIGHTING
   image: "black_belt"
   palette: "black_type_enhancing_item"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SHARP_BEAK
@@ -479,6 +529,7 @@ item {
   hold_effect_type: TYPE_FLYING
   image: "sharp_beak"
   palette: "sharp_beak"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_POISON_BARB
@@ -490,6 +541,7 @@ item {
   hold_effect_type: TYPE_POISON
   image: "poison_barb"
   palette: "poison_barb"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SOFT_SAND
@@ -501,6 +553,7 @@ item {
   hold_effect_type: TYPE_GROUND
   image: "soft_sand"
   palette: "soft_sand"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ROCK_INCENSE
@@ -523,6 +576,7 @@ item {
   hold_effect_type: TYPE_ROCK
   image: "hard_stone"
   palette: "hard_stone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SILVER_POWDER
@@ -534,6 +588,7 @@ item {
   hold_effect_type: TYPE_BUG
   image: "silver_powder"
   palette: "silver_powder"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SPELL_TAG
@@ -545,6 +600,7 @@ item {
   hold_effect_type: TYPE_GHOST
   image: "spell_tag"
   palette: "spell_tag"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_METAL_COAT
@@ -558,6 +614,7 @@ item {
   image: "metal_coat"
   palette: "metal_coat"
   field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_CHARCOAL
@@ -569,6 +626,7 @@ item {
   hold_effect_type: TYPE_FIRE
   image: "charcoal"
   palette: "charcoal"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_SEA_INCENSE
@@ -602,6 +660,7 @@ item {
   hold_effect_type: TYPE_WATER
   image: "mystic_water"
   palette: "mystic_water"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ROSE_INCENSE
@@ -624,6 +683,7 @@ item {
   hold_effect_type: TYPE_GRASS
   image: "miracle_seed"
   palette: "miracle_seed"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_MAGNET
@@ -635,6 +695,7 @@ item {
   hold_effect_type: TYPE_ELECTRIC
   image: "magnet"
   palette: "magnet"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_ODD_INCENSE
@@ -657,6 +718,7 @@ item {
   hold_effect_type: TYPE_PSYCHIC
   image: "twisted_spoon"
   palette: "twisted_spoon"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_NEVER_MELT_ICE
@@ -668,6 +730,7 @@ item {
   hold_effect_type: TYPE_ICE
   image: "never_melt_ice"
   palette: "never_melt_ice"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_DRAGON_FANG
@@ -679,6 +742,7 @@ item {
   hold_effect_type: TYPE_DRAGON
   image: "dragon_fang"
   palette: "dragon_fang"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BLACK_GLASSES
@@ -690,6 +754,7 @@ item {
   hold_effect_type: TYPE_DARK
   image: "black_glasses"
   palette: "black_type_enhancing_item"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_FAIRY_FEATHER
@@ -701,6 +766,7 @@ item {
   hold_effect_type: TYPE_FAIRY
   image: "fairy_feather"
   palette: "fairy_feather"
+  talk_to_nurse_joy: true
 }
 item {
   id: ITEM_BURN_DRIVE
