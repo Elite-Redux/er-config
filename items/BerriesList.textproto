@@ -654,6 +654,7 @@ item {
     power: 95
     type: TYPE_ROCK
     effect: MOVE_EFFECT_DEF_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -767,6 +768,7 @@ item {
     power: 80
     type: TYPE_NORMAL
     effect: MOVE_EFFECT_ATK_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -784,6 +786,7 @@ item {
     power: 80
     type: TYPE_STEEL
     effect: MOVE_EFFECT_DEF_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -801,6 +804,7 @@ item {
     power: 80
     type: TYPE_FLYING
     effect: MOVE_EFFECT_SPD_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -818,6 +822,7 @@ item {
     power: 80
     type: TYPE_DRAGON
     effect: MOVE_EFFECT_SP_ATK_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -835,6 +840,7 @@ item {
     power: 80
     type: TYPE_ROCK
     effect: MOVE_EFFECT_SP_DEF_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -851,6 +857,7 @@ item {
     power: 80
     type: TYPE_DARK
     effect: MOVE_EFFECT_CRIT_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -867,6 +874,7 @@ item {
     power: 80
     type: TYPE_FAIRY
     effect: MOVE_EFFECT_HIGHEST_STAT_EXCEPT_SPEED_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -882,6 +890,7 @@ item {
     power: 80
     type: TYPE_BUG
     effect: MOVE_EFFECT_ACC_PLUS_1
+    affects_user: true
   }
 }
 item {
@@ -897,7 +906,7 @@ item {
   natural_gift {
     power: 95
     type: TYPE_NORMAL
-    effect: MOVE_EFFECT_FEINT
+    priority: 1
   }
 }
 item {
@@ -949,5 +958,6 @@ item {
     power: 80
     type: TYPE_GHOST
     effect: MOVE_EFFECT_RAINBOW
+    affects_user: true
   }
 }

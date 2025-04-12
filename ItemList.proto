@@ -57,6 +57,7 @@ message NaturalGiftEffect {
   MoveEffect effect = 3;
   bool affects_user = 4;
   bool certain = 5;
+  int32 priority = 6;
 }
 
 message ItemList {

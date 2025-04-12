@@ -232,7 +232,7 @@ enum MoveBehavior {
   EFFECT_CAMOUFLAGE = 213;
   EFFECT_PLEDGE = 214;
   EFFECT_FLING = 215 [(no_sheer_force) = true, (no_kings_rock) = true, (no_parental_bond) = true];
-  EFFECT_NATURAL_GIFT = 216 [(no_kings_rock) = true, (no_parental_bond) = true];
+  EFFECT_NATURAL_GIFT = 216 [(no_kings_rock) = true, (no_parental_bond) = true, (no_sheer_force) = true];
   EFFECT_WAKE_UP_SLAP = 217 [(no_sheer_force) = true];
   EFFECT_WRING_OUT = 218;
   EFFECT_HEX = 219;
