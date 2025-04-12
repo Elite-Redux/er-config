@@ -634,7 +634,6 @@ item {
   description: "A strange ring that enables Z-Move usage."
   grouping: POCKET_KEY_ITEMS
   hold_effect: HOLD_EFFECT_CUSTOM
-  hold_effect_alias: "NONE"
   image: "z_ring"
   palette: "z_ring"
 }
