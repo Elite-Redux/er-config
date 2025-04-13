@@ -777,6 +777,7 @@ item {
   hold_effect_type: TYPE_FIRE
   image: "burn_drive"
   palette: "burn_drive"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DOUSE_DRIVE
@@ -787,6 +788,7 @@ item {
   hold_effect_type: TYPE_WATER
   image: "douse_drive"
   palette: "douse_drive"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_SHOCK_DRIVE
@@ -797,6 +799,7 @@ item {
   hold_effect_type: TYPE_ELECTRIC
   image: "shock_drive"
   palette: "shock_drive"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_CHILL_DRIVE
@@ -807,6 +810,7 @@ item {
   hold_effect_type: TYPE_ICE
   image: "chill_drive"
   palette: "chill_drive"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FIST_PLATE
@@ -818,6 +822,7 @@ item {
   hold_effect_type: TYPE_FIGHTING
   image: "fist_plate"
   palette: "fist_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_SKY_PLATE
@@ -829,6 +834,7 @@ item {
   hold_effect_type: TYPE_FLYING
   image: "sky_plate"
   palette: "sky_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_TOXIC_PLATE
@@ -840,6 +846,7 @@ item {
   hold_effect_type: TYPE_POISON
   image: "toxic_plate"
   palette: "toxic_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_EARTH_PLATE
@@ -851,6 +858,7 @@ item {
   hold_effect_type: TYPE_GROUND
   image: "earth_plate"
   palette: "earth_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_STONE_PLATE
@@ -862,6 +870,7 @@ item {
   hold_effect_type: TYPE_ROCK
   image: "stone_plate"
   palette: "stone_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_INSECT_PLATE
@@ -873,6 +882,7 @@ item {
   hold_effect_type: TYPE_BUG
   image: "insect_plate"
   palette: "insect_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_SPOOKY_PLATE
@@ -884,6 +894,7 @@ item {
   hold_effect_type: TYPE_GHOST
   image: "spooky_plate"
   palette: "spooky_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_IRON_PLATE
@@ -895,6 +906,7 @@ item {
   hold_effect_type: TYPE_STEEL
   image: "iron_plate"
   palette: "iron_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FLAME_PLATE
@@ -906,6 +918,7 @@ item {
   hold_effect_type: TYPE_FIRE
   image: "flame_plate"
   palette: "flame_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_SPLASH_PLATE
@@ -917,6 +930,7 @@ item {
   hold_effect_type: TYPE_WATER
   image: "splash_plate"
   palette: "splash_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_MEADOW_PLATE
@@ -928,6 +942,7 @@ item {
   hold_effect_type: TYPE_GRASS
   image: "meadow_plate"
   palette: "meadow_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_ZAP_PLATE
@@ -939,6 +954,7 @@ item {
   hold_effect_type: TYPE_ELECTRIC
   image: "zap_plate"
   palette: "zap_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_MIND_PLATE
@@ -950,6 +966,7 @@ item {
   hold_effect_type: TYPE_PSYCHIC
   image: "mind_plate"
   palette: "mind_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_ICICLE_PLATE
@@ -961,6 +978,7 @@ item {
   hold_effect_type: TYPE_ICE
   image: "icicle_plate"
   palette: "icicle_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DRACO_PLATE
@@ -972,6 +990,7 @@ item {
   hold_effect_type: TYPE_DRAGON
   image: "draco_plate"
   palette: "draco_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DREAD_PLATE
@@ -983,6 +1002,7 @@ item {
   hold_effect_type: TYPE_DARK
   image: "dread_plate"
   palette: "dread_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_PIXIE_PLATE
@@ -994,6 +1014,7 @@ item {
   hold_effect_type: TYPE_FAIRY
   image: "pixie_plate"
   palette: "pixie_plate"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FIGHTING_MEMORY
@@ -1004,6 +1025,7 @@ item {
   hold_effect_type: TYPE_FIGHTING
   image: "fighting_memory"
   palette: "fighting_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FLYING_MEMORY
@@ -1014,6 +1036,7 @@ item {
   hold_effect_type: TYPE_FLYING
   image: "flying_memory"
   palette: "flying_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_POISON_MEMORY
@@ -1024,6 +1047,7 @@ item {
   hold_effect_type: TYPE_POISON
   image: "poison_memory"
   palette: "poison_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_GROUND_MEMORY
@@ -1034,6 +1058,7 @@ item {
   hold_effect_type: TYPE_GROUND
   image: "ground_memory"
   palette: "ground_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_ROCK_MEMORY
@@ -1044,6 +1069,7 @@ item {
   hold_effect_type: TYPE_ROCK
   image: "rock_memory"
   palette: "rock_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_BUG_MEMORY
@@ -1054,6 +1080,7 @@ item {
   hold_effect_type: TYPE_BUG
   image: "bug_memory"
   palette: "bug_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_GHOST_MEMORY
@@ -1064,6 +1091,7 @@ item {
   hold_effect_type: TYPE_GHOST
   image: "ghost_memory"
   palette: "ghost_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_STEEL_MEMORY
@@ -1074,6 +1102,7 @@ item {
   hold_effect_type: TYPE_STEEL
   image: "steel_memory"
   palette: "steel_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FIRE_MEMORY
@@ -1084,6 +1113,7 @@ item {
   hold_effect_type: TYPE_FIRE
   image: "fire_memory"
   palette: "fire_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_WATER_MEMORY
@@ -1094,6 +1124,7 @@ item {
   hold_effect_type: TYPE_WATER
   image: "water_memory"
   palette: "water_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_GRASS_MEMORY
@@ -1104,6 +1135,7 @@ item {
   hold_effect_type: TYPE_GRASS
   image: "grass_memory"
   palette: "grass_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_ELECTRIC_MEMORY
@@ -1114,6 +1146,7 @@ item {
   hold_effect_type: TYPE_ELECTRIC
   image: "electric_memory"
   palette: "electric_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_PSYCHIC_MEMORY
@@ -1124,6 +1157,7 @@ item {
   hold_effect_type: TYPE_PSYCHIC
   image: "psychic_memory"
   palette: "psychic_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_ICE_MEMORY
@@ -1134,6 +1168,7 @@ item {
   hold_effect_type: TYPE_ICE
   image: "ice_memory"
   palette: "ice_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DRAGON_MEMORY
@@ -1144,6 +1179,7 @@ item {
   hold_effect_type: TYPE_DRAGON
   image: "dragon_memory"
   palette: "dragon_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_DARK_MEMORY
@@ -1154,6 +1190,7 @@ item {
   hold_effect_type: TYPE_DARK
   image: "dark_memory"
   palette: "dark_memory"
+  talk_to_legendary_sage: true
 }
 item {
   id: ITEM_FAIRY_MEMORY
@@ -1164,4 +1201,5 @@ item {
   hold_effect_type: TYPE_FAIRY
   image: "fairy_memory"
   palette: "fairy_memory"
+  talk_to_legendary_sage: true
 }
