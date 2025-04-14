@@ -818,7 +818,7 @@ item {
   description: "A tablet that ups the power of Fight-ing-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_FIGHTING
   image: "fist_plate"
   palette: "fist_plate"
@@ -830,7 +830,7 @@ item {
   description: "A tablet that ups the power of Flying-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_FLYING
   image: "sky_plate"
   palette: "sky_plate"
@@ -842,7 +842,7 @@ item {
   description: "A tablet that ups the power of Poison-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_POISON
   image: "toxic_plate"
   palette: "toxic_plate"
@@ -854,7 +854,7 @@ item {
   description: "A tablet that ups the power of Ground-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_GROUND
   image: "earth_plate"
   palette: "earth_plate"
@@ -866,7 +866,7 @@ item {
   description: "A tablet that ups the power of Rock-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_ROCK
   image: "stone_plate"
   palette: "stone_plate"
@@ -878,7 +878,7 @@ item {
   description: "A tablet that ups the power of Bug-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_BUG
   image: "insect_plate"
   palette: "insect_plate"
@@ -890,7 +890,7 @@ item {
   description: "A tablet that ups the power of Ghost-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_GHOST
   image: "spooky_plate"
   palette: "spooky_plate"
@@ -902,7 +902,7 @@ item {
   description: "A tablet that ups the power of Steel-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_STEEL
   image: "iron_plate"
   palette: "iron_plate"
@@ -914,7 +914,7 @@ item {
   description: "A tablet that ups the power of Fire-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_FIRE
   image: "flame_plate"
   palette: "flame_plate"
@@ -926,7 +926,7 @@ item {
   description: "A tablet that ups the power of Water-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_WATER
   image: "splash_plate"
   palette: "splash_plate"
@@ -938,7 +938,7 @@ item {
   description: "A tablet that ups the power of Grass-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_GRASS
   image: "meadow_plate"
   palette: "meadow_plate"
@@ -950,7 +950,7 @@ item {
   description: "A tablet that ups the power of Elec-tric-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_ELECTRIC
   image: "zap_plate"
   palette: "zap_plate"
@@ -962,7 +962,7 @@ item {
   description: "A tablet that ups the power of Psy-chic-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_PSYCHIC
   image: "mind_plate"
   palette: "mind_plate"
@@ -974,7 +974,7 @@ item {
   description: "A tablet that ups the power of Ice-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_ICE
   image: "icicle_plate"
   palette: "icicle_plate"
@@ -986,7 +986,7 @@ item {
   description: "A tablet that ups the power of Dragon-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_DRAGON
   image: "draco_plate"
   palette: "draco_plate"
@@ -998,7 +998,7 @@ item {
   description: "A tablet that ups the power of Dark-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_DARK
   image: "dread_plate"
   palette: "dread_plate"
@@ -1010,7 +1010,7 @@ item {
   description: "A tablet that ups the power of Fairy-type moves."
   grouping: POCKET_BATTLE
   hold_effect: HOLD_EFFECT_PLATE
-  hold_effect_strength: 20
+  hold_effect_strength: 30
   hold_effect_type: TYPE_FAIRY
   image: "pixie_plate"
   palette: "pixie_plate"
