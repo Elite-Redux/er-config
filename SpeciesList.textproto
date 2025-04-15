@@ -104308,12 +104308,6 @@ species {
   evo {
     to: SPECIES_UNFEZANT
     level: 28
-    gender: MALE
-  }
-  evo {
-    to: SPECIES_UNFEZANT
-    level: 28
-    gender: FEMALE
   }
   learnset {
     level {
