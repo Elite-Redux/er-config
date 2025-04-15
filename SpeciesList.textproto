@@ -24344,6 +24344,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -24364,6 +24365,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -24386,6 +24388,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER_MEGA_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -24408,6 +24411,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER_MEGA_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -24431,6 +24435,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -24451,6 +24456,7 @@ species {
 }
 species {
   id: SPECIES_KANGASKHAN_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KANGASKHAN
   type: TYPE_NORMAL
   hp: 105
@@ -25054,6 +25060,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -25074,6 +25081,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -25096,6 +25104,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -25116,6 +25125,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER_MEGA_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -25139,6 +25149,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -25159,6 +25170,7 @@ species {
 }
 species {
   id: SPECIES_KINGDRA_PARTNER_MEGA_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_KINGDRA
   type: TYPE_WATER
   type2: TYPE_DRAGON
@@ -31198,6 +31210,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -31218,6 +31231,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_ELECTRIC
@@ -31241,6 +31255,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -31261,6 +31276,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER_MEGA_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_ELECTRIC
@@ -31285,6 +31301,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_FLYING
@@ -31305,6 +31322,7 @@ species {
 }
 species {
   id: SPECIES_DRAGONITE_PARTNER_MEGA_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_DRAGONITE
   type: TYPE_DRAGON
   type2: TYPE_ELECTRIC
@@ -39249,6 +39267,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -39269,6 +39288,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -39291,6 +39311,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -39311,6 +39332,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER_MEGA_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -39334,6 +39356,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER_MEGA_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -39358,6 +39381,7 @@ species {
 }
 species {
   id: SPECIES_AMPHAROS_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMPHAROS
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
@@ -51560,6 +51584,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   hp: 80
@@ -51579,6 +51604,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   type2: TYPE_GROUND
@@ -51603,6 +51629,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   hp: 80
@@ -51622,6 +51649,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER_MEGA_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   type2: TYPE_GROUND
@@ -51647,6 +51675,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER_MEGA_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   type2: TYPE_GROUND
@@ -51672,6 +51701,7 @@ species {
 }
 species {
   id: SPECIES_HITMONCHAN_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_HITMONCHAN
   type: TYPE_FIGHTING
   hp: 80
@@ -83372,6 +83402,7 @@ species {
 }
 species {
   id: SPECIES_LUXRAY_REDUX
+  randomizer_banned: SPECIES_HIDDEN
   region_prefix: REDUX
   form_of: SPECIES_LUXRAY
   type: TYPE_ELECTRIC
@@ -114480,6 +114511,7 @@ species {
 }
 species {
   id: SPECIES_REUNICLUS_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_REUNICLUS
   type: TYPE_PSYCHIC
   hp: 110
@@ -114499,6 +114531,7 @@ species {
 }
 species {
   id: SPECIES_REUNICLUS_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_REUNICLUS
   type: TYPE_PSYCHIC
   hp: 110
@@ -114518,6 +114551,7 @@ species {
 }
 species {
   id: SPECIES_REUNICLUS_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_REUNICLUS
   type: TYPE_PSYCHIC
   hp: 110
@@ -117011,6 +117045,7 @@ species {
 }
 species {
   id: SPECIES_JELLICENT_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_JELLICENT
   type: TYPE_WATER
   type2: TYPE_GHOST
@@ -124743,6 +124778,7 @@ species {
 }
 species {
   id: SPECIES_VOLCARONA_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_VOLCARONA
   type: TYPE_BUG
   type2: TYPE_FIRE
@@ -124763,6 +124799,7 @@ species {
 }
 species {
   id: SPECIES_VOLCARONA_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_VOLCARONA
   type: TYPE_BUG
   type2: TYPE_FIRE
@@ -124783,6 +124820,7 @@ species {
 }
 species {
   id: SPECIES_VOLCARONA_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_VOLCARONA
   type: TYPE_BUG
   type2: TYPE_FIRE
@@ -136677,6 +136715,7 @@ species {
 }
 species {
   id: SPECIES_AURORUS_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AURORUS
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -136697,6 +136736,7 @@ species {
 }
 species {
   id: SPECIES_AURORUS_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AURORUS
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -136717,6 +136757,7 @@ species {
 }
 species {
   id: SPECIES_AMAURA_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMAURA
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -136742,6 +136783,7 @@ species {
 }
 species {
   id: SPECIES_AURORUS_PARTNER
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AURORUS
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -136762,6 +136804,7 @@ species {
 }
 species {
   id: SPECIES_AMAURA_PARTNER_B
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMAURA
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -136783,6 +136826,7 @@ species {
 }
 species {
   id: SPECIES_AMAURA_PARTNER_C
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_AMAURA
   type: TYPE_ROCK
   type2: TYPE_ICE
@@ -152043,6 +152087,7 @@ species {
 }
 species {
   id: SPECIES_BRUXISH_MEGA
+  randomizer_banned: SPECIES_HIDDEN
   form_of: SPECIES_BRUXISH
   type: TYPE_WATER
   type2: TYPE_PSYCHIC
