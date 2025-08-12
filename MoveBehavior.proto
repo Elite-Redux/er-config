@@ -169,7 +169,7 @@ enum MoveBehavior {
   EFFECT_FLINCH_MINIMIZE_HIT = 150 [(flinch_effect) = true];
   EFFECT_SOLARBEAM = 151 [(two_turn) = true];
   EFFECT_THUNDER = 152;
-  EFFECT_SWITCH_ARGUMENT = 153;
+  EFFECT_SWITCH = 153;
   EFFECT_BEAT_UP = 154 [(no_parental_bond) = true];
   EFFECT_SEMI_INVULNERABLE = 155 [(two_turn) = true];
   EFFECT_DEFENSE_CURL = 156;
@@ -492,4 +492,5 @@ enum MoveBehavior {
   EFFECT_SHELL_TRAP = 473;
   EFFECT_GRASSY_TERRAIN_HIT = 474;
   EFFECT_TOXIC_TERRAIN = 475;
+  EFFECT_SAFE_PASSAGE = 476;
 }

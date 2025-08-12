@@ -4911,7 +4911,7 @@ ability {
   description: "Drain 10% HP from foes at the end of each turn in fog."
   expanded_description: "While fog is active, drains 1/10 of each active opponent's max HP at the end of every turn and restores that amount to the user. Ignores Substitute."
 }
-ability { 
+ability {
   id: ABILITY_SCARECROW
   name: "Scarecrow"
   description: "Scare + Bad Luck."

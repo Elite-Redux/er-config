@@ -285,7 +285,7 @@ moves {
   short_name: "Gust"
   description: "Strikes the foe with a gust of wind whipped up by wings. Air-based."
   short_description: "A sudden gust of wind. Has +1 priority."
-  effect: EFFECT_GUST
+  effect: EFFECT_HIT
   split: SPECIAL
   type: TYPE_FLYING
   target: SELECTED
@@ -1718,7 +1718,7 @@ moves {
   short_name: "Teleport"
   description: "Use it to flee from any wild Pok\303\251mon. Also warps to the last POK\303\251 CENTER."
   short_description: "A psychic move for fleeing from battle instantly."
-  effect: EFFECT_SWITCH_ARGUMENT
+  effect: EFFECT_SWITCH
   split: STATUS
   type: TYPE_PSYCHIC
   target: USER
@@ -4873,7 +4873,7 @@ moves {
   effect: EFFECT_TEETER_DANCE
   split: STATUS
   type: TYPE_NORMAL
-  target: FOES_AND_ALLY
+  target: ALL_BATTLERS
   accuracy: 100
   pp: 20
   mirror_move_affected: true
@@ -16458,7 +16458,7 @@ moves {
   short_name: "Safe Passage"
   description: "Guides an ally onto the field. They take -35% damage this turn."
   short_description: "Guides an ally onto the field, shielding them from harm."
-  effect: EFFECT_SWITCH_ARGUMENT
+  effect: EFFECT_SAFE_PASSAGE
   split: STATUS
   type: TYPE_NORMAL
   target: USER

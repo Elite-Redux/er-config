@@ -1,0 +1,3379 @@
+# proto-file: MoveBehaviorConfigList.proto
+# proto-message: er.MoveBehaviorConfigList
+
+behavior {
+  id: EFFECT_HIT
+  attack { }
+}
+behavior {
+  id: EFFECT_SLEEP
+  status {
+    do {
+      status: STATUS_SLEEP
+    }
+  }
+}
+behavior {
+  id: EFFECT_POISON_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_POISON }
+  }
+}
+behavior {
+  id: EFFECT_ABSORB
+  attack {
+    absorb_damage: true
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_BURN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_BURN }
+  }
+}
+behavior {
+  id: EFFECT_PARALYZE_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_PARALYSIS }
+  }
+}
+behavior {
+  id: EFFECT_EXPLOSION
+  attack {
+    attack_all_in_loop {
+      before_loop {
+        target: TARGET_MOVE_USER
+        change_percent_hp: -100
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DREAM_EATER
+  attack {
+    require {
+      status: STATUS_SLEEP
+    }
+    absorb_damage: true
+  }
+}
+behavior {
+  id: EFFECT_MIRROR_MOVE
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_ATTACK_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPEED_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ACCURACY_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_ACC
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_EVASION_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_UP_3
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 3
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPEED_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ACCURACY_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_ACC
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_EVASION_DOWN
+  status {
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_HAZE
+  status {
+    do {
+      other: OTHER_CLEAR_STAT_CHANGES
+    }
+  }
+}
+behavior {
+  id: EFFECT_BIDE
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_RAMPAGE
+  attack {
+    min_lock_turns: 2
+    max_lock_turns: 3
+    after_locked_turns_end {
+      target: TARGET_MOVE_USER
+      status: STATUS_CONFUSE
+    }
+  }
+}
+behavior {
+  id: EFFECT_ROAR
+  status {
+    do {
+      switch {
+        random: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_MULTI_HIT
+  attack {
+    multihit: MULTIHIT_TWO_TO_FIVE
+    secondary_effect_from_argument: true
+  }
+}
+behavior {
+  id: EFFECT_CONVERSION
+  status {
+    do {
+      other: OTHER_CHANGE_TYPE_TO_FIRST_MOVE
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_FLINCH_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+  }
+}
+behavior {
+  id: EFFECT_RESTORE_HP
+  status {
+    do {
+      change_percent_hp: 50
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_TOXIC
+  status {
+    do {
+      status: STATUS_TOXIC
+    }
+  }
+}
+behavior {
+  id: EFFECT_PAY_DAY
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_PAYDAY }
+    power_modifier {
+      flat: 120
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_MEOWTH_PARTNER
+        species: SPECIES_MEOWTH_PARTNER_MEGA
+      }
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_AMULET_COIN
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_LIGHT_SCREEN
+  status {
+    do {
+      status: STATUS_LIGHT_SCREEN
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRI_ATTACK
+  attack {
+    random_secondary_effect {
+      effect { effect: MOVE_EFFECT_PARALYSIS }
+      effect { effect: MOVE_EFFECT_FROSTBITE }
+      effect { effect: MOVE_EFFECT_BURN }
+    }
+  }
+}
+behavior {
+  id: EFFECT_REST
+  custom_behavior: true
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_FUSION_COMBO
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        fusion_combo: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SUPER_FANG
+  attack {
+    percent_hp_damage: 50
+  }
+}
+behavior {
+  id: EFFECT_DRAGON_RAGE
+  attack {
+    flag_damage: 40
+  }
+}
+behavior {
+  id: EFFECT_TRAP
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_WRAP }
+  }
+}
+behavior {
+  id: EFFECT_HEAL_BLOCK
+  status {
+    do {
+      status: STATUS_HEAL_BLOCK
+    }
+  }
+}
+behavior {
+  id: EFFECT_DOUBLE_HIT
+  attack {
+    multihit: MULTIHIT_TWO
+  }
+}
+behavior {
+  id: EFFECT_RECOIL_IF_MISS
+  attack {
+    on_miss {
+      target: TARGET_MOVE_USER
+      change_percent_hp: -25
+    }
+  }
+}
+behavior {
+  id: EFFECT_MIST
+  status {
+    do {
+      status: STATUS_MIST
+    }
+  }
+}
+behavior {
+  id: EFFECT_FOCUS_ENERGY
+  status {
+    do {
+      change_stat {
+        stat: STAT_CRIT
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECOIL_25
+  attack {
+    recoil_fraction: 4
+  }
+}
+behavior {
+  id: EFFECT_CONFUSE
+  status {
+    do {
+      status: STATUS_CONFUSE
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPEED_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ACCURACY_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_ACC
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_EVASION_UP_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRANSFORM
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_ATTACK_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPEED_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ACCURACY_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_ACC
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_EVASION_DOWN_2
+  status {
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_REFLECT
+  status {
+    do {
+      status: STATUS_REFLECT
+    }
+  }
+}
+behavior {
+  id: EFFECT_POISON
+  status {
+    do {
+      status: STATUS_POISON
+    }
+  }
+}
+behavior {
+  id: EFFECT_PARALYZE
+  status {
+    do {
+      status: STATUS_PARALYZE
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_ATK_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_DEF_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_SPEED_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SP_DEF_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SP_ATK_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_ACCURACY_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_ACC_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_EVASION_DOWN_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_EVS_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_TWO_TURNS_ATTACK
+  two_turn {
+    turn_2_attack { }
+  }
+}
+behavior {
+  id: EFFECT_CONFUSE_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_CONFUSION }
+  }
+}
+behavior {
+  id: EFFECT_SUBSTITUTE
+  status {
+    do {
+      change_percent_hp: -25
+      failure_fails_move: true
+    }
+    do {
+      status: STATUS_SUBSTITUTE
+      failure_fails_move: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECHARGE
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_RECHARGE
+      affects_user: true
+      certain: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_METRONOME
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_LEECH_SEED
+  status {
+    do {
+      status: STATUS_LEECH_SEED
+    }
+  }
+}
+behavior {
+  id: EFFECT_DISABLE
+  status {
+    do {
+      status: STATUS_DISABLE
+    }
+  }
+}
+behavior {
+  id: EFFECT_LEVEL_DAMAGE
+  attack {
+    level_damage: true
+  }
+}
+behavior {
+  id: EFFECT_COUNTER
+  attack {
+    counter_damage {
+      multiplier: 2
+      type: COUNTERS_PHYSICAL
+    }
+  }
+}
+behavior {
+  id: EFFECT_ENCORE
+  status {
+    do {
+      status: STATUS_ENCORE
+    }
+  }
+}
+behavior {
+  id: EFFECT_PAIN_SPLIT
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_SNORE
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      status: STATUS_SLEEP
+    }
+    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+  }
+}
+behavior {
+  id: EFFECT_CONVERSION_2
+  status {
+    do {
+      other: OTHER_CHANGE_TYPE_TO_FIRST_MOVE
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_LOCK_ON
+  status {
+    do {
+      status: STATUS_ALWAYS_HIT
+    }
+  }
+}
+behavior {
+  id: EFFECT_SKETCH
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_HAMMER_ARM
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_SPD_MINUS_1
+      affects_user: true
+      certain: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_SLEEP_TALK
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_DESTINY_BOND
+  status {
+    do {
+      status: STATUS_DESTINY_BOND
+    }
+  }
+}
+behavior {
+  id: EFFECT_FLAIL
+  attack {
+    crit_modifier {
+      amount: 3
+      require {
+        not: true
+        hp_percent: 26
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPITE
+  status {
+    do {
+      reduce_pp {
+        min: 4
+        max: 4
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_FALSE_SWIPE
+  attack {
+    secondary_effect_from_argument: true
+    no_ko: true
+  }
+}
+behavior {
+  id: EFFECT_HEAL_BELL
+  status {
+    do {
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      target: TARGET_PARTNER
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      other: OTHER_CLEAR_PARTY_STATUS
+    }
+    do {
+      change_percent_hp: 30
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRIPLE_KICK
+  attack {
+    power_modifier {
+      hit_count: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_THIEF
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_STEAL_ITEM }
+    priority {
+      amount: 1
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_NONE
+        require {
+          not: true
+          item: ITEM_NONE
+        }
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_MEAN_LOOK
+  status {
+    do {
+      status: STATUS_PREVENT_ESCAPE
+    }
+  }
+}
+behavior {
+  id: EFFECT_NIGHTMARE
+  attack {
+    require {
+      status: STATUS_SLEEP
+    }
+    secondary_effect { effect: MOVE_EFFECT_NIGHTMARE }
+  }
+}
+behavior {
+  id: EFFECT_MINIMIZE
+  status {
+    do {
+      status: STATUS_MINIMIZED
+    }
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_CURSE
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_HEALING_WISH
+  custom_behavior: true
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_PROTECT
+  status {
+    protect_effect: true
+    do {
+      other: OTHER_SET_PROTECT
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPIKES
+  status {
+    do {
+      status: STATUS_SPIKES
+    }
+  }
+}
+behavior {
+  id: EFFECT_FORESIGHT
+  status {
+    do {
+      status: STATUS_FORESIGHT
+    }
+  }
+}
+behavior {
+  id: EFFECT_PERISH_SONG
+  status {
+    do {
+      target: TARGET_ALL
+      status: STATUS_PERISH_SONG
+    }
+  }
+}
+behavior {
+  id: EFFECT_SANDSTORM
+  status {
+    do {
+      set_weather: WEATHER_SANDSTORM
+    }
+  }
+}
+behavior {
+  id: EFFECT_ENDURE
+  status {
+    do {
+      status: STATUS_ENDURE
+    }
+  }
+}
+behavior {
+  id: EFFECT_ROLLOUT
+  attack {
+    increment_rollout_counter: true
+    power_modifier {
+      rollout_counter: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_SWAGGER
+  status {
+    do {
+      status: STATUS_CONFUSE
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTRACT
+  status {
+    do {
+      status: STATUS_ATTRACT
+    }
+  }
+}
+behavior {
+  id: EFFECT_SAFEGUARD
+  status {
+    do {
+      status: STATUS_SAFEGUARD
+    }
+  }
+}
+behavior {
+  id: EFFECT_MAGNITUDE
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_BATON_PASS
+  status {
+    do {
+      switch {
+        copy_volatile: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_PURSUIT
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_RAPID_SPIN
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_RAPIDSPIN
+      affects_user: true
+      certain: true
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_SPD_PLUS_1
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_CAPTIVATE
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        status: STATUS_ATTRACT
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_MORNING_SUN
+  status {
+    do {
+      other: OTHER_RESTORE_HP_WEATHER_BASED
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_SYNTHESIS
+  status {
+    do {
+      other: OTHER_RESTORE_HP_WEATHER_BASED
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_MOONLIGHT
+  status {
+    do {
+      other: OTHER_RESTORE_HP_WEATHER_BASED
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_HIDDEN_POWER
+  attack {
+    type_change {
+      hidden_power: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_RAIN_DANCE
+  status {
+    do {
+      set_weather: WEATHER_RAIN
+    }
+  }
+}
+behavior {
+  id: EFFECT_SUNNY_DAY
+  status {
+    do {
+      set_weather: WEATHER_SUN
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_UP_HIT
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_DEF_PLUS_1
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_UP_HIT
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_ATK_PLUS_1
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_ALL_STATS_UP_HIT
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_ALL_STATS_UP
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_FELL_STINGER
+  attack {
+    on_faint_target {
+      change_stat {
+        stat: STAT_ATK
+        amount: 3
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BELLY_DRUM
+  status {
+    do {
+      change_percent_hp: -50
+      failure_fails_move: true
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 12
+      }
+      failure_fails_move: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_PSYCH_UP
+  status {
+    do {
+      other: OTHER_COPY_STATS
+    }
+  }
+}
+behavior {
+  id: EFFECT_MIRROR_COAT
+  attack {
+    counter_damage {
+      multiplier: 2
+      type: COUNTERS_SPECIAL
+    }
+  }
+}
+behavior {
+  id: EFFECT_FUTURE_SIGHT
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_SOLARBEAM
+  two_turn {
+    accelerate_if {
+      target: TARGET_MOVE_USER
+      weather_affected: WEATHER_SUN
+      ability: ABILITY_CHLOROPLAST
+    }
+    turn_2_attack {
+      power_modifier {
+        multiplier: .5
+        require {
+          target: TARGET_MOVE_USER
+          weather_affected: WEATHER_RAIN
+          require {
+            not: true
+            target: TARGET_MOVE_USER
+            ability: ABILITY_CHLOROPLAST
+          }
+        }
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_THUNDER
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_PARALYSIS }
+    accuracy {
+      always_hit: true
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_RAIN
+      }
+    }
+    accuracy {
+      set_to: 50
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_SUN
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SWITCH
+  status {
+    do {
+      switch { }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SAFE_PASSAGE
+  status {
+    do {
+      switch {
+        after {
+          status: STATUS_SAFE_PASSAGE
+        }
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BEAT_UP
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_SEMI_INVULNERABLE
+  two_turn {
+    turn_1 {
+      do {
+        status: STATUS_SEMI_INVULNERABLE
+      }
+    }
+    turn_2_attack {
+      before {
+        remove_status: STATUS_SEMI_INVULNERABLE
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_CURL
+  status {
+    do {
+      status: STATUS_CURL_UP
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SOFTBOILED
+  status {
+    do {
+      change_percent_hp: 50
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_FAKE_OUT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+    require {
+      is_first_turn: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_STOCKPILE
+  status {
+    do {
+      status: STATUS_STOCKPILE
+      failure_fails_move: true
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPIT_UP
+  attack {
+    type_change {
+      first_type: true
+    }
+  }
+  use_stockpile_before_pp: true
+}
+behavior {
+  id: EFFECT_SWALLOW
+  status {
+    do {
+      change_percent_hp: 50
+    }
+  }
+  use_stockpile_before_pp: true
+}
+behavior {
+  id: EFFECT_WORRY_SEED
+  status {
+    do {
+      status: STATUS_FEAR
+    }
+    do {
+      set_ability: ABILITY_INSOMNIA
+    }
+  }
+}
+behavior {
+  id: EFFECT_HAIL
+  status {
+    do {
+      set_weather: WEATHER_HAIL
+    }
+  }
+}
+behavior {
+  id: EFFECT_TORMENT
+  status {
+    do {
+      status: STATUS_TORMENT
+    }
+  }
+}
+behavior {
+  id: EFFECT_FLATTER
+  status {
+    do {
+      status: STATUS_CONFUSE
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_WILL_O_WISP
+  status {
+    do {
+      status: STATUS_BURN
+    }
+  }
+}
+behavior {
+  id: EFFECT_MEMENTO
+  status {
+    before_animation {
+      change_percent_hp: -100
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -2
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_FACADE
+  attack {
+    power_modifier {
+      multiplier: 1.5
+      require {
+        target: TARGET_MOVE_USER
+        status: STATUS_STATUS1_ANY
+      }
+    }
+    ignore_status_stat_drops: true
+  }
+}
+behavior {
+  id: EFFECT_FOCUS_PUNCH
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_SMELLINGSALT
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      other: OTHER_CLEAR_STATUS
+    }
+  }
+}
+behavior {
+  id: EFFECT_FOLLOW_ME
+  status {
+    do {
+      status: STATUS_FORCE_TARGET
+    }
+  }
+}
+behavior {
+  id: EFFECT_CHARGE
+  status {
+    do {
+      status: STATUS_CHARGE
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_TAUNT
+  status {
+    do {
+      status: STATUS_TAUNT
+    }
+  }
+}
+behavior {
+  id: EFFECT_HELPING_HAND
+  status {
+    do {
+      status: STATUS_HELPING_HAND
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRICK
+  status {
+    do {
+      other: OTHER_SWAP_ITEMS
+    }
+  }
+}
+behavior {
+  id: EFFECT_ROLE_PLAY
+  status {
+    do {
+      other: OTHER_COPY_ABILITY
+    }
+  }
+}
+behavior {
+  id: EFFECT_WISH
+  status {
+    do {
+      other: OTHER_WISH
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_ASSIST
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_INGRAIN
+  status {
+    do {
+      status: STATUS_INGRAIN
+    }
+  }
+}
+behavior {
+  id: EFFECT_SUPERPOWER
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_ATK_DEF_DOWN
+      affects_user: true
+      certain: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_MAGIC_COAT
+  status {
+    do {
+      status: STATUS_MAGIC_COAT
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECYCLE
+  status {
+    do {
+      other: OTHER_RESTORE_ITEM
+    }
+  }
+}
+behavior {
+  id: EFFECT_REVENGE
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        damaged_by: TARGET_MOVE_TARGET
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BRICK_BREAK
+  attack {
+    before {
+      other: OTHER_CLEAR_SCREENS
+    }
+  }
+}
+behavior {
+  id: EFFECT_YAWN
+  status {
+    do {
+      status: STATUS_DROWSY
+    }
+  }
+}
+behavior {
+  id: EFFECT_KNOCK_OFF
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_KNOCK_OFF }
+    power_modifier {
+      multiplier: 1.5
+      require {
+        can_lose_item: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ENDEAVOR
+  attack {
+    reduce_to_user_hp: true
+  }
+}
+behavior {
+  id: EFFECT_ERUPTION
+  attack {
+    power_modifier {
+      percent_hp: TARGET_MOVE_USER
+    }
+  }
+}
+behavior {
+  id: EFFECT_SKILL_SWAP
+  status {
+    do {
+      other: OTHER_SWAP_ABILITIES
+    }
+  }
+}
+behavior {
+  id: EFFECT_IMPRISON
+  status {
+    do {
+      status: STATUS_IMPRISON
+    }
+  }
+}
+behavior {
+  id: EFFECT_REFRESH
+  status {
+    do {
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      change_percent_hp: 25
+    }
+  }
+}
+behavior {
+  id: EFFECT_GRUDGE
+  status {
+    do {
+      status: STATUS_GRUDGE
+    }
+  }
+}
+behavior {
+  id: EFFECT_SNATCH
+  status {
+    do {
+      status: STATUS_SNATCH
+    }
+  }
+}
+behavior {
+  id: EFFECT_LOW_KICK
+  attack {
+    power_modifier {
+      flat: 120
+      require {
+        weight: 2000
+      }
+    }
+    power_modifier {
+      flat: 100
+      require {
+        weight: 1000
+      }
+    }
+    power_modifier {
+      flat: 80
+      require {
+        weight: 500
+      }
+    }
+    power_modifier {
+      flat: 60
+      require {
+        weight: 250
+      }
+    }
+    power_modifier {
+      flat: 40
+      require {
+        weight: 100
+      }
+    }
+    power_modifier {
+      flat: 20
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECOIL_33
+  attack {
+    recoil_fraction: 3
+  }
+}
+behavior {
+  id: EFFECT_TEETER_DANCE
+  status {
+    do {
+      target: TARGET_ALL
+      status: STATUS_CONFUSE
+    }
+  }
+}
+behavior {
+  id: EFFECT_HIT_ESCAPE
+  attack {
+    after {
+      switch { }
+    }
+  }
+}
+behavior {
+  id: EFFECT_MUD_SPORT
+  status {
+    do {
+      status: STATUS_MUD_SPORT
+    }
+  }
+}
+behavior {
+  id: EFFECT_POISON_FANG
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_TOXIC }
+  }
+}
+behavior {
+  id: EFFECT_WEATHER_BALL
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_ANY
+      }
+    }
+    type_change {
+      weather: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_OVERHEAT
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_SP_ATK_MINUS_2
+      affects_user: true
+      certain: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_TICKLE
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_COSMIC_POWER
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BULK_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_WATER_SPORT
+  status {
+    do {
+      status: STATUS_MUD_SPORT
+    }
+  }
+}
+behavior {
+  id: EFFECT_CALM_MIND
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DRAGON_DANCE
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_CAMOUFLAGE
+  status {
+    do {
+      other: OTHER_CHANGE_TYPE_TO_TERRAIN
+    }
+  }
+}
+behavior {
+  id: EFFECT_FLING
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      can_lose_item: true
+    }
+    type_change {
+      item_type: true
+      require {
+        target: TARGET_MOVE_USER
+        hold_effect: HOLD_EFFECT_GEMS
+      }
+    }
+    power_modifier {
+      flat: 130
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_BIG_NUGGET
+        item: ITEM_IRON_BALL
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_FLINCH
+      require {
+        target: TARGET_MOVE_USER
+        hold_effect: HOLD_EFFECT_FLINCH
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_BURN
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_FLAME_ORB
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_TOXIC
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_TOXIC_ORB
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_FROSTBITE
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_FROST_ORB
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_PARALYSIS
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_LIGHT_BALL
+      }
+    }
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_POISON
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_BLACK_SLUDGE
+        item: ITEM_POISON_BARB
+      }
+    }
+    after {
+      target: TARGET_MOVE_USER
+      other: OTHER_LOSE_ITEM
+    }
+  }
+}
+behavior {
+  id: EFFECT_NATURAL_GIFT
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      item_pocket: POCKET_BERRIES
+    }
+    type_change {
+      natural_gift: true
+    }
+    power_modifier {
+      natural_gift: true
+    }
+    secondary_effect_from_natural_gift: true
+  }
+}
+behavior {
+  id: EFFECT_WAKE_UP_SLAP
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        status: STATUS_SLEEP
+      }
+    }
+    after {
+      other: OTHER_CLEAR_STATUS
+      require {
+        status: STATUS_SLEEP
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_HEX
+  attack {
+    secondary_effect_from_argument: true
+    power_modifier {
+      multiplier: 2
+      require {
+        status: STATUS_STATUS1_ANY
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ASSURANCE
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        damaged_by: TARGET_ALL
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ACROBATICS
+  attack {
+    power_modifier {
+      multiplier: 1.5
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_NONE
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_HEAT_CRASH
+  attack {
+    power_modifier {
+      flat: 120
+      require {
+        target: TARGET_MOVE_USER
+        relative_weight: 5
+      }
+    }
+    power_modifier {
+      flat: 100
+      require {
+        target: TARGET_MOVE_USER
+        relative_weight: 4
+      }
+    }
+    power_modifier {
+      flat: 80
+      require {
+        target: TARGET_MOVE_USER
+        relative_weight: 3
+      }
+    }
+    power_modifier {
+      flat: 60
+      require {
+        target: TARGET_MOVE_USER
+        relative_weight: 2
+      }
+    }
+    power_modifier {
+      flat: 40
+    }
+  }
+}
+behavior {
+  id: EFFECT_PUNISHMENT
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_TARGET_POSITIVE_STAT_BUFFS
+        base: 60
+        multiplier: 20
+        max: 200
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_STORED_POWER
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_ATTACKER_POSITIVE_STAT_BUFFS
+        multiplier: 20
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ELECTRO_BALL
+  attack {
+    power_modifier {
+      flat: 150
+      require {
+        target: TARGET_MOVE_USER
+        relative_speed: 4
+      }
+    }
+    power_modifier {
+      flat: 120
+      require {
+        target: TARGET_MOVE_USER
+        relative_speed: 3
+      }
+    }
+    power_modifier {
+      flat: 80
+      require {
+        target: TARGET_MOVE_USER
+        relative_speed: 2
+      }
+    }
+    power_modifier {
+      flat: 60
+      require {
+        target: TARGET_MOVE_USER
+        relative_speed: 1
+      }
+    }
+    power_modifier {
+      flat: 40
+    }
+  }
+}
+behavior {
+  id: EFFECT_GYRO_BALL
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_TARGET_OVER_ATTACKER_SPEED
+        base: 1
+        multiplier: 25
+        max: 150
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_PAYBACK
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        has_taken_turn: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ROUND
+  attack {
+    secondary_effect_from_argument: true
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_PARTNER
+        used_same_move_behavior: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BRINE
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        not: true
+        hp_percent: 51
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_VENOSHOCK
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        status: STATUS_POISON
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_RETALIATE
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        last_move_failed: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_BULLDOZE
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_FOUL_PLAY
+  attack {
+    use_target_stat_as_attacking_stat: true
+  }
+}
+behavior {
+  id: EFFECT_PSYSHOCK
+  attack {
+    different_defending_stat: STAT_DEF
+  }
+}
+behavior {
+  id: EFFECT_ROOST
+  status {
+    do {
+      change_percent_hp: 50
+    }
+    do {
+      status: STATUS_ROOST
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_GRAVITY
+  status {
+    do {
+      status: STATUS_GRAVITY
+    }
+  }
+}
+behavior {
+  id: EFFECT_MIRACLE_EYE
+  status {
+    do {
+      status: STATUS_MIRACLE_EYE
+    }
+  }
+}
+behavior {
+  id: EFFECT_TAILWIND
+  status {
+    do {
+      status: STATUS_TAILWIND
+    }
+  }
+}
+behavior {
+  id: EFFECT_EMBARGO
+  status {
+    do {
+      status: STATUS_EMBARGO
+    }
+  }
+}
+behavior {
+  id: EFFECT_AQUA_RING
+  status {
+    do {
+      status: STATUS_AQUA_RING
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRICK_ROOM
+  status {
+    do {
+      status: STATUS_TRICK_ROOM
+    }
+  }
+}
+behavior {
+  id: EFFECT_WONDER_ROOM
+  status {
+    do {
+      status: STATUS_WONDER_ROOM
+    }
+  }
+}
+behavior {
+  id: EFFECT_MAGIC_ROOM
+  status {
+    do {
+      status: STATUS_MAGIC_ROOM
+    }
+  }
+}
+behavior {
+  id: EFFECT_MAGNET_RISE
+  status {
+    do {
+      status: STATUS_MAGNET_RISE
+    }
+  }
+}
+behavior {
+  id: EFFECT_TOXIC_SPIKES
+  status {
+    do {
+      status: STATUS_TOXIC_SPIKES
+    }
+  }
+}
+behavior {
+  id: EFFECT_GASTRO_ACID
+  status {
+    do {
+      status: STATUS_GASTRO_ACID
+    }
+  }
+}
+behavior {
+  id: EFFECT_STEALTH_ROCK
+  status {
+    do {
+      status: STATUS_STEALTH_ROCK
+    }
+  }
+}
+behavior {
+  id: EFFECT_TELEKINESIS
+  status {
+    do {
+      status: STATUS_TELEKINESIS
+    }
+  }
+}
+behavior {
+  id: EFFECT_POWER_SWAP
+  status {
+    do {
+      swap_stat_changes: STAT_ATK
+    }
+    do {
+      swap_stat_changes: STAT_SPATK
+    }
+    do {
+      swap_base_stat: STAT_ATK
+    }
+    do {
+      swap_base_stat: STAT_SPATK
+    }
+  }
+}
+behavior {
+  id: EFFECT_GUARD_SWAP
+  status {
+    do {
+      swap_stat_changes: STAT_DEF
+    }
+    do {
+      swap_stat_changes: STAT_SPDEF
+    }
+    do {
+      swap_base_stat: STAT_DEF
+    }
+    do {
+      swap_base_stat: STAT_SPDEF
+    }
+  }
+}
+behavior {
+  id: EFFECT_HEART_SWAP
+  status {
+    do {
+      swap_stat_changes: STAT_ATK
+    }
+    do {
+      swap_stat_changes: STAT_DEF
+    }
+    do {
+      swap_stat_changes: STAT_SPEED
+    }
+    do {
+      swap_stat_changes: STAT_SPATK
+    }
+    do {
+      swap_stat_changes: STAT_SPDEF
+    }
+    do {
+      swap_stat_changes: STAT_ACC
+    }
+    do {
+      swap_stat_changes: STAT_EVASION
+    }
+  }
+}
+behavior {
+  id: EFFECT_POWER_SPLIT
+  status {
+    do {
+      average_stats: STAT_ATK
+    }
+    do {
+      average_stats: STAT_SPATK
+    }
+  }
+}
+behavior {
+  id: EFFECT_GUARD_SPLIT
+  status {
+    do {
+      average_stats: STAT_DEF
+    }
+    do {
+      average_stats: STAT_SPDEF
+    }
+  }
+}
+behavior {
+  id: EFFECT_STICKY_WEB
+  status {
+    do {
+      status: STATUS_STICKY_WEB
+    }
+  }
+}
+behavior {
+  id: EFFECT_METAL_BURST
+  attack {
+    counter_damage {
+      multiplier: 1.5
+      type: COUNTERS_BOTH
+    }
+  }
+}
+behavior {
+  id: EFFECT_LUCKY_CHANT
+  status {
+    do {
+      status: STATUS_STICKY_WEB
+    }
+  }
+}
+behavior {
+  id: EFFECT_SUCKER_PUNCH
+  attack {
+    require {
+      not: true
+      has_taken_turn: true
+    }
+    require {
+      using_attack: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SP_DEF_MINUS_2 }
+  }
+}
+behavior {
+  id: EFFECT_SIMPLE_BEAM
+  status {
+    do {
+      set_ability: ABILITY_SIMPLE
+    }
+  }
+}
+behavior {
+  id: EFFECT_ENTRAINMENT
+  status {
+    do {
+      target: TARGET_MOVE_USER
+      other: OTHER_COPY_ABILITY
+    }
+  }
+}
+behavior {
+  id: EFFECT_HEAL_PULSE
+  status {
+    do {
+      change_percent_hp: 50
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_QUASH
+  status {
+    do {
+      status: STATUS_QUASH
+    }
+  }
+}
+behavior {
+  id: EFFECT_ION_DELUGE
+  status {
+    do {
+      status: STATUS_ION_DELUGE
+    }
+  }
+}
+behavior {
+  id: EFFECT_FREEZE_DRY
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_FROSTBITE }
+    super_effective_vs: TYPE_WATER
+  }
+}
+behavior {
+  id: EFFECT_TOPSY_TURVY
+  status {
+    do {
+      other: OTHER_INVERT_STATS
+    }
+  }
+}
+behavior {
+  id: EFFECT_MISTY_TERRAIN
+  status {
+    do {
+      set_terrain: TERRAIN_MISTY
+    }
+  }
+}
+behavior {
+  id: EFFECT_GRASSY_TERRAIN
+  status {
+    do {
+      set_terrain: TERRAIN_GRASSY
+    }
+  }
+}
+behavior {
+  id: EFFECT_ELECTRIC_TERRAIN
+  status {
+    do {
+      set_terrain: TERRAIN_ELECTRIC
+    }
+  }
+}
+behavior {
+  id: EFFECT_PSYCHIC_TERRAIN
+  status {
+    do {
+      set_terrain: TERRAIN_PSYCHIC
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_ACCURACY_UP
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_ACC_PLUS_1
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_ATTACK_SPATK_UP
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_SP_ATK_PLUS_1
+      affects_user: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_HURRICANE
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_CONFUSION }
+    accuracy {
+      always_hit: true
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_RAIN
+      }
+    }
+    accuracy {
+      set_to: 50
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_SUN
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_ME_FIRST
+  custom_behavior: true
+}
+behavior {
+  id: EFFECT_SPEED_UP_HIT
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_SPD_PLUS_1 }
+  }
+}
+behavior {
+  id: EFFECT_QUIVER_DANCE
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_COIL
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_ACC
+        amount: 1
+      }
+    }
+    do {
+      status: STATUS_COIL_UP
+    }
+  }
+}
+behavior {
+  id: EFFECT_ELECTRIFY
+  status {
+    protect_effect: true
+    do {
+      status: STATUS_ELECTRIFY
+    }
+  }
+}
+behavior {
+  id: EFFECT_SCALD
+  attack {
+    secondary_effect { effect: MOVE_EFFECT_BURN }
+  }
+}
+behavior {
+  id: EFFECT_REFLECT_TYPE
+  status {
+    do {
+      other: OTHER_COPY_TYPE
+    }
+  }
+}
+behavior {
+  id: EFFECT_SOAK
+  status {
+    do {
+      other: OTHER_SET_TYPE_TO_ARGUMENT
+    }
+  }
+}
+behavior {
+  id: EFFECT_GROWTH
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+      require {
+        not: true
+        weather_affected: WEATHER_SUN
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+      require {
+        weather_affected: WEATHER_SUN
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+      require {
+        not: true
+        weather_affected: WEATHER_SUN
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 2
+      }
+      require {
+        weather_affected: WEATHER_SUN
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_CLOSE_COMBAT
+  attack {
+    secondary_effect {
+      effect: MOVE_EFFECT_DEF_SPDEF_DOWN
+      affects_user: true
+      certain: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_LAST_RESORT
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      last_resort: true
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECOIL_33_STATUS
+  attack {
+    recoil_fraction: 3
+    secondary_effect_from_argument: true
+  }
+}
+behavior {
+  id: EFFECT_FLINCH_STATUS
+  attack {
+    secondary_effect_from_argument: true
+    additional_secondary_effect {
+      effect: MOVE_EFFECT_FLINCH
+    }
+  }
+}
+behavior {
+  id: EFFECT_RECOIL_50
+  attack {
+    recoil_fraction: 2
+  }
+}
+behavior {
+  id: EFFECT_SHELL_SMASH
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SHIFT_GEAR
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEFENSE_UP_3
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 3
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_NOBLE_ROAR
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_VENOM_DRENCH
+  status {
+    require {
+      status: STATUS_POISON
+      terrain_affected: TERRAIN_TOXIC
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -1
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_TOXIC_THREAD
+  status {
+    do {
+      status: STATUS_POISON
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -3
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_CLEAR_SMOG
+  attack {
+    after {
+      other: OTHER_CLEAR_STAT_CHANGES
+    }
+  }
+}
+behavior {
+  id: EFFECT_HIT_SWITCH_TARGET
+  attack {
+    secondary_effect_from_argument: true
+    after {
+      switch {
+        random: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_FINAL_GAMBIT
+}
+behavior {
+  id: EFFECT_CHANGE_TYPE_ON_ITEM
+}
+behavior {
+  id: EFFECT_AUTOTOMIZE
+}
+behavior {
+  id: EFFECT_COPYCAT
+}
+behavior {
+  id: EFFECT_DEFOG
+}
+behavior {
+  id: EFFECT_HIT_ENEMY_HEAL_ALLY
+}
+behavior {
+  id: EFFECT_SMACK_DOWN
+}
+behavior {
+  id: EFFECT_SYNCHRONOISE
+}
+behavior {
+  id: EFFECT_PSYCHO_SHIFT
+}
+behavior {
+  id: EFFECT_POWER_TRICK
+}
+behavior {
+  id: EFFECT_FLAME_BURST
+}
+behavior {
+  id: EFFECT_AFTER_YOU
+}
+behavior {
+  id: EFFECT_BESTOW
+}
+behavior {
+  id: EFFECT_ROTOTILLER
+}
+behavior {
+  id: EFFECT_FLOWER_SHIELD
+}
+behavior {
+  id: EFFECT_HIT_PREVENT_ESCAPE
+}
+behavior {
+  id: EFFECT_SPEED_SWAP
+}
+behavior {
+  id: EFFECT_DEFENSE_UP2_HIT
+}
+behavior {
+  id: EFFECT_REVELATION_DANCE
+}
+behavior {
+  id: EFFECT_AURORA_VEIL
+}
+behavior {
+  id: EFFECT_THIRD_TYPE
+}
+behavior {
+  id: EFFECT_FEINT
+}
+behavior {
+  id: EFFECT_SPARKLING_ARIA
+}
+behavior {
+  id: EFFECT_ACUPRESSURE
+}
+behavior {
+  id: EFFECT_AROMATIC_MIST
+}
+behavior {
+  id: EFFECT_POWDER
+}
+behavior {
+  id: EFFECT_SP_ATTACK_UP_HIT
+}
+behavior {
+  id: EFFECT_BELCH
+}
+behavior {
+  id: EFFECT_PARTING_SHOT
+}
+behavior {
+  id: EFFECT_SPECTRAL_THIEF
+}
+behavior {
+  id: EFFECT_V_CREATE
+}
+behavior {
+  id: EFFECT_MAT_BLOCK
+}
+behavior {
+  id: EFFECT_STOMPING_TANTRUM
+}
+behavior {
+  id: EFFECT_CORE_ENFORCER
+}
+behavior {
+  id: EFFECT_INSTRUCT
+}
+behavior {
+  id: EFFECT_THROAT_CHOP
+}
+behavior {
+  id: EFFECT_LASER_FOCUS
+}
+behavior {
+  id: EFFECT_MAGNETIC_FLUX
+}
+behavior {
+  id: EFFECT_GEAR_UP
+}
+behavior {
+  id: EFFECT_INCINERATE
+}
+behavior {
+  id: EFFECT_BUG_BITE
+}
+behavior {
+  id: EFFECT_STRENGTH_SAP
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_MIND_BLOWN
+}
+behavior {
+  id: EFFECT_PURIFY
+}
+behavior {
+  id: EFFECT_BURN_UP
+}
+behavior {
+  id: EFFECT_SHORE_UP
+  status {
+    do {
+      other: OTHER_RESTORE_HP_WEATHER_BASED
+    }
+  }
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_GEOMANCY
+}
+behavior {
+  id: EFFECT_FAIRY_LOCK
+}
+behavior {
+  id: EFFECT_ALLY_SWITCH
+}
+behavior {
+  id: EFFECT_RELIC_SONG
+}
+behavior {
+  id: EFFECT_ATTACKER_DEFENSE_DOWN_HIT
+}
+behavior {
+  id: EFFECT_BODY_PRESS
+}
+behavior {
+  id: EFFECT_EERIE_SPELL
+}
+behavior {
+  id: EFFECT_JUNGLE_HEALING
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_COACHING
+}
+behavior {
+  id: EFFECT_LASH_OUT
+}
+behavior {
+  id: EFFECT_GRASSY_GLIDE
+}
+behavior {
+  id: EFFECT_REMOVE_TERRAIN
+}
+behavior {
+  id: EFFECT_DYNAMAX_DOUBLE_DMG
+}
+behavior {
+  id: EFFECT_DECORATE
+}
+behavior {
+  id: EFFECT_SNIPE_SHOT
+}
+behavior {
+  id: EFFECT_TRIPLE_HIT
+}
+behavior {
+  id: EFFECT_RECOIL_HP_25
+}
+behavior {
+  id: EFFECT_STUFF_CHEEKS
+}
+behavior {
+  id: EFFECT_GRAV_APPLE
+}
+behavior {
+  id: EFFECT_EVASION_UP_HIT
+}
+behavior {
+  id: EFFECT_GLITZY_GLOW
+}
+behavior {
+  id: EFFECT_BADDY_BAD
+}
+behavior {
+  id: EFFECT_SAPPY_SEED
+}
+behavior {
+  id: EFFECT_FREEZY_FROST
+}
+behavior {
+  id: EFFECT_SPARKLY_SWIRL
+}
+behavior {
+  id: EFFECT_PLASMA_FISTS
+}
+behavior {
+  id: EFFECT_HYPERSPACE_FURY
+}
+behavior {
+  id: EFFECT_AURA_WHEEL
+}
+behavior {
+  id: EFFECT_PHOTON_GEYSER
+}
+behavior {
+  id: EFFECT_SHELL_SIDE_ARM
+}
+behavior {
+  id: EFFECT_TERRAIN_PULSE
+}
+behavior {
+  id: EFFECT_JAW_LOCK
+}
+behavior {
+  id: EFFECT_NO_RETREAT
+}
+behavior {
+  id: EFFECT_TAR_SHOT
+}
+behavior {
+  id: EFFECT_POLTERGEIST
+}
+behavior {
+  id: EFFECT_OCTOLOCK
+}
+behavior {
+  id: EFFECT_CLANGOROUS_SOUL
+}
+behavior {
+  id: EFFECT_BOLT_BEAK
+}
+behavior {
+  id: EFFECT_RISING_VOLTAGE
+}
+behavior {
+  id: EFFECT_SCALE_SHOT
+}
+behavior {
+  id: EFFECT_BEAK_BLAST
+}
+behavior {
+  id: EFFECT_EXCALIBUR
+}
+behavior {
+  id: EFFECT_FROSTBITE_HIT
+}
+behavior {
+  id: EFFECT_EXPANDING_FORCE
+}
+behavior {
+  id: EFFECT_STEEL_BEAM
+}
+behavior {
+  id: EFFECT_HOWL
+}
+behavior {
+  id: EFFECT_ATTRACT_HIT
+}
+behavior {
+  id: EFFECT_CURSE_HIT
+}
+behavior {
+  id: EFFECT_FLINCH_RECOIL_33
+}
+behavior {
+  id: EFFECT_FLINCH_RECOIL_50
+}
+behavior {
+  id: EFFECT_IGNORE_TYPE_IMMUNITY
+}
+behavior {
+  id: EFFECT_SE_AGAINST_TYPE_HIT
+}
+behavior {
+  id: EFFECT_DOUBLE_DMG_IF_STATUS1
+}
+behavior {
+  id: EFFECT_STEALTH_ROCK_HIT
+}
+behavior {
+  id: EFFECT_LEECH_SEED_HIT
+}
+behavior {
+  id: EFFECT_STICKY_WEB_HIT
+}
+behavior {
+  id: EFFECT_BLEED_HIT
+}
+behavior {
+  id: EFFECT_SLEEP_HIT
+}
+behavior {
+  id: EFFECT_BLEED
+}
+behavior {
+  id: EFFECT_FROSTBITE
+}
+behavior {
+  id: EFFECT_FREEZE
+}
+behavior {
+  id: EFFECT_INFERNAL_PARADE
+}
+behavior {
+  id: EFFECT_WYRM_WIND
+}
+behavior {
+  id: EFFECT_MISTY_TERRAIN_BOOST
+}
+behavior {
+  id: EFFECT_BERRY_SMASH
+}
+behavior {
+  id: EFFECT_INVERSE_ROOM
+}
+behavior {
+  id: EFFECT_DRAIN_BRAIN
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_TRIPLE_ARROWS
+}
+behavior {
+  id: EFFECT_RECOIL_25_STATUS
+}
+behavior {
+  id: EFFECT_WEATHER_BOOST
+}
+behavior {
+  id: EFFECT_MORTAL_SPIN
+}
+behavior {
+  id: EFFECT_KARMA
+}
+behavior {
+  id: EFFECT_REMOVE_TERRAIN_NO_FAIL
+}
+behavior {
+  id: EFFECT_TEN_HITS
+}
+behavior {
+  id: EFFECT_TWO_TURN_SECONDARY
+}
+behavior {
+  id: EFFECT_SPECIAL_ATTACK_UP_HIT
+}
+behavior {
+  id: EFFECT_ARGUMENT_HIT
+}
+behavior {
+  id: EFFECT_EVERY_OTHER_TURN
+}
+behavior {
+  id: EFFECT_MISC_HIT
+}
+behavior {
+  id: EFFECT_FILLET_AWAY
+}
+behavior {
+  id: EFFECT_COURT_CHANGE
+}
+behavior {
+  id: EFFECT_CHILLY_RECEPTION
+}
+behavior {
+  id: EFFECT_SHED_TAIL
+}
+behavior {
+  id: EFFECT_GHASTLY_ECHO
+}
+behavior {
+  id: EFFECT_REVIVAL_BLESSING
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_TIDY_UP
+}
+behavior {
+  id: EFFECT_ACID
+}
+behavior {
+  id: EFFECT_SLUDGE
+}
+behavior {
+  id: EFFECT_POISON_GAS
+}
+behavior {
+  id: EFFECT_PARALYZE_IGNORE_TYPE
+}
+behavior {
+  id: EFFECT_SUPER_FANG_HAZE
+}
+behavior {
+  id: EFFECT_SPICY_EXTRACT
+}
+behavior {
+  id: EFFECT_CLEAR_WEATHER_AND_TERRAIN_HIT
+}
+behavior {
+  id: EFFECT_MATCHA_GOTCHA
+  healing_effect: true
+}
+behavior {
+  id: EFFECT_DOODLE
+}
+behavior {
+  id: EFFECT_SPIKE_HIT
+}
+behavior {
+  id: EFFECT_VICTORY_DANCE
+}
+behavior {
+  id: EFFECT_DRAGON_CHEER
+}
+behavior {
+  id: EFFECT_SHELTER
+}
+behavior {
+  id: EFFECT_ARGUMENT_HIT_IF_STAT_UP
+}
+behavior {
+  id: EFFECT_UPPER_HAND
+}
+behavior {
+  id: EFFECT_ELECTRO_SHOT
+}
+behavior {
+  id: EFFECT_SHARPEN
+}
+behavior {
+  id: EFFECT_SCARY_FACE
+}
+behavior {
+  id: EFFECT_SMOKESCREEN
+}
+behavior {
+  id: EFFECT_EERIE_FOG
+}
+behavior {
+  id: EFFECT_MYSTIC_DANCE
+}
+behavior {
+  id: EFFECT_SNAP_JAW
+}
+behavior {
+  id: EFFECT_RIP_AND_TEAR
+}
+behavior {
+  id: EFFECT_SKY_DROP
+}
+behavior {
+  id: EFFECT_TERROR_CHARGE
+}
+behavior {
+  id: EFFECT_TAILWIND_HIT
+}
+behavior {
+  id: EFFECT_SANDSTORM_HIT
+}
+behavior {
+  id: EFFECT_RAIN_HIT
+}
+behavior {
+  id: EFFECT_FAIRY_TERRAIN_HIT
+}
+behavior {
+  id: EFFECT_CREEPING_THORNS_HIT
+}
+behavior {
+  id: EFFECT_TAKE_HEART
+}
+behavior {
+  id: EFFECT_CLEAR_SKIES
+}
+behavior {
+  id: EFFECT_SHOWTIME
+}
+behavior {
+  id: EFFECT_TREPIDATION
+}
+behavior {
+  id: EFFECT_CHIP_AWAY
+}
+behavior {
+  id: EFFECT_MEDITATE
+}
+behavior {
+  id: EFFECT_BARRIER
+}
+behavior {
+  id: EFFECT_KINESIS
+}
+behavior {
+  id: EFFECT_CORROSIVE_GAS
+}
+behavior {
+  id: EFFECT_CALTROPS
+}
+behavior {
+  id: EFFECT_SWEET_KISS
+}
+behavior {
+  id: EFFECT_QUICK_GUARD
+}
+behavior {
+  id: EFFECT_TWO_TURN_RETALIATION
+}
+behavior {
+  id: EFFECT_SHELL_TRAP
+}
+behavior {
+  id: EFFECT_GRASSY_TERRAIN_HIT
+}
+behavior {
+  id: EFFECT_TOXIC_TERRAIN
+}

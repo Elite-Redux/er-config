@@ -1,0 +1,399 @@
+syntax = "proto3";
+
+package er;
+
+import "google/protobuf/descriptor.proto";
+import "MoveEffect.proto";
+import "MoveBehavior.proto";
+import "SpeciesEnum.proto";
+import "ItemEnum.proto";
+import "AbilityEnum.proto";
+import "Types.proto";
+import "ItemList.proto";
+
+option java_package = "er.proto";
+option java_multiple_files = true;
+
+message MoveBehaviorConfigList {
+  repeated MoveBehaviorConfig behavior = 1;
+}
+
+message MoveBehaviorConfig {
+  message TwoTurnAttack {
+    StatusBehaviorConfig turn_1 = 1;
+    oneof turn_two {
+      AttackBehaviorConfig turn_2_attack = 2;
+      AttackBehaviorConfig turn_2_status = 3;
+    }
+    MoveRequirement accelerate_if = 4;
+  }
+  message ProtectEffect {
+    enum ProtectType {
+      ALL = 0;
+      EVADE = 1;
+      ATTACKS = 2;
+      WIDE_GUARD = 3;
+      QUICK_GUARD = 4;
+      CRAFTY_SHIELD = 5;
+      BLOCKS_FIRE = 6;
+    }
+    optional ProtectType type = 1;
+    MoveEffect effect = 2;
+    bool effect_without_touch = 3;
+  }
+  optional MoveBehavior id = 1;
+  oneof config {
+    AttackBehaviorConfig attack = 2;
+    StatusBehaviorConfig status = 3;
+    TwoTurnAttack two_turn = 4;
+    bool custom_behavior = 5;
+  }
+  bool not_implemented = 100;
+  bool healing_effect = 101;
+  bool use_stockpile_before_pp = 102;
+}
+
+enum Status {
+  STATUS_NONE = 0;
+  STATUS_SLEEP = 1;
+  STATUS_CONFUSE = 2;
+  STATUS_TOXIC = 3;
+  STATUS_HEAL_BLOCK = 4;
+  STATUS_POISON = 5;
+  STATUS_PARALYZE = 6;
+  STATUS_SUBSTITUTE = 7;
+  STATUS_LEECH_SEED = 8;
+  STATUS_DISABLE = 9;
+  STATUS_ENCORE = 10;
+  STATUS_ALWAYS_HIT = 11;
+  STATUS_DESTINY_BOND = 12;
+  STATUS_PREVENT_ESCAPE = 13;
+  STATUS_MINIMIZED = 14;
+  STATUS_FORESIGHT = 15;
+  STATUS_PERISH_SONG = 16;
+  STATUS_ENDURE = 17;
+  STATUS_ATTRACT = 18;
+  STATUS_SAFE_PASSAGE = 19;
+  STATUS_GHASTLY_ECHO = 20;
+  STATUS_SEMI_INVULNERABLE = 21;
+  STATUS_CURL_UP = 22;
+  STATUS_STOCKPILE = 23;
+  STATUS_FEAR = 24;
+  STATUS_TORMENT = 25;
+  STATUS_BURN = 26;
+  STATUS_STATUS1_ANY = 27;
+  STATUS_FORCE_TARGET = 28;
+  STATUS_CHARGE = 29;
+  STATUS_TAUNT = 30;
+  STATUS_HELPING_HAND = 31;
+  STATUS_INGRAIN = 32;
+  STATUS_MAGIC_COAT = 33;
+  STATUS_DROWSY = 34;
+  STATUS_IMPRISON = 35;
+  STATUS_GRUDGE = 36;
+  STATUS_SNATCH = 37;
+  STATUS_LIGHT_SCREEN = 38;
+  STATUS_REFLECT = 39;
+  STATUS_AURORA_VEIL = 40;
+  STATUS_MIST = 41;
+  STATUS_SPIKES = 42;
+  STATUS_STEALTH_ROCK = 43;
+  STATUS_SAFEGUARD = 44;
+  STATUS_MUD_SPORT = 45;
+  STATUS_WATER_SPORT = 46;
+  STATUS_ROOST = 47;
+  STATUS_GRAVITY = 48;
+  STATUS_MIRACLE_EYE = 49;
+  STATUS_TAILWIND = 50;
+  STATUS_EMBARGO = 51;
+  STATUS_AQUA_RING = 52;
+  STATUS_TRICK_ROOM = 53;
+  STATUS_WONDER_ROOM = 54;
+  STATUS_MAGIC_ROOM = 55;
+  STATUS_MAGNET_RISE = 56;
+  STATUS_TOXIC_SPIKES = 57;
+  STATUS_GASTRO_ACID = 58;
+  STATUS_TELEKINESIS = 59;
+  STATUS_STICKY_WEB = 61;
+  STATUS_QUASH = 62;
+  STATUS_ION_DELUGE = 63;
+}
+
+enum Stat {
+  STAT_HP = 0;
+  STAT_ATK = 1;
+  STAT_DEF = 2;
+  STAT_SPATK = 3;
+  STAT_SPDEF = 4;
+  STAT_SPEED = 5;
+  STAT_ACC = 6;
+  STAT_EVASION = 7;
+  STAT_CRIT = 8;
+}
+
+enum BattlerTarget {
+  TARGET_MOVE_TARGET = 0;
+  TARGET_MOVE_USER = 1;
+  TARGET_PARTNER = 2;
+  TARGET_FOE = 3;
+  TARGET_FOE_PARTNER = 4;
+  TARGET_ALL = 5;
+}
+
+message ChangeStatStage {
+  Stat stat = 1;
+  int32 amount = 2;
+}
+
+enum Weather {
+  WEATHER_NONE = 0;
+  WEATHER_SUN = 1;
+  WEATHER_RAIN = 2;
+  WEATHER_SANDSTORM = 3;
+  WEATHER_HAIL = 4;
+  WEATHER_FOG = 5;
+  WEATHER_ANY = 6;
+}
+
+enum Terrain {
+  TERRAIN_NONE = 0;
+  TERRAIN_ELECTRIC = 1;
+  TERRAIN_GRASSY = 2;
+  TERRAIN_MISTY = 3;
+  TERRAIN_PSYCHIC = 4;
+  TERRAIN_TOXIC = 5;
+}
+
+enum OtherEffectType {
+  OTHER_EFFECT_NONE = 0;
+  OTHER_CLEAR_STAT_CHANGES = 1;
+  OTHER_CHANGE_TYPE_TO_FIRST_MOVE = 3;
+  OTHER_CHANGE_TYPE_TO_RANDOM_RESISTANCE = 4;
+  OTHER_CLEAR_STATUS = 9;
+  OTHER_CLEAR_PARTY_STATUS = 10;
+  OTHER_SET_PROTECT = 11;
+  OTHER_RESTORE_HP_WEATHER_BASED = 15;
+  OTHER_COPY_STATS = 16;
+  OTHER_SWAP_ITEMS = 17;
+  OTHER_COPY_ABILITY = 18;
+  OTHER_WISH = 19;
+  OTHER_RESTORE_ITEM = 20;
+  OTHER_CLEAR_SCREENS = 21;
+  OTHER_SWAP_ABILITIES = 22;
+  OTHER_CHANGE_TYPE_TO_TERRAIN = 23;
+  OTHER_LOSE_ITEM = 24;
+    OTHER_INVERT_STATS = 25;
+}
+
+enum MultihitType {
+  MULTIHIT_SINGLE = 0;
+  MULTIHIT_TWO_TO_FIVE = 1;
+  MULTIHIT_FOUR_OR_FIVE = 2;
+  MULTIHIT_TWO = 3;
+  MULTIHIT_THREE = 4;
+  MULTIHIT_FIVE = 5;
+  MULTIHIT_TRIPLE_KICK = 6;
+  MULTIHIT_TEN_CAN_MISS = 7;
+  MULTIHIT_TEN = 8;
+  MULTIHIT_BEAT_UP = 9;
+}
+
+message ApplyEffect {
+  message ReducePP {
+    int32 min = 1;
+    int32 max = 2;
+  }
+  message SwitchEffect {
+    BattlerTarget target = 1;
+    bool random = 2;
+    bool copy_volatile = 3;
+    bool copy_substitute = 4;
+    ApplyEffect after = 5;
+  }
+  BattlerTarget target = 1;
+  oneof effect {
+    Status status = 2;
+    ChangeStatStage change_stat = 3;
+    OtherEffectType other = 4;
+    int32 change_percent_hp = 5;
+    ReducePP reduce_pp = 6;
+    Terrain set_terrain = 7;
+    Weather set_weather = 8;
+    SwitchEffect switch = 9;
+    Status remove_status = 10;
+    AbilityEnum set_ability = 11;
+    Stat swap_stat_changes = 12;
+    Stat swap_base_stat = 13;
+    Stat average_stats = 14;
+  }
+  repeated MoveRequirement require = 100;
+  bool failure_fails_move = 101;
+}
+
+message MoveRequirement {
+  bool not = 1;
+  BattlerTarget target = 100;
+  repeated Status status = 2;
+  repeated SpeciesEnum species = 3;
+  repeated ItemEnum item = 4;
+  // Same move effect, different move
+  bool fusion_combo = 5;
+  repeated Stat can_raise_stat = 6;
+  int32 hp_percent = 7;
+  repeated AbilityEnum ability = 8;
+  repeated Weather weather_affected = 9;
+  repeated MoveRequirement require = 10;
+  bool is_first_turn = 11;
+  BattlerTarget damaged_by = 12;
+  bool can_lose_item = 13;
+  int32 weight = 14;
+  HoldEffect hold_effect = 15;
+  Pocket item_pocket = 16;
+  float relative_weight = 17;
+  float relative_speed = 18;
+  bool has_taken_turn = 19;
+  bool used_same_move_behavior = 20;
+  bool last_move_failed = 21;
+  bool using_attack = 22;
+  bool using_priority_move = 23;
+  bool last_resort = 24;
+  repeated Terrain terrain_affected = 25;
+}
+
+message AttackBehaviorConfig {
+  message AttackAllInLoop {
+    repeated ApplyEffect before_loop = 1;
+    AttackBehaviorConfig attack = 2;
+  }
+  message AdjustPower {
+    message CustomScaling {
+      enum PowerMeasurement {
+        MEASUREMENT_NONE = 0;
+        MEASUREMENT_TARGET_POSITIVE_STAT_BUFFS = 1;
+        MEASUREMENT_NEGATIVE_STAT_BUFFS = 2;
+        MEASUREMENT_TARGET_OVER_ATTACKER_SPEED = 3;
+        MEASUREMENT_FAINTED_BATTLERS = 4;
+        MEASURMENT_TOOK_DAMAGE = 5;
+        MEASUREMENT_ATTACKER_POSITIVE_STAT_BUFFS = 6;
+      }
+      PowerMeasurement measurement = 1;
+      oneof base_type {
+        int32 base = 2;
+        bool use_move_base = 5;
+      }
+      float multiplier = 3;
+      int32 max = 4;
+    }
+    oneof power {
+      int32 flat = 1;
+      float multiplier = 2;
+      bool hit_count = 3;
+      bool rollout_counter = 4;
+      BattlerTarget percent_hp = 5;
+      bool natural_gift = 6;
+      CustomScaling formula = 7;
+    }
+    repeated MoveRequirement require = 10;
+  }
+  message MoveEffectList {
+    repeated SecondaryEffect effect = 1;
+  }
+  message SecondaryEffect {
+    MoveEffect effect = 1;
+    bool affects_user = 2;
+    bool certain = 3;
+    MoveRequirement require = 4;
+  }
+  message CounterConfig {
+    float multiplier = 1;
+    enum CounterType {
+      COUNTERS_PHYSICAL = 0;
+      COUNTERS_SPECIAL = 1;
+      COUNTERS_BOTH = 2;
+    }
+    CounterType type = 2;
+  }
+  message CritModifier {
+    int32 amount = 2;
+    repeated MoveRequirement require = 1;
+  }
+  message PriorityModifier {
+    int32 amount = 1;
+    repeated MoveRequirement require = 2;
+  }
+  message ModifyAccuracy {
+    oneof modification_type {
+      bool always_hit = 1;
+      bool always_miss = 2;
+      int32 set_to = 3;
+      float multiply_accuracy = 4;
+    }
+    MoveRequirement require = 5;
+  }
+  message TypeChange {
+    oneof type_change {
+      Type type = 2;
+      bool first_type = 3;
+      bool second_type = 4;
+      bool item_type = 5;
+      bool natural_gift = 6;
+      bool hidden_power = 7;
+      bool weather = 8;
+      bool terrain = 9;
+    }
+    MoveRequirement require = 1;
+    bool display_only = 10;
+  }
+  oneof secondary_effect_type {
+    SecondaryEffect secondary_effect = 1;
+    bool secondary_effect_from_argument = 100;
+    MoveEffectList random_secondary_effect = 101;
+    bool secondary_effect_from_natural_gift = 102;
+  }
+  bool absorb_damage = 2;
+  AttackAllInLoop attack_all_in_loop = 3;
+  repeated MoveRequirement require = 4;
+  int32 min_lock_turns = 5;
+  int32 max_lock_turns = 6;
+  repeated ApplyEffect after_locked_turns_end = 7;
+  MultihitType multihit = 8;
+  repeated AdjustPower power_modifier = 9;
+  oneof flat_damage {
+    int32 percent_hp_damage = 10;
+    int32 flag_damage = 11;
+    bool level_damage = 12;
+    float random_up_to_hp_multiplier = 13;
+    CounterConfig counter_damage = 200;
+    bool reduce_to_user_hp = 201;
+  }
+  repeated ApplyEffect on_miss = 14;
+  int32 recoil_fraction = 15;
+  optional CritModifier crit_modifier = 16;
+  bool no_ko = 17;
+  bool multihits_can_miss = 18;
+  PriorityModifier priority = 19;
+  bool increment_rollout_counter = 20;
+  repeated SecondaryEffect additional_secondary_effect = 21;
+  repeated TypeChange type_change = 22;
+  repeated ApplyEffect on_faint_target = 23;
+  repeated ModifyAccuracy accuracy = 24;
+  repeated ApplyEffect before = 25;
+  bool use_stockpile_before_pp = 26;
+  bool ignore_status_stat_drops = 27;
+  repeated ApplyEffect after = 28;
+  Stat different_attacking_stat = 29;
+  bool use_target_stat_as_attacking_stat = 30;
+  Stat different_defending_stat = 31;
+  oneof effecitveness_multiplier {
+    Type super_effective_vs = 32;
+    bool super_effective_vs_argument = 33;
+    bool neutral_vs_argument = 34;
+  }
+}
+
+message StatusBehaviorConfig {
+  repeated ApplyEffect do = 1;
+  bool protect_effect = 2;
+  repeated MoveRequirement require = 3;
+  repeated ApplyEffect before_animation = 4;
+}
