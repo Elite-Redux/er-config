@@ -237,6 +237,7 @@ enum OtherEffectType {
   OTHER_CLEAR_TERRAIN = 38;
   OTHER_CLEAR_WEATHER = 39;
   OTHER_TRIGGER_HAZARDS = 40;
+  OTHER_SWAP_FIELD_EFFECTS = 41;
 }
 
 enum MultihitType {
