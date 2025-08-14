@@ -1203,7 +1203,7 @@ moves {
   short_name: "Seismic Toss"
   description: "Immobilizes and then slams the foe. Inflicts level damage and triggers hazards."
   short_description: "Carries the foe into the sky then deals damage based on level."
-  effect: EFFECT_SKY_DROP
+  effect: EFFECT_SEISMIC_TOSS
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
@@ -5384,7 +5384,7 @@ moves {
   short_name: "Sheer Cold"
   description: "This move is super effective on Water. 20% frostbite chance."
   short_description: "Super effective on Water. 20% frostbite chance."
-  effect: EFFECT_FREEZE_DRY
+  effect: EFFECT_SHEER_COLD
   split: SPECIAL
   type: TYPE_ICE
   target: SELECTED
@@ -7679,7 +7679,7 @@ moves {
   short_name: "Ominous Wind"
   description: "10% chance to raise all user\'s stats. Deals double damage in fog."
   short_description: "A repulsive attack that may raise all stats."
-  effect: EFFECT_ALL_STATS_UP_HIT
+  effect: EFFECT_OMINOUS_WIND
   split: SPECIAL
   type: TYPE_GHOST
   target: BOTH
@@ -7687,9 +7687,6 @@ moves {
   accuracy: 100
   pp: 5
   effect_chance: 10
-  argument {
-    misc: MISC_EFFECT_DOUBLE_DAMAGE_IN_FOG
-  }
   mirror_move_affected: true
   weather: true
   air: true
@@ -9352,7 +9349,7 @@ moves {
   short_name: "TrickOrTreat"
   description: "The user adds the Ghost-type to its foe and makes it weakened by fog."
   short_description: "Goes trick-or-treating making the foe Ghost-type."
-  effect: EFFECT_THIRD_TYPE
+  effect: EFFECT_TRICK_OR_TREAT
   split: STATUS
   type: TYPE_GHOST
   target: SELECTED
@@ -14304,16 +14301,13 @@ moves {
   short_name: "Rage Fist"
   description: "+20 base power per time damaged. Max. +120 power. Iron fist boost."
   short_description: "+20 base power per time damaged."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_RAGE_FIST
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 5
-  argument {
-    misc: MISC_EFFECT_TOOK_DAMAGE_BOOST
-  }
   contact: true
   mirror_move_affected: true
   iron_fist: true
@@ -14430,7 +14424,7 @@ moves {
   short_name: "Flower Trick"
   description: "The user throws a bouquet at the foe. This move always hits and lands a crit hit."
   short_description: "Can\'t miss. Always crits."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_HIT
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
@@ -14521,16 +14515,13 @@ moves {
   short_name: "LastRespect"
   description: "The user attacks to avenge its allies. More fainted allies, greater the power."
   short_description: "An avenging attack empowered by lost allies."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_LAST_RESPECTS
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
   power: 90
   accuracy: 100
   pp: 5
-  argument {
-    misc: MISC_EFFECT_FAINTED_MON_BOOST
-  }
   mirror_move_affected: true
 }
 moves {
@@ -14718,16 +14709,13 @@ moves {
   short_name: "Psyblade"
   description: "The user rends the target with ethereal blades. Boosted in Electric Terrain."
   short_description: "The user rends the target with an ethereal blade."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_PSYBLADE
   split: PHYSICAL
   type: TYPE_PSYCHIC
   target: SELECTED
   power: 85
   accuracy: 100
   pp: 15
-  argument {
-    misc: MISC_EFFECT_ELECTRIC_TERRAIN_BOOST
-  }
   contact: true
   crit: HIGH
   mirror_move_affected: true
@@ -14757,16 +14745,13 @@ moves {
   short_name: "Col.Course"
   description: "The user transforms and crashes to the ground. Deals 33% more damage on super effective."
   short_description: "Causes an ancient explosion. Deals more damage on weakness."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_SUPER_EFFECTIVE_BOOST
   split: PHYSICAL
   type: TYPE_FIGHTING
   target: SELECTED
   power: 100
   accuracy: 100
   pp: 5
-  argument {
-    misc: MISC_EFFECT_SUPEREFFECTIVE_BOOST
-  }
   contact: true
   mirror_move_affected: true
   uses_animation: MOVE_GIGA_IMPACT
@@ -14777,16 +14762,13 @@ moves {
   short_name: "EletroDrift"
   description: "The user races forward at ultrafast speeds. Deals 33% more damage on super effective."
   short_description: "Attacks with future power. Deals more damage on weakness."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_SUPER_EFFECTIVE_BOOST
   split: SPECIAL
   type: TYPE_ELECTRIC
   target: SELECTED
   power: 100
   accuracy: 100
   pp: 5
-  argument {
-    misc: MISC_EFFECT_SUPEREFFECTIVE_BOOST
-  }
   mirror_move_affected: true
   uses_animation: MOVE_AURA_WHEEL
 }
@@ -15018,16 +15000,13 @@ moves {
   short_name: "Ivy Cudgel"
   description: "Type changes depending on the mask. High crit. Hammer-based."
   short_description: "Strikes the foe with an ivy-wrapped cudgel."
-  effect: EFFECT_SYNCHRONOISE
+  effect: EFFECT_IVY_CUDGEL
   split: PHYSICAL
   type: TYPE_GRASS
   target: SELECTED
   power: 100
   accuracy: 100
   pp: 10
-  argument {
-    misc: MISC_EFFECT_IVY_CUDGEL
-  }
   crit: HIGH
   mirror_move_affected: true
   hammer: true
@@ -15057,17 +15036,13 @@ moves {
   short_name: "Fickle Beam"
   description: "Shoots a beam of light to inflict damage. 30% chance to deal double damage."
   short_description: "Shoots a strange beam of light that might deal double damage."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_FICKLE_BEAM
   split: SPECIAL
   type: TYPE_DRAGON
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 5
-  effect_chance: 30
-  argument {
-    misc: MISC_EFFECT_DOUBLE_DAMAGE
-  }
   mirror_move_affected: true
   mega_launcher: true
   uses_animation: MOVE_DRAGON_PULSE
@@ -16103,7 +16078,7 @@ moves {
   short_name: "Terror Locks"
   description: "30% chance to bleed. 50% more damage if the foe is bleeding. Keen Edge boost."
   short_description: "Cut the foe with long, black hair."
-  effect: EFFECT_BLEED_HIT
+  effect: EFFECT_TERROR_LOCKS
   split: PHYSICAL
   type: TYPE_GHOST
   target: SELECTED
@@ -16112,7 +16087,9 @@ moves {
   pp: 15
   effect_chance: 30
   argument {
-    misc: MISC_EFFECT_50_PERCENT_PLUS_DAMAGE_VS_BLEEDING
+    effect {
+      effect: MOVE_EFFECT_BLEED
+    }
   }
   contact: true
   mirror_move_affected: true
@@ -16296,16 +16273,13 @@ moves {
   short_name: "Transmute"
   description: "Recovers a used item if this attack knocks out the opponent."
   short_description: "Strikes the foe, remaking the user\'s item on KO."
-  effect: EFFECT_MISC_HIT
+  effect: EFFECT_TRANSMUTE
   split: SPECIAL
   type: TYPE_PSYCHIC
   target: SELECTED
   power: 80
   accuracy: 100
   pp: 5
-  argument {
-    misc: MISC_EFFECT_TRANSMUTE
-  }
   mirror_move_affected: true
   uses_animation: MOVE_PSYCHIC
 }
@@ -16726,7 +16700,7 @@ moves {
   short_name: "DepltionBeam"
   description: "Foe\'s last move has 3 PP cut. Mega launcher boost."
   short_description: "Attacks with metallic power. Foe\'s last move has 3 PP cut."
-  effect: EFFECT_EERIE_SPELL
+  effect: EFFECT_DEPLETION_BEAM
   split: PHYSICAL
   type: TYPE_DRAGON
   target: SELECTED

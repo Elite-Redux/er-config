@@ -10,6 +10,7 @@ import "ItemEnum.proto";
 import "AbilityEnum.proto";
 import "Types.proto";
 import "ItemList.proto";
+import "MoveList.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -23,23 +24,13 @@ message MoveBehaviorConfig {
     StatusBehaviorConfig turn_1 = 1;
     oneof turn_two {
       AttackBehaviorConfig turn_2_attack = 2;
-      AttackBehaviorConfig turn_2_status = 3;
+      StatusBehaviorConfig turn_2_status = 3;
     }
     MoveRequirement accelerate_if = 4;
   }
-  message ProtectEffect {
-    enum ProtectType {
-      ALL = 0;
-      EVADE = 1;
-      ATTACKS = 2;
-      WIDE_GUARD = 3;
-      QUICK_GUARD = 4;
-      CRAFTY_SHIELD = 5;
-      BLOCKS_FIRE = 6;
-    }
-    optional ProtectType type = 1;
-    MoveEffect effect = 2;
-    bool effect_without_touch = 3;
+  message AllyStatusEnemyAttack {
+    StatusBehaviorConfig ally = 1;
+    AttackBehaviorConfig enemy = 2;
   }
   optional MoveBehavior id = 1;
   oneof config {
@@ -47,13 +38,20 @@ message MoveBehaviorConfig {
     StatusBehaviorConfig status = 3;
     TwoTurnAttack two_turn = 4;
     bool custom_behavior = 5;
+    AllyStatusEnemyAttack ally_enemy_differ = 6;
   }
   bool not_implemented = 100;
   bool healing_effect = 101;
   bool use_stockpile_before_pp = 102;
+  bool ignores_redirection = 103;
 }
 
-enum Status {
+message ChangeTargetType {
+  optional MoveTarget new_type = 1;
+  repeated MoveRequirement require = 2;
+}
+
+enum MoveStatusEffect {
   STATUS_NONE = 0;
   STATUS_SLEEP = 1;
   STATUS_CONFUSE = 2;
@@ -117,6 +115,28 @@ enum Status {
   STATUS_STICKY_WEB = 61;
   STATUS_QUASH = 62;
   STATUS_ION_DELUGE = 63;
+  STATUS_COIL_UP = 64;
+  STATUS_ELECTRIFY = 65;
+  STATUS_AUTOTOMIZE = 66;
+  STATUS_AFTER_YOU = 67;
+  STATUS_TRICK_OR_TREAT = 68;
+  STATUS_POWDER = 69;
+  STATUS_LASER_FOCUS = 70;
+  STATUS_FAIRY_LOCK = 71;
+  STATUS_BLEED = 72;
+  STATUS_FROSTBITE = 73;
+  STATUS_PARALYZE_IGNORE_TYPE = 74;
+  STATUS_PLASMA_FISTS = 75;
+  STATUS_TAR_SHOT = 76;
+  STATUS_OCTOLOCK = 77;
+  STATUS_CLEAR_SKIES = 78;
+  STATUS_TREPIDATION = 79;
+  STATUS_CALTROPS = 80;
+  STATUS_QUICK_GUARD = 81;
+  STATUS_BEAK_BLAST = 82;
+  STATUS_INVERSE_ROOM = 83;
+  STATUS_SMOKESCREEN = 84;
+  STATUS_SKY_DROP = 85;
 }
 
 enum Stat {
@@ -129,6 +149,8 @@ enum Stat {
   STAT_ACC = 6;
   STAT_EVASION = 7;
   STAT_CRIT = 8;
+  STAT_ALL = 9;
+  STAT_HIGHEST_ATTACK = 10;
 }
 
 enum BattlerTarget {
@@ -138,11 +160,19 @@ enum BattlerTarget {
   TARGET_FOE = 3;
   TARGET_FOE_PARTNER = 4;
   TARGET_ALL = 5;
+  TARGET_LOOP_TARGET = 6;
+  TARGET_FIELD = 7;
 }
 
 message ChangeStatStage {
+  message ConditionalAmount {
+    int32 new_amount = 1;
+    MoveRequirement require = 2;
+  }
   Stat stat = 1;
   int32 amount = 2;
+  repeated ConditionalAmount conditional = 3;
+  bool ignore_protect = 4;
 }
 
 enum Weather {
@@ -162,6 +192,16 @@ enum Terrain {
   TERRAIN_MISTY = 3;
   TERRAIN_PSYCHIC = 4;
   TERRAIN_TOXIC = 5;
+  TERRAIN_ANY = 6;
+}
+
+message SecondaryEffect {
+  MoveEffect effect = 1;
+  bool affects_user = 2;
+  bool certain = 3;
+  MoveRequirement require = 4;
+  int32 chance = 5;
+  bool ignore_type_immunity = 6;
 }
 
 enum OtherEffectType {
@@ -175,14 +215,28 @@ enum OtherEffectType {
   OTHER_RESTORE_HP_WEATHER_BASED = 15;
   OTHER_COPY_STATS = 16;
   OTHER_SWAP_ITEMS = 17;
-  OTHER_COPY_ABILITY = 18;
   OTHER_WISH = 19;
   OTHER_RESTORE_ITEM = 20;
   OTHER_CLEAR_SCREENS = 21;
   OTHER_SWAP_ABILITIES = 22;
   OTHER_CHANGE_TYPE_TO_TERRAIN = 23;
   OTHER_LOSE_ITEM = 24;
-    OTHER_INVERT_STATS = 25;
+  OTHER_INVERT_STATS = 25;
+  OTHER_COPY_TYPE = 26;
+  OTHER_SET_TYPE_TO_ARGUMENT = 27;
+  OTHER_CLEAR_FIELD = 28;
+  OTHER_SWAP_ATK_AND_DEF = 29;
+  OTHER_SWAP_ATK_AND_DEF_BOOSTS = 30;
+  OTHER_GIVE_ITEM = 31;
+  OTHER_SET_THIRD_TYPE_TO_ARGUMENT = 32;
+  OTHER_ACCUPRESSURE = 33;
+  OTHER_EAT_BERRY = 34;
+  OTHER_STEAL_STATS = 35;
+  OTHER_ALLY_SWITCH = 36;
+  OTHER_SHOWTIME = 37;
+  OTHER_CLEAR_TERRAIN = 38;
+  OTHER_CLEAR_WEATHER = 39;
+  OTHER_TRIGGER_HAZARDS = 40;
 }
 
 enum MultihitType {
@@ -212,7 +266,7 @@ message ApplyEffect {
   }
   BattlerTarget target = 1;
   oneof effect {
-    Status status = 2;
+    MoveStatusEffect status = 2;
     ChangeStatStage change_stat = 3;
     OtherEffectType other = 4;
     int32 change_percent_hp = 5;
@@ -220,20 +274,29 @@ message ApplyEffect {
     Terrain set_terrain = 7;
     Weather set_weather = 8;
     SwitchEffect switch = 9;
-    Status remove_status = 10;
+    MoveStatusEffect remove_status = 10;
     AbilityEnum set_ability = 11;
     Stat swap_stat_changes = 12;
     Stat swap_base_stat = 13;
     Stat average_stats = 14;
+    Stat drain_stat_and_heal = 15;
+    SecondaryEffect run_move_effect = 16;
+    bool run_argument_move_effect = 17;
+    int32 change_current_percent_hp = 18;
+    string print = 19;
+    BattlerTarget copy_ability_to = 20;
   }
   repeated MoveRequirement require = 100;
   bool failure_fails_move = 101;
+  bool hp_drain_lethal = 102;
+  string alt_success_string = 103;
+  bool use_effect_chance = 104;
 }
 
 message MoveRequirement {
   bool not = 1;
   BattlerTarget target = 100;
-  repeated Status status = 2;
+  repeated MoveStatusEffect status = 2;
   repeated SpeciesEnum species = 3;
   repeated ItemEnum item = 4;
   // Same move effect, different move
@@ -258,6 +321,14 @@ message MoveRequirement {
   bool using_priority_move = 23;
   bool last_resort = 24;
   repeated Terrain terrain_affected = 25;
+  bool hold_effect_matches_argument = 26;
+  repeated Type battler_type = 27;
+  bool ate_berry = 28;
+  bool ally_fainted_recently = 29;
+  bool battler_matches_move_type = 30;
+  bool has_argument_status = 31;
+  int32 random = 32;
+  bool has_stat_up = 33;
 }
 
 message AttackBehaviorConfig {
@@ -273,8 +344,9 @@ message AttackBehaviorConfig {
         MEASUREMENT_NEGATIVE_STAT_BUFFS = 2;
         MEASUREMENT_TARGET_OVER_ATTACKER_SPEED = 3;
         MEASUREMENT_FAINTED_BATTLERS = 4;
-        MEASURMENT_TOOK_DAMAGE = 5;
+        MEASUREMENT_TOOK_DAMAGE = 5;
         MEASUREMENT_ATTACKER_POSITIVE_STAT_BUFFS = 6;
+        MEASUREMENT_ATTACKER_NEGATIVE_STAT_BUFFS = 7;
       }
       PowerMeasurement measurement = 1;
       oneof base_type {
@@ -282,7 +354,10 @@ message AttackBehaviorConfig {
         bool use_move_base = 5;
       }
       float multiplier = 3;
-      int32 max = 4;
+      oneof max_type {
+        int32 max = 4;
+        int32 max_bonus = 6;
+      }
     }
     oneof power {
       int32 flat = 1;
@@ -298,19 +373,14 @@ message AttackBehaviorConfig {
   message MoveEffectList {
     repeated SecondaryEffect effect = 1;
   }
-  message SecondaryEffect {
-    MoveEffect effect = 1;
-    bool affects_user = 2;
-    bool certain = 3;
-    MoveRequirement require = 4;
+  enum CounterType {
+    COUNTERS_NONE = 0;
+    COUNTERS_PHYSICAL = 1;
+    COUNTERS_SPECIAL = 2;
+    COUNTERS_BOTH = 3;
   }
   message CounterConfig {
     float multiplier = 1;
-    enum CounterType {
-      COUNTERS_PHYSICAL = 0;
-      COUNTERS_SPECIAL = 1;
-      COUNTERS_BOTH = 2;
-    }
     CounterType type = 2;
   }
   message CritModifier {
@@ -344,11 +414,12 @@ message AttackBehaviorConfig {
     MoveRequirement require = 1;
     bool display_only = 10;
   }
-  oneof secondary_effect_type {
-    SecondaryEffect secondary_effect = 1;
-    bool secondary_effect_from_argument = 100;
-    MoveEffectList random_secondary_effect = 101;
-    bool secondary_effect_from_natural_gift = 102;
+  oneof effect_type {
+    SecondaryEffect effect = 1;
+    bool effect_from_argument = 100;
+    MoveEffectList random_effect = 101;
+    bool effect_from_natural_gift = 102;
+    MoveRequirement effect_from_argument_if = 103;
   }
   bool absorb_damage = 2;
   AttackAllInLoop attack_all_in_loop = 3;
@@ -365,6 +436,7 @@ message AttackBehaviorConfig {
     float random_up_to_hp_multiplier = 13;
     CounterConfig counter_damage = 200;
     bool reduce_to_user_hp = 201;
+    bool user_hp_to_damage = 202;
   }
   repeated ApplyEffect on_miss = 14;
   int32 recoil_fraction = 15;
@@ -373,7 +445,7 @@ message AttackBehaviorConfig {
   bool multihits_can_miss = 18;
   PriorityModifier priority = 19;
   bool increment_rollout_counter = 20;
-  repeated SecondaryEffect additional_secondary_effect = 21;
+  repeated SecondaryEffect additional_effect = 21;
   repeated TypeChange type_change = 22;
   repeated ApplyEffect on_faint_target = 23;
   repeated ModifyAccuracy accuracy = 24;
@@ -383,12 +455,15 @@ message AttackBehaviorConfig {
   repeated ApplyEffect after = 28;
   Stat different_attacking_stat = 29;
   bool use_target_stat_as_attacking_stat = 30;
-  Stat different_defending_stat = 31;
   oneof effecitveness_multiplier {
     Type super_effective_vs = 32;
     bool super_effective_vs_argument = 33;
-    bool neutral_vs_argument = 34;
+    bool neutral_vs_immunity = 34;
   }
+  ChangeTargetType change_target = 35;
+  bool weather_boost = 36;
+  string round_start_announce = 37;
+  CounterType target_last_hit_by = 38;
 }
 
 message StatusBehaviorConfig {
@@ -396,4 +471,5 @@ message StatusBehaviorConfig {
   bool protect_effect = 2;
   repeated MoveRequirement require = 3;
   repeated ApplyEffect before_animation = 4;
+  ChangeTargetType change_target = 5;
 }

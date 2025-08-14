@@ -16,7 +16,7 @@ behavior {
 behavior {
   id: EFFECT_POISON_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_POISON }
+    effect { effect: MOVE_EFFECT_POISON }
   }
 }
 behavior {
@@ -29,13 +29,13 @@ behavior {
 behavior {
   id: EFFECT_BURN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_BURN }
+    effect { effect: MOVE_EFFECT_BURN }
   }
 }
 behavior {
   id: EFFECT_PARALYZE_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_PARALYSIS }
+    effect { effect: MOVE_EFFECT_PARALYSIS }
   }
 }
 behavior {
@@ -45,6 +45,7 @@ behavior {
       before_loop {
         target: TARGET_MOVE_USER
         change_percent_hp: -100
+        hp_drain_lethal: true
       }
     }
   }
@@ -264,7 +265,7 @@ behavior {
   id: EFFECT_MULTI_HIT
   attack {
     multihit: MULTIHIT_TWO_TO_FIVE
-    secondary_effect_from_argument: true
+    effect_from_argument: true
   }
 }
 behavior {
@@ -290,7 +291,7 @@ behavior {
 behavior {
   id: EFFECT_FLINCH_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+    effect { effect: MOVE_EFFECT_FLINCH }
   }
 }
 behavior {
@@ -313,7 +314,7 @@ behavior {
 behavior {
   id: EFFECT_PAY_DAY
   attack {
-    secondary_effect { effect: MOVE_EFFECT_PAYDAY }
+    effect { effect: MOVE_EFFECT_PAYDAY }
     power_modifier {
       flat: 120
       require {
@@ -321,6 +322,13 @@ behavior {
         species: SPECIES_MEOWTH_PARTNER
         species: SPECIES_MEOWTH_PARTNER_MEGA
       }
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_AMULET_COIN
+      }
+    }
+    change_target {
+      new_type: BOTH
       require {
         target: TARGET_MOVE_USER
         item: ITEM_AMULET_COIN
@@ -339,7 +347,7 @@ behavior {
 behavior {
   id: EFFECT_TRI_ATTACK
   attack {
-    random_secondary_effect {
+    random_effect {
       effect { effect: MOVE_EFFECT_PARALYSIS }
       effect { effect: MOVE_EFFECT_FROSTBITE }
       effect { effect: MOVE_EFFECT_BURN }
@@ -377,7 +385,7 @@ behavior {
 behavior {
   id: EFFECT_TRAP
   attack {
-    secondary_effect { effect: MOVE_EFFECT_WRAP }
+    effect { effect: MOVE_EFFECT_WRAP }
   }
 }
 behavior {
@@ -400,6 +408,7 @@ behavior {
     on_miss {
       target: TARGET_MOVE_USER
       change_percent_hp: -25
+      hp_drain_lethal: true
     }
   }
 }
@@ -419,6 +428,7 @@ behavior {
         stat: STAT_CRIT
         amount: 2
       }
+      alt_success_string: "{B_DEF_ATK_NAME_WITH_PREFIX} is getting pumped!"
     }
   }
 }
@@ -621,43 +631,43 @@ behavior {
 behavior {
   id: EFFECT_ATTACK_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_ATK_MINUS_1 }
+    effect { effect: MOVE_EFFECT_ATK_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_DEFENSE_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_DEF_MINUS_1 }
+    effect { effect: MOVE_EFFECT_DEF_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_SPEED_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
+    effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_SPECIAL_ATTACK_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SP_DEF_MINUS_1 }
+    effect { effect: MOVE_EFFECT_SP_DEF_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SP_ATK_MINUS_1 }
+    effect { effect: MOVE_EFFECT_SP_ATK_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_ACCURACY_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_ACC_MINUS_1 }
+    effect { effect: MOVE_EFFECT_ACC_MINUS_1 }
   }
 }
 behavior {
   id: EFFECT_EVASION_DOWN_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_EVS_MINUS_1 }
+    effect { effect: MOVE_EFFECT_EVS_MINUS_1 }
   }
 }
 behavior {
@@ -669,7 +679,7 @@ behavior {
 behavior {
   id: EFFECT_CONFUSE_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_CONFUSION }
+    effect { effect: MOVE_EFFECT_CONFUSION }
   }
 }
 behavior {
@@ -688,7 +698,7 @@ behavior {
 behavior {
   id: EFFECT_RECHARGE
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_RECHARGE
       affects_user: true
       certain: true
@@ -749,7 +759,7 @@ behavior {
       target: TARGET_MOVE_USER
       status: STATUS_SLEEP
     }
-    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+    effect { effect: MOVE_EFFECT_FLINCH }
   }
 }
 behavior {
@@ -787,7 +797,7 @@ behavior {
 behavior {
   id: EFFECT_HAMMER_ARM
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_SPD_MINUS_1
       affects_user: true
       certain: true
@@ -832,7 +842,7 @@ behavior {
 behavior {
   id: EFFECT_FALSE_SWIPE
   attack {
-    secondary_effect_from_argument: true
+    effect_from_argument: true
     no_ko: true
   }
 }
@@ -860,12 +870,13 @@ behavior {
     power_modifier {
       hit_count: true
     }
+    multihits_can_miss: true
   }
 }
 behavior {
   id: EFFECT_THIEF
   attack {
-    secondary_effect { effect: MOVE_EFFECT_STEAL_ITEM }
+    effect { effect: MOVE_EFFECT_STEAL_ITEM }
     priority {
       amount: 1
       require {
@@ -893,7 +904,7 @@ behavior {
     require {
       status: STATUS_SLEEP
     }
-    secondary_effect { effect: MOVE_EFFECT_NIGHTMARE }
+    effect { effect: MOVE_EFFECT_NIGHTMARE }
   }
 }
 behavior {
@@ -958,6 +969,14 @@ behavior {
   status {
     do {
       set_weather: WEATHER_SANDSTORM
+    }
+    change_target {
+      new_type: ALL_BATTLERS
+      require {
+        target: TARGET_MOVE_USER
+        not: true
+        ability: ABILITY_FORECAST
+      }
     }
   }
 }
@@ -1029,12 +1048,12 @@ behavior {
 behavior {
   id: EFFECT_RAPID_SPIN
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_RAPIDSPIN
       affects_user: true
       certain: true
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_SPD_PLUS_1
       affects_user: true
     }
@@ -1092,6 +1111,14 @@ behavior {
     do {
       set_weather: WEATHER_RAIN
     }
+    change_target {
+      new_type: ALL_BATTLERS
+      require {
+        target: TARGET_MOVE_USER
+        not: true
+        ability: ABILITY_FORECAST
+      }
+    }
   }
 }
 behavior {
@@ -1100,12 +1127,20 @@ behavior {
     do {
       set_weather: WEATHER_SUN
     }
+    change_target {
+      new_type: ALL_BATTLERS
+      require {
+        target: TARGET_MOVE_USER
+        not: true
+        ability: ABILITY_FORECAST
+      }
+    }
   }
 }
 behavior {
   id: EFFECT_DEFENSE_UP_HIT
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_DEF_PLUS_1
       affects_user: true
     }
@@ -1114,7 +1149,7 @@ behavior {
 behavior {
   id: EFFECT_ATTACK_UP_HIT
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_ATK_PLUS_1
       affects_user: true
     }
@@ -1123,7 +1158,7 @@ behavior {
 behavior {
   id: EFFECT_ALL_STATS_UP_HIT
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_ALL_STATS_UP
       affects_user: true
     }
@@ -1153,6 +1188,7 @@ behavior {
         amount: 12
       }
       failure_fails_move: true
+      alt_success_string: "{B_ATK_NAME_WITH_PREFIX} cut its own HP and maximized Attack!"
     }
   }
 }
@@ -1204,7 +1240,7 @@ behavior {
 behavior {
   id: EFFECT_THUNDER
   attack {
-    secondary_effect { effect: MOVE_EFFECT_PARALYSIS }
+    effect { effect: MOVE_EFFECT_PARALYSIS }
     accuracy {
       always_hit: true
       require {
@@ -1286,7 +1322,7 @@ behavior {
 behavior {
   id: EFFECT_FAKE_OUT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_FLINCH }
+    effect { effect: MOVE_EFFECT_FLINCH }
     require {
       is_first_turn: true
     }
@@ -1348,6 +1384,14 @@ behavior {
     do {
       set_weather: WEATHER_HAIL
     }
+    change_target {
+      new_type: ALL_BATTLERS
+      require {
+        target: TARGET_MOVE_USER
+        not: true
+        ability: ABILITY_FORECAST
+      }
+    }
   }
 }
 behavior {
@@ -1385,6 +1429,7 @@ behavior {
   status {
     before_animation {
       change_percent_hp: -100
+      hp_drain_lethal: true
     }
     do {
       change_stat {
@@ -1415,7 +1460,23 @@ behavior {
 }
 behavior {
   id: EFFECT_FOCUS_PUNCH
-  custom_behavior: true
+  attack {
+    round_start_announce: "{B_ATK_NAME_WITH_PREFIX} is tightening its focus!"
+    before {
+      print: "{B_ATK_NAME_WITH_PREFIX} lost its focus!"
+      require {
+        target: TARGET_MOVE_USER
+        damaged_by: TARGET_ALL
+      }
+    }
+    power_modifier {
+      flat: 40
+      require {
+        target: TARGET_MOVE_USER
+        damaged_by: TARGET_ALL
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SMELLINGSALT
@@ -1476,7 +1537,7 @@ behavior {
   id: EFFECT_ROLE_PLAY
   status {
     do {
-      other: OTHER_COPY_ABILITY
+      copy_ability_to: TARGET_MOVE_USER
     }
   }
 }
@@ -1504,7 +1565,7 @@ behavior {
 behavior {
   id: EFFECT_SUPERPOWER
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_ATK_DEF_DOWN
       affects_user: true
       certain: true
@@ -1558,7 +1619,7 @@ behavior {
 behavior {
   id: EFFECT_KNOCK_OFF
   attack {
-    secondary_effect { effect: MOVE_EFFECT_KNOCK_OFF }
+    effect { effect: MOVE_EFFECT_KNOCK_OFF }
     power_modifier {
       multiplier: 1.5
       require {
@@ -1696,7 +1757,7 @@ behavior {
 behavior {
   id: EFFECT_POISON_FANG
   attack {
-    secondary_effect { effect: MOVE_EFFECT_TOXIC }
+    effect { effect: MOVE_EFFECT_TOXIC }
   }
 }
 behavior {
@@ -1717,7 +1778,7 @@ behavior {
 behavior {
   id: EFFECT_OVERHEAT
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_SP_ATK_MINUS_2
       affects_user: true
       certain: true
@@ -1847,42 +1908,42 @@ behavior {
         item: ITEM_IRON_BALL
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_FLINCH
       require {
         target: TARGET_MOVE_USER
         hold_effect: HOLD_EFFECT_FLINCH
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_BURN
       require {
         target: TARGET_MOVE_USER
         item: ITEM_FLAME_ORB
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_TOXIC
       require {
         target: TARGET_MOVE_USER
         item: ITEM_TOXIC_ORB
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_FROSTBITE
       require {
         target: TARGET_MOVE_USER
         item: ITEM_FROST_ORB
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_PARALYSIS
       require {
         target: TARGET_MOVE_USER
         item: ITEM_LIGHT_BALL
       }
     }
-    additional_secondary_effect {
+    additional_effect {
       effect: MOVE_EFFECT_POISON
       require {
         target: TARGET_MOVE_USER
@@ -1909,7 +1970,7 @@ behavior {
     power_modifier {
       natural_gift: true
     }
-    secondary_effect_from_natural_gift: true
+    effect_from_natural_gift: true
   }
 }
 behavior {
@@ -1932,7 +1993,7 @@ behavior {
 behavior {
   id: EFFECT_HEX
   attack {
-    secondary_effect_from_argument: true
+    effect_from_argument: true
     power_modifier {
       multiplier: 2
       require {
@@ -2087,7 +2148,7 @@ behavior {
 behavior {
   id: EFFECT_ROUND
   attack {
-    secondary_effect_from_argument: true
+    effect_from_argument: true
     power_modifier {
       multiplier: 2
       require {
@@ -2127,7 +2188,7 @@ behavior {
       multiplier: 2
       require {
         target: TARGET_MOVE_USER
-        last_move_failed: true
+        ally_fainted_recently: true
       }
     }
   }
@@ -2135,7 +2196,7 @@ behavior {
 behavior {
   id: EFFECT_BULLDOZE
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
+    effect { effect: MOVE_EFFECT_SPD_MINUS_1 }
   }
 }
 behavior {
@@ -2146,9 +2207,7 @@ behavior {
 }
 behavior {
   id: EFFECT_PSYSHOCK
-  attack {
-    different_defending_stat: STAT_DEF
-  }
+  attack { }
 }
 behavior {
   id: EFFECT_ROOST
@@ -2388,7 +2447,7 @@ behavior {
 behavior {
   id: EFFECT_SPECIAL_DEFENSE_DOWN_HIT_2
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SP_DEF_MINUS_2 }
+    effect { effect: MOVE_EFFECT_SP_DEF_MINUS_2 }
   }
 }
 behavior {
@@ -2404,7 +2463,7 @@ behavior {
   status {
     do {
       target: TARGET_MOVE_USER
-      other: OTHER_COPY_ABILITY
+      copy_ability_to: TARGET_MOVE_TARGET
     }
   }
 }
@@ -2436,8 +2495,22 @@ behavior {
 behavior {
   id: EFFECT_FREEZE_DRY
   attack {
-    secondary_effect { effect: MOVE_EFFECT_FROSTBITE }
+    effect { effect: MOVE_EFFECT_FROSTBITE }
     super_effective_vs: TYPE_WATER
+  }
+}
+behavior {
+  id: EFFECT_SHEER_COLD
+  attack {
+    effect { effect: MOVE_EFFECT_FROSTBITE }
+    super_effective_vs: TYPE_WATER
+    accuracy {
+      always_hit: true
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_HAIL
+      }
+    }
   }
 }
 behavior {
@@ -2483,7 +2556,7 @@ behavior {
 behavior {
   id: EFFECT_ATTACK_ACCURACY_UP
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_ACC_PLUS_1
       affects_user: true
     }
@@ -2492,7 +2565,7 @@ behavior {
 behavior {
   id: EFFECT_ATTACK_SPATK_UP
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_SP_ATK_PLUS_1
       affects_user: true
     }
@@ -2501,7 +2574,7 @@ behavior {
 behavior {
   id: EFFECT_HURRICANE
   attack {
-    secondary_effect { effect: MOVE_EFFECT_CONFUSION }
+    effect { effect: MOVE_EFFECT_CONFUSION }
     accuracy {
       always_hit: true
       require {
@@ -2525,7 +2598,7 @@ behavior {
 behavior {
   id: EFFECT_SPEED_UP_HIT
   attack {
-    secondary_effect { effect: MOVE_EFFECT_SPD_PLUS_1 }
+    effect { effect: MOVE_EFFECT_SPD_PLUS_1 }
   }
 }
 behavior {
@@ -2589,7 +2662,7 @@ behavior {
 behavior {
   id: EFFECT_SCALD
   attack {
-    secondary_effect { effect: MOVE_EFFECT_BURN }
+    effect { effect: MOVE_EFFECT_BURN }
   }
 }
 behavior {
@@ -2615,38 +2688,24 @@ behavior {
       change_stat {
         stat: STAT_ATK
         amount: 1
-      }
-      require {
-        not: true
-        weather_affected: WEATHER_SUN
-      }
-    }
-    do {
-      change_stat {
-        stat: STAT_ATK
-        amount: 2
-      }
-      require {
-        weather_affected: WEATHER_SUN
+        conditional {
+          new_amount: 2
+          require {
+            weather_affected: WEATHER_SUN
+          }
+        }
       }
     }
     do {
       change_stat {
         stat: STAT_SPATK
         amount: 1
-      }
-      require {
-        not: true
-        weather_affected: WEATHER_SUN
-      }
-    }
-    do {
-      change_stat {
-        stat: STAT_SPATK
-        amount: 2
-      }
-      require {
-        weather_affected: WEATHER_SUN
+        conditional {
+          new_amount: 2
+          require {
+            weather_affected: WEATHER_SUN
+          }
+        }
       }
     }
   }
@@ -2654,7 +2713,7 @@ behavior {
 behavior {
   id: EFFECT_CLOSE_COMBAT
   attack {
-    secondary_effect {
+    effect {
       effect: MOVE_EFFECT_DEF_SPDEF_DOWN
       affects_user: true
       certain: true
@@ -2674,14 +2733,14 @@ behavior {
   id: EFFECT_RECOIL_33_STATUS
   attack {
     recoil_fraction: 3
-    secondary_effect_from_argument: true
+    effect_from_argument: true
   }
 }
 behavior {
   id: EFFECT_FLINCH_STATUS
   attack {
-    secondary_effect_from_argument: true
-    additional_secondary_effect {
+    effect_from_argument: true
+    additional_effect {
       effect: MOVE_EFFECT_FLINCH
     }
   }
@@ -2811,6 +2870,13 @@ behavior {
         amount: -3
       }
     }
+    change_target {
+      new_type: BOTH
+      require {
+        target: TARGET_FIELD
+        terrain_affected: TERRAIN_TOXIC
+      }
+    }
   }
 }
 behavior {
@@ -2824,7 +2890,7 @@ behavior {
 behavior {
   id: EFFECT_HIT_SWITCH_TARGET
   attack {
-    secondary_effect_from_argument: true
+    effect_from_argument: true
     after {
       switch {
         random: true
@@ -2834,139 +2900,549 @@ behavior {
 }
 behavior {
   id: EFFECT_FINAL_GAMBIT
+  attack {
+    user_hp_to_damage: true
+    after {
+      change_percent_hp: -100
+      hp_drain_lethal: true
+    }
+  }
 }
 behavior {
   id: EFFECT_CHANGE_TYPE_ON_ITEM
+  attack {
+    type_change {
+      item_type: true
+      require {
+        target: TARGET_MOVE_USER
+        hold_effect_matches_argument: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_AUTOTOMIZE
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+    do {
+      status: STATUS_AUTOTOMIZE
+    }
+  }
 }
 behavior {
   id: EFFECT_COPYCAT
+  custom_behavior: true
 }
 behavior {
   id: EFFECT_DEFOG
+  status {
+    do {
+      change_stat {
+        stat: STAT_EVASION
+        amount: -1
+      }
+    }
+    do {
+      other: OTHER_CLEAR_FIELD
+    }
+  }
 }
 behavior {
   id: EFFECT_HIT_ENEMY_HEAL_ALLY
+  ally_enemy_differ {
+    ally {
+      do {
+        change_percent_hp: 50
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SMACK_DOWN
+  attack {
+    effect_from_argument: true
+    additional_effect { effect: MOVE_EFFECT_SMACK_DOWN }
+  }
 }
 behavior {
   id: EFFECT_SYNCHRONOISE
+  attack {
+    type_change {
+      first_type: true
+    }
+  }
 }
 behavior {
   id: EFFECT_PSYCHO_SHIFT
+  custom_behavior: true
 }
 behavior {
   id: EFFECT_POWER_TRICK
+  status {
+    do {
+      other: OTHER_SWAP_ATK_AND_DEF
+    }
+    do {
+      other: OTHER_SWAP_ATK_AND_DEF_BOOSTS
+    }
+  }
 }
 behavior {
   id: EFFECT_FLAME_BURST
+  attack {
+    effect {
+      effect: MOVE_EFFECT_FLAME_BURST
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_AFTER_YOU
+  status {
+    do {
+      status: STATUS_AFTER_YOU
+    }
+  }
 }
 behavior {
   id: EFFECT_BESTOW
+  status {
+    do {
+      other: OTHER_GIVE_ITEM
+    }
+  }
 }
 behavior {
   id: EFFECT_ROTOTILLER
+  status {
+    do {
+      target: TARGET_ALL
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+        conditional {
+          new_amount: 2
+          require {
+            target: TARGET_LOOP_TARGET
+            terrain_affected: TERRAIN_GRASSY
+          }
+        }
+      }
+      require {
+        target: TARGET_LOOP_TARGET
+        battler_type: TYPE_GRASS
+      }
+    }
+    do {
+      target: TARGET_ALL
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+        conditional {
+          new_amount: 2
+          require {
+            target: TARGET_LOOP_TARGET
+            terrain_affected: TERRAIN_GRASSY
+          }
+        }
+      }
+      require {
+        target: TARGET_LOOP_TARGET
+        battler_type: TYPE_GRASS
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_FLOWER_SHIELD
+  status {
+    do {
+      target: TARGET_ALL
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+      require {
+        target: TARGET_LOOP_TARGET
+        battler_type: TYPE_GRASS
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_HIT_PREVENT_ESCAPE
+  attack {
+    effect { effect: MOVE_EFFECT_PREVENT_ESCAPE }
+  }
 }
 behavior {
   id: EFFECT_SPEED_SWAP
+  status {
+    do {
+      swap_stat_changes: STAT_SPEED
+    }
+    do {
+      swap_base_stat: STAT_SPEED
+    }
+  }
 }
 behavior {
   id: EFFECT_DEFENSE_UP2_HIT
+  attack {
+    effect {
+      effect: MOVE_EFFECT_DEF_PLUS_2
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_REVELATION_DANCE
+  attack {
+    type_change {
+      first_type: true
+    }
+  }
 }
 behavior {
   id: EFFECT_AURORA_VEIL
+  status {
+    require {
+      weather_affected: WEATHER_HAIL
+    }
+    do {
+      status: STATUS_AURORA_VEIL
+    }
+  }
 }
 behavior {
   id: EFFECT_THIRD_TYPE
+  status {
+    do {
+      other: OTHER_SET_THIRD_TYPE_TO_ARGUMENT
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRICK_OR_TREAT
+  status {
+    do {
+      other: OTHER_SET_THIRD_TYPE_TO_ARGUMENT
+    }
+    do {
+      status: STATUS_TRICK_OR_TREAT
+    }
+  }
+
 }
 behavior {
   id: EFFECT_FEINT
+  attack {
+    effect { effect: MOVE_EFFECT_FEINT }
+  }
 }
 behavior {
   id: EFFECT_SPARKLING_ARIA
+  ally_enemy_differ {
+    ally {
+      do {
+        other: OTHER_CLEAR_STATUS
+        require {
+          status: STATUS_BURN
+        }
+      }
+    }
+    enemy {
+      after {
+        other: OTHER_CLEAR_STATUS
+        require {
+          status: STATUS_BURN
+        }
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_ACUPRESSURE
+  status {
+    do {
+      other: OTHER_ACCUPRESSURE
+    }
+  }
 }
 behavior {
   id: EFFECT_AROMATIC_MIST
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 2
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 2
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_POWDER
+  status {
+    do {
+      status: STATUS_POWDER
+    }
+  }
 }
 behavior {
   id: EFFECT_SP_ATTACK_UP_HIT
+  attack {
+    effect {
+      effect: MOVE_EFFECT_SP_ATK_PLUS_1
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_BELCH
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      item_pocket: POCKET_BERRIES
+      ate_berry: true
+    }
+    before {
+      target: TARGET_MOVE_USER
+      other: OTHER_EAT_BERRY
+    }
+  }
 }
 behavior {
   id: EFFECT_PARTING_SHOT
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: -1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: -1
+      }
+    }
+    do {
+      switch {
+        target: TARGET_MOVE_USER
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SPECTRAL_THIEF
+  attack {
+    effect { effect: MOVE_EFFECT_SPECTRAL_THIEF }
+  }
 }
 behavior {
   id: EFFECT_V_CREATE
+  attack {
+    effect {
+      effect: MOVE_EFFECT_V_CREATE
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_MAT_BLOCK
+  status {
+    protect_effect: true
+    do {
+      other: OTHER_SET_PROTECT
+    }
+    require {
+      target: TARGET_MOVE_USER
+      is_first_turn: true
+    }
+  }
 }
 behavior {
   id: EFFECT_STOMPING_TANTRUM
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        last_move_failed: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_CORE_ENFORCER
+  attack {
+    effect {
+      effect: MOVE_EFFECT_CORE_ENFORCER
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_INSTRUCT
+  custom_behavior: true
 }
 behavior {
   id: EFFECT_THROAT_CHOP
+  attack {
+    effect {
+      effect: MOVE_EFFECT_THROAT_CHOP
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_LASER_FOCUS
+  status {
+    do {
+      status: STATUS_LASER_FOCUS
+    }
+  }
 }
 behavior {
   id: EFFECT_MAGNETIC_FLUX
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+      require {
+        ability: ABILITY_PLUS
+        ability: ABILITY_MINUS
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+      require {
+        ability: ABILITY_PLUS
+        ability: ABILITY_MINUS
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+      require {
+        target: TARGET_PARTNER
+        ability: ABILITY_PLUS
+        ability: ABILITY_MINUS
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+      require {
+        target: TARGET_PARTNER
+        ability: ABILITY_PLUS
+        ability: ABILITY_MINUS
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_GEAR_UP
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_INCINERATE
+  attack {
+    effect {
+      effect: MOVE_EFFECT_INCINERATE
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_BUG_BITE
+  attack {
+    effect {
+      effect: MOVE_EFFECT_BUG_BITE
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_STRENGTH_SAP
+  status {
+    do {
+      drain_stat_and_heal: STAT_ATK
+    }
+  }
   healing_effect: true
 }
 behavior {
   id: EFFECT_MIND_BLOWN
+  attack {
+    attack_all_in_loop {
+      before_loop {
+        change_percent_hp: -50
+        hp_drain_lethal: true
+      }
+      attack {
+        effect_from_argument: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_PURIFY
+  status {
+    do {
+      other: OTHER_CLEAR_STATUS
+      failure_fails_move: true
+    }
+    do {
+      change_percent_hp: 50
+    }
+  }
 }
 behavior {
   id: EFFECT_BURN_UP
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      battler_matches_move_type: true
+    }
+    effect { effect: MOVE_EFFECT_BURN_UP }
+  }
 }
 behavior {
   id: EFFECT_SHORE_UP
@@ -2979,401 +3455,1492 @@ behavior {
 }
 behavior {
   id: EFFECT_GEOMANCY
+  two_turn {
+    turn_2_status {
+      do {
+        change_stat {
+          stat: STAT_SPATK
+          amount: 2
+        }
+      }
+      do {
+        change_stat {
+          stat: STAT_SPDEF
+          amount: 2
+        }
+      }
+      do {
+        change_stat {
+          stat: STAT_SPEED
+          amount: 2
+        }
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_FAIRY_LOCK
+  status {
+    do {
+      status: STATUS_FAIRY_LOCK
+    }
+  }
 }
 behavior {
   id: EFFECT_ALLY_SWITCH
+  status {
+    do {
+      other: OTHER_ALLY_SWITCH
+    }
+  }
 }
 behavior {
   id: EFFECT_RELIC_SONG
+  attack {
+    effect_from_argument: true
+  }
 }
 behavior {
   id: EFFECT_ATTACKER_DEFENSE_DOWN_HIT
+  attack {
+    effect {
+      effect: MOVE_EFFECT_DEF_MINUS_1
+      affects_user: true
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_BODY_PRESS
+  attack {
+    different_attacking_stat: STAT_DEF
+  }
 }
 behavior {
   id: EFFECT_EERIE_SPELL
+  attack {
+    accuracy {
+      always_hit: true
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_FOG
+      }
+    }
+    accuracy {
+      set_to: 50
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_SUN
+      }
+    }
+    after {
+      reduce_pp {
+        min: 6
+        max: 6
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_DEPLETION_BEAM
+  attack {
+    after {
+      reduce_pp {
+        min: 3
+        max: 3
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_JUNGLE_HEALING
+  status {
+    do {
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      target: TARGET_PARTNER
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      change_percent_hp: 25
+    }
+    do {
+      target: TARGET_PARTNER
+      change_percent_hp: 25
+    }
+  }
   healing_effect: true
 }
 behavior {
   id: EFFECT_COACHING
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_LASH_OUT
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_ATTACKER_NEGATIVE_STAT_BUFFS
+        multiplier: 20
+        use_move_base: true
+        max: 140
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_GRASSY_GLIDE
-}
-behavior {
-  id: EFFECT_REMOVE_TERRAIN
-}
-behavior {
-  id: EFFECT_DYNAMAX_DOUBLE_DMG
+  attack {
+    priority {
+      amount: 1
+      require {
+        target: TARGET_MOVE_USER
+        terrain_affected: TERRAIN_GRASSY
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_DECORATE
+  ally_enemy_differ {
+    ally {
+      do {
+        change_stat {
+          stat: STAT_ATK
+          amount: 2
+        }
+      }
+      do {
+        change_stat {
+          stat: STAT_SPATK
+          amount: 2
+        }
+      }
+      do {
+        change_stat {
+          stat: STAT_CRIT
+          amount: 2
+        }
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SNIPE_SHOT
-}
-behavior {
-  id: EFFECT_TRIPLE_HIT
+  attack { }
+  ignores_redirection: true
 }
 behavior {
   id: EFFECT_RECOIL_HP_25
+  attack {
+    recoil_fraction: 4
+  }
 }
 behavior {
   id: EFFECT_STUFF_CHEEKS
+  status {
+    do {
+      other: OTHER_EAT_BERRY
+      failure_fails_move: true
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 2
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_GRAV_APPLE
+  attack {
+    effect_from_argument: true
+    power_modifier {
+      multiplier: 1.5
+      require {
+        status: STATUS_GRAVITY
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_EVASION_UP_HIT
+  attack {
+    effect {
+      effect: MOVE_EFFECT_EVS_PLUS_1
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_GLITZY_GLOW
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      status: STATUS_LIGHT_SCREEN
+    }
+  }
 }
 behavior {
   id: EFFECT_BADDY_BAD
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      status: STATUS_REFLECT
+    }
+  }
 }
 behavior {
   id: EFFECT_SAPPY_SEED
+  attack {
+    after {
+      status: STATUS_LEECH_SEED
+    }
+  }
 }
 behavior {
   id: EFFECT_FREEZY_FROST
+  attack {
+    after {
+      other: OTHER_CLEAR_STAT_CHANGES
+    }
+  }
 }
 behavior {
   id: EFFECT_SPARKLY_SWIRL
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      other: OTHER_CLEAR_PARTY_STATUS
+    }
+  }
 }
 behavior {
   id: EFFECT_PLASMA_FISTS
+  attack {
+    after {
+      status: STATUS_PLASMA_FISTS
+    }
+  }
 }
 behavior {
   id: EFFECT_HYPERSPACE_FURY
-}
-behavior {
-  id: EFFECT_AURA_WHEEL
-}
-behavior {
-  id: EFFECT_PHOTON_GEYSER
-}
-behavior {
-  id: EFFECT_SHELL_SIDE_ARM
+  attack {
+    require {
+      target: TARGET_MOVE_USER
+      species: SPECIES_HOOPA_UNBOUND
+    }
+    effect { effect: MOVE_EFFECT_FEINT }
+    additional_effect {
+      effect: MOVE_EFFECT_DEF_MINUS_1
+      affects_user: true
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_TERRAIN_PULSE
+  attack {
+    type_change {
+      terrain: true
+    }
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        terrain_affected: TERRAIN_ANY
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_JAW_LOCK
+  attack {
+    effect {
+      effect: MOVE_EFFECT_TRAP_BOTH
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_NO_RETREAT
+  status {
+    do {
+      change_stat {
+        stat: STAT_ALL
+        amount: 1
+      }
+    }
+    do {
+      target: TARGET_MOVE_USER
+      status: STATUS_PREVENT_ESCAPE
+    }
+  }
 }
 behavior {
   id: EFFECT_TAR_SHOT
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -1
+      }
+    }
+    do {
+      status: STATUS_TAR_SHOT
+    }
+  }
 }
 behavior {
   id: EFFECT_POLTERGEIST
+  attack {
+    require {
+      not: true
+      target: TARGET_MOVE_USER
+      item: ITEM_NONE
+    }
+  }
 }
 behavior {
   id: EFFECT_OCTOLOCK
+  attack {
+    after {
+      status: STATUS_OCTOLOCK
+    }
+  }
 }
 behavior {
   id: EFFECT_CLANGOROUS_SOUL
+  status {
+    do {
+      change_percent_hp: 33
+      failure_fails_move: true
+    }
+    do {
+      change_stat {
+        stat: STAT_ALL
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_BOLT_BEAK
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        not: true
+        has_taken_turn: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_RISING_VOLTAGE
-}
-behavior {
-  id: EFFECT_SCALE_SHOT
-}
-behavior {
-  id: EFFECT_BEAK_BLAST
-}
-behavior {
-  id: EFFECT_EXCALIBUR
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        terrain_affected: TERRAIN_ELECTRIC
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_FROSTBITE_HIT
+  attack {
+    effect { effect: MOVE_EFFECT_FROSTBITE }
+  }
 }
 behavior {
   id: EFFECT_EXPANDING_FORCE
+  attack {
+    power_modifier {
+      flat: 120
+      require {
+        target: TARGET_MOVE_USER
+        terrain_affected: TERRAIN_PSYCHIC
+      }
+    }
+    change_target {
+      new_type: BOTH
+      require {
+        target: TARGET_FIELD
+        terrain_affected: TERRAIN_PSYCHIC
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_STEEL_BEAM
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      change_percent_hp: -50
+      hp_drain_lethal: true
+    }
+    on_miss {
+      target: TARGET_MOVE_USER
+      change_percent_hp: -50
+      hp_drain_lethal: true
+    }
+  }
 }
 behavior {
   id: EFFECT_HOWL
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_ATTRACT_HIT
+  attack {
+    effect { effect: MOVE_EFFECT_ATTRACT }
+  }
 }
 behavior {
   id: EFFECT_CURSE_HIT
+  attack {
+    effect { effect: MOVE_EFFECT_CURSE }
+  }
 }
 behavior {
   id: EFFECT_FLINCH_RECOIL_33
+  attack {
+    effect { effect: MOVE_EFFECT_FLINCH }
+    recoil_fraction: 3
+  }
 }
 behavior {
   id: EFFECT_FLINCH_RECOIL_50
+  attack {
+    effect { effect: MOVE_EFFECT_FLINCH }
+    recoil_fraction: 2
+  }
 }
 behavior {
   id: EFFECT_IGNORE_TYPE_IMMUNITY
+  attack {
+    neutral_vs_immunity: true
+  }
 }
 behavior {
   id: EFFECT_SE_AGAINST_TYPE_HIT
+  attack {
+    super_effective_vs_argument: true
+  }
 }
 behavior {
   id: EFFECT_DOUBLE_DMG_IF_STATUS1
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        has_argument_status: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_STEALTH_ROCK_HIT
+  attack {
+    after {
+      status: STATUS_STEALTH_ROCK
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_LEECH_SEED_HIT
+  attack {
+    after {
+      status: STATUS_LEECH_SEED
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_STICKY_WEB_HIT
+  attack {
+    after {
+      status: STATUS_STICKY_WEB
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_BLEED_HIT
+  attack {
+    effect { effect: MOVE_EFFECT_BLEED }
+  }
 }
 behavior {
   id: EFFECT_SLEEP_HIT
+  attack {
+    effect { effect: MOVE_EFFECT_SLEEP }
+  }
 }
 behavior {
   id: EFFECT_BLEED
+  status {
+    do {
+      status: STATUS_BLEED
+    }
+  }
 }
 behavior {
   id: EFFECT_FROSTBITE
-}
-behavior {
-  id: EFFECT_FREEZE
+  status {
+    do {
+      status: STATUS_FROSTBITE
+    }
+  }
 }
 behavior {
   id: EFFECT_INFERNAL_PARADE
-}
-behavior {
-  id: EFFECT_WYRM_WIND
-}
-behavior {
-  id: EFFECT_MISTY_TERRAIN_BOOST
+  attack {
+    power_modifier {
+      multiplier: 1.5
+      require {
+        status: STATUS_STATUS1_ANY
+      }
+    }
+    effect_from_argument: true
+  }
 }
 behavior {
   id: EFFECT_BERRY_SMASH
+  attack {
+    before {
+      target: TARGET_MOVE_USER
+      other: OTHER_EAT_BERRY
+    }
+  }
 }
 behavior {
   id: EFFECT_INVERSE_ROOM
+  status {
+    do {
+      status: STATUS_INVERSE_ROOM
+    }
+  }
 }
 behavior {
   id: EFFECT_DRAIN_BRAIN
+  status {
+    do {
+      drain_stat_and_heal: STAT_SPATK
+    }
+  }
   healing_effect: true
 }
 behavior {
   id: EFFECT_TRIPLE_ARROWS
+  attack {
+    effect {
+      effect: MOVE_EFFECT_DEF_MINUS_1
+    }
+    additional_effect {
+      effect: MOVE_EFFECT_FLINCH
+      chance: 30
+    }
+  }
 }
 behavior {
   id: EFFECT_RECOIL_25_STATUS
+  attack {
+    effect_from_argument: true
+    recoil_fraction: 4
+  }
 }
 behavior {
   id: EFFECT_WEATHER_BOOST
+  attack {
+    weather_boost: true
+  }
 }
 behavior {
   id: EFFECT_MORTAL_SPIN
+  attack {
+    effect_from_argument: true
+    additional_effect {
+      effect: MOVE_EFFECT_RAPIDSPIN
+      affects_user: true
+      certain: true
+    }
+  }
 }
 behavior {
   id: EFFECT_KARMA
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_REMOVE_TERRAIN_NO_FAIL
+  attack {
+    effect_from_argument: true
+    after {
+      other: OTHER_CLEAR_TERRAIN
+    }
+  }
 }
 behavior {
   id: EFFECT_TEN_HITS
+  attack {
+    multihit: MULTIHIT_TEN
+    multihits_can_miss: true
+  }
 }
 behavior {
   id: EFFECT_TWO_TURN_SECONDARY
+  two_turn {
+    turn_1 {
+      do {
+        run_argument_move_effect: true
+      }
+    }
+    turn_2_attack { }
+  }
 }
 behavior {
   id: EFFECT_SPECIAL_ATTACK_UP_HIT
+  attack {
+    effect {
+      effect: MOVE_EFFECT_SP_ATK_PLUS_1
+      affects_user: true
+    }
+  }
 }
 behavior {
   id: EFFECT_ARGUMENT_HIT
+  attack {
+    effect_from_argument: true
+  }
 }
 behavior {
   id: EFFECT_EVERY_OTHER_TURN
+  attack { }
 }
 behavior {
-  id: EFFECT_MISC_HIT
+  id: EFFECT_RAGE_FIST
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_TOOK_DAMAGE
+        multiplier: 20
+        use_move_base: true
+        max_bonus: 120
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_LAST_RESPECTS
+  attack {
+    power_modifier {
+      formula {
+        measurement: MEASUREMENT_FAINTED_BATTLERS
+        multiplier: 10
+        use_move_base: true
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_FICKLE_BEAM
+  attack {
+    power_modifier {
+      multiplier: 2
+      require {
+        random: 30
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_TRANSMUTE
+  attack {
+    on_faint_target {
+      target: TARGET_MOVE_USER
+      other: OTHER_RESTORE_ITEM
+    }
+  }
+}
+behavior {
+  id: EFFECT_TERROR_LOCKS
+  attack {
+    effect_from_argument: true
+    power_modifier {
+      multiplier: 1.5
+      require {
+        status: STATUS_BLEED
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_OMINOUS_WIND
+  attack {
+    effect {
+      effect: MOVE_EFFECT_ALL_STATS_UP
+      affects_user: true
+    }
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        weather_affected: WEATHER_FOG
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_IVY_CUDGEL
+  attack {
+    type_change {
+      type: TYPE_GRASS
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_OGERPON
+      }
+    }
+    type_change {
+      type: TYPE_FIRE
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_OGERPON_HEARTHFLAME_MASK
+        species: SPECIES_OGERPON_HEARTHFLAME_MASK_MEGA
+      }
+    }
+    type_change {
+      type: TYPE_WATER
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_OGERPON_WELLSPRING_MASK
+        species: SPECIES_OGERPON_WELLSPRING_MASK_MEGA
+      }
+    }
+    type_change {
+      type: TYPE_ROCK
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_OGERPON_CORNERSTONE_MASK
+        species: SPECIES_OGERPON_CORNERSTONE_MASK_MEGA
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_FILLET_AWAY
+  status {
+    do {
+      change_current_percent_hp: -50
+      failure_fails_move: true
+    }
+    do {
+      print: "{B_ATK_NAME_WITH_PREFIX} cut its own HP and raised its stats!"
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 2
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_COURT_CHANGE
+  status {
+    do {
+      other: OTHER_SWAP_FIELD_EFFECTS
+    }
+  }
 }
 behavior {
   id: EFFECT_CHILLY_RECEPTION
+  status {
+    do {
+      print: "{B_ATK_NAME_WITH_PREFIX} tells a chillingly bad joke!"
+    }
+    do {
+      set_weather: WEATHER_HAIL
+    }
+    do {
+      switch { }
+    }
+  }
 }
 behavior {
   id: EFFECT_SHED_TAIL
+  status {
+    do {
+      change_percent_hp: -50
+      failure_fails_move: true
+    }
+    do {
+      status: STATUS_SUBSTITUTE
+      alt_success_string: "{B_ATK_NAME_WITH_PREFIX} shed its tail to create a decoy!"
+      failure_fails_move: true
+    }
+    do {
+      switch {
+        copy_substitute: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_GHASTLY_ECHO
+  attack {
+    after {
+      switch {
+        target: TARGET_MOVE_USER
+        after {
+          target: TARGET_MOVE_USER
+          status: STATUS_GHASTLY_ECHO
+        }
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_REVIVAL_BLESSING
+  custom_behavior: true
   healing_effect: true
 }
 behavior {
   id: EFFECT_TIDY_UP
+  status {
+    do {
+      run_move_effect {
+        effect: MOVE_EFFECT_RAPIDSPIN
+        affects_user: true
+        certain: true
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_ACID
+  attack {
+    super_effective_vs: TYPE_STEEL
+    effect { effect: MOVE_EFFECT_SP_DEF_MINUS_1 }
+  }
 }
 behavior {
   id: EFFECT_SLUDGE
+  attack {
+    super_effective_vs: TYPE_WATER
+    effect { effect: MOVE_EFFECT_POISON }
+  }
 }
 behavior {
   id: EFFECT_POISON_GAS
+  attack {
+    super_effective_vs: TYPE_FLYING
+    effect { effect: MOVE_EFFECT_POISON }
+  }
 }
 behavior {
   id: EFFECT_PARALYZE_IGNORE_TYPE
+  status {
+    do {
+      status: STATUS_PARALYZE_IGNORE_TYPE
+    }
+  }
 }
 behavior {
   id: EFFECT_SUPER_FANG_HAZE
+  attack {
+    percent_hp_damage: 50
+    after {
+      other: OTHER_CLEAR_STAT_CHANGES
+    }
+  }
 }
 behavior {
   id: EFFECT_SPICY_EXTRACT
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 2
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: -2
+      }
+    }
+    do {
+      status: STATUS_CONFUSE
+    }
+  }
 }
 behavior {
   id: EFFECT_CLEAR_WEATHER_AND_TERRAIN_HIT
+  attack {
+    after {
+      other: OTHER_CLEAR_WEATHER
+    }
+    after {
+      other: OTHER_CLEAR_TERRAIN
+    }
+  }
 }
 behavior {
   id: EFFECT_MATCHA_GOTCHA
+  attack {
+    effect { effect: MOVE_EFFECT_BURN }
+    absorb_damage: true
+  }
   healing_effect: true
 }
 behavior {
   id: EFFECT_DOODLE
+  status {
+    do {
+      copy_ability_to: TARGET_MOVE_USER
+    }
+    do {
+      copy_ability_to: TARGET_PARTNER
+    }
+  }
 }
 behavior {
   id: EFFECT_SPIKE_HIT
+  attack {
+    after {
+      target: TARGET_MOVE_USER
+      status: STATUS_SPIKES
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_VICTORY_DANCE
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_DRAGON_CHEER
+  status {
+    do {
+      change_stat {
+        stat: STAT_CRIT
+        amount: 1
+        conditional {
+          new_amount: 2
+          require {
+            battler_type: TYPE_DRAGON
+          }
+        }
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_CRIT
+        amount: 1
+        conditional {
+          new_amount: 2
+          require {
+            target: TARGET_PARTNER
+            battler_type: TYPE_DRAGON
+          }
+        }
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SHELTER
+  status {
+    do {
+      change_stat {
+        stat: STAT_DEF
+        amount: 2
+      }
+    }
+    do {
+      target: TARGET_PARTNER
+      change_stat {
+        stat: STAT_DEF
+        amount: 2
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_ARGUMENT_HIT_IF_STAT_UP
+  attack {
+    effect_from_argument_if {
+      has_stat_up: true
+    }
+  }
 }
 behavior {
   id: EFFECT_UPPER_HAND
+  attack {
+    effect { effect: MOVE_EFFECT_FLINCH }
+    require { using_priority_move: true }
+  }
 }
 behavior {
   id: EFFECT_ELECTRO_SHOT
+  two_turn {
+    turn_1 {
+      do {
+        change_stat {
+          stat: STAT_SPATK
+          amount: 1
+        }
+      }
+    }
+    turn_2_attack { }
+    accelerate_if {
+      target: TARGET_MOVE_USER
+      weather_affected: WEATHER_RAIN
+    }
+  }
 }
 behavior {
   id: EFFECT_SHARPEN
+  status {
+    do {
+      change_stat {
+        stat: STAT_HIGHEST_ATTACK
+        amount: 1
+      }
+      change_stat {
+        stat: STAT_CRIT
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SCARY_FACE
+  status {
+    do {
+      status: STATUS_FEAR
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: -2
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SMOKESCREEN
+  status {
+    do {
+      status: STATUS_SMOKESCREEN
+    }
+  }
 }
 behavior {
   id: EFFECT_EERIE_FOG
+  status {
+    do {
+      set_weather: WEATHER_FOG
+    }
+    change_target {
+      new_type: ALL_BATTLERS
+      require {
+        target: TARGET_MOVE_USER
+        not: true
+        ability: ABILITY_FORECAST
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_MYSTIC_DANCE
+  status {
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPEED
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_SNAP_JAW
+  attack {
+    random_effect {
+      effect {
+        effect: MOVE_EFFECT_SPD_MINUS_1
+      }
+      effect {
+        effect: MOVE_EFFECT_SPD_PLUS_1
+        affects_user: true
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_RIP_AND_TEAR
+  attack {
+    effect {
+      effect: MOVE_EFFECT_SPD_MINUS_1
+      chance: 100
+    }
+    effect {
+      effect: MOVE_EFFECT_BLEED
+    }
+  }
 }
 behavior {
   id: EFFECT_SKY_DROP
+  two_turn {
+    turn_1 {
+      do {
+        status: STATUS_SKY_DROP
+      }
+    }
+    turn_2_attack {
+      before {
+        remove_status: STATUS_SKY_DROP
+      }
+      after {
+        other: OTHER_TRIGGER_HAZARDS
+      }
+    }
+  }
+}
+behavior {
+  id: EFFECT_SEISMIC_TOSS
+  two_turn {
+    turn_1 {
+      do {
+        status: STATUS_SKY_DROP
+      }
+    }
+    turn_2_attack {
+      level_damage: true
+      before {
+        remove_status: STATUS_SKY_DROP
+      }
+      after {
+        other: OTHER_TRIGGER_HAZARDS
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_TERROR_CHARGE
+  attack {
+    effect { effect: MOVE_EFFECT_BLEED }
+    additional_effect { effect: MOVE_EFFECT_FEAR }
+  }
 }
 behavior {
   id: EFFECT_TAILWIND_HIT
+  attack {
+    after {
+      status: STATUS_TAILWIND
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_SANDSTORM_HIT
+  attack {
+    after {
+      set_weather: WEATHER_SANDSTORM
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_RAIN_HIT
+  attack {
+    after {
+      set_weather: WEATHER_RAIN
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_FAIRY_TERRAIN_HIT
+  attack {
+    after {
+      set_terrain: TERRAIN_MISTY
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_CREEPING_THORNS_HIT
+  attack {
+    after {
+      status: STATUS_STEALTH_ROCK
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_TAKE_HEART
+  status {
+    do {
+      other: OTHER_CLEAR_STATUS
+    }
+    do {
+      change_stat {
+        stat: STAT_SPATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_CLEAR_SKIES
+  status {
+    do {
+      status: STATUS_CLEAR_SKIES
+    }
+  }
 }
 behavior {
   id: EFFECT_SHOWTIME
+  status {
+    do {
+      other: OTHER_SHOWTIME
+    }
+    do {
+      switch { }
+    }
+  }
 }
 behavior {
   id: EFFECT_TREPIDATION
+  attack {
+    after {
+      status: STATUS_TREPIDATION
+    }
+  }
 }
 behavior {
   id: EFFECT_CHIP_AWAY
+  attack {
+    effect { effect: MOVE_EFFECT_ATK_MINUS_1 }
+    additional_effect { effect: MOVE_EFFECT_DEF_MINUS_1 }
+  }
 }
 behavior {
   id: EFFECT_MEDITATE
+  status {
+    do {
+      change_stat {
+        stat: STAT_ATK
+        amount: 1
+      }
+    }
+    do {
+      change_stat {
+        stat: STAT_SPDEF
+        amount: 1
+      }
+    }
+  }
 }
 behavior {
   id: EFFECT_BARRIER
+  status {
+    require {
+      target: TARGET_FIELD
+      terrain_affected: TERRAIN_PSYCHIC
+    }
+    do {
+      status: STATUS_REFLECT
+    }
+    do {
+      status: STATUS_LIGHT_SCREEN
+    }
+  }
 }
 behavior {
   id: EFFECT_KINESIS
+  status {
+    do {
+      other: OTHER_LOSE_ITEM
+    }
+    do {
+      run_move_effect { effect: MOVE_EFFECT_FLINCH }
+    }
+  }
 }
 behavior {
   id: EFFECT_CORROSIVE_GAS
+  attack {
+    effect { effect: MOVE_EFFECT_KNOCK_OFF }
+  }
 }
 behavior {
   id: EFFECT_CALTROPS
+  status {
+    do {
+      status: STATUS_CALTROPS
+    }
+  }
 }
 behavior {
   id: EFFECT_SWEET_KISS
+  status {
+    do {
+      status: STATUS_CONFUSE
+    }
+    do {
+      status: STATUS_ATTRACT
+    }
+  }
 }
 behavior {
   id: EFFECT_QUICK_GUARD
+  status {
+    do {
+      status: STATUS_QUICK_GUARD
+    }
+  }
 }
 behavior {
   id: EFFECT_TWO_TURN_RETALIATION
+  two_turn {
+    turn_1 {
+      do {
+        target: TARGET_MOVE_USER
+        status: STATUS_BEAK_BLAST
+      }
+    }
+    turn_2_attack {
+      effect_from_argument: true
+    }
+  }
 }
 behavior {
   id: EFFECT_SHELL_TRAP
+  attack {
+    target_last_hit_by: COUNTERS_PHYSICAL
+  }
 }
 behavior {
   id: EFFECT_GRASSY_TERRAIN_HIT
+  attack {
+    after {
+      set_terrain: TERRAIN_GRASSY
+      use_effect_chance: true
+    }
+  }
 }
 behavior {
   id: EFFECT_TOXIC_TERRAIN
+  status {
+    do {
+      set_terrain: TERRAIN_TOXIC
+    }
+  }
 }
