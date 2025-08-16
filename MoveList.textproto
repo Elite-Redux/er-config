@@ -2004,7 +2004,7 @@ moves {
   short_name: "SelfDestruct"
   description: "The user blows up to inflict severe damage. Deals 2x damage if hit first."
   short_description: "Inflicts severe damage but makes the user faint."
-  effect: EFFECT_EXPLOSION
+  effect: EFFECT_SELF_DESTRUCT
   split: PHYSICAL
   type: TYPE_NORMAL
   target: FOES_AND_ALLY
@@ -9768,7 +9768,7 @@ moves {
   short_name: "WatrShuriken"
   description: "The user hits the foe with 2 to 5 throwing stars. +1 priority."
   short_description: "Throws 2 to 5 stars that are sure to strike first."
-  effect: EFFECT_MULTI_HIT
+  effect: EFFECT_WATER_SHURIKEN
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
@@ -11426,7 +11426,7 @@ moves {
   short_name: "Dragon Darts"
   description: "User fires two dragon-shaped darts. 1.25x boost from Parental Bond."
   short_description: "The user attacks twice. Parental Bond boost."
-  effect: EFFECT_DOUBLE_HIT
+  effect: EFFECT_DRAGON_DARTS
   split: PHYSICAL
   type: TYPE_DRAGON
   target: SELECTED
@@ -16102,7 +16102,7 @@ moves {
   short_name: "DreamInversn"
   description: "Deals 2x damage to sleeping foes. 10% chance for drowsy. Hits both foes."
   short_description: "Strikes through dreams, hitting sleeping foes hard."
-  effect: EFFECT_ARGUMENT_HIT
+  effect: EFFECT_DREAM_INVERSION
   split: PHYSICAL
   type: TYPE_NORMAL
   target: BOTH

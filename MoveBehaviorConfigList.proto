@@ -308,13 +308,13 @@ message MoveRequirement {
   repeated Weather weather_affected = 9;
   repeated MoveRequirement require = 10;
   bool is_first_turn = 11;
-  BattlerTarget damaged_by = 12;
+  optional BattlerTarget damaged_by = 12;
   bool can_lose_item = 13;
   int32 weight = 14;
   HoldEffect hold_effect = 15;
   Pocket item_pocket = 16;
-  float relative_weight = 17;
-  float relative_speed = 18;
+  int32 relative_weight = 17;
+  int32 relative_speed = 18;
   bool has_taken_turn = 19;
   bool used_same_move_behavior = 20;
   bool last_move_failed = 21;
@@ -342,7 +342,6 @@ message AttackBehaviorConfig {
       enum PowerMeasurement {
         MEASUREMENT_NONE = 0;
         MEASUREMENT_TARGET_POSITIVE_STAT_BUFFS = 1;
-        MEASUREMENT_NEGATIVE_STAT_BUFFS = 2;
         MEASUREMENT_TARGET_OVER_ATTACKER_SPEED = 3;
         MEASUREMENT_FAINTED_BATTLERS = 4;
         MEASUREMENT_TOOK_DAMAGE = 5;
@@ -415,6 +414,10 @@ message AttackBehaviorConfig {
     MoveRequirement require = 1;
     bool display_only = 10;
   }
+  message MultihitIf {
+    MultihitType type = 1;
+    repeated MoveRequirement require = 2;
+  }
   oneof effect_type {
     SecondaryEffect effect = 1;
     bool effect_from_argument = 100;
@@ -428,7 +431,7 @@ message AttackBehaviorConfig {
   int32 min_lock_turns = 5;
   int32 max_lock_turns = 6;
   repeated ApplyEffect after_locked_turns_end = 7;
-  MultihitType multihit = 8;
+  repeated MultihitIf multihit = 8;
   repeated AdjustPower power_modifier = 9;
   oneof flat_damage {
     int32 percent_hp_damage = 10;
@@ -465,6 +468,7 @@ message AttackBehaviorConfig {
   bool weather_boost = 36;
   string round_start_announce = 37;
   CounterType target_last_hit_by = 38;
+  bool switch_targets_each_hit = 39;
 }
 
 message StatusBehaviorConfig {

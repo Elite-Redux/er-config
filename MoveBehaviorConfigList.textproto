@@ -51,6 +51,25 @@ behavior {
   }
 }
 behavior {
+  id: EFFECT_SELF_DESTRUCT
+  attack {
+    attack_all_in_loop {
+      before_loop {
+        target: TARGET_MOVE_USER
+        change_percent_hp: -100
+        hp_drain_lethal: true
+      }
+    }
+    power_modifier {
+      multiplier: 2
+      require {
+        target: TARGET_MOVE_USER
+        damaged_by: TARGET_ALL
+      }
+    }
+  }
+}
+behavior {
   id: EFFECT_DREAM_EATER
   attack {
     require {
@@ -264,8 +283,57 @@ behavior {
 behavior {
   id: EFFECT_MULTI_HIT
   attack {
-    multihit: MULTIHIT_TWO_TO_FIVE
+    multihit {
+      type: MULTIHIT_FIVE
+      require {
+        target: TARGET_MOVE_USER
+        ability: ABILITY_SKILL_LINK
+      }
+    }
+    multihit {
+      type: MULTIHIT_FOUR_OR_FIVE
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_LOADED_DICE
+      }
+    }
+    multihit { type: MULTIHIT_TWO_TO_FIVE }
     effect_from_argument: true
+  }
+}
+behavior {
+  id: EFFECT_WATER_SHURIKEN
+  attack {
+    multihit {
+      type: MULTIHIT_FIVE
+      require {
+        target: TARGET_MOVE_USER
+        ability: ABILITY_SKILL_LINK
+      }
+    }
+    multihit {
+      type: MULTIHIT_THREE
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_GRENINJA_ASH
+      }
+    }
+    multihit {
+      type: MULTIHIT_FOUR_OR_FIVE
+      require {
+        target: TARGET_MOVE_USER
+        item: ITEM_LOADED_DICE
+      }
+    }
+    multihit { type: MULTIHIT_TWO_TO_FIVE }
+    effect_from_argument: true
+    power_modifier {
+      flat: 20
+      require {
+        target: TARGET_MOVE_USER
+        species: SPECIES_GRENINJA_ASH
+      }
+    }
   }
 }
 behavior {
@@ -399,7 +467,21 @@ behavior {
 behavior {
   id: EFFECT_DOUBLE_HIT
   attack {
-    multihit: MULTIHIT_TWO
+    multihit { type: MULTIHIT_TWO }
+  }
+}
+behavior {
+  id: EFFECT_DRAGON_DARTS
+  attack {
+    multihit { type: MULTIHIT_TWO }
+    power_modifier {
+      multiplier: 1.25
+      require {
+        target: TARGET_MOVE_USER
+        ability: ABILITY_PARENTAL_BOND
+      }
+    }
+    switch_targets_each_hit: true
   }
 }
 behavior {
@@ -823,7 +905,7 @@ behavior {
       amount: 3
       require {
         not: true
-        hp_percent: 26
+        hp_percent: 25
       }
     }
   }
@@ -2165,7 +2247,7 @@ behavior {
       multiplier: 2
       require {
         not: true
-        hp_percent: 51
+        hp_percent: 50
       }
     }
   }
@@ -4132,7 +4214,7 @@ behavior {
 behavior {
   id: EFFECT_TEN_HITS
   attack {
-    multihit: MULTIHIT_TEN
+    multihit { type: MULTIHIT_TEN }
     multihits_can_miss: true
   }
 }
@@ -4160,6 +4242,18 @@ behavior {
   id: EFFECT_ARGUMENT_HIT
   attack {
     effect_from_argument: true
+  }
+}
+behavior {
+  id: EFFECT_DREAM_INVERSION
+  attack {
+    effect_from_argument: true
+    power_modifier {
+      multiplier: 2
+      require {
+        status: STATUS_SLEEP
+      }
+    }
   }
 }
 behavior {
@@ -4600,6 +4694,8 @@ behavior {
         stat: STAT_HIGHEST_ATTACK
         amount: 1
       }
+    }
+    do {
       change_stat {
         stat: STAT_CRIT
         amount: 1
@@ -4683,7 +4779,7 @@ behavior {
       effect: MOVE_EFFECT_SPD_MINUS_1
       chance: 100
     }
-    effect {
+    additional_effect {
       effect: MOVE_EFFECT_BLEED
     }
   }
