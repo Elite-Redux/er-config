@@ -411,8 +411,7 @@ message AttackBehaviorConfig {
       bool weather = 8;
       bool terrain = 9;
     }
-    MoveRequirement require = 1;
-    bool display_only = 10;
+    repeated MoveRequirement require = 1;
   }
   message MultihitIf {
     MultihitType type = 1;
