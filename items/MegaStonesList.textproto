@@ -835,8 +835,6 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
   palette: "granbullite"
-  mega_badge_requirement: 7
-  unique_mega_location: "Defeat Lady Amelia on Route 123."
 }
 item {
   id: ITEM_TYPHLOSIONITE
@@ -2220,7 +2218,8 @@ item {
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "aggronite"
   palette: "aggronite"
-  adoption_center: true
+  mega_badge_requirement: 7
+  unique_mega_location: "Defeat Lady Amelia on Route 123."
 }
 item {
   id: ITEM_REUNICLUSITE

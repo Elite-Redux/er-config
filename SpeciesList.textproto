@@ -185089,47 +185089,132 @@ species {
   }
 }
 species {
-  id: SPECIES_GRANBULL_MEGA
-  form_of: SPECIES_GRANBULL
+  id: SPECIES_AMICABULL
+  dex {
+    name: "Amicabull"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1148
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
   type: TYPE_FAIRY
-  type2: TYPE_GROUND
-  hp: 90
-  atk: 160
-  def: 135
-  spatk: 70
-  spdef: 105
-  spe: 35
-  ability: ABILITY_TOUGH_CLAWS
-  ability: ABILITY_RESTRAINING_ORDER
-  ability: ABILITY_FRIEND_GUARD
-  innate: ABILITY_PRETTY_PRINCESS
-  innate: ABILITY_DEFIANT
-  innate: ABILITY_HYPER_AGGRESSIVE
-  percent_female: 75
-  mega {
-    from: SPECIES_GRANBULL
-    item: ITEM_GRANBULLITE
+  hp: 121
+  atk: 131
+  def: 93
+  spatk: 60
+  spdef: 76
+  spe: 62
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_HOWL
+      move: MOVE_JAW_LOCK
+      move: MOVE_LOVELY_BITE
+      move: MOVE_HYPER_FANG
+    }
+    level {
+      level: 17
+      move: MOVE_DETECT
+      move: MOVE_FAKE_TEARS
+      move: MOVE_ROAR
+      move: MOVE_THRASH
+      move: MOVE_ASSURANCE
+    }
+    level {
+      level: 24
+      move: MOVE_BRICK_BREAK
+      move: MOVE_CRUNCH
+      move: MOVE_SMELLING_SALTS
+      move: MOVE_STAR_CRASH
+      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_SWAGGER
+    }
+    level {
+      level: 37
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_HEAL_BELL
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_SPIRIT_BREAK
+      move: MOVE_SUPER_FANG
+    }
+    level {
+      level: 46
+      move: MOVE_PARTING_SHOT
+      move: MOVE_SCARY_FACE
+      move: MOVE_SUCKER_PUNCH
+    }
+    level {
+      level: 51
+      move: MOVE_FISSURE
+      move: MOVE_FLAIL
+    }
+    level {
+      level: 56
+      move: MOVE_LAST_RESORT
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CHARM
+    tutor: MOVE_COUNTER
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FOCUS_PUNCH
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_IRON_FANGS
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_UP_PUNCH
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_CRUSH_CLAW
   }
   visuals {
     icon {
-      path: "granbull/mega/icon"
+      path: "amicabull/icon"
       palette: 2
     }
     front {
-      path: "granbull/mega/front"
+      path: "amicabull/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
       coords {
-        size: 135
-        y_offset: 3
+        size: 69
+        y_offset: 13
       }
     }
     back {
-      path: "granbull/mega/back"
+      path: "amicabull/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
-        size: 135
+        size: 117
+        y_offset: 13
       }
     }
-    palette: "granbull/mega/normal"
-    shiny: "granbull/mega/shiny"
+    palette: "amicabull/normal"
+    shiny: "amicabull/shiny"
   }
 }
 species {
@@ -201003,7 +201088,7 @@ species {
     level {
       level: 56
       move: MOVE_MEMENTO
-      move: MOVE_FORESTS_CURSE 
+      move: MOVE_FORESTS_CURSE
       move: MOVE_CHLOROBLAST
     }
     level {
@@ -201167,7 +201252,7 @@ species {
     level {
       level: 56
       move: MOVE_MEMENTO
-      move: MOVE_FORESTS_CURSE 
+      move: MOVE_FORESTS_CURSE
       move: MOVE_CHLOROBLAST
     }
     level {

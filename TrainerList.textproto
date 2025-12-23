@@ -20028,7 +20028,7 @@ trainer {
   hell {
     mon {
       species: SPECIES_GRANBULL
-      item: ITEM_GRANBULLITE
+      item: ITEM_LEFTOVERS
       nature: NATURE_ADAMANT
       ability: ABILITY_COWARD
       atk_ev: 252
@@ -73417,7 +73417,7 @@ trainer {
     }
     mon {
       species: SPECIES_GRANBULL
-      item: ITEM_GRANBULLITE
+      item: ITEM_FLAME_ORB
       nature: NATURE_ADAMANT
       ability: ABILITY_QUICK_FEET
       hp_ev: 252
@@ -83839,7 +83839,7 @@ trainer {
     }
     mon {
       species: SPECIES_GRANBULL
-      item: ITEM_GRANBULLITE
+      item: ITEM_LEFTOVERS
       nature: NATURE_ADAMANT
       ability: ABILITY_QUICK_FEET
       hp_ev: 252
@@ -111228,7 +111228,7 @@ trainer {
     }
     mon {
       species: SPECIES_GRANBULL
-      item: ITEM_GRANBULLITE
+      item: ITEM_ASSAULT_VEST
       nature: NATURE_ADAMANT
       ability: ABILITY_RATTLED
       hp_ev: 248
