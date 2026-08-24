@@ -45646,6 +45646,8 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_TOXIC_SPIKES_2_LAYERS
+    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_GOODRA
       item: ITEM_TACTICAL_VEST
@@ -47241,6 +47243,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_STEALTH_ROCKS
     mon {
       species: SPECIES_DRUDDIGON
       item: ITEM_SHELL_BELL
@@ -48932,6 +48935,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_SLOWPOKE
       item: ITEM_EVIOLITE
@@ -49153,6 +49157,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_THIEVUL
       item: ITEM_FOCUS_SASH
@@ -83519,6 +83524,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_TOXIC_SPIKES_2_LAYERS
     mon {
       species: SPECIES_ARIADOS
       item: ITEM_EVIOLITE
@@ -93012,6 +93018,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_STEALTH_ROCKS
     mon {
       species: SPECIES_COMBUSKEN
       item: ITEM_LIFE_ORB
@@ -111591,6 +111598,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_HAZARDS_ALL
     mon {
       species: SPECIES_FORRETRESS
       item: ITEM_LEFTOVERS
