@@ -184535,7 +184535,7 @@ species {
   visuals {
     icon {
       path: "typhlosion/mega/icon"
-      palette: 4
+      palette: 3
     }
     front {
       path: "typhlosion/mega/front"
