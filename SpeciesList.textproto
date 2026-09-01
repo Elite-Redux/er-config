@@ -149192,6 +149192,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 136
+        y_offset: 5
       }
     }
     palette: "flairgrance/normal"
@@ -149700,7 +149701,6 @@ species {
       path: "boarlock/front"
       coords {
         size: 119
-        y_offset: 2
       }
     }
     back {
@@ -149835,7 +149835,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 120
-        y_offset: 2
+        y_offset: 4
       }
     }
     palette: "heliosunny/normal"
@@ -150719,6 +150719,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 134
+        y_offset: 1
       }
     }
     palette: "tortemple/normal"
@@ -150980,7 +150981,6 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 136
-        y_offset: 5
       }
     }
     palette: "dredwood/normal"
@@ -152635,7 +152635,7 @@ species {
       path: "crabruiser/redux/front"
       coords {
         size: 85
-        y_offset: 5
+        y_offset: 6
       }
     }
     back {
@@ -152643,7 +152643,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 136
-        y_offset: 2
+        y_offset: 3
       }
     }
     palette: "crabruiser/redux/normal"
@@ -153229,14 +153229,14 @@ species {
       path: "bubbleo/front"
       coords {
         size: 86
-        y_offset: 12
+        y_offset: 9
       }
     }
     back {
       path: "bubbleo/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-        y_offset: 2
+        y_offset: 9
       }
     }
     palette: "bubbleo/normal"
@@ -153374,6 +153374,7 @@ species {
       path: "hydroar/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
+      y_offset: 3
       }
     }
     palette: "hydroar/normal"
@@ -154041,6 +154042,7 @@ species {
       path: "crawdauntles/back"
       coords {
         size: 135
+        y_offset: 5
       }
     }
     palette: "crawdauntles/normal"
@@ -154327,12 +154329,14 @@ species {
       path: "morpekyll/front"
       coords {
         size: 136
+        y_offset: 2
       }
     }
     back {
       path: "morpekyll/back"
       coords {
         size: 120
+        y_offset: 3
       }
     }
     palette: "morpekyll/normal"
@@ -155183,7 +155187,8 @@ species {
       path: "tentagrewl/front"
       coords {
         size: 135
-        y_offset: 4
+        y_offset: 5
+        elevation: 1
       }
     }
     back {
@@ -155191,6 +155196,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 134
+        y_offset: 7
       }
     }
     palette: "tentagrewl/normal"
@@ -155722,7 +155728,7 @@ species {
       path: "dedelibird/front"
       coords {
         size: 86
-        y_offset: 3
+        y_offset: 1
       }
     }
     back {
@@ -155730,7 +155736,7 @@ species {
       anim: BACK_ANIM_TRIANGLE_DOWN
       coords {
         size: 119
-        y_offset: 3
+        y_offset: 4
       }
     }
     palette: "dedelibird/normal"
@@ -157235,13 +157241,14 @@ species {
       anim: ANIM_SHRINK_GROW_VIBRATE_FAST
       coords {
         size: 69
-        y_offset: 3
+        y_offset: 2
       }
     }
     back {
       path: "crabominable/mega/back"
       coords {
         size: 136
+        y_offset: 4
       }
     }
     palette: "crabominable/mega/normal"
@@ -180913,13 +180920,14 @@ species {
       path: "hydroar/female/front"
       coords {
         size: 86
-        y_offset: 3
+        y_offset: 1
       }
     }
     back {
       path: "hydroar/female/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
+        y_offset: 3
       }
     }
     palette: "hydroar/female/normal"
@@ -181598,12 +181606,14 @@ species {
       path: "morpekyll/hangry/front"
       coords {
         size: 136
+        y_offset: 4
       }
     }
     back {
       path: "morpekyll/hangry/back"
       coords {
         size: 120
+        y_offset: 1
       }
     }
     palette: "morpekyll/hangry/normal"
@@ -182097,7 +182107,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 2
+        elevation: 5
       }
     }
     back {
@@ -182327,6 +182337,7 @@ species {
       coords {
         size: 69
         y_offset: 2
+        elevation: 1
       }
     }
     back {
@@ -184330,6 +184341,7 @@ species {
       path: "meganium/mega/back"
       coords {
         size: 135
+        y_offset: 4
       }
     }
     palette: "meganium/mega/normal"
@@ -184547,6 +184559,7 @@ species {
       path: "typhlosion/mega/back"
       coords {
         size: 135
+        y_offset: 4
       }
     }
     palette: "typhlosion/mega/normal"
@@ -184627,7 +184640,7 @@ species {
       path: "magnezone/mega/front"
       coords {
         size: 135
-        y_offset: 2
+        y_offset: 1
         elevation: 5
       }
     }
@@ -184635,7 +184648,7 @@ species {
       path: "magnezone/mega/back"
       coords {
         size: 135
-        y_offset: 7
+        y_offset: 13
       }
     }
     palette: "magnezone/mega/normal"
@@ -188760,6 +188773,7 @@ species {
       path: "roserade/mega/front"
       coords {
         size: 136
+        y_offset: 6
       }
     }
     back {
@@ -191892,6 +191906,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
+        y_offset: 1
       }
     }
     back {
@@ -191899,7 +191914,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 2
+        y_offset: 20
       }
     }
     palette: "sandslash/alolan/mega/normal"
@@ -207607,6 +207622,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 101
+        y_offset: 12
       }
     }
     palette: "cleffa/redux/normal"
@@ -207705,6 +207721,7 @@ species {
       anim: BACK_ANIM_H_SLIDE
       coords {
         size: 117
+        y_offset: 12
       }
     }
     palette: "clefairy/redux/normal"
@@ -213752,6 +213769,9 @@ species {
     }
     front {
       path: "chimecho/mega/front"
+      coords{
+        elevation: 6
+      }
     }
     back {
       path: "chimecho/mega/back"
@@ -214228,11 +214248,14 @@ species {
     }
     front {
       path: "glimmora/mega/front"
+      coords{
+        elevation: 2
+      }
     }
     back {
       path: "glimmora/mega//back"
       coords {
-        y_offset: 1
+        y_offset: 6
       }
     }
     palette: "glimmora/mega/normal"
@@ -214275,11 +214298,15 @@ species {
     }
     front {
       path: "tatsugiri/mega/front"
+      coords{
+        y_offset: 2
+        elevation: 1
+      }
     }
     back {
       path: "tatsugiri/mega/back"
       coords {
-        y_offset: 1
+        y_offset: 9
       }
     }
     palette: "tatsugiri/mega/normal"
@@ -214318,7 +214345,7 @@ species {
     back {
       path: "baxcalibur/mega/back"
       coords {
-        y_offset: 1
+        y_offset: 5
       }
     }
     palette: "baxcalibur/mega/normal"
