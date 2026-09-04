@@ -3,6 +3,7 @@ syntax = "proto3";
 package er;
 
 import "BattleSkillEnum.proto";
+import "AbilityEnum.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -18,17 +19,25 @@ message BattleSkill {
   string announce_string = 3;
 }
 
-enum BattleSkillTemplateParam {
-  SKILL_PARAM_NONE = 0;
-  SKILL_PARAM_ABILITY = 1;
-}
-
 message BattleSkillTemplate {
-  message ParamStrings {
-    string announce = 1;
-    repeated BattleSkillTemplateParam param = 2;
-  }
-
   BattleSkillTemplateEnum id = 1;
   string name = 2;
+
+  message BattleSkillTemplateParam {
+    oneof param {
+      AbilityEnum ability = 1;
+    }
+  }
+
+  message BattleSkillTemplateParamStrings {
+    string announce_string = 1;
+    repeated BattleSkillTemplateParam param = 2;
+  }
+  repeated BattleSkillTemplateParamStrings valid_params = 3;
+
+  message BattleSkillTemplateImpl {
+    BattleSkillEnum id = 1;
+    repeated BattleSkillTemplateParam param = 2;
+  }
+  repeated BattleSkillTemplateImpl impl = 4;
 }

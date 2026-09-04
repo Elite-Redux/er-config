@@ -3,7 +3,82 @@
 
 template {
   id: SKILL_TEMPLATE_EXTRA_ABILITY
-  name: ""
+  name: "Extra Ability"
+  valid_params {
+    announce_string: "{B_TRAINER1_NAME}'s team gains the\\nability {B_BUFF1}!"
+    param {
+      ability: ABILITY_NONE
+    }
+  }
+  valid_params {
+    announce_string: "{B_TRAINER1_NAME}'s team gains the\\nabilities {B_BUFF1} and {B_BUFF2}!"
+    param {
+      ability: ABILITY_NONE
+    }
+    param {
+      ability: ABILITY_NONE
+    }
+  }
+  valid_params {
+    announce_string: "{B_TRAINER1_NAME}'s team gains the\\nabilities {B_BUFF1}, {B_BUFF2},\\pand {B_BUFF3}!"
+    param {
+      ability: ABILITY_NONE
+    }
+    param {
+      ability: ABILITY_NONE
+    }
+    param {
+      ability: ABILITY_NONE
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_UNNERVE
+    param {
+      ability: ABILITY_UNNERVE
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_INNARDS_OUT
+    param {
+      ability: ABILITY_INNARDS_OUT
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_CUTE_CHARM
+    param {
+      ability: ABILITY_CUTE_CHARM
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_FILTER
+    param {
+      ability: ABILITY_FILTER
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_SWORD_OF_RUIN
+    param {
+      ability: ABILITY_SWORD_OF_RUIN
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_FLASH_FIRE
+    param {
+      ability: ABILITY_FLASH_FIRE
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_SWARM
+    param {
+      ability: ABILITY_SWARM
+    }
+  }
+  impl {
+    id: SKILL_EXTRA_ABILITY_SUPER_LUCK
+    param {
+      ability: ABILITY_SUPER_LUCK
+    }
+  }
 }
 
 skill {
@@ -31,34 +106,9 @@ skill {
   announce_string: "A seed was planted on {B_DEF_NAME_WITH_PREFIX}!"
 }
 skill {
-  id: SKILL_EXTRA_ABILITY_UNNERVE
-  name: "Extra Ability: Unnerve"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Unnerve ability!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_INNARDS_OUT
-  name: "Extra Ability: Innards Out"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Innards Out ability!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_CUTE_CHARM
-  name: "Extra Ability: Cute Charm"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Cute Charm ability!"
-}
-skill {
   id: SKILL_TOXIC_SPIKES_2_LAYERS
   name: "Toxic Spikes 2x"
   announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME} team!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_FILTER
-  name: "Extra Ability: Filter"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Filter ability!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_SWORD_OF_RUIN
-  name: "Extra Ability: Sword of Ruin"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Sword of Ruin ability!"
 }
 skill {
   id: SKILL_HAZARDS_ALL
@@ -72,24 +122,9 @@ skill {
   announce_string: "{B_TRAINER1_NAME}'s team uses 60 BP Judgement on turn end!"
 }
 skill {
-  id: SKILL_EXTRA_ABILITY_SWARM
-  name: "Extra Ability: Swarm"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Swarm ability!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_SUPER_LUCK
-  name: "Extra Ability: Super Luck"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Super Luck ability!"
-}
-skill {
   id: SKILL_ON_SWITCH_MOVE_PAYDAY
   name: "Payday on Switch"
   announce_string: "{B_TRAINER1_NAME}'s team uses Payday whenever \\na Pokémon switches!"
-}
-skill {
-  id: SKILL_EXTRA_ABILITY_FLASH_FIRE
-  name: "Extra Ability: Flash Fire"
-  announce_string: "{B_TRAINER1_NAME}'s team gains the Flash Fire ability!"
 }
 skill {
   id: SKILL_NO_CRIT
