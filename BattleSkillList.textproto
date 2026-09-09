@@ -124,10 +124,15 @@ skill {
 skill {
   id: SKILL_ON_SWITCH_MOVE_PAYDAY
   name: "Payday on Switch"
-  announce_string: "{B_TRAINER1_NAME}'s team uses Payday whenever \\na Pokémon switches!"
+  announce_string: "{B_TRAINER1_NAME}'s team uses Payday whenever\\na Pokémon switches!"
 }
 skill {
   id: SKILL_NO_CRIT
   name: "Critical Hit Immunity"
   announce_string: "{B_TRAINER1_NAME}'s team is immune to critical hits!"
+}
+skill {
+  id: SKILL_STEALTH_ROCKS
+  name: "Stealth Rock"
+  announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
 }
