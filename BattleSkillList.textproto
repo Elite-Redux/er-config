@@ -136,3 +136,14 @@ skill {
   name: "Stealth Rock"
   announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
 }
+skill {
+  id: SKILL_PERMANENT_INVERSE_ROOM
+  name: "Inverse Room"
+  # TODO: Come up with a better announce string
+  announce_string: "An unknown power inverts type effectiveness!"
+}
+skill {
+  id: SKILL_PERMANENT_RAINBOW
+  name: "Rainbow"
+  announce_string: "A rainbow appears in the sky\\nover {B_TRAINER1_NAME}'s team!"
+}
