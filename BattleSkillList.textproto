@@ -145,5 +145,15 @@ skill {
 skill {
   id: SKILL_PERMANENT_RAINBOW
   name: "Rainbow"
-  announce_string: "A rainbow appears in the sky\\nover {B_TRAINER1_NAME}'s team!"
+  announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
+}
+skill {
+  id: SKILL_PERMANENT_SWAMP
+  name: "Swamp"
+  announce_string: "A swamp envelops {B_PLAYER_NAME}'s team!"
+}
+skill {
+  id: SKILL_PERMANENT_FIRE_SEA
+  name: "Sea of Fire"
+  announce_string: "A sea of fire surrounds {B_PLAYER_NAME}'s team!"
 }
