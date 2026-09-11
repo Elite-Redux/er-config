@@ -137,6 +137,11 @@ skill {
   announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
 }
 skill {
+  id: SKILL_CALTROPS
+  name: "Caltrops"
+  announce_string: "Caltrops scatter around {B_PLAYER_NAME}'s team!"
+}
+skill {
   id: SKILL_PERMANENT_INVERSE_ROOM
   name: "Inverse Room"
   # TODO: Come up with a better announce string
