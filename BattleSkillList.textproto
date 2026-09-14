@@ -148,6 +148,12 @@ skill {
   announce_string: "An unknown power inverts type effectiveness!"
 }
 skill {
+  id: SKILL_PERMANENT_TRICK_ROOM
+  name: "Trick Room"
+  # TODO: Come up with a better announce string
+  announce_string: "The dimensions are twisted!"
+}
+skill {
   id: SKILL_PERMANENT_RAINBOW
   name: "Rainbow"
   announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
