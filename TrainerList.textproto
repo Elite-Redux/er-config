@@ -4153,6 +4153,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_CALTROPS
     mon {
       species: SPECIES_XATU
       item: ITEM_FOCUS_SASH
@@ -33253,6 +33254,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_TRICK_ROOM
     mon {
       species: SPECIES_ESCARGINITE_REDUX
       item: ITEM_SITRUS_BERRY
@@ -42303,6 +42305,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_STICKY_WEB
     mon {
       species: SPECIES_LUCARIO
       item: ITEM_FOCUS_SASH
@@ -92448,6 +92451,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_INVERSE_ROOM
     mon {
       species: SPECIES_XATU
       item: ITEM_FOCUS_SASH
@@ -100869,6 +100873,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_RAINBOW
     mon {
       species: SPECIES_SWELLOW
       item: ITEM_THROAT_SPRAY
@@ -103610,6 +103615,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_RAINBOW
     mon {
       species: SPECIES_NINETALES_ALOLAN
       item: ITEM_LIGHT_CLAY
@@ -109440,6 +109446,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_PERMANENT_SWAMP
     mon {
       species: SPECIES_SKELEDIRGE
       item: ITEM_SHELL_BELL
