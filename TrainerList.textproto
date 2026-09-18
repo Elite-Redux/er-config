@@ -2589,6 +2589,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_FILTER
+      }
+    }
     mon {
       species: SPECIES_CORPHISH
       item: ITEM_EVIOLITE
@@ -3327,6 +3333,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_SMOKEY_MANEUVERS
+      }
+    }
     mon {
       species: SPECIES_BRUXISH
       item: ITEM_LIFE_ORB
@@ -18970,6 +18982,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_CUTE_CHARM
+      }
+    }
     mon {
       species: SPECIES_LOPUNNY
       item: ITEM_ASSAULT_VEST
@@ -22205,6 +22223,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_CHEAP_TACTICS
+      }
+    }
     mon {
       species: SPECIES_GIMMIGHOUL
       item: ITEM_EVIOLITE
@@ -37990,6 +38014,18 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_PRESSURE
+      }
+      param {
+        ability: ABILITY_SHED_SKIN
+      }
+      param {
+        ability: ABILITY_SELF_SUFFICIENT
+      }
+    }
     mon {
       species: SPECIES_BOMBIRDIER
       item: ITEM_EJECT_BUTTON
@@ -46439,6 +46475,12 @@ trainer {
       move: MOVE_ROCK_SLIDE
       move: MOVE_ASTONISH
     }
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_UNNERVE
+      }
+    }
   }
 }
 trainer {
@@ -46824,6 +46866,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_UNNERVE
+      }
+    }
     mon {
       species: SPECIES_ROSELIA
       item: ITEM_LIFE_ORB
@@ -50045,6 +50093,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_SUPER_LUCK
+      }
+    }
     mon {
       species: SPECIES_KRICKETUNE
       item: ITEM_DAMP_ROCK
@@ -65810,6 +65864,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_FLASH_FIRE
+      }
+    }
     mon {
       species: SPECIES_VULPIX
       item: ITEM_HEAT_ROCK
@@ -80903,6 +80963,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_SHELL_ARMOR
+      }
+    }
     mon {
       species: SPECIES_GLIMMET
       item: ITEM_EJECT_BUTTON
@@ -81320,6 +81386,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_STURDY
+      }
+    }
     mon {
       species: SPECIES_JUMPLUFF
       item: ITEM_WEAKNESS_POLICY
@@ -82500,6 +82572,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_SWORD_OF_RUIN
+      }
+    }
     mon {
       species: SPECIES_RAICHU
       item: ITEM_LIGHT_BALL
@@ -82689,6 +82767,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_SHIELD_DUST
+      }
+    }
     mon {
       species: SPECIES_SPIDOPS
       item: ITEM_FOCUS_SASH
@@ -92669,6 +92753,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_INNARDS_OUT
+      }
+    }
     mon {
       species: SPECIES_PALAFIN
       item: ITEM_EJECT_BUTTON
@@ -110731,6 +110821,12 @@ trainer {
     }
   }
   hell {
+    skill_template {
+      id: SKILL_TEMPLATE_EXTRA_ABILITY
+      param {
+        ability: ABILITY_EMPERORS_WRATH
+      }
+    }
     mon {
       species: SPECIES_CORVIKNIGHT
       item: ITEM_SITRUS_BERRY

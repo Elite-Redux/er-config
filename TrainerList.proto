@@ -10,6 +10,7 @@ import "SpeciesList.proto";
 import "Types.proto";
 import "TrainerEnum.proto";
 import "BattleSkillEnum.proto";
+import "BattleSkillList.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -260,6 +261,7 @@ message TrainerParty {
 
   repeated TrainerMon mon = 1;
   repeated BattleSkillEnum skill = 2;
+  repeated BattleSkillTemplateImpl skill_template = 3;
 }
 
 message Trainer {

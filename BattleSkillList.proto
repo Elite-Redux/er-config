@@ -19,25 +19,24 @@ message BattleSkill {
   string announce_string = 3;
 }
 
+message BattleSkillTemplateParam {
+  oneof param {
+    AbilityEnum ability = 1;
+  }
+}
+
+message BattleSkillTemplateImpl {
+  BattleSkillTemplateEnum id = 1;
+  repeated BattleSkillTemplateParam param = 2;
+}
+
 message BattleSkillTemplate {
   BattleSkillTemplateEnum id = 1;
   string name = 2;
-
-  message BattleSkillTemplateParam {
-    oneof param {
-      AbilityEnum ability = 1;
-    }
-  }
 
   message BattleSkillTemplateParamStrings {
     string announce_string = 1;
     repeated BattleSkillTemplateParam param = 2;
   }
   repeated BattleSkillTemplateParamStrings valid_params = 3;
-
-  message BattleSkillTemplateImpl {
-    BattleSkillEnum id = 1;
-    repeated BattleSkillTemplateParam param = 2;
-  }
-  repeated BattleSkillTemplateImpl impl = 4;
 }
