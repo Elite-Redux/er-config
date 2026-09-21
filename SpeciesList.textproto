@@ -63488,7 +63488,6 @@ species {
     level {
       level: 51
       move: MOVE_PERISH_SONG
-      move: MOVE_QUIVER_DANCE
       move: MOVE_STRUGGLE_BUG
     }
     tutor: MOVE_BUG_BITE
@@ -153376,7 +153375,7 @@ species {
       path: "hydroar/back"
       anim: BACK_ANIM_H_SLIDE
       coords {
-      y_offset: 3
+        y_offset: 3
       }
     }
     palette: "hydroar/normal"
@@ -185030,7 +185029,6 @@ species {
   visuals {
     icon {
       path: "machamp/mega_redux/icon"
-      palette: 1
     }
     front {
       path: "machamp/mega_redux/front"
@@ -199545,7 +199543,6 @@ species {
   visuals {
     icon {
       path: "machop/redux/icon"
-      palette: 1
     }
     front {
       path: "machop/redux/front"
@@ -199659,7 +199656,6 @@ species {
   visuals {
     icon {
       path: "machoke/redux/icon"
-      palette: 1
     }
     front {
       path: "machoke/redux/front"
@@ -199768,7 +199764,6 @@ species {
   visuals {
     icon {
       path: "machamp/redux/icon"
-      palette: 1
     }
     front {
       path: "machamp/redux/front"
@@ -213772,7 +213767,7 @@ species {
     }
     front {
       path: "chimecho/mega/front"
-      coords{
+      coords {
         elevation: 6
       }
     }
@@ -214251,7 +214246,7 @@ species {
     }
     front {
       path: "glimmora/mega/front"
-      coords{
+      coords {
         elevation: 2
       }
     }
@@ -214301,7 +214296,7 @@ species {
     }
     front {
       path: "tatsugiri/mega/front"
-      coords{
+      coords {
         y_offset: 2
         elevation: 1
       }
