@@ -96,6 +96,11 @@ skill {
   announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
 }
 skill {
+  id: SKILL_STICKY_WEB_BOTH_SIDES
+  name: "Sticky Web"
+  announce_string: "Sticky webs spread out on the\\nground around both sides of the field!"
+}
+skill {
   id: SKILL_SPIKES_1_LAYER
   name: "Spikes 1x"
   announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
