@@ -6111,3 +6111,9 @@ ability {
   description: "Ground Shock + Overcharge"
   expanded_description: "The user's Electric-type moves hit Ground types for not very effective damage instead of no effect, and hit Electric types for super effective damage instead of not very effective. The user can paralyze Electric types."
 }
+ability {
+  id: ABILITY_BAD_GUY
+  name: "Bad Guy"
+  description: "Adds Dark-Type on entry"
+  expanded_description: "Bad Guy adds Dark type to the Pokemon upon entry. Retains Dark typing even upon losing the ability, going away only when switching out."
+}
