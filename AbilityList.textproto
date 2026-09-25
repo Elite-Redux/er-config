@@ -6130,3 +6130,10 @@ ability {
   description: "Adds Psychic-Type on entry"
   expanded_description: "Smarty Pants adds Psychic type to the Pokemon upon entry. Retains Psychic typing even upon losing the ability, going away only when switching out."
 }
+
+ability {
+  id: ABILITY_BIRD__TYPE
+  name: "Bird Type"
+  description: "Adds Flying-Type on entry"
+  expanded_description: "Bird Type adds Flying type to the Pokemon upon entry. Retains Flying typing even upon losing the ability, going away only when switching out."
+}
