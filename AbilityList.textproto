@@ -6115,27 +6115,27 @@ ability {
   id: ABILITY_BAD_GUY
   name: "Bad Guy"
   description: "Adds Dark-Type on entry"
-  expanded_description: "Bad Guy adds Dark type to the Pokemon upon entry. Retains Dark typing even upon losing the ability, going away only when switching out."
+  expanded_description: "Bad Guy adds Dark-type to the Pokemon upon entry. Retains Dark typing even upon losing the ability, going away only when switching out."
 }
 
 ability {
   id: ABILITY_IGNITION
   name: "Ignition"
   description: "Adds Fire-Type on entry"
-  expanded_description: "Ignition adds Fire type to the Pokemon upon entry. Retains Fire typing even upon losing the ability, going away only when switching out."
+  expanded_description: "Ignition adds Fire-type to the Pokemon upon entry. Retains Fire typing even upon losing the ability, going away only when switching out."
 }
 ability {
   id: ABILITY_SMARTY_PANTS
   name: "Smarty Pants"
   description: "Adds Psychic-Type on entry"
-  expanded_description: "Smarty Pants adds Psychic type to the Pokemon upon entry. Retains Psychic typing even upon losing the ability, going away only when switching out."
+  expanded_description: "Smarty Pants adds Psychic-type to the Pokemon upon entry. Retains Psychic typing even upon losing the ability, going away only when switching out."
 }
 
 ability {
   id: ABILITY_BIRD_TYPE
   name: "Bird Type"
   description: "Adds Flying-Type on entry"
-  expanded_description: "Bird Type adds Flying type to the Pokemon upon entry. Retains Flying typing even upon losing the ability, going away only when switching out."
+  expanded_description: "Bird Type adds Flying-type to the Pokemon upon entry. Retains Flying typing even upon losing the ability, going away only when switching out."
 }
 
 ability {
@@ -6143,4 +6143,11 @@ ability {
   name: "Insect Eater"
 description: "Deal 1.5x dmg to Bug-types. Take 0.5x dmg from Bug-types."
 expanded_description: "Deals 1.5x damage to Bug-type Pokemon and takes 0.5x damage when attacked by Bug-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
+}
+
+ability {
+  id: ABILITY_CREEPYCRAWLIE
+  name: "Creepy Crawlie"
+  description: "Adds Bug-Type on entry"
+  expanded_description: "Creepy Crawlie adds Bug-type to the Pokemon upon entry. Retains Bug typing even upon losing the ability, going away only when switching out."
 }
