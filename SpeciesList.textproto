@@ -152664,7 +152664,7 @@ species {
     height: 19
     weight: 680
   }
-  type: TYPE_FIRE
+  type: TYPE_GHOST
   type2: TYPE_GRASS
   hp: 95
   atk: 78
@@ -152675,7 +152675,7 @@ species {
   ability: ABILITY_SPEED_BOOST
   ability: ABILITY_SCARE
   ability: ABILITY_SOUL_EATER
-  innate: ABILITY_PHANTOM
+  innate: ABILITY_IGNITION
   innate: ABILITY_FLASH_FIRE
   innate: ABILITY_MONSTER_MASH
   percent_female: 50
@@ -214856,4 +214856,3 @@ species {
     }
   }
 }
-

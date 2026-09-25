@@ -6117,3 +6117,10 @@ ability {
   description: "Adds Dark-Type on entry"
   expanded_description: "Bad Guy adds Dark type to the Pokemon upon entry. Retains Dark typing even upon losing the ability, going away only when switching out."
 }
+
+ability {
+  id: ABILITY_IGNITION
+  name: "Ignition"
+  description: "Adds Fire-Type on entry"
+  expanded_description: "Ignition adds Fire type to the Pokemon upon entry. Retains Fire typing even upon losing the ability, going away only when switching out."
+}
