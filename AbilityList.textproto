@@ -6132,7 +6132,7 @@ ability {
 }
 
 ability {
-  id: ABILITY_BIRD__TYPE
+  id: ABILITY_BIRD_TYPE
   name: "Bird Type"
   description: "Adds Flying-Type on entry"
   expanded_description: "Bird Type adds Flying type to the Pokemon upon entry. Retains Flying typing even upon losing the ability, going away only when switching out."
@@ -6142,5 +6142,5 @@ ability {
   id: ABILITY_INSECTEATER
   name: "Insect Eater"
 description: "Deal 1.5x dmg to Bug-types. Take 0.5x dmg from Bug-types."
-  expanded_description: "Deals 1.5x damage to Bug-type Pokemon and takes 0.5x damage when attacked by Bug-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
+expanded_description: "Deals 1.5x damage to Bug-type Pokemon and takes 0.5x damage when attacked by Bug-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
