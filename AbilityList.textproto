@@ -6151,3 +6151,10 @@ ability {
   description: "Adds Bug-Type on entry"
   expanded_description: "Creepy Crawlie adds Bug-type to the Pokemon upon entry. Retains Bug typing even upon losing the ability, going away only when switching out."
 }
+
+ability {
+  id: ABILITY_THIRDDEGREEBURN
+  name: "Third Degree Burn"
+description: "Fire-Type moves can burn Fire-Types. Burn can bypass immunities"
+expanded_description: "This Pokemon can burn Fire-Type Pokemon regardless of immunities to burn."
+}
