@@ -6178,3 +6178,9 @@ ability {
   name: "Thermal Dweller"
   description: "Heatproof + Immolate."
 }
+
+ability {
+  id: ABILITY_LETHALTOUCH
+  name: "Lethal Touch"
+  description: "Toxic Chains + Sharp Edges."
+}
