@@ -6172,3 +6172,9 @@ ability {
   description: "Uses Mean Look on entry."
   expanded_description: "Grimace automatically sets up Mean Look against the opposing side. Mean Look prevents the opposing side from switching."
 }
+
+ability {
+  id: ABILITY_THERMALDWELLER
+  name: "Thermal Dweller"
+  description: "Heatproof + Immolate."
+}
