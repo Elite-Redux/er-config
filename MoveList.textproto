@@ -4990,6 +4990,7 @@ moves {
   contact: true
   mirror_move_affected: true
   ballistic: true
+  throwing: true
 }
 moves {
   id: MOVE_NEEDLE_ARM
