@@ -6212,3 +6212,8 @@ ability {
   description: "Grass-type moves get +1 priority at full HP."
   expanded_description: "Grants +1 priority to Grass-type moves when at full HP."
 }
+ability {
+  id: ABILITY_GUERILLA_FIGHTER
+  name: "Guerilla Fighter"
+  description: "Bush Rush + Fighting Spirit"
+}
