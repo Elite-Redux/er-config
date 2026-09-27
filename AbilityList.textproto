@@ -6205,3 +6205,10 @@ ability {
   description: "Boosts Defense sharply instead of being hit by Ice-type moves."
   expanded_description: "Paked Ice grants immunity to Ice-type moves and boosts Defense by 2 stages when hit by Ice attacks."
 }
+
+ability {
+  id: ABILITY_BUSHRUSH
+  name: "Bush Rush"
+  description: "Grass-type moves get +1 priority at full HP."
+  expanded_description: "Grants +1 priority to Grass-type moves when at full HP."
+}
