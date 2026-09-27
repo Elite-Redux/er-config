@@ -6184,3 +6184,17 @@ ability {
   name: "Lethal Touch"
   description: "Toxic Chains + Sharp Edges."
 }
+
+ability {
+  id: ABILITY_FROSTY
+  name: "Frosty"
+  description: "Boosts Ice-type moves by 1.2x, or 1.5x when under 1/3 HP."
+  expanded_description: "Boosts the power of Ice-type moves by 20%, or by 50% at 1/3 HP or lower."
+}
+
+ability {
+  id: ABILITY_POISON_UPSURGE
+  name: "Poison Upsurge"
+  description: "Boosts Poison-type moves by 1.2x, or 1.5x when under 1/3 HP."
+  expanded_description: "Boosts the power of Poison-type moves by 20%, or by 50% at 1/3 HP or lower."
+}
