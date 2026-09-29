@@ -6155,8 +6155,8 @@ ability {
 ability {
   id: ABILITY_THIRDDEGREEBURN
   name: "Third Degree Burn"
-description: "Fire-Type moves can burn Fire-Types. Burn can bypass immunities"
-expanded_description: "This Pokemon can burn Fire-Type Pokemon regardless of immunities to burn."
+description: "Can burn any type. Fire-type moves ignore abilities."
+expanded_description: "This Pokemon can burn Fire-Type Pokemon regardless of immunities to burn. Fire-type moves ignore the target's abilities and innates that interfere with effects or reduce damage."
 }
 
 ability {
