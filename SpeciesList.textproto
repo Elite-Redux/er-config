@@ -153527,7 +153527,7 @@ species {
   ability: ABILITY_HUSTLE
   ability: ABILITY_IMMUNITY
   ability: ABILITY_OVERWHELM
-  innate: ABILITY_CORROSION
+  innate: ABILITY_SOUR_APPLE
   innate: ABILITY_AERIALIST
   innate: ABILITY_AERODYNAMICS
   percent_female: 50

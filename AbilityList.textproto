@@ -6217,3 +6217,8 @@ ability {
   name: "Guerilla Fighter"
   description: "Bush Rush + Fighting Spirit"
 }
+ability {
+  id: ABILITY_SOUR_APPLE
+  name: "Sour Apple"
+  description: "Corrosion + Aroma Veil"
+}
