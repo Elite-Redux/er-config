@@ -197665,7 +197665,7 @@ species {
   innate: ABILITY_TECHNICIAN
   innate: ABILITY_SEARCHLIGHT
   innate: ABILITY_THICK_FAT
-  percent_female: 50
+  percent_female: 0
   tier: 3
   learnset {
     level {
@@ -197930,7 +197930,7 @@ species {
   innate: ABILITY_LIGHT_WIELD
   innate: ABILITY_ILLUMINATE
   innate: ABILITY_OVERCOAT
-  percent_female: 50
+  percent_female: 100
   tier: 3
   learnset {
     level {
