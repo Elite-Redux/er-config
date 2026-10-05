@@ -19971,23 +19971,23 @@ species {
     pokemon_offset: 8
   }
   type: TYPE_ELECTRIC
-  hp: 60
-  atk: 100
+  hp: 65
+  atk: 78
   def: 57
-  spatk: 83
+  spatk: 100
   spdef: 85
   spe: 105
-  ability: ABILITY_POWER_FISTS
-  ability: ABILITY_SHORT_CIRCUIT
+  ability: ABILITY_MAGICAL_FISTS
+  ability: ABILITY_ELECTRIC_SURGE
   ability: ABILITY_MOTOR_DRIVE
   innate: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_VITAL_SPIRIT
+  innate: ABILITY_VOLT_RUSH
   innate: ABILITY_STATIC
   percent_female: 25
   no_flip: true
   evo {
     to: SPECIES_ELECTIVIRE
-    level: 36
+    level: 45
   }
   learnset {
     level {
@@ -20027,10 +20027,12 @@ species {
     tutor: MOVE_BULK_UP
     tutor: MOVE_COUNTER
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLASH
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FOCUS_PUNCH
@@ -20050,8 +20052,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
@@ -20130,16 +20131,16 @@ species {
   spatk: 100
   spdef: 85
   spe: 93
-  ability: ABILITY_PYROMANCY
+  ability: ABILITY_MOUNTAINEER
   ability: ABILITY_FLAMING_SOUL
   ability: ABILITY_SUN_BASKING
   innate: ABILITY_MOLTEN_DOWN
   innate: ABILITY_FLAME_BODY
-  innate: ABILITY_FLASH_FIRE
+  innate: ABILITY_DROUGHT
   percent_female: 25
   evo {
     to: SPECIES_MAGMORTAR
-    level: 36
+    level: 45
   }
   learnset {
     level {
@@ -20195,7 +20196,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_SOLAR_BEAM
   }
   visuals {
     icon {
@@ -37759,7 +37760,7 @@ species {
   no_flip: true
   evo {
     to: SPECIES_ELECTABUZZ
-    level: 23
+    level: 30
   }
   learnset {
     level {
@@ -37798,10 +37799,12 @@ species {
     tutor: MOVE_BULK_UP
     tutor: MOVE_COUNTER
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLASH
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FOCUS_PUNCH
@@ -37820,8 +37823,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
@@ -37897,7 +37899,7 @@ species {
   no_flip: true
   evo {
     to: SPECIES_MAGMAR
-    level: 23
+    level: 30
   }
   learnset {
     level {
@@ -37952,7 +37954,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TOXIC
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_SOLAR_BEAM
   }
   visuals {
     icon {
@@ -73213,6 +73215,7 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_FOCUS_BLAST
   }
   visuals {
     icon {
