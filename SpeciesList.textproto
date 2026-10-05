@@ -197638,7 +197638,6 @@ species {
   }
   randomizer_alt_gender: SPECIES_ILLUMARS
 }
-
 species {
   id: SPECIES_ASTROBEEP
   dex {
@@ -197671,7 +197670,7 @@ species {
   innate: ABILITY_THICK_FAT
   percent_female: 50
   tier: 3
-learnset {
+  learnset {
     level {
       level: 1
       move: MOVE_AIR_CUTTER
@@ -197701,7 +197700,7 @@ learnset {
       move: MOVE_DOUBLE_SHOCK
       move: MOVE_BARRAGE
       move: MOVE_MOONLIGHT
-   }
+    }
     level {
       level: 46
       move: MOVE_SMITE
@@ -197716,8 +197715,8 @@ learnset {
       move: MOVE_STAR_CRASH
       move: MOVE_DUAL_WINGBEAT
       move: MOVE_BOUNCE
-     }
-     level {
+    }
+    level {
       level: 71
       move: MOVE_ZIPPY_ZAP
     }
@@ -197748,7 +197747,7 @@ learnset {
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_TAUNT
-    }
+  }
   visuals {
     icon {
       path: "astrobeep/icon"
@@ -197774,7 +197773,6 @@ learnset {
     shiny: "astrobeep/shiny"
   }
 }
-
 species {
   id: SPECIES_ILLUMARS
   dex {
@@ -197905,9 +197903,8 @@ species {
     shiny: "illumars/shiny"
   }
 }
-
 species {
-  id: SPECIES_ILLUMINAUT 
+  id: SPECIES_ILLUMINAUT
   dex {
     name: "Illuminaut"
     category: "???"
@@ -197923,7 +197920,7 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_FLYING
-  type2: TYPE_FAIRY
+  type2: TYPE_PSYCHIC
   hp: 78
   atk: 70
   def: 70
@@ -197938,7 +197935,7 @@ species {
   innate: ABILITY_OVERCOAT
   percent_female: 50
   tier: 3
-learnset {
+  learnset {
     level {
       level: 1
       move: MOVE_AIR_CUTTER
@@ -197968,7 +197965,7 @@ learnset {
       move: MOVE_LUNAR_DANCE
       move: MOVE_PSYWAVE
       move: MOVE_MOONLIGHT
-   }
+    }
     level {
       level: 46
       move: MOVE_TWIN_BEAM
@@ -197983,8 +197980,8 @@ learnset {
       move: MOVE_FREEZING_GLARE
       move: MOVE_PSYCHO_BOOST
       move: MOVE_DECORATE
-     }
-     level {
+    }
+    level {
       level: 71
       move: MOVE_STORED_POWER
     }
@@ -198015,7 +198012,7 @@ learnset {
     tutor: MOVE_PSYCHIC_TERRAIN
     tutor: MOVE_EERIE_SPELL
     tutor: MOVE_SKILL_SWAP
-    }
+  }
   visuals {
     icon {
       path: "illuminaut/icon"
@@ -198041,7 +198038,6 @@ learnset {
     shiny: "illuminaut/shiny"
   }
 }
-
 species {
   id: SPECIES_RUFFLET_REDUX
   form_of: SPECIES_RUFFLET
