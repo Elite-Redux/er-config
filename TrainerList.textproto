@@ -4153,7 +4153,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_CALTROPS
     mon {
       species: SPECIES_XATU
       item: ITEM_FOCUS_SASH
@@ -4206,6 +4205,7 @@ trainer {
       move: MOVE_BOOMBURST
       move: MOVE_SLUDGE_BOMB
     }
+    skill: SKILL_CALTROPS
   }
 }
 trainer {
@@ -33254,7 +33254,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_TRICK_ROOM
     mon {
       species: SPECIES_ESCARGINITE_REDUX
       item: ITEM_SITRUS_BERRY
@@ -33339,6 +33338,7 @@ trainer {
       move: MOVE_HEAD_SMASH
       move: MOVE_WILD_CHARGE
     }
+    skill: SKILL_PERMANENT_TRICK_ROOM
   }
 }
 trainer {
@@ -38420,58 +38420,6 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_NOIVERN_REDUX
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_HYPER_AGGRESSIVE
-      hp_ev: 160
-      atk_ev: 96
-      spe_ev: 252
-      move: MOVE_DUAL_WINGBEAT
-      move: MOVE_SPIRIT_SHACKLE
-      move: MOVE_JAGGED_FANGS
-      move: MOVE_EARTHQUAKE
-    }
-    mon {
-      species: SPECIES_BISHARP_REDUX
-      item: ITEM_BRIGHT_POWDER
-      nature: NATURE_JOLLY
-      ability: ABILITY_DEFIANT
-      hp_ev: 4
-      atk_ev: 252
-      spe_ev: 252
-      move: MOVE_FURY_CUTTER
-      move: MOVE_SACRED_SWORD
-      move: MOVE_EXCALIBUR
-      move: MOVE_SEISMIC_BLADE
-    }
-    mon {
-      species: SPECIES_LUCARIO
-      item: ITEM_PUNCHING_GLOVE
-      nature: NATURE_TIMID
-      ability: ABILITY_MAGICAL_FISTS
-      hp_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_METEOR_MASH
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_BULLET_PUNCH
-      move: MOVE_THUNDER_PUNCH
-    }
-    mon {
-      species: SPECIES_DUELUMBER
-      item: ITEM_TACTICAL_VEST
-      nature: NATURE_ADAMANT
-      ability: ABILITY_RAGING_BOXER
-      hp_ev: 128
-      def_ev: 128
-      spdef_ev: 252
-      move: MOVE_JAGGED_PUNCH
-      move: MOVE_SEED_BOMB
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_THUNDER_PUNCH
-    }
-    mon {
       species: SPECIES_FLAMIGO
       item: ITEM_FROST_ORB
       nature: NATURE_JOLLY
@@ -38483,6 +38431,50 @@ trainer {
       move: MOVE_TRIPLE_DIVE
       move: MOVE_FAKE_OUT
       move: MOVE_TRIPLE_KICK
+    }
+    mon {
+      species: SPECIES_KUBFU
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_JOLLY
+      ability: ABILITY_INTOXICATE
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_ACROBATICS
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_DOUBLE_KICK
+      move: MOVE_MEGA_PUNCH
+    }
+    mon {
+      species: SPECIES_BEWEAR
+      item: ITEM_FLAME_ORB
+      nature: NATURE_ADAMANT
+      ability: ABILITY_GUTS
+      hp_ev: 4
+      atk_ev: 252
+      spdef_ev: 252
+      move: MOVE_FIRST_IMPRESSION
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_MEGA_PUNCH
+    }
+    mon {
+      species: SPECIES_MACHOKE_REDUX
+      nature: NATURE_IMPISH
+      ability: ABILITY_OVERWHELM
+      move: MOVE_BRICK_BREAK
+      move: MOVE_DYNAMIC_PUNCH
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_MEDITATE
+    }
+    mon {
+      species: SPECIES_HAKAMO_O
+      nature: NATURE_IMPISH
+      ability: ABILITY_BULLETPROOF
+      move: MOVE_LEER
+      move: MOVE_SCARY_FACE
+      move: MOVE_SWAGGER
+      move: MOVE_TACKLE
     }
     mon {
       species: SPECIES_HITMONCHAN
@@ -42305,7 +42297,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_STICKY_WEB
     mon {
       species: SPECIES_LUCARIO
       item: ITEM_FOCUS_SASH
@@ -42384,6 +42375,7 @@ trainer {
       move: MOVE_DARK_PULSE
       move: MOVE_MAGICAL_LEAF
     }
+    skill: SKILL_PERMANENT_STICKY_WEB
   }
 }
 trainer {
@@ -45649,8 +45641,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_TOXIC_SPIKES_2_LAYERS
-    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_GOODRA
       item: ITEM_TACTICAL_VEST
@@ -45729,6 +45719,8 @@ trainer {
       move: MOVE_HAMMER_ARM
       move: MOVE_CRUNCH
     }
+    skill: SKILL_TOXIC_SPIKES_2_LAYERS
+    skill: SKILL_SPIKES_1_LAYER
   }
 }
 trainer {
@@ -47246,7 +47238,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_STEALTH_ROCKS
     mon {
       species: SPECIES_DRUDDIGON
       item: ITEM_SHELL_BELL
@@ -47300,6 +47291,7 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_HARD_PRESS
     }
+    skill: SKILL_STEALTH_ROCKS
   }
 }
 trainer {
@@ -48938,7 +48930,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_SLOWPOKE
       item: ITEM_EVIOLITE
@@ -49016,6 +49007,7 @@ trainer {
       move: MOVE_GEAR_UP
       move: MOVE_DARK_PULSE
     }
+    skill: SKILL_SPIKES_1_LAYER
   }
 }
 trainer {
@@ -49160,7 +49152,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_SPIKES_1_LAYER
     mon {
       species: SPECIES_THIEVUL
       item: ITEM_FOCUS_SASH
@@ -49239,6 +49230,7 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_PEBBLE_SHOWER
     }
+    skill: SKILL_SPIKES_1_LAYER
   }
 }
 trainer {
@@ -59482,44 +59474,17 @@ trainer {
       move: MOVE_ZEN_HEADBUTT
     }
     mon {
-      species: SPECIES_MANKEY
-      item: ITEM_EXPERT_BELT
-      nature: NATURE_JOLLY
-      ability: ABILITY_MOXIE
-      atk_ev: 252
-      def_ev: 4
-      spe_ev: 252
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_STONE_EDGE
-      move: MOVE_U_TURN
-      move: MOVE_GUNK_SHOT
-    }
-    mon {
       species: SPECIES_SAWK
-      item: ITEM_FIGHTING_GEM
+      item: ITEM_MUSCLE_BAND
       nature: NATURE_JOLLY
-      ability: ABILITY_MOLD_BREAKER
+      ability: ABILITY_TECHNICIAN
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
-      move: MOVE_CLOSE_COMBAT
-      move: MOVE_KNOCK_OFF
-      move: MOVE_TAUNT
-      move: MOVE_EARTHQUAKE
-    }
-    mon {
-      species: SPECIES_THROH
-      item: ITEM_LEFTOVERS
-      nature: NATURE_IMPISH
-      ability: ABILITY_MOLD_BREAKER
-      hp_ev: 128
-      def_ev: 104
-      spdef_ev: 152
-      spe_ev: 124
-      move: MOVE_BULK_UP
-      move: MOVE_STORM_THROW
-      move: MOVE_KNOCK_OFF
-      move: MOVE_SUBSTITUTE
+      move: MOVE_MACH_PUNCH
+      move: MOVE_DUAL_CHOP
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_CROSS_CHOP
     }
   }
   hell {
@@ -69214,7 +69179,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_EEVEE_PARTNER
       item: ITEM_LEFTOVERS
@@ -69265,6 +69229,7 @@ trainer {
       move: MOVE_ACROBATICS
       move: MOVE_SHARPEN
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -69667,7 +69632,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_EEVEE_PARTNER
       item: ITEM_LEFTOVERS
@@ -69719,6 +69683,7 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_SLAM
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -70122,7 +70087,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_NUZLEAF
       item: ITEM_FOCUS_SASH
@@ -70175,6 +70139,7 @@ trainer {
       move: MOVE_SAPPY_SEED
       move: MOVE_SIZZLY_SLIDE
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -70582,7 +70547,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_GROVYLE
       item: ITEM_CHOICE_SCARF
@@ -70634,6 +70598,7 @@ trainer {
       move: MOVE_RAGE
       move: MOVE_FLIP_TURN
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -71038,7 +71003,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_COMBUSKEN
       item: ITEM_RED_CARD
@@ -71092,6 +71056,7 @@ trainer {
       move: MOVE_POISON_POWDER
       move: MOVE_LEECH_SEED
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -71495,7 +71460,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_PIKACHU_PARTNER
       item: ITEM_LIGHT_BALL
@@ -71549,6 +71513,7 @@ trainer {
       move: MOVE_TOXIC
       move: MOVE_FLUTTERING_LEAF
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -79169,7 +79134,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_STICKY_WEB
     mon {
       species: SPECIES_CRABOMINABLE_REDUX
       item: ITEM_EVIOLITE
@@ -79248,6 +79212,7 @@ trainer {
       move: MOVE_SHARPEN
       move: MOVE_RIP_AND_TEAR
     }
+    skill: SKILL_PERMANENT_STICKY_WEB
   }
 }
 trainer {
@@ -82296,7 +82261,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_STICKY_WEB
     mon {
       species: SPECIES_SWADLOON
       item: ITEM_EVIOLITE
@@ -82363,6 +82327,7 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ICE
     }
+    skill: SKILL_PERMANENT_STICKY_WEB
   }
 }
 trainer {
@@ -83527,7 +83492,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_TOXIC_SPIKES_2_LAYERS
     mon {
       species: SPECIES_ARIADOS
       item: ITEM_EVIOLITE
@@ -83594,6 +83558,7 @@ trainer {
       move: MOVE_DEFEND_ORDER
       move: MOVE_ENCORE
     }
+    skill: SKILL_TOXIC_SPIKES_2_LAYERS
   }
 }
 trainer {
@@ -85093,7 +85058,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_EVIOLITE
     mon {
       species: SPECIES_SUDOWOODO
       item: ITEM_CUSTAP_BERRY
@@ -85173,6 +85137,7 @@ trainer {
       move: MOVE_FURY_ATTACK
       move: MOVE_STEEL_WING
     }
+    skill: SKILL_EVIOLITE
   }
 }
 trainer {
@@ -92451,7 +92416,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_INVERSE_ROOM
     mon {
       species: SPECIES_XATU
       item: ITEM_FOCUS_SASH
@@ -92530,6 +92494,7 @@ trainer {
       move: MOVE_THUNDERBOLT
       move: MOVE_FREEZING_GLARE
     }
+    skill: SKILL_PERMANENT_INVERSE_ROOM
   }
 }
 trainer {
@@ -93022,7 +92987,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_STEALTH_ROCKS
     mon {
       species: SPECIES_COMBUSKEN
       item: ITEM_LIFE_ORB
@@ -93088,6 +93052,7 @@ trainer {
       move: MOVE_ENERGY_WAVE
       move: MOVE_FAKE_OUT
     }
+    skill: SKILL_STEALTH_ROCKS
   }
 }
 trainer {
@@ -100873,7 +100838,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_RAINBOW
     mon {
       species: SPECIES_SWELLOW
       item: ITEM_THROAT_SPRAY
@@ -100913,6 +100877,7 @@ trainer {
       move: MOVE_SUPERSONIC_SHOT
       move: MOVE_VENOM_BOLT
     }
+    skill: SKILL_PERMANENT_RAINBOW
   }
 }
 trainer {
@@ -103615,7 +103580,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_RAINBOW
     mon {
       species: SPECIES_NINETALES_ALOLAN
       item: ITEM_LIGHT_CLAY
@@ -103694,6 +103658,7 @@ trainer {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_AURA_SPHERE
     }
+    skill: SKILL_PERMANENT_RAINBOW
   }
 }
 trainer {
@@ -109446,7 +109411,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_PERMANENT_SWAMP
     mon {
       species: SPECIES_SKELEDIRGE
       item: ITEM_SHELL_BELL
@@ -109524,6 +109488,7 @@ trainer {
       move: MOVE_RIP_AND_TEAR
       move: MOVE_JAW_LOCK
     }
+    skill: SKILL_PERMANENT_SWAMP
   }
 }
 trainer {
@@ -111605,7 +111570,6 @@ trainer {
     }
   }
   hell {
-    skill: SKILL_HAZARDS_ALL
     mon {
       species: SPECIES_FORRETRESS
       item: ITEM_LEFTOVERS
@@ -111687,6 +111651,7 @@ trainer {
       move: MOVE_BUG_BITE
       move: MOVE_ELECTROWEB
     }
+    skill: SKILL_HAZARDS_ALL
   }
 }
 trainer {
