@@ -116191,7 +116191,7 @@ species {
   ability: ABILITY_EXPLOIT_WEAKNESS
   innate: ABILITY_CORROSION
   innate: ABILITY_QUEENLY_MAJESTY
-  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_DRACONIZE
   percent_female: 100
   learnset {
     level {
@@ -149205,7 +149205,6 @@ species {
     egg_group: FIELD
   }
   type: TYPE_ICE
-  type2: TYPE_FIGHTING
   hp: 139
   atk: 135
   def: 92
@@ -150136,18 +150135,18 @@ species {
   }
   type: TYPE_POISON
   type2: TYPE_FIRE
-  hp: 85
-  atk: 104
-  def: 85
-  spatk: 36
-  spdef: 85
-  spe: 85
-  ability: ABILITY_SUPREME_OVERLORD
-  ability: ABILITY_BIG_PECKS
-  ability: ABILITY_HUSTLE
-  innate: ABILITY_SUBDUE
-  innate: ABILITY_HALF_DRAKE
-  innate: ABILITY_MOXIE
+  hp: 117
+  atk: 111
+  def: 64
+  spatk: 60
+  spdef: 68
+  spe: 60
+  ability: ABILITY_NEUROTOXIN
+  ability: ABILITY_GREEDY
+  ability: ABILITY_SUBDUE
+  innate: ABILITY_CORROSION
+  innate: ABILITY_MULTISCALE
+  innate: ABILITY_DEVIATE
   percent_female: 0
   learnset {
     level {
@@ -153399,17 +153398,17 @@ species {
   }
   type: TYPE_GRASS
   type2: TYPE_DRAGON
-  hp: 110
-  atk: 100
-  def: 90
+  hp: 111
+  atk: 81
+  def: 96
   spatk: 105
-  spdef: 120
-  spe: 30
+  spdef: 121
+  spe: 41
+  ability: ABILITY_HARVEST
+  ability: ABILITY_GRASSY_SURGE
   ability: ABILITY_UNAWARE
-  ability: ABILITY_LOOTER
-  ability: ABILITY_FRIEND_GUARD
   innate: ABILITY_APPLE_PIE
-  innate: ABILITY_HARVEST
+  innate: ABILITY_SWEET_VEIL
   innate: ABILITY_THICK_FAT
   percent_female: 50
   learnset {
@@ -153515,18 +153514,18 @@ species {
   }
   type: TYPE_GRASS
   type2: TYPE_DRAGON
-  hp: 80
-  atk: 125
+  hp: 92
+  atk: 121
   def: 85
-  spatk: 85
-  spdef: 60
-  spe: 120
+  spatk: 81
+  spdef: 73
+  spe: 103
   ability: ABILITY_HUSTLE
-  ability: ABILITY_AERODYNAMICS
-  ability: ABILITY_AIR_BLOWER
-  innate: ABILITY_AERIALIST
-  innate: ABILITY_OVERWHELM
+  ability: ABILITY_IMMUNITY
+  ability: ABILITY_OVERWHELM
   innate: ABILITY_CORROSION
+  innate: ABILITY_AERIALIST
+  innate: ABILITY_AERODYNAMICS
   percent_female: 50
   learnset {
     level {
@@ -180500,7 +180499,6 @@ species {
   form_of: SPECIES_POLARTIC
   long_name: "Polartic Bluemoon"
   type: TYPE_ICE
-  type2: TYPE_FIGHTING
   hp: 143
   atk: 44
   def: 79
@@ -185677,18 +185675,18 @@ species {
   form_of: SPECIES_MACHAMP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
-  hp: 70
-  atk: 130
-  def: 140
-  spatk: 65
-  spdef: 145
-  spe: 55
-  ability: ABILITY_RAGING_BOXER
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_DRAGONSLAYER
+  hp: 127
+  atk: 30
+  def: 127
+  spatk: 148
+  spdef: 102
+  spe: 71
+  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_VITAL_SPIRIT
+  ability: ABILITY_WARMONGER
   innate: ABILITY_BRAWLING_WYVERN
-  innate: ABILITY_STAMINA
-  innate: ABILITY_POWER_CORE
+  innate: ABILITY_MAGICAL_FISTS
+  innate: ABILITY_UNNERVE
   percent_female: 25
   mega {
     from: SPECIES_MACHAMP_REDUX
@@ -197004,7 +197002,7 @@ species {
     to: SPECIES_DONPHAN_REDUX
     level: 25
   }
-learnset {
+  learnset {
     level {
       level: 1
       move: MOVE_ROLLOUT
@@ -201440,18 +201438,18 @@ species {
   form_of: SPECIES_MACHOP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
-  hp: 50
-  atk: 70
-  def: 70
+  hp: 87
+  atk: 67
+  def: 47
   spatk: 15
-  spdef: 65
-  spe: 35
+  spdef: 43
+  spe: 46
   ability: ABILITY_OVERWHELM
-  ability: ABILITY_ROUGH_SKIN
-  ability: ABILITY_JUGGERNAUT
-  innate: ABILITY_NO_GUARD
-  innate: ABILITY_IRON_FIST
-  innate: ABILITY_GUTS
+  ability: ABILITY_MARVEL_SCALE
+  ability: ABILITY_DEFIANT
+  innate: ABILITY_ROUGH_SKIN
+  innate: ABILITY_RIVALRY
+  innate: ABILITY_SCRAPPY
   percent_female: 25
   evo {
     to: SPECIES_MACHOKE_REDUX
@@ -201551,18 +201549,18 @@ species {
   form_of: SPECIES_MACHOKE
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
-  hp: 60
-  atk: 80
-  def: 100
+  hp: 106
+  atk: 84
+  def: 67
   spatk: 30
-  spdef: 90
-  spe: 45
+  spdef: 67
+  spe: 51
   ability: ABILITY_OVERWHELM
-  ability: ABILITY_ROUGH_SKIN
-  ability: ABILITY_JUGGERNAUT
-  innate: ABILITY_NO_GUARD
-  innate: ABILITY_IRON_FIST
-  innate: ABILITY_GUTS
+  ability: ABILITY_MARVEL_SCALE
+  ability: ABILITY_UNNERVE
+  innate: ABILITY_ROUGH_SKIN
+  innate: ABILITY_PERMAFROST_CLONE
+  innate: ABILITY_JUGGERNAUT
   percent_female: 25
   no_flip: true
   evo {
@@ -201654,18 +201652,18 @@ species {
   form_of: SPECIES_MACHAMP
   type: TYPE_FIGHTING
   type2: TYPE_DRAGON
-  hp: 70
-  atk: 110
-  def: 110
-  spatk: 45
-  spdef: 115
-  spe: 55
-  ability: ABILITY_OVERWHELM
-  ability: ABILITY_MULTISCALE
-  ability: ABILITY_JUGGERNAUT
-  innate: ABILITY_IMPENETRABLE
-  innate: ABILITY_IRON_FIST
-  innate: ABILITY_GUTS
+  hp: 127
+  atk: 128
+  def: 92
+  spatk: 30
+  spdef: 77
+  spe: 51
+  ability: ABILITY_REGENERATOR
+  ability: ABILITY_MARVEL_SCALE
+  ability: ABILITY_IMPENETRABLE
+  innate: ABILITY_UNNERVE
+  innate: ABILITY_ROUGH_SKIN
+  innate: ABILITY_JUGGERNAUT
   percent_female: 25
   learnset {
     level {
