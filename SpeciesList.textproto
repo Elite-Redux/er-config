@@ -197011,10 +197011,10 @@ species {
   }
   type: TYPE_GRASS
   type2: TYPE_POISON
-  hp: 118
+  hp: 128
   atk: 135
   def: 92
-  spatk: 76
+  spatk: 66
   spdef: 104
   spe: 30
   ability: ABILITY_EARTH_EATER
