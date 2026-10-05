@@ -196891,6 +196891,10 @@ species {
   innate: ABILITY_EARTH_EATER
   percent_female: 50
   tier: 2
+  evo {
+    to: SPECIES_MORAVINE
+    level: 45
+  }
   learnset {
     level {
       level: 1
@@ -196987,6 +196991,143 @@ species {
     }
     palette: "muk/redux/normal"
     shiny: "muk/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_MORAVINE
+  dex {
+    name: "Moravine"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1139
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_GRASS
+  type2: TYPE_POISON
+  hp: 118
+  atk: 135
+  def: 92
+  spatk: 76
+  spdef: 104
+  spe: 30
+  ability: ABILITY_EARTH_EATER
+  ability: ABILITY_GRASS_PELT
+  ability: ABILITY_OVERGROW
+  innate: ABILITY_LIGHTNING_BORN
+  innate: ABILITY_EFFECT_SPORE
+  innate: ABILITY_ENERGY_TAP
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WRAP
+      move: MOVE_VINE_WHIP
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_POISON_POWDER
+    }
+    level {
+      level: 17
+      move: MOVE_STUN_SPORE
+      move: MOVE_LIGHTNING_STRIKE
+      move: MOVE_BODY_SLAM
+      move: MOVE_CONSTRICT
+    }
+    level {
+      level: 24
+      move: MOVE_NUZZLE
+      move: MOVE_ION_DELUGE
+      move: MOVE_LEAFAGE
+      move: MOVE_PARABOLIC_CHARGE
+    }
+    level {
+      level: 37
+      move: MOVE_CHARGE
+      move: MOVE_CROSS_POISON
+      move: MOVE_ACID_SPRAY
+      move: MOVE_SCARY_FACE
+      move: MOVE_GIGA_DRAIN
+    }
+    level {
+      level: 46
+      move: MOVE_SYNTHESIS
+      move: MOVE_GROWTH
+      move: MOVE_SLEEP_POWDER
+    }
+    level {
+      level: 51
+      move: MOVE_POWER_WHIP
+      move: MOVE_BELCH
+      move: MOVE_WRING_OUT
+      move: MOVE_SUPERCELL_SLAM
+    }
+    level {
+      level: 56
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_SMITE
+    }
+    level {
+      level: 61
+      move: MOVE_ELECTRIFY
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_PROTECT
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SHOCKING_JAB
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "moravine/icon"
+      palette: 5
+    }
+    front {
+      path: "moravine/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "moravine/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "moravine/normal"
+    shiny: "moravine/shiny"
   }
 }
 species {
@@ -197112,9 +197253,9 @@ species {
   form_of: SPECIES_DONPHAN
   type: TYPE_ROCK
   type2: TYPE_GRASS
-  hp: 90
+  hp: 80
   atk: 110
-  def: 120
+  def: 110
   spatk: 60
   spdef: 70
   spe: 70
@@ -197126,6 +197267,10 @@ species {
   innate: ABILITY_FERTILIZE
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_MASTOPHAN
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -197222,6 +197367,141 @@ species {
     }
     palette: "donphan/redux/normal"
     shiny: "donphan/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_MASTOPHAN
+  dex {
+    name: "Mastophan"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1140
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_ROCK
+  type2: TYPE_GRASS
+  hp: 135
+  atk: 125
+  def: 135
+  spatk: 60
+  spdef: 70
+  spe: 30
+  ability: ABILITY_PERFECTIONIST
+  ability: ABILITY_PICKUP
+  ability: ABILITY_SKILL_LINK
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_CUTE_CHARM
+  innate: ABILITY_FLUFFIEST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ROLLOUT
+      move: MOVE_VINE_WHIP
+      move: MOVE_MUD_SPORT
+      move: MOVE_DEFENSE_CURL
+    }
+    level {
+      level: 17
+      move: MOVE_MAGNITUDE
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_FLAIL
+      move: MOVE_MAGICAL_LEAF
+      move: MOVE_SWEET_SCENT
+    }
+    level {
+      level: 24
+      move: MOVE_TRAILBLAZE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_SMACK_DOWN
+      move: MOVE_STOMPING_TANTRUM
+    }
+    level {
+      level: 37
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_MOUNTAIN_CHUNK
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_WILD_SWING
+    }
+    level {
+      level: 46
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_POWER_WHIP
+      move: MOVE_STRENGTH
+      move: MOVE_HEADLONG_RUSH
+    }
+    level {
+      level: 51
+      move: MOVE_HEAD_SMASH
+      move: MOVE_AROMATIC_MIST
+      move: MOVE_LAST_RESORT
+    }
+    level {
+      level: 56
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_SEISMIC_SLAM
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_WIDE_GUARD
+  }
+  visuals {
+    icon {
+      path: "mastophan/icon"
+      palette: 1
+    }
+    front {
+      path: "mastophan/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "mastophan/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "mastophan/normal"
+    shiny: "mastophan/shiny"
   }
 }
 species {
