@@ -19972,7 +19972,7 @@ species {
   }
   type: TYPE_ELECTRIC
   hp: 65
-  atk: 78
+  atk: 83
   def: 57
   spatk: 100
   spdef: 85
@@ -19981,7 +19981,7 @@ species {
   ability: ABILITY_ELECTRIC_SURGE
   ability: ABILITY_MOTOR_DRIVE
   innate: ABILITY_HYPER_AGGRESSIVE
-  innate: ABILITY_VOLT_RUSH
+  innate: ABILITY_VITAL_SPIRIT
   innate: ABILITY_STATIC
   percent_female: 25
   no_flip: true
@@ -20133,12 +20133,12 @@ species {
   spatk: 100
   spdef: 85
   spe: 93
-  ability: ABILITY_MOUNTAINEER
+  ability: ABILITY_DROUGHT
   ability: ABILITY_FLAMING_SOUL
   ability: ABILITY_SUN_BASKING
-  innate: ABILITY_MOLTEN_DOWN
+  innate: ABILITY_THIRDDEGREEBURN
   innate: ABILITY_FLAME_BODY
-  innate: ABILITY_DROUGHT
+  innate: ABILITY_VITAL_SPIRIT
   percent_female: 25
   evo {
     to: SPECIES_MAGMORTAR
@@ -36477,8 +36477,8 @@ species {
   }
   type: TYPE_GROUND
   hp: 90
-  atk: 130
-  def: 130
+  atk: 120
+  def: 120
   spatk: 60
   spdef: 60
   spe: 50
@@ -196879,12 +196879,12 @@ species {
   type2: TYPE_POISON
   hp: 101
   atk: 101
-  def: 92
+  def: 72
   spatk: 78
   spdef: 90
   spe: 58
   ability: ABILITY_ENGULF
-  ability: ABILITY_AMBUSH
+  ability: ABILITY_BIOFILM
   ability: ABILITY_MERCILESS
   innate: ABILITY_LIGHTNING_BORN
   innate: ABILITY_STATIC
@@ -197019,10 +197019,10 @@ species {
   spe: 30
   ability: ABILITY_EARTH_EATER
   ability: ABILITY_GRASS_PELT
-  ability: ABILITY_OVERGROW
+  ability: ABILITY_RAIN_DISH
   innate: ABILITY_LIGHTNING_BORN
   innate: ABILITY_EFFECT_SPORE
-  innate: ABILITY_ENERGY_TAP
+  innate: ABILITY_ANALYTIC
   percent_female: 50
   tier: 3
   learnset {
@@ -197260,9 +197260,9 @@ species {
   spdef: 70
   spe: 70
   ability: ABILITY_LOOSE_ROCKS
-  ability: ABILITY_ROCKHARD_WILL
+  ability: ABILITY_GUARDIAN_COAT
   ability: ABILITY_ROCK_HEAD
-  innate: ABILITY_AFTERSHOCK
+  innate: ABILITY_WATER_ABSORB
   innate: ABILITY_SOLID_ROCK
   innate: ABILITY_FERTILIZE
   percent_female: 50
@@ -197393,12 +197393,12 @@ species {
   spatk: 60
   spdef: 70
   spe: 30
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  ability: ABILITY_LOOSE_ROCKS
+  ability: ABILITY_FLOURISH
+  ability: ABILITY_OVERCOAT
+  innate: ABILITY_AFTERSHOCK
+  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_WATER_ABSORB
   percent_female: 50
   tier: 3
   learnset {
