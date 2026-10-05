@@ -197536,6 +197536,10 @@ species {
   innate: ABILITY_OVERCOAT
   percent_female: 0
   tier: 3
+  evo {
+    to: SPECIES_ASTROBEEP
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -197634,6 +197638,143 @@ species {
   }
   randomizer_alt_gender: SPECIES_ILLUMARS
 }
+
+species {
+  id: SPECIES_ASTROBEEP
+  dex {
+    name: "Astrobeep"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1141
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_FLYING
+  type2: TYPE_ELECTRIC
+  hp: 98
+  atk: 100
+  def: 70
+  spatk: 70
+  spdef: 132
+  spe: 70
+  ability: ABILITY_IMPENETRABLE
+  ability: ABILITY_PRECISE_FIST
+  ability: ABILITY_AERILATE
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_SEARCHLIGHT
+  innate: ABILITY_THICK_FAT
+  percent_female: 50
+  tier: 3
+learnset {
+    level {
+      level: 1
+      move: MOVE_AIR_CUTTER
+      move: MOVE_COMET_PUNCH
+      move: MOVE_ZING_ZAP
+      move: MOVE_QUASH
+      move: MOVE_MAGNET_RISE
+      move: MOVE_AFTER_YOU
+      move: MOVE_SPOTLIGHT
+    }
+    level {
+      level: 17
+      move: MOVE_FLOATY_FALL
+      move: MOVE_WISH
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_FAKE_OUT
+      move: MOVE_ION_DELUGE
+    }
+    level {
+      level: 24
+      move: MOVE_METEOR_MASH
+      move: MOVE_COSMIC_POWER
+    }
+    level {
+      level: 37
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_DOUBLE_SHOCK
+      move: MOVE_BARRAGE
+      move: MOVE_MOONLIGHT
+   }
+    level {
+      level: 46
+      move: MOVE_SMITE
+      move: MOVE_GUST
+      move: MOVE_STEEL_BEAM
+      move: MOVE_AERIAL_ACE
+    }
+    level {
+      level: 51
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_SPARK
+      move: MOVE_STAR_CRASH
+      move: MOVE_DUAL_WINGBEAT
+      move: MOVE_BOUNCE
+     }
+     level {
+      level: 71
+      move: MOVE_ZIPPY_ZAP
+    }
+    tutor: MOVE_FLASH
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_FLY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_U_TURN
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_TAUNT
+    }
+  visuals {
+    icon {
+      path: "astrobeep/icon"
+      palette: 4
+    }
+    front {
+      path: "astrobeep/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "astrobeep/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "astrobeep/normal"
+    shiny: "astrobeep/shiny"
+  }
+}
+
 species {
   id: SPECIES_ILLUMARS
   dex {
