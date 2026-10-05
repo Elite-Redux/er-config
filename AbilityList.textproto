@@ -6227,3 +6227,9 @@ ability {
   name: "Searchlight"
   description: "Frisk + Illuminate"
 }
+
+ability {
+  id: ABILITY_LIGHT_WIELD
+  name: "Light Wield"
+  description: "Sets up Light Screen for 3 turns on entry"
+}
