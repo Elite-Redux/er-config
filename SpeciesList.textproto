@@ -196795,6 +196795,7 @@ species {
       move: MOVE_ION_DELUGE
       move: MOVE_LEAFAGE
       move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_GRASS_PLEDGE
     }
     level {
       level: 37
@@ -196824,7 +196825,6 @@ species {
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
@@ -196832,18 +196832,15 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
-    tutor: MOVE_TOXIC_TERRAIN
-    tutor: MOVE_PROTECT
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHOCKING_JAB
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_WEATHER_BALL
   }
   visuals {
@@ -196916,6 +196913,7 @@ species {
       move: MOVE_ION_DELUGE
       move: MOVE_LEAFAGE
       move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_GRASS_PLEDGE
     }
     level {
       level: 37
@@ -196929,6 +196927,7 @@ species {
       level: 46
       move: MOVE_SYNTHESIS
       move: MOVE_GROWTH
+      move: MOVE_WATER_PLEDGE
     }
     level {
       level: 51
@@ -196943,29 +196942,27 @@ species {
       move: MOVE_SMITE
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_AQUA_RING
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LIFE_DEW
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
-    tutor: MOVE_TOXIC_TERRAIN
-    tutor: MOVE_PROTECT
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHOCKING_JAB
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_WEATHER_BALL
   }
   visuals {
@@ -197046,6 +197043,7 @@ species {
       move: MOVE_ION_DELUGE
       move: MOVE_LEAFAGE
       move: MOVE_PARABOLIC_CHARGE
+      move: MOVE_GRASS_PLEDGE
     }
     level {
       level: 37
@@ -197054,6 +197052,7 @@ species {
       move: MOVE_ACID_SPRAY
       move: MOVE_SCARY_FACE
       move: MOVE_GIGA_DRAIN
+      move: MOVE_MUDDY_WATER
     }
     level {
       level: 46
@@ -197081,7 +197080,6 @@ species {
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
@@ -197090,20 +197088,19 @@ species {
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
-    tutor: MOVE_PROTECT
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHOCKING_JAB
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAIN_DANCE
   }
   visuals {
     icon {
