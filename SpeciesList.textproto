@@ -20011,6 +20011,7 @@ species {
       level: 37
       move: MOVE_RISING_VOLTAGE
       move: MOVE_SHOCK_WAVE
+      move: MOVE_DRAIN_PUNCH
     }
     level {
       level: 46
@@ -20053,6 +20054,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_FIRE_PUNCH
   }
   visuals {
     icon {
@@ -37824,6 +37826,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_FIRE_PUNCH
   }
   visuals {
     icon {
