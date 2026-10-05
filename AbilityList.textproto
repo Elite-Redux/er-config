@@ -6222,3 +6222,8 @@ ability {
   name: "Sour Apple"
   description: "Corrosion + Aroma Veil"
 }
+ability {
+  id: ABILITY_SEARCHLIGHT
+  name: "Searchlight"
+  description: "Frisk + Illuminate"
+}
