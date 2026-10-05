@@ -49078,7 +49078,6 @@ species {
     pokemon_offset: 16
   }
   type: TYPE_BUG
-  type2: TYPE_ELECTRIC
   hp: 78
   atk: 90
   def: 85
@@ -196744,6 +196743,1319 @@ species {
     shiny: "luxray/redux/mega/shiny"
   }
   region_prefix: REDUX
+}
+species {
+  id: SPECIES_GRIMER_REDUX
+  form_of: SPECIES_GRIMER
+  type: TYPE_GRASS
+  type2: TYPE_POISON
+  hp: 74
+  atk: 78
+  def: 69
+  spatk: 48
+  spdef: 48
+  spe: 28
+  ability: ABILITY_GRASS_PELT
+  ability: ABILITY_AMBUSH
+  ability: ABILITY_TANGLING_HAIR
+  innate: ABILITY_LIGHTNING_BORN
+  innate: ABILITY_EFFECT_SPORE
+  innate: ABILITY_VOLT_ABSORB
+  percent_female: 50
+  tier: 2
+  evo {
+    to: SPECIES_MUK_REDUX
+    level: 36
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WRAP
+      move: MOVE_VINE_WHIP
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_POISON_POWDER
+    }
+    level {
+      level: 17
+      move: MOVE_STUN_SPORE
+      move: MOVE_LIGHTNING_STRIKE
+      move: MOVE_BODY_SLAM
+      move: MOVE_CONSTRICT
+    }
+    level {
+      level: 24
+      move: MOVE_ION_DELUGE
+      move: MOVE_LEAFAGE
+      move: MOVE_PARABOLIC_CHARGE
+    }
+    level {
+      level: 37
+      move: MOVE_CHARGE
+      move: MOVE_CROSS_POISON
+      move: MOVE_ACID_SPRAY
+      move: MOVE_GIGA_DRAIN
+    }
+    level {
+      level: 46
+      move: MOVE_SYNTHESIS
+      move: MOVE_GROWTH
+    }
+    level {
+      level: 51
+      move: MOVE_POWER_WHIP
+      move: MOVE_BELCH
+      move: MOVE_WRING_OUT
+      move: MOVE_SUPERCELL_SLAM
+    }
+    level {
+      level: 56
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_SMITE
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_PROTECT
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SHOCKING_JAB
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_TOXIC
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "grimer/redux/icon"
+      palette: 5
+    }
+    front {
+      path: "grimer/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "grimer/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "grimer/redux/normal"
+    shiny: "grimer/redux/shiny"
+  }
+  adoption_center_badge: 2
+}
+species {
+  id: SPECIES_MUK_REDUX
+  form_of: SPECIES_MUK
+  type: TYPE_GRASS
+  type2: TYPE_POISON
+  hp: 101
+  atk: 101
+  def: 92
+  spatk: 78
+  spdef: 90
+  spe: 58
+  ability: ABILITY_ENGULF
+  ability: ABILITY_AMBUSH
+  ability: ABILITY_MERCILESS
+  innate: ABILITY_LIGHTNING_BORN
+  innate: ABILITY_STATIC
+  innate: ABILITY_EARTH_EATER
+  percent_female: 50
+  tier: 2
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WRAP
+      move: MOVE_VINE_WHIP
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_POISON_POWDER
+    }
+    level {
+      level: 17
+      move: MOVE_STUN_SPORE
+      move: MOVE_LIGHTNING_STRIKE
+      move: MOVE_BODY_SLAM
+      move: MOVE_CONSTRICT
+    }
+    level {
+      level: 24
+      move: MOVE_NUZZLE
+      move: MOVE_ION_DELUGE
+      move: MOVE_LEAFAGE
+      move: MOVE_PARABOLIC_CHARGE
+    }
+    level {
+      level: 37
+      move: MOVE_CHARGE
+      move: MOVE_CROSS_POISON
+      move: MOVE_ACID_SPRAY
+      move: MOVE_SCARY_FACE
+      move: MOVE_GIGA_DRAIN
+    }
+    level {
+      level: 46
+      move: MOVE_SYNTHESIS
+      move: MOVE_GROWTH
+    }
+    level {
+      level: 51
+      move: MOVE_POWER_WHIP
+      move: MOVE_BELCH
+      move: MOVE_WRING_OUT
+      move: MOVE_SUPERCELL_SLAM
+    }
+    level {
+      level: 56
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_SMITE
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_PROTECT
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SHOCKING_JAB
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_TOXIC
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "muk/redux/icon"
+      palette: 5
+    }
+    front {
+      path: "muk/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "muk/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "muk/redux/normal"
+    shiny: "muk/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_PHANPY_REDUX
+  form_of: SPECIES_PHANPY
+  type: TYPE_ROCK
+  type2: TYPE_GRASS
+  hp: 60
+  atk: 84
+  def: 84
+  spatk: 40
+  spdef: 50
+  spe: 32
+  ability: ABILITY_ROCKHARD_WILL
+  ability: ABILITY_GRASS_PELT
+  ability: ABILITY_OVERCOAT
+  innate: ABILITY_EARTHBOUND
+  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_NATURAL_CURE
+  percent_female: 50
+  tier: 2
+  evo {
+    to: SPECIES_DONPHAN_REDUX
+    level: 25
+  }
+learnset {
+    level {
+      level: 1
+      move: MOVE_ROLLOUT
+      move: MOVE_VINE_WHIP
+      move: MOVE_MUD_SPORT
+      move: MOVE_DEFENSE_CURL
+    }
+    level {
+      level: 17
+      move: MOVE_MAGNITUDE
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_FLAIL
+      move: MOVE_MAGICAL_LEAF
+      move: MOVE_SWEET_SCENT
+    }
+    level {
+      level: 24
+      move: MOVE_TRAILBLAZE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_SMACK_DOWN
+      move: MOVE_STOMPING_TANTRUM
+    }
+    level {
+      level: 37
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_WILD_SWING
+    }
+    level {
+      level: 46
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_POWER_WHIP
+      move: MOVE_STRENGTH
+      move: MOVE_HEADLONG_RUSH
+    }
+    level {
+      level: 51
+      move: MOVE_HEAD_SMASH
+      move: MOVE_LAST_RESORT
+    }
+    level {
+      level: 56
+      move: MOVE_WOOD_HAMMER
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_WIDE_GUARD
+  }
+  visuals {
+    icon {
+      path: "phanpy/redux/icon"
+      palette: 1
+    }
+    front {
+      path: "phanpy/redux/front"
+      coords {
+        size: 84
+      }
+    }
+    back {
+      path: "phanpy/redux/back"
+      coords {
+        size: 84
+      }
+    }
+    palette: "phanpy/redux/normal"
+    shiny: "phanpy/redux/shiny"
+  }
+  adoption_center_badge: 1
+}
+species {
+  id: SPECIES_DONPHAN_REDUX
+  form_of: SPECIES_DONPHAN
+  type: TYPE_ROCK
+  type2: TYPE_GRASS
+  hp: 90
+  atk: 110
+  def: 120
+  spatk: 60
+  spdef: 70
+  spe: 70
+  ability: ABILITY_LOOSE_ROCKS
+  ability: ABILITY_ROCKHARD_WILL
+  ability: ABILITY_ROCK_HEAD
+  innate: ABILITY_AFTERSHOCK
+  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_FERTILIZE
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_ROLLOUT
+      move: MOVE_VINE_WHIP
+      move: MOVE_MUD_SPORT
+      move: MOVE_DEFENSE_CURL
+    }
+    level {
+      level: 17
+      move: MOVE_MAGNITUDE
+      move: MOVE_TANGLING_HUSK
+      move: MOVE_FLAIL
+      move: MOVE_MAGICAL_LEAF
+      move: MOVE_SWEET_SCENT
+    }
+    level {
+      level: 24
+      move: MOVE_TRAILBLAZE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_SMACK_DOWN
+      move: MOVE_STOMPING_TANTRUM
+    }
+    level {
+      level: 37
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_GRASSY_GLIDE
+      move: MOVE_WILD_SWING
+    }
+    level {
+      level: 46
+      move: MOVE_JUNGLE_HEALING
+      move: MOVE_POWER_WHIP
+      move: MOVE_STRENGTH
+      move: MOVE_HEADLONG_RUSH
+    }
+    level {
+      level: 51
+      move: MOVE_HEAD_SMASH
+      move: MOVE_LAST_RESORT
+    }
+    level {
+      level: 56
+      move: MOVE_WOOD_HAMMER
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BULLDOZE
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROCK_SLIDE
+    tutor: MOVE_ROCK_THROW
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_TECTONIC_FANGS
+    tutor: MOVE_WIDE_GUARD
+  }
+  visuals {
+    icon {
+      path: "donphan/redux/icon"
+    }
+    front {
+      path: "donphan/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 134
+        y_offset: 13
+      }
+    }
+    back {
+      path: "donphan/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 134
+        y_offset: 13
+      }
+    }
+    palette: "donphan/redux/normal"
+    shiny: "donphan/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_VOLBEEP
+  dex {
+    name: "Volbeep"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1132
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_FLYING
+  type2: TYPE_ELECTRIC
+  hp: 78
+  atk: 90
+  def: 65
+  spatk: 57
+  spdef: 105
+  spe: 105
+  ability: ABILITY_TECHNICIAN
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_ANTICIPATION
+  innate: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_OVERCOAT
+  percent_female: 0
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_AIR_CUTTER
+      move: MOVE_COMET_PUNCH
+      move: MOVE_ZING_ZAP
+      move: MOVE_QUASH
+      move: MOVE_MAGNET_RISE
+      move: MOVE_AFTER_YOU
+      move: MOVE_SPOTLIGHT
+    }
+    level {
+      level: 17
+      move: MOVE_FLOATY_FALL
+      move: MOVE_WISH
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_FAKE_OUT
+      move: MOVE_ION_DELUGE
+    }
+    level {
+      level: 24
+      move: MOVE_COSMIC_POWER
+      move: MOVE_EERIE_IMPULSE
+    }
+    level {
+      level: 37
+      move: MOVE_ZEPHYR_RUSH
+      move: MOVE_DOUBLE_SHOCK
+      move: MOVE_BARRAGE
+      move: MOVE_MOONLIGHT
+    }
+    level {
+      level: 46
+      move: MOVE_SMITE
+      move: MOVE_GUST
+      move: MOVE_AERIAL_ACE
+    }
+    level {
+      level: 51
+      move: MOVE_SPARK
+      move: MOVE_STAR_CRASH
+      move: MOVE_DUAL_WINGBEAT
+      move: MOVE_BOUNCE
+    }
+    level {
+      level: 71
+      move: MOVE_ZIPPY_ZAP
+    }
+    tutor: MOVE_FLASH
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_FLY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_IRON_HEAD
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_U_TURN
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDER_PUNCH
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_BULK_UP
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_RAPID_SPIN
+  }
+  visuals {
+    icon {
+      path: "volbeep/icon"
+      palette: 4
+    }
+    front {
+      path: "volbeep/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 102
+      }
+    }
+    back {
+      path: "volbeep/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 104
+      }
+    }
+    palette: "volbeep/normal"
+    shiny: "volbeep/shiny"
+  }
+  randomizer_alt_gender: SPECIES_ILLUMARS
+}
+species {
+  id: SPECIES_ILLUMARS
+  dex {
+    name: "Illumars"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1134
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_FLYING
+  type2: TYPE_PSYCHIC
+  hp: 73
+  atk: 52
+  def: 75
+  spatk: 105
+  spdef: 85
+  spe: 110
+  ability: ABILITY_RETRIEVER
+  ability: ABILITY_DAZZLING
+  ability: ABILITY_POWER_SPOT
+  innate: ABILITY_SHIELD_DUST
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_OVERCOAT
+  percent_female: 100
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_AIR_CUTTER
+      move: MOVE_CONFUSION
+      move: MOVE_BARRIER
+      move: MOVE_QUASH
+      move: MOVE_GRAVITY
+      move: MOVE_INSTRUCT
+      move: MOVE_AFTER_YOU
+    }
+    level {
+      level: 17
+      move: MOVE_KINESIS
+      move: MOVE_WISH
+      move: MOVE_TELEKINESIS
+      move: MOVE_TELEPORT
+    }
+    level {
+      level: 24
+      move: MOVE_MIND_READER
+    }
+    level {
+      level: 37
+      move: MOVE_COSMIC_POWER
+      move: MOVE_LUNAR_DANCE
+      move: MOVE_PSYWAVE
+      move: MOVE_MOONLIGHT
+    }
+    level {
+      level: 46
+      move: MOVE_TWIN_BEAM
+      move: MOVE_GUST
+      move: MOVE_RAZOR_WIND
+      move: MOVE_METEOR_BEAM
+    }
+    level {
+      level: 51
+      move: MOVE_WONDER_ROOM
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_DECORATE
+    }
+    level {
+      level: 71
+      move: MOVE_STORED_POWER
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_FLY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SKILL_SWAP
+  }
+  visuals {
+    icon {
+      path: "illumars/icon"
+      palette: 4
+    }
+    front {
+      path: "illumars/front"
+      coords {
+      }
+    }
+    back {
+      path: "illumars/back"
+      coords {
+        size: 105
+        y_offset: 13
+      }
+    }
+    palette: "illumars/normal"
+    shiny: "illumars/shiny"
+  }
+}
+species {
+  id: SPECIES_RUFFLET_REDUX
+  form_of: SPECIES_RUFFLET
+  type: TYPE_FLYING
+  type2: TYPE_GROUND
+  hp: 53
+  atk: 33
+  def: 70
+  spatk: 80
+  spdef: 64
+  spe: 50
+  ability: ABILITY_FLOCK
+  ability: ABILITY_DUST_CLOUD
+  ability: ABILITY_BLAZE
+  innate: ABILITY_IGNITION
+  innate: ABILITY_FEATHERCOAT
+  innate: ABILITY_THIRDDEGREEBURN
+  percent_female: 50
+  tier: 2
+  evo {
+    to: SPECIES_BRAVIARY_REDUX
+    level: 34
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FLAME_BURST
+      move: MOVE_EMBER
+      move: MOVE_SCORCHING_SANDS
+    }
+    level {
+      level: 17
+      move: MOVE_FEATHER_DANCE
+    }
+    level {
+      level: 24
+      move: MOVE_SCORCHED_EARTH
+      move: MOVE_LAVA_PLUME
+    }
+    level {
+      level: 37
+      move: MOVE_OVERHEAT
+      move: MOVE_GUST
+      move: MOVE_RAZOR_WIND
+      move: MOVE_AIR_CUTTER
+    }
+    level {
+      level: 46
+      move: MOVE_BURN_UP
+      move: MOVE_BLAZE_KICK
+    }
+    level {
+      level: 51
+      move: MOVE_GIANT_GALE
+      move: MOVE_ATOMIC_FIRE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_DEFOG
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ROOST
+    tutor: MOVE_WORK_UP
+  }
+  visuals {
+    icon {
+      path: "rufflet/redux/icon"
+      palette: 5
+    }
+    front {
+      path: "rufflet/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "rufflet/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "rufflet/redux/normal"
+    shiny: "rufflet/redux/shiny"
+  }
+  adoption_center_badge: 2
+}
+species {
+  id: SPECIES_BRAVIARY_REDUX
+  form_of: SPECIES_BRAVIARY
+  type: TYPE_FLYING
+  type2: TYPE_GROUND
+  hp: 113
+  atk: 57
+  def: 80
+  spatk: 100
+  spdef: 80
+  spe: 80
+  ability: ABILITY_FLAME_BODY
+  ability: ABILITY_SAND_STREAM
+  ability: ABILITY_PYROMANCY
+  innate: ABILITY_IGNITION
+  innate: ABILITY_FEATHERCOAT
+  innate: ABILITY_THIRDDEGREEBURN
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FLAME_BURST
+      move: MOVE_EMBER
+      move: MOVE_SCORCHING_SANDS
+    }
+    level {
+      level: 17
+      move: MOVE_FEATHER_DANCE
+    }
+    level {
+      level: 24
+      move: MOVE_SCORCHED_EARTH
+      move: MOVE_LAVA_PLUME
+    }
+    level {
+      level: 37
+      move: MOVE_OVERHEAT
+      move: MOVE_GUST
+      move: MOVE_RAZOR_WIND
+      move: MOVE_AIR_CUTTER
+    }
+    level {
+      level: 46
+      move: MOVE_BURN_UP
+      move: MOVE_BLAZE_KICK
+    }
+    level {
+      level: 51
+      move: MOVE_GIANT_GALE
+      move: MOVE_ATOMIC_FIRE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_DEFOG
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_ROOST
+    tutor: MOVE_WORK_UP
+  }
+  visuals {
+    icon {
+      path: "braviary/redux/icon"
+      palette: 5
+    }
+    front {
+      path: "braviary/redux/front"
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "braviary/redux/back"
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "braviary/redux/normal"
+    shiny: "braviary/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_ISOSHREW
+  dex {
+    name: "Isoshrew"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1136
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_BUG
+  type2: TYPE_WATER
+  hp: 64
+  atk: 75
+  def: 46
+  spatk: 20
+  spdef: 85
+  spe: 30
+  ability: ABILITY_SCAVENGER
+  ability: ABILITY_LETS_ROLL
+  ability: ABILITY_DAMP
+  innate: ABILITY_SPIKE_ARMOR
+  innate: ABILITY_HEATPROOF
+  innate: ABILITY_SWARM
+  percent_female: 50
+  tier: 1
+  evo {
+    to: SPECIES_ISOSLASH
+    level: 24
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ROLLOUT
+      move: MOVE_LUNGE
+      move: MOVE_AQUA_CUTTER
+      move: MOVE_SLASH
+      move: MOVE_WATER_SPORT
+    }
+    level {
+      level: 17
+      move: MOVE_PIN_MISSILE
+      move: MOVE_SPIKE_CANNON
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_STEAMROLLER
+      move: MOVE_SPIKY_SHIELD
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_GUILLOTINE
+      move: MOVE_AQUA_JET
+    }
+    level {
+      level: 46
+      move: MOVE_SEISMIC_BLADE
+      move: MOVE_FURY_SWIPES
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FURY_CUTTER
+    }
+    level {
+      level: 51
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_COIL
+      move: MOVE_WAVE_CRASH
+    }
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "isoshrew/icon"
+    }
+    front {
+      path: "isoshrew/front"
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "isoshrew/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "isoshrew/normal"
+    shiny: "isoshrew/shiny"
+  }
+}
+species {
+  id: SPECIES_ISOSLASH
+  dex {
+    name: "Isoslash"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1137
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_BUG
+  type2: TYPE_WATER
+  hp: 74
+  atk: 101
+  def: 67
+  spatk: 49
+  spdef: 111
+  spe: 68
+  ability: ABILITY_OVERCOAT
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_FORTITUDE
+  innate: ABILITY_SPIKE_ARMOR
+  innate: ABILITY_HEATPROOF
+  innate: ABILITY_SWARM
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_NOXISLASH
+    level: 46
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ROLLOUT
+      move: MOVE_LUNGE
+      move: MOVE_AQUA_CUTTER
+      move: MOVE_SLASH
+      move: MOVE_WATER_SPORT
+    }
+    level {
+      level: 17
+      move: MOVE_PIN_MISSILE
+      move: MOVE_SPIKE_CANNON
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_STEAMROLLER
+      move: MOVE_SPIKY_SHIELD
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_GUILLOTINE
+      move: MOVE_AQUA_JET
+    }
+    level {
+      level: 46
+      move: MOVE_SEISMIC_BLADE
+      move: MOVE_FURY_SWIPES
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FURY_CUTTER
+    }
+    level {
+      level: 51
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_EMBER
+      move: MOVE_COIL
+      move: MOVE_WAVE_CRASH
+    }
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "isoslash/icon"
+    }
+    front {
+      path: "isoslash/front"
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "isoslash/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "isoslash/normal"
+    shiny: "isoslash/shiny"
+  }
+}
+species {
+  id: SPECIES_NOXISLASH
+  dex {
+    name: "Noxislash"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1138
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_BUG
+  type2: TYPE_WATER
+  hp: 104
+  atk: 121
+  def: 67
+  spatk: 49
+  spdef: 131
+  spe: 73
+  ability: ABILITY_RAIN_DISH
+  ability: ABILITY_PRESSURE
+  ability: ABILITY_WEATHER_DOUBLE_BOOST
+  innate: ABILITY_SPIKE_ARMOR
+  innate: ABILITY_BATTLE_ARMOR
+  innate: ABILITY_THERMALDWELLER
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ROLLOUT
+      move: MOVE_LUNGE
+      move: MOVE_AQUA_CUTTER
+      move: MOVE_SLASH
+      move: MOVE_WATER_SPORT
+      move: MOVE_SCALD
+    }
+    level {
+      level: 17
+      move: MOVE_FLAME_WHEEL
+      move: MOVE_PIN_MISSILE
+      move: MOVE_SPIKE_CANNON
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_STEAMROLLER
+      move: MOVE_SPIKY_SHIELD
+      move: MOVE_BLAZING_TORQUE
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_GUILLOTINE
+      move: MOVE_AQUA_JET
+      move: MOVE_DIRE_CLAW
+    }
+    level {
+      level: 46
+      move: MOVE_SEISMIC_BLADE
+      move: MOVE_FURY_SWIPES
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_FURY_CUTTER
+    }
+    level {
+      level: 51
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_EMBER
+      move: MOVE_COIL
+      move: MOVE_WAVE_CRASH
+      move: MOVE_SUPERHOT_FLAME
+    }
+    level {
+      level: 56
+      move: MOVE_BURNING_BULWARK
+      move: MOVE_OVERHEAT
+    }
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+  }
+  visuals {
+    icon {
+      path: "noxislash/icon"
+    }
+    front {
+      path: "noxislash/front"
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "noxislash/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "noxislash/normal"
+    shiny: "noxislash/shiny"
+  }
 }
 species {
   id: SPECIES_KECLEONG
