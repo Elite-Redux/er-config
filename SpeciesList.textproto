@@ -20050,6 +20050,8 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -37818,6 +37820,8 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {

@@ -38460,21 +38460,29 @@ trainer {
     }
     mon {
       species: SPECIES_MACHOKE_REDUX
-      nature: NATURE_IMPISH
+      item: ITEM_EVIOLITE
+      nature: NATURE_ADAMANT
       ability: ABILITY_OVERWHELM
+      hp_ev: 68
+      atk_ev: 252
+      def_ev: 188
       move: MOVE_BRICK_BREAK
       move: MOVE_DYNAMIC_PUNCH
       move: MOVE_FOCUS_ENERGY
       move: MOVE_MEDITATE
     }
     mon {
-      species: SPECIES_HAKAMO_O
-      nature: NATURE_IMPISH
-      ability: ABILITY_BULLETPROOF
-      move: MOVE_LEER
-      move: MOVE_SCARY_FACE
-      move: MOVE_SWAGGER
-      move: MOVE_TACKLE
+      species: SPECIES_ASUDEM
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_MODEST
+      ability: ABILITY_MIND_CRUSH
+      hp_ev: 160
+      def_ev: 96
+      spatk_ev: 252
+      move: MOVE_VENOSHOCK
+      move: MOVE_RIP_AND_TEAR
+      move: MOVE_POISON_FANG
+      move: MOVE_SUCKER_PUNCH
     }
     mon {
       species: SPECIES_HITMONCHAN
@@ -38934,32 +38942,6 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_TAPU_KOKO
-      item: ITEM_LIFE_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_SPEED_BOOST
-      hp_ev: 4
-      spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_WEATHER_BALL
-      move: MOVE_HURRICANE
-      move: MOVE_THUNDERBOLT
-      move: MOVE_MOONBLAST
-    }
-    mon {
-      species: SPECIES_IRON_HANDS
-      item: ITEM_ASSAULT_VEST
-      nature: NATURE_CAREFUL
-      ability: ABILITY_IRON_FIST
-      hp_ev: 188
-      atk_ev: 68
-      spdef_ev: 252
-      move: MOVE_PLASMA_FISTS
-      move: MOVE_BULLET_PUNCH
-      move: MOVE_FAKE_OUT
-      move: MOVE_DRAIN_PUNCH
-    }
-    mon {
       species: SPECIES_TYRANJOULA
       item: ITEM_ASSAULT_VEST
       nature: NATURE_MODEST
@@ -38971,6 +38953,32 @@ trainer {
       move: MOVE_ELECTRO_SHOT
       move: MOVE_THUNDER_CAGE
       move: MOVE_ENERGY_BALL
+    }
+    mon {
+      species: SPECIES_ELECTABUZZ
+      item: ITEM_EVIOLITE
+      nature: NATURE_TIMID
+      ability: ABILITY_POWER_FISTS
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_IRON_TAIL
+      move: MOVE_BRICK_BREAK
+      move: MOVE_FOLLOW_ME
+      move: MOVE_QUICK_ATTACK
+    }
+    mon {
+      species: SPECIES_PIKACHU_BELLE
+      item: ITEM_LIGHT_BALL
+      nature: NATURE_JOLLY
+      ability: ABILITY_ELECTROCYTES
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_GLACIER_CRASH
+      move: MOVE_LIQUIDATION
+      move: MOVE_VOLT_TACKLE
+      move: MOVE_IRON_TAIL
     }
     mon {
       species: SPECIES_CLAWITZER_REDUX
@@ -38986,17 +38994,17 @@ trainer {
       move: MOVE_HYDRO_PUMP
     }
     mon {
-      species: SPECIES_RAICHU_ALOLAN
-      item: ITEM_LIGHT_BALL
-      nature: NATURE_MODEST
-      ability: ABILITY_ELECTRIC_SURGE
-      hp_ev: 180
+      species: SPECIES_PORYGON2
+      item: ITEM_EVIOLITE
+      nature: NATURE_QUIET
+      ability: ABILITY_FRISK
+      hp_ev: 252
+      def_ev: 4
       spatk_ev: 252
-      spe_ev: 76
-      move: MOVE_RISING_VOLTAGE
-      move: MOVE_PSYSHOCK
-      move: MOVE_SURF
-      move: MOVE_FOCUS_BLAST
+      move: MOVE_CONVERSION
+      move: MOVE_CONVERSION_2
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_SHARPEN
     }
     mon {
       species: SPECIES_EELEKTROSS
