@@ -197807,6 +197807,10 @@ species {
   innate: ABILITY_OVERCOAT
   percent_female: 100
   tier: 3
+  evo {
+    to: SPECIES_ILLUMINAUT
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -197901,6 +197905,143 @@ species {
     shiny: "illumars/shiny"
   }
 }
+
+species {
+  id: SPECIES_ILLUMINAUT 
+  dex {
+    name: "Illuminaut"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1142
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_FLYING
+  type2: TYPE_FAIRY
+  hp: 78
+  atk: 70
+  def: 70
+  spatk: 110
+  spdef: 95
+  spe: 117
+  ability: ABILITY_COSMIC_DAZE
+  ability: ABILITY_DAZZLING
+  ability: ABILITY_SHIELD_DUST
+  innate: ABILITY_LIGHT_WIELD
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_OVERCOAT
+  percent_female: 50
+  tier: 3
+learnset {
+    level {
+      level: 1
+      move: MOVE_AIR_CUTTER
+      move: MOVE_CONFUSION
+      move: MOVE_BARRIER
+      move: MOVE_QUASH
+      move: MOVE_GRAVITY
+      move: MOVE_INSTRUCT
+      move: MOVE_AFTER_YOU
+    }
+    level {
+      level: 17
+      move: MOVE_KINESIS
+      move: MOVE_WISH
+      move: MOVE_TELEKINESIS
+      move: MOVE_TELEPORT
+      move: MOVE_STRANGE_STEAM
+    }
+    level {
+      level: 24
+      move: MOVE_ANCIENT_POWER
+      move: MOVE_MIND_READER
+    }
+    level {
+      level: 37
+      move: MOVE_COSMIC_POWER
+      move: MOVE_LUNAR_DANCE
+      move: MOVE_PSYWAVE
+      move: MOVE_MOONLIGHT
+   }
+    level {
+      level: 46
+      move: MOVE_TWIN_BEAM
+      move: MOVE_GUST
+      move: MOVE_RAZOR_WIND
+      move: MOVE_METEOR_BEAM
+    }
+    level {
+      level: 51
+      move: MOVE_WONDER_ROOM
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_FREEZING_GLARE
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_DECORATE
+     }
+     level {
+      level: 71
+      move: MOVE_STORED_POWER
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_FLY
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SKILL_SWAP
+    }
+  visuals {
+    icon {
+      path: "illuminaut/icon"
+      palette: 4
+    }
+    front {
+      path: "illuminaut/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "illuminaut/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "illuminaut/normal"
+    shiny: "illuminaut/shiny"
+  }
+}
+
 species {
   id: SPECIES_RUFFLET_REDUX
   form_of: SPECIES_RUFFLET
