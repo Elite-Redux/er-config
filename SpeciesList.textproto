@@ -197345,6 +197345,7 @@ species {
   visuals {
     icon {
       path: "donphan/redux/icon"
+      palette: 1
     }
     front {
       path: "donphan/redux/front"
