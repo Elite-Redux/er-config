@@ -26953,10 +26953,6 @@ species {
       level: 46
       move: MOVE_RISING_VOLTAGE
     }
-    level {
-      level: 51
-      move: MOVE_ELECTRO_SHOT
-    }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
@@ -48499,7 +48495,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_ELECTRO_SHOT
       move: MOVE_SUPERHOT_FLAME
     }
     level {
@@ -48659,7 +48654,6 @@ species {
     }
     level {
       level: 56
-      move: MOVE_ELECTRO_SHOT
       move: MOVE_SUPERHOT_FLAME
     }
     level {
@@ -64224,9 +64218,7 @@ species {
       level: 46
       move: MOVE_GRASS_PLEDGE
       move: MOVE_LEAF_STORM
-      move: MOVE_QUIVER_DANCE
       move: MOVE_VENOSHOCK
-      move: MOVE_VICTORY_DANCE
     }
     level {
       level: 51
@@ -197174,7 +197166,6 @@ species {
     level {
       level: 37
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_GRASSY_GLIDE
       move: MOVE_WILD_SWING
     }
     level {
@@ -197196,10 +197187,8 @@ species {
     tutor: MOVE_ABSORB
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
-    tutor: MOVE_CURSE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HARD_PRESS
@@ -197207,10 +197196,7 @@ species {
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAZOR_LEAF
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -197294,7 +197280,6 @@ species {
     level {
       level: 37
       move: MOVE_DOUBLE_EDGE
-      move: MOVE_GRASSY_GLIDE
       move: MOVE_WILD_SWING
     }
     level {
@@ -197316,10 +197301,8 @@ species {
     tutor: MOVE_ABSORB
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
-    tutor: MOVE_CURSE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HARD_PRESS
@@ -197328,10 +197311,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAZOR_LEAF
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -197451,10 +197431,8 @@ species {
     tutor: MOVE_ABSORB
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
-    tutor: MOVE_CURSE
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HARD_PRESS
@@ -197463,10 +197441,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAZOR_LEAF
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
