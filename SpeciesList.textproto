@@ -196853,7 +196853,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 9
       }
     }
     back {
@@ -196972,7 +196972,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
@@ -196980,7 +196980,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 8
       }
     }
     palette: "muk/redux/normal"
@@ -197112,7 +197112,6 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
       }
     }
     back {
@@ -197120,7 +197119,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "moravine/normal"
@@ -197232,12 +197230,14 @@ species {
       path: "phanpy/redux/front"
       coords {
         size: 84
+        y_offset: 14
       }
     }
     back {
       path: "phanpy/redux/back"
       coords {
         size: 84
+        y_offset: 12
       }
     }
     palette: "phanpy/redux/normal"
@@ -197352,7 +197352,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 134
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -197360,7 +197360,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 134
-        y_offset: 13
+        y_offset: 9
       }
     }
     palette: "donphan/redux/normal"
@@ -197487,7 +197487,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -197622,6 +197622,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 102
+        elevation: 1
       }
     }
     back {
@@ -197629,6 +197630,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 104
+        y_offset: 3
       }
     }
     palette: "volbeep/normal"
@@ -197756,7 +197758,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -197764,7 +197766,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 5
       }
     }
     palette: "astrobeep/normal"
@@ -197888,13 +197890,14 @@ species {
     front {
       path: "illumars/front"
       coords {
+        elevation: 1
       }
     }
     back {
       path: "illumars/back"
       coords {
         size: 105
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "illumars/normal"
@@ -198021,7 +198024,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 3
       }
     }
     back {
@@ -198029,7 +198032,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 2
       }
     }
     palette: "illuminaut/normal"
@@ -198123,7 +198126,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 7
       }
     }
     back {
@@ -198131,7 +198134,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 9
       }
     }
     palette: "rufflet/redux/normal"
@@ -198224,14 +198227,13 @@ species {
       path: "braviary/redux/front"
       coords {
         size: 69
-        y_offset: 13
+        elevation: 7
       }
     }
     back {
       path: "braviary/redux/back"
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "braviary/redux/normal"
@@ -198471,7 +198473,7 @@ species {
       path: "isoslash/front"
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
@@ -198479,7 +198481,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 11
       }
     }
     palette: "isoslash/normal"
@@ -198606,7 +198608,6 @@ species {
       path: "noxislash/front"
       coords {
         size: 69
-        y_offset: 13
       }
     }
     back {
@@ -198614,7 +198615,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 3
       }
     }
     palette: "noxislash/normal"
