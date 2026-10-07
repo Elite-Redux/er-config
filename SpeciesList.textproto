@@ -181547,11 +181547,11 @@ species {
   form_of: SPECIES_MORPEKYLL
   type: TYPE_ELECTRIC
   type2: TYPE_DARK
-  hp: 87
-  atk: 121
+  hp: 97
+  atk: 104
   def: 78
   spatk: 62
-  spdef: 85
+  spdef: 74
   spe: 121
   ability: ABILITY_GLUTTONY
   ability: ABILITY_GREEDY
