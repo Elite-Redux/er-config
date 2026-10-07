@@ -74359,9 +74359,9 @@ trainer {
     }
     mon {
       species: SPECIES_POLARTIC
-      item: ITEM_FLAME_ORB
+      item: ITEM_CHOICE_BAND
       nature: NATURE_ADAMANT
-      ability: ABILITY_QUICK_FEET
+      ability: ABILITY_FROZEN_SOUL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -74400,9 +74400,9 @@ trainer {
     }
     mon {
       species: SPECIES_POLARTIC
-      item: ITEM_FLAME_ORB
+      item: ITEM_NEVER_MELT_ICE
       nature: NATURE_ADAMANT
-      ability: ABILITY_QUICK_FEET
+      ability: ABILITY_FROZEN_SOUL
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
