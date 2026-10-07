@@ -215230,7 +215230,7 @@ species {
   spe: 74
   ability: ABILITY_RUN_AWAY
   ability: ABILITY_WATER_ABSORB
-  ability: ABILITY_WATER_GALE_WINGS
+  ability: ABILITY_HYDRATION
   innate: ABILITY_TORRENT
   innate: ABILITY_PREDATOR
   innate: ABILITY_STATIC
