@@ -17680,4 +17680,21 @@ moves {
   contact: true
   mirror_move_affected:true
   striker: true
+  uses_animation: MOVE_JUMP_KICK
+}
+
+moves {
+  id: MOVE_CHEAP_STAB
+  name: "Cheap Stab"
+  short_name: "CheapStab"
+  description: "A cheap attack to an unsuspecting target from a horn or a drill."
+  split: PHYSICAL
+  type: TYPE_DARK
+  power: 85
+  accuracy: 100
+  contact: true
+  mirror_move_affected: true
+  horn: true
+  tutor: TUTOR_ATTACK
+  uses_animation: MOVE_HORN_ATTACK
 }

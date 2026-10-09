@@ -215192,31 +215192,31 @@ species {
       level: 51
       move: MOVE_MEMENTO
     }
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_ACID_ARMOR
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BUBBLE
     tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_FACADE
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_TORMENT
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_CURSE
-    tutor: MOVE_MIST
+    tutor: MOVE_SOAK
     tutor: MOVE_SUPERSONIC
-    tutor: MOVE_ACID_ARMOR
+    tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_FACADE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_WORK_UP
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_SOAK
-    tutor: MOVE_DIVE
-    tutor: MOVE_LIFE_DEW
-    tutor: MOVE_HAZE
-    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_WORK_UP
   }
   visuals {
     icon {
@@ -215308,33 +215308,33 @@ species {
       level: 51
       move: MOVE_MEMENTO
     }
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BUBBLE
     tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_MIST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_SOAK
+    tutor: MOVE_SUPERSONIC
     tutor: MOVE_SURF
     tutor: MOVE_TORMENT
-    tutor: MOVE_BABY_DOLL_EYES
-    tutor: MOVE_CURSE
-    tutor: MOVE_MIST
-    tutor: MOVE_SUPERSONIC
-    tutor: MOVE_ACID_ARMOR
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_FACADE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_WORK_UP
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_SOAK
-    tutor: MOVE_DIVE
-    tutor: MOVE_LIFE_DEW
-    tutor: MOVE_HAZE
-    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_ACID_ARMOR
   }
   visuals {
     icon {
@@ -215423,48 +215423,49 @@ species {
       level: 56
       move: MOVE_PHANTOM_FORCE
     }
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_ACID_ARMOR
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BUBBLE
     tutor: MOVE_CONFUSE_RAY
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_SURF
-    tutor: MOVE_FRUSTRATION
-    tutor: MOVE_SHADOW_BALL
-    tutor: MOVE_HORN_ATTACK
-    tutor: MOVE_POISON_JAB
-    tutor: MOVE_GUNK_SHOT
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_TORMENT
-    tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_FRUSTRATION
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAZE
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HEX
+    tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_MIST
+    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SOAK
+    tutor: MOVE_SPITE
     tutor: MOVE_SUPERSONIC
-    tutor: MOVE_ACID_ARMOR
+    tutor: MOVE_SURF
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_TORMENT
     tutor: MOVE_TOXIC
     tutor: MOVE_VENOM_DRENCH
-    tutor: MOVE_FACADE
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_WORK_UP
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_SOAK
-    tutor: MOVE_DIVE
-    tutor: MOVE_LIFE_DEW
-    tutor: MOVE_HAZE
-    tutor: MOVE_HEAL_BLOCK
-    tutor: MOVE_PURSUIT
-    tutor: MOVE_FOUL_PLAY
-    tutor: MOVE_KNOCK_OFF
-    tutor: MOVE_SPITE
-    tutor: MOVE_HEX
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
