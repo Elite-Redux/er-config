@@ -17663,3 +17663,21 @@ moves {
   sound: true
   uses_animation: MOVE_CHATTER
 }
+
+moves {
+  id: MOVE_BANEFUL_KICK
+  name: "Baneful Kick"
+  short_name: "BanefulKick"
+  description: "A kick that is infused with a poison membrane that strikes at the weakest part of the body. Kicking."
+  effect: EFFECT_POISON_HIT
+  split: PHYSICAL
+  type: TYPE_POISON
+  target: SELECTED
+  power: 85
+  accuracy: 100
+  pp: 10
+  effect_chance: 10
+  contact: true
+  mirror_move_affected:true
+  striker: true
+}
