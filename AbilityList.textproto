@@ -1625,9 +1625,9 @@ ability {
 }
 ability {
   id: ABILITY_KEEN_EDGE
-  name: "Keen Edge"
+  name: "Sharpness"
   description: "Boosts the power of slashing moves by 1.3x."
-  expanded_description: "Keen Edge boosts all slashing attacks by 30%."
+  expanded_description: "Sharpness boosts all slashing attacks by 30%."
 }
 ability {
   id: ABILITY_PRISM_SCALES
@@ -1638,7 +1638,7 @@ ability {
 ability {
   id: ABILITY_POWER_FISTS
   name: "Power Fists"
-  description: "Iron Fist moves target Special Defense and get a 1.3x boost."
+  description: "Punching moves target Special Defense and get a 1.3x boost."
   expanded_description: "Punching moves gain a 30% damage boost and target Special Defense instead of Defense."
 }
 ability {
@@ -2524,8 +2524,8 @@ ability {
 ability {
   id: ABILITY_SWEEPING_EDGE
   name: "Sweeping Edge"
-  description: "Keen Edge moves always hit and hit both foes."
-  expanded_description: "Sweeping Edge makes all Keen Edge moves never miss and hit both opposing Pokemon in double battles. Multihit moves will only hit each target one time."
+  description: "Slashing moves always hit and hit both foes."
+  expanded_description: "Sweeping Edge makes all slashing moves never miss and hit both opposing Pokemon in double battles. Multihit moves will only hit each target one time."
 }
 ability {
   id: ABILITY_GIFTED_MIND
@@ -2596,8 +2596,8 @@ ability {
 ability {
   id: ABILITY_DUAL_WIELD
   name: "Dual Wield"
-  description: "Mega Launcher and Keen Edge moves hit twice for 70% damage."
-  expanded_description: "Mega Launcher and Keen Edge moves that hit one time normally now hit twice, with each hit dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
+  description: "Mega Launcher and Sharpness moves hit twice for 70% damage."
+  expanded_description: "Mega Launcher and Sharpness moves that hit one time normally now hit twice, with each hit dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
   id: ABILITY_ELEMENTAL_CHARGE
@@ -3027,8 +3027,8 @@ ability {
 ability {
   id: ABILITY_MYSTIC_BLADES
   name: "Mystic Blades"
-  description: "Keen Edge moves become special and deal 30% more damage."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and deal 30% more damage."
+  description: "Sharpness moves become special and deal 30% more damage."
+  expanded_description: "Slashing moves become Special (deal Special damage and use the Special Attack stat) and deal 30% more damage."
 }
 ability {
   id: ABILITY_DETERMINATION
@@ -3075,8 +3075,8 @@ ability {
 ability {
   id: ABILITY_PONY_POWER
   name: "Blade's Essence"
-  description: "Keen Edge + Mystic Blades."
-  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and deal 30% more damage. Also gives another 30% to Keen Edge moves."
+  description: "Sharpness + Mystic Blades."
+  expanded_description: "Slashing moves become Special (deal Special damage and use the Special Attack stat) and deal 30% more damage. Also gives another 30% to slashing moves."
 }
 ability {
   id: ABILITY_POWDER_BURST
@@ -3535,8 +3535,8 @@ ability {
 ability {
   id: ABILITY_SWEEPING_EDGE_PLUS
   name: "Blademaster"
-  description: "Sweeping Edge + Keen Edge."
-  expanded_description: "Makes all Keen Edge moves never miss and hit both opposing Pokemon in double battles. Multihit moves will only hit each target one time. Also boosts Keen Edge moves by 30%."
+  description: "Sweeping Edge + Sharpness."
+  expanded_description: "Makes all slashing moves never miss and hit both opposing Pokemon in double battles. Multihit moves will only hit each target one time. Also boosts slashing moves by 30%."
 }
 ability {
   id: ABILITY_CELESTIAL_BLESSING
@@ -3553,8 +3553,8 @@ ability {
 ability {
   id: ABILITY_MOLTEN_BLADES
   name: "Molten Blades"
-  description: "Keen Edge + Keen Edge moves have a 20% chance to burn."
-  expanded_description: "Keen Edge moves are boosted by 30% and have a 20% chance to burn on hit."
+  description: "Sharpness + Slashing moves have a 20% chance to burn."
+  expanded_description: "Slashing moves are boosted by 30% and have a 20% chance to burn on hit."
 }
 ability {
   id: ABILITY_HAUNTING_FRENZY
@@ -3943,8 +3943,8 @@ ability {
 ability {
   id: ABILITY_POWER_EDGE
   name: "Power Edge"
-  description: "Keen Edge moves target Special Defense and get a 1.3x boost."
-  expanded_description: "Keen Edge moves gain a 30% damage boost and target Special Defense instead of Defense."
+  description: "Slashing moves target Special Defense and get a 1.3x boost."
+  expanded_description: "Slashing moves gain a 30% damage boost and target Special Defense instead of Defense."
 }
 ability {
   id: ABILITY_SUPERCONDUCTOR
@@ -4182,7 +4182,7 @@ ability {
   id: ABILITY_PINNACLE_BLADE
   name: "Pinnacle Blade"
   description: "Slashing moves always hit and break protection and barriers."
-  expanded_description: "All Keen Edge moves can never miss, and they bypass protection moves and ignore any secondary effects associated with them."
+  expanded_description: "All slashing moves can never miss, and they bypass protection moves and ignore any secondary effects associated with them."
 }
 ability {
   id: ABILITY_ENERGIZED
@@ -4409,7 +4409,7 @@ ability {
   id: ABILITY_DEEP_CUTS
   name: "Deep Cuts"
   description: "Slashing moves have a 50% chance to inflict bleeding."
-  expanded_description: "Keen Edge have a 50% chance to inflict bleeding on hit. Bleeding causes 1/16 max HP damage per turn, prevents healing, and negates the effects of stat stages. Rock and Ghost types are immune to bleeding.immune to bleeding. Multihits roll the activation chance on each hit."
+  expanded_description: "Slashing have a 50% chance to inflict bleeding on hit. Bleeding causes 1/16 max HP damage per turn, prevents healing, and negates the effects of stat stages. Rock and Ghost types are immune to bleeding.immune to bleeding. Multihits roll the activation chance on each hit."
 }
 ability {
   id: ABILITY_LIFE_STEAL
@@ -4450,8 +4450,8 @@ ability {
 ability {
   id: ABILITY_CUTTHROAT
   name: "Cutthroat"
-  description: "First Keen Edge move each entry gets +1 priority."
-  expanded_description: "On entry, gives +1 priority to the first Keen Edge move used. Priority boost is consumed after landing any Keen Edge move. Resets ability if Sharpen is used."
+  description: "First slashing move each entry gets +1 priority."
+  expanded_description: "On entry, gives +1 priority to the first slashing move used. Priority boost is consumed after landing any slashing move. Resets ability if Sharpen is used."
 }
 ability {
   id: ABILITY_SAND_BENDER
@@ -5055,8 +5055,8 @@ ability {
 ability {
   id: ABILITY_BEST_OFFENSE
   name: "Best Offense"
-  description: "Keen Edge moves are special and use +20% Sp. Def."
-  expanded_description: "Keen Edge moves become special and use 20% of the user's Special Defense stat for attack calculations."
+  description: "Slashing moves are special and use +20% Sp. Def."
+  expanded_description: "Slashing moves become special and use 20% of the user's Special Defense stat for attack calculations."
 }
 ability {
   id: ABILITY_IMPALER
@@ -5067,8 +5067,8 @@ ability {
 ability {
   id: ABILITY_MAGUS_BLADES
   name: "Magus Blades"
-  description: "Best Offense + Keen Edge moves hit twice for 60%."
-  expanded_description: "Keen Edge moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
+  description: "Best Offense + Slashing moves hit twice for 60%."
+  expanded_description: "Slashing moves become special, use 20% of the user's Sp. Defense stat for attack calculations, and hit twice, dealing 60% of the original damage on the second hit. Secondary effects roll independently for each hit (except flinch)."
 }
 ability {
   id: ABILITY_LIGHTNING_BORN
@@ -5275,7 +5275,7 @@ ability {
 ability {
   id: ABILITY_EDGELORD
   name: "Edgelord"
-  description: "First Keen Edge move each entry gets +1 priority. Resets on KO."
+  description: "First slashing move each entry gets +1 priority. Resets on KO."
 }
 ability {
   id: ABILITY_WARMONGER
@@ -5413,7 +5413,7 @@ ability {
 ability {
   id: ABILITY_LIGHT_SABER
   name: "Lightsaber"
-  description: "Adds Fire-type. Keen Edge moves have 25% burn or paralysis."
+  description: "Adds Fire-type. Slashing moves have 25% burn or paralysis."
 }
 ability {
   id: ABILITY_LOOSE_THORNS
@@ -5478,7 +5478,7 @@ ability {
 ability {
   id: ABILITY_CHAINSAW
   name: "Chainsaw"
-  description: "Keen Edge moves lower defense by one stage."
+  description: "Slashing moves lower defense by one stage."
 }
 ability {
   id: ABILITY_GALEFORCE_WINGS
@@ -5657,7 +5657,7 @@ ability {
 ability {
   id: ABILITY_CHESTNUT_AXE
   name: "Chestnut Axe"
-  description: "Keen Edge + Grass moves become Keen Edge boosted."
+  description: "Sharpness + Grass moves become Sharpness boosted."
 }
 ability {
   id: ABILITY_GIANT_SHURIKEN
@@ -5933,8 +5933,8 @@ ability {
 ability {
   id: ABILITY_SINISTER_CLAWS
   name: "Sinister Claws"
-  description: "Mystic Blades + Keen Edge moves lower SpDef."
-  expanded_description: "Keen Edge attacks deal 1.3x damage and become special moves, using Special Attack and hitting Special Defense. They also lower the target's Special Defense by 1 stage (max once per turn per target)."
+  description: "Mystic Blades + slashing moves lower SpDef."
+  expanded_description: "Sharpness attacks deal 1.3x damage and become special moves, using Special Attack and hitting Special Defense. They also lower the target's Special Defense by 1 stage (max once per turn per target)."
 }
 ability {
   id: ABILITY_PETAL_SHIELD
@@ -6232,4 +6232,10 @@ ability {
   id: ABILITY_LIGHT_WIELD
   name: "Light Wield"
   description: "Sets up Light Screen for 3 turns on entry"
+}
+
+ability {
+  id: ABILITY_PHOTOKINESIS
+  name: "Photokinesis"
+  description: "Boost the power of light moves by 1.3x"
 }
