@@ -17725,10 +17725,11 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROTOTILLER
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -17916,13 +17917,14 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROTOTILLER
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -79688,7 +79690,6 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_EARTHQUAKE
   }
   visuals {
     icon {
@@ -95594,12 +95595,14 @@ species {
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DIVE
     tutor: MOVE_DOUBLE_LARIAT
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FACADE
     tutor: MOVE_FALSE_SWIPE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICICLE_CRASH
@@ -95616,9 +95619,6 @@ species {
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -106544,6 +106544,7 @@ species {
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PLUCK
     tutor: MOVE_PSYCHIC
@@ -106553,13 +106554,13 @@ species {
     tutor: MOVE_PURSUIT
     tutor: MOVE_REFLECT
     tutor: MOVE_RETALIATE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TAUNT
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -106703,6 +106704,7 @@ species {
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PLUCK
     tutor: MOVE_PSYCHIC
@@ -106712,13 +106714,13 @@ species {
     tutor: MOVE_PURSUIT
     tutor: MOVE_REFLECT
     tutor: MOVE_RETALIATE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TAUNT
     tutor: MOVE_TOPSY_TURVY
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -134188,6 +134190,7 @@ species {
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_POISON_JAB
     tutor: MOVE_PURSUIT
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SPIKES
     tutor: MOVE_SWORDS_DANCE
@@ -134195,7 +134198,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VEXING_VOID
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -145798,6 +145801,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BULLDOZE
+    tutor: MOVE_CALTROPS
     tutor: MOVE_CURSE
     tutor: MOVE_DEFOG
     tutor: MOVE_EARTHQUAKE
@@ -145811,6 +145815,7 @@ species {
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_IRON_HEAD
+    tutor: MOVE_JAGGED_HORNS
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
@@ -145828,8 +145833,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CALTROPS
-    tutor: MOVE_JAGGED_HORNS
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -177593,9 +177597,10 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VEXING_VOID
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
