@@ -1596,7 +1596,7 @@ species {
     pokemon_offset: 2
   }
   type: TYPE_BUG
-  type2: TYPE_PSYCHIC
+  type2: TYPE_FLYING
   hp: 75
   atk: 55
   def: 50
@@ -3449,7 +3449,6 @@ species {
     trainer_offset: 2
   }
   type: TYPE_POISON
-  type2: TYPE_DARK
   hp: 60
   atk: 95
   def: 69
@@ -3792,7 +3791,6 @@ species {
     pokemon_offset: 13
   }
   type: TYPE_ELECTRIC
-  type2: TYPE_GROUND
   hp: 60
   atk: 90
   def: 55
@@ -8753,7 +8751,6 @@ species {
     trainer_offset: 1
   }
   type: TYPE_WATER
-  type2: TYPE_PSYCHIC
   hp: 80
   atk: 82
   def: 78
@@ -49244,7 +49241,6 @@ species {
     pokemon_offset: 19
   }
   type: TYPE_BUG
-  type2: TYPE_FAIRY
   hp: 80
   atk: 47
   def: 85
@@ -56663,7 +56659,6 @@ species {
     pokemon_offset: 3
   }
   type: TYPE_DARK
-  type2: TYPE_FAIRY
   hp: 65
   atk: 130
   def: 65
@@ -67417,7 +67412,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GHOST
-  type2: TYPE_FAIRY
   hp: 60
   atk: 60
   def: 60
@@ -74351,7 +74345,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_NORMAL
-  type2: TYPE_ELECTRIC
   hp: 85
   atk: 80
   def: 70
@@ -79661,6 +79654,7 @@ species {
       move: MOVE_REVERSAL
       move: MOVE_SNARL
       move: MOVE_UPROAR
+      move: MOVE_JAGGED_FANGS
     }
     level {
       level: 37
@@ -79683,16 +79677,17 @@ species {
     tutor: MOVE_DIG
     tutor: MOVE_FACADE
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LICK
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_RETALIATE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_EARTHQUAKE
   }
   visuals {
     icon {
@@ -79811,6 +79806,7 @@ species {
       move: MOVE_REVERSAL
       move: MOVE_SNARL
       move: MOVE_UPROAR
+      move: MOVE_JAGGED_FANGS
     }
     level {
       level: 37
@@ -79825,6 +79821,7 @@ species {
       level: 46
       move: MOVE_FLAIL
       move: MOVE_LAST_RESORT
+      move: MOVE_CRUNCH
     }
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
@@ -79833,8 +79830,10 @@ species {
     tutor: MOVE_DIG
     tutor: MOVE_FACADE
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LICK
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SANDSTORM
@@ -79842,8 +79841,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_RETALIATE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -79947,6 +79946,7 @@ species {
       move: MOVE_REVERSAL
       move: MOVE_SNARL
       move: MOVE_UPROAR
+      move: MOVE_JAGGED_FANGS
     }
     level {
       level: 37
@@ -79962,6 +79962,11 @@ species {
       move: MOVE_FLAIL
       move: MOVE_LAST_RESORT
       move: MOVE_NOBLE_ROAR
+      move: MOVE_CRUNCH
+    }
+    level {
+      level: 56
+      move: MOVE_CLOSE_COMBAT
     }
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
@@ -79972,8 +79977,10 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LICK
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SANDSTORM
@@ -79981,8 +79988,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_RETALIATE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_STONE_EDGE
   }
   visuals {
     icon {
@@ -95601,12 +95608,15 @@ species {
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SEISMIC_TOSS
-    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -95750,12 +95760,15 @@ species {
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SEISMIC_TOSS
-    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -149247,6 +149260,7 @@ species {
       move: MOVE_GLACIER_CRASH
       move: MOVE_NATURAL_GIFT
       move: MOVE_SCARY_FACE
+      move: MOVE_BRINE
     }
     level {
       level: 46
@@ -149257,6 +149271,7 @@ species {
       level: 51
       move: MOVE_AVALANCHE
       move: MOVE_REVERSAL
+      move: MOVE_SHEER_COLD
     }
     level {
       level: 56
@@ -149288,13 +149303,16 @@ species {
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_VACUUM_WAVE
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SEISMIC_TOSS
-    tutor: MOVE_TAKE_DOWN
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
   }
   visuals {
     icon {
@@ -156655,6 +156673,10 @@ species {
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_X_SCISSOR
     tutor: MOVE_NATURE_POWER
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_SOLAR_BEAM
   }
   visuals {
     icon {
@@ -161119,7 +161141,6 @@ species {
   id: SPECIES_ABSOL_MEGA
   form_of: SPECIES_ABSOL
   type: TYPE_DARK
-  type2: TYPE_FAIRY
   hp: 65
   atk: 175
   def: 65
@@ -180523,12 +180544,16 @@ species {
       move: MOVE_THRASH
       move: MOVE_YAWN
       move: MOVE_BLUE_MOON
+      move: MOVE_MUDDY_WATER
+      move: MOVE_WATER_GUN
     }
     level {
       level: 17
       move: MOVE_AQUA_JET
       move: MOVE_ICICLE_SPEAR
       move: MOVE_STOMPING_TANTRUM
+      move: MOVE_CHILLING_WATER
+      move: MOVE_FROST_BREATH
     }
     level {
       level: 24
@@ -180543,6 +180568,7 @@ species {
       move: MOVE_GLACIER_CRASH
       move: MOVE_NATURAL_GIFT
       move: MOVE_SCARY_FACE
+      move: MOVE_BRINE
     }
     level {
       level: 46
@@ -180553,6 +180579,7 @@ species {
       level: 51
       move: MOVE_AVALANCHE
       move: MOVE_REVERSAL
+      move: MOVE_SHEER_COLD
     }
     level {
       level: 56
@@ -180576,6 +180603,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
     tutor: MOVE_LIQUIDATION
@@ -180585,10 +180613,11 @@ species {
     tutor: MOVE_RETALIATE
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_VACUUM_WAVE
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_VACUUM_WAVE
-    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_HYDRO_PUMP
   }
   visuals {
     icon {
@@ -182931,7 +182960,6 @@ species {
   id: SPECIES_RAICHU_MEGA_X
   form_of: SPECIES_RAICHU
   type: TYPE_ELECTRIC
-  type2: TYPE_FIGHTING
   hp: 60
   atk: 135
   def: 95
