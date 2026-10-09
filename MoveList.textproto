@@ -17646,3 +17646,20 @@ moves {
   striker: true
   uses_animation: MOVE_MEGA_KICK
 }
+
+moves {
+  id: MOVE_EERIE_LAUGH
+  name: "Eerie Laugh"
+  short_name: "EerieLaugh"
+  description: "A laugh so chilling it causes one to paralyze in fear. Sound."
+  effect: EFFECT_PARALYZE_IGNORE_TYPE
+  split: STATUS
+  type: TYPE_DARK
+  target: SELECTED
+  accuracy: 100
+  pp: 20
+  magic_coat_affected: true
+  mirror_move_affected: true
+  sound: true
+  uses_animation: MOVE_CHATTER
+}
