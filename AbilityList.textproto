@@ -6239,3 +6239,9 @@ ability {
   name: "Photokinesis"
   description: "Boost the power of light moves by 1.3x"
 }
+
+ability {
+  id: ABILITY_PHOTON_BURST
+  name: "Photon Burst"
+  description: "Light moves target Defense and get a 1.3x boost."
+}
