@@ -1106,6 +1106,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_UTILITY_ATTACK
+  light: true
 }
 moves {
   id: MOVE_HYPER_BEAM
@@ -1353,6 +1354,7 @@ moves {
   mega_launcher: true
   weather: true
   tutor: TUTOR_ATTACK
+  light: true
 }
 moves {
   id: MOVE_POISON_POWDER
@@ -1869,6 +1871,7 @@ moves {
   magic_coat_affected: true
   mirror_move_affected: true
   tutor: TUTOR_GOOD_STATUS
+  light: true
 }
 moves {
   id: MOVE_WITHDRAW
@@ -1923,6 +1926,7 @@ moves {
   pp: 20
   snatch_affected: true
   tutor: TUTOR_GOOD_STATUS
+  light: true
 }
 moves {
   id: MOVE_HAZE
@@ -2524,6 +2528,7 @@ moves {
   mirror_move_affected: true
   field: true
   tutor: TUTOR_UTILITY_ATTACK
+  light: true
 }
 moves {
   id: MOVE_PSYWAVE
@@ -3923,6 +3928,7 @@ moves {
   target: USER
   pp: 5
   snatch_affected: true
+  light: true
 }
 moves {
   id: MOVE_MOONLIGHT
@@ -3937,6 +3943,7 @@ moves {
   pp: 5
   snatch_affected: true
   lunar: true
+  light: true
 }
 moves {
   id: MOVE_HIDDEN_POWER
@@ -4893,6 +4900,7 @@ moves {
   pp: 10
   effect_chance: 50
   mirror_move_affected: true
+  light: true
 }
 moves {
   id: MOVE_MIST_BALL
@@ -5376,6 +5384,7 @@ moves {
   effect_chance: 20
   mirror_move_affected: true
   mega_launcher: true
+  light: true
 }
 moves {
   id: MOVE_SHADOW_PUNCH
@@ -6767,6 +6776,7 @@ moves {
   pp: 15
   mirror_move_affected: true
   tutor: TUTOR_ATTACK
+  light: true
 }
 moves {
   id: MOVE_DRAIN_PUNCH
@@ -7147,6 +7157,7 @@ moves {
   mirror_move_affected: true
   mega_launcher: true
   tutor: TUTOR_UTILITY_ATTACK
+  light: true
 }
 moves {
   id: MOVE_FLASH_CANNON
@@ -7166,6 +7177,7 @@ moves {
   mega_launcher: true
   ballistic: true
   tutor: TUTOR_ATTACK
+  light: true
 }
 moves {
   id: MOVE_ROCK_CLIMB
@@ -9125,6 +9137,7 @@ moves {
   pp: 5
   mirror_move_affected: true
   mega_launcher: true
+  light: true
 }
 moves {
   id: MOVE_RELIC_SONG
@@ -10048,6 +10061,7 @@ moves {
   pp: 10
   mirror_move_affected: true
   tutor: TUTOR_ATTACK
+  light: true
 }
 moves {
   id: MOVE_CELEBRATE
@@ -10249,6 +10263,7 @@ moves {
   pp: 5
   mirror_move_affected: true
   reckless: true
+  light: true
 }
 moves {
   id: MOVE_ORIGIN_PULSE
@@ -10495,6 +10510,7 @@ moves {
   keen_edge: true
   weather: true
   tutor: TUTOR_ATTACK
+  light: true
 }
 moves {
   id: MOVE_LEAFAGE
@@ -10526,6 +10542,7 @@ moves {
   magic_coat_affected: true
   metronome_banned: true
   tutor: TUTOR_NICHE_STATUS
+  light: true
 }
 moves {
   id: MOVE_TOXIC_THREAD
@@ -11192,6 +11209,7 @@ moves {
   ignores_ability: true
   mirror_move_affected: true
   mega_launcher: true
+  light: true
 }
 moves {
   id: MOVE_ZIPPY_ZAP
@@ -16381,6 +16399,7 @@ moves {
   mirror_move_affected: true
   arrow: true
   uses_animation: MOVE_SPIRIT_SHACKLE
+  light: true
 }
 moves {
   id: MOVE_SPECTRAL_SERENADE
@@ -16413,6 +16432,7 @@ moves {
   priority: 4
   is_protection: true
   uses_animation: MOVE_PROTECT
+  light: true
 }
 moves {
   id: MOVE_BIG_BLAST
