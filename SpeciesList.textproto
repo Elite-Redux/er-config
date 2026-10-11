@@ -26917,7 +26917,7 @@ species {
   spe: 67
   ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_DAZZLING
-  ability: ABILITY_SHORT_CIRCUIT
+  ability: ABILITY_PHOTOKINESIS
   innate: ABILITY_ILLUMINATE
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_VOLT_ABSORB
@@ -181380,7 +181380,7 @@ species {
   ability: ABILITY_POWER_OUTAGE
   ability: ABILITY_POWER_OUTAGE
   innate: ABILITY_GENERATOR
-  innate: ABILITY_SHINY_LIGHTNING
+  innate: ABILITY_NO_GUARD
   innate: ABILITY_GROUND_SHOCK
   percent_female: 50
   mega {
