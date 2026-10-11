@@ -6245,3 +6245,9 @@ ability {
   name: "Photon Burst"
   description: "Light moves target Defense and get a 1.3x boost."
 }
+
+ability {
+  id: ABILITY_RIPPLING_PUNCH
+  name: "Rippling Punch"
+  description: "Punching moves are also Sound moves as well"
+}
