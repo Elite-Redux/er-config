@@ -348,6 +348,7 @@ moves {
   pp: 15
   contact: true
   mirror_move_affected: true
+  air: true
   field: true
   tutor: TUTOR_ATTACK
 }

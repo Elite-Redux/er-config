@@ -18225,7 +18225,10 @@ species {
     tutor: MOVE_THIEF
     tutor: MOVE_TOXIC
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_SLUDGE_BOMB
   }
   visuals {
     icon {
@@ -73058,7 +73061,10 @@ species {
     tutor: MOVE_THIEF
     tutor: MOVE_TOXIC
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_SLUDGE_BOMB
   }
   visuals {
     icon {
