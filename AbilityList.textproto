@@ -6263,3 +6263,9 @@ ability {
   name: "Fresh Snowfall"
   description: "Launches a 30 BP Powder Snow when hit by a special attack."
 }
+
+ability {
+  id: ABILITY_STICKY_SITUATION
+  name: "Sticky Situation"
+  description: "Bug type moves lower speed."
+}
