@@ -17710,6 +17710,22 @@ moves {
   type: TYPE_ELECTRIC
   power: 95
   accuracy: 90
+  mirror_move_affected: true
   light: true
   uses_animation: MOVE_SOLAR_BEAM
+}
+
+moves {
+  id: MOVE_GHOULISH_GORE
+  name: "Ghoulish Gore"
+  short_name: "GhoulishGore"
+  description: "A horn encased in ghostly energy striking with all its might. Horn Based."
+  split: PHYSICAL
+  type: TYPE_GHOST
+  power: 85
+  accuracy: 100
+  contact: true
+  mirror_move_affected: true
+  horn: true
+  uses_animation: MOVE_PHANTOM_FORCE
 }
