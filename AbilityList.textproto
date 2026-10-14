@@ -6257,3 +6257,9 @@ ability {
   name: "Cackling"
   description: "Uses Eerie Laugh on entry. Works only twice per battle."
 }
+
+ability {
+  id: ABILITY_FRESH_SNOWFALL
+  name: "Fresh Snowfall"
+  description: "Launches a 30 BP Powder Snow when hit by a special attack."
+}
