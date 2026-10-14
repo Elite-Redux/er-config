@@ -17708,6 +17708,7 @@ moves {
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
+  target: SELECTED
   power: 95
   accuracy: 90
   mirror_move_affected: true
@@ -17722,6 +17723,7 @@ moves {
   description: "A horn encased in ghostly energy striking with all its might. Horn Based."
   split: PHYSICAL
   type: TYPE_GHOST
+  target: SELECTED
   power: 85
   accuracy: 100
   contact: true
@@ -17738,6 +17740,7 @@ moves {
   effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_FAIRY
+  target: SELECTED
   power: 85
   accuracy: 100
   mirror_move_affected: true
@@ -17753,6 +17756,7 @@ moves {
   effect: EFFECT_ATTACK_DOWN_HIT
   split: SPECIAL
   type: TYPE_PSYCHIC
+  target: SELECTED
   power: 85
   accuracy: 90
   mirror_move_affected: true
@@ -17767,6 +17771,7 @@ moves {
   description: "Sparkling water that once in contact blows in pure light. Light Based."
   split: SPECIAL
   type: TYPE_WATER
+  target: SELECTED
   power: 90
   accuracy: 100
   mirror_move_affected: true
