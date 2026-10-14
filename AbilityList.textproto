@@ -6249,5 +6249,11 @@ ability {
 ability {
   id: ABILITY_RIPPLING_PUNCH
   name: "Rippling Punch"
-  description: "Punching moves are also Sound moves as well"
+  description: "Punching moves are also Sound moves as well."
+}
+
+ability {
+  id: ABILITY_CACKLING
+  name: "Cackling"
+  description: "Uses Eerie Laugh on entry. Works only twice per battle."
 }
