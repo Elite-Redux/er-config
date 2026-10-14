@@ -6281,3 +6281,9 @@ ability {
   name: "Blinking Flash"
   description: "Light moves have a 10% chance to lower accuracy."
 }
+
+ability {
+  id: ABILITY_BRAIN_FREEZE
+  name: "Brain Freeze"
+  description: "Psychic moves have a 30% chance to cause frostbite."
+}
