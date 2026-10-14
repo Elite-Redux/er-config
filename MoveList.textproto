@@ -17711,6 +17711,7 @@ moves {
   target: SELECTED
   power: 95
   accuracy: 90
+   effect_chance: 50
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_SOLAR_BEAM
@@ -17743,6 +17744,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 100
+   effect_chance: 20
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_DAZZLING_GLEAM
@@ -17759,6 +17761,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 90
+   effect_chance: 40
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_LUSTER_PURGE
@@ -17790,6 +17793,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 100
+   effect_chance: 20
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_OVERHEAT
