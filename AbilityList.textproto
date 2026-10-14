@@ -6269,3 +6269,9 @@ ability {
   name: "Sticky Situation"
   description: "Bug type moves lower speed."
 }
+
+ability {
+  id: ABILITY_BIOLUMINESCENT
+  name: "Bioluminescent"
+  description: "Adds Electric Type to the user + Illuminate"
+}
