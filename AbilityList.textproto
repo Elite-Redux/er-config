@@ -6273,5 +6273,11 @@ ability {
 ability {
   id: ABILITY_BIOLUMINESCENT
   name: "Bioluminescent"
-  description: "Adds Electric Type to the user + Illuminate"
+  description: "Adds Electric Type to the user + Illuminate."
+}
+
+ability {
+  id: ABILITY_BLINKING_FLASH
+  name: "Blinking Flash"
+  description: "Light moves have a 10% chance to lower accuracy."
 }
