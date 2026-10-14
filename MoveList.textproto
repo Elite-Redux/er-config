@@ -17699,3 +17699,17 @@ moves {
   tutor: TUTOR_ATTACK
   uses_animation: MOVE_HORN_ATTACK
 }
+
+moves {
+  id: MOVE_ARC_BLAST
+  name: "Arc Blast" 
+  short_name: "ArcBlast"
+  description: "Condensed light that strikes at the opponent with excessive force. Light Based."
+  effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
+  split: SPECIAL
+  type: TYPE_ELECTRIC
+  power: 95
+  accuracy: 90
+  light: true
+  uses_animation: MOVE_SOLAR_BEAM
+}
