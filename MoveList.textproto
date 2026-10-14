@@ -17759,3 +17759,17 @@ moves {
   light: true
   uses_animation: MOVE_LUSTER_PURGE
 }
+
+moves {
+  id: MOVE_SPARKLING_BLAST
+  name: "Sparkling Blast"
+  short_name: "SparklingBlast"
+  description: "Sparkling water that once in contact blows in pure light. Light Based."
+  split: SPECIAL
+  type: TYPE_WATER
+  power: 90
+  accuracy: 100
+  mirror_move_affected: true
+  light: true
+  uses_animation: MOVE_SPARKLING_ARIA
+}
