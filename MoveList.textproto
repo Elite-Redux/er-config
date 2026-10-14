@@ -17778,3 +17778,19 @@ moves {
   light: true
   uses_animation: MOVE_SPARKLING_ARIA
 }
+
+moves {
+  id: MOVE_SCORCHING_RAY
+  name: "Scorching Ray"
+  short_name: "ScorchngRay"
+  description: "A ray of light that can burn the opponent that has a 30% Burn chance. Light Based."
+  effect: EFFECT_BURN_HIT
+  split: SPECIAL
+  type: TYPE_FIRE
+  target: SELECTED
+  power: 85
+  accuracy: 100
+  mirror_move_affected: true
+  light: true
+  uses_animation: MOVE_OVERHEAT
+}
