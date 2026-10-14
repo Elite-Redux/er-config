@@ -17729,3 +17729,18 @@ moves {
   horn: true
   uses_animation: MOVE_PHANTOM_FORCE
 }
+
+moves {
+  id: MOVE_GLITTER_BEAM
+  name: "Glitter Beam"
+  short_name: "GlitterBeam"
+  description: "A beam that sparkles and shines that irritates the opponent's eyes. Light Based.
+  effect: EFFECT_ACCURACY_DOWN_HIT
+  split: SPECIAL
+  type: TYPE_FAIRY
+  power: 85
+  accuracy: 100
+  mirror_move_affected: true
+  light: true
+  uses_animation: MOVE_DAZZLING_GLEAM
+}
