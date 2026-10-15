@@ -26965,7 +26965,7 @@ species {
     }
     level {
       level: 51
-      move: MOVE_SPARKLING_BLAST
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 56
@@ -27137,7 +27137,7 @@ species {
       level: 51
       move: MOVE_ELECTRO_SHOT
       move: MOVE_PARABOLIC_CHARGE
-      move: MOVE_SPARKLING_BLAST
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 56
@@ -38359,7 +38359,7 @@ species {
       move: MOVE_SCALD
       move: MOVE_SHOCK_WAVE
       move: MOVE_SPARK
-      move: MOVE_SPARKLING_BLAST
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
