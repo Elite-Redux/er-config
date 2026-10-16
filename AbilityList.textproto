@@ -6287,3 +6287,9 @@ ability {
   name: "Brain Freeze"
   description: "Psychic moves have a 30% chance to cause frostbite."
 }
+
+ability {
+  id: ABILITY_BLUESCREEN
+  name: "Bluescreen"
+  description: "Brain Freeze + Screen Cleaner."
+}
