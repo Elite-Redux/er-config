@@ -17704,7 +17704,7 @@ moves {
   id: MOVE_ARC_BLAST
   name: "Arc Blast" 
   short_name: "ArcBlast"
-  description: "Condensed light that strikes at the opponent with excessive force. 20% chance to lower defense Light Based."
+  description: "Condensed light strikes the opponent. 20% chance to lower defense. Light Based."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
   type: TYPE_ELECTRIC
@@ -17737,7 +17737,7 @@ moves {
   id: MOVE_GLITTER_BEAM
   name: "Glitter Beam"
   short_name: "GlitterBeam"
-  description: "A beam that sparkles and shines that irritates the opponent\'s eyes. 20% chance to lower accuracy. Light Based."
+  description: "A sparkling beam irritates the opponent. 20% chance to lower accuracy. Light Based."
   effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_FAIRY
@@ -17768,10 +17768,10 @@ moves {
 }
 
 moves {
-  id: MOVE_SPARKLING_BLAST
+  id: MOVE_SPARKLE_BLAST
   name: "Sparkling Blast"
-  short_name: "SparklingBlast"
-  description: "Sparkling water that once in contact blows in pure light. Light Based."
+  short_name: "SparkleBlast"
+  description: "Sparkling water that once in contact glows in pure light. Light Based."
   split: SPECIAL
   type: TYPE_WATER
   target: SELECTED
