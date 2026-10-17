@@ -6124,6 +6124,7 @@ ability {
   description: "Adds Fire-Type on entry"
   expanded_description: "Ignition adds Fire-type to the Pokemon upon entry. Retains Fire typing even upon losing the ability, going away only when switching out."
 }
+
 ability {
   id: ABILITY_SMARTY_PANTS
   name: "Smarty Pants"
@@ -6292,4 +6293,11 @@ ability {
   id: ABILITY_BLUESCREEN
   name: "Bluescreen"
   description: "Brain Freeze + Screen Cleaner."
+}
+
+ability {
+  id: ABILITY_CHLOROPHYLLO
+  name: "Chlorophyllo"
+  description: "Adds Grass-Type on entry"
+  expanded_description: "Chlorophyllo adds Grass-type to the Pokemon upon entry. Retains Grass typing even upon losing the ability, going away only when switching out."
 }
