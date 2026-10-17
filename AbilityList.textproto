@@ -1008,8 +1008,8 @@ ability {
 ability {
   id: ABILITY_PROTEAN
   name: "Protean"
-  description: "Changes type depending on the move it's about to use."
-  expanded_description: "Before each attack, the user overrides their type to match the move's type.  Activates once per turn."
+  description: "Changes type to move's type before use. Once per switch in."
+  expanded_description: "Before each attack, the user overrides their type to match the move's type. Activates once per switch in. Does not activate if the user's type is the exact same as the move's type."
 }
 ability {
   id: ABILITY_FUR_COAT
@@ -1351,7 +1351,7 @@ ability {
   id: ABILITY_RKS_SYSTEM
   name: "RKS System"
   description: "Held Memory determines its type. Also has Protean + Adaptability."
-  expanded_description: "RKS System changes the user's form based on its held Memory disc. Before each attack, the user overrides their type to match the move's type. Boosts STAB from 1.5x to 2.0x damage."
+  expanded_description: "RKS System changes the user's form based on its held Memory disc. Before each attack, the user overrides their type to match the move's type, activating once per turn. Boosts STAB from 1.5x to 2.0x damage."
 }
 ability {
   id: ABILITY_ELECTRIC_SURGE
@@ -1416,7 +1416,7 @@ ability {
 ability {
   id: ABILITY_LIBERO
   name: "Libero"
-  description: "Before using a move, changes its type to the move's type."
+  description: "Changes type to move's type before use. Once per switch in."
   expanded_description: "Libero overrides the user's type to match the move being used before it attacks. Cannot activate on Struggle moves."
 }
 ability {
@@ -2639,7 +2639,7 @@ ability {
   id: ABILITY_PRISMATIC_FUR
   name: "Prismatic Fur"
   description: "Color Change + Protean + Fur Coat + Ice Scales."
-  expanded_description: "Changes type to resist attacks before getting hit, changes type to match moves before landing a hit, halves physical damage, and halves special damage. Damage reduction is multiplicative with other sources."
+  expanded_description: "Changes type to resist attacks before getting hit, changes type to match moves before landing a hit (activating once per turn), halves physical damage, and halves special damage. Damage reduction is multiplicative with other sources."
 }
 ability {
   id: ABILITY_SHOCKING_JAWS
@@ -3996,7 +3996,7 @@ ability {
   id: ABILITY_PATTERN_CHANGE
   name: "Pattern Change"
   description: "Protean + Shed Skin"
-  expanded_description: "Before each attack, the user overrides their type to match their move's type. At the end of each turn, there's a 30% chance for the user to cure status conditions afflicted on them."
+  expanded_description: "Before attacking, the user overrides their type to match their move's type. Activates once per turn. At the end of each turn, there's a 30% chance for the user to cure status conditions afflicted on them."
 }
 ability {
   id: ABILITY_NO_TURNING_BACK
