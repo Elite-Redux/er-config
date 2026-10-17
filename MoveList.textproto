@@ -4156,6 +4156,7 @@ moves {
   pp: 15
   effect_chance: 100
   contact: true
+  field: true
   mirror_move_affected: true
 }
 moves {
