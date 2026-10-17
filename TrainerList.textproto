@@ -50334,6 +50334,7 @@ trainer {
       move: MOVE_TAIL_GLOW
       move: MOVE_COTTON_GUARD
     }
+    skill: SKILL_PERMANENT_RAIN
   }
 }
 trainer {

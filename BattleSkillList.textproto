@@ -173,3 +173,8 @@ skill {
   name: "Sea of Fire"
   announce_string: "A sea of fire surrounds {B_PLAYER_NAME}'s team!"
 }
+skill {
+  id: SKILL_PERMANENT_RAIN
+  name: "Rain"
+  announce_string: "Dark clouds gather and it starts\\nto pour over the battlefield!"
+}
