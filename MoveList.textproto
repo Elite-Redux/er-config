@@ -17693,6 +17693,7 @@ moves {
   type: TYPE_DARK
   power: 85
   accuracy: 100
+  pp: 16
   contact: true
   mirror_move_affected: true
   horn: true
@@ -17711,6 +17712,7 @@ moves {
   target: SELECTED
   power: 95
   accuracy: 95
+  pp: 10
    effect_chance: 20
   mirror_move_affected: true
   light: true
@@ -17727,6 +17729,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 100
+  pp: 10
   contact: true
   mirror_move_affected: true
   horn: true
@@ -17744,6 +17747,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 100
+  pp: 16
    effect_chance: 20
   mirror_move_affected: true
   light: true
@@ -17761,6 +17765,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 90
+  pp: 10
    effect_chance: 40
   mirror_move_affected: true
   light: true
@@ -17777,6 +17782,7 @@ moves {
   target: SELECTED
   power: 90
   accuracy: 100
+  pp: 10
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_SPARKLING_ARIA
@@ -17793,6 +17799,7 @@ moves {
   target: SELECTED
   power: 85
   accuracy: 100
+  pp: 10
    effect_chance: 20
   mirror_move_affected: true
   light: true
