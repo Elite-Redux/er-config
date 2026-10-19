@@ -6849,6 +6849,7 @@ moves {
   effect_chance: 10
   mirror_move_affected: true
   ballistic: true
+  light: true
   tutor: TUTOR_ATTACK
 }
 moves {
