@@ -1134,6 +1134,10 @@ species {
       move: MOVE_WATER_SPOUT
       move: MOVE_WAVE_CRASH
     }
+    level {
+      level: 51
+      move: MOVE_SPARKLE_BLAST
+    }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURA_SPHERE
@@ -1283,6 +1287,7 @@ species {
       level: 51
       move: MOVE_HYDRO_CANNON
       move: MOVE_STEEL_BEAM
+      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
@@ -11523,6 +11528,7 @@ species {
       level: 46
       move: MOVE_BRINE
       move: MOVE_KARMA
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -11681,6 +11687,7 @@ species {
       level: 46
       move: MOVE_BRINE
       move: MOVE_KARMA
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -13717,6 +13724,10 @@ species {
       move: MOVE_HORN_DRILL
       move: MOVE_SHEER_COLD
     }
+    level {
+      level: 56
+      move: MOVE_SPARKLE_BLAST
+    }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
@@ -13872,6 +13883,10 @@ species {
       move: MOVE_GLACIATE
       move: MOVE_HORN_DRILL
       move: MOVE_SHEER_COLD
+    }
+    level {
+      level: 56
+      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
@@ -20950,6 +20965,7 @@ species {
       move: MOVE_AQUA_FANG
       move: MOVE_DRACONIC_FANGS
       move: MOVE_HORN_DRILL
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 46
@@ -29150,6 +29166,10 @@ species {
       level: 46
       move: MOVE_WAVE_CRASH
     }
+    level {
+      level: 56
+      move: MOVE_SPARKLE_BLAST
+    }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
@@ -29292,6 +29312,10 @@ species {
       level: 46
       move: MOVE_STAR_CRASH
       move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 56
+      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURA_SPHERE
@@ -34998,6 +35022,7 @@ species {
       level: 37
       move: MOVE_AMNESIA
       move: MOVE_HEAD_SMASH
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 46
@@ -62303,6 +62328,7 @@ species {
       level: 37
       move: MOVE_CHILLING_WATER
       move: MOVE_STEEL_WING
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 46
@@ -62463,6 +62489,7 @@ species {
       level: 37
       move: MOVE_CHILLING_WATER
       move: MOVE_STEEL_WING
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 46
@@ -72961,13 +72988,14 @@ species {
     tutor: MOVE_ROTOTILLER
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SMOLDER_BASH
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_CHEAP_STAB
   }
   visuals {
     icon {
@@ -119680,6 +119708,7 @@ species {
       level: 46
       move: MOVE_BRAVE_BIRD
       move: MOVE_VOLT_TACKLE
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 51
@@ -119690,6 +119719,7 @@ species {
       level: 56
       move: MOVE_RISING_VOLTAGE
       move: MOVE_BOLT_BEAK
+      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -155286,6 +155316,7 @@ species {
       move: MOVE_BRINE
       move: MOVE_KARMA
       move: MOVE_TOXIC_PLUNGE
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -175976,7 +176007,7 @@ species {
   spdef: 60
   spe: 120
   ability: ABILITY_BULLETPROOF
-  ability: ABILITY_PHOTON_BURST
+  ability: ABILITY_LUNAR_ECLIPSE
   ability: ABILITY_ACCELERATE
   innate: ABILITY_SHIELDS_DOWN
   innate: ABILITY_EQUINOX
@@ -176022,7 +176053,7 @@ species {
   spdef: 60
   spe: 120
   ability: ABILITY_BULLETPROOF
-  ability: ABILITY_PHOTON_BURST
+  ability: ABILITY_LUNAR_ECLIPSE
   ability: ABILITY_ACCELERATE
   innate: ABILITY_SHIELDS_DOWN
   innate: ABILITY_EQUINOX
@@ -211586,6 +211617,7 @@ species {
     land: CLIMATE_ARID
     land: CLIMATE_ASH
   }
+  adoption_center_badge: 2
 }
 species {
   id: SPECIES_DARMANITAN_REDUX
