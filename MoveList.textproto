@@ -10828,7 +10828,7 @@ moves {
   id: MOVE_BEAK_BLAST
   name: "Beak Blast"
   short_name: "Beak Blast"
-  description: "The user strikes with its heated beak. Has 30% burn chance."
+  description: "The user strikes with its heated beak. Burns foe on contact."
   short_description: "Heats up beak to attack. Burns foe on contact."
   effect: EFFECT_BURN_HIT
   split: PHYSICAL
@@ -10837,7 +10837,8 @@ moves {
   power: 120
   accuracy: 100
   pp: 5
-  effect_chance: 30
+  priority: -3
+  contact: true
   ballistic: true
   mega_launcher: true
 }
