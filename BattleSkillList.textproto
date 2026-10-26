@@ -173,3 +173,18 @@ skill {
   name: "Sea of Fire"
   announce_string: "A sea of fire surrounds {B_PLAYER_NAME}'s team!"
 }
+skill {
+  id: SKILL_PERMANENT_MIST
+  name: "Mist"
+  announce_string: "Mist swirls around {B_TRAINER1_NAME}'s team!"
+}
+skill {
+  id: SKILL_PERMANENT_TAILWIND
+  name: "Tailwind"
+  announce_string: "The tailwind blew from behind \\n{B_TRAINER1_NAME}'s team!"
+}
+skill {
+  id: SKILL_PERMANENT_SAFEGUARD
+  name: "Mist"
+  announce_string: "{B_TRAINER1_NAME}'s party is protected\\nby Safeguard!"
+}
