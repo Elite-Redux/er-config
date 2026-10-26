@@ -188,3 +188,29 @@ skill {
   name: "Mist"
   announce_string: "{B_TRAINER1_NAME}'s party is protected\\nby Safeguard!"
 }
+# TODO: Make the weather strings better?
+skill {
+  id: SKILL_PERMANENT_SUN
+  name: "Sun"
+  announce_string: "The sun's rays intensify!"
+}
+skill {
+  id: SKILL_PERMANENT_RAIN
+  name: "Rain"
+  announce_string: "It started to rain!"
+}
+skill {
+  id: SKILL_PERMANENT_SANDSTORM
+  name: "Sandstorm"
+  announce_string: "A sandstorm brews!"
+}
+skill {
+  id: SKILL_PERMANENT_HAIL
+  name: "Hail"
+  announce_string: "It started to hail!"
+}
+skill {
+  id: SKILL_PERMANENT_FOG
+  name: "Fog"
+  announce_string: "An eerie fog descends!"
+}
