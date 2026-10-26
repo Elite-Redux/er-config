@@ -17584,17 +17584,18 @@ moves {
   id: MOVE_ICE_WALL
   name: "Ice Wall"
   short_name: "Ice Wall"
-  description: "The user applies a stone cold barrier, setting reflect."
-  short_description: "Sets reflect with ice."
-  effect: EFFECT_BADDY_BAD
+  description: "The user applies a stone cold barrier, that slows the opponent."
+  short_description: "Slows the opponent."
+  effect: EFFECT_SPEED_DOWN_HIT
   split: PHYSICAL
   type: TYPE_ICE
-  target: SELECTED
-  power: 70
-  accuracy: 100
-  pp: 5
+  target: BOTH
+  power: 60
+  accuracy: 95
+  pp: 10
   mirror_move_affected: true
   uses_animation: MOVE_BARRIER
+  tutor: TUTOR_ATTACK
 }
 moves {
   id: MOVE_OBSCURED_SHOT
