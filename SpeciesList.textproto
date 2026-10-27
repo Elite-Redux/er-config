@@ -198959,6 +198959,572 @@ species {
   }
 }
 species {
+  id: SPECIES_BAGON_REDUX
+  form_of: SPECIES_BAGON
+  type: TYPE_POISON
+  type2: TYPE_ICE
+  hp: 45
+  atk: 69
+  def: 37
+  spatk: 40
+  spdef: 69
+  spe: 40
+  ability: ABILITY_TOXIC_SURGE
+  ability: ABILITY_BIOFILM
+  ability: ABILITY_HYDRATION
+  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_POISON_UPSURGE
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_WATER_SPORT
+      move: MOVE_POISON_STING
+      move: MOVE_HONE_CLAWS
+      move: MOVE_POISON_POWDER
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_WATERLOG
+    }
+    level {
+      level: 17
+      move: MOVE_GLARE
+      move: MOVE_SPLASH
+      move: MOVE_SLUDGE
+      move: MOVE_RAZOR_SHELL
+    }
+    level {
+      level: 24
+      move: MOVE_ACID
+      move: MOVE_FREEZE_DRY
+      move: MOVE_FURY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_WATERFALL
+      move: MOVE_BATTERING_RAM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_BARB_BARRAGE
+    }
+    level {
+      level: 51
+      move: MOVE_DRACO_METEOR
+      move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 56
+      move: MOVE_GLAIVE_RUSH
+      move: MOVE_SHEER_COLD
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICICLE_IMPALE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIST
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SURF
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "bagon/redux/icon"
+    }
+    front {
+      path: "bagon/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "bagon/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "bagon/redux/normal"
+    shiny: "bagon/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_SHELGON_REDUX
+  form_of: SPECIES_SHELGON
+  type: TYPE_POISON
+  type2: TYPE_ICE
+  hp: 86
+  atk: 75
+  def: 67
+  spatk: 60
+  spdef: 92
+  spe: 40
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_SHELL_ARMOR
+  ability: ABILITY_HYDRATION
+  innate: ABILITY_HALF_DRAKE
+  innate: ABILITY_POISON_TOUCH
+  innate: ABILITY_ROUGH_SKIN
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_WATER_SPORT
+      move: MOVE_POISON_STING
+      move: MOVE_HONE_CLAWS
+      move: MOVE_WITHDRAW
+      move: MOVE_POISON_POWDER
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_WATERLOG
+    }
+    level {
+      level: 17
+      move: MOVE_GLARE
+      move: MOVE_SPLASH
+      move: MOVE_SLUDGE
+      move: MOVE_RAZOR_SHELL
+    }
+    level {
+      level: 24
+      move: MOVE_ACID
+      move: MOVE_FREEZE_DRY
+      move: MOVE_FURY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_WATERFALL
+      move: MOVE_BATTERING_RAM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_BARB_BARRAGE
+    }
+    level {
+      level: 51
+      move: MOVE_DRACO_METEOR
+      move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 56
+      move: MOVE_GLAIVE_RUSH
+      move: MOVE_SHEER_COLD
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_HIDDEN_POWER
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICICLE_IMPALE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_METRONOME
+    tutor: MOVE_MIST
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SECRET_POWER
+    tutor: MOVE_SLEEP_TALK
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SURF
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "shelgon/redux/icon"
+    }
+    front {
+      path: "shelgon/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "shelgon/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "shelgon/redux/normal"
+    shiny: "shelgon/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_SALAMENCE_REDUX
+  form_of: SPECIES_SALAMENCE
+  type: TYPE_POISON
+  type2: TYPE_ICE
+  hp: 100
+  atk: 120
+  def: 70
+  spatk: 120
+  spdef: 50
+  spe: 140
+  ability: ABILITY_ICE_SCALES
+  ability: ABILITY_PERMAFROST
+  ability: ABILITY_STORM_DRAIN
+  innate: ABILITY_DRAGONFLY
+  innate: ABILITY_POISON_QUILLS
+  innate: ABILITY_POISON_ABSORB
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_WATER_SPORT
+      move: MOVE_POISON_STING
+      move: MOVE_HONE_CLAWS
+      move: MOVE_WITHDRAW
+      move: MOVE_POISON_POWDER
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_WATERLOG
+    }
+    level {
+      level: 17
+      move: MOVE_GLARE
+      move: MOVE_SPLASH
+      move: MOVE_SLUDGE
+      move: MOVE_RAZOR_SHELL
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_ACID
+      move: MOVE_FREEZE_DRY
+      move: MOVE_COIL
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_FURY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_WATERFALL
+      move: MOVE_BATTERING_RAM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_SPIKE_CANNON
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_BARB_BARRAGE
+    }
+    level {
+      level: 51
+      move: MOVE_DRACO_METEOR
+      move: MOVE_WAVE_CRASH
+      move: MOVE_SCALE_SHOT
+      move: MOVE_WYRM_WIND
+    }
+    level {
+      level: 56
+      move: MOVE_GLAIVE_RUSH
+      move: MOVE_SHEER_COLD
+    }
+    level {
+      level: 61
+      move: MOVE_MINIMIZE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_HIDDEN_POWER
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICICLE_IMPALE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_METRONOME
+    tutor: MOVE_MIST
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SECRET_POWER
+    tutor: MOVE_SLEEP_TALK
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SURF
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "salamence/redux/icon"
+    }
+    front {
+      path: "salamence/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "salamence/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "salamence/redux/normal"
+    shiny: "salamence/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_SALAMENCE_MEGA_REDUX
+  form_of: SPECIES_SALAMENCE
+  type: TYPE_POISON
+  type2: TYPE_ICE
+  hp: 100
+  atk: 140
+  def: 100
+  spatk: 140
+  spdef: 60
+  spe: 160
+  ability: ABILITY_ICE_SCALES
+  ability: ABILITY_FILTER
+  ability: ABILITY_RESERVOIR
+  innate: ABILITY_DRAGONFLY
+  innate: ABILITY_LETHALTOUCH
+  innate: ABILITY_POISON_ABSORB
+  percent_female: 50
+  tier: 3
+  mega {
+    from: SPECIES_SALAMENCE_REDUX
+    item: ITEM_SALAMENCITE_R
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_WATER_SPORT
+      move: MOVE_POISON_STING
+      move: MOVE_HONE_CLAWS
+      move: MOVE_WITHDRAW
+      move: MOVE_POISON_POWDER
+      move: MOVE_DRAGON_RAGE
+      move: MOVE_WATERLOG
+    }
+    level {
+      level: 17
+      move: MOVE_GLARE
+      move: MOVE_SPLASH
+      move: MOVE_SLUDGE
+      move: MOVE_RAZOR_SHELL
+      move: MOVE_SHARPEN
+    }
+    level {
+      level: 24
+      move: MOVE_ACID
+      move: MOVE_FREEZE_DRY
+      move: MOVE_COIL
+      move: MOVE_TOXIC_THREAD
+      move: MOVE_FURY_ATTACK
+    }
+    level {
+      level: 37
+      move: MOVE_WATERFALL
+      move: MOVE_BATTERING_RAM
+      move: MOVE_MORTAL_SPIN
+      move: MOVE_SPIKE_CANNON
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_TOXIC_NEEDLES
+      move: MOVE_BARB_BARRAGE
+    }
+    level {
+      level: 51
+      move: MOVE_DRACO_METEOR
+      move: MOVE_WAVE_CRASH
+      move: MOVE_SCALE_SHOT
+      move: MOVE_WYRM_WIND
+    }
+    level {
+      level: 56
+      move: MOVE_GLAIVE_RUSH
+      move: MOVE_SHEER_COLD
+    }
+    level {
+      level: 61
+      move: MOVE_MINIMIZE
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_DRAGON_TAIL
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HAZE
+    tutor: MOVE_HIDDEN_POWER
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICICLE_IMPALE
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_METRONOME
+    tutor: MOVE_MIST
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_PROTECT
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SECRET_POWER
+    tutor: MOVE_SLEEP_TALK
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SURF
+    tutor: MOVE_TOXIC
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_VENOM_DRENCH
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+  }
+  visuals {
+    icon {
+      path: "salamence/mega_redux/icon"
+    }
+    front {
+      path: "salamence/mega_redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "salamence/mega_redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "salamence/mega_redux/normal"
+    shiny: "salamence/mega_redux/shiny"
+  }
+}
+species {
   id: SPECIES_KECLEONG
   form_of: SPECIES_DEWGONG
   type: TYPE_ICE
@@ -199175,78 +199741,169 @@ species {
   }
 }
 species {
-  id: SPECIES_INFERNAPE_REDUX_B
-  form_of: SPECIES_INFERNAPE
+  id: SPECIES_CLAWED_MIMIC
+  dex {
+    name: "Clawed Mimic"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1219
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_FAIRY
+  type2: TYPE_DARK
+  hp: 75
+  atk: 131
+  def: 83
+  spatk: 63
+  spdef: 87
+  spe: 131
+  ability: ABILITY_TOUGH_CLAWS
+  ability: ABILITY_PICKPOCKET
+  ability: ABILITY_CACKLING
+  innate: ABILITY_PROTOSYNTHESIS
+  innate: ABILITY_MENACING_SITUATION
+  innate: ABILITY_SCARE
+  percent_female: 50
+  tier: 3
   learnset {
     level {
-      level: 11
-      move: MOVE_FURY_SWIPES
+      level: 1
+      move: MOVE_EERIE_LAUGH
+      move: MOVE_SCARY_FACE
+      move: MOVE_ASTONISH
+      move: MOVE_HONE_CLAWS
+      move: MOVE_TEETER_DANCE
+      move: MOVE_FLING
+      move: MOVE_CONFUSION
     }
     level {
-      level: 14
-      move: MOVE_FLAME_WHEEL
+      level: 17
+      move: MOVE_GLARE
+      move: MOVE_SHARPEN
+      move: MOVE_SCREECH
+      move: MOVE_MIMIC
+      move: MOVE_PIXIE_SLASH
+      move: MOVE_FAKE_TEARS
+      move: MOVE_PHANTOM_FORCE
+      move: MOVE_SNARL
     }
     level {
-      level: 19
-      move: MOVE_TORMENT
+      level: 24
+      move: MOVE_ALLURING_VOICE
+      move: MOVE_FEINT_ATTACK
+      move: MOVE_SPIRIT_BREAK
+      move: MOVE_SYNCHRONOISE
+      move: MOVE_GUARD_SWAP
+      move: MOVE_POWER_TRICK
     }
     level {
-      level: 23
-      move: MOVE_FEINT
+      level: 37
+      move: MOVE_WONDER_ROOM
+      move: MOVE_OBSTRUCT
+      move: MOVE_LASH_OUT
+      move: MOVE_FOLLOW_ME
+      move: MOVE_INCITE
+      move: MOVE_REQUIEM
     }
     level {
-      level: 28
-      move: MOVE_SUBMISSION
+      level: 46
+      move: MOVE_STORED_POWER
+      move: MOVE_ECHOED_VOICE
+      move: MOVE_QUASH
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_MAGIC_ROOM
     }
     level {
-      level: 32
-      move: MOVE_FIRE_SPIN
+      level: 51
+      move: MOVE_PERISH_SONG
+      move: MOVE_CHEAP_SHOT
+      move: MOVE_TERROR_LOCKS
+      move: MOVE_PARTING_SHOT
     }
     level {
-      level: 45
-      move: MOVE_ACROBATICS
+      level: 56
+      move: MOVE_TRANSMUTE
+      move: MOVE_POWER_TRIP
     }
-    level {
-      level: 47
-      move: MOVE_MAT_BLOCK
-    }
-    level {
-      level: 49
-      move: MOVE_SLACK_OFF
-    }
-    level {
-      level: 53
-      move: MOVE_CALM_MIND
-    }
-    level {
-      level: 57
-      move: MOVE_FLARE_BLITZ
-    }
-    level {
-      level: 60
-      move: MOVE_NASTY_PLOT
-    }
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_ATTRACT
+    tutor: MOVE_BITE
+    tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ENDURE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HELPING_HAND
+    tutor: MOVE_HEX
+    tutor: MOVE_HIDDEN_POWER
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LICK
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_METRONOME
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PROTECT
+    tutor: MOVE_REFLECT
+    tutor: MOVE_REST
+    tutor: MOVE_RETURN
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SECRET_POWER
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SLEEP_TALK
+    tutor: MOVE_SPITE
+    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_THIEF
+    tutor: MOVE_TORMENT
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
-      path: "infernape/redux_B/icon"
+      path: "clawedmimic/icon"
     }
     front {
-      path: "infernape/redux_B/front"
+      path: "clawedmimic/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
       coords {
-        size: 136
+        size: 69
+        y_offset: 13
       }
     }
     back {
-      path: "infernape/redux_B/back"
+      path: "clawedmimic/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
-        size: 135
+        size: 117
+        y_offset: 13
       }
     }
-    palette: "infernape/redux_B/normal"
-    shiny: "infernape/redux_B/shiny"
+    palette: "clawedmimic/normal"
+    shiny: "clawedmimic/shiny"
   }
-  region_prefix: REDUX
 }
 species {
   id: SPECIES_NOIBAT_REDUX

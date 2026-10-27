@@ -2883,3 +2883,23 @@ item {
   palette: "froslassite"
   adoption_center: true
 }
+item {
+  id: ITEM_SALAMENCITE_R
+  name: "Salamencite R"
+  description: "Enables Salamence Redux to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+  adoption_center: true
+}
+item {
+  id: ITEM_METAGROSSITE_R
+  name: "Metagrossite R"
+  description: "Enables Metagross Redux to Mega Evolve."
+  grouping: POCKET_MEGA_STONES
+  hold_effect: HOLD_EFFECT_MEGA_STONE
+  image: "generic_megastone"
+  palette: "hitmonchanite"
+  adoption_center: true
+}
