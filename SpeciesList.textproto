@@ -199089,6 +199089,9 @@ species {
     palette: "bagon/redux/normal"
     shiny: "bagon/redux/shiny"
   }
+  region_prefix: REDUX
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
+  adoption_center_badge: 5
 }
 species {
   id: SPECIES_SHELGON_REDUX
@@ -199530,6 +199533,476 @@ species {
     }
     palette: "salamence/mega_redux/normal"
     shiny: "salamence/mega_redux/shiny"
+  }
+}
+
+species {
+  id: SPECIES_BELDUM_REDUX
+  form_of: SPECIES_BELDUM
+  type: TYPE_ICE
+  type2: TYPE_PSYCHIC
+  hp: 41
+  atk: 34
+  def: 61
+  spatk: 55
+  spdef: 79
+  spe: 30
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_CRYOMANCY
+  ability: ABILITY_FREEZING_POINT
+  innate: ABILITY_BRAIN_FREEZE
+  innate: ABILITY_PERMAFROST
+  innate: ABILITY_CLEAR_BODY
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_METANG_REDUX
+    level: 20
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_QUASH
+      move: MOVE_CONFUSION
+      move: MOVE_EERIE_IMPULSE
+    }
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_PSYBEAM
+}
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+  region_prefix: REDUX
+  randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
+  adoption_center_badge: 5
+}
+
+species {
+  id: SPECIES_METANG_REDUX
+  form_of: SPECIES_METANG
+  type: TYPE_ICE
+  type2: TYPE_PSYCHIC
+  hp: 53
+  atk: 53
+  def: 71
+  spatk: 81
+  spdef: 112
+  spe: 50
+  ability: ABILITY_VOLT_ABSORB
+  ability: ABILITY_MAGICAL_FISTS
+  ability: ABILITY_FREEZING_POINT
+  innate: ABILITY_BRAIN_FREEZE
+  innate: ABILITY_PERMAFROST
+  innate: ABILITY_PSYCHIC_MIND
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_METAGROSS_REDUX
+    level: 45
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_QUASH
+      move: MOVE_CONFUSION
+      move: MOVE_EERIE_IMPULSE
+    }
+    level {
+      level: 17
+      move: MOVE_SHARPEN
+      move: MOVE_CHILLING_WATER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_TORRENT_FIST
+      move: MOVE_MEGA_PUNCH
+    }
+    level {
+      level: 24
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_KINESIS
+      move: MOVE_AURORA_VEIL
+      move: MOVE_FREEZE_DRY
+      move: MOVE_PSYWAVE
+      move: MOVE_ASTRAL_HAND
+    }
+    level {
+      level: 37
+      move: MOVE_METEOR_MASH
+      move: MOVE_BRICK_BREAK
+      move: MOVE_GLARE
+      move: MOVE_EXPANDING_FORCE
+   }
+    level {
+      level: 46
+      move: MOVE_ICE_HAMMER
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_OUTBURST
+    }
+    level {
+      level: 51
+      move: MOVE_FREEZING_GLARE
+      move: MOVE_CHILLY_RECEPTION
+      move: MOVE_SHEER_COLD
+    }
+     level {
+       level: 56
+        move: MOVE_PSYCHO_BOOST
+        move: MOVE_ZAP_CANNON
+        move: MOVE_RAIN_FLUSH
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FOCUS_BLAST
+}
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+
+species {
+  id: SPECIES_METAGROSS_REDUX
+  form_of: SPECIES_METAGROSS
+  type: TYPE_ICE
+  type2: TYPE_PSYCHIC
+  hp: 100
+  atk: 72
+  def: 69
+  spatk: 131
+  spdef: 124
+  spe: 104
+  ability: ABILITY_CLEAR_BODY
+  ability: ABILITY_CRYOMANCY
+  ability: ABILITY_HEATPROOF
+  innate: ABILITY_BRAIN_FREEZE
+  innate: ABILITY_PERMAFROST
+  innate: ABILITY_MAGICAL_FISTS
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_QUASH
+      move: MOVE_CONFUSION
+      move: MOVE_EERIE_IMPULSE
+    }
+    level {
+      level: 17
+      move: MOVE_SHARPEN
+      move: MOVE_CHILLING_WATER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_TORRENT_FIST
+      move: MOVE_MEGA_PUNCH
+    }
+    level {
+      level: 24
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_KINESIS
+      move: MOVE_AURORA_VEIL
+      move: MOVE_FREEZE_DRY
+      move: MOVE_PSYWAVE
+      move: MOVE_ASTRAL_HAND
+    }
+    level {
+      level: 37
+      move: MOVE_METEOR_MASH
+      move: MOVE_BRICK_BREAK
+      move: MOVE_GLARE
+      move: MOVE_EXPANDING_FORCE
+   }
+    level {
+      level: 46
+      move: MOVE_ICE_HAMMER
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_OUTBURST
+    }
+    level {
+      level: 51
+      move: MOVE_FREEZING_GLARE
+      move: MOVE_CHILLY_RECEPTION
+      move: MOVE_SHEER_COLD
+      move: MOVE_GLACIATE
+    }
+     level {
+       level: 56
+        move: MOVE_PSYCHO_BOOST
+        move: MOVE_PLASMA_FISTS
+        move: MOVE_ZAP_CANNON
+        move: MOVE_RAIN_FLUSH
+    }
+     level {
+       level: 81
+       move: MOVE_GEAR_UP
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_TRICK
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FOCUS_BLAST
+}
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+
+species {
+  id: SPECIES_METAGROSS_MEGA_REDUX
+  form_of: SPECIES_METAGROSS
+  type: TYPE_ICE
+  type2: TYPE_PSYCHIC
+  hp: 100
+  atk: 82
+  def: 99
+  spatk: 151
+  spdef: 134
+  spe: 134
+  ability: ABILITY_GALVANIZE
+  ability: ABILITY_DEADLY_PRECISION
+  ability: ABILITY_DEEP_FREEZE
+  innate: ABILITY_BLUESCREEN
+  innate: ABILITY_MAGICAL_FISTS
+  innate: ABILITY_CRYOMANCY
+  percent_female: 50
+  tier: 3
+  mega {
+    from: SPECIES_METAGROSS_REDUX
+    item: ITEM_METAGROSSITE_R
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_QUASH
+      move: MOVE_CONFUSION
+      move: MOVE_EERIE_IMPULSE
+    }
+    level {
+      level: 17
+      move: MOVE_SHARPEN
+      move: MOVE_CHILLING_WATER
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_TORRENT_FIST
+      move: MOVE_MEGA_PUNCH
+    }
+    level {
+      level: 24
+      move: MOVE_BULLET_PUNCH
+      move: MOVE_KINESIS
+      move: MOVE_AURORA_VEIL
+      move: MOVE_FREEZE_DRY
+      move: MOVE_PSYWAVE
+      move: MOVE_ASTRAL_HAND
+    }
+    level {
+      level: 37
+      move: MOVE_METEOR_MASH
+      move: MOVE_BRICK_BREAK
+      move: MOVE_GLARE
+      move: MOVE_EXPANDING_FORCE
+   }
+    level {
+      level: 46
+      move: MOVE_ICE_HAMMER
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_RISING_VOLTAGE
+      move: MOVE_OUTBURST
+    }
+    level {
+      level: 51
+      move: MOVE_FREEZING_GLARE
+      move: MOVE_CHILLY_RECEPTION
+      move: MOVE_SHEER_COLD
+      move: MOVE_GLACIATE
+    }
+     level {
+       level: 56
+        move: MOVE_PSYCHO_BOOST
+        move: MOVE_PLASMA_FISTS
+        move: MOVE_ZAP_CANNON
+        move: MOVE_RAIN_FLUSH
+    }
+     level {
+       level: 81
+       move: MOVE_GEAR_UP
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_REFLECT
+    tutor: MOVE_TRICK
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_FOCUS_BLAST
+}
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
