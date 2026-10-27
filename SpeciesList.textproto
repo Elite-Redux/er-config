@@ -58637,7 +58637,7 @@ species {
   tier: 4
   evo {
     to: SPECIES_SHELGON
-    level: 23
+    level: 30
   }
   learnset {
     level {
@@ -198977,6 +198977,10 @@ species {
   innate: ABILITY_POISON_UPSURGE
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_SHELGON_REDUX
+    level: 30
+  }
   learnset {
     level {
       level: 1
@@ -199105,6 +199109,10 @@ species {
   innate: ABILITY_ROUGH_SKIN
   percent_female: 50
   tier: 3
+  evo {
+    to: SPECIES_SALAMENCE_REDUX
+    level: 50
+  }
   learnset {
     level {
       level: 1
