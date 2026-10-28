@@ -6314,3 +6314,9 @@ ability {
   description: "Boosts Electric moves by 50% in Electric Terrain."
   expanded_description: "Boosts Electric-type moves by 50% when Electric Terrain is active."
 }
+
+abiltiy {
+  id: ABILITY_DAZZLING_WINGS
+  name: "Dazzling Wings"
+  description: "Dazzling + Giant Wings"
+}
