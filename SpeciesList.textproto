@@ -200117,6 +200117,7 @@ species {
   visuals {
     icon {
       path: "wingull/redux/icon"
+      palette: 2
     }
     front {
       path: "wingull/redux/front"
@@ -200140,6 +200141,7 @@ species {
   region_prefix: REDUX
   adoption_center_badge: 0
 }
+
 species {
   id: SPECIES_PELIPPER_REDUX
   form_of: SPECIES_PELIPPER
@@ -200270,6 +200272,7 @@ species {
   visuals {
     icon {
       path: "pelipper/redux/icon"
+      palette: 2
     }
     front {
       path: "pelipper/redux/front"
@@ -200291,6 +200294,7 @@ species {
     shiny: "pelipper/redux/shiny"
   }
 }
+
 species {
   id: SPECIES_CAULDRICAN
   dex {
@@ -200436,6 +200440,7 @@ species {
   visuals {
     icon {
       path: "cauldrican/icon"
+      palette: 2
     }
     front {
       path: "cauldrican/front"
