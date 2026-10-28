@@ -200454,6 +200454,452 @@ species {
   }
 }
 species {
+  id: SPECIES_NUMBERG
+  dex {
+    name: "Numberg"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1143
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_ICE
+  type2: TYPE_WATER
+  hp: 84
+  atk: 40
+  def: 50
+  spatk: 63
+  spdef: 53
+  spe: 55
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_UNAWARE
+  ability: ABILITY_WATER_ABSORB
+  innate: ABILITY_FREEZING_POINT
+  innate: ABILITY_OBLIVIOUS
+  innate: ABILITY_THICK_FAT
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_CAMEBERG
+    level: 33
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ICE_BALL
+      move: MOVE_AVALANCHE
+      move: MOVE_GROWL
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+      move: MOVE_WATER_SPORT
+      move: MOVE_SIMPLE_BEAM
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_CHILLING_WATER
+      move: MOVE_ENCORE
+      move: MOVE_ICE_SHARD
+      move: MOVE_DOUBLE_HIT
+    }
+    level {
+      level: 24
+      move: MOVE_FREEZE_DRY
+      move: MOVE_AURORA_VEIL
+      move: MOVE_AMNESIA
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_STOCKPILE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_ENCORE
+    }
+    level {
+      level: 46
+      move: MOVE_SHEER_COLD
+      move: MOVE_SLACK_OFF
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_WATER_GUN
+    }
+    level {
+      level: 51
+      move: MOVE_SWALLOW
+      move: MOVE_SPIT_UP
+      move: MOVE_ROCK_WRECKER
+      move: MOVE_WAVE_CRASH
+    }
+    level {
+      level: 56
+      move: MOVE_MEMENTO
+    }
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HAZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SOAK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_REFRESH
+    tutor: MOVE_TEARFUL_LOOK
+  }
+  visuals {
+    icon {
+      path: "numberg/icon"
+    }
+    front {
+      path: "numberg/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "numberg/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "numberg/normal"
+    shiny: "numberg/shiny"
+  }
+}
+species {
+  id: SPECIES_CAMEBERG
+  dex {
+    name: "Cameberg"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1144
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_ICE
+  type2: TYPE_WATER
+  hp: 120
+  atk: 80
+  def: 60
+  spatk: 105
+  spdef: 60
+  spe: 75
+  ability: ABILITY_ICE_BODY
+  ability: ABILITY_UNAWARE
+  ability: ABILITY_WATER_VEIL
+  innate: ABILITY_FREEZING_POINT
+  innate: ABILITY_PERMAFROST
+  innate: ABILITY_THICK_FAT
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_MANIBERG
+    level: 47
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ICE_BALL
+      move: MOVE_AVALANCHE
+      move: MOVE_GROWL
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+      move: MOVE_WATER_SPORT
+      move: MOVE_SIMPLE_BEAM
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_CHILLING_WATER
+      move: MOVE_ENCORE
+      move: MOVE_ICE_SHARD
+      move: MOVE_DOUBLE_HIT
+    }
+    level {
+      level: 24
+      move: MOVE_FREEZE_DRY
+      move: MOVE_AURORA_VEIL
+      move: MOVE_AMNESIA
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_STOCKPILE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_ENCORE
+    }
+    level {
+      level: 46
+      move: MOVE_SHEER_COLD
+      move: MOVE_SLACK_OFF
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_WATER_GUN
+    }
+    level {
+      level: 51
+      move: MOVE_SWALLOW
+      move: MOVE_SPIT_UP
+      move: MOVE_ROCK_WRECKER
+      move: MOVE_WAVE_CRASH
+     }
+     level {
+      level: 56
+      move: MOVE_PERISH_SONG
+      move: MOVE_MEMENTO
+    }
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HAZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SOAK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_REFRESH
+    tutor: MOVE_TEARFUL_LOOK
+    }
+  visuals {
+    icon {
+      path: "cameberg/icon"
+    }
+    front {
+      path: "cameberg/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "cameberg/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "cameberg/normal"
+    shiny: "cameberg/shiny"
+  }
+}
+species {
+  id: SPECIES_MANIBERG
+  dex {
+    name: "Maniberg"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1145
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_ICE
+  type2: TYPE_WATER
+  hp: 150
+  atk: 80
+  def: 70
+  spatk: 115
+  spdef: 70
+  spe: 55
+  ability: ABILITY_WHITEOUT
+  ability: ABILITY_UNAWARE
+  ability: ABILITY_FRESH_SNOWFALL
+  innate: ABILITY_ICE_BODY
+  innate: ABILITY_PERMAFROST
+  innate: ABILITY_THICK_BLUBBER
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_DEFENSE_CURL
+      move: MOVE_ICE_BALL
+      move: MOVE_AVALANCHE
+      move: MOVE_GROWL
+      move: MOVE_WATER_PLEDGE
+      move: MOVE_YAWN
+      move: MOVE_WATER_SPORT
+      move: MOVE_SIMPLE_BEAM
+    }
+    level {
+      level: 17
+      move: MOVE_BODY_SLAM
+      move: MOVE_CHILLING_WATER
+      move: MOVE_ENCORE
+      move: MOVE_ICE_SHARD
+      move: MOVE_DOUBLE_HIT
+    }
+    level {
+      level: 24
+      move: MOVE_FREEZE_DRY
+      move: MOVE_AURORA_VEIL
+      move: MOVE_AMNESIA
+    }
+    level {
+      level: 37
+      move: MOVE_BRINE
+      move: MOVE_STOCKPILE
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_ENCORE
+      move: MOVE_SKULL_BASH
+    }
+    level {
+      level: 46
+      move: MOVE_SHEER_COLD
+      move: MOVE_SLACK_OFF
+      move: MOVE_RAIN_FLUSH
+      move: MOVE_WATER_GUN
+    }
+    level {
+      level: 51
+      move: MOVE_SWALLOW
+      move: MOVE_SPIT_UP
+      move: MOVE_ROCK_WRECKER
+      move: MOVE_BELLY_DRUM
+      move: MOVE_WAVE_CRASH
+     }
+     level {
+      level: 56
+      move: MOVE_PERISH_SONG
+      move: MOVE_MEMENTO
+      move: MOVE_DESTINY_BOND
+      move: MOVE_KARMA
+    }
+    tutor: MOVE_AQUA_TAIL
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_AURORA_BEAM
+    tutor: MOVE_BUBBLE
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BLIZZARD
+    tutor: MOVE_CHARM
+    tutor: MOVE_CURSE
+    tutor: MOVE_DIVE
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HAZE
+    tutor: MOVE_FLIP_TURN
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_POWER_GEM
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SOAK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_REFRESH
+    tutor: MOVE_TEARFUL_LOOK
+    }
+  visuals {
+    icon {
+      path: "maniberg/icon"
+    }
+    front {
+      path: "maniberg/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "maniberg/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "maniberg/normal"
+    shiny: "maniberg/shiny"
+  }
+}
+species {
   id: SPECIES_KECLEONG
   form_of: SPECIES_DEWGONG
   type: TYPE_ICE
