@@ -6307,3 +6307,10 @@ ability {
   name: "Charge Spores"
   description: "Lightning Born + Effect Spore"
 }
+
+ability {
+  id: ABILITY_STATIC_BLOOM
+  name: "Static Bloom"
+  description: "Boosts Electric moves by 50% in Electric Terrain."
+  expanded_description: "Boosts Electric-type moves by 50% when Electric Terrain is active."
+}
