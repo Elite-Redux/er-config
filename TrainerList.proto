@@ -10,6 +10,7 @@ import "SpeciesList.proto";
 import "Types.proto";
 import "TrainerEnum.proto";
 import "BattleSkillEnum.proto";
+import "BattleSkillList.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -259,7 +260,10 @@ message TrainerParty {
   }
 
   repeated TrainerMon mon = 1;
+  // external skill in battle_skills.cc
   repeated BattleSkillEnum skill = 2;
+  // adhoc definition of a skill, see InlineSkill in BattleSkillList.proto.
+  repeated InlineSkill inline_skill = 3;
 }
 
 message Trainer {

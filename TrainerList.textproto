@@ -41920,6 +41920,11 @@ trainer {
       move: MOVE_ICE_SHARD
       move: MOVE_ICE_HAMMER
     }
+    inline_skill {
+      name: "Spirit Guard"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon steels\\nits mind!"
+      on { entry {} effect { stat_change { stat: STAT_SPDEF amount: 1 } } }
+    }
   }
 }
 trainer {
@@ -47115,6 +47120,16 @@ trainer {
       move: MOVE_SMART_STRIKE
       move: MOVE_HARD_PRESS
       move: MOVE_SCARY_FACE
+    }
+    inline_skill {
+      name: "Fortified Lead"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfortifies its defenses!"
+      on { entry { when: LEAD } effect { stat_change { stat: STAT_DEF amount: 4 } } }
+    }
+    inline_skill {
+      name: "Steady Defense"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon keeps\\nhardening its body!"
+      on { end_turn {} effect { stat_change { stat: STAT_DEF amount: 1 } } }
     }
   }
 }
