@@ -200141,7 +200141,6 @@ species {
   region_prefix: REDUX
   adoption_center_badge: 0
 }
-
 species {
   id: SPECIES_PELIPPER_REDUX
   form_of: SPECIES_PELIPPER
@@ -200294,7 +200293,6 @@ species {
     shiny: "pelipper/redux/shiny"
   }
 }
-
 species {
   id: SPECIES_CAULDRICAN
   dex {
@@ -200692,8 +200690,8 @@ species {
       move: MOVE_SPIT_UP
       move: MOVE_ROCK_WRECKER
       move: MOVE_WAVE_CRASH
-     }
-     level {
+    }
+    level {
       level: 56
       move: MOVE_PERISH_SONG
       move: MOVE_MEMENTO
@@ -200734,7 +200732,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_REFRESH
     tutor: MOVE_TEARFUL_LOOK
-    }
+  }
   visuals {
     icon {
       path: "cameberg/icon"
@@ -200839,8 +200837,8 @@ species {
       move: MOVE_ROCK_WRECKER
       move: MOVE_BELLY_DRUM
       move: MOVE_WAVE_CRASH
-     }
-     level {
+    }
+    level {
       level: 56
       move: MOVE_PERISH_SONG
       move: MOVE_MEMENTO
@@ -200883,7 +200881,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_REFRESH
     tutor: MOVE_TEARFUL_LOOK
-    }
+  }
   visuals {
     icon {
       path: "maniberg/icon"
@@ -200906,6 +200904,340 @@ species {
     }
     palette: "maniberg/normal"
     shiny: "maniberg/shiny"
+  }
+}
+species {
+  id: SPECIES_SWARMOS
+  dex {
+    name: "Swarmos"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1146
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_BUG
+  type2: TYPE_GRASS
+  hp: 66
+  atk: 38
+  def: 48
+  spatk: 62
+  spdef: 67
+  spe: 45
+  ability: ABILITY_GRASSY_SURGE
+  ability: ABILITY_BLINKING_FLASH
+  ability: ABILITY_ITCHY_DEFENSE
+  innate: ABILITY_LIGHTNING_BORN
+  innate: ABILITY_ILLUMINATE
+  innate: ABILITY_GRASS_PELT
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_CAMOUDON
+    level: 30
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_LEAFAGE
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_MEAN_LOOK
+      move: MOVE_LEER
+      move: MOVE_BEAT_UP
+      move: MOVE_STUN_SPORE
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_VINE_WHIP
+    }
+    level {
+      level: 17
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_PAYBACK
+      move: MOVE_ION_DELUGE
+      move: MOVE_SPARK
+      move: MOVE_GLARE
+      move: MOVE_SIGNAL_BEAM
+    }
+    level {
+      level: 24
+      move: MOVE_GRASS_KNOT
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_CHARGE
+      move: MOVE_BRAMBLE_BLAST
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_CAMOUFLAGE
+      move: MOVE_SNATCH
+      move: MOVE_INFESTATION
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 37
+      move: MOVE_HORN_LEECH
+      move: MOVE_NUZZLE
+      move: MOVE_ELECTRIFY
+      move: MOVE_INSTRUCT
+      move: MOVE_ARC_BLAST
+      move: MOVE_ASSURANCE
+      move: MOVE_LUNGE
+    }
+    level {
+      level: 46
+      move: MOVE_POWDER
+      move: MOVE_HEAL_ORDER
+      move: MOVE_DEFEND_ORDER
+      move: MOVE_ATTACK_ORDER
+      move: MOVE_SMITE
+    }
+    level {
+      level: 51
+      move: MOVE_LEAF_STORM
+      move: MOVE_SYNTHESIS
+      move: MOVE_TANGLING_HUSK
+    }
+    level {
+      level: 56
+      move: MOVE_MEMENTO
+      move: MOVE_FORESTS_CURSE 
+      move: MOVE_CHLOROBLAST
+    }
+    level {
+      level: 61
+      move: MOVE_STRENGTH_SAP
+      move: MOVE_POPULATION_BOMB
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CHARM
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SPITE
+    tutor: MOVE_STRING_SHOT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TOPSY_TURVY
+    tutor: MOVE_TORMENT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_WORRY_SEED
+  }
+  visuals {
+    icon {
+      path: "swarmos/icon"
+      palette: 1
+    }
+    front {
+      path: "swarmos/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "swarmos/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "swarmos/normal"
+    shiny: "swarmos/shiny"
+  }
+}
+species {
+  id: SPECIES_CAMOUDON
+  dex {
+    name: "Camoudon"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1147
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_BUG
+  type2: TYPE_GRASS
+  hp: 111
+  atk: 68
+  def: 93
+  spatk: 82
+  spdef: 82
+  spe: 39
+  ability: ABILITY_UNNERVE
+  ability: ABILITY_BLINKING_FLASH
+  ability: ABILITY_ITCHY_DEFENSE
+  innate: ABILITY_BIOLUMINESCENT
+  innate: ABILITY_GRASSY_SURGE
+  innate: ABILITY_GRASS_PELT
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_LEAFAGE
+      move: MOVE_THUNDER_SHOCK
+      move: MOVE_MEAN_LOOK
+      move: MOVE_LEER
+      move: MOVE_BEAT_UP
+      move: MOVE_STUN_SPORE
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_VINE_WHIP
+    }
+    level {
+      level: 17
+      move: MOVE_MEGA_DRAIN
+      move: MOVE_EERIE_IMPULSE
+      move: MOVE_PAYBACK
+      move: MOVE_ION_DELUGE
+      move: MOVE_SPARK
+      move: MOVE_GLARE
+      move: MOVE_SIGNAL_BEAM
+    }
+    level {
+      level: 24
+      move: MOVE_GRASS_KNOT
+      move: MOVE_STRUGGLE_BUG
+      move: MOVE_CHARGE
+      move: MOVE_BRAMBLE_BLAST
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_CAMOUFLAGE
+      move: MOVE_SNATCH
+      move: MOVE_INFESTATION
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 37
+      move: MOVE_HORN_LEECH
+      move: MOVE_NUZZLE
+      move: MOVE_ELECTRIFY
+      move: MOVE_INSTRUCT
+      move: MOVE_ARC_BLAST
+      move: MOVE_ASSURANCE
+      move: MOVE_LUNGE
+    }
+    level {
+      level: 46
+      move: MOVE_POWDER
+      move: MOVE_HEAL_ORDER
+      move: MOVE_DEFEND_ORDER
+      move: MOVE_ATTACK_ORDER
+      move: MOVE_SMITE
+    }
+    level {
+      level: 51
+      move: MOVE_LEAF_STORM
+      move: MOVE_SYNTHESIS
+      move: MOVE_TANGLING_HUSK
+    }
+    level {
+      level: 56
+      move: MOVE_MEMENTO
+      move: MOVE_FORESTS_CURSE 
+      move: MOVE_CHLOROBLAST
+    }
+    level {
+      level: 61
+      move: MOVE_STRENGTH_SAP
+      move: MOVE_POPULATION_BOMB
+    }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CHARM
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_INGRAIN
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SPIKES
+    tutor: MOVE_SPITE
+    tutor: MOVE_STRING_SHOT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TOPSY_TURVY
+    tutor: MOVE_TORMENT
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_WORRY_SEED
+  }
+  visuals {
+    icon {
+      path: "camoudon/icon"
+      palette: 1
+    }
+    front {
+      path: "camoudon/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "camoudon/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "camoudon/normal"
+    shiny: "camoudon/shiny"
   }
 }
 species {
