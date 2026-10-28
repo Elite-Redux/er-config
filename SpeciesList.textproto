@@ -199535,7 +199535,6 @@ species {
     shiny: "salamence/mega_redux/shiny"
   }
 }
-
 species {
   id: SPECIES_BELDUM_REDUX
   form_of: SPECIES_BELDUM
@@ -199568,7 +199567,7 @@ species {
     }
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_PSYBEAM
-}
+  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -199596,7 +199595,6 @@ species {
   randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
   adoption_center_badge: 5
 }
-
 species {
   id: SPECIES_METANG_REDUX
   form_of: SPECIES_METANG
@@ -199650,7 +199648,7 @@ species {
       move: MOVE_BRICK_BREAK
       move: MOVE_GLARE
       move: MOVE_EXPANDING_FORCE
-   }
+    }
     level {
       level: 46
       move: MOVE_ICE_HAMMER
@@ -199664,11 +199662,11 @@ species {
       move: MOVE_CHILLY_RECEPTION
       move: MOVE_SHEER_COLD
     }
-     level {
-       level: 56
-        move: MOVE_PSYCHO_BOOST
-        move: MOVE_ZAP_CANNON
-        move: MOVE_RAIN_FLUSH
+    level {
+      level: 56
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_ZAP_CANNON
+      move: MOVE_RAIN_FLUSH
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BODY_PRESS
@@ -199704,7 +199702,7 @@ species {
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FOCUS_BLAST
-}
+  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -199729,7 +199727,6 @@ species {
     shiny: "question_mark/circled/shiny"
   }
 }
-
 species {
   id: SPECIES_METAGROSS_REDUX
   form_of: SPECIES_METAGROSS
@@ -199779,7 +199776,7 @@ species {
       move: MOVE_BRICK_BREAK
       move: MOVE_GLARE
       move: MOVE_EXPANDING_FORCE
-   }
+    }
     level {
       level: 46
       move: MOVE_ICE_HAMMER
@@ -199794,16 +199791,16 @@ species {
       move: MOVE_SHEER_COLD
       move: MOVE_GLACIATE
     }
-     level {
-       level: 56
-        move: MOVE_PSYCHO_BOOST
-        move: MOVE_PLASMA_FISTS
-        move: MOVE_ZAP_CANNON
-        move: MOVE_RAIN_FLUSH
+    level {
+      level: 56
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_ZAP_CANNON
+      move: MOVE_RAIN_FLUSH
     }
-     level {
-       level: 81
-       move: MOVE_GEAR_UP
+    level {
+      level: 81
+      move: MOVE_GEAR_UP
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BODY_PRESS
@@ -199840,7 +199837,7 @@ species {
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FOCUS_BLAST
-}
+  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -199865,7 +199862,6 @@ species {
     shiny: "question_mark/circled/shiny"
   }
 }
-
 species {
   id: SPECIES_METAGROSS_MEGA_REDUX
   form_of: SPECIES_METAGROSS
@@ -199919,7 +199915,7 @@ species {
       move: MOVE_BRICK_BREAK
       move: MOVE_GLARE
       move: MOVE_EXPANDING_FORCE
-   }
+    }
     level {
       level: 46
       move: MOVE_ICE_HAMMER
@@ -199934,16 +199930,16 @@ species {
       move: MOVE_SHEER_COLD
       move: MOVE_GLACIATE
     }
-     level {
-       level: 56
-        move: MOVE_PSYCHO_BOOST
-        move: MOVE_PLASMA_FISTS
-        move: MOVE_ZAP_CANNON
-        move: MOVE_RAIN_FLUSH
+    level {
+      level: 56
+      move: MOVE_PSYCHO_BOOST
+      move: MOVE_PLASMA_FISTS
+      move: MOVE_ZAP_CANNON
+      move: MOVE_RAIN_FLUSH
     }
-     level {
-       level: 81
-       move: MOVE_GEAR_UP
+    level {
+      level: 81
+      move: MOVE_GEAR_UP
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BODY_PRESS
@@ -199980,7 +199976,7 @@ species {
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_FOCUS_BLAST
-}
+  }
   visuals {
     icon {
       path: "question_mark/icon"
@@ -200003,6 +199999,458 @@ species {
     }
     palette: "question_mark/circled/normal"
     shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_WINGULL_REDUX
+  form_of: SPECIES_WINGULL
+  type: TYPE_POISON
+  type2: TYPE_GHOST
+  hp: 40
+  atk: 55
+  def: 40
+  spatk: 30
+  spdef: 40
+  spe: 65
+  ability: ABILITY_FEATHERCOAT
+  ability: ABILITY_SCREEN_CLEANER
+  ability: ABILITY_CURIOUS_MEDICINE
+  innate: ABILITY_IMMOLATE
+  innate: ABILITY_LEVITATE
+  innate: ABILITY_FLOCK
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_PELIPPER_REDUX
+    level: 24
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_EMBER
+      move: MOVE_ASTONISH
+      move: MOVE_CONFUSION
+      move: MOVE_POISON_POWDER
+    }
+    level {
+      level: 17
+      move: MOVE_BESTOW
+      move: MOVE_ACID
+      move: MOVE_MYSTICAL_FIRE
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_GLARE
+    }
+    level {
+      level: 24
+      move: MOVE_ACID_SPRAY
+      move: MOVE_TWIN_BEAM
+      move: MOVE_FEATHER_DANCE
+      move: MOVE_FLAME_BURST
+      move: MOVE_TEMPER_FLARE
+      move: MOVE_SMOG
+    }
+    level {
+      level: 37
+      move: MOVE_SPREAD_BOMB
+      move: MOVE_WONDER_ROOM
+      move: MOVE_BURNING_JEALOUSY
+      move: MOVE_REQUIEM
+    }
+    level {
+      level: 46
+      move: MOVE_INFERNAL_PARADE
+      move: MOVE_FIRE_LASH
+      move: MOVE_INVERSE_ROOM
+    }
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_ATTRACT
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLY
+    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HELPING_HAND
+    tutor: MOVE_HEX
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROOST
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPITE
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_WHIRLWIND
+  }
+  visuals {
+    icon {
+      path: "wingull/redux/icon"
+    }
+    front {
+      path: "wingull/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "wingull/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "wingull/redux/normal"
+    shiny: "wingull/redux/shiny"
+  }
+  region_prefix: REDUX
+  adoption_center_badge: 0
+}
+species {
+  id: SPECIES_PELIPPER_REDUX
+  form_of: SPECIES_PELIPPER
+  type: TYPE_POISON
+  type2: TYPE_GHOST
+  hp: 60
+  atk: 65
+  def: 70
+  spatk: 95
+  spdef: 90
+  spe: 60
+  ability: ABILITY_SOUL_EATER
+  ability: ABILITY_MAGIC_GUARD
+  ability: ABILITY_CURIOUS_MEDICINE
+  innate: ABILITY_IGNITION
+  innate: ABILITY_FORTITUDE
+  innate: ABILITY_AERILATE
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_CAULDRICAN
+    level: 44
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_EMBER
+      move: MOVE_ASTONISH
+      move: MOVE_CONFUSION
+      move: MOVE_POISON_GAS
+      move: MOVE_POISON_POWDER
+    }
+    level {
+      level: 17
+      move: MOVE_BESTOW
+      move: MOVE_ACID
+      move: MOVE_MYSTICAL_FIRE
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_GLARE
+    }
+    level {
+      level: 24
+      move: MOVE_ACID_SPRAY
+      move: MOVE_TWIN_BEAM
+      move: MOVE_FEATHER_DANCE
+      move: MOVE_SPEED_SWAP
+      move: MOVE_FLAME_BURST
+      move: MOVE_TEMPER_FLARE
+      move: MOVE_SMOG
+    }
+    level {
+      level: 37
+      move: MOVE_SPREAD_BOMB
+      move: MOVE_SMOKESCREEN
+      move: MOVE_WONDER_ROOM
+      move: MOVE_BURNING_JEALOUSY
+      move: MOVE_REQUIEM
+    }
+    level {
+      level: 46
+      move: MOVE_INFERNAL_PARADE
+      move: MOVE_FIRE_LASH
+      move: MOVE_BELCH
+      move: MOVE_INVERSE_ROOM
+    }
+    level {
+      level: 51
+      move: MOVE_VENOSHOCK
+      move: MOVE_OVERHEAT
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_GIANT_GALE
+      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_OUTBURST
+    }
+    level {
+      level: 56
+      move: MOVE_OMINOUS_WIND
+      move: MOVE_BARRIER
+    }
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_ATTRACT
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLY
+    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HELPING_HAND
+    tutor: MOVE_HEX
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROOST
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPITE
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_WHIRLWIND
+  }
+  visuals {
+    icon {
+      path: "pelipper/redux/icon"
+    }
+    front {
+      path: "pelipper/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "pelipper/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "pelipper/redux/normal"
+    shiny: "pelipper/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_CAULDRICAN
+  dex {
+    name: "Cauldrican"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1217
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_POISON
+  type2: TYPE_GHOST
+  hp: 80
+  atk: 55
+  def: 80
+  spatk: 110
+  spdef: 105
+  spe: 70
+  ability: ABILITY_SAGE_POWER
+  ability: ABILITY_TOXIC_SURGE
+  ability: ABILITY_CURIOUS_MEDICINE
+  innate: ABILITY_IGNITION
+  innate: ABILITY_FOG_MACHINE
+  innate: ABILITY_AERILATE
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_EMBER
+      move: MOVE_ASTONISH
+      move: MOVE_CONFUSION
+      move: MOVE_POISON_GAS
+      move: MOVE_POISON_POWDER
+      move: MOVE_SCARY_FACE
+    }
+    level {
+      level: 17
+      move: MOVE_BESTOW
+      move: MOVE_ACID
+      move: MOVE_MYSTICAL_FIRE
+      move: MOVE_TOXIC_PLUNGE
+      move: MOVE_GLARE
+    }
+    level {
+      level: 24
+      move: MOVE_ACID_SPRAY
+      move: MOVE_TWIN_BEAM
+      move: MOVE_FEATHER_DANCE
+      move: MOVE_SPEED_SWAP
+      move: MOVE_FLAME_BURST
+      move: MOVE_TEMPER_FLARE
+      move: MOVE_SMOG
+    }
+    level {
+      level: 37
+      move: MOVE_SPREAD_BOMB
+      move: MOVE_SMOKESCREEN
+      move: MOVE_WONDER_ROOM
+      move: MOVE_BURNING_JEALOUSY
+      move: MOVE_REQUIEM
+    }
+    level {
+      level: 46
+      move: MOVE_INFERNAL_PARADE
+      move: MOVE_FIRE_LASH
+      move: MOVE_BELCH
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_STOCKPILE
+      move: MOVE_BIG_BLAST
+    }
+    level {
+      level: 51
+      move: MOVE_VENOSHOCK
+      move: MOVE_OVERHEAT
+      move: MOVE_VIRAL_STRIKE
+      move: MOVE_GIANT_GALE
+      move: MOVE_PSYSHIELD_BASH
+      move: MOVE_OUTBURST
+      move: MOVE_SPIT_UP
+      move: MOVE_SWALLOW
+    }
+    level {
+      level: 56
+      move: MOVE_OMINOUS_WIND
+      move: MOVE_BARRIER
+      move: MOVE_TREPIDATION
+    }
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_ATTRACT
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CURSE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLY
+    tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HELPING_HAND
+    tutor: MOVE_HEX
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_POISON_TAIL
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_REFLECT
+    tutor: MOVE_RETURN
+    tutor: MOVE_ROOST
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SLUDGE_BOMB
+    tutor: MOVE_SPITE
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_TOXIC_TERRAIN
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_WHIRLWIND
+  }
+  visuals {
+    icon {
+      path: "cauldrican/icon"
+    }
+    front {
+      path: "cauldrican/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "cauldrican/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "cauldrican/normal"
+    shiny: "cauldrican/shiny"
   }
 }
 species {
