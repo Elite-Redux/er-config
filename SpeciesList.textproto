@@ -199570,10 +199570,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "beldum/redux/icon"
+      palette: 3
     }
     front {
-      path: "question_mark/circled/front"
+      path: "beldum/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -199581,15 +199582,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "beldum/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "beldum/redux/normal"
+    shiny: "beldum/redux/shiny"
   }
   region_prefix: REDUX
   randomizer_category: RANDOMIZER_PSEUDO_LEGENDARY
@@ -199705,10 +199706,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "metang/redux/icon"
+      palette: 3
     }
     front {
-      path: "question_mark/circled/front"
+      path: "metang/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -199716,15 +199718,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "metang/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "metang/redux/normal"
+    shiny: "metang/redux/shiny"
   }
 }
 species {
@@ -199840,10 +199842,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "metagross/redux/icon"
+      palette: 3
     }
     front {
-      path: "question_mark/circled/front"
+      path: "metagross/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -199851,15 +199854,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "metagross/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "metagross/redux/normal"
+    shiny: "metagross/redux/shiny"
   }
 }
 species {
@@ -199979,10 +199982,11 @@ species {
   }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "metagross/mega_redux/icon"
+      palette: 3
     }
     front {
-      path: "question_mark/circled/front"
+      path: "metagross/mega_redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -199990,15 +199994,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "metagross/mega_redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "metagross/mega_redux/normal"
+    shiny: "metagross/mega_redux/shiny"
   }
 }
 species {
