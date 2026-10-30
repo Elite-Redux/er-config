@@ -6326,3 +6326,9 @@ ability {
   name: "Fearless"
   description: "Immune to fear. Immune to Intimidate."
 }
+
+ability {
+  id: ABILITY_GNAWING_AWAY
+  name: "Gnawing Away"
+  description: "Biting moves have a 50% chance to lower defense."
+}
