@@ -50510,6 +50510,11 @@ trainer {
       move: MOVE_TWISTER
       move: MOVE_BRINE
     }
+    inline_skill {
+      name: "Mean Look"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwon't let you go!"
+      on { entry {} effect { use_move { move: MOVE_MEAN_LOOK } } }
+    }
   }
 }
 trainer {
@@ -66375,6 +66380,11 @@ trainer {
       move: MOVE_PARABOLIC_CHARGE
       move: MOVE_MUDDY_WATER
       move: MOVE_WEATHER_BALL
+    }
+    inline_skill {
+      name: "Bubble"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblows a bubble!"
+      on { entry {} effect { use_move { move: MOVE_BUBBLE power: 10 } } }
     }
   }
 }
