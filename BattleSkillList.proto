@@ -114,6 +114,8 @@ message InlineSkill {
     MoveEnum move = 1;
     // 0 keeps the move's power, otherwise 1 to 255. maybe we need more ? 
     int32 power = 2;
+    // By default the move leaves the target at 1 HP at least
+    bool can_ko = 3;
   }
 
   message SetTerrain {
