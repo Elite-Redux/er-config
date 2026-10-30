@@ -4,6 +4,7 @@ package er;
 
 import "BattleSkillEnum.proto";
 import "AbilityEnum.proto";
+import "MoveEnum.proto";
 import "Stats.proto";
 
 option java_package = "er.proto";
@@ -52,16 +53,26 @@ message BattleSkillTemplate {
 //     announce_string: "Something cool"
 //     on { entry { when: LEAD } effect { stat_change { stat: STAT_DEF amount: 6 } } }
 //     on { entry {} effect { stat_change { stat: STAT_ATK amount: -6 } } }
+//     on {
+//       entry { when: LEAD }
+//       effect { weather { weather: WEATHER_SANDSTORM permanent: true } }
+//       effect { hazard { hazard: HAZARD_SPIKES layers: 2 } }
+//     }
 //   }
 message InlineSkill {
   // ability popup
   string name = 1;
   // text message each time the skill fires
+  // optional for simple skills, a template will be used
   string announce_string = 2;
 
   // made this way to ensure we can have multiple combinations of trigger+effects under a
   // single skill
   repeated Trigger on = 3;
+
+  // every Pokemon of the trainer has these on top of its own, for the whole battle. Max 3 per trainer.
+  // Comes with default string announce
+  repeated AbilityEnum extra_ability = 4;
 
   // only fires for the trainer's own Pokemon
   // TODO: add side-selector to triggers
@@ -70,7 +81,8 @@ message InlineSkill {
       Entry entry = 1;
       EndTurn end_turn = 2;
     }
-    Effect effect = 3;
+    // run in this order
+    repeated Effect effect = 3;
   }
 
   message Entry {
@@ -89,14 +101,84 @@ message InlineSkill {
   message Effect {
     oneof kind {
       StatChange stat_change = 1;
-      // example for later:
-      // UseMove use_move = 2;
-      // Hazard set_hazard = 3;
+      SetTerrain terrain = 2;
+      SetWeather weather = 3;
+      SetHazard hazard = 4;
+      UseMove use_move = 5;
     }
   }
 
+  // Uses the move as its own action once the current one ends
+  // the trigger picks the target, unless moves like Swords Dance or Rain Dance ignore it
+  message UseMove {
+    MoveEnum move = 1;
+    // 0 keeps the move's power, otherwise 1 to 255. maybe we need more ? 
+    int32 power = 2;
+  }
+
+  message SetTerrain {
+    enum Terrain {
+      TERRAIN_NONE = 0;
+      TERRAIN_ELECTRIC = 1;
+      TERRAIN_GRASSY = 2;
+      TERRAIN_MISTY = 3;
+      TERRAIN_PSYCHIC = 4;
+      TERRAIN_TOXIC = 5;
+    }
+    Terrain terrain = 1;
+    // needs turns or permanent, codegen rejects 0 and neither
+    oneof duration {
+      int32 turns = 2;
+      bool permanent = 3;
+    }
+  }
+
+  // Needs turns or permanent, codegen rejects 0 and neither
+  message SetWeather {
+    // same as ENUM_WEATHER_* in include/constants/battle.h
+    // TODO: expose this and unify both to the proto version
+    enum Weather {
+      WEATHER_NONE = 0;
+      WEATHER_RAIN = 1;
+      WEATHER_SUN = 2;
+      WEATHER_SANDSTORM = 3;
+      WEATHER_HAIL = 4;
+      WEATHER_SUN_PRIMAL = 5;    // permanent only
+      WEATHER_RAIN_PRIMAL = 6;   // permanent only
+      WEATHER_STRONG_WINDS = 7;  // permanent only
+      WEATHER_FOG = 8;
+    }
+    Weather weather = 1;
+    oneof duration {
+      // 1 to 255, no lock
+      int32 turns = 2;
+      // locked for the rest of the battle: nothing can remove it
+      bool permanent = 3;
+    }
+  }
+
+  // on the player's side
+  message SetHazard {
+    enum Hazard {
+      HAZARD_NONE = 0;
+      HAZARD_SPIKES = 1;
+      HAZARD_TOXIC_SPIKES = 2;
+      HAZARD_STEALTH_ROCK = 3;
+      HAZARD_STICKY_WEB = 4;
+      HAZARD_CALTROPS = 5;
+    }
+    repeated Hazard hazard = 1;
+    // brings it up to this many: spikes 1 to 3, toxic spikes 1 to 2, the others 1. defaults to 1
+    // for repeated hazard, will clamp to max for each type
+    int32 layers = 2;
+    // put back at the end of every turn once removed (Rapid Spin, Defog...)
+    bool permanent = 3;
+  }
+
   message StatChange {
-    Stat stat = 1;
+    // all of them get the same amount. With several, one animation and one "stats rose/fell" line is
+    // shown, and the ones that can't move are skipped
+    repeated Stat stat = 1;
     // goes from -6 to +6, negative applies debuff
     int32 amount = 2;
   }
