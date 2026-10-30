@@ -6338,3 +6338,8 @@ ability {
   name: "Versatile"
   description: "Changes type to move's type before use."
 }
+ability {
+  id: ABILITY_POWER_SHOES
+  name: "Power Shoes"
+  description: ""Kicking moves target Special Defense and get a 1.3x boost.""
+}
