@@ -6332,3 +6332,9 @@ ability {
   name: "Gnawing Away"
   description: "Biting moves have a 50% chance to lower defense."
 }
+
+ability {
+  id: ABILITY_VERSATILE
+  name: "Versatile"
+  description: "Changes type to move's type before use."
+}
