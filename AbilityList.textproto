@@ -6320,8 +6320,9 @@ ability {
   name: "Dazzling Wings"
   description: "Dazzling + Giant Wings"
 }
+
 ability {
   id: ABILITY_FEARLESS
   name: "Fearless"
-  description: "Immune to fear."
+  description: "Immune to fear. Immune to Intimidate."
 }
