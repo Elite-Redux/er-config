@@ -6,6 +6,7 @@ import "BattleSkillEnum.proto";
 import "AbilityEnum.proto";
 import "MoveEnum.proto";
 import "Stats.proto";
+import "Types.proto";
 
 option java_package = "er.proto";
 option java_multiple_files = true;
@@ -56,7 +57,7 @@ message BattleSkillTemplate {
 //     on {
 //       entry { when: LEAD }
 //       effect { weather { weather: WEATHER_SANDSTORM permanent: true } }
-//       effect { hazard { hazard: HAZARD_SPIKES layers: 2 } }
+//       effect { side_condition { type: SPIKES layers: 2 } }
 //     }
 //   }
 message InlineSkill {
@@ -74,42 +75,134 @@ message InlineSkill {
   // Comes with default string announce
   repeated AbilityEnum extra_ability = 4;
 
-  // only fires for the trainer's own Pokemon
-  // TODO: add side-selector to triggers
+  // Whose Pokemon an event happens to
+  enum Side {
+    TRAINER = 0;
+    PLAYER = 1;
+  }
+
+  // The Pokemon an effect applies to. An event has two Pokemon: the one it happens to (EVENT_MON) and
+  // the other one (the attacker, the KO'er, or the foe facing it). TRAINER_MON and PLAYER_MON pick
+  // between these two by side.
+  enum Target {
+    EVENT_MON = 0;
+    TRAINER_MON = 1;
+    PLAYER_MON = 2;
+    TRAINER_PARTY = 3;  // status only
+    PLAYER_PARTY = 4;   // status only
+    BOTH_PARTIES = 5;   // status only
+  }
+
+  enum Once {
+    ALWAYS = 0;
+    PER_SWITCH_IN = 1;
+    PER_POKEMON = 2;
+    PER_BATTLE = 3;
+  }
+
+  // First N and/or last N Pokemon of the party, in party order. Unset = all of them.
+  message PartySlots {
+    int32 first = 1;
+    int32 last = 2;
+  }
+
   message Trigger {
     oneof kind {
       Entry entry = 1;
       EndTurn end_turn = 2;
+      BattleStart battle_start = 4;
+      Hit hit = 5;
+      Faint faint = 6;
+      StatChanged stat_change = 7;
+      SwitchOut switch_out = 8;
     }
     // run in this order
     repeated Effect effect = 3;
+
+    // Whose Pokemon the event happens to. Not on battle_start.
+    // hit {} side: PLAYER is "the trainer's move hit a player Pokemon",
+    // faint {} side: PLAYER is "a player Pokemon fainted" (a KO).
+    Side side = 10;
+
+    // Conditions, all of them must hold
+    Once once = 11;
+    // 1 to 99 percent, 0 = always. Rolled once for the whole `on`
+    int32 chance = 12;
+    // 1 to 99: the event's Pokemon has less than this percent of its HP
+    int32 hp_below = 13;
   }
 
+  // when a Pokemon comes in
   message Entry {
     enum When {
       EVERY = 0;
       LEAD = 1;
-      // example for later:
-      // ONCE = 2;
     }
     When when = 1;
+    PartySlots slots = 2;
   }
 
-  // every turn, for each of the trainer's Pokemon on the field
-  message EndTurn {}
+  // at the end of every turn, for each Pokemon on the field
+  message EndTurn {
+    // every N turns, 0 or 1 = every turn
+    int32 every = 1;
+    // count the turns the Pokemon spent on the field instead of the battle turns
+    bool on_field = 2;
+  }
+
+  // once, before the first turn. Its Pokemon is the trainer's lead
+  message BattleStart {}
+
+  // a damaging move from a Pokemon of the other side hit this Pokemon, once per hit.
+  // Moves used by skills and abilities on their own don't count
+  message Hit {
+    enum Effectiveness {
+      EFFECTIVENESS_UNSET = 0;  // not allowed
+      SUPER_EFFECTIVE = 1;
+      NEUTRAL = 2;
+      RESISTED = 3;
+      // the move didn't affect it (type or ability immunity). Only when listed
+      IMMUNE = 4;
+    }
+    // the move is one of these types
+    repeated Type type = 1;
+    bool contact = 2;
+    // unset = any that dealt damage
+    repeated Effectiveness effectiveness = 3;
+  }
+
+  // this Pokemon fainted. The other Pokemon is the one that knocked it out, if any
+  message Faint {}
+
+  // a stat stage of this Pokemon went up or down
+  message StatChanged {
+    enum Direction {
+      ALL = 0;
+      UP = 1;
+      DOWN = 2;
+    }
+    // unset = any stat
+    repeated Stat stat = 1;
+    Direction direction = 2;
+  }
+
+  // this Pokemon is about to switch out. use_move only, it hits before the switch
+  message SwitchOut {}
 
   message Effect {
     oneof kind {
       StatChange stat_change = 1;
       SetTerrain terrain = 2;
       SetWeather weather = 3;
-      SetHazard hazard = 4;
+      SetSideCondition side_condition = 4;
       UseMove use_move = 5;
+      SetFieldStatus field = 6;
+      ApplyStatus status = 7;
     }
   }
 
-  // Uses the move as its own action once the current one ends
-  // the trigger picks the target, unless moves like Swords Dance or Rain Dance ignore it
+  // Used by the trainer's Pokemon of the event, at the player's one. It runs once the current action ends.
+  // Moves like Swords Dance or Rain Dance ignore the target
   message UseMove {
     MoveEnum move = 1;
     // 0 keeps the move's power, otherwise 1 to 255. maybe we need more ? 
@@ -159,22 +252,95 @@ message InlineSkill {
     }
   }
 
-  // on the player's side
-  message SetHazard {
-    enum Hazard {
-      HAZARD_NONE = 0;
-      HAZARD_SPIKES = 1;
-      HAZARD_TOXIC_SPIKES = 2;
-      HAZARD_STEALTH_ROCK = 3;
-      HAZARD_STICKY_WEB = 4;
-      HAZARD_CALTROPS = 5;
+  // Hazards and the other conditions of one side of the field
+  message SetSideCondition {
+    enum ConditionType {
+      NONE = 0;
+      // hazards: `layers`, no turns
+      SPIKES = 1;
+      TOXIC_SPIKES = 2;
+      STEALTH_ROCK = 3;
+      STICKY_WEB = 4;
+      CALTROPS = 5;
+      // need turns or permanent
+      REFLECT = 10;
+      LIGHT_SCREEN = 11;
+      AURORA_VEIL = 12;
+      SAFEGUARD = 13;
+      MIST = 14;
+      TAILWIND = 15;
+      LUCKY_CHANT = 16;
+      SWAMP = 20;
+      SEA_OF_FIRE = 21;
+      RAINBOW = 22;
     }
-    repeated Hazard hazard = 1;
-    // brings it up to this many: spikes 1 to 3, toxic spikes 1 to 2, the others 1. defaults to 1
-    // for repeated hazard, will clamp to max for each type
-    int32 layers = 2;
-    // put back at the end of every turn once removed (Rapid Spin, Defog...)
-    bool permanent = 3;
+    repeated ConditionType type = 1;
+
+    enum TargetSide {
+      // where the trainer would put it with the move: hazards, swamp and sea of fire on the player's
+      // side, the others on the trainer's
+      DEFAULT = 0;
+      TRAINER_SIDE = 1;
+      PLAYER_SIDE = 2;
+      BOTH_SIDES = 3;
+    }
+    TargetSide side = 2;
+
+    // hazards only: brings it up to this many, spikes 1 to 3, toxic spikes 1 to 2, the others 1. defaults to 1
+    int32 layers = 3;
+    oneof duration {
+      // 1 to 255, not for hazards
+      int32 turns = 4;
+      // put back at the end of every turn once removed (Rapid Spin, Defog, Brick Break...)
+      bool permanent = 5;
+    }
+  }
+
+  // Rooms and the other field-wide statuses
+  message SetFieldStatus {
+    enum FieldType {
+      NONE = 0;
+      TRICK_ROOM = 1;
+      WONDER_ROOM = 2;
+      MAGIC_ROOM = 3;
+      INVERSE_ROOM = 4;
+      GRAVITY = 5;
+      MUD_SPORT = 6;
+      WATER_SPORT = 7;
+    }
+    repeated FieldType type = 1;
+    oneof duration {
+      int32 turns = 2;
+      // put back at the end of every turn once it ends
+      bool permanent = 3;
+    }
+  }
+
+  // Fainted Pokemon and Pokemon that already have a major status are skipped
+  message ApplyStatus {
+    enum Status {
+      NONE = 0;
+      // major
+      SLEEP = 1;
+      POISON = 2;
+      TOXIC = 3;
+      BURN = 4;
+      PARALYSIS = 5;
+      FROSTBITE = 6;
+      BLEED = 7;
+      // volatile, EVENT_MON, TRAINER_MON or PLAYER_MON only
+      CONFUSION = 8;
+      CURSE = 9;
+      SALT_CURE = 10;
+      ATTRACT = 11;
+      DRENCH = 12;
+    }
+    Status status = 1;
+    // Pokemon on the field go through the usual immunities (type, ability, Safeguard, terrain...) and
+    // messages. The benched ones of a party only skip their types' immunity and are changed silently
+    Target target = 2;
+    // *_PARTY targets only
+    PartySlots slots = 3;
   }
 
   message StatChange {
@@ -183,5 +349,7 @@ message InlineSkill {
     repeated Stat stat = 1;
     // goes from -6 to +6, negative applies debuff
     int32 amount = 2;
+    // EVENT_MON, TRAINER_MON or PLAYER_MON
+    Target target = 3;
   }
 }
