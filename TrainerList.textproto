@@ -2670,6 +2670,7 @@ trainer {
       move: MOVE_GIGA_IMPACT
       move: MOVE_PROTECT
     }
+    inline_skill { extra_ability: ABILITY_FILTER }
   }
 }
 trainer {
@@ -3405,6 +3406,7 @@ trainer {
       move: MOVE_NIGHT_SLASH
       move: MOVE_RAPID_RIVER
     }
+    inline_skill { extra_ability: ABILITY_SMOKEY_MANEUVERS }
   }
 }
 trainer {
@@ -9149,6 +9151,8 @@ trainer {
       move: MOVE_CUT
       move: MOVE_DIRE_CLAW
     }
+    inline_skill { extra_ability: ABILITY_ACCELERATE }
+    inline_skill { extra_ability: ABILITY_ANALYTIC }
   }
 }
 trainer {
@@ -10862,6 +10866,7 @@ trainer {
       move: MOVE_SHADOW_CLAW
       move: MOVE_PLAY_ROUGH
     }
+    inline_skill { extra_ability: ABILITY_COMATOSE }
   }
 }
 trainer {
@@ -24342,6 +24347,7 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_ability: ABILITY_KNOW_YOUR_PLACE }
   }
 }
 trainer {
@@ -24484,6 +24490,8 @@ trainer {
       move: MOVE_HYPER_BEAM
       move: MOVE_MYSTIC_DANCE
     }
+    inline_skill { extra_ability: ABILITY_WEATHER_DOUBLE_BOOST }
+    inline_skill { extra_ability: ABILITY_SUN_WORSHIP }
   }
 }
 trainer {
@@ -24625,6 +24633,7 @@ trainer {
       move: MOVE_WHIRLPOOL
       move: MOVE_MIRROR_COAT
     }
+    inline_skill { extra_ability: ABILITY_STICKY_HOLD }
   }
 }
 trainer {
@@ -25141,6 +25150,7 @@ trainer {
       move: MOVE_NIGHT_SLASH
       move: MOVE_X_SCISSOR
     }
+    inline_skill { extra_ability: ABILITY_REGENERATOR }
   }
 }
 trainer {
@@ -38074,6 +38084,9 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_DRAGON_DANCE
     }
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill { extra_ability: ABILITY_PRESSURE }
+    inline_skill { extra_ability: ABILITY_SHED_SKIN }
   }
 }
 trainer {
@@ -38581,6 +38594,7 @@ trainer {
       move: MOVE_SEISMIC_FIST
       move: MOVE_THUNDER_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_OLE }
   }
 }
 trainer {
@@ -46915,6 +46929,7 @@ trainer {
       move: MOVE_DRAGON_RAGE
       move: MOVE_EMBER
     }
+    inline_skill { extra_ability: ABILITY_UNNERVE }
   }
 }
 trainer {
@@ -50133,6 +50148,7 @@ trainer {
       move: MOVE_BOUNCE
       move: MOVE_AQUA_JET
     }
+    inline_skill { extra_ability: ABILITY_SUPER_LUCK }
   }
 }
 trainer {
@@ -59600,6 +59616,7 @@ trainer {
       move: MOVE_CROSS_CHOP
       move: MOVE_ACROBATICS
     }
+    inline_skill { extra_ability: ABILITY_SCRAPPY }
   }
 }
 trainer {
@@ -61628,6 +61645,8 @@ trainer {
       move: MOVE_AIR_SLASH
       move: MOVE_QUIVER_DANCE
     }
+    inline_skill { extra_ability: ABILITY_COMATOSE }
+    inline_skill { extra_ability: ABILITY_SWEET_DREAMS }
   }
 }
 trainer {
@@ -61770,6 +61789,7 @@ trainer {
       move: MOVE_TOXIC_NEEDLES
       move: MOVE_SPIKE_CANNON
     }
+    inline_skill { extra_ability: ABILITY_MYSTIC_POWER }
   }
 }
 trainer {
@@ -65895,6 +65915,7 @@ trainer {
       move: MOVE_SECRET_POWER
       hidden_power_type: TYPE_FIRE
     }
+    inline_skill { extra_ability: ABILITY_FLASH_FIRE }
   }
 }
 trainer {
@@ -82558,6 +82579,7 @@ trainer {
       move: MOVE_ACCELEROCK
       move: MOVE_PIXIE_SLASH
     }
+    inline_skill { extra_ability: ABILITY_SWORD_OF_RUIN }
   }
 }
 trainer {
@@ -86808,6 +86830,7 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ELECTRIC
     }
+    inline_skill { extra_ability: ABILITY_CUTE_CHARM }
   }
 }
 trainer {
@@ -91231,6 +91254,8 @@ trainer {
       move: MOVE_BODY_PRESS
       move: MOVE_DRACO_METEOR
     }
+    inline_skill { extra_ability: ABILITY_VOLT_ABSORB }
+    inline_skill { extra_ability: ABILITY_WATER_ABSORB }
   }
 }
 trainer {
@@ -92760,6 +92785,7 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_FLAIL
     }
+    inline_skill { extra_ability: ABILITY_INNARDS_OUT }
   }
 }
 trainer {
@@ -100921,6 +100947,7 @@ trainer {
       move: MOVE_VENOM_BOLT
     }
     skill: SKILL_PERMANENT_RAINBOW
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -101498,6 +101525,7 @@ trainer {
       move: MOVE_AQUA_STEP
       move: MOVE_BLIZZARD
     }
+    inline_skill { extra_ability: ABILITY_MOUNTAINEER }
   }
 }
 trainer {
@@ -109016,6 +109044,7 @@ trainer {
       move: MOVE_WEATHER_BALL
       move: MOVE_SONIC_BOOM
     }
+    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA }
   }
 }
 trainer {
@@ -110440,6 +110469,7 @@ trainer {
       move: MOVE_CROSS_POISON
       move: MOVE_TAKE_FLIGHT
     }
+    inline_skill { extra_ability: ABILITY_TRICKSTER }
   }
 }
 trainer {
@@ -110825,6 +110855,7 @@ trainer {
       move: MOVE_SECRET_POWER
       hidden_power_type: TYPE_DARK
     }
+    inline_skill { extra_ability: ABILITY_EMPERORS_WRATH }
   }
 }
 trainer {
