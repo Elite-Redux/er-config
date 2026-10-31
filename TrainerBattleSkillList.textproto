@@ -94,14 +94,6 @@ trainer_skill {
     }
 }
 trainer_skill {
-    trainer_id: TRAINER_WINSTON_1
-    skill {
-        # Says "A mon switches", not sure if this is any mon switching or only when player or trainer mon switches
-        skill_id: SKILL_ON_SWITCH_MOVE_PAYDAY
-        target { all {} }
-    }
-}
-trainer_skill {
     trainer_id: TRAINER_GINA_AND_MIA_1
     skill {
         skill_id: SKILL_EXTRA_ABILITY_FLASH_FIRE
@@ -144,13 +136,6 @@ trainer_skill {
     }
     skill {
         skill_id: SKILL_PLAYER_BLEED
-        target { last_n { n: 2 } }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_MARC
-    skill {
-        skill_id: SKILL_ON_ENTRY_OMNIBOOST_2
         target { last_n { n: 2 } }
     }
 }
@@ -325,10 +310,6 @@ trainer_skill {
         skill_id: SKILL_EXTRA_ABILITY_SWEET_DREAMS
         target { all {} }
     }
-    skill {
-        skill_id: SKILL_ON_HIT_DEFENDER_SLEEP_ATTACKER
-        target { all {} }
-    }
 }
 trainer_skill {
     trainer_id: TRAINER_DOMINIK
@@ -368,10 +349,6 @@ trainer_skill {
     }
     skill {
         skill_id: SKILL_PLAYER_SUPPRESS_ABILITIES_AFTER_2_TURNS
-        target { all {} }
-    }
-    skill {
-        skill_id: SKILL_HALF_HP_SPEED_UP_1
         target { all {} }
     }
 }
@@ -867,10 +844,6 @@ trainer_skill {
     trainer_id: TRAINER_DAVID
     skill {
         skill_id: SKILL_EXTRA_ABILITY_REGENERATOR
-        target { all {} }
-    }
-    skill {
-        skill_id: SKILL_ON_END_EVERY_2_TURNS_MOVE_TELEPORT
         target { all {} }
     }
 }
@@ -1419,13 +1392,6 @@ trainer_skill {
         target { all {} }
     }
 }
-trainer_skill {
-    trainer_id: TRAINER_ROSE_1
-    skill {
-        skill_id: SKILL_ON_END_TURN_PLAYER_LOWER_HIGHEST_ATTACK
-        target { all {} }
-    }
-}
 # ==== Route 117 ====
 trainer_skill {
     trainer_id: TRAINER_DEREK
@@ -1480,13 +1446,6 @@ trainer_skill {
     trainer_id: TRAINER_BRANDI
     skill {
         skill_id: SKILL_EXTRA_ABILITY_PSYCHIC_SURGE
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_MELINA
-    skill {
-        skill_id: SKILL_PERMANENT_TAILWIND
         target { all {} }
     }
 }

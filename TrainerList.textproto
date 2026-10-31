@@ -7610,6 +7610,11 @@ trainer {
       move: MOVE_ATTRACT
       move: MOVE_TECTONIC_FANGS
     }
+    inline_skill {
+      name: "Wilting Scent"
+      announce_string: "{B_TRAINER1_NAME}'s flowers weaken\\nyour Pokémon!"
+      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: -1 target: PLAYER_MON } } }
+    }
   }
 }
 trainer {
@@ -11955,6 +11960,11 @@ trainer {
       move: MOVE_HEADBUTT
       move: MOVE_WATERFALL
       move: MOVE_LOVELY_BITE
+    }
+    inline_skill {
+      name: "Mud Sport"
+      announce_string: "{B_TRAINER1_NAME} covered the\\nfield in mud!"
+      on { battle_start {} effect { field { type: MUD_SPORT permanent: true } } }
     }
   }
 }
@@ -22311,6 +22321,11 @@ trainer {
       move: MOVE_SLEEP_POWDER
       move: MOVE_HURRICANE
     }
+    inline_skill {
+      name: "Pay Day"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon greets\\nyour Pokémon with coins!"
+      on { entry {} side: PLAYER effect { use_move { move: MOVE_PAY_DAY } } }
+    }
   }
 }
 trainer {
@@ -25191,6 +25206,11 @@ trainer {
     }
     inline_skill {
       extra_ability: ABILITY_REGENERATOR
+    }
+    inline_skill {
+      name: "Teleport"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblinks away!"
+      on { end_turn { every: 2 } effect { use_move { move: MOVE_TELEPORT } } }
     }
   }
 }
@@ -47577,6 +47597,11 @@ trainer {
       move: MOVE_FLIP_TURN
       move: MOVE_ICE_SPINNER
     }
+    inline_skill {
+      name: "Hot Start"
+      announce_string: "Both teams' leading Pokémon\\nare set ablaze!"
+      on { battle_start {} effect { status { status: BURN target: BOTH_PARTIES slots { first: 3 } } } }
+    }
   }
 }
 trainer {
@@ -61583,6 +61608,11 @@ trainer {
       move: MOVE_ICE_BEAM
       move: MOVE_REVIVAL_BLESSING
     }
+    inline_skill {
+      name: "Second Wind"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up as it weakens!"
+      on { hit {} hp_below: 50 once: PER_POKEMON effect { stat_change { stat: STAT_SPEED amount: 1 } } }
+    }
   }
 }
 trainer {
@@ -61730,6 +61760,11 @@ trainer {
     }
     inline_skill {
       extra_ability: ABILITY_SWEET_DREAMS
+    }
+    inline_skill {
+      name: "Lullaby"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nlulls its attacker to sleep!"
+      on { hit {} effect { status { status: SLEEP target: PLAYER_MON } } }
     }
   }
 }
@@ -104081,6 +104116,11 @@ trainer {
       move: MOVE_MEGAHORN
       move: MOVE_EARTHQUAKE
       move: MOVE_SWORDS_DANCE
+    }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
     }
   }
 }
