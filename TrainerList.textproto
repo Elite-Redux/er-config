@@ -32098,6 +32098,11 @@ trainer {
       move: MOVE_PECK
       move: MOVE_POP_MAYHEM
     }
+    inline_skill {
+      name: "Fiery Focus"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsharpens its attack!"
+      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } } }
+    }
   }
 }
 trainer {
@@ -46446,6 +46451,7 @@ trainer {
       move: MOVE_ROCK_SLIDE
       move: MOVE_ASTONISH
     }
+    inline_skill { extra_ability: ABILITY_UNNERVE }
   }
 }
 trainer {
@@ -50503,6 +50509,11 @@ trainer {
       move: MOVE_MUDDY_WATER
       move: MOVE_TWISTER
       move: MOVE_BRINE
+    }
+    inline_skill {
+      name: "Mean Look"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwon't let you go!"
+      on { entry {} effect { use_move { move: MOVE_MEAN_LOOK } } }
     }
   }
 }
@@ -66369,6 +66380,11 @@ trainer {
       move: MOVE_PARABOLIC_CHARGE
       move: MOVE_MUDDY_WATER
       move: MOVE_WEATHER_BALL
+    }
+    inline_skill {
+      name: "Bubble"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblows a bubble!"
+      on { entry {} effect { use_move { move: MOVE_BUBBLE power: 10 } } }
     }
   }
 }
@@ -83421,6 +83437,11 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_QUIVER_DANCE
       move: MOVE_GIGA_DRAIN
+    }
+    inline_skill {
+      name: "Peak Form"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplays to its strengths!"
+      on { entry {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 1 } } }
     }
   }
 }

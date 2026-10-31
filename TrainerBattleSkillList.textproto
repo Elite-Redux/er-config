@@ -438,13 +438,6 @@ trainer_skill {
 }
 # ==== Route 106 ====
 trainer_skill {
-    trainer_id: TRAINER_ELLIOT_1
-    skill {
-        skill_id: SKILL_ON_ENTRY_MOVE_MEAN_LOOK
-        target { all {} }
-    }
-}
-trainer_skill {
     trainer_id: TRAINER_NED
     skill {
         skill_id: SKILL_PERMANENT_RAIN
@@ -824,13 +817,6 @@ trainer_skill {
     trainer_id: TRAINER_AUSTINA
     skill {
         skill_id: SKILL_EXTRA_ABILITY_TECHNICIAN
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_EDMOND
-    skill {
-        skill_id: SKILL_ON_ENTRY_MOVE_BUBBLE_10_BP
         target { all {} }
     }
 }
