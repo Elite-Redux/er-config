@@ -21185,12 +21185,12 @@ species {
   spatk: 45
   spdef: 65
   spe: 55
-  ability: ABILITY_PRANKSTER
+  ability: ABILITY_PROTEAN
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_UNAWARE
   innate: ABILITY_FLUFFY
   innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_PRANKSTER
   percent_female: 12.5
   tier: 4
   evo {
@@ -73143,7 +73143,7 @@ species {
   spe: 50
   ability: ABILITY_TANGLING_HAIR
   ability: ABILITY_BATTLE_ARMOR
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_RAIN_DISH
   innate: ABILITY_REGENERATOR
   innate: ABILITY_SEAWEED
   innate: ABILITY_SELF_SUFFICIENT
@@ -134843,10 +134843,10 @@ species {
   spdef: 70
   spe: 123
   ability: ABILITY_MAGICIAN
-  ability: ABILITY_MAGIC_BOUNCE
+  ability: ABILITY_PROTEAN
   ability: ABILITY_MAGIC_GUARD
   innate: ABILITY_OVERGROW
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_MAGIC_BOUNCE
   innate: ABILITY_LONG_REACH
   percent_female: 12.5
   learnset {
@@ -186147,12 +186147,12 @@ species {
   spatk: 148
   spdef: 102
   spe: 71
-  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_UNNERVE
   ability: ABILITY_VITAL_SPIRIT
   ability: ABILITY_WARMONGER
   innate: ABILITY_BRAWLING_WYVERN
   innate: ABILITY_MAGICAL_FISTS
-  innate: ABILITY_UNNERVE
+  innate: ABILITY_MULTISCALE
   percent_female: 25
   mega {
     from: SPECIES_MACHAMP_REDUX
@@ -186279,7 +186279,7 @@ species {
   ability: ABILITY_HAUNTING_FRENZY
   ability: ABILITY_HAUNTING_FRENZY
   innate: ABILITY_KEEN_EDGE
-  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_HAUNTED_SPIRIT
   innate: ABILITY_SOUL_EATER
   percent_female: 50
   mega {
@@ -187448,7 +187448,7 @@ species {
   ability: ABILITY_WATER_GALE_WINGS
   ability: ABILITY_DEFIANT
   innate: ABILITY_NIKA
-  innate: ABILITY_RAGING_BOXER
+  innate: ABILITY_WATER_VEIL
   innate: ABILITY_RIPTIDE
   percent_female: 50
   mega {
@@ -188959,10 +188959,10 @@ species {
   spatk: 120
   spdef: 110
   spe: 50
-  ability: ABILITY_PRANKSTER
+  ability: ABILITY_PROTEAN
   ability: ABILITY_SCRAPPY
   ability: ABILITY_FRIEND_GUARD
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_PRANKSTER
   innate: ABILITY_PRIM_AND_PROPER
   innate: ABILITY_FLUFFIEST
   percent_female: 12.5
@@ -205075,7 +205075,7 @@ species {
   ability: ABILITY_REGENERATOR
   ability: ABILITY_MARVEL_SCALE
   ability: ABILITY_IMPENETRABLE
-  innate: ABILITY_UNNERVE
+  innate: ABILITY_INTIMIDATE
   innate: ABILITY_ROUGH_SKIN
   innate: ABILITY_JUGGERNAUT
   percent_female: 25
@@ -206186,7 +206186,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_PHANTOM_FORCE
       move: MOVE_WAVE_CRASH
     }
@@ -206301,7 +206300,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_PHANTOM_FORCE
       move: MOVE_WAVE_CRASH
     }
@@ -206375,7 +206373,7 @@ species {
   spdef: 95
   spe: 110
   ability: ABILITY_PREDATOR
-  ability: ABILITY_SEA_GUARDIAN
+  ability: ABILITY_WATER_VEIL
   ability: ABILITY_FATAL_PRECISION
   innate: ABILITY_HYDRATION
   innate: ABILITY_KEEN_EDGE
@@ -206411,7 +206409,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_DUAL_CHOP
       move: MOVE_FROST_BRAND
       move: MOVE_PHANTOM_FORCE
@@ -211324,7 +211321,7 @@ species {
   ability: ABILITY_BLITZ_BOXER
   ability: ABILITY_WATER_VEIL
   ability: ABILITY_WATER_GALE_WINGS
-  innate: ABILITY_IRON_FIST
+  innate: ABILITY_OBLIVIOUS
   innate: ABILITY_LONG_REACH
   innate: ABILITY_INFLATABLE
   percent_female: 50
