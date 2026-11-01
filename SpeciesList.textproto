@@ -153824,13 +153824,14 @@ species {
       path: "granitun/front"
       coords {
         size: 135
-        y_offset: 4
+        y_offset: 1
       }
     }
     back {
       path: "granitun/back"
       coords {
         size: 103
+        y_offset: 1
       }
     }
     palette: "granitun/normal"
@@ -153949,6 +153950,7 @@ species {
       path: "fujiflap/back"
       coords {
         size: 103
+        y_offset: 2
       }
     }
     palette: "fujiflap/normal"
@@ -154255,6 +154257,7 @@ species {
       path: "luminositeon/back"
       coords {
         size: 120
+        y_offset: 13
       }
     }
     palette: "luminositeon/normal"
@@ -184307,14 +184310,14 @@ species {
       path: "kingdra/mega/front"
       coords {
         size: 136
-        y_offset: 1
+        elevation: 5
       }
     }
     back {
       path: "kingdra/mega/back"
       coords {
         size: 136
-        y_offset: 2
+        y_offset: 7
       }
     }
     palette: "kingdra/mega/normal"
@@ -185239,14 +185242,13 @@ species {
   visuals {
     icon {
       path: "amicabull/icon"
-      palette: 3
     }
     front {
       path: "amicabull/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 2
       }
     }
     back {
@@ -185254,7 +185256,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "amicabull/normal"
@@ -199204,7 +199205,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 6
       }
     }
     back {
@@ -199212,7 +199213,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 6
       }
     }
     palette: "bagon/redux/normal"
@@ -199349,7 +199350,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 10
       }
     }
     back {
@@ -199357,7 +199358,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 12
       }
     }
     palette: "shelgon/redux/normal"
@@ -199497,7 +199498,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -199505,7 +199506,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "salamence/redux/normal"
@@ -199649,7 +199650,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -199657,7 +199658,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 4
       }
     }
     palette: "salamence/mega_redux/normal"
@@ -199707,7 +199708,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
+        elevation: 1
       }
     }
     back {
@@ -199715,7 +199717,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "beldum/redux/normal"
@@ -199843,7 +199844,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 11
+        elevation: 1
       }
     }
     back {
@@ -199851,7 +199853,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "metang/redux/normal"
@@ -199979,7 +199980,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
       }
     }
     back {
@@ -199987,7 +199988,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "metagross/redux/normal"
@@ -200119,7 +200119,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
+        elevation: 2
       }
     }
     back {
@@ -200127,7 +200128,6 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
       }
     }
     palette: "metagross/mega_redux/normal"
@@ -200253,7 +200253,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 12
+        elevation: 1
       }
     }
     back {
@@ -200407,7 +200408,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 2
       }
     }
     back {
@@ -200415,7 +200416,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 6
       }
     }
     palette: "pelipper/redux/normal"
@@ -200574,7 +200575,8 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 3
+        elevation: 8
       }
     }
     back {
@@ -200582,7 +200584,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 5
       }
     }
     palette: "cauldrican/normal"
@@ -200730,7 +200732,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 6
       }
     }
     palette: "numberg/normal"
@@ -200871,7 +200873,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 5
       }
     }
     back {
@@ -200879,7 +200881,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 6
       }
     }
     palette: "cameberg/normal"
@@ -201020,7 +201022,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        elevation: 1
       }
     }
     back {
@@ -201028,7 +201030,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 9
       }
     }
     palette: "maniberg/normal"
@@ -201188,7 +201190,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -201354,7 +201356,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 8
       }
     }
     back {
@@ -201362,7 +201364,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 3
       }
     }
     palette: "camoudon/normal"
@@ -201735,7 +201737,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 13
+        y_offset: 1
       }
     }
     back {
@@ -201743,7 +201745,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 8
       }
     }
     palette: "clawedmimic/normal"
