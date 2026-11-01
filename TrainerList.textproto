@@ -31037,7 +31037,6 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_MALE
   ace {
     mon {
-      nonstandard: "Invalid moves: [MOVE_TOXIC]"
       species: SPECIES_SLOWBRO
       item: ITEM_LEFTOVERS
       nature: NATURE_RELAXED
@@ -31052,19 +31051,18 @@ trainer {
       move: MOVE_TOXIC
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_FIRE_PUNCH]"
       species: SPECIES_KECLEON
       item: ITEM_ASSAULT_VEST
       nature: NATURE_BRAVE
-      ability: ABILITY_DEFEATIST
+      ability: ABILITY_ANALYTIC
       hp_ev: 252
       atk_ev: 252
       def_ev: 4
       iron_pill: true
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_AVALANCHE
       move: MOVE_RETURN
       move: MOVE_FIRE_PUNCH
-      move: MOVE_TRICK_ROOM
+      move: MOVE_PSYCHIC_NOISE
     }
     mon {
       species: SPECIES_SANDSLASH_ALOLAN
@@ -31577,7 +31575,7 @@ trainer {
       species: SPECIES_SAWSBUCK_SUMMER
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_SKILL_LINK
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31590,7 +31588,7 @@ trainer {
       species: SPECIES_SAWSBUCK_AUTUMN
       item: ITEM_ASSAULT_VEST
       nature: NATURE_JOLLY
-      ability: ABILITY_CHLOROPHYLL
+      ability: ABILITY_SCRAPPY
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31603,7 +31601,7 @@ trainer {
       species: SPECIES_SAWSBUCK_WINTER
       item: ITEM_CHOICE_BAND
       nature: NATURE_JOLLY
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_THICK_FAT
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31616,7 +31614,7 @@ trainer {
       species: SPECIES_SAWSBUCK
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_SKILL_LINK
+      ability: ABILITY_RUN_AWAY
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -94284,14 +94282,14 @@ trainer {
       species: SPECIES_KECLEON
       item: ITEM_LIFE_ORB
       nature: NATURE_ADAMANT
-      ability: ABILITY_KLUTZ
+      ability: ABILITY_ANALYTIC
       hp_ev: 252
       atk_ev: 252
       spe_ev: 4
-      move: MOVE_ASTONISH
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_RECOVER
+      move: MOVE_PSYCHIC
       move: MOVE_SHADOW_SNEAK
-      move: MOVE_HEADBUTT
+      move: MOVE_ENERGY_WAVE
     }
     mon {
       species: SPECIES_RILLABOOM
@@ -112128,13 +112126,13 @@ trainer {
       species: SPECIES_KECLEON
       item: ITEM_TOXIC_ORB
       nature: NATURE_BRAVE
-      ability: ABILITY_KLUTZ
+      ability: ABILITY_PRANKSTER
       hp_ev: 4
       atk_ev: 252
       spdef_ev: 252
       move: MOVE_TRICK
       move: MOVE_METRONOME
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_SHADOW_SNEAK
       move: MOVE_FAKE_OUT
     }
     mon {
