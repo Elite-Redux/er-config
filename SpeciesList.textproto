@@ -33140,6 +33140,7 @@ species {
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
+    tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DIG
     tutor: MOVE_EARTHQUAKE
@@ -33156,7 +33157,7 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_PURSUIT
   }
   visuals {
     icon {
@@ -33233,6 +33234,10 @@ species {
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_GUTS
   percent_female: 75
+  evo {
+    to: SPECIES_AMICABULL
+    level: 50
+  }
   learnset {
     level {
       level: 1
@@ -33288,6 +33293,7 @@ species {
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
+    tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DIG
     tutor: MOVE_EARTHQUAKE
@@ -33304,7 +33310,7 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_CRUSH_CLAW
+    tutor: MOVE_PURSUIT
   }
   visuals {
     icon {
@@ -185151,6 +185157,7 @@ species {
       move: MOVE_STAR_CRASH
       move: MOVE_STOMPING_TANTRUM
       move: MOVE_SWAGGER
+      move: MOVE_REVENGE
     }
     level {
       level: 37
