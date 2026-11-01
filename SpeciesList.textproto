@@ -185163,7 +185163,7 @@ species {
   innate: ABILITY_FEARLESS
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_THICK_FAT
-  percent_female: 50
+  percent_female: 75
   tier: 3
   learnset {
     level {

@@ -27756,6 +27756,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_MACH_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_TRANSISTOR }
   }
 }
 trainer {
@@ -28216,6 +28217,7 @@ trainer {
       move: MOVE_PARABOLIC_CHARGE
       hidden_power_type: TYPE_ICE
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -33170,6 +33172,7 @@ trainer {
       move: MOVE_X_SCISSOR
       move: MOVE_SUCKER_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_TINTED_LENS }
   }
 }
 trainer {
@@ -34409,6 +34412,7 @@ trainer {
       move: MOVE_THUNDER
       move: MOVE_QUIVER_DANCE
     }
+    inline_skill { extra_ability: ABILITY_GIFTED_MIND }
   }
 }
 trainer {
@@ -39154,6 +39158,7 @@ trainer {
       move: MOVE_WEB_SHOT
       move: MOVE_SPARKLING_BARRAGE
     }
+    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
   }
 }
 trainer {
@@ -43156,6 +43161,7 @@ trainer {
       move: MOVE_JAW_LOCK
       move: MOVE_ICE_FANG
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -43667,6 +43673,8 @@ trainer {
       move: MOVE_MYSTIC_DANCE
       move: MOVE_AURA_SPHERE
     }
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill { extra_ability: ABILITY_INNER_FOCUS }
   }
 }
 trainer {
@@ -43890,6 +43898,7 @@ trainer {
       move: MOVE_EXTRASENSORY
       move: MOVE_SHADOW_BALL
     }
+    inline_skill { extra_ability: ABILITY_PRETTY_PRINCESS }
   }
 }
 trainer {
@@ -44418,6 +44427,9 @@ trainer {
       move: MOVE_LAST_RESPECTS
       move: MOVE_WILL_O_WISP
     }
+    inline_skill { extra_ability: ABILITY_GRASS_PELT }
+    inline_skill { extra_ability: ABILITY_FLOURISH }
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
   }
 }
 trainer {
@@ -44988,6 +45000,7 @@ trainer {
       move: MOVE_ENERGY_BALL
       move: MOVE_FOCUS_BLAST
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -47778,6 +47791,7 @@ trainer {
       move: MOVE_GIGA_DRAIN
       move: MOVE_SHADOW_BALL
     }
+    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
   }
 }
 trainer {
@@ -52273,6 +52287,7 @@ trainer {
       move: MOVE_STONE_EDGE
       move: MOVE_KOWTOW_CLEAVE
     }
+    inline_skill { extra_ability: ABILITY_GUARD_DOG }
   }
 }
 trainer {
@@ -53819,6 +53834,7 @@ trainer {
       move: MOVE_ZEN_HEADBUTT
       move: MOVE_ICE_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_MOMENTUM }
   }
 }
 trainer {
@@ -54222,6 +54238,7 @@ trainer {
       move: MOVE_SKY_UPPERCUT
       move: MOVE_DIZZY_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_IMPULSE }
   }
 }
 trainer {
@@ -72164,6 +72181,7 @@ trainer {
       move: MOVE_AIR_SLASH
       move: MOVE_HYPER_BEAM
     }
+    inline_skill { extra_ability: ABILITY_HUBRIS }
   }
 }
 trainer {
@@ -73052,6 +73070,7 @@ trainer {
       move: MOVE_PSYCHO_CUT
       move: MOVE_FLUTTERING_LEAF
     }
+    inline_skill { extra_ability: ABILITY_MOXIE }
   }
 }
 trainer {
@@ -81691,6 +81710,8 @@ trainer {
       move: MOVE_ICE_SPINNER
       move: MOVE_COMBAT_TORQUE
     }
+    inline_skill { extra_ability: ABILITY_BIOFILM }
+    inline_skill { extra_ability: ABILITY_POISON_ABSORB }
   }
 }
 trainer {
@@ -93611,6 +93632,7 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_DRACO_METEOR
     }
+    inline_skill { extra_ability: ABILITY_MOLD_BREAKER }
   }
 }
 trainer {
@@ -93807,6 +93829,7 @@ trainer {
       move: MOVE_THUNDER_PUNCH
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_ability: ABILITY_SPEED_BOOST }
   }
 }
 trainer {
@@ -94214,6 +94237,7 @@ trainer {
       move: MOVE_SLUDGE_BOMB
       move: MOVE_NASTY_PLOT
     }
+    inline_skill { extra_ability: ABILITY_LONG_REACH }
   }
 }
 trainer {
@@ -96728,6 +96752,7 @@ trainer {
       move: MOVE_FIRE_PUNCH
       move: MOVE_METEOR_MASH
     }
+    inline_skill { extra_ability: ABILITY_GALLANTRY }
   }
 }
 trainer {
@@ -104253,6 +104278,7 @@ trainer {
       move: MOVE_AURA_SPHERE
       move: MOVE_CALM_MIND
     }
+    inline_skill { extra_ability: ABILITY_PSYCHIC_SURGE }
   }
 }
 trainer {
@@ -104463,6 +104489,7 @@ trainer {
       move: MOVE_ZAP_CANNON
       hidden_power_type: TYPE_FLYING
     }
+    inline_skill { extra_ability: ABILITY_HYPER_AGGRESSIVE }
   }
 }
 trainer {
@@ -107808,6 +107835,7 @@ trainer {
       move: MOVE_CUT
       move: MOVE_AIR_CUTTER
     }
+    inline_skill { extra_ability: ABILITY_POWER_SPOT }
   }
 }
 trainer {
@@ -109338,6 +109366,8 @@ trainer {
       move: MOVE_CALM_MIND
       move: MOVE_LEECH_SEED
     }
+    inline_skill { extra_ability: ABILITY_TRIAGE }
+    inline_skill { extra_ability: ABILITY_DAZZLING }
   }
 }
 trainer {
