@@ -21185,12 +21185,12 @@ species {
   spatk: 45
   spdef: 65
   spe: 55
-  ability: ABILITY_PRANKSTER
+  ability: ABILITY_PROTEAN
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_UNAWARE
   innate: ABILITY_FLUFFY
   innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_PRANKSTER
   percent_female: 12.5
   tier: 4
   evo {
@@ -33069,7 +33069,6 @@ species {
     pokemon_offset: 19
   }
   type: TYPE_FAIRY
-  type2: TYPE_GROUND
   hp: 60
   atk: 90
   def: 50
@@ -33078,7 +33077,7 @@ species {
   spe: 50
   ability: ABILITY_CUTE_CHARM
   ability: ABILITY_COWARD
-  ability: ABILITY_DEVIATE
+  ability: ABILITY_GUTS
   innate: ABILITY_INTIMIDATE
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_OPPORTUNIST
@@ -33220,7 +33219,6 @@ species {
     pokemon_offset: 4
   }
   type: TYPE_FAIRY
-  type2: TYPE_GROUND
   hp: 90
   atk: 120
   def: 75
@@ -33228,11 +33226,11 @@ species {
   spdef: 60
   spe: 45
   ability: ABILITY_COWARD
-  ability: ABILITY_QUICK_FEET
-  ability: ABILITY_DEVIATE
+  ability: ABILITY_CUTE_CHARM
+  ability: ABILITY_GUTS
   innate: ABILITY_INTIMIDATE
   innate: ABILITY_STRONG_JAW
-  innate: ABILITY_GUTS
+  innate: ABILITY_RATTLED
   percent_female: 75
   evo {
     to: SPECIES_AMICABULL
@@ -35469,7 +35467,7 @@ species {
   ability: ABILITY_SLUSH_RUSH
   innate: ABILITY_THICK_FAT
   innate: ABILITY_MAGIC_BOUNCE
-  innate: ABILITY_AERILATE
+  innate: ABILITY_OWN_TEMPO
   percent_female: 50
   tier: 1
   evo {
@@ -49192,12 +49190,12 @@ species {
   spatk: 47
   spdef: 85
   spe: 115
-  ability: ABILITY_POLLINATE
-  ability: ABILITY_TINTED_LENS
-  ability: ABILITY_PRANKSTER
-  innate: ABILITY_SWARM
-  innate: ABILITY_RECKLESS
-  innate: ABILITY_ELECTROCYTES
+  ability: ABILITY_TECHNICIAN
+  ability: ABILITY_SHIELD_DUST
+  ability: ABILITY_POWER_SPOT
+  innate: ABILITY_PRANKSTER
+  innate: ABILITY_OVERCOAT
+  innate: ABILITY_GALVANIZE
   percent_female: 0
   tier: 2
   learnset {
@@ -49355,7 +49353,7 @@ species {
   spatk: 93
   spdef: 90
   spe: 105
-  ability: ABILITY_SWARM
+  ability: ABILITY_PIXILATE
   ability: ABILITY_TINTED_LENS
   ability: ABILITY_FRIEND_GUARD
   innate: ABILITY_PRANKSTER
@@ -53077,7 +53075,7 @@ species {
   ability: ABILITY_DREAMCATCHER
   innate: ABILITY_LEVITATE
   innate: ABILITY_STURDY
-  innate: ABILITY_LUNAR_ECLIPSE
+  innate: ABILITY_MOON_SPIRIT
   genderless: true
   tier: 3
   learnset {
@@ -55586,12 +55584,12 @@ species {
   spatk: 60
   spdef: 120
   spe: 40
-  ability: ABILITY_DEFEATIST
-  ability: ABILITY_RECEIVER
-  ability: ABILITY_KLUTZ
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_ANALYTIC
+  ability: ABILITY_WONDER_SKIN
   innate: ABILITY_COLOR_CHANGE
-  innate: ABILITY_PROTEAN
-  innate: ABILITY_CHEAP_TACTICS
+  innate: ABILITY_MYSTIC_POWER
+  innate: ABILITY_EQUINOX
   percent_female: 50
   tier: 4
   learnset {
@@ -55605,11 +55603,12 @@ species {
     }
     level {
       level: 17
-      move: MOVE_FEINT_ATTACK
       move: MOVE_HONE_CLAWS
       move: MOVE_MIMIC
       move: MOVE_SLASH
       move: MOVE_SNATCH
+      move: MOVE_TRAILBLAZE
+      move: MOVE_AVALANCHE
     }
     level {
       level: 24
@@ -55626,46 +55625,70 @@ species {
       move: MOVE_POWER_SWAP
       move: MOVE_RECOVER
       move: MOVE_STRENGTH
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_FROST_BREATH
     }
     level {
       level: 46
-      move: MOVE_ANCIENT_POWER
-      move: MOVE_FLING
-      move: MOVE_SUCKER_PUNCH
       move: MOVE_SWIFT
     }
     level {
+      level: 47
+      move: MOVE_ICE_SPINNER
+      move: MOVE_LUSTER_GLOW
+    }
+    level {
       level: 51
-      move: MOVE_CHEAP_SHOT
       move: MOVE_LAST_RESORT
+      move: MOVE_POWER_WHIP
+      move: MOVE_ASTRAL_HAND
     }
     level {
       level: 56
       move: MOVE_ENTRAINMENT
       move: MOVE_SHED_TAIL
+      move: MOVE_FIRE_LASH
     }
     level {
       level: 61
       move: MOVE_BATON_PASS
     }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COPYCAT
+    tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FEINT
-    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
-    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_REFLECT
     tutor: MOVE_REFRESH
     tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THIEF
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_METRONOME
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_FIRE_PUNCH
   }
   visuals {
     icon {
@@ -56599,7 +56622,7 @@ species {
   ability: ABILITY_AIR_BLOWER
   innate: ABILITY_LEVITATE
   innate: ABILITY_SOUNDPROOF
-  innate: ABILITY_STALWART
+  innate: ABILITY_WONDER_SKIN
   percent_female: 50
   learnset {
     level {
@@ -56782,11 +56805,11 @@ species {
   spatk: 75
   spdef: 65
   spe: 100
-  ability: ABILITY_AVENGER
+  ability: ABILITY_FOREWARN
   ability: ABILITY_EQUINOX
   ability: ABILITY_SCARE
   innate: ABILITY_SUPER_LUCK
-  innate: ABILITY_MOUNTAINEER
+  innate: ABILITY_AVENGER
   innate: ABILITY_KEEN_EDGE
   percent_female: 50
   tier: 3
@@ -73120,7 +73143,7 @@ species {
   spe: 50
   ability: ABILITY_TANGLING_HAIR
   ability: ABILITY_BATTLE_ARMOR
-  ability: ABILITY_LONG_REACH
+  ability: ABILITY_RAIN_DISH
   innate: ABILITY_REGENERATOR
   innate: ABILITY_SEAWEED
   innate: ABILITY_SELF_SUFFICIENT
@@ -75370,7 +75393,7 @@ species {
   ability: ABILITY_ELUDE
   ability: ABILITY_TRICKSTER
   innate: ABILITY_LEVITATE
-  innate: ABILITY_SPEED_BOOST
+  innate: ABILITY_FRISK
   innate: ABILITY_TRANSISTOR
   genderless: true
   tier: 3
@@ -91604,6 +91627,7 @@ species {
       level: 51
       move: MOVE_BATON_PASS
     }
+    tutor: MOVE_AGILITY
     tutor: MOVE_AROMATHERAPY
     tutor: MOVE_BERSERKER_HORN
     tutor: MOVE_BULLDOZE
@@ -91623,7 +91647,9 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_AGILITY
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_HAIL
+    tutor: MOVE_EERIE_FOG
   }
   visuals {
     icon {
@@ -91685,18 +91711,18 @@ species {
   long_name: "Sawsbuck Spring"
   type: TYPE_NORMAL
   type2: TYPE_GRASS
-  hp: 80
-  atk: 100
-  def: 70
-  spatk: 60
-  spdef: 70
-  spe: 95
-  ability: ABILITY_ADAPTABILITY
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_CHLOROPHYLL
+  hp: 92
+  atk: 109
+  def: 76
+  spatk: 70
+  spdef: 76
+  spe: 99
+  ability: ABILITY_RUN_AWAY
+  ability: ABILITY_HYDRATION
+  ability: ABILITY_GRASS_PELT
   innate: ABILITY_MIGHTY_HORN
   innate: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_ELUDE
+  innate: ABILITY_FLOWER_VEIL
   percent_female: 50
   learnset {
     level {
@@ -91735,6 +91761,7 @@ species {
       move: MOVE_HIGH_JUMP_KICK
       move: MOVE_MEGAHORN
       move: MOVE_FAIRY_SPHERES
+      move: MOVE_WOOD_HAMMER
     }
     level {
       level: 56
@@ -91744,6 +91771,7 @@ species {
       level: 61
       move: MOVE_TRIPLE_KICK
     }
+    tutor: MOVE_AGILITY
     tutor: MOVE_AROMATHERAPY
     tutor: MOVE_BERSERKER_HORN
     tutor: MOVE_BULLDOZE
@@ -91768,7 +91796,9 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_AGILITY
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_HAIL
+    tutor: MOVE_EERIE_FOG
   }
   visuals {
     icon {
@@ -96306,7 +96336,6 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_BUG
-  type2: TYPE_DARK
   hp: 80
   atk: 105
   def: 40
@@ -96318,7 +96347,7 @@ species {
   ability: ABILITY_BLUR
   innate: ABILITY_SWARM
   innate: ABILITY_PERFECTIONIST
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_INTOXICATE
   percent_female: 50
   learnset {
     level {
@@ -107411,10 +107440,10 @@ species {
   spatk: 97
   spdef: 123
   spe: 44
-  ability: ABILITY_PROTEAN
+  ability: ABILITY_HEMOLYSIS
   ability: ABILITY_CONTRARY
   ability: ABILITY_PRESSURE
-  innate: ABILITY_AQUATIC
+  innate: ABILITY_HYDRATE
   innate: ABILITY_CORROSION
   innate: ABILITY_ADAPTABILITY
   percent_female: 50
@@ -123523,12 +123552,12 @@ species {
   spatk: 65
   spdef: 75
   spe: 120
-  ability: ABILITY_KEEN_EYE
-  ability: ABILITY_FLASH_FIRE
+  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_LIBERO
   ability: ABILITY_PYROMANCY
   innate: ABILITY_BLAZE
-  innate: ABILITY_STRIKER
-  innate: ABILITY_LIBERO
+  innate: ABILITY_POWER_SHOES
+  innate: ABILITY_FLUFFY
   percent_female: 12.5
   learnset {
     level {
@@ -134814,10 +134843,10 @@ species {
   spdef: 70
   spe: 123
   ability: ABILITY_MAGICIAN
-  ability: ABILITY_MAGIC_BOUNCE
+  ability: ABILITY_PROTEAN
   ability: ABILITY_MAGIC_GUARD
   innate: ABILITY_OVERGROW
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_MAGIC_BOUNCE
   innate: ABILITY_LONG_REACH
   percent_female: 12.5
   learnset {
@@ -153829,7 +153858,7 @@ species {
   ability: ABILITY_IMMUNITY
   ability: ABILITY_OVERWHELM
   innate: ABILITY_SOUR_APPLE
-  innate: ABILITY_AERIALIST
+  innate: ABILITY_FATAL_PRECISION
   innate: ABILITY_AERODYNAMICS
   percent_female: 50
   learnset {
@@ -154120,18 +154149,18 @@ species {
   }
   type: TYPE_WATER
   type2: TYPE_FAIRY
-  hp: 83
+  hp: 91
   atk: 69
-  def: 76
-  spatk: 127
+  def: 80
+  spatk: 117
   spdef: 106
-  spe: 106
+  spe: 101
   ability: ABILITY_PROTEAN
-  ability: ABILITY_STORM_DRAIN
-  ability: ABILITY_DAZZLING
-  innate: ABILITY_HUGE_WINGS
-  innate: ABILITY_SERENE_GRACE
+  ability: ABILITY_CLEANSE
+  ability: ABILITY_WONDER_SKIN
+  innate: ABILITY_DAZZLING_WINGS
   innate: ABILITY_ILLUMINATE
+  innate: ABILITY_PHOTOKINESIS
   percent_female: 50
   learnset {
     level {
@@ -171260,18 +171289,18 @@ species {
   long_name: "Sawsbuck Summer"
   type: TYPE_NORMAL
   type2: TYPE_GRASS
-  hp: 80
-  atk: 100
-  def: 70
-  spatk: 60
-  spdef: 70
-  spe: 95
-  ability: ABILITY_ADAPTABILITY
+  hp: 92
+  atk: 109
+  def: 76
+  spatk: 70
+  spdef: 76
+  spe: 99
+  ability: ABILITY_SUN_BASKING
   ability: ABILITY_SKILL_LINK
   ability: ABILITY_CHLOROPHYLL
   innate: ABILITY_MIGHTY_HORN
   innate: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_ELUDE
+  innate: ABILITY_HEATPROOF
   percent_female: 50
   form_shift_of: SPECIES_SAWSBUCK
   visuals {
@@ -171302,15 +171331,15 @@ species {
   long_name: "Sawsbuck Autumn"
   type: TYPE_NORMAL
   type2: TYPE_GRASS
-  hp: 80
-  atk: 100
-  def: 70
-  spatk: 60
-  spdef: 70
-  spe: 95
-  ability: ABILITY_ADAPTABILITY
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_CHLOROPHYLL
+  hp: 92
+  atk: 109
+  def: 76
+  spatk: 70
+  spdef: 76
+  spe: 99
+  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_JUMP_SCARE
+  ability: ABILITY_SCRAPPY
   innate: ABILITY_MIGHTY_HORN
   innate: ABILITY_VIOLENT_RUSH
   innate: ABILITY_ELUDE
@@ -171344,18 +171373,18 @@ species {
   long_name: "Sawsbuck Winter"
   type: TYPE_NORMAL
   type2: TYPE_GRASS
-  hp: 80
-  atk: 100
-  def: 70
-  spatk: 60
-  spdef: 70
-  spe: 95
-  ability: ABILITY_ADAPTABILITY
-  ability: ABILITY_SKILL_LINK
-  ability: ABILITY_CHLOROPHYLL
+  hp: 92
+  atk: 109
+  def: 76
+  spatk: 70
+  spdef: 76
+  spe: 99
+  ability: ABILITY_THICK_FAT
+  ability: ABILITY_SNOW_CLOAK
+  ability: ABILITY_SLUSH_RUSH
   innate: ABILITY_MIGHTY_HORN
   innate: ABILITY_VIOLENT_RUSH
-  innate: ABILITY_ELUDE
+  innate: ABILITY_KEEN_EYE
   percent_female: 50
   form_shift_of: SPECIES_SAWSBUCK
   visuals {
@@ -178632,7 +178661,7 @@ species {
   spe: 90
   ability: ABILITY_EXPLOIT_WEAKNESS
   ability: ABILITY_RAGING_STORM
-  ability: ABILITY_MERCILESS
+  ability: ABILITY_VIOLENT_RUSH
   innate: ABILITY_TORRENT
   innate: ABILITY_SHELL_ARMOR
   innate: ABILITY_KEEN_EDGE
@@ -182630,7 +182659,7 @@ species {
   spatk: 142
   spdef: 163
   spe: 44
-  ability: ABILITY_PROTEAN
+  ability: ABILITY_HEMOLYSIS
   ability: ABILITY_CONTRARY
   ability: ABILITY_TOXIC_SURGE
   innate: ABILITY_WATERBORNE
@@ -183198,7 +183227,7 @@ species {
   ability: ABILITY_TALON_TRAP
   innate: ABILITY_TO_THE_BONE
   innate: ABILITY_LIGHT_METAL
-  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_STALWART
   percent_female: 50
   mega {
     from: SPECIES_SKARMORY
@@ -183370,7 +183399,7 @@ species {
   spe: 110
   ability: ABILITY_BRUTEFORCE
   ability: ABILITY_GIANT_WINGS
-  ability: ABILITY_BLUR
+  ability: ABILITY_FEARLESS
   innate: ABILITY_BIRD_OF_PREY
   innate: ABILITY_FEATHERCOAT
   innate: ABILITY_ADRENALINE_RUSH
@@ -183608,8 +183637,8 @@ species {
   ability: ABILITY_ABOMINABLE_MONSTER
   ability: ABILITY_HYPER_AGGRESSIVE
   innate: ABILITY_ICICLE_FIST
-  innate: ABILITY_ANGER_POINT
-  innate: ABILITY_ARCTIC_FUR
+  innate: ABILITY_FRISK
+  innate: ABILITY_PERMAFROST
   percent_female: 50
   mega {
     from: SPECIES_CRABOMINABLE
@@ -184253,17 +184282,17 @@ species {
   type: TYPE_WATER
   type2: TYPE_DRAGON
   hp: 75
-  atk: 105
-  def: 100
-  spatk: 145
-  spdef: 100
+  atk: 95
+  def: 115
+  spatk: 125
+  spdef: 115
   spe: 115
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SNIPER
-  ability: ABILITY_CLEAR_BODY
-  innate: ABILITY_RAGING_STORM
-  innate: ABILITY_MEGA_LAUNCHER
+  ability: ABILITY_RAIN_SHROUD
+  ability: ABILITY_STALWART
   innate: ABILITY_MULTISCALE
+  innate: ABILITY_SHARPSHOOTER
+  innate: ABILITY_DEADLY_PRECISION
   percent_female: 50
   mega {
     from: SPECIES_KINGDRA
@@ -185074,7 +185103,7 @@ species {
   ability: ABILITY_ATOMIC_BURST
   innate: ABILITY_RIPTIDE
   innate: ABILITY_PREDATOR
-  innate: ABILITY_BERSERKER_RAGE
+  innate: ABILITY_RAMPAGE
   percent_female: 50
   mega {
     from: SPECIES_FERALIGATR
@@ -185125,12 +185154,12 @@ species {
   spatk: 60
   spdef: 76
   spe: 62
-  ability: ABILITY_PERFECTIONIST
-  ability: ABILITY_PICKUP
-  ability: ABILITY_SKILL_LINK
-  innate: ABILITY_TECHNICIAN
-  innate: ABILITY_CUTE_CHARM
-  innate: ABILITY_FLUFFIEST
+  ability: ABILITY_RESTRAINING_ORDER
+  ability: ABILITY_SCARE
+  ability: ABILITY_GNAWING_AWAY
+  innate: ABILITY_FEARLESS
+  innate: ABILITY_STRONG_JAW
+  innate: ABILITY_THICK_FAT
   percent_female: 50
   tier: 3
   learnset {
@@ -186118,12 +186147,12 @@ species {
   spatk: 148
   spdef: 102
   spe: 71
-  ability: ABILITY_ROUGH_SKIN
+  ability: ABILITY_UNNERVE
   ability: ABILITY_VITAL_SPIRIT
   ability: ABILITY_WARMONGER
   innate: ABILITY_BRAWLING_WYVERN
   innate: ABILITY_MAGICAL_FISTS
-  innate: ABILITY_UNNERVE
+  innate: ABILITY_MULTISCALE
   percent_female: 25
   mega {
     from: SPECIES_MACHAMP_REDUX
@@ -186250,7 +186279,7 @@ species {
   ability: ABILITY_HAUNTING_FRENZY
   ability: ABILITY_HAUNTING_FRENZY
   innate: ABILITY_KEEN_EDGE
-  innate: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_HAUNTED_SPIRIT
   innate: ABILITY_SOUL_EATER
   percent_female: 50
   mega {
@@ -187419,7 +187448,7 @@ species {
   ability: ABILITY_WATER_GALE_WINGS
   ability: ABILITY_DEFIANT
   innate: ABILITY_NIKA
-  innate: ABILITY_RAGING_BOXER
+  innate: ABILITY_WATER_VEIL
   innate: ABILITY_RIPTIDE
   percent_female: 50
   mega {
@@ -188251,12 +188280,12 @@ species {
   spatk: 95
   spdef: 85
   spe: 140
-  ability: ABILITY_VICTORY_STAR
-  ability: ABILITY_TURBOBLAZE
-  ability: ABILITY_DEFIANT
+  ability: ABILITY_BLUR
+  ability: ABILITY_VERSATILE
+  ability: ABILITY_STRIKER
   innate: ABILITY_HELLBLAZE
-  innate: ABILITY_STRIKER
-  innate: ABILITY_LIBERO
+  innate: ABILITY_POWER_SHOES
+  innate: ABILITY_FUR_COAT
   percent_female: 12.5
   mega {
     from: SPECIES_CINDERACE
@@ -188930,10 +188959,10 @@ species {
   spatk: 120
   spdef: 110
   spe: 50
-  ability: ABILITY_PRANKSTER
+  ability: ABILITY_PROTEAN
   ability: ABILITY_SCRAPPY
   ability: ABILITY_FRIEND_GUARD
-  innate: ABILITY_PROTEAN
+  innate: ABILITY_PRANKSTER
   innate: ABILITY_PRIM_AND_PROPER
   innate: ABILITY_FLUFFIEST
   percent_female: 12.5
@@ -189022,11 +189051,11 @@ species {
   spatk: 110
   spdef: 75
   spe: 90
-  ability: ABILITY_MIRROR_ARMOR
-  ability: ABILITY_LIGHT_METAL
-  ability: ABILITY_DRACO_MORALE
-  innate: ABILITY_STEELWORKER
-  innate: ABILITY_MEGA_LAUNCHER
+  ability: ABILITY_SELF_REPAIR
+  ability: ABILITY_MEGA_LAUNCHER
+  ability: ABILITY_CLOUD_NINE
+  innate: ABILITY_HIGH_RISE
+  innate: ABILITY_STALWART
   innate: ABILITY_LONG_REACH
   percent_female: 50
   tier: 4
@@ -190653,9 +190682,9 @@ species {
   type2: TYPE_POISON
   hp: 95
   atk: 143
-  def: 98
-  spatk: 112
-  spdef: 95
+  def: 103
+  spatk: 92
+  spdef: 110
   spe: 92
   ability: ABILITY_SWAMP_THING
   ability: ABILITY_SWAMP_THING
@@ -205046,7 +205075,7 @@ species {
   ability: ABILITY_REGENERATOR
   ability: ABILITY_MARVEL_SCALE
   ability: ABILITY_IMPENETRABLE
-  innate: ABILITY_UNNERVE
+  innate: ABILITY_INTIMIDATE
   innate: ABILITY_ROUGH_SKIN
   innate: ABILITY_JUGGERNAUT
   percent_female: 25
@@ -206157,7 +206186,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_PHANTOM_FORCE
       move: MOVE_WAVE_CRASH
     }
@@ -206272,7 +206300,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_PHANTOM_FORCE
       move: MOVE_WAVE_CRASH
     }
@@ -206346,7 +206373,7 @@ species {
   spdef: 95
   spe: 110
   ability: ABILITY_PREDATOR
-  ability: ABILITY_SEA_GUARDIAN
+  ability: ABILITY_WATER_VEIL
   ability: ABILITY_FATAL_PRECISION
   innate: ABILITY_HYDRATION
   innate: ABILITY_KEEN_EDGE
@@ -206382,7 +206409,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_DRAGON_DANCE
       move: MOVE_DUAL_CHOP
       move: MOVE_FROST_BRAND
       move: MOVE_PHANTOM_FORCE
@@ -211295,7 +211321,7 @@ species {
   ability: ABILITY_BLITZ_BOXER
   ability: ABILITY_WATER_VEIL
   ability: ABILITY_WATER_GALE_WINGS
-  innate: ABILITY_IRON_FIST
+  innate: ABILITY_OBLIVIOUS
   innate: ABILITY_LONG_REACH
   innate: ABILITY_INFLATABLE
   percent_female: 50

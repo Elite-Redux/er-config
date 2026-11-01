@@ -2670,7 +2670,9 @@ trainer {
       move: MOVE_GIGA_IMPACT
       move: MOVE_PROTECT
     }
-    inline_skill { extra_ability: ABILITY_FILTER }
+    inline_skill {
+      extra_ability: ABILITY_FILTER
+    }
   }
 }
 trainer {
@@ -3406,7 +3408,9 @@ trainer {
       move: MOVE_NIGHT_SLASH
       move: MOVE_RAPID_RIVER
     }
-    inline_skill { extra_ability: ABILITY_SMOKEY_MANEUVERS }
+    inline_skill {
+      extra_ability: ABILITY_SMOKEY_MANEUVERS
+    }
   }
 }
 trainer {
@@ -9151,8 +9155,12 @@ trainer {
       move: MOVE_CUT
       move: MOVE_DIRE_CLAW
     }
-    inline_skill { extra_ability: ABILITY_ACCELERATE }
-    inline_skill { extra_ability: ABILITY_ANALYTIC }
+    inline_skill {
+      extra_ability: ABILITY_ACCELERATE
+    }
+    inline_skill {
+      extra_ability: ABILITY_ANALYTIC
+    }
   }
 }
 trainer {
@@ -10866,7 +10874,9 @@ trainer {
       move: MOVE_SHADOW_CLAW
       move: MOVE_PLAY_ROUGH
     }
-    inline_skill { extra_ability: ABILITY_COMATOSE }
+    inline_skill {
+      extra_ability: ABILITY_COMATOSE
+    }
   }
 }
 trainer {
@@ -24347,7 +24357,9 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
       move: MOVE_FAKE_OUT
     }
-    inline_skill { extra_ability: ABILITY_KNOW_YOUR_PLACE }
+    inline_skill {
+      extra_ability: ABILITY_KNOW_YOUR_PLACE
+    }
   }
 }
 trainer {
@@ -24490,8 +24502,12 @@ trainer {
       move: MOVE_HYPER_BEAM
       move: MOVE_MYSTIC_DANCE
     }
-    inline_skill { extra_ability: ABILITY_WEATHER_DOUBLE_BOOST }
-    inline_skill { extra_ability: ABILITY_SUN_WORSHIP }
+    inline_skill {
+      extra_ability: ABILITY_WEATHER_DOUBLE_BOOST
+    }
+    inline_skill {
+      extra_ability: ABILITY_SUN_WORSHIP
+    }
   }
 }
 trainer {
@@ -24633,7 +24649,9 @@ trainer {
       move: MOVE_WHIRLPOOL
       move: MOVE_MIRROR_COAT
     }
-    inline_skill { extra_ability: ABILITY_STICKY_HOLD }
+    inline_skill {
+      extra_ability: ABILITY_STICKY_HOLD
+    }
   }
 }
 trainer {
@@ -25150,7 +25168,9 @@ trainer {
       move: MOVE_NIGHT_SLASH
       move: MOVE_X_SCISSOR
     }
-    inline_skill { extra_ability: ABILITY_REGENERATOR }
+    inline_skill {
+      extra_ability: ABILITY_REGENERATOR
+    }
   }
 }
 trainer {
@@ -31019,7 +31039,6 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_MALE
   ace {
     mon {
-      nonstandard: "Invalid moves: [MOVE_TOXIC]"
       species: SPECIES_SLOWBRO
       item: ITEM_LEFTOVERS
       nature: NATURE_RELAXED
@@ -31034,19 +31053,18 @@ trainer {
       move: MOVE_TOXIC
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_FIRE_PUNCH]"
       species: SPECIES_KECLEON
       item: ITEM_ASSAULT_VEST
       nature: NATURE_BRAVE
-      ability: ABILITY_DEFEATIST
+      ability: ABILITY_ANALYTIC
       hp_ev: 252
       atk_ev: 252
       def_ev: 4
       iron_pill: true
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_AVALANCHE
       move: MOVE_RETURN
       move: MOVE_FIRE_PUNCH
-      move: MOVE_TRICK_ROOM
+      move: MOVE_PSYCHIC_NOISE
     }
     mon {
       species: SPECIES_SANDSLASH_ALOLAN
@@ -31559,7 +31577,7 @@ trainer {
       species: SPECIES_SAWSBUCK_SUMMER
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_SKILL_LINK
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31572,7 +31590,7 @@ trainer {
       species: SPECIES_SAWSBUCK_AUTUMN
       item: ITEM_ASSAULT_VEST
       nature: NATURE_JOLLY
-      ability: ABILITY_CHLOROPHYLL
+      ability: ABILITY_SCRAPPY
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31585,7 +31603,7 @@ trainer {
       species: SPECIES_SAWSBUCK_WINTER
       item: ITEM_CHOICE_BAND
       nature: NATURE_JOLLY
-      ability: ABILITY_ADAPTABILITY
+      ability: ABILITY_THICK_FAT
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -31598,7 +31616,7 @@ trainer {
       species: SPECIES_SAWSBUCK
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_SKILL_LINK
+      ability: ABILITY_RUN_AWAY
       atk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -32112,8 +32130,17 @@ trainer {
     }
     inline_skill {
       name: "Fiery Focus"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsharpens its attack!"
-      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsharpens its attack!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -38088,9 +38115,15 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_DRAGON_DANCE
     }
-    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
-    inline_skill { extra_ability: ABILITY_PRESSURE }
-    inline_skill { extra_ability: ABILITY_SHED_SKIN }
+    inline_skill {
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
+    inline_skill {
+      extra_ability: ABILITY_PRESSURE
+    }
+    inline_skill {
+      extra_ability: ABILITY_SHED_SKIN
+    }
   }
 }
 trainer {
@@ -38598,7 +38631,9 @@ trainer {
       move: MOVE_SEISMIC_FIST
       move: MOVE_THUNDER_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_OLE }
+    inline_skill {
+      extra_ability: ABILITY_OLE
+    }
   }
 }
 trainer {
@@ -41946,8 +41981,17 @@ trainer {
     }
     inline_skill {
       name: "Spirit Guard"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon steels\\nits mind!"
-      on { entry {} effect { stat_change { stat: STAT_SPDEF amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon steels\\nits mind!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_SPDEF
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -46478,7 +46522,9 @@ trainer {
       move: MOVE_ROCK_SLIDE
       move: MOVE_ASTONISH
     }
-    inline_skill { extra_ability: ABILITY_UNNERVE }
+    inline_skill {
+      extra_ability: ABILITY_UNNERVE
+    }
   }
 }
 trainer {
@@ -46942,7 +46988,9 @@ trainer {
       move: MOVE_DRAGON_RAGE
       move: MOVE_EMBER
     }
-    inline_skill { extra_ability: ABILITY_UNNERVE }
+    inline_skill {
+      extra_ability: ABILITY_UNNERVE
+    }
   }
 }
 trainer {
@@ -47157,13 +47205,32 @@ trainer {
     }
     inline_skill {
       name: "Fortified Lead"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfortifies its defenses!"
-      on { entry { when: LEAD } effect { stat_change { stat: STAT_DEF amount: 4 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfortifies its defenses!"
+      on {
+        entry {
+          when: LEAD
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            amount: 4
+          }
+        }
+      }
     }
     inline_skill {
       name: "Steady Defense"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon keeps\\nhardening its body!"
-      on { end_turn {} effect { stat_change { stat: STAT_DEF amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon keeps\\nhardening its body!"
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -50162,7 +50229,9 @@ trainer {
       move: MOVE_BOUNCE
       move: MOVE_AQUA_JET
     }
-    inline_skill { extra_ability: ABILITY_SUPER_LUCK }
+    inline_skill {
+      extra_ability: ABILITY_SUPER_LUCK
+    }
   }
 }
 trainer {
@@ -50542,8 +50611,16 @@ trainer {
     }
     inline_skill {
       name: "Mean Look"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwon't let you go!"
-      on { entry {} effect { use_move { move: MOVE_MEAN_LOOK } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t let you go!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_MEAN_LOOK
+          }
+        }
+      }
     }
   }
 }
@@ -59633,7 +59710,9 @@ trainer {
       move: MOVE_CROSS_CHOP
       move: MOVE_ACROBATICS
     }
-    inline_skill { extra_ability: ABILITY_SCRAPPY }
+    inline_skill {
+      extra_ability: ABILITY_SCRAPPY
+    }
   }
 }
 trainer {
@@ -61662,8 +61741,12 @@ trainer {
       move: MOVE_AIR_SLASH
       move: MOVE_QUIVER_DANCE
     }
-    inline_skill { extra_ability: ABILITY_COMATOSE }
-    inline_skill { extra_ability: ABILITY_SWEET_DREAMS }
+    inline_skill {
+      extra_ability: ABILITY_COMATOSE
+    }
+    inline_skill {
+      extra_ability: ABILITY_SWEET_DREAMS
+    }
   }
 }
 trainer {
@@ -61806,7 +61889,9 @@ trainer {
       move: MOVE_TOXIC_NEEDLES
       move: MOVE_SPIKE_CANNON
     }
-    inline_skill { extra_ability: ABILITY_MYSTIC_POWER }
+    inline_skill {
+      extra_ability: ABILITY_MYSTIC_POWER
+    }
   }
 }
 trainer {
@@ -65932,7 +66017,9 @@ trainer {
       move: MOVE_SECRET_POWER
       hidden_power_type: TYPE_FIRE
     }
-    inline_skill { extra_ability: ABILITY_FLASH_FIRE }
+    inline_skill {
+      extra_ability: ABILITY_FLASH_FIRE
+    }
   }
 }
 trainer {
@@ -66421,8 +66508,17 @@ trainer {
     }
     inline_skill {
       name: "Bubble"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblows a bubble!"
-      on { entry {} effect { use_move { move: MOVE_BUBBLE power: 10 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblows a bubble!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_BUBBLE
+            power: 10
+          }
+        }
+      }
     }
   }
 }
@@ -82600,7 +82696,9 @@ trainer {
       move: MOVE_ACCELEROCK
       move: MOVE_PIXIE_SLASH
     }
-    inline_skill { extra_ability: ABILITY_SWORD_OF_RUIN }
+    inline_skill {
+      extra_ability: ABILITY_SWORD_OF_RUIN
+    }
   }
 }
 trainer {
@@ -83483,8 +83581,17 @@ trainer {
     }
     inline_skill {
       name: "Peak Form"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplays to its strengths!"
-      on { entry {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplays to its strengths!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_TOTAL
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -86851,7 +86958,9 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ELECTRIC
     }
-    inline_skill { extra_ability: ABILITY_CUTE_CHARM }
+    inline_skill {
+      extra_ability: ABILITY_CUTE_CHARM
+    }
   }
 }
 trainer {
@@ -91275,8 +91384,12 @@ trainer {
       move: MOVE_BODY_PRESS
       move: MOVE_DRACO_METEOR
     }
-    inline_skill { extra_ability: ABILITY_VOLT_ABSORB }
-    inline_skill { extra_ability: ABILITY_WATER_ABSORB }
+    inline_skill {
+      extra_ability: ABILITY_VOLT_ABSORB
+    }
+    inline_skill {
+      extra_ability: ABILITY_WATER_ABSORB
+    }
   }
 }
 trainer {
@@ -92806,7 +92919,9 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_FLAIL
     }
-    inline_skill { extra_ability: ABILITY_INNARDS_OUT }
+    inline_skill {
+      extra_ability: ABILITY_INNARDS_OUT
+    }
   }
 }
 trainer {
@@ -94191,14 +94306,14 @@ trainer {
       species: SPECIES_KECLEON
       item: ITEM_LIFE_ORB
       nature: NATURE_ADAMANT
-      ability: ABILITY_KLUTZ
+      ability: ABILITY_ANALYTIC
       hp_ev: 252
       atk_ev: 252
       spe_ev: 4
-      move: MOVE_ASTONISH
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_RECOVER
+      move: MOVE_PSYCHIC
       move: MOVE_SHADOW_SNEAK
-      move: MOVE_HEADBUTT
+      move: MOVE_ENERGY_WAVE
     }
     mon {
       species: SPECIES_RILLABOOM
@@ -100972,7 +101087,9 @@ trainer {
       move: MOVE_VENOM_BOLT
     }
     skill: SKILL_PERMANENT_RAINBOW
-    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
+    }
   }
 }
 trainer {
@@ -101550,7 +101667,9 @@ trainer {
       move: MOVE_AQUA_STEP
       move: MOVE_BLIZZARD
     }
-    inline_skill { extra_ability: ABILITY_MOUNTAINEER }
+    inline_skill {
+      extra_ability: ABILITY_MOUNTAINEER
+    }
   }
 }
 trainer {
@@ -109072,7 +109191,9 @@ trainer {
       move: MOVE_WEATHER_BALL
       move: MOVE_SONIC_BOOM
     }
-    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA }
+    inline_skill {
+      extra_ability: ABILITY_PRIMORDIAL_SEA
+    }
   }
 }
 trainer {
@@ -110499,7 +110620,9 @@ trainer {
       move: MOVE_CROSS_POISON
       move: MOVE_TAKE_FLIGHT
     }
-    inline_skill { extra_ability: ABILITY_TRICKSTER }
+    inline_skill {
+      extra_ability: ABILITY_TRICKSTER
+    }
   }
 }
 trainer {
@@ -110885,7 +111008,9 @@ trainer {
       move: MOVE_SECRET_POWER
       hidden_power_type: TYPE_DARK
     }
-    inline_skill { extra_ability: ABILITY_EMPERORS_WRATH }
+    inline_skill {
+      extra_ability: ABILITY_EMPERORS_WRATH
+    }
   }
 }
 trainer {
@@ -111174,7 +111299,6 @@ trainer {
       move: MOVE_RAGING_FURY
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_PLAY_ROUGH]"
       species: SPECIES_ZOROARK
       item: ITEM_FOCUS_SASH
       nature: NATURE_JOLLY
@@ -111188,7 +111312,6 @@ trainer {
       move: MOVE_U_TURN
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_CLOSE_COMBAT]"
       species: SPECIES_STOUTLAND
       item: ITEM_ASSAULT_VEST
       nature: NATURE_JOLLY
@@ -111228,17 +111351,17 @@ trainer {
       move: MOVE_TAILWIND
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_ROCK_SLIDE, MOVE_BULK_UP]"
-      species: SPECIES_GRANBULL
-      nature: NATURE_ADAMANT
-      ability: ABILITY_RATTLED
-      hp_ev: 248
+      species: SPECIES_ARCANINE_HISUIAN
+      item: ITEM_ARCANITE_H
+      nature: NATURE_JOLLY
+      ability: ABILITY_ROCK_HEAD
       atk_ev: 252
-      spdef_ev: 8
-      move: MOVE_PLAY_ROUGH
-      move: MOVE_EARTHQUAKE
-      move: MOVE_ROCK_SLIDE
-      move: MOVE_BULK_UP
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_CLOSE_COMBAT
+      move: MOVE_HEAD_SMASH
+      move: MOVE_FLARE_BLITZ
+      move: MOVE_ACCELEROCK
     }
   }
   elite {
@@ -112033,13 +112156,13 @@ trainer {
       species: SPECIES_KECLEON
       item: ITEM_TOXIC_ORB
       nature: NATURE_BRAVE
-      ability: ABILITY_KLUTZ
+      ability: ABILITY_PRANKSTER
       hp_ev: 4
       atk_ev: 252
       spdef_ev: 252
       move: MOVE_TRICK
       move: MOVE_METRONOME
-      move: MOVE_SUCKER_PUNCH
+      move: MOVE_SHADOW_SNEAK
       move: MOVE_FAKE_OUT
     }
     mon {

@@ -5815,7 +5815,7 @@ ability {
 ability {
   id: ABILITY_WATERBORNE
   name: "Waterborne"
-  description: "Aquatic + Adaptability"
+  description: "Hydrate + Adaptability"
 }
 ability {
   id: ABILITY_DRAKELP_HEAD
@@ -6221,7 +6221,7 @@ ability {
 ability {
   id: ABILITY_SOUR_APPLE
   name: "Sour Apple"
-  description: "Corrosion + Aroma Veil"
+  description: "Corrosion + Aroma Veil. It levitates."
 }
 ability {
   id: ABILITY_SEARCHLIGHT
@@ -6338,8 +6338,27 @@ ability {
   name: "Versatile"
   description: "Changes type to move's type before use."
 }
+
 ability {
   id: ABILITY_POWER_SHOES
   name: "Power Shoes"
   description: "Kicking moves target Special Defense and get a 1.3x boost."
+}
+
+ability {
+  id: ABILITY_CLEANSE
+  name: "Cleanse"
+  description: "Uses Heal Bell on entry. Twice per battle."
+}
+
+ability {
+  id: ABILITY_SHARPSHOOTER
+  name: "Sharpshooter"
+  description: "Sniper + Mega Launcher"
+}
+
+ability {
+  id: ABILITY_HIGH_RISE
+  name: "High Rise"
+  description: "Steelworker + Mirror Armor"
 }
