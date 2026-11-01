@@ -6358,7 +6358,7 @@ ability {
 }
 
 ability {
-  id: ABILTIY_HIGH_RISE
+  id: ABILITY_HIGH_RISE
   name: "High Rise"
   description: "Steelworker + Mirror Armor"
 }
