@@ -28853,7 +28853,7 @@ trainer {
       species: SPECIES_CINDERACE
       item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_PYROMANCY
+      ability: ABILITY_LIBERO
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -37967,17 +37967,17 @@ trainer {
       move: MOVE_HEX
     }
     mon {
-      species: SPECIES_LAIRON_REDUX
+      species: SPECIES_PHANPY_REDUX
       item: ITEM_EVIOLITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_SHELL_ARMOR
+      ability: ABILITY_OVERCOAT
       hp_ev: 252
-      atk_ev: 160
-      def_ev: 96
-      move: MOVE_STONE_EDGE
+      atk_ev: 252
+      def_ev: 4
+      move: MOVE_HEAD_SMASH
+      move: MOVE_POWER_WHIP
+      move: MOVE_EARTHQUAKE
       move: MOVE_LEECH_SEED
-      move: MOVE_WAVE_CRASH
-      move: MOVE_PECK
     }
     mon {
       species: SPECIES_SUDOWOODO
@@ -105065,7 +105065,7 @@ trainer {
       species: SPECIES_CINDERACE
       item: ITEM_CINDERACEITE
       nature: NATURE_JOLLY
-      ability: ABILITY_KEEN_EYE
+      ability: ABILITY_LIBERO
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
