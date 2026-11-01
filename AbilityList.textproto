@@ -5815,7 +5815,7 @@ ability {
 ability {
   id: ABILITY_WATERBORNE
   name: "Waterborne"
-  description: "Aquatic + Adaptability"
+  description: "Hydrate + Adaptability"
 }
 ability {
   id: ABILITY_DRAKELP_HEAD
