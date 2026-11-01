@@ -6221,7 +6221,7 @@ ability {
 ability {
   id: ABILITY_SOUR_APPLE
   name: "Sour Apple"
-  description: "Corrosion + Aroma Veil"
+  description: "Corrosion + Aroma Veil. It levitates."
 }
 ability {
   id: ABILITY_SEARCHLIGHT
