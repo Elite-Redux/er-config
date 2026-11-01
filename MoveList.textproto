@@ -17732,6 +17732,7 @@ moves {
   contact: true
   mirror_move_affected: true
   horn: true
+  ignores_ability: true
   uses_animation: MOVE_PHANTOM_FORCE
 }
 moves {
@@ -17773,11 +17774,13 @@ moves {
   name: "Sparkling Blast"
   short_name: "SparkleBlast"
   description: "Sparkling water that once in contact glows in pure light. Light Based."
+  effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_WATER
-  target: SELECTED
+  target: BOTH
   power: 90
-  accuracy: 100
+  accuracy: 90
+  effect_chance: 30
   pp: 10
   mirror_move_affected: true
   light: true

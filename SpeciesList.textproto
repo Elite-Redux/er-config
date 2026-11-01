@@ -71808,10 +71808,6 @@ species {
       level: 37
       move: MOVE_CHILLING_WATER
     }
-    level {
-      level: 46
-      move: MOVE_QUIVER_DANCE
-    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AQUA_RING
@@ -71971,7 +71967,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_QUIVER_DANCE
       move: MOVE_GLITTER_BEAM
     }
     tutor: MOVE_ACROBATICS
@@ -154202,10 +154197,6 @@ species {
       move: MOVE_SHEER_COLD
     }
     level {
-      level: 56
-      move: MOVE_QUIVER_DANCE
-    }
-    level {
       level: 71
       move: MOVE_ORIGIN_PULSE
     }
@@ -200881,7 +200872,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 6
+        y_offset: 13
       }
     }
     palette: "cameberg/normal"
@@ -201190,7 +201181,7 @@ species {
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
-        y_offset: 8
+        y_offset: 11
       }
     }
     back {
@@ -201198,7 +201189,7 @@ species {
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
-        y_offset: 13
+        y_offset: 8
       }
     }
     palette: "swarmos/normal"
