@@ -6356,3 +6356,9 @@ ability {
   name: "Sharpshooter"
   description: "Sniper + Mega Launcher"
 }
+
+ability {
+  id: ABILTIY_HIGH_RISE
+  name: "High Rise"
+  description: "Steelworker + Mirror Armor"
+}
