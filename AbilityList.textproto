@@ -6350,3 +6350,9 @@ ability {
   name: "Cleanse"
   description: "Uses Heal Bell on entry. Twice per battle."
 }
+
+ability {
+  id: ABILITY_SHARPSHOOTER
+  name: "Sharpshooter"
+  description: "Sniper + Mega Launcher"
+}
