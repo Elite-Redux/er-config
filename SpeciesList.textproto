@@ -185233,6 +185233,7 @@ species {
   visuals {
     icon {
       path: "amicabull/icon"
+      palette: 5
     }
     front {
       path: "amicabull/front"
