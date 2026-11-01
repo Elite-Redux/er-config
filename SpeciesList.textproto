@@ -55586,12 +55586,12 @@ species {
   spatk: 60
   spdef: 120
   spe: 40
-  ability: ABILITY_DEFEATIST
-  ability: ABILITY_RECEIVER
-  ability: ABILITY_KLUTZ
+  ability: ABILITY_PRANKSTER
+  ability: ABILITY_ANALYTIC
+  ability: ABILITY_WONDER_SKIN
   innate: ABILITY_COLOR_CHANGE
-  innate: ABILITY_PROTEAN
-  innate: ABILITY_CHEAP_TACTICS
+  innate: ABILITY_MYSTIC_POWER
+  innate: ABILITY_EQUINOX
   percent_female: 50
   tier: 4
   learnset {
@@ -55605,11 +55605,12 @@ species {
     }
     level {
       level: 17
-      move: MOVE_FEINT_ATTACK
       move: MOVE_HONE_CLAWS
       move: MOVE_MIMIC
       move: MOVE_SLASH
       move: MOVE_SNATCH
+      move: MOVE_TRAILBLAZE
+      move: MOVE_AVALANCHE
     }
     level {
       level: 24
@@ -55626,46 +55627,68 @@ species {
       move: MOVE_POWER_SWAP
       move: MOVE_RECOVER
       move: MOVE_STRENGTH
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_GIGA_DRAIN
+      move: MOVE_FROST_BREATH
     }
     level {
       level: 46
-      move: MOVE_ANCIENT_POWER
-      move: MOVE_FLING
-      move: MOVE_SUCKER_PUNCH
       move: MOVE_SWIFT
     }
     level {
+      level: 47
+      move: MOVE_ICE_SPINNER
+    }
+    level {
       level: 51
-      move: MOVE_CHEAP_SHOT
       move: MOVE_LAST_RESORT
+      move: MOVE_POWER_WHIP
     }
     level {
       level: 56
       move: MOVE_ENTRAINMENT
       move: MOVE_SHED_TAIL
+      move: MOVE_FIRE_LASH
     }
     level {
       level: 61
       move: MOVE_BATON_PASS
     }
+    tutor: MOVE_ABSORB
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_COPYCAT
+    tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FEINT
-    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
-    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_PSYBEAM
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_REFLECT
     tutor: MOVE_REFRESH
     tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_THIEF
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_METRONOME
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_FIRE_PUNCH
   }
   visuals {
     icon {
