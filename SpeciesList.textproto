@@ -218917,7 +218917,7 @@ species {
   }
   visuals {
     icon {
-      path: "munchlax/icon"
+      path: "munchlax/redux/icon"
       palette: 3
     }
     front {
@@ -219035,7 +219035,7 @@ species {
   }
   visuals {
     icon {
-      path: "snorlax/icon"
+      path: "snorlax/redux/icon"
       palette: 3
     }
     front {
