@@ -43222,7 +43222,6 @@ species {
       move: MOVE_GUST
       move: MOVE_TWISTER
       move: MOVE_GROWL
-      move: MOVE_NONE
     }
     level {
       level: 24
@@ -50435,18 +50434,18 @@ species {
     trainer_offset: 18
   }
   type: TYPE_WATER
-  hp: 160
-  atk: 110
-  def: 64
-  spatk: 110
-  spdef: 110
-  spe: 1
-  ability: ABILITY_ANALYTIC
-  ability: ABILITY_STAMINA
+  hp: 180
+  atk: 90
+  def: 55
+  spatk: 103
+  spdef: 55
+  spe: 72
+  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_DRIZZLE
   innate: ABILITY_LIQUID_VOICE
   innate: ABILITY_PRESSURE
-  innate: ABILITY_ATLAS
+  innate: ABILITY_THICK_BLUBBER
   percent_female: 50
   learnset {
     level {
