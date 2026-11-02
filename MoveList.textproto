@@ -5539,6 +5539,7 @@ moves {
   power: 25
   accuracy: 100
   pp: 20
+  contact: true
   mirror_move_affected: true
 }
 moves {
