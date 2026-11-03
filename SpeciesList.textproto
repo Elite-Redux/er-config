@@ -183390,8 +183390,8 @@ species {
   spdef: 90
   spe: 110
   ability: ABILITY_BRUTEFORCE
-  ability: ABILITY_GIANT_WINGS
   ability: ABILITY_FEARLESS
+  ability: ABILITY_BLUR
   innate: ABILITY_BIRD_OF_PREY
   innate: ABILITY_FEATHERCOAT
   innate: ABILITY_ADRENALINE_RUSH
