@@ -24652,6 +24652,11 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_STICKY_HOLD
     }
+    inline_skill {
+      name: "Recycle"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t recycles items on turn end!"
+      on { end_turn {} effect { use_move { move: MOVE_RECYCLE } } }
+    }
   }
 }
 trainer {
@@ -50598,15 +50603,7 @@ trainer {
     inline_skill {
       name: "Mean Look"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t let you go!"
-      on {
-        entry {
-        }
-        effect {
-          use_move {
-            move: MOVE_MEAN_LOOK
-          }
-        }
-      }
+      on { entry {} effect { use_move { move: MOVE_MEAN_LOOK } } }
     }
   }
 }
@@ -51985,6 +51982,11 @@ trainer {
       move: MOVE_POWER_WHIP
       move: MOVE_POLTERGEIST
       move: MOVE_EARTHQUAKE
+    }
+    inline_skill {
+      name: "Substitute"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t use Substitute on entry!"
+      on { entry {} effect { use_move { move: MOVE_SUBSTITUTE } } }
     }
   }
 }
@@ -65482,6 +65484,11 @@ trainer {
       move: MOVE_ELECTRO_SHOT
       move: MOVE_WEATHER_BALL
     }
+    inline_skill {
+      name: "Life Dew"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t use Life Dew on entry!"
+      on { entry {} effect { use_move { move: MOVE_LIFE_DEW } } }
+    }
   }
 }
 trainer {
@@ -66491,16 +66498,7 @@ trainer {
     inline_skill {
       name: "Bubble"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblows a bubble!"
-      on {
-        entry {
-        }
-        effect {
-          use_move {
-            move: MOVE_BUBBLE
-            power: 10
-          }
-        }
-      }
+      on { entry {} effect { use_move { move: MOVE_BUBBLE power: 10 } } }
     }
   }
 }
@@ -82892,6 +82890,7 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_QUIVER_DANCE
     }
+    inline_skill { extra_ability: ABILITY_SHIELD_DUST }
   }
 }
 trainer {
@@ -93235,7 +93234,6 @@ trainer {
       move: MOVE_ENERGY_WAVE
       move: MOVE_FAKE_OUT
     }
-    skill: SKILL_STEALTH_ROCKS
   }
 }
 trainer {
@@ -100805,6 +100803,11 @@ trainer {
       move: MOVE_MOONBLAST
       move: MOVE_MOONLIGHT
       move: MOVE_FOLLOW_ME
+    }
+    inline_skill {
+      name: "Ancient Power"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Ancient Power on turn end!"
+      on { end_turn {} effect { use_move { move: MOVE_ANCIENT_POWER } } }
     }
   }
 }
@@ -111847,6 +111850,11 @@ trainer {
       move: MOVE_ELECTROWEB
     }
     skill: SKILL_HAZARDS_ALL
+    inline_skill {
+      name: "Judgement"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Judgment on turn end!"
+      on { end_turn {} effect { use_move { move: MOVE_JUDGMENT power: 60 } } }
+    }
   }
 }
 trainer {
