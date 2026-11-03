@@ -5539,6 +5539,7 @@ moves {
   power: 25
   accuracy: 100
   pp: 20
+  contact: true
   mirror_move_affected: true
 }
 moves {
@@ -17802,4 +17803,24 @@ moves {
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_OVERHEAT
+}
+
+moves {
+  id: MOVE_METEOROPATH_BALL
+  name: "Meteoropath Ball"
+  short_name: "MeteorBall"
+  description: " A force of weather that strikes the opponent. Weather Based."
+  effect: EFFECT_WEATHER_BALL
+  split: PHYSICAL
+  type: TYPE_NORMAL
+  target: SELECTED
+  power: 50
+  accuracy: 100
+  pp: 16
+  mirror_move_affected: true
+  ballistic: true
+  weather: true
+  air: true
+  uses_animation: MOVE_WEATHER_BALL
+  tutor: TUTOR_ATTACK
 }

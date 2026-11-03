@@ -1601,19 +1601,19 @@ species {
     pokemon_offset: 2
   }
   type: TYPE_BUG
-  type2: TYPE_PSYCHIC
-  hp: 75
+  type2: TYPE_FLYING
+  hp: 99
   atk: 55
-  def: 50
-  spatk: 110
+  def: 72
+  spatk: 116
   spdef: 95
   spe: 90
   ability: ABILITY_TINTED_LENS
-  ability: ABILITY_SHIELD_DUST
+  ability: ABILITY_EMANATE
   ability: ABILITY_GIANT_WINGS
-  innate: ABILITY_MAJESTIC_MOTH
+  innate: ABILITY_SHIELD_DUST
   innate: ABILITY_COMPOUND_EYES
-  innate: ABILITY_LEVITATE
+  innate: ABILITY_SWARM
   percent_female: 50
   learnset {
     level {
@@ -2019,10 +2019,10 @@ species {
   }
   type: TYPE_BUG
   type2: TYPE_POISON
-  hp: 65
-  atk: 110
-  def: 40
-  spatk: 45
+  hp: 87
+  atk: 120
+  def: 55
+  spatk: 50
   spdef: 80
   spe: 135
   ability: ABILITY_POISON_TOUCH
@@ -5774,6 +5774,7 @@ species {
       move: MOVE_CAPTIVATE
       move: MOVE_IMPRISON
       move: MOVE_ROAR
+      move: MOVE_HYPNOSIS
     }
     level {
       level: 24
@@ -43221,7 +43222,6 @@ species {
       move: MOVE_GUST
       move: MOVE_TWISTER
       move: MOVE_GROWL
-      move: MOVE_NONE
     }
     level {
       level: 24
@@ -50434,18 +50434,18 @@ species {
     trainer_offset: 18
   }
   type: TYPE_WATER
-  hp: 160
-  atk: 110
-  def: 64
-  spatk: 110
-  spdef: 110
-  spe: 1
-  ability: ABILITY_ANALYTIC
-  ability: ABILITY_STAMINA
+  hp: 180
+  atk: 90
+  def: 55
+  spatk: 103
+  spdef: 55
+  spe: 72
+  ability: ABILITY_WONDER_SKIN
+  ability: ABILITY_ECHOLOCATION
   ability: ABILITY_DRIZZLE
   innate: ABILITY_LIQUID_VOICE
   innate: ABILITY_PRESSURE
-  innate: ABILITY_ATLAS
+  innate: ABILITY_THICK_BLUBBER
   percent_female: 50
   learnset {
     level {
@@ -55624,7 +55624,6 @@ species {
       move: MOVE_ME_FIRST
       move: MOVE_POWER_SWAP
       move: MOVE_RECOVER
-      move: MOVE_STRENGTH
       move: MOVE_FLAME_TONGUE
       move: MOVE_GIGA_DRAIN
       move: MOVE_FROST_BREATH
@@ -55663,11 +55662,13 @@ species {
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FEINT
     tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_PUNCH
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
@@ -55683,12 +55684,9 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_THIEF
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
   }
   visuals {
     icon {
@@ -160211,11 +160209,11 @@ species {
   form_of: SPECIES_BEEDRILL
   type: TYPE_BUG
   type2: TYPE_POISON
-  hp: 65
-  atk: 150
-  def: 60
+  hp: 87
+  atk: 158
+  def: 80
   spatk: 45
-  spdef: 80
+  spdef: 82
   spe: 175
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_ADAPTABILITY
@@ -182471,7 +182469,7 @@ species {
   spe: 142
   ability: ABILITY_FATAL_PRECISION
   ability: ABILITY_RAIN_SHROUD
-  ability: ABILITY_PROTEAN
+  ability: ABILITY_VERSATILE
   innate: ABILITY_RIPTIDE
   innate: ABILITY_GIANT_SHURIKEN
   innate: ABILITY_ANTICIPATION
@@ -184052,9 +184050,9 @@ species {
   form_of: SPECIES_BUTTERFREE
   type: TYPE_BUG
   type2: TYPE_PSYCHIC
-  hp: 75
-  atk: 15
-  def: 65
+  hp: 99
+  atk: 32
+  def: 76
   spatk: 165
   spdef: 140
   spe: 115
@@ -186090,18 +186088,18 @@ species {
   form_of: SPECIES_BEEDRILL
   type: TYPE_ICE
   type2: TYPE_POISON
-  hp: 65
+  hp: 87
   atk: 150
-  def: 60
-  spatk: 45
-  spdef: 80
+  def: 68
+  spatk: 57
+  spdef: 90
   spe: 175
-  ability: ABILITY_FREEZING_POINT
-  ability: ABILITY_FREEZING_POINT
-  ability: ABILITY_FREEZING_POINT
+  ability: ABILITY_PERMANENCE
+  ability: ABILITY_PERMANENCE
+  ability: ABILITY_PERMANENCE
   innate: ABILITY_SKILL_LINK
-  innate: ABILITY_EXPLOIT_WEAKNESS
-  innate: ABILITY_ADAPTABILITY
+  innate: ABILITY_CLEAR_BODY
+  innate: ABILITY_BIG_PECKS
   percent_female: 50
   mega {
     from: SPECIES_BEEDRILL_REDUX
@@ -203078,10 +203076,10 @@ species {
   form_of: SPECIES_BEEDRILL
   type: TYPE_ICE
   type2: TYPE_POISON
-  hp: 65
+  hp: 87
   atk: 110
-  def: 40
-  spatk: 45
+  def: 55
+  spatk: 55
   spdef: 80
   spe: 135
   ability: ABILITY_FREEZING_POINT

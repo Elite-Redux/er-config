@@ -3504,7 +3504,7 @@ ability {
 }
 ability {
   id: ABILITY_SUN_BASKING
-  name: "Sun Basking"
+  name: "Basking"
   description: "Blocks priority and reduces physical damage by 1/2 in sun."
   expanded_description: "Blocks priority moves and reduces physical attack damage by 50% in sun. Multiplicative with other sources of damage reduction."
 }
