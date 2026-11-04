@@ -32134,16 +32134,7 @@ trainer {
     inline_skill {
       name: "Fiery Focus"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsharpens its attack!"
-      on {
-        entry {
-        }
-        effect {
-          stat_change {
-            stat: STAT_HIGHEST_ATTACKING
-            amount: 1
-          }
-        }
-      }
+      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } } }
     }
   }
 }
@@ -41982,16 +41973,7 @@ trainer {
     inline_skill {
       name: "Spirit Guard"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon steels\\nits mind!"
-      on {
-        entry {
-        }
-        effect {
-          stat_change {
-            stat: STAT_SPDEF
-            amount: 1
-          }
-        }
-      }
+      on { entry {} effect { stat_change { stat: STAT_SPDEF amount: 1 } } }
     }
   }
 }
@@ -47198,31 +47180,12 @@ trainer {
     inline_skill {
       name: "Fortified Lead"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfortifies its defenses!"
-      on {
-        entry {
-          when: LEAD
-        }
-        effect {
-          stat_change {
-            stat: STAT_DEF
-            amount: 4
-          }
-        }
-      }
+      on { entry { when: LEAD } effect { stat_change { stat: STAT_DEF amount: 4 } } }
     }
     inline_skill {
       name: "Steady Defense"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon keeps\\nhardening its body!"
-      on {
-        end_turn {
-        }
-        effect {
-          stat_change {
-            stat: STAT_DEF
-            amount: 1
-          }
-        }
-      }
+      on { end_turn {} effect { stat_change { stat: STAT_DEF amount: 1 } } }
     }
   }
 }
@@ -53610,6 +53573,12 @@ trainer {
       move: MOVE_SOLAR_BEAM
       move: MOVE_AIR_SLASH
       move: MOVE_EARTH_POWER
+    }
+    inline_skill {
+      name: "Entry +2 Speed"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases speed by +2!"
+      # TODO: Speed cannot be dropped, might be annoying to do unless dropped speed is reset with a hook like on stat drop
+      on { entry {} effect { stat_change { stat: STAT_SPEED amount: 2 } } }
     }
   }
 }
@@ -76432,8 +76401,25 @@ trainer {
       move: MOVE_SHELL_SMASH
       move: MOVE_CUT
     }
+    # TODO: Give Klawf its "Super Berry" item as skills instead (immune to status + heals 75% HP when under half one time)
+    inline_skill {
+      name: "Omniboost Lead"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +2 omniboost!"
+      # Doc says last gets +2 omniboost but since only one mon in party we can use lead
+      on { 
+        entry { when: LEAD }
+        effect {
+          stat_change { stat: STAT_ATK amount: 2 }
+          stat_change { stat: STAT_DEF amount: 2 }
+          stat_change { stat: STAT_SPATK amount: 2 }
+          stat_change { stat: STAT_SPDEF amount: 2 }
+          stat_change { stat: STAT_SPEED amount: 2 }
+        }
+      }
+    }
   }
 }
+
 trainer {
   id: TRAINER_BRENDEN
   name: "Brenden"
@@ -76872,6 +76858,11 @@ trainer {
       move: MOVE_VIRAL_STRIKE
       move: MOVE_ENERGY_BALL
       move: MOVE_CROSS_CHOP
+    }
+    inline_skill {
+      name: "+2 Highest Stat"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases highest stat by +2!"
+      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 2 } } }
     }
   }
 }
@@ -83559,16 +83550,7 @@ trainer {
     inline_skill {
       name: "Peak Form"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplays to its strengths!"
-      on {
-        entry {
-        }
-        effect {
-          stat_change {
-            stat: STAT_HIGHEST_TOTAL
-            amount: 1
-          }
-        }
-      }
+      on { entry {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 1 } } }
     }
   }
 }
@@ -110724,6 +110706,12 @@ trainer {
       move: MOVE_SUPERCELL_SLAM
       move: MOVE_MAGICAL_TORQUE
       move: MOVE_VOLT_SWITCH
+    }
+    inline_skill {
+      name: "+1 Best Attack"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases best attack by +1!"
+      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } }
+      }
     }
   }
 }
