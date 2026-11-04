@@ -5749,7 +5749,6 @@ species {
     pokemon_offset: 10
   }
   type: TYPE_FIRE
-  type2: TYPE_GHOST
   hp: 73
   atk: 76
   def: 75
@@ -5757,11 +5756,11 @@ species {
   spdef: 100
   spe: 100
   ability: ABILITY_FLAMING_SOUL
-  ability: ABILITY_VENGEANCE
-  ability: ABILITY_DROUGHT
-  innate: ABILITY_PYROMANCY
-  innate: ABILITY_FLASH_FIRE
-  innate: ABILITY_QUEENLY_MAJESTY
+  ability: ABILITY_SPECTRALIZE
+  ability: ABILITY_SET_ABLAZE
+  innate: ABILITY_DROUGHT
+  innate: ABILITY_MAGIC_GUARD
+  innate: ABILITY_CURSED_BODY
   percent_female: 75
   learnset {
     level {
