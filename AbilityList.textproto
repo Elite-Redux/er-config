@@ -4845,8 +4845,8 @@ ability {
 ability {
   id: ABILITY_BLUR
   name: "Blur"
-  description: "Uses Speed as defensive stat when hit by contact."
-  expanded_description: "When hit by contact moves, the Pokemon uses its Speed stat instead of Defense or Special Defense for damage calculations. Choice Scarf does not affect this ability."
+  description: "Uses Speed as defensive stat when hit by physical."
+  expanded_description: "When hit by physical moves, the Pokemon uses its Speed stat instead of Defense or Special Defense for damage calculations. Choice Scarf does not affect this ability."
 }
 ability {
   id: ABILITY_ELUDE
