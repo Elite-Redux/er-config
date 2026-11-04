@@ -76409,11 +76409,14 @@ trainer {
       on { 
         entry { when: LEAD }
         effect {
-          stat_change { stat: STAT_ATK amount: 2 }
-          stat_change { stat: STAT_DEF amount: 2 }
-          stat_change { stat: STAT_SPATK amount: 2 }
-          stat_change { stat: STAT_SPDEF amount: 2 }
-          stat_change { stat: STAT_SPEED amount: 2 }
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_DEF
+            stat: STAT_SPATK
+            stat: STAT_SPDEF
+            stat: STAT_SPEED
+            amount: 2
+          }
         }
       }
     }
