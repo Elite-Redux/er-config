@@ -62068,6 +62068,19 @@ trainer {
       move: MOVE_SHADOW_BALL
     }
   }
+  hell {
+    # Using a room that's up ends it
+    inline_skill {
+      name: "Room Roulette"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ntwists the dimensions!"
+      on { end_turn {} chance: 50 effect { use_move { move: MOVE_TRICK_ROOM } } }
+      on { end_turn {} chance: 50 effect { use_move { move: MOVE_WONDER_ROOM } } }
+      on { end_turn {} chance: 50 effect { use_move { move: MOVE_MAGIC_ROOM } } }
+      on { end_turn {} chance: 50 effect { use_move { move: MOVE_INVERSE_ROOM } } }
+    }
+    # Doc says passive Leftovers, Self Sufficient is the same except it can be suppressed
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+  }
 }
 trainer {
   id: TRAINER_BETH
