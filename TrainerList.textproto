@@ -11608,6 +11608,11 @@ trainer {
       move: MOVE_LEECH_LIFE
       move: MOVE_ZEPHYR_RUSH
     }
+    inline_skill {
+      name: "Soak"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsoaks your Pokémon!"
+      on { entry {} side: PLAYER effect { use_move { move: MOVE_SOAK } } }
+    }
   }
 }
 trainer {
@@ -12027,6 +12032,19 @@ trainer {
       move: MOVE_ROCK_BLAST
       move: MOVE_FURY_ATTACK
       move: MOVE_SPIKY_SHIELD
+    }
+  }
+  hell {
+    inline_skill { extra_ability: ABILITY_COSMIC_DAZE }
+    inline_skill {
+      name: "Whirlwind"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwhips up a gust!"
+      on { end_turn { every: 2 } effect { use_move { move: MOVE_WHIRLWIND } } }
+    }
+    inline_skill {
+      name: "Confuse Ray"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nflashes an eerie light!"
+      on { entry {} side: PLAYER effect { use_move { move: MOVE_CONFUSE_RAY } } }
     }
   }
 }
@@ -24986,6 +25004,14 @@ trainer {
       move: MOVE_BRAVE_BIRD
     }
   }
+  hell {
+    # TODO: Electric moves hit Ground types for super effective damage
+    inline_skill {
+      name: "Maelstrom"
+      announce_string: "A storm electrifies\\nthe battlefield!"
+      on { entry {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } effect { weather { weather: WEATHER_RAIN_PRIMAL permanent: true } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_MATTHEW
@@ -25045,6 +25071,15 @@ trainer {
       move: MOVE_SURF
       move: MOVE_EARTH_POWER
       move: MOVE_ICE_BEAM
+    }
+  }
+  hell {
+    # TODO: Abilities are suppressed
+    inline_skill { extra_ability: ABILITY_COMATOSE }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
     }
   }
 }
@@ -50064,6 +50099,13 @@ trainer {
       move: MOVE_MIRROR_COAT
     }
   }
+  hell {
+    inline_skill {
+      name: "Rainy day"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_IVAN
@@ -52503,6 +52545,11 @@ trainer {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_AURA_SPHERE
     }
+    inline_skill {
+      name: "Mysterio"
+      announce_string: "Mist swirls over the field."
+      on { entry {} effect { terrain { terrain: TERRAIN_MISTY permanent: true } } }
+    }
   }
 }
 trainer {
@@ -52702,6 +52749,12 @@ trainer {
       move: MOVE_JAW_LOCK
       move: MOVE_THUNDER_FANG
     }
+    inline_skill {
+      name: "Surge-eon"
+      announce_string: "The field is electrified."
+      on { entry {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_HADRON_ENGINE }
   }
 }
 trainer {
