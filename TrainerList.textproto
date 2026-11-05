@@ -86507,6 +86507,11 @@ trainer {
       move: MOVE_VACUUM_WAVE
       move: MOVE_PROTECT
     }
+    inline_skill {
+      name: "Power Trick"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nswaps its Attack and Defense!"
+      on { entry {} effect { use_move { move: MOVE_POWER_TRICK } } }
+    }
   }
 }
 trainer {
@@ -86949,6 +86954,19 @@ trainer {
       move: MOVE_DEFEND_ORDER
       move: MOVE_AIR_SLASH
       move: MOVE_QUIVER_DANCE
+    }
+  }
+  hell {
+    # TODO: Rage Fist upon fainting, at the Pokemon that fainted them
+    inline_skill {
+      name: "Sea of Fire"
+      announce_string: "Your side is engulfed\\nin a sea of fire!"
+      on { battle_start {} effect { side_condition { type: SEA_OF_FIRE who: FOE permanent: true } } }
+    }
+    inline_skill {
+      name: "Burning Jealousy"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nburns with jealousy!"
+      on { end_turn { every: 2 } effect { use_move { move: MOVE_BURNING_JEALOUSY } } }
     }
   }
 }
@@ -93535,9 +93553,9 @@ trainer {
       move: MOVE_FAKE_OUT
     }
     inline_skill {
-      name: "Permanent Sun"
-      announce_string: "The sun shines brightly!"
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      name: "Stealth Rock"
+      announce_string: "Pointed stones float\\naround your team!"
+      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
     }
   }
 }
@@ -109688,6 +109706,12 @@ trainer {
       move: MOVE_CALM_MIND
       move: MOVE_LEECH_SEED
     }
+    inline_skill { extra_ability: ABILITY_TRIAGE extra_ability: ABILITY_DAZZLING }
+    inline_skill {
+      name: "Safeguard"
+      announce_string: "{B_TRAINER1_NAME}'s team is\\ncloaked in a mystical veil!"
+      on { battle_start {} effect { side_condition { type: SAFEGUARD permanent: true } } }
+    }
   }
 }
 trainer {
@@ -110032,6 +110056,8 @@ trainer {
       move: MOVE_JAW_LOCK
     }
     skill: SKILL_PERMANENT_SWAMP
+    # Doc says it recovers 50% HP on KO, Predator heals 25%, good enough for now
+    inline_skill { extra_ability: ABILITY_PRIMAL_ARMOR extra_ability: ABILITY_PREDATOR }
   }
 }
 trainer {
