@@ -4331,6 +4331,11 @@ trainer {
       move: MOVE_DUAL_WINGBEAT
       move: MOVE_TAIL_SLAP
     }
+    inline_skill {
+      name: "Perma Hail"
+      announce_string: "The hail falls."
+      on { entry {} effect { weather { weather: WEATHER_HAIL permanent: true } } }
+    }
   }
 }
 trainer {
@@ -11248,6 +11253,7 @@ trainer {
       move: MOVE_POISON_STING
       move: MOVE_PIN_MISSILE
     }
+    inline_skill { extra_ability: ABILITY_TECHNICIAN }
   }
 }
 trainer {
@@ -11427,6 +11433,11 @@ trainer {
       move: MOVE_TRAILBLAZE
       move: MOVE_SOIL_DRAIN
       move: MOVE_NEEDLE_ARM
+    }
+    inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sun shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
     }
   }
 }
@@ -24501,6 +24512,11 @@ trainer {
       move: MOVE_HYDRO_PUMP
       move: MOVE_HYPER_BEAM
       move: MOVE_MYSTIC_DANCE
+    }
+    inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sunlight shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
     }
     inline_skill {
       extra_ability: ABILITY_WEATHER_DOUBLE_BOOST
@@ -43654,6 +43670,13 @@ trainer {
       move: MOVE_MYSTIC_DANCE
       move: MOVE_AURA_SPHERE
     }
+    inline_skill {
+      name: "Perma Sand"
+      announce_string: "The sandstorm rages."
+      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill { extra_ability: ABILITY_INNER_FOCUS }
   }
 }
 trainer {
@@ -44405,6 +44428,9 @@ trainer {
       move: MOVE_LAST_RESPECTS
       move: MOVE_WILL_O_WISP
     }
+    inline_skill { extra_ability: ABILITY_GRASS_PELT }
+    inline_skill { extra_ability: ABILITY_FLOURISH }
+    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
   }
 }
 trainer {
@@ -50943,6 +50969,11 @@ trainer {
       move: MOVE_JAGGED_HORNS
       move: MOVE_RAZOR_SHELL
       move: MOVE_ROCK_SMASH
+    }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
     }
   }
 }
@@ -76551,6 +76582,11 @@ trainer {
       move: MOVE_AQUA_STEP
       move: MOVE_TRIPLE_KICK
     }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+    }
   }
 }
 trainer {
@@ -81682,6 +81718,8 @@ trainer {
       move: MOVE_ICE_SPINNER
       move: MOVE_COMBAT_TORQUE
     }
+    inline_skill { extra_ability: ABILITY_BIOFILM }
+    inline_skill { extra_ability: ABILITY_POISON_ABSORB }
   }
 }
 trainer {
@@ -85949,6 +85987,11 @@ trainer {
       move: MOVE_CRUNCH
       move: MOVE_AQUA_JET
       move: MOVE_ICE_FANG
+    }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
     }
   }
 }
@@ -92465,6 +92508,11 @@ trainer {
       move: MOVE_ENERGY_WAVE
       move: MOVE_MOONBLAST
     }
+    inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sunlight shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+    }
   }
 }
 trainer {
@@ -93218,6 +93266,11 @@ trainer {
       move: MOVE_FAKE_TEARS
       move: MOVE_ENERGY_WAVE
       move: MOVE_FAKE_OUT
+    }
+    inline_skill {
+      name: "Permanent Sun"
+      announce_string: "The sun shines brightly!"
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
     }
   }
 }
@@ -95066,6 +95119,11 @@ trainer {
       move: MOVE_TRIPLE_DIVE
       move: MOVE_BUG_BITE
       move: MOVE_FLIP_TURN
+    }
+    inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sun shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
     }
   }
 }
@@ -103644,6 +103702,11 @@ trainer {
       move: MOVE_SMACK_DOWN
       move: MOVE_BULLET_PUNCH
       move: MOVE_SHED_TAIL
+    }
+    inline_skill {
+      name: "Perma Sand"
+      announce_string: "The sandstorm rages."
+      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
     }
   }
 }
