@@ -6362,3 +6362,10 @@ ability {
   name: "High Rise"
   description: "Steelworker + Mirror Armor"
 }
+
+ability {
+  id: ABILITY_EARTH_WIRE
+  name: "Earth Wire"
+  description: "Electric moves are super effective on Ground types."
+  expanded_description: "The user's Electric-type moves hit Ground-type Pokemon for super effective damage instead of having no effect."
+}

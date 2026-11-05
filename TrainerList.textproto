@@ -25005,7 +25005,7 @@ trainer {
     }
   }
   hell {
-    # TODO: Electric moves hit Ground types for super effective damage
+    inline_skill { extra_ability: ABILITY_EARTH_WIRE }
     inline_skill {
       name: "Maelstrom"
       announce_string: "A storm electrifies\\nthe battlefield!"
