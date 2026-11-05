@@ -58818,6 +58818,16 @@ trainer {
       move: MOVE_U_TURN
     }
   }
+  hell {
+    # Doc says 50 BP Explosion or Outburst, whichever is higher
+    inline_skill {
+      name: "Aftermath"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ngoes out with a bang!"
+      on { faint {} effect { use_move { move: MOVE_EXPLOSION power: 50 } } }
+    }
+    # Restraining Order is the Red Card from the doc
+    inline_skill { extra_ability: ABILITY_RESTRAINING_ORDER extra_ability: ABILITY_LEVITATE extra_ability: ABILITY_INFLATABLE }
+  }
 }
 trainer {
   id: TRAINER_LAO_1
@@ -66477,6 +66487,11 @@ trainer {
       move: MOVE_HEAT_WAVE
       move: MOVE_TAKE_FLIGHT
     }
+    inline_skill {
+      name: "Frostbitten Team"
+      announce_string: "{B_TRAINER1_NAME}'s team\\nis frostbitten!"
+      on { battle_start {} effect { status { status: FROSTBITE target { scope: PARTY } } } }
+    }
   }
 }
 trainer {
@@ -67267,6 +67282,20 @@ trainer {
       move: MOVE_DUAL_CHOP
       move: MOVE_KNOCK_OFF
       move: MOVE_MACH_PUNCH
+    }
+  }
+  hell {
+    # TODO: Consider cancelling the switch when Anchor Shot traps, it only hits before the switch for now
+    inline_skill {
+      name: "Anchor Shot"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwon't let you leave!"
+      on { switch_out {} side: PLAYER effect { use_move { move: MOVE_ANCHOR_SHOT } } }
+    }
+    inline_skill { extra_ability: ABILITY_POISON_HEAL }
+    inline_skill {
+      name: "Toxic Start"
+      announce_string: "Both teams are\\nbadly poisoned!"
+      on { battle_start {} effect { status { status: TOXIC target { who: BOTH scope: PARTY } } } }
     }
   }
 }
@@ -69697,6 +69726,13 @@ trainer {
       move: MOVE_RECOVER
     }
   }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_BRENDAN_ROUTE_119_MUDKIP
@@ -70150,6 +70186,13 @@ trainer {
       move: MOVE_COSMIC_POWER
       move: MOVE_SCORCHING_SANDS
       move: MOVE_RECOVER
+    }
+  }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
     }
   }
 }
@@ -70608,6 +70651,13 @@ trainer {
       move: MOVE_RECOVER
     }
   }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_BRENDAN_ROUTE_119_TORCHIC
@@ -71064,6 +71114,13 @@ trainer {
       move: MOVE_COSMIC_POWER
       move: MOVE_SCORCHING_SANDS
       move: MOVE_RECOVER
+    }
+  }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
     }
   }
 }
@@ -71525,6 +71582,13 @@ trainer {
       move: MOVE_RECOVER
     }
   }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_MAY_ROUTE_119_TREECKO
@@ -71980,6 +72044,13 @@ trainer {
       move: MOVE_COSMIC_POWER
       move: MOVE_SCORCHING_SANDS
       move: MOVE_RECOVER
+    }
+  }
+  hell {
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
     }
   }
 }
@@ -81907,6 +81978,11 @@ trainer {
     }
     inline_skill { extra_ability: ABILITY_BIOFILM }
     inline_skill { extra_ability: ABILITY_POISON_ABSORB }
+    inline_skill {
+      name: "Perma Terrain"
+      announce_string: "Toxic sludge covers the field."
+      on { entry {} effect { terrain { terrain: TERRAIN_TOXIC permanent: true } } }
+    }
   }
 }
 trainer {
