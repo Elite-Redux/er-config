@@ -4211,7 +4211,11 @@ trainer {
       move: MOVE_BOOMBURST
       move: MOVE_SLUDGE_BOMB
     }
-    skill: SKILL_CALTROPS
+    inline_skill {
+      name: "Caltrops"
+      announce_string: "Caltrops scatter around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: CALTROPS who: FOE permanent: true } } }
+    }
   }
 }
 trainer {
@@ -9010,9 +9014,13 @@ trainer {
       move: MOVE_FLAME_TONGUE
       move: MOVE_TRAILBLAZE
     }
-    # TODO: Cosmic Power after being hit
     # TODO: Magic Cylinder effect
     inline_skill { extra_item { item: ITEM_ROCKY_HELMET } }
+    inline_skill {
+      name: "Cosmic Power"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nabsorbs the blow!"
+      on { hit {} effect { use_move { move: MOVE_COSMIC_POWER } } }
+    }
   }
 }
 trainer {
@@ -21637,9 +21645,8 @@ trainer {
       move: MOVE_AQUA_CUTTER
       move: MOVE_SHADOW_CLAW
     }
-    # TODO: Raging Storm
     # TODO: Sitrus Berry effect
-    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
+    inline_skill { extra_ability: ABILITY_RAGING_STORM extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
   }
 }
 trainer {
@@ -24858,6 +24865,23 @@ trainer {
       move: MOVE_HYDRO_PUMP
     }
   }
+  hell {
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { battle_start {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+    }
+    inline_skill {
+      name: "Night Shade"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfollows up with Night Shade!"
+      on { hit {} side: PLAYER effect { use_move { move: MOVE_NIGHT_SHADE } } }
+    }
+    inline_skill {
+      name: "Water Pledge"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ncalls on the water!"
+      on { end_turn { every: 2 } effect { use_move { move: MOVE_WATER_PLEDGE } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_TONY_2
@@ -27865,6 +27889,12 @@ trainer {
       move: MOVE_MACH_PUNCH
     }
     inline_skill { extra_ability: ABILITY_TRANSISTOR }
+    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      name: "Electric Terrain"
+      announce_string: "An electric current runs\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
   }
 }
 trainer {
@@ -28326,6 +28356,12 @@ trainer {
       hidden_power_type: TYPE_ICE
     }
     inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
+    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      name: "Electric Terrain"
+      announce_string: "An electric current runs\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
   }
 }
 trainer {
@@ -33485,7 +33521,11 @@ trainer {
       move: MOVE_HEAD_SMASH
       move: MOVE_WILD_CHARGE
     }
-    skill: SKILL_PERMANENT_TRICK_ROOM
+    inline_skill {
+      name: "Trick Room"
+      announce_string: "The dimensions are twisted!"
+      on { battle_start {} effect { field { type: TRICK_ROOM permanent: true } } }
+    }
   }
 }
 trainer {
@@ -34018,8 +34058,7 @@ trainer {
       move: MOVE_PSYCHO_BOOST
       move: MOVE_KOWTOW_CLEAVE
     }
-    # TODO: Contrary and Simple
-    inline_skill { extra_item { item: ITEM_QUICK_CLAW } }
+    inline_skill { extra_ability: ABILITY_CONTRARY extra_ability: ABILITY_SIMPLE extra_item { item: ITEM_QUICK_CLAW } }
   }
 }
 trainer {
@@ -42555,7 +42594,12 @@ trainer {
       move: MOVE_DARK_PULSE
       move: MOVE_MAGICAL_LEAF
     }
-    skill: SKILL_PERMANENT_STICKY_WEB
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+    }
+    # TODO: The old skill list has Sticky Web on both sides
   }
 }
 trainer {
@@ -45912,8 +45956,17 @@ trainer {
       move: MOVE_HAMMER_ARM
       move: MOVE_CRUNCH
     }
-    skill: SKILL_TOXIC_SPIKES_2_LAYERS
-    skill: SKILL_SPIKES_1_LAYER
+    inline_skill {
+      name: "Toxic Spikes"
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TOXIC_SPIKES who: FOE layers: 2 permanent: true } } }
+    }
+    inline_skill {
+      name: "Spikes"
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+    }
+    # TODO: The player's abilities are suppressed
   }
 }
 trainer {
@@ -47505,7 +47558,11 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_HARD_PRESS
     }
-    skill: SKILL_STEALTH_ROCKS
+    inline_skill {
+      name: "Stealth Rock"
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+    }
     inline_skill {
       name: "Bleeding Edge"
       announce_string: "The last two Pokémon\\nof your team are bleeding!"
@@ -47893,6 +47950,12 @@ trainer {
       move: MOVE_SHADOW_BALL
     }
     inline_skill { extra_ability: ABILITY_SURGE_SURFER }
+    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      name: "Electric Terrain"
+      announce_string: "An electric current runs\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
   }
 }
 trainer {
@@ -49232,7 +49295,11 @@ trainer {
       move: MOVE_GEAR_UP
       move: MOVE_DARK_PULSE
     }
-    skill: SKILL_SPIKES_1_LAYER
+    inline_skill {
+      name: "Spikes"
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+    }
   }
 }
 trainer {
@@ -49455,7 +49522,12 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_PEBBLE_SHOWER
     }
-    skill: SKILL_SPIKES_1_LAYER
+    inline_skill {
+      name: "Spikes"
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+    }
+    # TODO: Moves heal 200% of the damage dealt
   }
 }
 trainer {
@@ -54918,9 +54990,7 @@ trainer {
     }
   }
   hell {
-    # TODO: Hyper aggressive AI
-    # TODO: Moves use 20% of Speed in the damage calculation (Slipstream)
-    inline_skill { extra_item { item: ITEM_CLEAR_AMULET } }
+    inline_skill { extra_ability: ABILITY_HYPER_AGGRESSIVE extra_ability: ABILITY_SLIPSTREAM extra_item { item: ITEM_CLEAR_AMULET } }
   }
 }
 trainer {
@@ -56044,6 +56114,17 @@ trainer {
       move: MOVE_GIGA_DRAIN
       move: MOVE_BUG_BUZZ
       move: MOVE_HYPNOSIS
+    }
+    inline_skill { extra_item { item: ITEM_LIFE_ORB } }
+    inline_skill {
+      name: "Growth"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nkeeps growing!"
+      on { end_turn {} effect { use_move { move: MOVE_GROWTH } } }
+    }
+    inline_skill {
+      name: "Slowdown"
+      announce_string: "Your Pokémon\\nslows down!"
+      on { end_turn {} side: PLAYER effect { stat_change { stat: STAT_SPEED amount: -1 } } }
     }
   }
 }
@@ -57325,6 +57406,13 @@ trainer {
       move: MOVE_LEAF_STORM
       move: MOVE_EARTH_POWER
       move: MOVE_AIR_SLASH
+    }
+    # TODO: Gust when an AI Pokémon faints (same with tailwind it's only working with explosions now)
+    inline_skill { extra_item { item: ITEM_EXPERT_BELT } }
+    inline_skill {
+      name: "Topsy-Turvy"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nturns things upside down!"
+      on { hit {} side: PLAYER effect { use_move { move: MOVE_TOPSY_TURVY } } }
     }
   }
 }
@@ -59538,6 +59626,8 @@ trainer {
       move: MOVE_KNOCK_OFF
       move: MOVE_DOUBLE_IRON_BASH
     }
+    # TODO: Illusion shouldn't boost power or break when hit
+    inline_skill { extra_ability: ABILITY_ILLUSION extra_item { item: ITEM_BRIGHT_POWDER } }
   }
 }
 trainer {
@@ -60774,6 +60864,7 @@ trainer {
       move: MOVE_U_TURN
       move: MOVE_AQUA_JET
     }
+    inline_skill { extra_ability: ABILITY_SAP_SIPPER extra_item { item: ITEM_SHELL_BELL } }
   }
 }
 trainer {
@@ -62198,6 +62289,19 @@ trainer {
       move: MOVE_DAZZLING_GLEAM
     }
   }
+  hell {
+    inline_skill { extra_item { item: ITEM_EXPERT_BELT } }
+    inline_skill {
+      name: "Mist"
+      announce_string: "Mist swirls around {B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: MIST permanent: true } } }
+    }
+    inline_skill {
+      name: "Magnet Rise"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfloats in the air!"
+      on { entry {} effect { use_move { move: MOVE_MAGNET_RISE } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_TARA
@@ -62349,6 +62453,8 @@ trainer {
     # TODO: AI hits the player's lowest defense (Exploit Weakness only works against statused foes, this needs a new ability)
     inline_skill {
       extra_ability: ABILITY_SIMPLE
+    }
+    inline_skill {
       extra_ability: ABILITY_CLEAR_BODY
     }
   }
@@ -69624,7 +69730,7 @@ trainer {
       move: MOVE_ACROBATICS
       move: MOVE_SHARPEN
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -70085,7 +70191,7 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_SLAM
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -70548,7 +70654,7 @@ trainer {
       move: MOVE_SAPPY_SEED
       move: MOVE_SIZZLY_SLIDE
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -71014,7 +71120,7 @@ trainer {
       move: MOVE_RAGE
       move: MOVE_FLIP_TURN
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -71479,7 +71585,7 @@ trainer {
       move: MOVE_POISON_POWDER
       move: MOVE_LEECH_SEED
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -71943,7 +72049,7 @@ trainer {
       move: MOVE_TOXIC
       move: MOVE_FLUTTERING_LEAF
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -75446,6 +75552,12 @@ trainer {
       move: MOVE_GEM_MISSILE
       move: MOVE_MYSTIC_DANCE
     }
+    inline_skill { extra_item { item: ITEM_GRIP_CLAW } extra_item { item: ITEM_BINDING_BAND } }
+    inline_skill {
+      name: "Aqua Ring"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsurrounds itself with water!"
+      on { entry {} effect { use_move { move: MOVE_AQUA_RING } } }
+    }
   }
 }
 trainer {
@@ -77697,6 +77809,19 @@ trainer {
       move: MOVE_AQUA_JET
     }
   }
+  hell {
+    inline_skill { extra_item { item: ITEM_SHELL_BELL } }
+    inline_skill {
+      name: "Bubble Burst"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nstrikes back with bubbles!"
+      on { hit { move { flag: CONTACT } } effect { use_move { move: MOVE_BUBBLE } } }
+    }
+    inline_skill {
+      name: "Momentum"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ngets fired up by the KO!"
+      on { faint {} side: PLAYER effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 target { who: FOE } } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_BUFFEL
@@ -79692,7 +79817,11 @@ trainer {
       move: MOVE_SHARPEN
       move: MOVE_RIP_AND_TEAR
     }
-    skill: SKILL_PERMANENT_STICKY_WEB
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+    }
   }
 }
 trainer {
@@ -82831,7 +82960,11 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ICE
     }
-    skill: SKILL_PERMANENT_STICKY_WEB
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+    }
   }
 }
 trainer {
@@ -84071,7 +84204,11 @@ trainer {
       move: MOVE_DEFEND_ORDER
       move: MOVE_ENCORE
     }
-    skill: SKILL_TOXIC_SPIKES_2_LAYERS
+    inline_skill {
+      name: "Toxic Spikes"
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TOXIC_SPIKES who: FOE layers: 2 permanent: true } } }
+    }
   }
 }
 trainer {
@@ -85650,7 +85787,7 @@ trainer {
       move: MOVE_FURY_ATTACK
       move: MOVE_STEEL_WING
     }
-    skill: SKILL_EVIOLITE
+    inline_skill { extra_item { item: ITEM_EVIOLITE } }
   }
 }
 trainer {
@@ -87709,6 +87846,12 @@ trainer {
       move: MOVE_HYPER_FANG
     }
     inline_skill { extra_ability: ABILITY_STATIC_BLOOM }
+    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      name: "Electric Terrain"
+      announce_string: "An electric current runs\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
   }
 }
 trainer {
@@ -91887,6 +92030,9 @@ trainer {
       move: MOVE_FLASH_CANNON
       move: MOVE_DRAGON_PULSE
     }
+    # TODO: The Focus Band only works once per Pokémon
+    # Honestly not sure what to expect with this one, if it works, we gucci
+    inline_skill { extra_ability: ABILITY_EQUINOX extra_ability: ABILITY_INNER_FOCUS extra_item { item: ITEM_FOCUS_BAND strength: 25 } }
   }
 }
 trainer {
@@ -93047,7 +93193,11 @@ trainer {
       move: MOVE_THUNDERBOLT
       move: MOVE_FREEZING_GLARE
     }
-    skill: SKILL_PERMANENT_INVERSE_ROOM
+    inline_skill {
+      name: "Inverse Room"
+      announce_string: "An unknown power inverts type effectiveness!"
+      on { battle_start {} effect { field { type: INVERSE_ROOM permanent: true } } }
+    }
   }
 }
 trainer {
@@ -93454,6 +93604,7 @@ trainer {
       move: MOVE_DRAINING_KISS
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
   }
 }
 trainer {
@@ -99904,6 +100055,13 @@ trainer {
       move: MOVE_HEAVY_SLAM
       move: MOVE_HEAT_CRASH
     }
+    # TODO: Ignores immunities
+    inline_skill {
+      name: "Trick Room"
+      announce_string: "The dimensions are twisted!"
+      on { battle_start {} effect { field { type: TRICK_ROOM permanent: true } } }
+    }
+    inline_skill { extra_item { item: ITEM_IRON_BALL } }
   }
 }
 trainer {
@@ -101475,10 +101633,15 @@ trainer {
       move: MOVE_SUPERSONIC_SHOT
       move: MOVE_VENOM_BOLT
     }
-    skill: SKILL_PERMANENT_RAINBOW
+    inline_skill {
+      name: "Rainbow"
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: RAINBOW permanent: true } } }
+    }
     inline_skill {
       extra_ability: ABILITY_FRIEND_GUARD
     }
+    # TODO: Stat changes are shared between allies
   }
 }
 trainer {
@@ -104267,7 +104430,11 @@ trainer {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_AURA_SPHERE
     }
-    skill: SKILL_PERMANENT_RAINBOW
+    inline_skill {
+      name: "Rainbow"
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: RAINBOW permanent: true } } }
+    }
   }
 }
 trainer {
@@ -108243,6 +108410,12 @@ trainer {
       move: MOVE_AIR_CUTTER
     }
     inline_skill { extra_ability: ABILITY_POWER_SPOT }
+    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      name: "Electric Terrain"
+      announce_string: "An electric current runs\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+    }
   }
 }
 trainer {
@@ -110122,7 +110295,11 @@ trainer {
       move: MOVE_RIP_AND_TEAR
       move: MOVE_JAW_LOCK
     }
-    skill: SKILL_PERMANENT_SWAMP
+    inline_skill {
+      name: "Swamp"
+      announce_string: "A swamp envelops {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: SWAMP who: FOE permanent: true } } }
+    }
     # Doc says it recovers 50% HP on KO, Predator heals 25%, good enough for now
     inline_skill { extra_ability: ABILITY_PRIMAL_ARMOR extra_ability: ABILITY_PREDATOR }
   }
@@ -110359,6 +110536,13 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_FOCUS_BLAST
       move: MOVE_SOLAR_BEAM
+    }
+    # TODO: STAB moves bypass Protect (and clones) and abilities
+    inline_skill { extra_item { item: ITEM_HEAVY_DUTY_BOOTS } }
+    inline_skill {
+      name: "Desolate Land"
+      announce_string: "The sunlight turned\\nextremely harsh!"
+      on { battle_start {} effect { weather { weather: WEATHER_SUN_PRIMAL permanent: true } } }
     }
   }
 }
@@ -110787,8 +110971,7 @@ trainer {
     }
   }
   hell {
-    # TODO: Heavy-Duty Boots effect
-    inline_skill { extra_ability: ABILITY_TERA_SHELL }
+    inline_skill { extra_ability: ABILITY_TERA_SHELL extra_item { item: ITEM_HEAVY_DUTY_BOOTS } }
     inline_skill {
       name: "Substitute"
       announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nhides behind a substitute!"
@@ -112305,12 +112488,17 @@ trainer {
       move: MOVE_BUG_BITE
       move: MOVE_ELECTROWEB
     }
-    skill: SKILL_HAZARDS_ALL
+    inline_skill {
+      name: "All Hazards"
+      announce_string: "All hazards were scattered around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STEALTH_ROCK type: SPIKES type: TOXIC_SPIKES type: STICKY_WEB who: FOE } } }
+    }
     inline_skill {
       name: "Judgement"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Judgment on turn end!"
       on { end_turn {} effect { use_move { move: MOVE_JUDGMENT power: 60 } } }
     }
+    # TODO: Swarm (in the old skill list)
   }
 }
 trainer {
