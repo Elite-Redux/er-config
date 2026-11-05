@@ -152,6 +152,8 @@ message InlineSkill {
     enum When {
       EVERY = 0;
       LEAD = 1;
+      // the last Pokemon sent out: none left on the bench
+      LAST = 2;
     }
     When when = 1;
     PartySlots slots = 2;

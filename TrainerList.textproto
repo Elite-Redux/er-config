@@ -9171,6 +9171,11 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_ANALYTIC
     }
+    inline_skill {
+      name: "Last Stand"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
+      on { entry { when: LAST } effect { stat_change { stat: STAT_ATK stat: STAT_DEF stat: STAT_SPATK stat: STAT_SPDEF stat: STAT_SPEED amount: 1 } } }
+    }
   }
 }
 trainer {
