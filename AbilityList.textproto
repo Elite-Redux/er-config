@@ -6404,3 +6404,17 @@ ability {
   description: "All of the user's moves count as bone moves."
   expanded_description: "Every move the user uses counts as a bone move, so abilities like Bone Zone apply to all of them."
 }
+
+ability {
+  id: ABILITY_EXECUTIONER
+  name: "Executioner"
+  description: "Critical hits knock out the target."
+  expanded_description: "The user's critical hits deal damage equal to the target's remaining HP. Sturdy, Focus Sash and Endure still let it hang on."
+}
+
+ability {
+  id: ABILITY_PERFECT_PITCH
+  name: "Perfect Pitch"
+  description: "Sound moves always land critical hits."
+  expanded_description: "Every sound-based move the user uses is a guaranteed critical hit, unless the target is immune to critical hits (Battle Armor, Shell Armor, Lucky Chant...)."
+}

@@ -28732,6 +28732,9 @@ trainer {
       move: MOVE_SNARL
       move: MOVE_BOOMBURST
     }
+    inline_skill {
+      extra_ability: ABILITY_PERFECT_PITCH
+    }
   }
 }
 trainer {
@@ -95201,6 +95204,7 @@ trainer {
       move: MOVE_ROOST
       move: MOVE_LUCKY_CHANT
     }
+    inline_skill { extra_ability: ABILITY_EXECUTIONER }
   }
 }
 trainer {
