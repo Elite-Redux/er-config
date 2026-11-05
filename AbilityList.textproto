@@ -6397,3 +6397,10 @@ ability {
   description: "Punching and kicking moves deal 1.5x damage."
   expanded_description: "Boosts the damage of punching and kicking moves by 50%, on top of Iron Fist and Striker."
 }
+
+ability {
+  id: ABILITY_BONE_MASTER
+  name: "Bone Master"
+  description: "All of the user's moves count as bone moves."
+  expanded_description: "Every move the user uses counts as a bone move, so abilities like Bone Zone apply to all of them."
+}

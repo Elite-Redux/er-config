@@ -73884,6 +73884,9 @@ trainer {
       move: MOVE_FLASH_CANNON
     }
   }
+  hell {
+    inline_skill { extra_ability: ABILITY_BONE_ZONE extra_ability: ABILITY_BONE_MASTER extra_ability: ABILITY_HAUNTING_FRENZY }
+  }
 }
 trainer {
   id: TRAINER_WALLACE_DOUBLES_LEGENDS
