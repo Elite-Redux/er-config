@@ -19095,6 +19095,7 @@ trainer {
       move: MOVE_ZEPHYR_RUSH
       move: MOVE_ROOST
     }
+    inline_skill { extra_ability: ABILITY_CUTE_CHARM }
   }
 }
 trainer {
@@ -38716,9 +38717,9 @@ trainer {
       move: MOVE_SEISMIC_FIST
       move: MOVE_THUNDER_PUNCH
     }
-    inline_skill {
-      extra_ability: ABILITY_OLE
-    }
+    # TODO: Bright Powder's evasion chance
+    # Dazzling for 'priority moves fail if selected by the player'
+    inline_skill { extra_ability: ABILITY_OLE extra_ability: ABILITY_DAZZLING }
   }
 }
 trainer {
@@ -46612,6 +46613,11 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_UNNERVE
     }
+    inline_skill {
+      name: "Last Stand"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
+      on { entry { when: LAST } effect { stat_change { stat: STAT_ATK stat: STAT_DEF stat: STAT_SPATK stat: STAT_SPDEF stat: STAT_SPEED amount: 2 } } }
+    }
   }
 }
 trainer {
@@ -52368,6 +52374,7 @@ trainer {
       move: MOVE_STONE_EDGE
       move: MOVE_KOWTOW_CLEAVE
     }
+    inline_skill { extra_ability: ABILITY_GUARD_DOG }
   }
 }
 trainer {
@@ -53931,6 +53938,7 @@ trainer {
       move: MOVE_ZEN_HEADBUTT
       move: MOVE_ICE_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_MOMENTUM }
   }
 }
 trainer {
@@ -54334,6 +54342,7 @@ trainer {
       move: MOVE_SKY_UPPERCUT
       move: MOVE_DIZZY_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_IMPULSE }
   }
 }
 trainer {
@@ -65607,7 +65616,7 @@ trainer {
     }
     inline_skill {
       name: "Life Dew"
-      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t use Life Dew on entry!"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Life Dew!"
       on { entry {} effect { use_move { move: MOVE_LIFE_DEW } } }
     }
   }
@@ -67093,6 +67102,7 @@ trainer {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_MACH_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_MERCILESS }
   }
 }
 trainer {
@@ -72282,6 +72292,7 @@ trainer {
       move: MOVE_AIR_SLASH
       move: MOVE_HYPER_BEAM
     }
+    inline_skill { extra_ability: ABILITY_HUBRIS }
   }
 }
 trainer {
@@ -73170,6 +73181,7 @@ trainer {
       move: MOVE_PSYCHO_CUT
       move: MOVE_FLUTTERING_LEAF
     }
+    inline_skill { extra_ability: ABILITY_MOXIE }
   }
 }
 trainer {
@@ -76558,7 +76570,7 @@ trainer {
       name: "Omniboost Lead"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +2 omniboost!"
       # Doc says last gets +2 omniboost but since only one mon in party we can use lead
-      on { 
+      on {
         entry { when: LEAD }
         effect {
           stat_change {
@@ -79247,6 +79259,10 @@ trainer {
       move: MOVE_DRAGON_CLAW
     }
   }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
+  }
 }
 trainer {
   id: TRAINER_BRENDAN_RUSTBORO_MUDKIP
@@ -79384,6 +79400,10 @@ trainer {
       move: MOVE_AERIAL_ACE
       move: MOVE_DRAGON_CLAW
     }
+  }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
   }
 }
 trainer {
@@ -80269,6 +80289,10 @@ trainer {
       move: MOVE_DRAGON_CLAW
     }
   }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
+  }
 }
 trainer {
   id: TRAINER_MAY_RUSTBORO_MUDKIP
@@ -80406,6 +80430,10 @@ trainer {
       move: MOVE_ICE_BEAM
       move: MOVE_THUNDERBOLT
     }
+  }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
   }
 }
 trainer {
@@ -81084,6 +81112,11 @@ trainer {
       move: MOVE_BUG_BITE
       move: MOVE_STEAMROLLER
     }
+    inline_skill {
+      name: "Leech Seed"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplants a seed on your Pokémon!"
+      on { entry {} side: PLAYER effect { use_move { move: MOVE_LEECH_SEED } } }
+    }
   }
 }
 trainer {
@@ -81256,6 +81289,8 @@ trainer {
       move: MOVE_THUNDERBOLT
       move: MOVE_FLAMETHROWER
     }
+    # Doc says can't be crit, Shell Armor
+    inline_skill { extra_ability: ABILITY_SHELL_ARMOR }
   }
 }
 trainer {
@@ -81669,6 +81704,8 @@ trainer {
       move: MOVE_VENOSHOCK
       move: MOVE_FLAMETHROWER
     }
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
   }
 }
 trainer {
@@ -87491,6 +87528,7 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_HYPER_FANG
     }
+    inline_skill { extra_ability: ABILITY_STATIC_BLOOM }
   }
 }
 trainer {
@@ -93767,6 +93805,7 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_DRACO_METEOR
     }
+    inline_skill { extra_ability: ABILITY_MOLD_BREAKER }
   }
 }
 trainer {
@@ -93963,6 +94002,7 @@ trainer {
       move: MOVE_THUNDER_PUNCH
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_ability: ABILITY_SPEED_BOOST }
   }
 }
 trainer {
@@ -94370,6 +94410,7 @@ trainer {
       move: MOVE_SLUDGE_BOMB
       move: MOVE_NASTY_PLOT
     }
+    inline_skill { extra_ability: ABILITY_LONG_REACH }
   }
 }
 trainer {
@@ -94592,6 +94633,7 @@ trainer {
       move: MOVE_GROWTH
       move: MOVE_EARTH_POWER
     }
+    inline_skill { extra_ability: ABILITY_FLOWER_GIFT }
   }
 }
 trainer {
@@ -96889,6 +96931,7 @@ trainer {
       move: MOVE_FIRE_PUNCH
       move: MOVE_METEOR_MASH
     }
+    inline_skill { extra_ability: ABILITY_GALLANTRY }
   }
 }
 trainer {
@@ -100766,6 +100809,9 @@ trainer {
       move: MOVE_FAKE_OUT
     }
   }
+  hell {
+    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA extra_ability: ABILITY_SWIFT_SWIM extra_ability: ABILITY_SAP_SIPPER }
+  }
 }
 trainer {
   id: TRAINER_ISABELLE
@@ -100864,6 +100910,15 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_SHOCK_WAVE
       move: MOVE_FUTURE_SIGHT
+    }
+  }
+  hell {
+    # TODO: Rooms don't work
+    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA }
+    inline_skill {
+      name: "Swamp"
+      announce_string: "A swamp envelops\\nyour team!"
+      on { battle_start {} effect { side_condition { type: SWAMP who: FOE permanent: true } } }
     }
   }
 }
@@ -104429,6 +104484,7 @@ trainer {
       move: MOVE_AURA_SPHERE
       move: MOVE_CALM_MIND
     }
+    inline_skill { extra_ability: ABILITY_PSYCHIC_SURGE }
   }
 }
 trainer {
@@ -104639,6 +104695,7 @@ trainer {
       move: MOVE_ZAP_CANNON
       hidden_power_type: TYPE_FLYING
     }
+    inline_skill { extra_ability: ABILITY_HYPER_AGGRESSIVE }
   }
 }
 trainer {
@@ -107028,6 +107085,10 @@ trainer {
       move: MOVE_THUNDERBOLT
     }
   }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
+  }
 }
 trainer {
   id: TRAINER_MAY_RUSTBORO_TORCHIC
@@ -107165,6 +107226,10 @@ trainer {
       move: MOVE_ICE_BEAM
       move: MOVE_THUNDERBOLT
     }
+  }
+  hell {
+    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
+    inline_skill { extra_ability: ABILITY_STURDY }
   }
 }
 trainer {
@@ -107984,6 +108049,7 @@ trainer {
       move: MOVE_CUT
       move: MOVE_AIR_CUTTER
     }
+    inline_skill { extra_ability: ABILITY_POWER_SPOT }
   }
 }
 trainer {
@@ -110517,6 +110583,15 @@ trainer {
       move: MOVE_BUG_BITE
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_SHADOW_SNEAK
+    }
+  }
+  hell {
+    # TODO: Heavy-Duty Boots effect
+    inline_skill { extra_ability: ABILITY_TERA_SHELL }
+    inline_skill {
+      name: "Substitute"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nhides behind a substitute!"
+      on { entry {} effect { use_move { move: MOVE_SUBSTITUTE } } }
     }
   }
 }
