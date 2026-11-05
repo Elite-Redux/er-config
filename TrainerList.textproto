@@ -24415,8 +24415,11 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_ability: ABILITY_KNOW_YOUR_PLACE extra_ability: ABILITY_FIGHT_CLUB }
     inline_skill {
-      extra_ability: ABILITY_KNOW_YOUR_PLACE
+      name: "Last Stand"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
+      on { entry { when: LAST } effect { stat_change { stat: STAT_DEF stat: STAT_SPDEF amount: 4 } } }
     }
   }
 }
@@ -59990,6 +59993,7 @@ trainer {
       move: MOVE_FACADE
       move: MOVE_BULK_UP
     }
+    inline_skill { extra_ability: ABILITY_MARTIAL_ARTS }
   }
 }
 trainer {
@@ -61713,6 +61717,8 @@ trainer {
       announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up as it weakens!"
       on { hit {} hp_below: 50 once: PER_POKEMON effect { stat_change { stat: STAT_SPEED amount: 1 } } }
     }
+    # TODO: The player's abilities are disabled after 2 turns on the field
+    inline_skill { extra_ability: ABILITY_TIDAL_FORCE }
   }
 }
 trainer {

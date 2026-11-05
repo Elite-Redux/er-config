@@ -6376,3 +6376,24 @@ ability {
   description: "Status moves never miss."
   expanded_description: "The user's status moves always hit, whatever the accuracy and evasion stages."
 }
+
+ability {
+  id: ABILITY_TIDAL_FORCE
+  name: "Tidal Force"
+  description: "Water-type moves deal double damage."
+  expanded_description: "The user's Water-type moves deal twice their damage."
+}
+
+ability {
+  id: ABILITY_FIGHT_CLUB
+  name: "Fight Club"
+  description: "Fighting-type moves deal double damage."
+  expanded_description: "The user's Fighting-type moves deal twice their damage."
+}
+
+ability {
+  id: ABILITY_MARTIAL_ARTS
+  name: "Martial Arts"
+  description: "Punching and kicking moves deal 1.5x damage."
+  expanded_description: "Boosts the damage of punching and kicking moves by 50%, on top of Iron Fist and Striker."
+}
