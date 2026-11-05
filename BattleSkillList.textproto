@@ -164,6 +164,11 @@ skill {
   announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
 }
 skill {
+  id: SKILL_PLAYER_LETHARGY
+  name: "Lethargy"
+  announce_string: "{B_STACK_1_NAME_WITH_PREFIX}'s ability\\nbecame Lethargy!"
+}
+skill {
   id: SKILL_PERMANENT_SWAMP
   name: "Swamp"
   announce_string: "A swamp envelops {B_PLAYER_NAME}'s team!"

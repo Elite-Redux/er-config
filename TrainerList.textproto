@@ -89028,6 +89028,8 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_REST
     }
+    skill: SKILL_PLAYER_LETHARGY
+    inline_skill { extra_item { item: ITEM_ABILITY_SHIELD } }
   }
 }
 trainer {
