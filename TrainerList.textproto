@@ -7613,7 +7613,7 @@ trainer {
     inline_skill {
       name: "Wilting Scent"
       announce_string: "{B_TRAINER1_NAME}'s flowers weaken\\nyour Pokémon!"
-      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: -1 target: PLAYER_MON } } }
+      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: -1 target { who: FOE } } } }
     }
   }
 }
@@ -47600,7 +47600,7 @@ trainer {
     inline_skill {
       name: "Hot Start"
       announce_string: "Both teams' leading Pokémon\\nare set ablaze!"
-      on { battle_start {} effect { status { status: BURN target: BOTH_PARTIES slots { first: 3 } } } }
+      on { battle_start {} effect { status { status: BURN target { who: BOTH scope: PARTY slots { first: 3 } } } } }
     }
   }
 }
@@ -61764,7 +61764,7 @@ trainer {
     inline_skill {
       name: "Lullaby"
       announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nlulls its attacker to sleep!"
-      on { hit {} effect { status { status: SLEEP target: PLAYER_MON } } }
+      on { hit {} effect { status { status: SLEEP target { who: FOE } } } }
     }
   }
 }

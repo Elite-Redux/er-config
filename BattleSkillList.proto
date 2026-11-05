@@ -5,6 +5,7 @@ package er;
 import "BattleSkillEnum.proto";
 import "AbilityEnum.proto";
 import "MoveEnum.proto";
+import "MoveList.proto";
 import "Stats.proto";
 import "Types.proto";
 
@@ -79,18 +80,32 @@ message InlineSkill {
   enum Side {
     TRAINER = 0;
     PLAYER = 1;
+    BOTH = 2;
   }
 
-  // The Pokemon an effect applies to. An event has two Pokemon: the one it happens to (EVENT_MON) and
-  // the other one (the attacker, the KO'er, or the foe facing it). TRAINER_MON and PLAYER_MON pick
-  // between these two by side.
-  enum Target {
-    EVENT_MON = 0;
-    TRAINER_MON = 1;
-    PLAYER_MON = 2;
-    TRAINER_PARTY = 3;  // status only
-    PLAYER_PARTY = 4;   // status only
-    BOTH_PARTIES = 5;   // status only
+  // Who an effect applies to, seen from the event. An event has two Pokemon: the one it happens to
+  // and its foe (the attacker, the KO'er, or the Pokemon facing it).
+  //   target { who: FOE }                  the attacker of a hit
+  //   target { who: SUBJECT scope: FIELD } the Pokemon that got hit and its partner
+  //   target { who: BOTH scope: PARTY slots { first: 3 } }  the first 3 of both parties
+  message Target {
+    enum Who {
+      SUBJECT = 0;
+      FOE = 1;
+      BOTH = 2;
+    }
+    Who who = 1;
+
+    enum Scope {
+      MON = 0;
+      // every Pokemon on the field on that side
+      FIELD = 1;
+      // the whole party, benched ones too. Major status only
+      PARTY = 2;
+    }
+    Scope scope = 2;
+    // PARTY only
+    PartySlots slots = 3;
   }
 
   enum Once {
@@ -156,6 +171,8 @@ message InlineSkill {
   // a damaging move from a Pokemon of the other side hit this Pokemon, once per hit.
   // Moves used by skills and abilities on their own don't count
   message Hit {
+    // unset = any move
+    MoveFilter move = 1;
     enum Effectiveness {
       EFFECTIVENESS_UNSET = 0;  // not allowed
       SUPER_EFFECTIVE = 1;
@@ -164,11 +181,30 @@ message InlineSkill {
       // the move didn't affect it (type or ability immunity). Only when listed
       IMMUNE = 4;
     }
-    // the move is one of these types
-    repeated Type type = 1;
-    bool contact = 2;
     // unset = any that dealt damage
     repeated Effectiveness effectiveness = 3;
+    // multi-hit moves and Parental Bond fire once per strike, this keeps the first one only
+    bool first_strike_only = 4;
+  }
+
+  // Each list is "any of these", and the move has to match every list that's set.
+  //   move { type: TYPE_FIRE type: TYPE_WATER flag: CONTACT }  a fire or water move that makes contact
+  message MoveFilter {
+    enum Flag {
+      FLAG_UNSET = 0;  // not allowed
+      CONTACT = 1;
+      PUNCH = 2;
+      KICK = 3;
+      SOUND = 4;
+      MEGA_LAUNCHER = 5;
+      DANCE = 6;
+      KEEN_EDGE = 7;
+    }
+    repeated Type type = 1;
+    // PHYSICAL or SPECIAL, as the move is used (Photon Geyser, Shell Side Arm...)
+    repeated MoveSplit split = 2;
+    // abilities that add a flag count, like for Iron Fist or Tough Claws
+    repeated Flag flag = 3;
   }
 
   // this Pokemon fainted. The other Pokemon is the one that knocked it out, if any
@@ -276,15 +312,9 @@ message InlineSkill {
     }
     repeated ConditionType type = 1;
 
-    enum TargetSide {
-      // where the trainer would put it with the move: hazards, swamp and sea of fire on the player's
-      // side, the others on the trainer's
-      DEFAULT = 0;
-      TRAINER_SIDE = 1;
-      PLAYER_SIDE = 2;
-      BOTH_SIDES = 3;
-    }
-    TargetSide side = 2;
+    // the side of the event's Pokemon, of its foe, or both. On battle_start the event's Pokemon is
+    // the trainer's lead, so hazards need who: FOE
+    Target.Who who = 2;
 
     // hazards only: brings it up to this many, spikes 1 to 3, toxic spikes 1 to 2, the others 1. defaults to 1
     int32 layers = 3;
@@ -328,7 +358,7 @@ message InlineSkill {
       PARALYSIS = 5;
       FROSTBITE = 6;
       BLEED = 7;
-      // volatile, EVENT_MON, TRAINER_MON or PLAYER_MON only
+      // volatile, not on PARTY
       CONFUSION = 8;
       CURSE = 9;
       SALT_CURE = 10;
@@ -339,8 +369,6 @@ message InlineSkill {
     // Pokemon on the field go through the usual immunities (type, ability, Safeguard, terrain...) and
     // messages. The benched ones of a party only skip their types' immunity and are changed silently
     Target target = 2;
-    // *_PARTY targets only
-    PartySlots slots = 3;
   }
 
   message StatChange {
@@ -349,7 +377,7 @@ message InlineSkill {
     repeated Stat stat = 1;
     // goes from -6 to +6, negative applies debuff
     int32 amount = 2;
-    // EVENT_MON, TRAINER_MON or PLAYER_MON
+    // MON or FIELD
     Target target = 3;
   }
 }
