@@ -39221,6 +39221,13 @@ trainer {
       move: MOVE_WEB_SHOT
       move: MOVE_SPARKLING_BARRAGE
     }
+    # TODO: Ignores rooms
+    inline_skill {
+      name: "Static Shock"
+      announce_string: "Your whole party\\nis paralyzed!"
+      on { battle_start {} effect { status { status: PARALYSIS target { who: FOE scope: PARTY } } } }
+    }
+    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
   }
 }
 trainer {
