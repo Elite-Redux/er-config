@@ -51314,6 +51314,9 @@ trainer {
       move: MOVE_LIQUIDATION
       move: MOVE_DUAL_WINGBEAT
     }
+    # Volt Absorb for the Electric immunity, it heals on top
+    # TODO: Pokémon switch in with a Helping Hand boost (needs a new effect, Helping Hand does nothing in a single battle)
+    inline_skill { extra_ability: ABILITY_VOLT_ABSORB }
   }
 }
 trainer {
@@ -53288,6 +53291,12 @@ trainer {
       move: MOVE_DUAL_WINGBEAT
       move: MOVE_FELL_STINGER
       move: MOVE_PROTECT
+    }
+    # +1 Attack is exactly the +50%, +1 Speed is +50% instead of +20%
+    inline_skill {
+      name: "Battle Ready"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nis fired up!"
+      on { entry {} effect { stat_change { stat: STAT_ATK stat: STAT_SPEED amount: 1 } } }
     }
   }
 }
@@ -62235,6 +62244,15 @@ trainer {
       move: MOVE_FLASH
     }
   }
+  hell {
+    # TODO: The player's accurate moves (95-100%) lose 25% accuracy
+    # Torment is used on each entry instead of being passive
+    inline_skill {
+      name: "Cursed Salt"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ncurses your Pokémon!"
+      on { entry {} side: PLAYER effect { status { status: SALT_CURE } } effect { status { status: CURSE } } effect { use_move { move: MOVE_TORMENT } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_MISSY
@@ -62308,6 +62326,14 @@ trainer {
       move: MOVE_SHADOW_BALL
       move: MOVE_PIXIE_BEAM
       move: MOVE_THUNDER_WAVE
+    }
+  }
+  hell {
+    # Simple doubles the AI's stat raises; Clear Body keeps its stats from dropping (her team has no self-lowering moves)
+    # TODO: AI hits the player's lowest defense (Exploit Weakness only works against statused foes, this needs a new ability)
+    inline_skill {
+      extra_ability: ABILITY_SIMPLE
+      extra_ability: ABILITY_CLEAR_BODY
     }
   }
 }
@@ -62439,6 +62465,15 @@ trainer {
       move: MOVE_FAKE_OUT
       move: MOVE_SUCKER_PUNCH
       move: MOVE_BATON_PASS
+    }
+    # Leftovers effect: Self Sufficient
+    inline_skill {
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
+    inline_skill {
+      name: "Leech Seed"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplants a seed on your Pokémon!"
+      on { entry {} side: PLAYER effect { use_move { move: MOVE_LEECH_SEED } } }
     }
   }
 }
@@ -101157,6 +101192,16 @@ trainer {
       name: "Ancient Power"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Ancient Power on turn end!"
       on { end_turn {} effect { use_move { move: MOVE_ANCIENT_POWER } } }
+    }
+    inline_skill {
+      name: "Pebble Shower"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nkicks up pebbles after attacking!"
+      on { hit {} side: PLAYER effect { use_move { move: MOVE_PEBBLE_SHOWER } } }
+    }
+    inline_skill {
+      name: "Rattled"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up when touched!"
+      on { hit { move { flag: CONTACT } } effect { stat_change { stat: STAT_SPEED amount: 2 } } }
     }
   }
 }
