@@ -23414,6 +23414,14 @@ trainer {
       move: MOVE_DRAINING_KISS
     }
   }
+  hell {
+    inline_skill { extra_ability: ABILITY_PURE_LOVE extra_ability: ABILITY_PIXIE_POWER }
+    inline_skill {
+      name: "Sweet Kiss"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblows a kiss back!"
+      on { hit {} effect { use_move { move: MOVE_SWEET_KISS } } }
+    }
+  }
 }
 trainer {
   id: TRAINER_THALIA_2
@@ -24703,7 +24711,7 @@ trainer {
     }
     inline_skill {
       name: "Recycle"
-      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t recycles items on turn end!"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nrecycles its item!"
       on { end_turn {} effect { use_move { move: MOVE_RECYCLE } } }
     }
   }
@@ -26644,6 +26652,11 @@ trainer {
       move: MOVE_MEGA_PUNCH
       move: MOVE_DRAIN_PUNCH
     }
+    inline_skill {
+      name: "Frostbite Field"
+      announce_string: "Both teams are\\nfrostbitten!"
+      on { battle_start {} effect { status { status: FROSTBITE target { who: BOTH scope: PARTY } } } }
+    }
   }
 }
 trainer {
@@ -27832,6 +27845,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_MACH_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_TRANSISTOR }
   }
 }
 trainer {
@@ -28292,6 +28306,7 @@ trainer {
       move: MOVE_PARABOLIC_CHARGE
       hidden_power_type: TYPE_ICE
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -33237,6 +33252,7 @@ trainer {
       move: MOVE_X_SCISSOR
       move: MOVE_SUCKER_PUNCH
     }
+    inline_skill { extra_ability: ABILITY_TINTED_LENS }
   }
 }
 trainer {
@@ -34476,6 +34492,7 @@ trainer {
       move: MOVE_THUNDER
       move: MOVE_QUIVER_DANCE
     }
+    inline_skill { extra_ability: ABILITY_GIFTED_MIND }
   }
 }
 trainer {
@@ -43221,6 +43238,7 @@ trainer {
       move: MOVE_JAW_LOCK
       move: MOVE_ICE_FANG
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -43962,6 +43980,7 @@ trainer {
       move: MOVE_EXTRASENSORY
       move: MOVE_SHADOW_BALL
     }
+    inline_skill { extra_ability: ABILITY_PRETTY_PRINCESS }
   }
 }
 trainer {
@@ -45063,6 +45082,7 @@ trainer {
       move: MOVE_ENERGY_BALL
       move: MOVE_FOCUS_BLAST
     }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -47839,6 +47859,7 @@ trainer {
       move: MOVE_GIGA_DRAIN
       move: MOVE_SHADOW_BALL
     }
+    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
   }
 }
 trainer {
@@ -52053,7 +52074,7 @@ trainer {
     }
     inline_skill {
       name: "Substitute"
-      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t use Substitute on entry!"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nhides behind a substitute!"
       on { entry {} effect { use_move { move: MOVE_SUBSTITUTE } } }
     }
   }
