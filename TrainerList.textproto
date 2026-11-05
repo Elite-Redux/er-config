@@ -47492,6 +47492,11 @@ trainer {
       move: MOVE_HARD_PRESS
     }
     skill: SKILL_STEALTH_ROCKS
+    inline_skill {
+      name: "Bleeding Edge"
+      announce_string: "The last two Pokémon\\nof your team are bleeding!"
+      on { battle_start {} effect { status { status: BLEED target { who: FOE scope: PARTY slots { last: 2 } } } } }
+    }
   }
 }
 trainer {
