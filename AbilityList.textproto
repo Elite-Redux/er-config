@@ -6369,3 +6369,10 @@ ability {
   description: "Electric moves are super effective on Ground types."
   expanded_description: "The user's Electric-type moves hit Ground-type Pokemon for super effective damage instead of having no effect."
 }
+
+ability {
+  id: ABILITY_UNERRING
+  name: "Unerring"
+  description: "Status moves never miss."
+  expanded_description: "The user's status moves always hit, whatever the accuracy and evasion stages."
+}

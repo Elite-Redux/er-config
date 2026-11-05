@@ -54622,6 +54622,11 @@ trainer {
       move: MOVE_LOVELY_BITE
     }
   }
+  hell {
+    # TODO: Deals 1.25x damage vs statused foes, Exploit Weakness only does the lowest defense part
+    # TODO: Status moves ignore abilities, Unerring only makes them never miss for now
+    inline_skill { extra_ability: ABILITY_ANGELS_WRATH extra_ability: ABILITY_EXPLOIT_WEAKNESS extra_ability: ABILITY_UNERRING }
+  }
 }
 trainer {
   id: TRAINER_ISAIAH_1
