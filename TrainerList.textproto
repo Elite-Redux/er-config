@@ -7404,6 +7404,7 @@ trainer {
       move: MOVE_BRAVADO
       move: MOVE_SNARL
     }
+    inline_skill { extra_item { item: ITEM_LAX_INCENSE } }
   }
 }
 trainer {
@@ -9009,6 +9010,9 @@ trainer {
       move: MOVE_FLAME_TONGUE
       move: MOVE_TRAILBLAZE
     }
+    # TODO: Cosmic Power after being hit
+    # TODO: Magic Cylinder effect
+    inline_skill { extra_item { item: ITEM_ROCKY_HELMET } }
   }
 }
 trainer {
@@ -15564,6 +15568,9 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_LAST_RESORT
     }
+    # TODO: Ignores damage boosting abilities and innates
+    # TODO: The Focus Band only works once per Pokémon
+    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 100 } }
   }
 }
 trainer {
@@ -21630,6 +21637,9 @@ trainer {
       move: MOVE_AQUA_CUTTER
       move: MOVE_SHADOW_CLAW
     }
+    # TODO: Raging Storm
+    # TODO: Sitrus Berry effect
+    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
   }
 }
 trainer {
@@ -34008,6 +34018,8 @@ trainer {
       move: MOVE_PSYCHO_BOOST
       move: MOVE_KOWTOW_CLEAVE
     }
+    # TODO: Contrary and Simple
+    inline_skill { extra_item { item: ITEM_QUICK_CLAW } }
   }
 }
 trainer {
@@ -38723,9 +38735,8 @@ trainer {
       move: MOVE_SEISMIC_FIST
       move: MOVE_THUNDER_PUNCH
     }
-    # TODO: Bright Powder's evasion chance
     # Dazzling for 'priority moves fail if selected by the player'
-    inline_skill { extra_ability: ABILITY_OLE extra_ability: ABILITY_DAZZLING }
+    inline_skill { extra_ability: ABILITY_OLE extra_ability: ABILITY_DAZZLING extra_item { item: ITEM_BRIGHT_POWDER } }
   }
 }
 trainer {
@@ -54905,6 +54916,11 @@ trainer {
       move: MOVE_SWORDS_DANCE
       move: MOVE_EXPLOSION
     }
+  }
+  hell {
+    # TODO: Hyper aggressive AI
+    # TODO: Moves use 20% of Speed in the damage calculation (Slipstream)
+    inline_skill { extra_item { item: ITEM_CLEAR_AMULET } }
   }
 }
 trainer {

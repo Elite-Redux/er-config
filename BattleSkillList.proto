@@ -4,6 +4,7 @@ package er;
 
 import "BattleSkillEnum.proto";
 import "AbilityEnum.proto";
+import "ItemEnum.proto";
 import "MoveEnum.proto";
 import "MoveList.proto";
 import "Stats.proto";
@@ -75,6 +76,15 @@ message InlineSkill {
   // every Pokemon of the trainer has these on top of its own, for the whole battle. Max 3 per trainer.
   // Comes with default string announce
   repeated AbilityEnum extra_ability = 4;
+
+  // every Pokemon of the trainer has these hold effects on top of its own item, for the whole battle
+  // very limited for now: 2 max per trainer, and only passive items will work, no berry or w/e
+  repeated ExtraItem extra_item = 5;
+  message ExtraItem {
+    ItemEnum item = 1;
+    // 1 to 255, replaces the item's hold_effect_strength (30 for a 30% Focus Band). 0 keeps the original
+    int32 strength = 2;
+  }
 
   // Whose Pokemon an event happens to
   enum Side {
