@@ -376,6 +376,7 @@ message InlineSkill {
       SALT_CURE = 10;
       ATTRACT = 11;
       DRENCH = 12;
+      GASTRO_ACID = 13;
     }
     Status status = 1;
     // Pokemon on the field go through the usual immunities (type, ability, Safeguard, terrain...) and

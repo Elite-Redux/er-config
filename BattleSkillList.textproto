@@ -42,4 +42,9 @@ skill {
   name: "Lethargy"
   announce_string: "{B_STACK_1_NAME_WITH_PREFIX}'s ability\\nbecame Lethargy!"
 }
+skill {
+  id: SKILL_PLAYER_NORMALIZE
+  name: "Normalize"
+  announce_string: "{B_STACK_1_NAME_WITH_PREFIX}'s ability\\nbecame Normalize!"
+}
 # TODO: Make the weather strings better?

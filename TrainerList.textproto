@@ -25125,8 +25125,11 @@ trainer {
     }
   }
   hell {
-    # TODO: Abilities are suppressed
     inline_skill { extra_ability: ABILITY_COMATOSE }
+    inline_skill {
+      name: "Suppression"
+      on { entry {} side: PLAYER effect { status { status: GASTRO_ACID } } }
+    }
     inline_skill {
       name: "Tailwind"
       announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
@@ -42596,10 +42599,9 @@ trainer {
     }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "Sticky webs spread out on the\\nground around both sides of the field!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: BOTH permanent: true } } }
     }
-    # TODO: The old skill list has Sticky Web on both sides
   }
 }
 trainer {
@@ -45966,7 +45968,10 @@ trainer {
       announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
       on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
     }
-    # TODO: The player's abilities are suppressed
+    inline_skill {
+      name: "Neutralizing Gas"
+      on { entry {} side: PLAYER effect { status { status: GASTRO_ACID } } }
+    }
   }
 }
 trainer {
@@ -61851,7 +61856,10 @@ trainer {
       announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up as it weakens!"
       on { hit {} hp_below: 50 once: PER_POKEMON effect { stat_change { stat: STAT_SPEED amount: 1 } } }
     }
-    # TODO: The player's abilities are disabled after 2 turns on the field
+    inline_skill {
+      name: "Numbing Song"
+      on { end_turn { every: 2 on_field: true } side: PLAYER effect { status { status: GASTRO_ACID } } }
+    }
     inline_skill { extra_ability: ABILITY_TIDAL_FORCE }
   }
 }
@@ -111225,9 +111233,9 @@ trainer {
       move: MOVE_CROSS_POISON
       move: MOVE_TAKE_FLIGHT
     }
-    inline_skill {
-      extra_ability: ABILITY_TRICKSTER
-    }
+    skill: SKILL_PLAYER_NORMALIZE
+    # Momentum + Impulse: physical and special moves use Speed
+    inline_skill { extra_ability: ABILITY_TRICKSTER extra_ability: ABILITY_MOMENTUM extra_ability: ABILITY_IMPULSE }
   }
 }
 trainer {
