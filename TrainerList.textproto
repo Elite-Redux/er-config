@@ -111622,6 +111622,12 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_EMPERORS_WRATH
     }
+    # TODO: AI uses Tailwind after death
+    inline_skill {
+      name: "Tickle"
+      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ntickles your Pokémon!"
+      on { end_turn {} effect { use_move { move: MOVE_TICKLE } } }
+    }
   }
 }
 trainer {
