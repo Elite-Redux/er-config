@@ -8540,6 +8540,12 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_PSYCHIC_NOISE
     }
+    inline_skill {
+      name: "Perma Sand"
+      announce_string: "The sandstorm rages."
+      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_SAND_RUSH }
   }
 }
 trainer {
@@ -13518,6 +13524,7 @@ trainer {
       move: MOVE_SLUDGE_WAVE
       move: MOVE_PARABOLIC_CHARGE
     }
+    inline_skill { extra_ability: ABILITY_FEARMONGER }
   }
 }
 trainer {
@@ -23204,6 +23211,7 @@ trainer {
       move: MOVE_COSMIC_POWER
       move: MOVE_PSYCHO_BOOST
     }
+    inline_skill { extra_ability: ABILITY_ANCIENT_IDOL extra_ability: ABILITY_POWER_CORE }
   }
 }
 trainer {
@@ -27484,6 +27492,7 @@ trainer {
       move: MOVE_DRAGON_CLAW
       move: MOVE_CUT
     }
+    inline_skill { extra_ability: ABILITY_SCRAPPY }
   }
 }
 trainer {
@@ -30735,6 +30744,7 @@ trainer {
       move: MOVE_BRAVE_BIRD
       move: MOVE_U_TURN
     }
+    inline_skill { extra_ability: ABILITY_SPEED_BOOST }
   }
 }
 trainer {
@@ -30956,6 +30966,12 @@ trainer {
       move: MOVE_LAST_RESPECTS
       move: MOVE_WAVE_CRASH
       move: MOVE_JAGGED_FANGS
+    }
+    inline_skill { extra_ability: ABILITY_PLUS }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
     }
   }
 }
@@ -32076,6 +32092,7 @@ trainer {
       move: MOVE_DIRE_CLAW
       move: MOVE_SMOLDER_BASH
     }
+    inline_skill { extra_ability: ABILITY_PROTOSYNTHESIS }
   }
 }
 trainer {
@@ -48663,6 +48680,16 @@ trainer {
       move: MOVE_SOIL_DRAIN
       move: MOVE_HEX
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+    }
+    inline_skill {
+      name: "Stealth Rock"
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+    }
   }
 }
 trainer {
@@ -50638,6 +50665,12 @@ trainer {
       move: MOVE_DRAGON_PULSE
       move: MOVE_TAIL_GLOW
       move: MOVE_COTTON_GUARD
+    }
+    inline_skill { extra_ability: ABILITY_TRIAGE }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
     }
   }
 }
@@ -63962,6 +63995,12 @@ trainer {
       move: MOVE_OVERHEAT
       move: MOVE_RAGING_SOULS
     }
+    inline_skill { extra_ability: ABILITY_PRETTY_PRINCESS }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+    }
   }
 }
 trainer {
@@ -64173,6 +64212,8 @@ trainer {
       move: MOVE_CRUNCH
       move: MOVE_RAPID_RIVER
     }
+    inline_skill { extra_ability: ABILITY_SNIPER }
+    inline_skill { extra_ability: ABILITY_PRETENTIOUS }
   }
 }
 trainer {
@@ -64393,6 +64434,12 @@ trainer {
       move: MOVE_TORRENT_FIST
       move: MOVE_DRAIN_PUNCH
       move: MOVE_ICE_PUNCH
+    }
+    inline_skill { extra_ability: ABILITY_MINUS }
+    inline_skill {
+      name: "Stealth Rock"
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
     }
   }
 }
@@ -64617,6 +64664,12 @@ trainer {
       move: MOVE_ICE_SHARD
       move: MOVE_FURY_CUTTER
     }
+    inline_skill {
+      name: "Grassy Terrain"
+      announce_string: "A grassy field spreads\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_GRASSY permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_SKILL_LINK }
   }
 }
 trainer {
@@ -91738,6 +91791,7 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_KARMA
     }
+    inline_skill { extra_ability: ABILITY_COSTAR extra_ability: ABILITY_SHIELD_DUST }
   }
 }
 trainer {
@@ -96048,6 +96102,12 @@ trainer {
       move: MOVE_NIGHT_SLASH
       move: MOVE_SUPERPOWER
     }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
   }
 }
 trainer {
@@ -96651,6 +96711,7 @@ trainer {
       move: MOVE_SEED_BOMB
       move: MOVE_POISON_JAB
     }
+    inline_skill { extra_ability: ABILITY_AERODYNAMICS extra_ability: ABILITY_GRASS_PELT }
   }
 }
 trainer {
@@ -96873,6 +96934,12 @@ trainer {
       move: MOVE_WATER_PULSE
       move: MOVE_POWER_GEM
     }
+    inline_skill {
+      name: "Perma Hail"
+      announce_string: "The hail falls."
+      on { entry {} effect { weather { weather: WEATHER_HAIL permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_ICE_BODY }
   }
 }
 trainer {
@@ -102674,6 +102741,12 @@ trainer {
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_DOUBLE_KICK
     }
+    inline_skill {
+      name: "Perma Sand"
+      announce_string: "The sandstorm rages."
+      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_DUNE_TERROR }
   }
 }
 trainer {
@@ -103097,6 +103170,12 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_IVY_CUDGEL
     }
+      inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sun shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_GRASS_PELT }
   }
 }
 trainer {
@@ -103293,6 +103372,12 @@ trainer {
       move: MOVE_VICTORY_DANCE
       move: MOVE_POP_MAYHEM
     }
+    inline_skill {
+      name: "Grassy Terrain"
+      announce_string: "A grassy field spreads\\nacross the battlefield!"
+      on { battle_start {} effect { terrain { terrain: TERRAIN_GRASSY permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_FLOWER_GIFT }
   }
 }
 trainer {
@@ -110807,6 +110892,7 @@ trainer {
       move: MOVE_CRUNCH
       move: MOVE_IRON_FANGS
     }
+    inline_skill { extra_ability: ABILITY_DESERT_SPIRIT extra_ability: ABILITY_SAND_FORCE }
   }
 }
 trainer {
