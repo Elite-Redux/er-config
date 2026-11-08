@@ -43,6 +43,31 @@ skill {
   announce_string: "{B_STACK_1_NAME_WITH_PREFIX}'s ability\\nbecame Lethargy!"
 }
 skill {
+  id: SKILL_IGNORE_SOUNDPROOF
+  name: "Piercing Voice"
+  announce_string: "{B_TRAINER1_NAME}'s sound moves\\nignore abilities!"
+}
+skill {
+  id: SKILL_IGNORE_IMMUNITIES
+  name: "Boundless"
+  announce_string: "{B_TRAINER1_NAME}'s moves ignore\\nimmunities!"
+}
+skill {
+  id: SKILL_RAIN_SETS_AURORA_VEIL
+  name: "Rain Veil"
+  announce_string: "The rain set up Aurora Veil\\nfor {B_TRAINER1_NAME}'s team!"
+}
+skill {
+  id: SKILL_FOG_BENEFITS
+  name: "Fog Dweller"
+  announce_string: "{B_TRAINER1_NAME}'s team thrives\\nin the fog!"
+}
+skill {
+  id: SKILL_DRAIN_TWICE_DAMAGE
+  name: "Vampiric"
+  announce_string: "{B_TRAINER1_NAME}'s team feeds\\non the damage it deals!"
+}
+skill {
   id: SKILL_PLAYER_NORMALIZE
   name: "Normalize"
   announce_string: "{B_STACK_1_NAME_WITH_PREFIX}'s ability\\nbecame Normalize!"

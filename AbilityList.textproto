@@ -6373,8 +6373,8 @@ ability {
 ability {
   id: ABILITY_UNERRING
   name: "Unerring"
-  description: "Status moves never miss."
-  expanded_description: "The user's status moves always hit, whatever the accuracy and evasion stages."
+  description: "Status moves never miss and ignore abilities."
+  expanded_description: "The user's status moves always hit, whatever the accuracy and evasion stages, and ignore the target's abilities like Mold Breaker does."
 }
 
 ability {
@@ -6417,4 +6417,34 @@ ability {
   name: "Perfect Pitch"
   description: "Sound moves always land critical hits."
   expanded_description: "Every sound-based move the user uses is a guaranteed critical hit, unless the target is immune to critical hits (Battle Armor, Shell Armor, Lucky Chant...)."
+}
+ability {
+  id: ABILITY_ROOM_BREAKER
+  name: "Room Breaker"
+  description: "Negates Trick, Wonder, Magic and Inverse Room."
+  expanded_description: "While the user is on the field, Trick Room, Wonder Room, Magic Room and Inverse Room have no effect."
+}
+ability {
+  id: ABILITY_EMPTY_HANDED
+  name: "Empty Handed"
+  description: "Deals 1.5x damage while holding no item."
+  expanded_description: "The user's moves deal 1.5x damage while it isn't holding an item, like after using a Gem or a Berry."
+}
+ability {
+  id: ABILITY_TRUE_AIM
+  name: "True Aim"
+  description: "The user's moves never miss."
+  expanded_description: "The user's moves skip the accuracy check, unless the target is out of reach (flying, digging...)."
+}
+ability {
+  id: ABILITY_RUTHLESS
+  name: "Ruthless"
+  description: "1.25x damage and hits lowest defense vs statused foes."
+  expanded_description: "When attacking a statused opponent, deals 1.25x damage and targets their lower defensive stat."
+}
+ability {
+  id: ABILITY_WEAK_SPOT
+  name: "Weak Spot"
+  description: "Attacks hit the foe's lower defense."
+  expanded_description: "The user's attacks target whichever of the foe's Defense and Sp. Def is lower."
 }

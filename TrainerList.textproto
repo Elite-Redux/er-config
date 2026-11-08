@@ -8356,9 +8356,20 @@ trainer {
     inline_skill {
       name: "Perma Sun"
       announce_string: "The sun shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_HARVEST }
+    inline_skill {
+      extra_ability: ABILITY_HARVEST
+    }
   }
 }
 trainer {
@@ -9687,7 +9698,10 @@ trainer {
       move: MOVE_SUPER_FANG
       move: MOVE_CALM_MIND
     }
-    inline_skill { extra_ability: ABILITY_RITE_OF_SPRING extra_ability: ABILITY_HARVEST }
+    inline_skill {
+      extra_ability: ABILITY_RITE_OF_SPRING
+      extra_ability: ABILITY_HARVEST
+    }
   }
 }
 trainer {
@@ -29403,7 +29417,10 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_SCALD
     }
-    inline_skill { extra_ability: ABILITY_HELLBLAZE extra_ability: ABILITY_FLAMING_SOUL }
+    inline_skill {
+      extra_ability: ABILITY_HELLBLAZE
+      extra_ability: ABILITY_FLAMING_SOUL
+    }
   }
 }
 trainer {
@@ -29627,7 +29644,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_TAR_TOSS }
+    inline_skill {
+      extra_ability: ABILITY_TAR_TOSS
+    }
   }
 }
 trainer {
@@ -29851,7 +29870,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_FILTER }
+    inline_skill {
+      extra_ability: ABILITY_FILTER
+    }
   }
 }
 trainer {
@@ -30064,9 +30085,20 @@ trainer {
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_WEATHER_DOUBLE_BOOST }
+    inline_skill {
+      extra_ability: ABILITY_WEATHER_DOUBLE_BOOST
+    }
   }
 }
 trainer {
@@ -39739,6 +39771,9 @@ trainer {
       move: MOVE_SPARKLING_BARRAGE
     }
     inline_skill {
+      extra_ability: ABILITY_ROOM_BREAKER
+    }
+    inline_skill {
       name: "Static Shock"
       announce_string: "Your whole party\\nis paralyzed!"
       on {
@@ -40310,7 +40345,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_MOUNTAINEER }
+    inline_skill {
+      extra_ability: ABILITY_MOUNTAINEER
+    }
   }
 }
 trainer {
@@ -50202,6 +50239,7 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_PEBBLE_SHOWER
     }
+    skill: SKILL_DRAIN_TWICE_DAMAGE
     inline_skill {
       name: "Spikes"
       announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}\'s team!"
@@ -52131,6 +52169,20 @@ trainer {
       move: MOVE_DUAL_WINGBEAT
     }
     inline_skill {
+      name: "Helping Hand"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngets a helping hand!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+          }
+        }
+      }
+    }
+    inline_skill {
       extra_ability: ABILITY_VOLT_ABSORB
     }
   }
@@ -52694,6 +52746,7 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_WATER_SPOUT
     }
+    skill: SKILL_RAIN_SETS_AURORA_VEIL
   }
 }
 trainer {
@@ -54612,6 +54665,22 @@ trainer {
         }
       }
     }
+    inline_skill {
+      name: "Unstoppable"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t slow down!"
+      on {
+        effect {
+          stat_change {
+            stat: STAT_SPEED
+            amount: 1
+          }
+        }
+        stat_change {
+          stat: STAT_SPEED
+          direction: DOWN
+        }
+      }
+    }
   }
 }
 trainer {
@@ -55512,7 +55581,7 @@ trainer {
   hell {
     inline_skill {
       extra_ability: ABILITY_ANGELS_WRATH
-      extra_ability: ABILITY_EXPLOIT_WEAKNESS
+      extra_ability: ABILITY_RUTHLESS
       extra_ability: ABILITY_UNERRING
     }
   }
@@ -61140,7 +61209,9 @@ trainer {
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_FAKE_OUT
     }
-    inline_skill { extra_ability: ABILITY_MOLD_BREAKER }
+    inline_skill {
+      extra_ability: ABILITY_MOLD_BREAKER
+    }
   }
 }
 trainer {
@@ -63036,6 +63107,21 @@ trainer {
       move: MOVE_SPIKE_CANNON
     }
     inline_skill {
+      name: "Stealth Rock"
+      announce_string: "Pointed stones float around\\n{B_PLAYER_NAME}\'s team for good!"
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
       extra_ability: ABILITY_MYSTIC_POWER
     }
   }
@@ -63310,6 +63396,13 @@ trainer {
   }
   hell {
     inline_skill {
+      name: "Bright Powder"
+      extra_item {
+        item: ITEM_BRIGHT_POWDER
+        strength: 25
+      }
+    }
+    inline_skill {
       name: "Cursed Salt"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ncurses your Pok\303\251mon!"
       on {
@@ -63415,6 +63508,9 @@ trainer {
     }
     inline_skill {
       extra_ability: ABILITY_CLEAR_BODY
+    }
+    inline_skill {
+      extra_ability: ABILITY_WEAK_SPOT
     }
   }
 }
@@ -68754,7 +68850,10 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_FLASH_CANNON
     }
-    inline_skill { extra_ability: ABILITY_MOUNTAINEER extra_ability: ABILITY_EARTH_EATER }
+    inline_skill {
+      extra_ability: ABILITY_MOUNTAINEER
+      extra_ability: ABILITY_EARTH_EATER
+    }
   }
 }
 trainer {
@@ -69699,6 +69798,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_PSYCHIC_NOISE
     }
+    skill: SKILL_IGNORE_IMMUNITIES
   }
 }
 trainer {
@@ -70970,6 +71070,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -71445,6 +71546,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -71921,6 +72023,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -72399,6 +72502,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -72878,6 +72982,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -73355,6 +73460,7 @@ trainer {
     }
   }
   hell {
+    skill: SKILL_FOG_BENEFITS
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
@@ -78015,6 +78121,24 @@ trainer {
       move: MOVE_CUT
     }
     inline_skill {
+      extra_ability: ABILITY_PURIFYING_SALT
+    }
+    inline_skill {
+      name: "Super Berry"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nate its Super Berry!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_RECOVER
+          }
+        }
+        hit {
+        }
+        once: PER_POKEMON
+        hp_below: 50
+      }
+    }
+    inline_skill {
       name: "Omniboost Lead"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +2 omniboost!"
       on {
@@ -78307,6 +78431,9 @@ trainer {
       move: MOVE_SLEEP_POWDER
       move: MOVE_TAILWIND
       move: MOVE_ACROBATICS
+    }
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
     }
   }
 }
@@ -81621,7 +81748,10 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ICE
     }
-    inline_skill { extra_ability: ABILITY_SAND_RUSH extra_ability: ABILITY_SAND_BENDER }
+    inline_skill {
+      extra_ability: ABILITY_SAND_RUSH
+      extra_ability: ABILITY_SAND_BENDER
+    }
   }
 }
 trainer {
@@ -82461,7 +82591,10 @@ trainer {
       move: MOVE_ICE_PUNCH
       move: MOVE_SPARK
     }
-    inline_skill { extra_ability: ABILITY_BIG_LEAVES extra_ability: ABILITY_SUN_BASKING }
+    inline_skill {
+      extra_ability: ABILITY_BIG_LEAVES
+      extra_ability: ABILITY_SUN_BASKING
+    }
   }
 }
 trainer {
@@ -84652,6 +84785,23 @@ trainer {
     }
     inline_skill {
       extra_ability: ABILITY_SHIELD_DUST
+    }
+    inline_skill {
+      name: "Scorching Field"
+      announce_string: "Both teams are burned!"
+      on {
+        effect {
+          status {
+            status: BURN
+            target {
+              who: BOTH
+              scope: PARTY
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -88010,15 +88160,16 @@ trainer {
     }
     inline_skill {
       name: "Power Trick"
-      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nswaps its Attack and Defense!"
+      announce_string: "Power Trick swaps Attack\\nand Defense on both sides!"
       on {
         entry {
         }
         effect {
-          use_move {
-            move: MOVE_POWER_TRICK
+          status {
+            status: POWER_TRICK
           }
         }
+        side: BOTH
       }
     }
   }
@@ -88466,6 +88617,9 @@ trainer {
     }
   }
   hell {
+    inline_skill {
+      extra_ability: ABILITY_INNARDS_OUT
+    }
     inline_skill {
       name: "Sea of Fire"
       announce_string: "Your side is engulfed\\nin a sea of fire!"
@@ -95348,6 +95502,20 @@ trainer {
       move: MOVE_BLIZZARD
       move: MOVE_HYDRO_PUMP
     }
+    inline_skill {
+      name: "Perma Quash"
+      announce_string: "Everyone now moves\\nin order of Speed!"
+      on {
+        effect {
+          field {
+            type: QUASH
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
   }
 }
 trainer {
@@ -95931,6 +96099,7 @@ trainer {
       move: MOVE_HYPER_VOICE
       move: MOVE_ALLURING_VOICE
     }
+    skill: SKILL_IGNORE_SOUNDPROOF
   }
 }
 trainer {
@@ -96597,6 +96766,13 @@ trainer {
       move: MOVE_STORED_POWER
       move: MOVE_NASTY_PLOT
       move: MOVE_AURA_SPHERE
+    }
+    inline_skill {
+      name: "Bright Powder"
+      extra_item {
+        item: ITEM_BRIGHT_POWDER
+        strength: 30
+      }
     }
   }
 }
@@ -102725,6 +102901,9 @@ trainer {
       extra_ability: ABILITY_PRIMORDIAL_SEA
     }
     inline_skill {
+      extra_ability: ABILITY_ROOM_BREAKER
+    }
+    inline_skill {
       name: "Swamp"
       announce_string: "A swamp envelops\\nyour team!"
       on {
@@ -103157,6 +103336,9 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_FRIEND_GUARD
     }
+    inline_skill {
+      extra_ability: ABILITY_COSTAR
+    }
   }
 }
 trainer {
@@ -103308,6 +103490,52 @@ trainer {
       move: MOVE_HEAD_SMASH
       move: MOVE_DRAGON_RUSH
       move: MOVE_WAVE_CRASH
+    }
+  }
+  hell {
+    inline_skill {
+      name: "Counterpunch"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nstrikes back harder!"
+      on {
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+          }
+        }
+        hit {
+          effectiveness: SUPER_EFFECTIVE
+        }
+        once: PER_POKEMON
+      }
+    }
+    inline_skill {
+      name: "Red Card"
+      on {
+        effect {
+          use_move {
+            move: MOVE_ROAR
+          }
+        }
+        hit {
+        }
+        once: PER_POKEMON
+      }
+    }
+    inline_skill {
+      name: "Swamp"
+      announce_string: "A swamp envelops\\nyour team!"
+      on {
+        effect {
+          side_condition {
+            type: SWAMP
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -103566,6 +103794,17 @@ trainer {
       move: MOVE_LAVA_PLUME
       move: MOVE_POWER_GEM
       move: MOVE_ENERGY_WAVE
+    }
+  }
+  hell {
+    inline_skill {
+      extra_ability: ABILITY_EMPTY_HANDED
+    }
+    inline_skill {
+      extra_ability: ABILITY_RETRIEVER
+    }
+    inline_skill {
+      extra_ability: ABILITY_UNBURDEN
     }
   }
 }
@@ -110521,7 +110760,9 @@ trainer {
       move: MOVE_SHIFT_GEAR
       move: MOVE_PSYCHOKINETIC_SLAM
     }
-    inline_skill { extra_ability: ABILITY_EARTH_EATER }
+    inline_skill {
+      extra_ability: ABILITY_EARTH_EATER
+    }
   }
 }
 trainer {
@@ -113038,6 +113279,11 @@ trainer {
         }
       }
     }
+    inline_skill {
+      extra_ability: ABILITY_CLEAR_BODY
+      extra_ability: ABILITY_TRUE_AIM
+      extra_ability: ABILITY_ROOM_BREAKER
+    }
   }
 }
 trainer {
@@ -113295,6 +113541,20 @@ trainer {
     }
     inline_skill {
       extra_ability: ABILITY_EMPERORS_WRATH
+    }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            turns: 4
+          }
+        }
+        faint {
+        }
+      }
     }
     inline_skill {
       name: "Tickle"
@@ -118077,7 +118337,10 @@ trainer {
       move: MOVE_LEECH_LIFE
       move: MOVE_AVALANCHE
     }
-    inline_skill { extra_ability: ABILITY_ANCIENT_IDOL extra_ability: ABILITY_STAMINA }
+    inline_skill {
+      extra_ability: ABILITY_ANCIENT_IDOL
+      extra_ability: ABILITY_STAMINA
+    }
   }
 }
 trainer {
@@ -118313,7 +118576,10 @@ trainer {
       move: MOVE_CHLOROBLAST
       move: MOVE_POWER_GEM
     }
-    inline_skill { extra_ability: ABILITY_SAND_GUARD extra_ability: ABILITY_RIPEN }
+    inline_skill {
+      extra_ability: ABILITY_SAND_GUARD
+      extra_ability: ABILITY_RIPEN
+    }
   }
 }
 trainer {
@@ -118756,7 +119022,10 @@ trainer {
       move: MOVE_SUCKER_PUNCH
       move: MOVE_IRON_HEAD
     }
-    inline_skill { extra_ability: ABILITY_SOLAR_POWER extra_ability: ABILITY_SUNS_BOUNTY }
+    inline_skill {
+      extra_ability: ABILITY_SOLAR_POWER
+      extra_ability: ABILITY_SUNS_BOUNTY
+    }
   }
 }
 trainer {
@@ -119006,7 +119275,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_GREATER_SPIRIT }
+    inline_skill {
+      extra_ability: ABILITY_GREATER_SPIRIT
+    }
   }
 }
 trainer {
