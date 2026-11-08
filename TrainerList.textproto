@@ -114600,8 +114600,11 @@ trainer {
       item: ITEM_WEAVILEITE
       nature: NATURE_JOLLY
       ability: ABILITY_PRESSURE
+      hp_ev: 252
       atk_ev: 252
-      def_ev: 4
+      def_ev: 252
+      spatk_ev: 252
+      spdef_ev: 252
       spe_ev: 252
       move: MOVE_BEATDOWN
       move: MOVE_FAKE_OUT
@@ -114614,7 +114617,11 @@ trainer {
       nature: NATURE_BOLD
       ability: ABILITY_COMPETITIVE
       hp_ev: 252
+      atk_ev: 252
+      def_ev: 252
       spatk_ev: 252
+      spdef_ev: 252
+      spe_ev: 252
       move: MOVE_MOONBLAST
       move: MOVE_FROST_BREATH
       move: MOVE_SCALD
