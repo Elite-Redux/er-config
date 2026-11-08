@@ -4213,8 +4213,18 @@ trainer {
     }
     inline_skill {
       name: "Caltrops"
-      announce_string: "Caltrops scatter around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: CALTROPS who: FOE permanent: true } } }
+      announce_string: "Caltrops scatter around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: CALTROPS
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -4338,7 +4348,16 @@ trainer {
     inline_skill {
       name: "Perma Hail"
       announce_string: "The hail falls."
-      on { entry {} effect { weather { weather: WEATHER_HAIL permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_HAIL
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -7408,7 +7427,11 @@ trainer {
       move: MOVE_BRAVADO
       move: MOVE_SNARL
     }
-    inline_skill { extra_item { item: ITEM_LAX_INCENSE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_LAX_INCENSE
+      }
+    }
   }
 }
 trainer {
@@ -7617,8 +7640,20 @@ trainer {
     }
     inline_skill {
       name: "Wilting Scent"
-      announce_string: "{B_TRAINER1_NAME}'s flowers weaken\\nyour Pokémon!"
-      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: -1 target { who: FOE } } } }
+      announce_string: "{B_TRAINER1_NAME}\'s flowers weaken\\nyour Pok\303\251mon!"
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: -1
+            target {
+              who: FOE
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -8543,9 +8578,20 @@ trainer {
     inline_skill {
       name: "Perma Sand"
       announce_string: "The sandstorm rages."
-      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SANDSTORM
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_SAND_RUSH }
+    inline_skill {
+      extra_ability: ABILITY_SAND_RUSH
+    }
   }
 }
 trainer {
@@ -9020,12 +9066,23 @@ trainer {
       move: MOVE_FLAME_TONGUE
       move: MOVE_TRAILBLAZE
     }
-    # TODO: Magic Cylinder effect
-    inline_skill { extra_item { item: ITEM_ROCKY_HELMET } }
+    inline_skill {
+      extra_item {
+        item: ITEM_ROCKY_HELMET
+      }
+    }
     inline_skill {
       name: "Cosmic Power"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nabsorbs the blow!"
-      on { hit {} effect { use_move { move: MOVE_COSMIC_POWER } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nabsorbs the blow!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_COSMIC_POWER
+          }
+        }
+        hit {
+        }
+      }
     }
   }
 }
@@ -9191,8 +9248,22 @@ trainer {
     }
     inline_skill {
       name: "Last Stand"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
-      on { entry { when: LAST } effect { stat_change { stat: STAT_ATK stat: STAT_DEF stat: STAT_SPATK stat: STAT_SPDEF stat: STAT_SPEED amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nmakes its last stand!"
+      on {
+        entry {
+          when: LAST
+        }
+        effect {
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_DEF
+            stat: STAT_SPATK
+            stat: STAT_SPDEF
+            stat: STAT_SPEED
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -11281,7 +11352,9 @@ trainer {
       move: MOVE_POISON_STING
       move: MOVE_PIN_MISSILE
     }
-    inline_skill { extra_ability: ABILITY_TECHNICIAN }
+    inline_skill {
+      extra_ability: ABILITY_TECHNICIAN
+    }
   }
 }
 trainer {
@@ -11465,7 +11538,16 @@ trainer {
     inline_skill {
       name: "Perma Sun"
       announce_string: "The sun shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -11633,8 +11715,17 @@ trainer {
     }
     inline_skill {
       name: "Soak"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsoaks your Pokémon!"
-      on { entry {} side: PLAYER effect { use_move { move: MOVE_SOAK } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsoaks your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_SOAK
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -11992,7 +12083,16 @@ trainer {
     inline_skill {
       name: "Mud Sport"
       announce_string: "{B_TRAINER1_NAME} covered the\\nfield in mud!"
-      on { battle_start {} effect { field { type: MUD_SPORT permanent: true } } }
+      on {
+        effect {
+          field {
+            type: MUD_SPORT
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -12058,16 +12158,36 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_COSMIC_DAZE }
+    inline_skill {
+      extra_ability: ABILITY_COSMIC_DAZE
+    }
     inline_skill {
       name: "Whirlwind"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwhips up a gust!"
-      on { end_turn { every: 2 } effect { use_move { move: MOVE_WHIRLWIND } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwhips up a gust!"
+      on {
+        end_turn {
+          every: 2
+        }
+        effect {
+          use_move {
+            move: MOVE_WHIRLWIND
+          }
+        }
+      }
     }
     inline_skill {
       name: "Confuse Ray"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nflashes an eerie light!"
-      on { entry {} side: PLAYER effect { use_move { move: MOVE_CONFUSE_RAY } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nflashes an eerie light!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_CONFUSE_RAY
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -13524,7 +13644,9 @@ trainer {
       move: MOVE_SLUDGE_WAVE
       move: MOVE_PARABOLIC_CHARGE
     }
-    inline_skill { extra_ability: ABILITY_FEARMONGER }
+    inline_skill {
+      extra_ability: ABILITY_FEARMONGER
+    }
   }
 }
 trainer {
@@ -15583,9 +15705,12 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_LAST_RESORT
     }
-    # TODO: Ignores damage boosting abilities and innates
-    # TODO: The Focus Band only works once per Pokémon
-    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 100 } }
+    inline_skill {
+      extra_item {
+        item: ITEM_FOCUS_BAND
+        strength: 100
+      }
+    }
   }
 }
 trainer {
@@ -19117,7 +19242,9 @@ trainer {
       move: MOVE_ZEPHYR_RUSH
       move: MOVE_ROOST
     }
-    inline_skill { extra_ability: ABILITY_CUTE_CHARM }
+    inline_skill {
+      extra_ability: ABILITY_CUTE_CHARM
+    }
   }
 }
 trainer {
@@ -21652,8 +21779,13 @@ trainer {
       move: MOVE_AQUA_CUTTER
       move: MOVE_SHADOW_CLAW
     }
-    # TODO: Sitrus Berry effect
-    inline_skill { extra_ability: ABILITY_RAGING_STORM extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
+    inline_skill {
+      extra_ability: ABILITY_RAGING_STORM
+      extra_item {
+        item: ITEM_FOCUS_BAND
+        strength: 30
+      }
+    }
   }
 }
 trainer {
@@ -22371,8 +22503,17 @@ trainer {
     }
     inline_skill {
       name: "Pay Day"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon greets\\nyour Pokémon with coins!"
-      on { entry {} side: PLAYER effect { use_move { move: MOVE_PAY_DAY } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon greets\\nyour Pok\303\251mon with coins!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_PAY_DAY
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -23211,7 +23352,10 @@ trainer {
       move: MOVE_COSMIC_POWER
       move: MOVE_PSYCHO_BOOST
     }
-    inline_skill { extra_ability: ABILITY_ANCIENT_IDOL extra_ability: ABILITY_POWER_CORE }
+    inline_skill {
+      extra_ability: ABILITY_ANCIENT_IDOL
+      extra_ability: ABILITY_POWER_CORE
+    }
   }
 }
 trainer {
@@ -23446,11 +23590,22 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_PURE_LOVE extra_ability: ABILITY_PIXIE_POWER }
+    inline_skill {
+      extra_ability: ABILITY_PURE_LOVE
+      extra_ability: ABILITY_PIXIE_POWER
+    }
     inline_skill {
       name: "Sweet Kiss"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblows a kiss back!"
-      on { hit {} effect { use_move { move: MOVE_SWEET_KISS } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblows a kiss back!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_SWEET_KISS
+          }
+        }
+        hit {
+        }
+      }
     }
   }
 }
@@ -24440,11 +24595,25 @@ trainer {
       move: MOVE_POWER_UP_PUNCH
       move: MOVE_FAKE_OUT
     }
-    inline_skill { extra_ability: ABILITY_KNOW_YOUR_PLACE extra_ability: ABILITY_FIGHT_CLUB }
+    inline_skill {
+      extra_ability: ABILITY_KNOW_YOUR_PLACE
+      extra_ability: ABILITY_FIGHT_CLUB
+    }
     inline_skill {
       name: "Last Stand"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
-      on { entry { when: LAST } effect { stat_change { stat: STAT_DEF stat: STAT_SPDEF amount: 4 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nmakes its last stand!"
+      on {
+        entry {
+          when: LAST
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            stat: STAT_SPDEF
+            amount: 4
+          }
+        }
+      }
     }
   }
 }
@@ -24591,7 +24760,16 @@ trainer {
     inline_skill {
       name: "Perma Sun"
       announce_string: "The sunlight shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
     inline_skill {
       extra_ability: ABILITY_WEATHER_DOUBLE_BOOST
@@ -24746,7 +24924,15 @@ trainer {
     inline_skill {
       name: "Recycle"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nrecycles its item!"
-      on { end_turn {} effect { use_move { move: MOVE_RECYCLE } } }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_RECYCLE
+          }
+        }
+      }
     }
   }
 }
@@ -24877,17 +25063,44 @@ trainer {
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { battle_start {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Night Shade"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfollows up with Night Shade!"
-      on { hit {} side: PLAYER effect { use_move { move: MOVE_NIGHT_SHADE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfollows up with Night Shade!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_NIGHT_SHADE
+          }
+        }
+        hit {
+        }
+        side: PLAYER
+      }
     }
     inline_skill {
       name: "Water Pledge"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ncalls on the water!"
-      on { end_turn { every: 2 } effect { use_move { move: MOVE_WATER_PLEDGE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ncalls on the water!"
+      on {
+        end_turn {
+          every: 2
+        }
+        effect {
+          use_move {
+            move: MOVE_WATER_PLEDGE
+          }
+        }
+      }
     }
   }
 }
@@ -25064,11 +25277,28 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_EARTH_WIRE }
+    inline_skill {
+      extra_ability: ABILITY_EARTH_WIRE
+    }
     inline_skill {
       name: "Maelstrom"
       announce_string: "A storm electrifies\\nthe battlefield!"
-      on { entry {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } effect { weather { weather: WEATHER_RAIN_PRIMAL permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN_PRIMAL
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -25133,15 +25363,35 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_COMATOSE }
+    inline_skill {
+      extra_ability: ABILITY_COMATOSE
+    }
     inline_skill {
       name: "Suppression"
-      on { entry {} side: PLAYER effect { status { status: GASTRO_ACID } } }
+      on {
+        entry {
+        }
+        effect {
+          status {
+            status: GASTRO_ACID
+          }
+        }
+        side: PLAYER
+      }
     }
     inline_skill {
       name: "Tailwind"
-      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -25306,8 +25556,17 @@ trainer {
     }
     inline_skill {
       name: "Teleport"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nblinks away!"
-      on { end_turn { every: 2 } effect { use_move { move: MOVE_TELEPORT } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblinks away!"
+      on {
+        end_turn {
+          every: 2
+        }
+        effect {
+          use_move {
+            move: MOVE_TELEPORT
+          }
+        }
+      }
     }
   }
 }
@@ -26709,7 +26968,19 @@ trainer {
     inline_skill {
       name: "Frostbite Field"
       announce_string: "Both teams are\\nfrostbitten!"
-      on { battle_start {} effect { status { status: FROSTBITE target { who: BOTH scope: PARTY } } } }
+      on {
+        effect {
+          status {
+            status: FROSTBITE
+            target {
+              who: BOTH
+              scope: PARTY
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -27492,7 +27763,9 @@ trainer {
       move: MOVE_DRAGON_CLAW
       move: MOVE_CUT
     }
-    inline_skill { extra_ability: ABILITY_SCRAPPY }
+    inline_skill {
+      extra_ability: ABILITY_SCRAPPY
+    }
   }
 }
 trainer {
@@ -27900,12 +28173,22 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_MACH_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_TRANSISTOR }
-    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      extra_ability: ABILITY_TRANSISTOR
+    }
     inline_skill {
       name: "Electric Terrain"
       announce_string: "An electric current runs\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -28367,12 +28650,22 @@ trainer {
       move: MOVE_PARABOLIC_CHARGE
       hidden_power_type: TYPE_ICE
     }
-    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
-    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
+    }
     inline_skill {
       name: "Electric Terrain"
       announce_string: "An electric current runs\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -30744,7 +31037,9 @@ trainer {
       move: MOVE_BRAVE_BIRD
       move: MOVE_U_TURN
     }
-    inline_skill { extra_ability: ABILITY_SPEED_BOOST }
+    inline_skill {
+      extra_ability: ABILITY_SPEED_BOOST
+    }
   }
 }
 trainer {
@@ -30967,11 +31262,23 @@ trainer {
       move: MOVE_WAVE_CRASH
       move: MOVE_JAGGED_FANGS
     }
-    inline_skill { extra_ability: ABILITY_PLUS }
+    inline_skill {
+      extra_ability: ABILITY_PLUS
+    }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -32092,7 +32399,9 @@ trainer {
       move: MOVE_DIRE_CLAW
       move: MOVE_SMOLDER_BASH
     }
-    inline_skill { extra_ability: ABILITY_PROTOSYNTHESIS }
+    inline_skill {
+      extra_ability: ABILITY_PROTOSYNTHESIS
+    }
   }
 }
 trainer {
@@ -32298,7 +32607,16 @@ trainer {
     inline_skill {
       name: "Fiery Focus"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsharpens its attack!"
-      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } } }
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -33330,7 +33648,9 @@ trainer {
       move: MOVE_X_SCISSOR
       move: MOVE_SUCKER_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_TINTED_LENS }
+    inline_skill {
+      extra_ability: ABILITY_TINTED_LENS
+    }
   }
 }
 trainer {
@@ -33544,7 +33864,16 @@ trainer {
     inline_skill {
       name: "Trick Room"
       announce_string: "The dimensions are twisted!"
-      on { battle_start {} effect { field { type: TRICK_ROOM permanent: true } } }
+      on {
+        effect {
+          field {
+            type: TRICK_ROOM
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -34078,7 +34407,13 @@ trainer {
       move: MOVE_PSYCHO_BOOST
       move: MOVE_KOWTOW_CLEAVE
     }
-    inline_skill { extra_ability: ABILITY_CONTRARY extra_ability: ABILITY_SIMPLE extra_item { item: ITEM_QUICK_CLAW } }
+    inline_skill {
+      extra_ability: ABILITY_CONTRARY
+      extra_ability: ABILITY_SIMPLE
+      extra_item {
+        item: ITEM_QUICK_CLAW
+      }
+    }
   }
 }
 trainer {
@@ -34575,7 +34910,9 @@ trainer {
       move: MOVE_THUNDER
       move: MOVE_QUIVER_DANCE
     }
-    inline_skill { extra_ability: ABILITY_GIFTED_MIND }
+    inline_skill {
+      extra_ability: ABILITY_GIFTED_MIND
+    }
   }
 }
 trainer {
@@ -38794,8 +39131,13 @@ trainer {
       move: MOVE_SEISMIC_FIST
       move: MOVE_THUNDER_PUNCH
     }
-    # Dazzling for 'priority moves fail if selected by the player'
-    inline_skill { extra_ability: ABILITY_OLE extra_ability: ABILITY_DAZZLING extra_item { item: ITEM_BRIGHT_POWDER } }
+    inline_skill {
+      extra_ability: ABILITY_OLE
+      extra_ability: ABILITY_DAZZLING
+      extra_item {
+        item: ITEM_BRIGHT_POWDER
+      }
+    }
   }
 }
 trainer {
@@ -39320,13 +39662,26 @@ trainer {
       move: MOVE_WEB_SHOT
       move: MOVE_SPARKLING_BARRAGE
     }
-    # TODO: Ignores rooms
     inline_skill {
       name: "Static Shock"
       announce_string: "Your whole party\\nis paralyzed!"
-      on { battle_start {} effect { status { status: PARALYSIS target { who: FOE scope: PARTY } } } }
+      on {
+        effect {
+          status {
+            status: PARALYSIS
+            target {
+              who: FOE
+              scope: PARTY
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
+    inline_skill {
+      extra_ability: ABILITY_SURGE_SURFER
+    }
   }
 }
 trainer {
@@ -42150,7 +42505,16 @@ trainer {
     inline_skill {
       name: "Spirit Guard"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon steels\\nits mind!"
-      on { entry {} effect { stat_change { stat: STAT_SPDEF amount: 1 } } }
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_SPDEF
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -42617,7 +42981,17 @@ trainer {
     inline_skill {
       name: "Sticky Web"
       announce_string: "Sticky webs spread out on the\\nground around both sides of the field!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: BOTH permanent: true } } }
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: BOTH
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -43324,7 +43698,9 @@ trainer {
       move: MOVE_JAW_LOCK
       move: MOVE_ICE_FANG
     }
-    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
+    }
   }
 }
 trainer {
@@ -43839,10 +44215,23 @@ trainer {
     inline_skill {
       name: "Perma Sand"
       announce_string: "The sandstorm rages."
-      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SANDSTORM
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
-    inline_skill { extra_ability: ABILITY_INNER_FOCUS }
+    inline_skill {
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
+    inline_skill {
+      extra_ability: ABILITY_INNER_FOCUS
+    }
   }
 }
 trainer {
@@ -44066,7 +44455,9 @@ trainer {
       move: MOVE_EXTRASENSORY
       move: MOVE_SHADOW_BALL
     }
-    inline_skill { extra_ability: ABILITY_PRETTY_PRINCESS }
+    inline_skill {
+      extra_ability: ABILITY_PRETTY_PRINCESS
+    }
   }
 }
 trainer {
@@ -44595,9 +44986,15 @@ trainer {
       move: MOVE_LAST_RESPECTS
       move: MOVE_WILL_O_WISP
     }
-    inline_skill { extra_ability: ABILITY_GRASS_PELT }
-    inline_skill { extra_ability: ABILITY_FLOURISH }
-    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill {
+      extra_ability: ABILITY_GRASS_PELT
+    }
+    inline_skill {
+      extra_ability: ABILITY_FLOURISH
+    }
+    inline_skill {
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
   }
 }
 trainer {
@@ -45168,7 +45565,9 @@ trainer {
       move: MOVE_ENERGY_BALL
       move: MOVE_FOCUS_BLAST
     }
-    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
+    }
   }
 }
 trainer {
@@ -45977,17 +46376,48 @@ trainer {
     }
     inline_skill {
       name: "Toxic Spikes"
-      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TOXIC_SPIKES who: FOE layers: 2 permanent: true } } }
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TOXIC_SPIKES
+            who: FOE
+            layers: 2
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Spikes"
-      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: SPIKES
+            who: FOE
+            layers: 1
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Neutralizing Gas"
-      on { entry {} side: PLAYER effect { status { status: GASTRO_ACID } } }
+      on {
+        entry {
+        }
+        effect {
+          status {
+            status: GASTRO_ACID
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -46707,8 +47137,22 @@ trainer {
     }
     inline_skill {
       name: "Last Stand"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nmakes its last stand!"
-      on { entry { when: LAST } effect { stat_change { stat: STAT_ATK stat: STAT_DEF stat: STAT_SPATK stat: STAT_SPDEF stat: STAT_SPEED amount: 2 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nmakes its last stand!"
+      on {
+        entry {
+          when: LAST
+        }
+        effect {
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_DEF
+            stat: STAT_SPATK
+            stat: STAT_SPDEF
+            stat: STAT_SPEED
+            amount: 2
+          }
+        }
+      }
     }
   }
 }
@@ -47391,12 +47835,31 @@ trainer {
     inline_skill {
       name: "Fortified Lead"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfortifies its defenses!"
-      on { entry { when: LEAD } effect { stat_change { stat: STAT_DEF amount: 4 } } }
+      on {
+        entry {
+          when: LEAD
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            amount: 4
+          }
+        }
+      }
     }
     inline_skill {
       name: "Steady Defense"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon keeps\\nhardening its body!"
-      on { end_turn {} effect { stat_change { stat: STAT_DEF amount: 1 } } }
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -47582,13 +48045,38 @@ trainer {
     }
     inline_skill {
       name: "Stealth Rock"
-      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Bleeding Edge"
-      announce_string: "The last two Pokémon\\nof your team are bleeding!"
-      on { battle_start {} effect { status { status: BLEED target { who: FOE scope: PARTY slots { last: 2 } } } } }
+      announce_string: "The last two Pok\303\251mon\\nof your team are bleeding!"
+      on {
+        effect {
+          status {
+            status: BLEED
+            target {
+              who: FOE
+              scope: PARTY
+              slots {
+                last: 2
+              }
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -47773,8 +48261,23 @@ trainer {
     }
     inline_skill {
       name: "Hot Start"
-      announce_string: "Both teams' leading Pokémon\\nare set ablaze!"
-      on { battle_start {} effect { status { status: BURN target { who: BOTH scope: PARTY slots { first: 3 } } } } }
+      announce_string: "Both teams\' leading Pok\303\251mon\\nare set ablaze!"
+      on {
+        effect {
+          status {
+            status: BURN
+            target {
+              who: BOTH
+              scope: PARTY
+              slots {
+                first: 3
+              }
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -47971,12 +48474,22 @@ trainer {
       move: MOVE_GIGA_DRAIN
       move: MOVE_SHADOW_BALL
     }
-    inline_skill { extra_ability: ABILITY_SURGE_SURFER }
-    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      extra_ability: ABILITY_SURGE_SURFER
+    }
     inline_skill {
       name: "Electric Terrain"
       announce_string: "An electric current runs\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -48682,13 +49195,33 @@ trainer {
     }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Stealth Rock"
-      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -49329,8 +49862,19 @@ trainer {
     }
     inline_skill {
       name: "Spikes"
-      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: SPIKES
+            who: FOE
+            layers: 1
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -49556,10 +50100,20 @@ trainer {
     }
     inline_skill {
       name: "Spikes"
-      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: SPIKES who: FOE layers: 1 permanent: true } } }
+      announce_string: "A layer of spikes scatters on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: SPIKES
+            who: FOE
+            layers: 1
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    # TODO: Moves heal 200% of the damage dealt
   }
 }
 trainer {
@@ -50268,7 +50822,16 @@ trainer {
     inline_skill {
       name: "Rainy day"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -50666,11 +51229,22 @@ trainer {
       move: MOVE_TAIL_GLOW
       move: MOVE_COTTON_GUARD
     }
-    inline_skill { extra_ability: ABILITY_TRIAGE }
+    inline_skill {
+      extra_ability: ABILITY_TRIAGE
+    }
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -50830,7 +51404,15 @@ trainer {
     inline_skill {
       name: "Mean Look"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t let you go!"
-      on { entry {} effect { use_move { move: MOVE_MEAN_LOOK } } }
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_MEAN_LOOK
+          }
+        }
+      }
     }
   }
 }
@@ -51211,7 +51793,16 @@ trainer {
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -51435,9 +52026,9 @@ trainer {
       move: MOVE_LIQUIDATION
       move: MOVE_DUAL_WINGBEAT
     }
-    # Volt Absorb for the Electric immunity, it heals on top
-    # TODO: Pokémon switch in with a Helping Hand boost (needs a new effect, Helping Hand does nothing in a single battle)
-    inline_skill { extra_ability: ABILITY_VOLT_ABSORB }
+    inline_skill {
+      extra_ability: ABILITY_VOLT_ABSORB
+    }
   }
 }
 trainer {
@@ -52221,7 +52812,15 @@ trainer {
     inline_skill {
       name: "Substitute"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nhides behind a substitute!"
-      on { entry {} effect { use_move { move: MOVE_SUBSTITUTE } } }
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_SUBSTITUTE
+          }
+        }
+      }
     }
   }
 }
@@ -52509,7 +53108,9 @@ trainer {
       move: MOVE_STONE_EDGE
       move: MOVE_KOWTOW_CLEAVE
     }
-    inline_skill { extra_ability: ABILITY_GUARD_DOG }
+    inline_skill {
+      extra_ability: ABILITY_GUARD_DOG
+    }
   }
 }
 trainer {
@@ -52723,7 +53324,16 @@ trainer {
     inline_skill {
       name: "Mysterio"
       announce_string: "Mist swirls over the field."
-      on { entry {} effect { terrain { terrain: TERRAIN_MISTY permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          terrain {
+            terrain: TERRAIN_MISTY
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -52927,9 +53537,20 @@ trainer {
     inline_skill {
       name: "Surge-eon"
       announce_string: "The field is electrified."
-      on { entry {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_HADRON_ENGINE }
+    inline_skill {
+      extra_ability: ABILITY_HADRON_ENGINE
+    }
   }
 }
 trainer {
@@ -53413,11 +54034,20 @@ trainer {
       move: MOVE_FELL_STINGER
       move: MOVE_PROTECT
     }
-    # +1 Attack is exactly the +50%, +1 Speed is +50% instead of +20%
     inline_skill {
       name: "Battle Ready"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nis fired up!"
-      on { entry {} effect { stat_change { stat: STAT_ATK stat: STAT_SPEED amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nis fired up!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_SPEED
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -53867,8 +54497,16 @@ trainer {
     inline_skill {
       name: "Entry +2 Speed"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases speed by +2!"
-      # TODO: Speed cannot be dropped, might be annoying to do unless dropped speed is reset with a hook like on stat drop
-      on { entry {} effect { stat_change { stat: STAT_SPEED amount: 2 } } }
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_SPEED
+            amount: 2
+          }
+        }
+      }
     }
   }
 }
@@ -54079,7 +54717,9 @@ trainer {
       move: MOVE_ZEN_HEADBUTT
       move: MOVE_ICE_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_MOMENTUM }
+    inline_skill {
+      extra_ability: ABILITY_MOMENTUM
+    }
   }
 }
 trainer {
@@ -54483,7 +55123,9 @@ trainer {
       move: MOVE_SKY_UPPERCUT
       move: MOVE_DIZZY_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_IMPULSE }
+    inline_skill {
+      extra_ability: ABILITY_IMPULSE
+    }
   }
 }
 trainer {
@@ -54764,9 +55406,11 @@ trainer {
     }
   }
   hell {
-    # TODO: Deals 1.25x damage vs statused foes, Exploit Weakness only does the lowest defense part
-    # TODO: Status moves ignore abilities, Unerring only makes them never miss for now
-    inline_skill { extra_ability: ABILITY_ANGELS_WRATH extra_ability: ABILITY_EXPLOIT_WEAKNESS extra_ability: ABILITY_UNERRING }
+    inline_skill {
+      extra_ability: ABILITY_ANGELS_WRATH
+      extra_ability: ABILITY_EXPLOIT_WEAKNESS
+      extra_ability: ABILITY_UNERRING
+    }
   }
 }
 trainer {
@@ -55028,7 +55672,13 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_HYPER_AGGRESSIVE extra_ability: ABILITY_SLIPSTREAM extra_item { item: ITEM_CLEAR_AMULET } }
+    inline_skill {
+      extra_ability: ABILITY_HYPER_AGGRESSIVE
+      extra_ability: ABILITY_SLIPSTREAM
+      extra_item {
+        item: ITEM_CLEAR_AMULET
+      }
+    }
   }
 }
 trainer {
@@ -56153,16 +56803,38 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_HYPNOSIS
     }
-    inline_skill { extra_item { item: ITEM_LIFE_ORB } }
+    inline_skill {
+      extra_item {
+        item: ITEM_LIFE_ORB
+      }
+    }
     inline_skill {
       name: "Growth"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nkeeps growing!"
-      on { end_turn {} effect { use_move { move: MOVE_GROWTH } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nkeeps growing!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_GROWTH
+          }
+        }
+      }
     }
     inline_skill {
       name: "Slowdown"
-      announce_string: "Your Pokémon\\nslows down!"
-      on { end_turn {} side: PLAYER effect { stat_change { stat: STAT_SPEED amount: -1 } } }
+      announce_string: "Your Pok\303\251mon\\nslows down!"
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_SPEED
+            amount: -1
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -57445,12 +58117,24 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_AIR_SLASH
     }
-    # TODO: Gust when an AI Pokémon faints (same with tailwind it's only working with explosions now)
-    inline_skill { extra_item { item: ITEM_EXPERT_BELT } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EXPERT_BELT
+      }
+    }
     inline_skill {
       name: "Topsy-Turvy"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nturns things upside down!"
-      on { hit {} side: PLAYER effect { use_move { move: MOVE_TOPSY_TURVY } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nturns things upside down!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_TOPSY_TURVY
+          }
+        }
+        hit {
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -58973,14 +59657,25 @@ trainer {
     }
   }
   hell {
-    # Doc says 50 BP Explosion or Outburst, whichever is higher
     inline_skill {
       name: "Aftermath"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ngoes out with a bang!"
-      on { faint {} effect { use_move { move: MOVE_EXPLOSION power: 50 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngoes out with a bang!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_EXPLOSION
+            power: 50
+          }
+        }
+        faint {
+        }
+      }
     }
-    # Restraining Order is the Red Card from the doc
-    inline_skill { extra_ability: ABILITY_RESTRAINING_ORDER extra_ability: ABILITY_LEVITATE extra_ability: ABILITY_INFLATABLE }
+    inline_skill {
+      extra_ability: ABILITY_RESTRAINING_ORDER
+      extra_ability: ABILITY_LEVITATE
+      extra_ability: ABILITY_INFLATABLE
+    }
   }
 }
 trainer {
@@ -59664,8 +60359,12 @@ trainer {
       move: MOVE_KNOCK_OFF
       move: MOVE_DOUBLE_IRON_BASH
     }
-    # TODO: Illusion shouldn't boost power or break when hit
-    inline_skill { extra_ability: ABILITY_ILLUSION extra_item { item: ITEM_BRIGHT_POWDER } }
+    inline_skill {
+      extra_ability: ABILITY_ILLUSION
+      extra_item {
+        item: ITEM_BRIGHT_POWDER
+      }
+    }
   }
 }
 trainer {
@@ -60164,7 +60863,9 @@ trainer {
       move: MOVE_FACADE
       move: MOVE_BULK_UP
     }
-    inline_skill { extra_ability: ABILITY_MARTIAL_ARTS }
+    inline_skill {
+      extra_ability: ABILITY_MARTIAL_ARTS
+    }
   }
 }
 trainer {
@@ -60902,7 +61603,12 @@ trainer {
       move: MOVE_U_TURN
       move: MOVE_AQUA_JET
     }
-    inline_skill { extra_ability: ABILITY_SAP_SIPPER extra_item { item: ITEM_SHELL_BELL } }
+    inline_skill {
+      extra_ability: ABILITY_SAP_SIPPER
+      extra_item {
+        item: ITEM_SHELL_BELL
+      }
+    }
   }
 }
 trainer {
@@ -61886,14 +62592,38 @@ trainer {
     }
     inline_skill {
       name: "Second Wind"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up as it weakens!"
-      on { hit {} hp_below: 50 once: PER_POKEMON effect { stat_change { stat: STAT_SPEED amount: 1 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nspeeds up as it weakens!"
+      on {
+        effect {
+          stat_change {
+            stat: STAT_SPEED
+            amount: 1
+          }
+        }
+        hit {
+        }
+        once: PER_POKEMON
+        hp_below: 50
+      }
     }
     inline_skill {
       name: "Numbing Song"
-      on { end_turn { every: 2 on_field: true } side: PLAYER effect { status { status: GASTRO_ACID } } }
+      on {
+        end_turn {
+          every: 2
+          on_field: true
+        }
+        effect {
+          status {
+            status: GASTRO_ACID
+          }
+        }
+        side: PLAYER
+      }
     }
-    inline_skill { extra_ability: ABILITY_TIDAL_FORCE }
+    inline_skill {
+      extra_ability: ABILITY_TIDAL_FORCE
+    }
   }
 }
 trainer {
@@ -62044,8 +62774,19 @@ trainer {
     }
     inline_skill {
       name: "Lullaby"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nlulls its attacker to sleep!"
-      on { hit {} effect { status { status: SLEEP target { who: FOE } } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nlulls its attacker to sleep!"
+      on {
+        effect {
+          status {
+            status: SLEEP
+            target {
+              who: FOE
+            }
+          }
+        }
+        hit {
+        }
+      }
     }
   }
 }
@@ -62255,17 +62996,53 @@ trainer {
     }
   }
   hell {
-    # Using a room that's up ends it
     inline_skill {
       name: "Room Roulette"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ntwists the dimensions!"
-      on { end_turn {} chance: 50 effect { use_move { move: MOVE_TRICK_ROOM } } }
-      on { end_turn {} chance: 50 effect { use_move { move: MOVE_WONDER_ROOM } } }
-      on { end_turn {} chance: 50 effect { use_move { move: MOVE_MAGIC_ROOM } } }
-      on { end_turn {} chance: 50 effect { use_move { move: MOVE_INVERSE_ROOM } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ntwists the dimensions!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_TRICK_ROOM
+          }
+        }
+        chance: 50
+      }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_WONDER_ROOM
+          }
+        }
+        chance: 50
+      }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_MAGIC_ROOM
+          }
+        }
+        chance: 50
+      }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_INVERSE_ROOM
+          }
+        }
+        chance: 50
+      }
     }
-    # Doc says passive Leftovers, Self Sufficient is the same except it can be suppressed
-    inline_skill { extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill {
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
   }
 }
 trainer {
@@ -62331,16 +63108,37 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_item { item: ITEM_EXPERT_BELT } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EXPERT_BELT
+      }
+    }
     inline_skill {
       name: "Mist"
-      announce_string: "Mist swirls around {B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: MIST permanent: true } } }
+      announce_string: "Mist swirls around {B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: MIST
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Magnet Rise"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nfloats in the air!"
-      on { entry {} effect { use_move { move: MOVE_MAGNET_RISE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfloats in the air!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_MAGNET_RISE
+          }
+        }
+      }
     }
   }
 }
@@ -62406,12 +63204,29 @@ trainer {
     }
   }
   hell {
-    # TODO: The player's accurate moves (95-100%) lose 25% accuracy
-    # Torment is used on each entry instead of being passive
     inline_skill {
       name: "Cursed Salt"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ncurses your Pokémon!"
-      on { entry {} side: PLAYER effect { status { status: SALT_CURE } } effect { status { status: CURSE } } effect { use_move { move: MOVE_TORMENT } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ncurses your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          status {
+            status: SALT_CURE
+          }
+        }
+        effect {
+          status {
+            status: CURSE
+          }
+        }
+        effect {
+          use_move {
+            move: MOVE_TORMENT
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -62490,8 +63305,6 @@ trainer {
     }
   }
   hell {
-    # Simple doubles the AI's stat raises; Clear Body keeps its stats from dropping (her team has no self-lowering moves)
-    # TODO: AI hits the player's lowest defense (Exploit Weakness only works against statused foes, this needs a new ability)
     inline_skill {
       extra_ability: ABILITY_SIMPLE
     }
@@ -62629,14 +63442,22 @@ trainer {
       move: MOVE_SUCKER_PUNCH
       move: MOVE_BATON_PASS
     }
-    # Leftovers effect: Self Sufficient
     inline_skill {
       extra_ability: ABILITY_SELF_SUFFICIENT
     }
     inline_skill {
       name: "Leech Seed"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplants a seed on your Pokémon!"
-      on { entry {} side: PLAYER effect { use_move { move: MOVE_LEECH_SEED } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplants a seed on your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_LEECH_SEED
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -63995,11 +64816,23 @@ trainer {
       move: MOVE_OVERHEAT
       move: MOVE_RAGING_SOULS
     }
-    inline_skill { extra_ability: ABILITY_PRETTY_PRINCESS }
+    inline_skill {
+      extra_ability: ABILITY_PRETTY_PRINCESS
+    }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -64212,8 +65045,12 @@ trainer {
       move: MOVE_CRUNCH
       move: MOVE_RAPID_RIVER
     }
-    inline_skill { extra_ability: ABILITY_SNIPER }
-    inline_skill { extra_ability: ABILITY_PRETENTIOUS }
+    inline_skill {
+      extra_ability: ABILITY_SNIPER
+    }
+    inline_skill {
+      extra_ability: ABILITY_PRETENTIOUS
+    }
   }
 }
 trainer {
@@ -64435,11 +65272,23 @@ trainer {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_ICE_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_MINUS }
+    inline_skill {
+      extra_ability: ABILITY_MINUS
+    }
     inline_skill {
       name: "Stealth Rock"
-      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+      announce_string: "Pointed stones float in the air\\naround {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -64667,9 +65516,20 @@ trainer {
     inline_skill {
       name: "Grassy Terrain"
       announce_string: "A grassy field spreads\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_GRASSY permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_GRASSY
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_SKILL_LINK }
+    inline_skill {
+      extra_ability: ABILITY_SKILL_LINK
+    }
   }
 }
 trainer {
@@ -65877,7 +66737,15 @@ trainer {
     inline_skill {
       name: "Life Dew"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Life Dew!"
-      on { entry {} effect { use_move { move: MOVE_LIFE_DEW } } }
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_LIFE_DEW
+          }
+        }
+      }
     }
   }
 }
@@ -66710,8 +67578,19 @@ trainer {
     }
     inline_skill {
       name: "Frostbitten Team"
-      announce_string: "{B_TRAINER1_NAME}'s team\\nis frostbitten!"
-      on { battle_start {} effect { status { status: FROSTBITE target { scope: PARTY } } } }
+      announce_string: "{B_TRAINER1_NAME}\'s team\\nis frostbitten!"
+      on {
+        effect {
+          status {
+            status: FROSTBITE
+            target {
+              scope: PARTY
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -66893,7 +67772,16 @@ trainer {
     inline_skill {
       name: "Bubble"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblows a bubble!"
-      on { entry {} effect { use_move { move: MOVE_BUBBLE power: 10 } } }
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_BUBBLE
+            power: 10
+          }
+        }
+      }
     }
   }
 }
@@ -67367,7 +68255,9 @@ trainer {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_MACH_PUNCH
     }
-    inline_skill { extra_ability: ABILITY_MERCILESS }
+    inline_skill {
+      extra_ability: ABILITY_MERCILESS
+    }
   }
 }
 trainer {
@@ -67506,17 +68396,39 @@ trainer {
     }
   }
   hell {
-    # TODO: Consider cancelling the switch when Anchor Shot traps, it only hits before the switch for now
     inline_skill {
       name: "Anchor Shot"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nwon't let you leave!"
-      on { switch_out {} side: PLAYER effect { use_move { move: MOVE_ANCHOR_SHOT } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t let you leave!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_ANCHOR_SHOT
+          }
+        }
+        switch_out {
+        }
+        side: PLAYER
+      }
     }
-    inline_skill { extra_ability: ABILITY_POISON_HEAL }
+    inline_skill {
+      extra_ability: ABILITY_POISON_HEAL
+    }
     inline_skill {
       name: "Toxic Start"
       announce_string: "Both teams are\\nbadly poisoned!"
-      on { battle_start {} effect { status { status: TOXIC target { who: BOTH scope: PARTY } } } }
+      on {
+        effect {
+          status {
+            status: TOXIC
+            target {
+              who: BOTH
+              scope: PARTY
+            }
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -69791,7 +70703,11 @@ trainer {
       move: MOVE_ACROBATICS
       move: MOVE_SHARPEN
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -69951,7 +70867,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -70252,7 +71177,11 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_SLAM
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -70413,7 +71342,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -70715,7 +71653,11 @@ trainer {
       move: MOVE_SAPPY_SEED
       move: MOVE_SIZZLY_SLIDE
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -70876,7 +71818,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -71181,7 +72132,11 @@ trainer {
       move: MOVE_RAGE
       move: MOVE_FLIP_TURN
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -71341,7 +72296,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -71646,7 +72610,11 @@ trainer {
       move: MOVE_POISON_POWDER
       move: MOVE_LEECH_SEED
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -71807,7 +72775,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -72110,7 +73087,11 @@ trainer {
       move: MOVE_TOXIC
       move: MOVE_FLUTTERING_LEAF
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -72271,7 +73252,16 @@ trainer {
     inline_skill {
       name: "Perma Fog"
       announce_string: "The fog is deep."
-      on { entry {} effect { weather { weather: WEATHER_FOG permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -72613,7 +73603,9 @@ trainer {
       move: MOVE_AIR_SLASH
       move: MOVE_HYPER_BEAM
     }
-    inline_skill { extra_ability: ABILITY_HUBRIS }
+    inline_skill {
+      extra_ability: ABILITY_HUBRIS
+    }
   }
 }
 trainer {
@@ -73502,7 +74494,9 @@ trainer {
       move: MOVE_PSYCHO_CUT
       move: MOVE_FLUTTERING_LEAF
     }
-    inline_skill { extra_ability: ABILITY_MOXIE }
+    inline_skill {
+      extra_ability: ABILITY_MOXIE
+    }
   }
 }
 trainer {
@@ -74106,7 +75100,11 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_BONE_ZONE extra_ability: ABILITY_BONE_MASTER extra_ability: ABILITY_HAUNTING_FRENZY }
+    inline_skill {
+      extra_ability: ABILITY_BONE_ZONE
+      extra_ability: ABILITY_BONE_MASTER
+      extra_ability: ABILITY_HAUNTING_FRENZY
+    }
   }
 }
 trainer {
@@ -75613,11 +76611,26 @@ trainer {
       move: MOVE_GEM_MISSILE
       move: MOVE_MYSTIC_DANCE
     }
-    inline_skill { extra_item { item: ITEM_GRIP_CLAW } extra_item { item: ITEM_BINDING_BAND } }
+    inline_skill {
+      extra_item {
+        item: ITEM_GRIP_CLAW
+      }
+      extra_item {
+        item: ITEM_BINDING_BAND
+      }
+    }
     inline_skill {
       name: "Aqua Ring"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nsurrounds itself with water!"
-      on { entry {} effect { use_move { move: MOVE_AQUA_RING } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsurrounds itself with water!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_AQUA_RING
+          }
+        }
+      }
     }
   }
 }
@@ -76895,13 +77908,13 @@ trainer {
       move: MOVE_SHELL_SMASH
       move: MOVE_CUT
     }
-    # TODO: Give Klawf its "Super Berry" item as skills instead (immune to status + heals 75% HP when under half one time)
     inline_skill {
       name: "Omniboost Lead"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +2 omniboost!"
-      # Doc says last gets +2 omniboost but since only one mon in party we can use lead
       on {
-        entry { when: LEAD }
+        entry {
+          when: LEAD
+        }
         effect {
           stat_change {
             stat: STAT_ATK
@@ -76916,7 +77929,6 @@ trainer {
     }
   }
 }
-
 trainer {
   id: TRAINER_BRENDEN
   name: "Brenden"
@@ -77048,7 +78060,16 @@ trainer {
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -77364,7 +78385,16 @@ trainer {
     inline_skill {
       name: "+2 Highest Stat"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases highest stat by +2!"
-      on { end_turn {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 2 } } }
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_TOTAL
+            amount: 2
+          }
+        }
+      }
     }
   }
 }
@@ -77871,16 +78901,44 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_item { item: ITEM_SHELL_BELL } }
+    inline_skill {
+      extra_item {
+        item: ITEM_SHELL_BELL
+      }
+    }
     inline_skill {
       name: "Bubble Burst"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nstrikes back with bubbles!"
-      on { hit { move { flag: CONTACT } } effect { use_move { move: MOVE_BUBBLE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nstrikes back with bubbles!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_BUBBLE
+          }
+        }
+        hit {
+          move {
+            flag: CONTACT
+          }
+        }
+      }
     }
     inline_skill {
       name: "Momentum"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ngets fired up by the KO!"
-      on { faint {} side: PLAYER effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 target { who: FOE } } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngets fired up by the KO!"
+      on {
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+            target {
+              who: FOE
+            }
+          }
+        }
+        faint {
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -79603,8 +80661,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -79745,8 +80804,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -79880,8 +80940,18 @@ trainer {
     }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -80637,8 +81707,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -80779,8 +81850,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -81461,8 +82533,17 @@ trainer {
     }
     inline_skill {
       name: "Leech Seed"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nplants a seed on your Pokémon!"
-      on { entry {} side: PLAYER effect { use_move { move: MOVE_LEECH_SEED } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplants a seed on your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_LEECH_SEED
+          }
+        }
+        side: PLAYER
+      }
     }
   }
 }
@@ -81636,8 +82717,9 @@ trainer {
       move: MOVE_THUNDERBOLT
       move: MOVE_FLAMETHROWER
     }
-    # Doc says can't be crit, Shell Armor
-    inline_skill { extra_ability: ABILITY_SHELL_ARMOR }
+    inline_skill {
+      extra_ability: ABILITY_SHELL_ARMOR
+    }
   }
 }
 trainer {
@@ -82051,8 +83133,9 @@ trainer {
       move: MOVE_VENOSHOCK
       move: MOVE_FLAMETHROWER
     }
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -82223,12 +83306,25 @@ trainer {
       move: MOVE_ICE_SPINNER
       move: MOVE_COMBAT_TORQUE
     }
-    inline_skill { extra_ability: ABILITY_BIOFILM }
-    inline_skill { extra_ability: ABILITY_POISON_ABSORB }
+    inline_skill {
+      extra_ability: ABILITY_BIOFILM
+    }
+    inline_skill {
+      extra_ability: ABILITY_POISON_ABSORB
+    }
     inline_skill {
       name: "Perma Terrain"
       announce_string: "Toxic sludge covers the field."
-      on { entry {} effect { terrain { terrain: TERRAIN_TOXIC permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          terrain {
+            terrain: TERRAIN_TOXIC
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -83023,8 +84119,18 @@ trainer {
     }
     inline_skill {
       name: "Sticky Web"
-      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STICKY_WEB who: FOE permanent: true } } }
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -83436,7 +84542,9 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_QUIVER_DANCE
     }
-    inline_skill { extra_ability: ABILITY_SHIELD_DUST }
+    inline_skill {
+      extra_ability: ABILITY_SHIELD_DUST
+    }
   }
 }
 trainer {
@@ -84105,7 +85213,16 @@ trainer {
     inline_skill {
       name: "Peak Form"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplays to its strengths!"
-      on { entry {} effect { stat_change { stat: STAT_HIGHEST_TOTAL amount: 1 } } }
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_TOTAL
+            amount: 1
+          }
+        }
+      }
     }
   }
 }
@@ -84267,8 +85384,19 @@ trainer {
     }
     inline_skill {
       name: "Toxic Spikes"
-      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TOXIC_SPIKES who: FOE layers: 2 permanent: true } } }
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TOXIC_SPIKES
+            who: FOE
+            layers: 2
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -85848,7 +86976,11 @@ trainer {
       move: MOVE_FURY_ATTACK
       move: MOVE_STEEL_WING
     }
-    inline_skill { extra_item { item: ITEM_EVIOLITE } }
+    inline_skill {
+      extra_item {
+        item: ITEM_EVIOLITE
+      }
+    }
   }
 }
 trainer {
@@ -86509,7 +87641,16 @@ trainer {
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
-      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -86761,8 +87902,16 @@ trainer {
     }
     inline_skill {
       name: "Power Trick"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nswaps its Attack and Defense!"
-      on { entry {} effect { use_move { move: MOVE_POWER_TRICK } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nswaps its Attack and Defense!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_POWER_TRICK
+          }
+        }
+      }
     }
   }
 }
@@ -87209,16 +88358,34 @@ trainer {
     }
   }
   hell {
-    # TODO: Rage Fist upon fainting, at the Pokemon that fainted them
     inline_skill {
       name: "Sea of Fire"
       announce_string: "Your side is engulfed\\nin a sea of fire!"
-      on { battle_start {} effect { side_condition { type: SEA_OF_FIRE who: FOE permanent: true } } }
+      on {
+        effect {
+          side_condition {
+            type: SEA_OF_FIRE
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Burning Jealousy"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nburns with jealousy!"
-      on { end_turn { every: 2 } effect { use_move { move: MOVE_BURNING_JEALOUSY } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nburns with jealousy!"
+      on {
+        end_turn {
+          every: 2
+        }
+        effect {
+          use_move {
+            move: MOVE_BURNING_JEALOUSY
+          }
+        }
+      }
     }
   }
 }
@@ -87906,12 +89073,22 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_HYPER_FANG
     }
-    inline_skill { extra_ability: ABILITY_STATIC_BLOOM }
-    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      extra_ability: ABILITY_STATIC_BLOOM
+    }
     inline_skill {
       name: "Electric Terrain"
       announce_string: "An electric current runs\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -89233,7 +90410,11 @@ trainer {
       move: MOVE_REST
     }
     skill: SKILL_PLAYER_LETHARGY
-    inline_skill { extra_item { item: ITEM_ABILITY_SHIELD } }
+    inline_skill {
+      extra_item {
+        item: ITEM_ABILITY_SHIELD
+      }
+    }
   }
 }
 trainer {
@@ -91791,7 +92972,10 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_KARMA
     }
-    inline_skill { extra_ability: ABILITY_COSTAR extra_ability: ABILITY_SHIELD_DUST }
+    inline_skill {
+      extra_ability: ABILITY_COSTAR
+      extra_ability: ABILITY_SHIELD_DUST
+    }
   }
 }
 trainer {
@@ -92092,9 +93276,14 @@ trainer {
       move: MOVE_FLASH_CANNON
       move: MOVE_DRAGON_PULSE
     }
-    # TODO: The Focus Band only works once per Pokémon
-    # Honestly not sure what to expect with this one, if it works, we gucci
-    inline_skill { extra_ability: ABILITY_EQUINOX extra_ability: ABILITY_INNER_FOCUS extra_item { item: ITEM_FOCUS_BAND strength: 25 } }
+    inline_skill {
+      extra_ability: ABILITY_EQUINOX
+      extra_ability: ABILITY_INNER_FOCUS
+      extra_item {
+        item: ITEM_FOCUS_BAND
+        strength: 25
+      }
+    }
   }
 }
 trainer {
@@ -93060,7 +94249,16 @@ trainer {
     inline_skill {
       name: "Perma Sun"
       announce_string: "The sunlight shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -93258,7 +94456,16 @@ trainer {
     inline_skill {
       name: "Inverse Room"
       announce_string: "An unknown power inverts type effectiveness!"
-      on { battle_start {} effect { field { type: INVERSE_ROOM permanent: true } } }
+      on {
+        effect {
+          field {
+            type: INVERSE_ROOM
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -93666,7 +94873,12 @@ trainer {
       move: MOVE_DRAINING_KISS
       move: MOVE_FAKE_OUT
     }
-    inline_skill { extra_item { item: ITEM_FOCUS_BAND strength: 30 } }
+    inline_skill {
+      extra_item {
+        item: ITEM_FOCUS_BAND
+        strength: 30
+      }
+    }
   }
 }
 trainer {
@@ -93824,7 +95036,17 @@ trainer {
     inline_skill {
       name: "Stealth Rock"
       announce_string: "Pointed stones float\\naround your team!"
-      on { battle_start {} effect { side_condition { type: STEALTH_ROCK who: FOE permanent: true } } }
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -94200,7 +95422,9 @@ trainer {
       move: MOVE_BUG_BUZZ
       move: MOVE_DRACO_METEOR
     }
-    inline_skill { extra_ability: ABILITY_MOLD_BREAKER }
+    inline_skill {
+      extra_ability: ABILITY_MOLD_BREAKER
+    }
   }
 }
 trainer {
@@ -94397,7 +95621,9 @@ trainer {
       move: MOVE_THUNDER_PUNCH
       move: MOVE_FAKE_OUT
     }
-    inline_skill { extra_ability: ABILITY_SPEED_BOOST }
+    inline_skill {
+      extra_ability: ABILITY_SPEED_BOOST
+    }
   }
 }
 trainer {
@@ -94805,7 +96031,9 @@ trainer {
       move: MOVE_SLUDGE_BOMB
       move: MOVE_NASTY_PLOT
     }
-    inline_skill { extra_ability: ABILITY_LONG_REACH }
+    inline_skill {
+      extra_ability: ABILITY_LONG_REACH
+    }
   }
 }
 trainer {
@@ -95028,7 +96256,9 @@ trainer {
       move: MOVE_GROWTH
       move: MOVE_EARTH_POWER
     }
-    inline_skill { extra_ability: ABILITY_FLOWER_GIFT }
+    inline_skill {
+      extra_ability: ABILITY_FLOWER_GIFT
+    }
   }
 }
 trainer {
@@ -95470,7 +96700,9 @@ trainer {
       move: MOVE_ROOST
       move: MOVE_LUCKY_CHANT
     }
-    inline_skill { extra_ability: ABILITY_EXECUTIONER }
+    inline_skill {
+      extra_ability: ABILITY_EXECUTIONER
+    }
   }
 }
 trainer {
@@ -95682,7 +96914,16 @@ trainer {
     inline_skill {
       name: "Perma Sun"
       announce_string: "The sun shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -96104,10 +97345,21 @@ trainer {
     }
     inline_skill {
       name: "Tailwind"
-      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_FRIEND_GUARD }
+    inline_skill {
+      extra_ability: ABILITY_FRIEND_GUARD
+    }
   }
 }
 trainer {
@@ -96711,7 +97963,10 @@ trainer {
       move: MOVE_SEED_BOMB
       move: MOVE_POISON_JAB
     }
-    inline_skill { extra_ability: ABILITY_AERODYNAMICS extra_ability: ABILITY_GRASS_PELT }
+    inline_skill {
+      extra_ability: ABILITY_AERODYNAMICS
+      extra_ability: ABILITY_GRASS_PELT
+    }
   }
 }
 trainer {
@@ -96937,9 +98192,20 @@ trainer {
     inline_skill {
       name: "Perma Hail"
       announce_string: "The hail falls."
-      on { entry {} effect { weather { weather: WEATHER_HAIL permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_HAIL
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_ICE_BODY }
+    inline_skill {
+      extra_ability: ABILITY_ICE_BODY
+    }
   }
 }
 trainer {
@@ -97340,7 +98606,9 @@ trainer {
       move: MOVE_FIRE_PUNCH
       move: MOVE_METEOR_MASH
     }
-    inline_skill { extra_ability: ABILITY_GALLANTRY }
+    inline_skill {
+      extra_ability: ABILITY_GALLANTRY
+    }
   }
 }
 trainer {
@@ -100130,13 +101398,25 @@ trainer {
       move: MOVE_HEAVY_SLAM
       move: MOVE_HEAT_CRASH
     }
-    # TODO: Ignores immunities
     inline_skill {
       name: "Trick Room"
       announce_string: "The dimensions are twisted!"
-      on { battle_start {} effect { field { type: TRICK_ROOM permanent: true } } }
+      on {
+        effect {
+          field {
+            type: TRICK_ROOM
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_item { item: ITEM_IRON_BALL } }
+    inline_skill {
+      extra_item {
+        item: ITEM_IRON_BALL
+      }
+    }
   }
 }
 trainer {
@@ -101226,7 +102506,11 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA extra_ability: ABILITY_SWIFT_SWIM extra_ability: ABILITY_SAP_SIPPER }
+    inline_skill {
+      extra_ability: ABILITY_PRIMORDIAL_SEA
+      extra_ability: ABILITY_SWIFT_SWIM
+      extra_ability: ABILITY_SAP_SIPPER
+    }
   }
 }
 trainer {
@@ -101329,12 +102613,23 @@ trainer {
     }
   }
   hell {
-    # TODO: Rooms don't work
-    inline_skill { extra_ability: ABILITY_PRIMORDIAL_SEA }
+    inline_skill {
+      extra_ability: ABILITY_PRIMORDIAL_SEA
+    }
     inline_skill {
       name: "Swamp"
       announce_string: "A swamp envelops\\nyour team!"
-      on { battle_start {} effect { side_condition { type: SWAMP who: FOE permanent: true } } }
+      on {
+        effect {
+          side_condition {
+            type: SWAMP
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -101442,17 +102737,46 @@ trainer {
     inline_skill {
       name: "Ancient Power"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Ancient Power on turn end!"
-      on { end_turn {} effect { use_move { move: MOVE_ANCIENT_POWER } } }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_ANCIENT_POWER
+          }
+        }
+      }
     }
     inline_skill {
       name: "Pebble Shower"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nkicks up pebbles after attacking!"
-      on { hit {} side: PLAYER effect { use_move { move: MOVE_PEBBLE_SHOWER } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nkicks up pebbles after attacking!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_PEBBLE_SHOWER
+          }
+        }
+        hit {
+        }
+        side: PLAYER
+      }
     }
     inline_skill {
       name: "Rattled"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nspeeds up when touched!"
-      on { hit { move { flag: CONTACT } } effect { stat_change { stat: STAT_SPEED amount: 2 } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nspeeds up when touched!"
+      on {
+        effect {
+          stat_change {
+            stat: STAT_SPEED
+            amount: 2
+          }
+        }
+        hit {
+          move {
+            flag: CONTACT
+          }
+        }
+      }
     }
   }
 }
@@ -101710,13 +103034,21 @@ trainer {
     }
     inline_skill {
       name: "Rainbow"
-      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: RAINBOW permanent: true } } }
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: RAINBOW
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       extra_ability: ABILITY_FRIEND_GUARD
     }
-    # TODO: Stat changes are shared between allies
   }
 }
 trainer {
@@ -102744,9 +104076,20 @@ trainer {
     inline_skill {
       name: "Perma Sand"
       announce_string: "The sandstorm rages."
-      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SANDSTORM
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_DUNE_TERROR }
+    inline_skill {
+      extra_ability: ABILITY_DUNE_TERROR
+    }
   }
 }
 trainer {
@@ -103170,12 +104513,23 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_IVY_CUDGEL
     }
-      inline_skill {
+    inline_skill {
       name: "Perma Sun"
       announce_string: "The sun shines brightly."
-      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SUN
+            permanent: true
+          }
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_GRASS_PELT }
+    inline_skill {
+      extra_ability: ABILITY_GRASS_PELT
+    }
   }
 }
 trainer {
@@ -103375,9 +104729,20 @@ trainer {
     inline_skill {
       name: "Grassy Terrain"
       announce_string: "A grassy field spreads\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_GRASSY permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_GRASSY
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_FLOWER_GIFT }
+    inline_skill {
+      extra_ability: ABILITY_FLOWER_GIFT
+    }
   }
 }
 trainer {
@@ -104331,7 +105696,16 @@ trainer {
     inline_skill {
       name: "Perma Sand"
       announce_string: "The sandstorm rages."
-      on { entry {} effect { weather { weather: WEATHER_SANDSTORM permanent: true } } }
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_SANDSTORM
+            permanent: true
+          }
+        }
+      }
     }
   }
 }
@@ -104525,8 +105899,17 @@ trainer {
     }
     inline_skill {
       name: "Rainbow"
-      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: RAINBOW permanent: true } } }
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: RAINBOW
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -104713,8 +106096,17 @@ trainer {
     }
     inline_skill {
       name: "Tailwind"
-      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -104937,7 +106329,9 @@ trainer {
       move: MOVE_AURA_SPHERE
       move: MOVE_CALM_MIND
     }
-    inline_skill { extra_ability: ABILITY_PSYCHIC_SURGE }
+    inline_skill {
+      extra_ability: ABILITY_PSYCHIC_SURGE
+    }
   }
 }
 trainer {
@@ -105148,7 +106542,9 @@ trainer {
       move: MOVE_ZAP_CANNON
       hidden_power_type: TYPE_FLYING
     }
-    inline_skill { extra_ability: ABILITY_HYPER_AGGRESSIVE }
+    inline_skill {
+      extra_ability: ABILITY_HYPER_AGGRESSIVE
+    }
   }
 }
 trainer {
@@ -107539,8 +108935,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -107681,8 +109078,9 @@ trainer {
     }
   }
   hell {
-    # Doc says Focus Sash effect, Sturdy is close (only difference is Mold Breaker)
-    inline_skill { extra_ability: ABILITY_STURDY }
+    inline_skill {
+      extra_ability: ABILITY_STURDY
+    }
   }
 }
 trainer {
@@ -108502,12 +109900,22 @@ trainer {
       move: MOVE_CUT
       move: MOVE_AIR_CUTTER
     }
-    inline_skill { extra_ability: ABILITY_POWER_SPOT }
-    # Mauville Gym: Electric Terrain in every fight
+    inline_skill {
+      extra_ability: ABILITY_POWER_SPOT
+    }
     inline_skill {
       name: "Electric Terrain"
       announce_string: "An electric current runs\\nacross the battlefield!"
-      on { battle_start {} effect { terrain { terrain: TERRAIN_ELECTRIC permanent: true } } }
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_ELECTRIC
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -110039,11 +111447,23 @@ trainer {
       move: MOVE_CALM_MIND
       move: MOVE_LEECH_SEED
     }
-    inline_skill { extra_ability: ABILITY_TRIAGE extra_ability: ABILITY_DAZZLING }
+    inline_skill {
+      extra_ability: ABILITY_TRIAGE
+      extra_ability: ABILITY_DAZZLING
+    }
     inline_skill {
       name: "Safeguard"
-      announce_string: "{B_TRAINER1_NAME}'s team is\\ncloaked in a mystical veil!"
-      on { battle_start {} effect { side_condition { type: SAFEGUARD permanent: true } } }
+      announce_string: "{B_TRAINER1_NAME}\'s team is\\ncloaked in a mystical veil!"
+      on {
+        effect {
+          side_condition {
+            type: SAFEGUARD
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -110390,11 +111810,23 @@ trainer {
     }
     inline_skill {
       name: "Swamp"
-      announce_string: "A swamp envelops {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: SWAMP who: FOE permanent: true } } }
+      announce_string: "A swamp envelops {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: SWAMP
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    # Doc says it recovers 50% HP on KO, Predator heals 25%, good enough for now
-    inline_skill { extra_ability: ABILITY_PRIMAL_ARMOR extra_ability: ABILITY_PREDATOR }
+    inline_skill {
+      extra_ability: ABILITY_PRIMAL_ARMOR
+      extra_ability: ABILITY_PREDATOR
+    }
   }
 }
 trainer {
@@ -110630,12 +112062,24 @@ trainer {
       move: MOVE_FOCUS_BLAST
       move: MOVE_SOLAR_BEAM
     }
-    # TODO: STAB moves bypass Protect (and clones) and abilities
-    inline_skill { extra_item { item: ITEM_HEAVY_DUTY_BOOTS } }
+    inline_skill {
+      extra_item {
+        item: ITEM_HEAVY_DUTY_BOOTS
+      }
+    }
     inline_skill {
       name: "Desolate Land"
       announce_string: "The sunlight turned\\nextremely harsh!"
-      on { battle_start {} effect { weather { weather: WEATHER_SUN_PRIMAL permanent: true } } }
+      on {
+        effect {
+          weather {
+            weather: WEATHER_SUN_PRIMAL
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -110892,7 +112336,10 @@ trainer {
       move: MOVE_CRUNCH
       move: MOVE_IRON_FANGS
     }
-    inline_skill { extra_ability: ABILITY_DESERT_SPIRIT extra_ability: ABILITY_SAND_FORCE }
+    inline_skill {
+      extra_ability: ABILITY_DESERT_SPIRIT
+      extra_ability: ABILITY_SAND_FORCE
+    }
   }
 }
 trainer {
@@ -111065,11 +112512,24 @@ trainer {
     }
   }
   hell {
-    inline_skill { extra_ability: ABILITY_TERA_SHELL extra_item { item: ITEM_HEAVY_DUTY_BOOTS } }
+    inline_skill {
+      extra_ability: ABILITY_TERA_SHELL
+      extra_item {
+        item: ITEM_HEAVY_DUTY_BOOTS
+      }
+    }
     inline_skill {
       name: "Substitute"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\nhides behind a substitute!"
-      on { entry {} effect { use_move { move: MOVE_SUBSTITUTE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nhides behind a substitute!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_SUBSTITUTE
+          }
+        }
+      }
     }
   }
 }
@@ -111320,8 +112780,11 @@ trainer {
       move: MOVE_TAKE_FLIGHT
     }
     skill: SKILL_PLAYER_NORMALIZE
-    # Momentum + Impulse: physical and special moves use Speed
-    inline_skill { extra_ability: ABILITY_TRICKSTER extra_ability: ABILITY_MOMENTUM extra_ability: ABILITY_IMPULSE }
+    inline_skill {
+      extra_ability: ABILITY_TRICKSTER
+      extra_ability: ABILITY_MOMENTUM
+      extra_ability: ABILITY_IMPULSE
+    }
   }
 }
 trainer {
@@ -111455,7 +112918,15 @@ trainer {
     inline_skill {
       name: "+1 Best Attack"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nincreases best attack by +1!"
-      on { entry {} effect { stat_change { stat: STAT_HIGHEST_ATTACKING amount: 1 } }
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_HIGHEST_ATTACKING
+            amount: 1
+          }
+        }
       }
     }
   }
@@ -111716,11 +113187,18 @@ trainer {
     inline_skill {
       extra_ability: ABILITY_EMPERORS_WRATH
     }
-    # TODO: AI uses Tailwind after death
     inline_skill {
       name: "Tickle"
-      announce_string: "{B_TRAINER1_NAME}'s Pokémon\\ntickles your Pokémon!"
-      on { end_turn {} effect { use_move { move: MOVE_TICKLE } } }
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ntickles your Pok\303\251mon!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_TICKLE
+          }
+        }
+      }
     }
   }
 }
@@ -112590,15 +114068,35 @@ trainer {
     }
     inline_skill {
       name: "All Hazards"
-      announce_string: "All hazards were scattered around {B_PLAYER_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: STEALTH_ROCK type: SPIKES type: TOXIC_SPIKES type: STICKY_WEB who: FOE } } }
+      announce_string: "All hazards were scattered around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STEALTH_ROCK
+            type: SPIKES
+            type: TOXIC_SPIKES
+            type: STICKY_WEB
+            who: FOE
+          }
+        }
+        battle_start {
+        }
+      }
     }
     inline_skill {
       name: "Judgement"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Judgment on turn end!"
-      on { end_turn {} effect { use_move { move: MOVE_JUDGMENT power: 60 } } }
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_JUDGMENT
+            power: 60
+          }
+        }
+      }
     }
-    # TODO: Swarm (in the old skill list)
   }
 }
 trainer {
@@ -113098,34 +114596,29 @@ trainer {
       move: MOVE_SHADOW_SNEAK
     }
     mon {
-      species: SPECIES_GARCHOMP
-      item: ITEM_GARCHOMPITE
+      species: SPECIES_WEAVILE
+      item: ITEM_WEAVILEITE
       nature: NATURE_JOLLY
-      ability: ABILITY_SAND_VEIL
-      hp_ev: 252
+      ability: ABILITY_PRESSURE
       atk_ev: 252
-      def_ev: 252
-      spdef_ev: 252
+      def_ev: 4
       spe_ev: 252
-      move: MOVE_DIAMOND_BLADE
-      move: MOVE_DRAGON_CLAW
-      move: MOVE_DRAGON_DANCE
-      move: MOVE_SEISMIC_BLADE
+      move: MOVE_BEATDOWN
+      move: MOVE_FAKE_OUT
+      move: MOVE_TRIPLE_AXEL
+      move: MOVE_LOW_KICK
     }
     mon {
-      species: SPECIES_HITMONLEE
-      item: ITEM_HITMONLEENITE
-      nature: NATURE_JOLLY
-      ability: ABILITY_UNBURDEN
+      species: SPECIES_MILOTIC
+      item: ITEM_MILOTICITE
+      nature: NATURE_BOLD
+      ability: ABILITY_COMPETITIVE
       hp_ev: 252
-      atk_ev: 252
-      def_ev: 252
-      spdef_ev: 252
-      spe_ev: 252
-      move: MOVE_ACCELEROCK
-      move: MOVE_TRIPLE_AXEL
-      move: MOVE_MEGA_KICK
-      move: MOVE_DOUBLE_KICK
+      spatk_ev: 252
+      move: MOVE_MOONBLAST
+      move: MOVE_FROST_BREATH
+      move: MOVE_SCALD
+      move: MOVE_RECOVER
     }
   }
 }
