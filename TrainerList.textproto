@@ -8353,6 +8353,12 @@ trainer {
       move: MOVE_CLOSE_COMBAT
       move: MOVE_WILD_CHARGE
     }
+    inline_skill {
+      name: "Perma Sun"
+      announce_string: "The sun shines brightly."
+      on { entry {} effect { weather { weather: WEATHER_SUN permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_HARVEST }
   }
 }
 trainer {
@@ -9681,6 +9687,7 @@ trainer {
       move: MOVE_SUPER_FANG
       move: MOVE_CALM_MIND
     }
+    inline_skill { extra_ability: ABILITY_RITE_OF_SPRING extra_ability: ABILITY_HARVEST }
   }
 }
 trainer {
@@ -29396,6 +29403,7 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_SCALD
     }
+    inline_skill { extra_ability: ABILITY_HELLBLAZE extra_ability: ABILITY_FLAMING_SOUL }
   }
 }
 trainer {
@@ -29605,6 +29613,21 @@ trainer {
       move: MOVE_GUNK_SHOT
       move: MOVE_DRAGON_CLAW
     }
+    inline_skill {
+      name: "Desolate Land"
+      announce_string: "The sunlight turned\\nextremely harsh!"
+      on {
+        effect {
+          weather {
+            weather: WEATHER_SUN_PRIMAL
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_TAR_TOSS }
   }
 }
 trainer {
@@ -29814,6 +29837,21 @@ trainer {
       move: MOVE_WILD_CHARGE
       move: MOVE_GRASSY_GLIDE
     }
+    inline_skill {
+      name: "Grassy Terrain"
+      announce_string: "A grassy field spreads\\nacross the battlefield!"
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_GRASSY
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_FILTER }
   }
 }
 trainer {
@@ -30023,6 +30061,12 @@ trainer {
       move: MOVE_ICE_BEAM
       move: MOVE_DRAINING_KISS
     }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on { entry {} effect { weather { weather: WEATHER_RAIN permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_WEATHER_DOUBLE_BOOST }
   }
 }
 trainer {
@@ -32177,6 +32221,38 @@ trainer {
       move: MOVE_FLASH_FREEZE
       move: MOVE_SLUDGE_BOMB
       move: MOVE_ICE_BEAM
+    }
+    inline_skill {
+      name: "Omniboost Lead"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +4 omniboost!"
+      on {
+        entry {
+        }
+        effect {
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_DEF
+            stat: STAT_SPATK
+            stat: STAT_SPDEF
+            stat: STAT_SPEED
+            amount: 4
+          }
+        }
+      }
+    }
+    inline_skill {
+      name: "Grassy Terrain"
+      announce_string: "A grassy field spreads\\nacross the battlefield!"
+      on {
+        effect {
+          terrain {
+            terrain: TERRAIN_GRASSY
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
   }
 }
@@ -40207,6 +40283,34 @@ trainer {
       move: MOVE_PSYCHOKINETIC_SLAM
       move: MOVE_FUSION_BOLT
     }
+    inline_skill {
+      name: "Desolate Land"
+      announce_string: "The sunlight turned\\nextremely harsh!"
+      on {
+        effect {
+          weather {
+            weather: WEATHER_SUN_PRIMAL
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Taunt"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ntaunts the opponent!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_TAUNT
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_MOUNTAINEER }
   }
 }
 trainer {
@@ -61036,6 +61140,7 @@ trainer {
       move: MOVE_WHIRLING_STRIKES
       move: MOVE_FAKE_OUT
     }
+    inline_skill { extra_ability: ABILITY_MOLD_BREAKER }
   }
 }
 trainer {
@@ -68649,6 +68754,7 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_FLASH_CANNON
     }
+    inline_skill { extra_ability: ABILITY_MOUNTAINEER extra_ability: ABILITY_EARTH_EATER }
   }
 }
 trainer {
@@ -81515,6 +81621,7 @@ trainer {
       move: MOVE_HIDDEN_POWER
       hidden_power_type: TYPE_ICE
     }
+    inline_skill { extra_ability: ABILITY_SAND_RUSH extra_ability: ABILITY_SAND_BENDER }
   }
 }
 trainer {
@@ -82354,6 +82461,7 @@ trainer {
       move: MOVE_ICE_PUNCH
       move: MOVE_SPARK
     }
+    inline_skill { extra_ability: ABILITY_BIG_LEAVES extra_ability: ABILITY_SUN_BASKING }
   }
 }
 trainer {
@@ -110413,6 +110521,7 @@ trainer {
       move: MOVE_SHIFT_GEAR
       move: MOVE_PSYCHOKINETIC_SLAM
     }
+    inline_skill { extra_ability: ABILITY_EARTH_EATER }
   }
 }
 trainer {
@@ -117968,6 +118077,7 @@ trainer {
       move: MOVE_LEECH_LIFE
       move: MOVE_AVALANCHE
     }
+    inline_skill { extra_ability: ABILITY_ANCIENT_IDOL extra_ability: ABILITY_STAMINA }
   }
 }
 trainer {
@@ -118203,6 +118313,7 @@ trainer {
       move: MOVE_CHLOROBLAST
       move: MOVE_POWER_GEM
     }
+    inline_skill { extra_ability: ABILITY_SAND_GUARD extra_ability: ABILITY_RIPEN }
   }
 }
 trainer {
@@ -118645,6 +118756,7 @@ trainer {
       move: MOVE_SUCKER_PUNCH
       move: MOVE_IRON_HEAD
     }
+    inline_skill { extra_ability: ABILITY_SOLAR_POWER extra_ability: ABILITY_SUNS_BOUNTY }
   }
 }
 trainer {
@@ -118880,6 +118992,21 @@ trainer {
       move: MOVE_STONE_EDGE
       move: MOVE_SHADOW_SNEAK
     }
+    inline_skill {
+      name: "Perma Fog"
+      announce_string: "The fog is deep."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_FOG
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_GREATER_SPIRIT }
   }
 }
 trainer {
