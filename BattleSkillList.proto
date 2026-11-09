@@ -349,6 +349,7 @@ message InlineSkill {
       GRAVITY = 5;
       MUD_SPORT = 6;
       WATER_SPORT = 7;
+      QUASH = 8;
     }
     repeated FieldType type = 1;
     oneof duration {
@@ -377,6 +378,7 @@ message InlineSkill {
       ATTRACT = 11;
       DRENCH = 12;
       GASTRO_ACID = 13;
+      POWER_TRICK = 14;
     }
     Status status = 1;
     // Pokemon on the field go through the usual immunities (type, ability, Safeguard, terrain...) and

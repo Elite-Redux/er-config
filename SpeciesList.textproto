@@ -145,7 +145,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -289,7 +289,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -435,6 +435,7 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_THIEF
@@ -443,8 +444,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -1422,7 +1422,7 @@ species {
     tutor: MOVE_BUG_BITE
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_STRING_SHOT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -1546,7 +1546,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_STRING_SHOT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -1667,6 +1667,7 @@ species {
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_MIRROR_COAT
@@ -1687,8 +1688,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -4055,8 +4055,9 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_X_SCISSOR
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_X_SCISSOR
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -4234,8 +4235,9 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_X_SCISSOR
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_X_SCISSOR
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -5617,8 +5619,10 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COVET
+    tutor: MOVE_CURSE
     tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
@@ -5636,6 +5640,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NATURE_POWER
+    tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
@@ -5650,9 +5655,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_CURSE
-    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -5818,9 +5821,11 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COVET
+    tutor: MOVE_CURSE
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
@@ -5840,6 +5845,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NATURE_POWER
+    tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
@@ -5854,9 +5860,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_CURSE
-    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -6791,6 +6795,7 @@ species {
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GRASSY_TERRAIN
@@ -6811,7 +6816,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -6961,6 +6966,7 @@ species {
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLUTTERING_LEAF
@@ -6983,7 +6989,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -7107,6 +7113,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
@@ -7133,7 +7140,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -7641,15 +7648,18 @@ species {
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_REFLECT
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SUPERSONIC
+    tutor: MOVE_TAILWIND
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
@@ -7657,9 +7667,7 @@ species {
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_REFLECT
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_TAILWIND
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -7818,12 +7826,14 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRACLE_EYE
     tutor: MOVE_POISON_JAB
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_REFLECT
     tutor: MOVE_ROOST
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SLUDGE_BOMB
@@ -7839,8 +7849,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_REFLECT
-    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -8654,6 +8663,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
@@ -8666,7 +8676,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -8844,6 +8854,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
@@ -8861,7 +8872,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -9634,6 +9645,7 @@ species {
     tutor: MOVE_BUBBLE
     tutor: MOVE_DIVE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_MIST
@@ -9643,7 +9655,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -9781,6 +9793,7 @@ species {
     tutor: MOVE_FORCE_PALM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LIFE_DEW
@@ -9794,7 +9807,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -9936,6 +9949,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LIFE_DEW
@@ -9950,7 +9964,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -11058,6 +11072,7 @@ species {
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_INGRAIN
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_LIFE
@@ -11074,7 +11089,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_INGRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -11219,6 +11234,7 @@ species {
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_INGRAIN
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_LIFE
@@ -11236,7 +11252,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_INGRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -11391,6 +11407,7 @@ species {
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_INGRAIN
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_LIFE
@@ -11408,7 +11425,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_INGRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -13754,6 +13771,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LICK
@@ -13770,7 +13788,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -13913,6 +13931,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_IMPALE
     tutor: MOVE_ICY_WIND
     tutor: MOVE_KNOCK_OFF
@@ -13930,7 +13949,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -16047,6 +16066,7 @@ species {
     tutor: MOVE_MAGNET_RISE
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -16054,8 +16074,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -16201,6 +16220,7 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -16208,8 +16228,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -16349,15 +16368,15 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -16511,6 +16530,7 @@ species {
       move: MOVE_PETAL_DANCE
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_CALM_MIND
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_EXTRASENSORY
@@ -16527,16 +16547,15 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_CALM_MIND
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -20659,10 +20678,11 @@ species {
     }
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -20861,6 +20881,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SURF
@@ -20871,7 +20892,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -21010,6 +21031,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
@@ -21021,7 +21043,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -21268,6 +21290,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -21383,6 +21406,7 @@ species {
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_BUBBLE
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
@@ -21391,6 +21415,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_RAIN_DANCE
@@ -21398,14 +21423,11 @@ species {
     tutor: MOVE_SOAK
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SURF
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -21510,6 +21532,7 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CHARM
     tutor: MOVE_ELECTRIC_TERRAIN
@@ -21526,16 +21549,14 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -21642,6 +21663,8 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
+    tutor: MOVE_BULK_UP
     tutor: MOVE_CHARM
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
@@ -21659,13 +21682,10 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -22871,6 +22891,7 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIST
@@ -22890,7 +22911,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -23016,12 +23037,14 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_DRILL_PECK
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_METAL_SOUND
@@ -23036,9 +23059,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DRILL_PECK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -23177,6 +23198,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_PLUCK
     tutor: MOVE_RAIN_DANCE
@@ -23190,8 +23212,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -23318,6 +23339,7 @@ species {
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_JAB
     tutor: MOVE_DRAGON_PULSE
@@ -23340,7 +23362,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -23461,6 +23483,7 @@ species {
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_JAB
     tutor: MOVE_DRAGON_PULSE
@@ -23483,7 +23506,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -23615,6 +23638,7 @@ species {
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_JAB
@@ -23647,7 +23671,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -24128,6 +24152,7 @@ species {
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HEX
     tutor: MOVE_HORN_ATTACK
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -24197,6 +24222,7 @@ species {
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SOAK
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SPIDER_WEB
     tutor: MOVE_SPIKES
     tutor: MOVE_SPITE
@@ -24240,9 +24266,7 @@ species {
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_X_SCISSOR
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -24357,6 +24381,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
     tutor: MOVE_CUT
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
@@ -24376,7 +24401,7 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -24498,6 +24523,7 @@ species {
     tutor: MOVE_CURSE
     tutor: MOVE_CUT
     tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
@@ -24521,7 +24547,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -24645,6 +24671,7 @@ species {
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLORAL_HEALING
     tutor: MOVE_GIGA_IMPACT
@@ -24672,7 +24699,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -28535,6 +28562,7 @@ species {
       move: MOVE_TAIL_GLOW
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COTTON_SPORE
@@ -28555,7 +28583,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -28682,6 +28710,7 @@ species {
       move: MOVE_TAIL_GLOW
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COTTON_SPORE
@@ -28707,7 +28736,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -28832,6 +28861,7 @@ species {
       move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
+    tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COTTON_SPORE
@@ -28863,7 +28893,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -28988,6 +29018,7 @@ species {
     tutor: MOVE_CLEAR_SMOG
     tutor: MOVE_CORROSIVE_GAS
     tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLORAL_HEALING
@@ -29015,7 +29046,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -29655,6 +29686,7 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_LIFE_DEW
@@ -29668,7 +29700,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -29800,6 +29832,7 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
@@ -29829,7 +29862,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -29962,6 +29995,7 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_CLEAR_SKIES
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
@@ -29991,7 +30025,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CLEAR_SKIES
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -30152,6 +30186,7 @@ species {
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RAGE_POWDER
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFLECT
@@ -30164,7 +30199,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -30440,12 +30475,13 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_ROTOTILLER
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -30596,6 +30632,7 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_ROTOTILLER
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPOTLIGHT
@@ -30603,7 +30640,7 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -30721,6 +30758,7 @@ species {
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_FEINT
     tutor: MOVE_FLY
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_PSYCHIC
     tutor: MOVE_RAIN_DANCE
@@ -30730,8 +30768,7 @@ species {
     tutor: MOVE_TAILWIND
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -30942,6 +30979,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_HAZE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_LICK
@@ -30957,9 +30995,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -31089,6 +31125,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_HAZE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
@@ -31106,9 +31143,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -31213,6 +31248,8 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
+    tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
@@ -31236,15 +31273,13 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_CALM_MIND
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -31355,6 +31390,7 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
@@ -31377,14 +31413,13 @@ species {
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THIEF
     tutor: MOVE_TOXIC
     tutor: MOVE_TRICK
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WORK_UP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -37203,6 +37238,7 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_INGRAIN
     tutor: MOVE_IRON_DEFENSE
@@ -37312,7 +37348,7 @@ species {
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_X_SCISSOR
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -38445,14 +38481,14 @@ species {
     tutor: MOVE_REFLECT
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -38594,10 +38630,10 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -38723,6 +38759,8 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
@@ -38736,13 +38774,11 @@ species {
     tutor: MOVE_SOAK
     tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -38857,8 +38893,10 @@ species {
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_COUNTER
+    tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_DRAGON_CHEER
@@ -38886,8 +38924,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_CURSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -39010,8 +39047,10 @@ species {
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_COUNTER
+    tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_DRAGON_CHEER
@@ -39039,8 +39078,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_CURSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -39159,8 +39197,10 @@ species {
     tutor: MOVE_BLIZZARD
     tutor: MOVE_BODY_PRESS
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BULK_UP
     tutor: MOVE_BULLDOZE
     tutor: MOVE_COUNTER
+    tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIG
     tutor: MOVE_DRAGON_CHEER
@@ -39192,8 +39232,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_BULK_UP
-    tutor: MOVE_CURSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -39315,6 +39354,7 @@ species {
       move: MOVE_TELEPORT
       move: MOVE_WATER_SPOUT
     }
+    tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
@@ -39328,8 +39368,10 @@ species {
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FLIP_TURN
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
@@ -39344,8 +39386,10 @@ species {
     tutor: MOVE_ROOST
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SKY_DROP
     tutor: MOVE_SURF
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_TOXIC
@@ -39354,11 +39398,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_TAKE_FLIGHT
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_SKY_DROP
-    tutor: MOVE_AGILITY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -39531,11 +39571,13 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_CRASH
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_PLUCK
     tutor: MOVE_PSYCHIC
@@ -39549,9 +39591,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PIXIE_BEAM
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -39687,6 +39727,7 @@ species {
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
@@ -39700,6 +39741,7 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
@@ -39707,8 +39749,7 @@ species {
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SWORDS_DANCE
-    tutor: MOVE_MOONBLAST
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -40287,6 +40328,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -40450,6 +40492,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -40579,6 +40622,7 @@ species {
     tutor: MOVE_DEFOG
     tutor: MOVE_DIG
     tutor: MOVE_DOUBLE_LARIAT
+    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FEINT
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_PUNCH
@@ -40601,7 +40645,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -42446,6 +42490,7 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LEAF_TORNADO
@@ -42458,11 +42503,10 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SURF
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -42595,6 +42639,7 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICY_WIND
@@ -42610,11 +42655,10 @@ species {
     tutor: MOVE_SOAK
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SURF
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -42756,6 +42800,7 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICY_WIND
@@ -42771,11 +42816,10 @@ species {
     tutor: MOVE_SOAK
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SURF
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -42913,6 +42957,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_NATURE_POWER
   }
   visuals {
     icon {
@@ -43074,6 +43120,7 @@ species {
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_FOUL_PLAY
@@ -43096,7 +43143,8 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_NATURE_POWER
   }
   visuals {
     icon {
@@ -43256,6 +43304,7 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
+    tutor: MOVE_CHEAP_STAB
     tutor: MOVE_COUNTER
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DARK_PULSE
@@ -43292,7 +43341,8 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CHEAP_STAB
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_NATURE_POWER
   }
   visuals {
     icon {
@@ -43729,6 +43779,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_PLUCK
@@ -43745,7 +43796,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -43875,6 +43926,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_PLUCK
@@ -43891,7 +43943,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -44493,6 +44545,7 @@ species {
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_FLASH
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LEECH_LIFE
@@ -44505,8 +44558,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -44655,6 +44707,8 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
@@ -44672,9 +44726,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -46986,6 +47038,7 @@ species {
     tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_GEM
     tutor: MOVE_REFLECT
+    tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -47001,8 +47054,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_REFRESH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -49565,6 +49617,7 @@ species {
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIFE_DEW
     tutor: MOVE_POISON_JAB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
@@ -49576,7 +49629,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -50652,6 +50705,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -50817,6 +50871,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -51603,6 +51658,7 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
@@ -51610,7 +51666,7 @@ species {
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_SANDSTORM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -51772,6 +51828,7 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROOST
     tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPIKES
@@ -51784,7 +51841,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_SANDSTORM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -51952,6 +52009,7 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_ROOST
     tutor: MOVE_ROTOTILLER
+    tutor: MOVE_SANDSTORM
     tutor: MOVE_SAND_TOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPIKES
@@ -51964,7 +52022,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_SANDSTORM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -52102,6 +52160,7 @@ species {
     tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_INGRAIN
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEECH_SEED
@@ -52122,7 +52181,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -52288,6 +52347,7 @@ species {
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
@@ -52311,7 +52371,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -53131,6 +53191,7 @@ species {
     }
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_EARTHQUAKE
@@ -53160,7 +53221,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -53321,6 +53382,7 @@ species {
       move: MOVE_LUSTER_GLOW
     }
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COUNTER
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
@@ -53352,7 +53414,7 @@ species {
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -53534,8 +53596,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -53735,8 +53796,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -55206,7 +55266,7 @@ species {
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -55363,6 +55423,7 @@ species {
     tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HAZE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_LIFE_DEW
@@ -55370,6 +55431,7 @@ species {
     tutor: MOVE_MIST
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_REFLECT
     tutor: MOVE_SURF
@@ -55377,9 +55439,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -55513,6 +55573,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_NIGHT_SHADE
@@ -55533,7 +55594,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -56707,12 +56768,13 @@ species {
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -56900,6 +56962,8 @@ species {
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAILWIND
@@ -56911,8 +56975,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -57508,6 +57571,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_MIST
@@ -57519,7 +57583,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -57685,6 +57749,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_MIST
@@ -57696,7 +57761,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -57841,6 +57906,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_MIST
@@ -57852,7 +57918,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -59615,6 +59681,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -59775,6 +59842,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_LASER_FOCUS
@@ -59793,7 +59861,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -60498,7 +60566,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -60673,7 +60741,7 @@ species {
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -61385,6 +61453,7 @@ species {
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_LEECH_SEED
@@ -61402,7 +61471,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -61530,6 +61599,7 @@ species {
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_IRON_HEAD
@@ -61548,7 +61618,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -61688,6 +61758,7 @@ species {
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HARD_PRESS
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_HYPER_BEAM
@@ -61709,7 +61780,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_HARD_PRESS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -61841,11 +61912,12 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TORMENT
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -62000,12 +62072,13 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_TORMENT
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -62157,12 +62230,13 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_TORMENT
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -62281,6 +62355,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIQUIDATION
@@ -62294,7 +62369,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -62418,6 +62493,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_LIFE_DEW
@@ -62434,7 +62510,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -62592,6 +62668,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
@@ -62611,7 +62688,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -63458,10 +63535,10 @@ species {
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUPERSONIC
+    tutor: MOVE_TAUNT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_TAUNT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -63653,11 +63730,11 @@ species {
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TAUNT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_TAUNT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -64238,6 +64315,7 @@ species {
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIFE_DEW
     tutor: MOVE_POISON_JAB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
@@ -64249,7 +64327,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -64388,6 +64466,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIFE_DEW
     tutor: MOVE_POISON_JAB
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
@@ -64401,7 +64480,7 @@ species {
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -65025,6 +65104,7 @@ species {
     tutor: MOVE_BUG_BITE
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -65147,6 +65227,7 @@ species {
       move: MOVE_SILK_TRAP
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_CREEPING_THORNS
@@ -65168,9 +65249,9 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_WORRY_SEED
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -65326,6 +65407,7 @@ species {
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -66261,10 +66343,10 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -66433,15 +66515,15 @@ species {
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SPIKES
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -67048,17 +67130,18 @@ species {
     tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_SKY_DROP
     tutor: MOVE_SPITE
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_TOXIC
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -67215,17 +67298,18 @@ species {
     tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_SKY_DROP
     tutor: MOVE_SPITE
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_TOXIC
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -68273,6 +68357,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -68719,10 +68804,11 @@ species {
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TRICK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -68903,11 +68989,12 @@ species {
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TRICK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -70724,8 +70811,9 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -70860,8 +70948,9 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -72280,6 +72369,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
@@ -72296,7 +72386,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -72442,6 +72532,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
@@ -72458,7 +72549,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -73793,6 +73884,7 @@ species {
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_FEINT
     tutor: MOVE_FLY
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LASER_FOCUS
     tutor: MOVE_LEECH_LIFE
@@ -73806,8 +73898,7 @@ species {
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -74009,6 +74100,7 @@ species {
     tutor: MOVE_AGILITY
     tutor: MOVE_AROMATHERAPY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_CHARM
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FACADE
@@ -74025,15 +74117,13 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WORK_UP
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -74152,6 +74242,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_NASTY_PLOT
@@ -74161,7 +74252,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -74914,6 +75005,7 @@ species {
     tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_GEM
     tutor: MOVE_REFLECT
+    tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
@@ -74929,8 +75021,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_REFRESH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -76419,8 +76510,9 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TECTONIC_FANGS
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -76862,6 +76954,7 @@ species {
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_MIST
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_TERRAIN
@@ -76877,8 +76970,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -77022,6 +77114,7 @@ species {
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_LIQUIDATION
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_RAIN_DANCE
@@ -77034,7 +77127,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -77160,6 +77253,8 @@ species {
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
@@ -77178,9 +77273,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -77449,9 +77542,11 @@ species {
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLORAL_HEALING
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HURRICANE
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_NASTY_PLOT
@@ -77470,8 +77565,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -77719,6 +77813,7 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_INGRAIN
     tutor: MOVE_IRON_DEFENSE
@@ -77828,7 +77923,7 @@ species {
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_X_SCISSOR
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78129,11 +78224,12 @@ species {
     tutor: MOVE_REFLECT
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78271,11 +78367,12 @@ species {
     tutor: MOVE_REFLECT
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78434,11 +78531,12 @@ species {
     tutor: MOVE_REFLECT
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SOLAR_BLADE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78591,13 +78689,14 @@ species {
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78745,13 +78844,14 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -78894,13 +78994,14 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAKE_DOWN
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_TAKE_DOWN
-    tutor: MOVE_SEISMIC_TOSS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -79093,6 +79194,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
@@ -79102,7 +79204,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -79245,6 +79347,7 @@ species {
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
@@ -79256,7 +79359,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -79400,6 +79503,7 @@ species {
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LASER_FOCUS
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
@@ -79412,7 +79516,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -79849,6 +79953,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -79989,6 +80094,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_COVET
     tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FACADE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_VOICE
@@ -79998,12 +80104,12 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -80134,6 +80240,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_COVET
     tutor: MOVE_DIG
+    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FACADE
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
@@ -80145,12 +80252,12 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SAFE_PASSAGE
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_STONE_EDGE
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORK_UP
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_STONE_EDGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -82446,6 +82553,7 @@ species {
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_FLASH
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_GEM
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -82460,8 +82568,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -82580,6 +82687,7 @@ species {
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_FLASH
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_GEM
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -82594,8 +82702,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -82725,6 +82832,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_POWER_GEM
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
@@ -82739,8 +82847,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -86057,7 +86164,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -86207,6 +86314,7 @@ species {
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_REFLECT
@@ -86217,8 +86325,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -86337,6 +86444,7 @@ species {
     tutor: MOVE_AGILITY
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_BITE
+    tutor: MOVE_BRAVADO
     tutor: MOVE_DIVE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
@@ -86351,7 +86459,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -86938,13 +87046,13 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -87100,6 +87208,7 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_ONE_INCH_PUNCH
     tutor: MOVE_POWER_GEM
     tutor: MOVE_POWER_UP_PUNCH
     tutor: MOVE_PSYBEAM
@@ -87112,6 +87221,7 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_U_TURN
@@ -87119,9 +87229,7 @@ species {
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORK_UP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_ONE_INCH_PUNCH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -89974,6 +90082,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
@@ -90002,9 +90111,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_VEXING_VOID
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -90139,6 +90248,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
@@ -90168,9 +90278,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_VEXING_VOID
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -90321,6 +90431,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
@@ -90353,9 +90464,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_VEXING_VOID
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -90489,8 +90600,9 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -90631,8 +90743,9 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -90786,8 +90899,9 @@ species {
     tutor: MOVE_THUNDER_PUNCH
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_ZEN_HEADBUTT
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -91217,6 +91331,7 @@ species {
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
@@ -91229,7 +91344,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -91362,6 +91477,7 @@ species {
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
@@ -91375,7 +91491,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -91499,6 +91615,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
@@ -91513,7 +91630,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -91624,24 +91741,25 @@ species {
     tutor: MOVE_BERSERKER_HORN
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
     tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HAIL
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_HAIL
-    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -91769,17 +91887,20 @@ species {
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CHARM
     tutor: MOVE_DRILL_RUN
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
     tutor: MOVE_FEINT
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_HAIL
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HORN_ATTACK
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RETALIATE
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SEED_BOMB
@@ -91788,9 +91909,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_HAIL
-    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -96074,6 +96193,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
@@ -96087,7 +96207,7 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -97863,6 +97983,7 @@ species {
     tutor: MOVE_FLY
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_PLUCK
     tutor: MOVE_RETALIATE
@@ -97874,8 +97995,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -99196,7 +99316,7 @@ species {
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -99362,6 +99482,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_RAGE_POWDER
@@ -99374,8 +99495,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -99959,6 +100079,7 @@ species {
     tutor: MOVE_FLY
     tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LASER_FOCUS
@@ -99975,8 +100096,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -100208,6 +100328,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -100429,7 +100550,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -100566,7 +100687,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -100713,6 +100834,7 @@ species {
     tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -100935,6 +101057,7 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
     tutor: MOVE_POWDER_SNOW
@@ -100944,7 +101067,7 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -101992,6 +102115,7 @@ species {
       move: MOVE_SWIFT
     }
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
@@ -102014,7 +102138,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -102141,6 +102265,7 @@ species {
       move: MOVE_SWIFT
     }
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_EERIE_SPELL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
@@ -102167,7 +102292,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -102283,6 +102408,7 @@ species {
       move: MOVE_TRUMP_CARD
     }
     tutor: MOVE_CALM_MIND
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_EERIE_SPELL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
@@ -102314,7 +102440,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -102410,6 +102536,7 @@ species {
     tutor: MOVE_DIVE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
@@ -102424,7 +102551,8 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_SURF
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -102559,6 +102687,7 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
@@ -102579,7 +102708,8 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_THIEF
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -102692,6 +102822,7 @@ species {
     tutor: MOVE_BUBBLE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIVE
+    tutor: MOVE_EERIE_FOG
     tutor: MOVE_FEINT
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
@@ -102720,7 +102851,8 @@ species {
     tutor: MOVE_THIEF
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -103586,7 +103718,7 @@ species {
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_STRING_SHOT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -103697,7 +103829,7 @@ species {
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_STRING_SHOT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -103826,6 +103958,7 @@ species {
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_LIGHT_SCREEN
@@ -103835,12 +103968,11 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TAKE_FLIGHT
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -107928,6 +108060,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -108078,6 +108211,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -108479,6 +108613,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRROR_COAT
@@ -108498,7 +108633,7 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -108632,6 +108767,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIRROR_COAT
@@ -108651,7 +108787,7 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -108752,6 +108888,7 @@ species {
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_BITE
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_DAZZLING_GLEAM
@@ -108763,17 +108900,15 @@ species {
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWEET_KISS
-    tutor: MOVE_WORK_UP
     tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_BITE
-    tutor: MOVE_SNORE
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -109369,6 +109504,7 @@ species {
       move: MOVE_DRAGON_DANCE
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_ACID_ARMOR
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BRAVADO
     tutor: MOVE_BUBBLE
@@ -109380,15 +109516,14 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
     tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SURF
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_ACID_ARMOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -109507,6 +109642,7 @@ species {
       move: MOVE_MYSTIC_DANCE
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_ACID_ARMOR
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BRAVADO
     tutor: MOVE_BREAKING_SWIPE
@@ -109520,6 +109656,7 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FACADE
     tutor: MOVE_GASTRO_ACID
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_JAB
@@ -109530,9 +109667,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_ACID_ARMOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -109655,6 +109790,7 @@ species {
       move: MOVE_RECOVER
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BRAVADO
@@ -109672,6 +109808,7 @@ species {
     tutor: MOVE_FACADE
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -109686,9 +109823,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_ACID_ARMOR
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -110293,11 +110428,12 @@ species {
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_TAUNT
     tutor: MOVE_TRICK
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -110451,11 +110587,12 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_TAUNT
     tutor: MOVE_TRICK
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -111218,6 +111355,7 @@ species {
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYCHIC
@@ -111228,13 +111366,12 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_SKILL_SWAP
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWEET_KISS
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -111364,6 +111501,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_CRUSH_CLAW
     tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DISABLE
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FOCUS_BLAST
@@ -111401,8 +111539,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -111706,10 +111843,11 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -112023,6 +112161,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_CRASH
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_RAIN_DANCE
@@ -112032,8 +112171,7 @@ species {
     tutor: MOVE_THUNDER
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -117322,13 +117460,13 @@ species {
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TOXIC
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -117815,6 +117953,7 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -117943,6 +118082,7 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -118143,6 +118283,7 @@ species {
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -118267,6 +118408,7 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEECH_LIFE
@@ -118299,7 +118441,7 @@ species {
     tutor: MOVE_WORK_UP
     tutor: MOVE_X_SCISSOR
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_ICICLE_CRASH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -119210,12 +119352,13 @@ species {
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -119822,10 +119965,12 @@ species {
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
+    tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MOONBLAST
@@ -119840,12 +119985,10 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_WHIRLWIND
-    tutor: MOVE_DISCHARGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -120001,7 +120144,7 @@ species {
     tutor: MOVE_SPIDER_WEB
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -120134,12 +120277,12 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SEISMIC_TOSS
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAKE_DOWN
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -120266,6 +120409,8 @@ species {
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_LIFE_DEW
@@ -120284,8 +120429,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -120370,7 +120514,8 @@ species {
     }
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -120455,7 +120600,8 @@ species {
     tutor: MOVE_HEAVY_SLAM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -120613,7 +120759,8 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_METRONOME
+    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_WEATHER_BALL
   }
   visuals {
     icon {
@@ -120741,6 +120888,7 @@ species {
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
+    tutor: MOVE_DISABLE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_EXTRASENSORY
@@ -120760,6 +120908,7 @@ species {
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SHADE
     tutor: MOVE_NIGHT_SLASH
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_PSYCHIC_TERRAIN
@@ -120770,9 +120919,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DISABLE
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -125242,10 +125389,13 @@ species {
       level: 46
       move: MOVE_ECHOED_VOICE
     }
+    tutor: MOVE_ABSORB
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_CHARM
     tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_LEAF_TORNADO
@@ -125260,11 +125410,9 @@ species {
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CHARM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ABSORB
-    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -125369,10 +125517,13 @@ species {
       level: 56
       move: MOVE_LEAF_STORM
     }
+    tutor: MOVE_ABSORB
     tutor: MOVE_AROMATHERAPY
+    tutor: MOVE_CHARM
     tutor: MOVE_COTTON_SPORE
     tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
@@ -125389,11 +125540,9 @@ species {
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_WORRY_SEED
-    tutor: MOVE_CHARM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ABSORB
-    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -126190,6 +126339,7 @@ species {
       level: 46
       move: MOVE_OVERHEAT
     }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
@@ -126202,11 +126352,11 @@ species {
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -126312,6 +126462,7 @@ species {
       level: 56
       move: MOVE_MAGMA_STORM
     }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_WAVE
@@ -126329,11 +126480,11 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -126436,6 +126587,7 @@ species {
       move: MOVE_MAGMA_STORM
       move: MOVE_STEAM_ERUPTION
     }
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_WAVE
@@ -126458,11 +126610,11 @@ species {
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -126565,6 +126717,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_TOXIC
     tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -126831,8 +126984,9 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TOXIC
-    tutor: MOVE_WORK_UP
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -128510,6 +128664,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -128643,6 +128798,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -128779,6 +128935,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -129470,6 +129627,7 @@ species {
     tutor: MOVE_COUNTER
     tutor: MOVE_CURSE
     tutor: MOVE_DISABLE
+    tutor: MOVE_EARTHQUAKE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_ENERGY_WAVE
@@ -129500,7 +129658,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -130501,8 +130659,9 @@ species {
     }
     tutor: MOVE_BUG_BITE
     tutor: MOVE_HAIL
-    tutor: MOVE_ICY_WIND
     tutor: MOVE_ICE_WALL
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -130617,6 +130776,7 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
@@ -130630,7 +130790,7 @@ species {
     tutor: MOVE_TAILWIND
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -130877,6 +131037,7 @@ species {
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_DEFENSE
@@ -130892,7 +131053,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -131503,28 +131664,29 @@ species {
     }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_CURSE
     tutor: MOVE_DISCHARGE
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ELECTROWEB
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_PLUCK
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SPITE
+    tutor: MOVE_STEALTH_ROCK
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_SPITE
-    tutor: MOVE_CURSE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_ELECTROWEB
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_PLUCK
-    tutor: MOVE_SANDSTORM
+    tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -131632,6 +131794,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
@@ -131646,7 +131809,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -131754,6 +131917,7 @@ species {
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_SANDSTORM
     tutor: MOVE_SPITE
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SURF
@@ -131761,7 +131925,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_SANDSTORM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -133237,6 +133401,8 @@ species {
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_ENERGY_WAVE
@@ -133246,6 +133412,7 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_INGRAIN
     tutor: MOVE_IRON_HEAD
+    tutor: MOVE_MAGNET_RISE
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_THUNDER
@@ -133255,9 +133422,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_DISCHARGE
-    tutor: MOVE_CHARGE_BEAM
-    tutor: MOVE_MAGNET_RISE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -134192,6 +134357,7 @@ species {
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_BITE
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BRAVADO
     tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIVE
@@ -134220,7 +134386,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -138255,6 +138421,7 @@ species {
     tutor: MOVE_BUBBLE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_LIQUIDATION
@@ -138266,7 +138433,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -138368,6 +138535,7 @@ species {
     tutor: MOVE_BUBBLE
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_GIGA_IMPACT
@@ -138384,7 +138552,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
-    tutor: MOVE_EARTH_POWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -138483,6 +138651,7 @@ species {
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_PLUCK
     tutor: MOVE_RAIN_DANCE
@@ -138496,7 +138665,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -138601,6 +138770,7 @@ species {
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_PLUCK
@@ -138615,7 +138785,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -140040,6 +140210,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -140171,6 +140342,7 @@ species {
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -141147,6 +141319,7 @@ species {
     tutor: MOVE_FEINT
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_LIFE_DEW
@@ -141160,7 +141333,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -141276,6 +141449,7 @@ species {
     tutor: MOVE_FOCUS_PUNCH
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
@@ -141293,7 +141467,7 @@ species {
     tutor: MOVE_TEARFUL_LOOK
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -144329,6 +144503,7 @@ species {
       move: MOVE_ELECTRO_SHOT
       move: MOVE_TRANSMUTE
     }
+    tutor: MOVE_CALTROPS
     tutor: MOVE_DISCHARGE
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ELECTRIC_TERRAIN
@@ -144355,6 +144530,7 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SUPERSONIC
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -144362,8 +144538,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_CALTROPS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -144611,6 +144786,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_MAGNET_RISE
@@ -144622,7 +144798,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -145809,6 +145985,7 @@ species {
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEX
     tutor: MOVE_HYPER_BEAM
@@ -145833,7 +146010,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -145975,6 +146152,7 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_THIEF
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -146879,8 +147057,9 @@ species {
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SURF
-    tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -148345,6 +148524,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -148709,6 +148889,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -150114,6 +150295,7 @@ species {
     tutor: MOVE_ELECTROWEB
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_FLASH
     tutor: MOVE_GIGA_IMPACT
@@ -150133,7 +150315,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -150906,13 +151088,14 @@ species {
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SPITE
     tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_TAKE_FLIGHT
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -151368,11 +151551,12 @@ species {
     tutor: MOVE_ABSORB
     tutor: MOVE_ENERGY_BALL
     tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEADBUTT
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -151475,6 +151659,7 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HURRICANE
@@ -151485,7 +151670,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -151586,6 +151771,7 @@ species {
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLUTTERING_LEAF
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
@@ -151598,7 +151784,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -151703,6 +151889,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LICK
     tutor: MOVE_NIGHT_SLASH
@@ -151714,7 +151901,7 @@ species {
     tutor: MOVE_TECTONIC_FANGS
     tutor: MOVE_THIEF
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -153078,11 +153265,12 @@ species {
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_TAUNT
     tutor: MOVE_TRICK
-    tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -153295,6 +153483,7 @@ species {
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POWDER_SNOW
@@ -153307,7 +153496,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -153804,8 +153993,9 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TOXIC
-    tutor: MOVE_WORK_UP
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -154763,6 +154953,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_LIQUIDATION
@@ -154779,7 +154970,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -155681,6 +155872,7 @@ species {
     tutor: MOVE_VEXING_VOID
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -157637,6 +157829,7 @@ species {
     tutor: MOVE_BULLDOZE
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
     tutor: MOVE_DEFOG
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_EERIE_FOG
@@ -157655,9 +157848,9 @@ species {
     tutor: MOVE_TAUNT
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_DARK_PULSE
     tutor: MOVE_VEXING_VOID
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -162835,6 +163028,7 @@ species {
     tutor: MOVE_HEAL_BLOCK
     tutor: MOVE_HEX
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_MIST
@@ -162852,7 +163046,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -162974,6 +163168,7 @@ species {
     tutor: MOVE_HEX
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_MIST
@@ -162991,7 +163186,7 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -164195,15 +164390,15 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_METRONOME
-    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -165888,6 +166083,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -169799,6 +169995,7 @@ species {
       move: MOVE_SILK_TRAP
     }
     tutor: MOVE_BLOOD_SHOT
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_BULLDOZE
@@ -169826,7 +170023,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TOXIC
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_BODY_PRESS
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -169930,6 +170127,7 @@ species {
     tutor: MOVE_IRON_HEAD
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POISON_JAB
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC
@@ -169943,7 +170141,7 @@ species {
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -178271,10 +178469,11 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
+    tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -178386,10 +178585,11 @@ species {
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_TORMENT
+    tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILD_CHARGE
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_VOLT_SWITCH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -178722,6 +178922,7 @@ species {
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_KARATE_CHOP
     tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIQUIDATION
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_PURSUIT
     tutor: MOVE_RAIN_DANCE
@@ -178734,7 +178935,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -178842,14 +179043,15 @@ species {
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_REFLECT
+    tutor: MOVE_ROLLING_KICK
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_ROLLING_KICK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -178969,6 +179171,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -179513,6 +179716,7 @@ species {
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_COPYCAT
@@ -179535,8 +179739,8 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_U_TURN
-    tutor: MOVE_BLIZZARD
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -179631,6 +179835,7 @@ species {
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BITE
     tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BLIZZARD
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_COPYCAT
@@ -179658,8 +179863,8 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_U_TURN
-    tutor: MOVE_BLIZZARD
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -180128,12 +180333,12 @@ species {
     tutor: MOVE_NIGHT_SLASH
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SWORDS_DANCE
+    tutor: MOVE_TERRAIN_PULSE
+    tutor: MOVE_VACUUM_WAVE
     tutor: MOVE_VEXING_VOID
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_SNORE
-    tutor: MOVE_VACUUM_WAVE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -181137,6 +181342,7 @@ species {
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_BITE
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BRAVADO
     tutor: MOVE_CURSE
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DIVE
@@ -181165,7 +181371,7 @@ species {
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_TAUNT
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_BRAVADO
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -190090,6 +190296,7 @@ species {
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
+    tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
@@ -190122,9 +190329,9 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_VEXING_VOID
-    tutor: MOVE_CONFUSE_RAY
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -190944,12 +191151,14 @@ species {
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARGE_BEAM
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_DRILL_PECK
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_METAL_SOUND
@@ -190964,9 +191173,7 @@ species {
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_METRONOME
-    tutor: MOVE_DRILL_PECK
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -191063,6 +191270,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
@@ -191079,13 +191287,12 @@ species {
     tutor: MOVE_SKY_DROP
     tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_VACUUM_WAVE
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_VACUUM_WAVE
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -191185,6 +191392,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_PLUCK
     tutor: MOVE_RAIN_DANCE
@@ -191198,8 +191406,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_METRONOME
-    tutor: MOVE_HURRICANE
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -193650,34 +193857,35 @@ species {
       level: 46
       move: MOVE_FLARE_BLITZ
     }
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_HAIL
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BULK_UP
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIST
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_REFRESH
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_MIST
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -193778,34 +193986,35 @@ species {
       move: MOVE_SWALLOW
       move: MOVE_SPIT_UP
     }
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_HAIL
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BULK_UP
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_HAIL
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIST
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_REFRESH
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_MIST
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -193901,36 +194110,37 @@ species {
       level: 61
       move: MOVE_SHELL_SMASH
     }
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FIRE_BLAST
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_ICY_WIND
-    tutor: MOVE_HAIL
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BULK_UP
+    tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FACADE
+    tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HAIL
+    tutor: MOVE_HEADBUTT
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICY_WIND
+    tutor: MOVE_MIST
+    tutor: MOVE_POWDER_SNOW
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFRESH
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_ENERGY_WAVE
-    tutor: MOVE_HEADBUTT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_BRAVADO
-    tutor: MOVE_FACADE
-    tutor: MOVE_REFRESH
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_FLASH_FREEZE
-    tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_MIST
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -197026,9 +197236,10 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFRESH
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -197150,9 +197361,10 @@ species {
     tutor: MOVE_PSYSHOCK
     tutor: MOVE_REFRESH
     tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -197313,6 +197525,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -197432,6 +197645,7 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -197546,6 +197760,7 @@ species {
       move: MOVE_ELECTRIFY
     }
     tutor: MOVE_ABSORB
+    tutor: MOVE_AQUA_RING
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ELECTROWEB
@@ -197555,6 +197770,7 @@ species {
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEAF_TORNADO
     tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_POISON_JAB
     tutor: MOVE_POISON_TAIL
@@ -197570,8 +197786,7 @@ species {
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_AQUA_RING
-    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -198553,23 +198768,24 @@ species {
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_DEFOG
-    tutor: MOVE_SANDSTORM
-    tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HURRICANE
-    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ROOST
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_SOLAR_BEAM
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ROOST
     tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -198653,26 +198869,27 @@ species {
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_DEFOG
-    tutor: MOVE_SANDSTORM
-    tutor: MOVE_SUNNY_DAY
-    tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_EARTH_POWER
     tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HURRICANE
-    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_ROOST
+    tutor: MOVE_SANDSTORM
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_SOLAR_BEAM
+    tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TAILWIND
     tutor: MOVE_TAKE_FLIGHT
-    tutor: MOVE_SKY_DROP
+    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
-    tutor: MOVE_WING_ATTACK
-    tutor: MOVE_FLAME_CHARGE
-    tutor: MOVE_FIRE_SPIN
-    tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_EARTH_POWER
-    tutor: MOVE_ROOST
+    tutor: MOVE_WING_ATTACK
     tutor: MOVE_WORK_UP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -198793,6 +199010,8 @@ species {
     tutor: MOVE_SPIKES
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -198920,6 +199139,8 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199036,6 +199257,8 @@ species {
     tutor: MOVE_DIG
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HYDRO_PUMP
@@ -199052,8 +199275,8 @@ species {
     tutor: MOVE_TOXIC
     tutor: MOVE_TOXIC_SPIKES
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FLAME_CHARGE
+    tutor: MOVE_SUNNY_DAY
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199184,6 +199407,7 @@ species {
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199288,15 +199512,14 @@ species {
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BRAVADO
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BUBBLE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
@@ -199304,31 +199527,25 @@ species {
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
-    tutor: MOVE_HIDDEN_POWER
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_IMPALE
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_METRONOME
     tutor: MOVE_MIST
     tutor: MOVE_POISON_JAB
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_SECRET_POWER
-    tutor: MOVE_SLEEP_TALK
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SURF
     tutor: MOVE_TOXIC
-    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199436,15 +199653,14 @@ species {
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BRAVADO
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BUBBLE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
@@ -199452,31 +199668,25 @@ species {
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
-    tutor: MOVE_HIDDEN_POWER
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_IMPALE
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_METRONOME
     tutor: MOVE_MIST
     tutor: MOVE_POISON_JAB
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_SECRET_POWER
-    tutor: MOVE_SLEEP_TALK
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SURF
     tutor: MOVE_TOXIC
-    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199588,15 +199798,14 @@ species {
     tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BRAVADO
     tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BUBBLE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAGON_CHEER
     tutor: MOVE_DRAGON_CLAW
     tutor: MOVE_DRAGON_PULSE
     tutor: MOVE_DRAGON_TAIL
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLIP_TURN
@@ -199604,31 +199813,25 @@ species {
     tutor: MOVE_GUNK_SHOT
     tutor: MOVE_HAIL
     tutor: MOVE_HAZE
-    tutor: MOVE_HIDDEN_POWER
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_IMPALE
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_METRONOME
     tutor: MOVE_MIST
     tutor: MOVE_POISON_JAB
-    tutor: MOVE_PROTECT
     tutor: MOVE_RAIN_DANCE
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_SECRET_POWER
-    tutor: MOVE_SLEEP_TALK
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SURF
     tutor: MOVE_TOXIC
-    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TOXIC_SPIKES
+    tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_VENOM_DRENCH
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199686,6 +199889,7 @@ species {
     }
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_PSYBEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199789,39 +199993,40 @@ species {
       move: MOVE_RAIN_FLUSH
     }
     tutor: MOVE_AGILITY
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_REFLECT
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLASH
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_ICE_BEAM
-    tutor: MOVE_EXTRASENSORY
-    tutor: MOVE_PSYSHOCK
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC_TERRAIN
-    tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFLECT
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_EERIE_FOG
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_ELECTRIC_TERRAIN
-    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -199924,40 +200129,41 @@ species {
       move: MOVE_GEAR_UP
     }
     tutor: MOVE_AGILITY
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_REFLECT
-    tutor: MOVE_TRICK
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLASH
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_ICE_BEAM
-    tutor: MOVE_EXTRASENSORY
-    tutor: MOVE_PSYSHOCK
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC_TERRAIN
-    tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFLECT
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_EERIE_FOG
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_ELECTRIC_TERRAIN
-    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200063,40 +200269,41 @@ species {
       move: MOVE_GEAR_UP
     }
     tutor: MOVE_AGILITY
-    tutor: MOVE_BODY_PRESS
-    tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_REFLECT
-    tutor: MOVE_TRICK
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BODY_PRESS
     tutor: MOVE_DISCHARGE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_EXTRASENSORY
     tutor: MOVE_FLASH
     tutor: MOVE_FLASH_CANNON
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
     tutor: MOVE_ICE_BEAM
-    tutor: MOVE_EXTRASENSORY
-    tutor: MOVE_PSYSHOCK
     tutor: MOVE_ICE_PUNCH
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_IRON_DEFENSE
+    tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIRROR_COAT
     tutor: MOVE_PSYBEAM
     tutor: MOVE_PSYCHIC_TERRAIN
-    tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_REFLECT
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_EERIE_FOG
     tutor: MOVE_THUNDER
     tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_WEATHER_BALL
     tutor: MOVE_THUNDER_WAVE
-    tutor: MOVE_RAPID_SPIN
-    tutor: MOVE_ELECTRIC_TERRAIN
-    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_TRICK
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200187,7 +200394,6 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ATTRACT
     tutor: MOVE_BRAVADO
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CONFUSE_RAY
@@ -200205,11 +200411,10 @@ species {
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAL_BLOCK
-    tutor: MOVE_HELPING_HAND
-    tutor: MOVE_HEX
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HEX
     tutor: MOVE_HURRICANE
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRROR_COAT
@@ -200218,7 +200423,6 @@ species {
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_REFLECT
-    tutor: MOVE_RETURN
     tutor: MOVE_ROOST
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SHADOW_BALL
@@ -200229,8 +200433,9 @@ species {
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200342,7 +200547,6 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ATTRACT
     tutor: MOVE_BRAVADO
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CONFUSE_RAY
@@ -200360,11 +200564,10 @@ species {
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAL_BLOCK
-    tutor: MOVE_HELPING_HAND
-    tutor: MOVE_HEX
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HEX
     tutor: MOVE_HURRICANE
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRROR_COAT
@@ -200373,7 +200576,6 @@ species {
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_REFLECT
-    tutor: MOVE_RETURN
     tutor: MOVE_ROOST
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SHADOW_BALL
@@ -200384,8 +200586,9 @@ species {
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200509,7 +200712,6 @@ species {
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
-    tutor: MOVE_ATTRACT
     tutor: MOVE_BRAVADO
     tutor: MOVE_CALM_MIND
     tutor: MOVE_CONFUSE_RAY
@@ -200527,11 +200729,10 @@ species {
     tutor: MOVE_GASTRO_ACID
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAL_BLOCK
-    tutor: MOVE_HELPING_HAND
-    tutor: MOVE_HEX
     tutor: MOVE_HEAT_WAVE
-    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_HEX
     tutor: MOVE_HURRICANE
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_LIGHT_SCREEN
     tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRROR_COAT
@@ -200540,7 +200741,6 @@ species {
     tutor: MOVE_PSYCHIC
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_REFLECT
-    tutor: MOVE_RETURN
     tutor: MOVE_ROOST
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SHADOW_BALL
@@ -200551,8 +200751,9 @@ species {
     tutor: MOVE_TOXIC_TERRAIN
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200667,42 +200868,43 @@ species {
       level: 56
       move: MOVE_MEMENTO
     }
-    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
     tutor: MOVE_CHARM
     tutor: MOVE_CURSE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
-    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HAZE
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_POWDER_SNOW
     tutor: MOVE_POWER_GEM
-    tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_SOAK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SAFE_PASSAGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFRESH
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOAK
     tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200816,42 +201018,43 @@ species {
       move: MOVE_PERISH_SONG
       move: MOVE_MEMENTO
     }
-    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
     tutor: MOVE_CHARM
     tutor: MOVE_CURSE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
-    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HAZE
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_POWDER_SNOW
     tutor: MOVE_POWER_GEM
-    tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_SOAK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SAFE_PASSAGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFRESH
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOAK
     tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -200965,42 +201168,43 @@ species {
       move: MOVE_DESTINY_BOND
       move: MOVE_KARMA
     }
-    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AQUA_RING
+    tutor: MOVE_AQUA_TAIL
     tutor: MOVE_AURORA_BEAM
-    tutor: MOVE_BUBBLE
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLIZZARD
+    tutor: MOVE_BUBBLE
     tutor: MOVE_CHARM
     tutor: MOVE_CURSE
     tutor: MOVE_DIVE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FLASH_FREEZE
+    tutor: MOVE_FLIP_TURN
     tutor: MOVE_HAIL
     tutor: MOVE_HARD_PRESS
-    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HAZE
-    tutor: MOVE_FLIP_TURN
-    tutor: MOVE_LIQUIDATION
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
-    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_ICY_WIND
-    tutor: MOVE_POWDER_SNOW
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_LIFE_DEW
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_POWDER_SNOW
     tutor: MOVE_POWER_GEM
-    tutor: MOVE_ROCK_TOMB
-    tutor: MOVE_SOAK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_SAFE_PASSAGE
-    tutor: MOVE_WIDE_GUARD
-    tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_REFRESH
+    tutor: MOVE_ROCK_TOMB
+    tutor: MOVE_SAFE_PASSAGE
+    tutor: MOVE_SOAK
     tutor: MOVE_TEARFUL_LOOK
+    tutor: MOVE_WATER_PULSE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLPOOL
+    tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -201133,13 +201337,13 @@ species {
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
-    tutor: MOVE_BRAVADO
     tutor: MOVE_CHARM
-    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTROWEB
@@ -201149,12 +201353,12 @@ species {
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GRUDGE
-    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_INGRAIN
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_LEECH_SEED
-    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPIKES
@@ -201168,6 +201372,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -201297,13 +201502,13 @@ species {
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_BLACK_MAGIC
+    tutor: MOVE_BRAVADO
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
-    tutor: MOVE_BRAVADO
     tutor: MOVE_CHARM
-    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_COTTON_SPORE
+    tutor: MOVE_CREEPING_THORNS
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DISCHARGE
     tutor: MOVE_ELECTROWEB
@@ -201315,12 +201520,12 @@ species {
     tutor: MOVE_GRASSY_TERRAIN
     tutor: MOVE_GRUDGE
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_INGRAIN
+    tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_LEECH_SEED
-    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SOLAR_BEAM
     tutor: MOVE_SPIKES
@@ -201334,6 +201539,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -201554,6 +201760,7 @@ species {
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
     tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -201670,7 +201877,6 @@ species {
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
-    tutor: MOVE_ATTRACT
     tutor: MOVE_BITE
     tutor: MOVE_BLOOD_SHOT
     tutor: MOVE_BRAVADO
@@ -201681,41 +201887,33 @@ species {
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_EERIE_FOG
     tutor: MOVE_EERIE_SPELL
-    tutor: MOVE_ENDURE
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAL_BLOCK
-    tutor: MOVE_HELPING_HAND
     tutor: MOVE_HEX
-    tutor: MOVE_HIDDEN_POWER
-    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
     tutor: MOVE_KNOCK_OFF
     tutor: MOVE_LICK
     tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_METRONOME
-    tutor: MOVE_MOONBLAST
     tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_MOONBLAST
     tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PSYCHIC_NOISE
-    tutor: MOVE_PROTECT
     tutor: MOVE_REFLECT
-    tutor: MOVE_REST
-    tutor: MOVE_RETURN
     tutor: MOVE_SAFEGUARD
-    tutor: MOVE_SECRET_POWER
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SHADOW_CLAW
     tutor: MOVE_SKILL_SWAP
-    tutor: MOVE_SLEEP_TALK
     tutor: MOVE_SPITE
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_THIEF
     tutor: MOVE_TORMENT
     tutor: MOVE_TRICK
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -204337,6 +204535,7 @@ species {
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POWDER_SNOW
@@ -204347,7 +204546,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -204448,6 +204647,7 @@ species {
     tutor: MOVE_HAZE
     tutor: MOVE_HEADBUTT
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_POWDER_SNOW
@@ -204458,7 +204658,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -205224,6 +205424,7 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -205317,6 +205518,7 @@ species {
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_HEAT_CRASH
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
     tutor: MOVE_SPOTLIGHT
@@ -205325,7 +205527,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -205415,6 +205617,7 @@ species {
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAT_CRASH
     tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LIQUIDATION
     tutor: MOVE_RAIN_DANCE
@@ -205426,7 +205629,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -207869,6 +208072,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -207976,6 +208180,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -208092,6 +208297,7 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -208799,6 +209005,7 @@ species {
     tutor: MOVE_ELECTRIC_TERRAIN
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
+    tutor: MOVE_FIRE_PUNCH
     tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLASH
     tutor: MOVE_FLY
@@ -208819,7 +209026,7 @@ species {
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -209262,6 +209469,7 @@ species {
     tutor: MOVE_VOLT_SWITCH
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WING_ATTACK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -210029,9 +210237,11 @@ species {
     tutor: MOVE_FLASH_FREEZE
     tutor: MOVE_FLY
     tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_MIND_BREAK
     tutor: MOVE_MIRROR_COAT
     tutor: MOVE_MOONBLAST
     tutor: MOVE_PEBBLE_SHOWER
@@ -210047,6 +210257,7 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SOLAR_BLADE
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_SUNNY_DAY
@@ -210057,9 +210268,7 @@ species {
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_ZEN_HEADBUTT
-    tutor: MOVE_SOLAR_BLADE
-    tutor: MOVE_HURRICANE
-    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -210139,27 +210348,28 @@ species {
       move: MOVE_BLEAKWIND_STORM
       move: MOVE_WILDBOLT_STORM
     }
-    tutor: MOVE_THUNDER
-    tutor: MOVE_THUNDERBOLT
-    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
-    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_DEFOG
+    tutor: MOVE_FLY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_AGILITY
-    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_RAIN_DANCE
     tutor: MOVE_ROOST
-    tutor: MOVE_FLY
-    tutor: MOVE_DEFOG
-    tutor: MOVE_ACROBATICS
-    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_SAFEGUARD
     tutor: MOVE_SKY_DROP
     tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
     tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_WHIRLWIND
     tutor: MOVE_WORK_UP
-    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -210585,6 +210795,7 @@ species {
       move: MOVE_MAGIC_ROOM
       move: MOVE_WONDER_ROOM
     }
+    tutor: MOVE_AURA_SPHERE
     tutor: MOVE_AURORA_BEAM
     tutor: MOVE_BABY_DOLL_EYES
     tutor: MOVE_BLOOD_SHOT
@@ -210593,10 +210804,12 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_COVET
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DISABLE
     tutor: MOVE_DRAINING_KISS
     tutor: MOVE_ENERGY_WAVE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_FOCUS_BLAST
     tutor: MOVE_FORESIGHT
     tutor: MOVE_FOUL_PLAY
     tutor: MOVE_FRUSTRATION
@@ -210609,7 +210822,9 @@ species {
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_NASTY_PLOT
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_POWER_GEM
     tutor: MOVE_PSYCHIC_NOISE
     tutor: MOVE_REFLECT
     tutor: MOVE_SEISMIC_TOSS
@@ -210617,6 +210832,7 @@ species {
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_SWEET_KISS
     tutor: MOVE_TAUNT
+    tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_THIEF
     tutor: MOVE_THUNDERBOLT
     tutor: MOVE_THUNDER_WAVE
@@ -210624,13 +210840,7 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_POWER_GEM
-    tutor: MOVE_AURA_SPHERE
-    tutor: MOVE_FOCUS_BLAST
-    tutor: MOVE_TERRAIN_PULSE
-    tutor: MOVE_DISABLE
-    tutor: MOVE_SNORE
-    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -211483,6 +211693,7 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HURRICANE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
@@ -211493,7 +211704,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -211598,6 +211809,7 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HURRICANE
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
@@ -211608,7 +211820,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -211713,6 +211925,7 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_MIST
@@ -211725,7 +211938,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WILL_O_WISP
     tutor: MOVE_WING_ATTACK
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -212412,13 +212625,14 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -212534,13 +212748,14 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -212651,13 +212866,14 @@ species {
     tutor: MOVE_HAIL
     tutor: MOVE_HEADBUTT
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_POWDER_SNOW
     tutor: MOVE_U_TURN
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -212979,17 +213195,18 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_ICE_PUNCH
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWER_GEM
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_SANDSTORM
     tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -213074,7 +213291,10 @@ species {
     tutor: MOVE_CHARM
     tutor: MOVE_DARK_PULSE
     tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_ICE_PUNCH
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWER_GEM
@@ -213084,11 +213304,9 @@ species {
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SANDSTORM
     tutor: MOVE_STEALTH_ROCK
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -213191,10 +213409,14 @@ species {
     tutor: MOVE_DEFOG
     tutor: MOVE_EARTH_POWER
     tutor: MOVE_ENERGY_WAVE
+    tutor: MOVE_FIRE_PUNCH
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_PUNCH
     tutor: MOVE_IRON_DEFENSE
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NASTY_PLOT
     tutor: MOVE_PEBBLE_SHOWER
+    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_POWER_GEM
     tutor: MOVE_ROCK_SLIDE
@@ -213204,12 +213426,9 @@ species {
     tutor: MOVE_SANDSTORM
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
-    tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_NASTY_PLOT
-    tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_THUNDER_PUNCH
-    tutor: MOVE_ICE_PUNCH
-    tutor: MOVE_FIRE_PUNCH
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -214936,6 +215155,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_LIQUIDATION
@@ -214952,7 +215172,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -215058,6 +215278,7 @@ species {
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_ICE_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICICLE_CRASH
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_LIQUIDATION
@@ -215074,7 +215295,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -217649,6 +217870,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
     tutor: MOVE_LIFE_DEW
@@ -217666,7 +217888,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -217805,6 +218027,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
     tutor: MOVE_LIFE_DEW
@@ -217825,7 +218048,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -217951,6 +218174,7 @@ species {
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_ICE_WALL
     tutor: MOVE_ICY_WIND
     tutor: MOVE_LICK
     tutor: MOVE_LIFE_DEW
@@ -217971,7 +218195,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WORK_UP
-    tutor: MOVE_ICE_WALL
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -218621,6 +218845,7 @@ species {
     tutor: MOVE_DRAGON_TAIL
     tutor: MOVE_FACADE
     tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_FLASH
     tutor: MOVE_HYPER_BEAM
@@ -218629,7 +218854,7 @@ species {
     tutor: MOVE_SUPERSONIC
     tutor: MOVE_THUNDER_WAVE
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -218768,6 +218993,7 @@ species {
     tutor: MOVE_FACADE
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
+    tutor: MOVE_FLAMETHROWER
     tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_FLASH
     tutor: MOVE_FOCUS_BLAST
@@ -218791,7 +219017,7 @@ species {
     tutor: MOVE_WHIRLWIND
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_FLAMETHROWER
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -218911,6 +219137,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -219029,6 +219256,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {

@@ -55,21 +55,6 @@ trainer_skill {
     }
 }
 # ==== Route 108 ====
-trainer_skill {
-    trainer_id: TRAINER_CAROLINA
-    skill {
-        skill_id: SKILL_NO_ITEM_50_PERCENT_DAMAGE_BOOST
-        target { all {} }
-    }
-    skill {
-        skill_id: SKILL_ON_SWITCH_RECOVER_ITEM
-        target { all {} }
-    }
-    skill {
-        skill_id: SKILL_ON_USE_ITEM_DOUBLE_SPEED
-        target { all {} }
-    }
-}
 # ==== Route 109 Seahouse ====
 # TODO: Trainer Simon (what is the "old" mud sport effect?)
 # ==== Slateport City ====
@@ -90,13 +75,6 @@ trainer_skill {
     }
 }
 # ==== Route 103 East ====
-trainer_skill {
-    trainer_id: TRAINER_MARCOS
-    skill {
-        skill_id: SKILL_IGNORE_SOUNDPROOF
-        target { all {} }
-    }
-}
 # ==== Altering Cave ====
 trainer_skill {
     trainer_id: TRAINER_LEAF_ALTERING_CAVE
@@ -111,34 +89,5 @@ trainer_skill {
     }
 }
 # ==== Route 110 ====
-trainer_skill {
-    trainer_id: TRAINER_KALEB
-    skill {
-        skill_id: SKILL_PLAYER_QUASH
-        target { all {} }
-    }
-}
-trainer_skill {
-    trainer_id: TRAINER_EDWIN_1
-    skill {
-        skill_id: SKILL_IGNORE_IMMUNITIES
-        target { all {} }
-    }
-}
 # ==== Route 111 South (pre-Wattson) ====
-trainer_skill {
-    trainer_id: TRAINER_CELINA
-    skill {
-        skill_id: SKILL_PLAYER_30_PERCENT_MISS_CHANCE
-        target { all {} }
-    }
-}
 # ==== Route 118 West ====
-trainer_skill {
-    # TODO: Double check this trainer's sets (Politoed Damp Rock but no Drizzle?)
-    trainer_id: TRAINER_WADE
-    skill {
-        skill_id: SKILL_RAIN_SETS_AURORA_VEIL
-        target { all {} }
-    }
-}
