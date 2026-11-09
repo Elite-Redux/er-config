@@ -114438,36 +114438,36 @@ trainer {
   }
   elite {
     mon {
-      species: SPECIES_NINJASK
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_JOLLY
-      ability: ABILITY_BLUR
+      species: SPECIES_MEOWSTIC
+      item: ITEM_LIGHT_CLAY
+      nature: NATURE_TIMID
+      ability: ABILITY_PRANKSTER
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_FURY_CUTTER
-      move: MOVE_BATON_PASS
-      move: MOVE_SWORDS_DANCE
-      move: MOVE_DETECT
+      move: MOVE_LIGHT_SCREEN
+      move: MOVE_CHARM
+      move: MOVE_REFLECT
+      move: MOVE_PSYCHIC
     }
     mon {
-      species: SPECIES_MAROWAK
-      item: ITEM_THICK_CLUB
+      species: SPECIES_GOLURK
+      item: ITEM_GOLURKITE
       nature: NATURE_ADAMANT
-      ability: ABILITY_TECHNICIAN
+      ability: ABILITY_POWER_FISTS
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_BONEMERANG
-      move: MOVE_ROCK_BLAST
-      move: MOVE_AERIAL_ACE
-      move: MOVE_REVENGE
+      move: MOVE_SHADOW_PUNCH
+      move: MOVE_SKY_DROP
+      move: MOVE_SEISMIC_FIST
+      move: MOVE_METEOR_MASH
     }
     mon {
       species: SPECIES_FURRET
@@ -114486,52 +114486,52 @@ trainer {
       move: MOVE_FIRE_PUNCH
     }
     mon {
-      species: SPECIES_CROBAT
-      item: ITEM_CROBATITE
+      species: SPECIES_EEVEE_PARTNER
+      item: ITEM_LIFE_ORB
       nature: NATURE_JOLLY
-      ability: ABILITY_MOUNTAINEER
+      ability: ABILITY_SIMPLE
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_BRAVE_BIRD
-      move: MOVE_SHADOW_FANGS
-      move: MOVE_CROSS_POISON
-      move: MOVE_FIRE_FANG
+      move: MOVE_SAPPY_SEED
+      move: MOVE_VEEVEE_VOLLEY
+      move: MOVE_SWORDS_DANCE
+      move: MOVE_SIZZLY_SLIDE
     }
     mon {
-      species: SPECIES_MILOTIC
-      item: ITEM_MILOTICITE
-      nature: NATURE_BOLD
-      ability: ABILITY_COMPETITIVE
+      species: SPECIES_MIMIKYU
+      item: ITEM_LEFTOVERS
+      nature: NATURE_JOLLY
+      ability: ABILITY_KEEN_EDGE
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_HAZE
-      move: MOVE_MOONBLAST
-      move: MOVE_SCALD
-      move: MOVE_RECOVER
+      move: MOVE_SHADOW_CLAW
+      move: MOVE_SLASH
+      move: MOVE_SHADOW_SNEAK
+      move: MOVE_PIXIE_SLASH
     }
     mon {
-      species: SPECIES_TYRANJOULA
-      item: ITEM_TACTICAL_VEST
-      nature: NATURE_TIMID
-      ability: ABILITY_ITCHY_DEFENSE
+      species: SPECIES_FLYGON
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_JOLLY
+      ability: ABILITY_AMPLIFIER
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_THUNDER_CAGE
       move: MOVE_BUG_BUZZ
-      move: MOVE_GIGA_DRAIN
-      move: MOVE_THUNDERCLAP
+      move: MOVE_HYPER_VOICE
+      move: MOVE_CLANGING_SCALES
+      move: MOVE_FIRST_IMPRESSION
     }
   }
   hell {
