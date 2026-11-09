@@ -9899,6 +9899,21 @@ trainer {
       move: MOVE_MIRROR_SHOT
       move: MOVE_AUTOTOMIZE
     }
+    inline_skill {
+      name: "Flash"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblinds your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_FLASH
+          }
+        }
+      }
+    }
+    # Doc says Normal moves hit Ghost, Scrappy is quite a bit stronger with intimidate immune but surely it's close enough
+    inline_skill { extra_ability: ABILITY_TELEPATHY extra_ability: ABILITY_SCRAPPY }
   }
 }
 trainer {
@@ -10641,6 +10656,26 @@ trainer {
       move: MOVE_DIAMOND_BLADE
       move: MOVE_DRAGON_DANCE
     }
+    inline_skill {
+      name: "Flash + Snarl"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblinds and scares your Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_FLASH
+          }
+        }
+        effect {
+          use_move {
+            move: MOVE_SNARL
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_TELEPATHY }
+    # TODO: Ring target on hit
   }
 }
 trainer {
@@ -32935,6 +32970,22 @@ trainer {
       move: MOVE_SPORE
       move: MOVE_SLUDGE_BOMB
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_ARENA_TRAP extra_ability: ABILITY_ADAPTABILITY }
   }
 }
 trainer {
@@ -33158,6 +33209,36 @@ trainer {
       move: MOVE_LEECH_LIFE
       move: MOVE_LEAFAGE
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "String Shot"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ncovers your Pok\303\251mon in string!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_STRING_SHOT
+          }
+        }
+        side: PLAYER
+      }
+    }
+    # TODO: When player speed is lowered, all other stats also lowered
   }
 }
 trainer {
@@ -40869,6 +40950,7 @@ trainer {
       move: MOVE_TRAILBLAZE
       move: MOVE_GIGA_IMPACT
     }
+    inline_skill { extra_ability: ABILITY_VERSATILE extra_ability: ABILITY_MOLD_BREAKER extra_ability: ABILITY_CLUELESS }
   }
 }
 trainer {
@@ -52537,6 +52619,23 @@ trainer {
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_PROTECT
     }
+    inline_skill {
+      name: "Toxic Spikes"
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TOXIC_SPIKES
+            who: FOE
+            layers: 2
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_LEVITATE extra_ability: ABILITY_TOUGH_CLAWS }
   }
 }
 trainer {
@@ -57440,6 +57539,36 @@ trainer {
       move: MOVE_HEAD_SMASH
       move: MOVE_WAVE_CRASH
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_ROOM_BREAKER }
   }
 }
 trainer {
@@ -58987,6 +59116,20 @@ trainer {
       move: MOVE_DIAMOND_STORM
       move: MOVE_MOONBLAST
     }
+    	inline_skill {
+      name: "Cosmic Power"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuse Cosmic Power on turn end!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_COSMIC_POWER
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_SPEED_BOOST extra_ability: ABILITY_SELF_SUFFICIENT }
   }
 }
 trainer {
@@ -85025,6 +85168,36 @@ trainer {
       move: MOVE_MACH_PUNCH
       move: MOVE_DIRE_CLAW
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Toxic Terrain"
+      announce_string: "Toxic sludge covers the field."
+      on {
+        entry {
+        }
+        effect {
+          terrain {
+            terrain: TERRAIN_TOXIC
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_BIOFILM }
   }
 }
 trainer {
@@ -85247,6 +85420,23 @@ trainer {
       move: MOVE_DAZZLING_GLEAM
       move: MOVE_SLUDGE_BOMB
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    # TODO: crits give omniboost
+    inline_skill { extra_ability: ABILITY_FATAL_PRECISION }
   }
 }
 trainer {
@@ -85469,6 +85659,21 @@ trainer {
       move: MOVE_GIGA_DRAIN
     }
     inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
       name: "Peak Form"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nplays to its strengths!"
       on {
@@ -85482,6 +85687,7 @@ trainer {
         }
       }
     }
+    inline_skill { extra_ability: ABILITY_SHIELD_DUST }
   }
 }
 trainer {
@@ -94327,6 +94533,36 @@ trainer {
       move: MOVE_FURY_CUTTER
       move: MOVE_TRIPLE_DIVE
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_MERCILESS }
   }
 }
 trainer {
@@ -107376,6 +107612,37 @@ trainer {
       move: MOVE_SPLASH
       move: MOVE_HEAVY_SLAM
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Fire Spin"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsummon a fire vortex!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_BUBBLE
+            power: 10
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_WATER_ABSORB }
+    # TODO: Trapping effects additionally do 1/6 of player's HP (on end turn I assume?)
   }
 }
 trainer {
@@ -107584,6 +107851,36 @@ trainer {
       move: MOVE_DRAGON_DANCE
       move: MOVE_MOONBLAST
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Rainbow"
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: RAINBOW
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    # TODO: 10% random effect chance on damaging moves
   }
 }
 trainer {
@@ -114715,6 +115012,37 @@ trainer {
       move: MOVE_KNOCK_OFF
       move: MOVE_PHOTON_GEYSER
     }
+    inline_skill {
+      name: "Caltrops + Stealth Rock"
+      announce_string: "Caltrops and pointed stones\\nspread around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: CALTROPS
+            type: STEALTH_ROCK
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Fortified"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nfortifies its defenses!"
+      on {
+        end_turn {
+        }
+        effect {
+          stat_change {
+            stat: STAT_DEF
+            amount: 1
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_RADIANCE }
   }
 }
 trainer {
