@@ -176366,7 +176366,7 @@ species {
   spdef: 60
   spe: 120
   ability: ABILITY_BULLETPROOF
-  ability: ABILITY_LUNAR_ECLIPSE
+  ability: ABILITY_PHOTON_BURST
   ability: ABILITY_ACCELERATE
   innate: ABILITY_SHIELDS_DOWN
   innate: ABILITY_EQUINOX
@@ -176412,7 +176412,7 @@ species {
   spdef: 60
   spe: 120
   ability: ABILITY_BULLETPROOF
-  ability: ABILITY_LUNAR_ECLIPSE
+  ability: ABILITY_PHOTON_BURST
   ability: ABILITY_ACCELERATE
   innate: ABILITY_SHIELDS_DOWN
   innate: ABILITY_EQUINOX
