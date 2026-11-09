@@ -139220,7 +139220,7 @@ species {
       move: MOVE_NATURAL_GIFT
     }
     level {
-      level: 71
+      level: 101
       move: MOVE_SKETCH
     }
     tutor: MOVE_ACROBATICS
