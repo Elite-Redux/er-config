@@ -9912,8 +9912,10 @@ trainer {
         }
       }
     }
-    # Doc says Normal moves hit Ghost, Scrappy is quite a bit stronger with intimidate immune but surely it's close enough
-    inline_skill { extra_ability: ABILITY_TELEPATHY extra_ability: ABILITY_SCRAPPY }
+    inline_skill {
+      extra_ability: ABILITY_TELEPATHY
+      extra_ability: ABILITY_SCRAPPY
+    }
   }
 }
 trainer {
@@ -10674,8 +10676,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_TELEPATHY }
-    # TODO: Ring target on hit
+    inline_skill {
+      extra_ability: ABILITY_TELEPATHY
+    }
   }
 }
 trainer {
@@ -25882,7 +25885,6 @@ trainer {
   }
   elite {
     mon {
-      nonstandard: "Invalid moves: [MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_KNOCK_OFF]"
       species: SPECIES_VAPOREON
       item: ITEM_DAMP_ROCK
       nature: NATURE_CALM
@@ -25936,7 +25938,7 @@ trainer {
     }
     mon {
       species: SPECIES_WAILORD
-      item: ITEM_CHOICE_SCARF
+      item: ITEM_LEFTOVERS
       nature: NATURE_TIMID
       ability: ABILITY_DRIZZLE
       hp_ev: 4
@@ -25951,7 +25953,7 @@ trainer {
       species: SPECIES_CRAWDAUNTLES
       item: ITEM_MUSCLE_BAND
       nature: NATURE_ADAMANT
-      ability: ABILITY_SWIFT_SWIM
+      ability: ABILITY_SEA_GUARDIAN
       hp_ev: 4
       atk_ev: 252
       spe_ev: 252
@@ -32985,7 +32987,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_ARENA_TRAP extra_ability: ABILITY_ADAPTABILITY }
+    inline_skill {
+      extra_ability: ABILITY_ARENA_TRAP
+      extra_ability: ABILITY_ADAPTABILITY
+    }
   }
 }
 trainer {
@@ -33238,7 +33243,6 @@ trainer {
         side: PLAYER
       }
     }
-    # TODO: When player speed is lowered, all other stats also lowered
   }
 }
 trainer {
@@ -40950,7 +40954,11 @@ trainer {
       move: MOVE_TRAILBLAZE
       move: MOVE_GIGA_IMPACT
     }
-    inline_skill { extra_ability: ABILITY_VERSATILE extra_ability: ABILITY_MOLD_BREAKER extra_ability: ABILITY_CLUELESS }
+    inline_skill {
+      extra_ability: ABILITY_VERSATILE
+      extra_ability: ABILITY_MOLD_BREAKER
+      extra_ability: ABILITY_CLUELESS
+    }
   }
 }
 trainer {
@@ -52635,7 +52643,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_LEVITATE extra_ability: ABILITY_TOUGH_CLAWS }
+    inline_skill {
+      extra_ability: ABILITY_LEVITATE
+      extra_ability: ABILITY_TOUGH_CLAWS
+    }
   }
 }
 trainer {
@@ -57568,7 +57579,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_ROOM_BREAKER }
+    inline_skill {
+      extra_ability: ABILITY_ROOM_BREAKER
+    }
   }
 }
 trainer {
@@ -59116,7 +59129,7 @@ trainer {
       move: MOVE_DIAMOND_STORM
       move: MOVE_MOONBLAST
     }
-    	inline_skill {
+    inline_skill {
       name: "Cosmic Power"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuse Cosmic Power on turn end!"
       on {
@@ -59129,7 +59142,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_SPEED_BOOST extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill {
+      extra_ability: ABILITY_SPEED_BOOST
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
   }
 }
 trainer {
@@ -85197,7 +85213,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_BIOFILM }
+    inline_skill {
+      extra_ability: ABILITY_BIOFILM
+    }
   }
 }
 trainer {
@@ -85435,8 +85453,9 @@ trainer {
         }
       }
     }
-    # TODO: crits give omniboost
-    inline_skill { extra_ability: ABILITY_FATAL_PRECISION }
+    inline_skill {
+      extra_ability: ABILITY_FATAL_PRECISION
+    }
   }
 }
 trainer {
@@ -85687,7 +85706,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_SHIELD_DUST }
+    inline_skill {
+      extra_ability: ABILITY_SHIELD_DUST
+    }
   }
 }
 trainer {
@@ -94562,7 +94583,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_MERCILESS }
+    inline_skill {
+      extra_ability: ABILITY_MERCILESS
+    }
   }
 }
 trainer {
@@ -107641,8 +107664,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_WATER_ABSORB }
-    # TODO: Trapping effects additionally do 1/6 of player's HP (on end turn I assume?)
+    inline_skill {
+      extra_ability: ABILITY_WATER_ABSORB
+    }
   }
 }
 trainer {
@@ -107880,7 +107904,6 @@ trainer {
         }
       }
     }
-    # TODO: 10% random effect chance on damaging moves
   }
 }
 trainer {
@@ -115042,7 +115065,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_RADIANCE }
+    inline_skill {
+      extra_ability: ABILITY_RADIANCE
+    }
   }
 }
 trainer {
