@@ -3658,7 +3658,10 @@ trainer {
       move: MOVE_PSYCHIC_NOISE
       move: MOVE_ENERGY_WAVE
     }
-    inline_skill { extra_ability: ABILITY_SERENE_GRACE extra_ability: ABILITY_SELF_SUFFICIENT }
+    inline_skill {
+      extra_ability: ABILITY_SERENE_GRACE
+      extra_ability: ABILITY_SELF_SUFFICIENT
+    }
   }
 }
 trainer {
@@ -3898,7 +3901,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_SWIFT_SWIM }
+    inline_skill {
+      extra_ability: ABILITY_SWIFT_SWIM
+    }
   }
 }
 trainer {
@@ -4123,7 +4128,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_ICE_BODY }
+    inline_skill {
+      extra_ability: ABILITY_ICE_BODY
+    }
   }
 }
 trainer {
@@ -5403,7 +5410,9 @@ trainer {
         side: PLAYER
       }
     }
-    inline_skill { extra_ability: ABILITY_SHADOW_TAG }
+    inline_skill {
+      extra_ability: ABILITY_SHADOW_TAG
+    }
   }
 }
 trainer {
@@ -6561,8 +6570,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_RAIN_DISH }
-    # TODO: Aurora Veil effect on entry
+    inline_skill {
+      extra_ability: ABILITY_RAIN_DISH
+    }
   }
 }
 trainer {
@@ -32840,8 +32850,10 @@ trainer {
         }
       }
     }
-    # Skill says fire immunity, Flash Fire hopefully not too broken
-    inline_skill { extra_ability: ABILITY_FLASH_FIRE extra_ability: ABILITY_SWARM }
+    inline_skill {
+      extra_ability: ABILITY_FLASH_FIRE
+      extra_ability: ABILITY_SWARM
+    }
   }
 }
 trainer {
@@ -34094,15 +34106,15 @@ trainer {
     mon {
       species: SPECIES_POLARTIC_BLUEMOON
       item: ITEM_TACTICAL_VEST
-      nature: NATURE_BRAVE
-      ability: ABILITY_FEARMONGER
+      nature: NATURE_QUIET
+      ability: ABILITY_BATTLE_ARMOR
       hp_ev: 252
-      atk_ev: 252
       def_ev: 4
+      spatk_ev: 252
       iron_pill: true
       move: MOVE_BLUE_MOON
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_STOMPING_TANTRUM
+      move: MOVE_FOCUS_BLAST
+      move: MOVE_EARTH_POWER
       move: MOVE_AQUA_JET
     }
     mon {
@@ -57424,11 +57436,21 @@ trainer {
     }
     inline_skill {
       name: "Tailwind"
-      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
-      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TAILWIND
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
     }
-    inline_skill { extra_ability: ABILITY_RAGING_STORM }
-    # TODO: 
+    inline_skill {
+      extra_ability: ABILITY_RAGING_STORM
+    }
   }
 }
 trainer {
@@ -59584,7 +59606,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_DUAL_WIELD extra_ability: ABILITY_SPEED_BOOST }
+    inline_skill {
+      extra_ability: ABILITY_DUAL_WIELD
+      extra_ability: ABILITY_SPEED_BOOST
+    }
   }
 }
 trainer {
@@ -75919,7 +75944,11 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_TINTED_LENS extra_ability: ABILITY_ADAPTABILITY extra_ability: ABILITY_MOLD_BREAKER }
+    inline_skill {
+      extra_ability: ABILITY_TINTED_LENS
+      extra_ability: ABILITY_ADAPTABILITY
+      extra_ability: ABILITY_MOLD_BREAKER
+    }
   }
 }
 trainer {
@@ -76648,7 +76677,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_RAIN_DISH extra_ability: ABILITY_PRESSURE }
+    inline_skill {
+      extra_ability: ABILITY_RAIN_DISH
+      extra_ability: ABILITY_PRESSURE
+    }
   }
 }
 trainer {
@@ -81821,7 +81853,9 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_RAGING_STORM }
+    inline_skill {
+      extra_ability: ABILITY_RAGING_STORM
+    }
   }
 }
 trainer {
@@ -90176,7 +90210,10 @@ trainer {
         }
       }
     }
-    inline_skill { extra_ability: ABILITY_FILTER extra_ability: ABILITY_SHIELD_DUST }
+    inline_skill {
+      extra_ability: ABILITY_FILTER
+      extra_ability: ABILITY_SHIELD_DUST
+    }
   }
 }
 trainer {
