@@ -3658,6 +3658,7 @@ trainer {
       move: MOVE_PSYCHIC_NOISE
       move: MOVE_ENERGY_WAVE
     }
+    inline_skill { extra_ability: ABILITY_SERENE_GRACE extra_ability: ABILITY_SELF_SUFFICIENT }
   }
 }
 trainer {
@@ -3883,6 +3884,21 @@ trainer {
       move: MOVE_RECOVER
       move: MOVE_SURF
     }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_SWIFT_SWIM }
   }
 }
 trainer {
@@ -4093,6 +4109,21 @@ trainer {
       move: MOVE_DRAIN_PUNCH
       move: MOVE_MACH_PUNCH
     }
+    inline_skill {
+      name: "Perma Hail"
+      announce_string: "The hail falls."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_HAIL
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_ICE_BODY }
   }
 }
 trainer {
@@ -5358,6 +5389,21 @@ trainer {
       move: MOVE_CLOSE_COMBAT
       move: MOVE_MEGAHORN
     }
+    inline_skill {
+      name: "Torment"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Torment!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_TORMENT
+          }
+        }
+        side: PLAYER
+      }
+    }
+    inline_skill { extra_ability: ABILITY_SHADOW_TAG }
   }
 }
 trainer {
@@ -6501,6 +6547,22 @@ trainer {
       move: MOVE_CUTSIE_SLAP
       move: MOVE_DRAIN_PUNCH
     }
+    inline_skill {
+      name: "Primordial Sea"
+      announce_string: "A heavy rain begins\\nto fall!"
+      on {
+        effect {
+          weather {
+            weather: WEATHER_RAIN_PRIMAL
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_RAIN_DISH }
+    # TODO: Aurora Veil effect on entry
   }
 }
 trainer {
@@ -32748,6 +32810,21 @@ trainer {
       move: MOVE_POP_MAYHEM
     }
     inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
       name: "Fiery Focus"
       announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nsharpens its attack!"
       on {
@@ -32761,6 +32838,8 @@ trainer {
         }
       }
     }
+    # Skill says fire immunity, Flash Fire hopefully not too broken
+    inline_skill { extra_ability: ABILITY_FLASH_FIRE extra_ability: ABILITY_SWARM }
   }
 }
 trainer {
@@ -57317,6 +57396,28 @@ trainer {
       move: MOVE_ENERGY_WAVE
       move: MOVE_TAKE_FLIGHT
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "A permanent tailwind blows behind\\n{B_TRAINER1_NAME}'s team!"
+      on { battle_start {} effect { side_condition { type: TAILWIND permanent: true } } }
+    }
+    inline_skill { extra_ability: ABILITY_RAGING_STORM }
+    # TODO: 
   }
 }
 trainer {
@@ -59452,6 +59553,22 @@ trainer {
       move: MOVE_FROST_BRAND
       move: MOVE_AQUA_JET
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_DUAL_WIELD extra_ability: ABILITY_SPEED_BOOST }
   }
 }
 trainer {
@@ -75771,6 +75888,22 @@ trainer {
       move: MOVE_SLEEP_TALK
       move: MOVE_LAST_RESORT
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_TINTED_LENS extra_ability: ABILITY_ADAPTABILITY extra_ability: ABILITY_MOLD_BREAKER }
   }
 }
 trainer {
@@ -76484,6 +76617,22 @@ trainer {
       move: MOVE_SHADOW_CLAW
       move: MOVE_PARTING_SHOT
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_RAIN_DISH extra_ability: ABILITY_PRESSURE }
   }
 }
 trainer {
@@ -81642,6 +81791,21 @@ trainer {
       move: MOVE_BARB_BARRAGE
       move: MOVE_FLIP_TURN
     }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_RAGING_STORM }
   }
 }
 trainer {
@@ -89976,6 +90140,22 @@ trainer {
       move: MOVE_DARKEST_LARIAT
       move: MOVE_DRAIN_PUNCH
     }
+    inline_skill {
+      name: "Sticky Web"
+      announce_string: "A sticky web spreads out on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: STICKY_WEB
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill { extra_ability: ABILITY_FILTER extra_ability: ABILITY_SHIELD_DUST }
   }
 }
 trainer {
