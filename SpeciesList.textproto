@@ -11564,6 +11564,7 @@ species {
       move: MOVE_CHILLING_WATER
       move: MOVE_GIGA_DRAIN
       move: MOVE_TICKLE
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
@@ -11576,7 +11577,6 @@ species {
       level: 46
       move: MOVE_BRINE
       move: MOVE_KARMA
-      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -11725,6 +11725,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_TICKLE
       move: MOVE_TOXIC_PLUNGE
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
@@ -11737,7 +11738,6 @@ species {
       level: 46
       move: MOVE_BRINE
       move: MOVE_KARMA
-      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -13767,6 +13767,7 @@ species {
       move: MOVE_FREEZE_DRY
       move: MOVE_SPIT_UP
       move: MOVE_SWALLOW
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -13778,10 +13779,6 @@ species {
       move: MOVE_ELECTRIFY
       move: MOVE_HORN_DRILL
       move: MOVE_SHEER_COLD
-    }
-    level {
-      level: 56
-      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_BASH
     tutor: MOVE_AQUA_RING
@@ -13925,6 +13922,7 @@ species {
       move: MOVE_MEGAHORN
       move: MOVE_SPIT_UP
       move: MOVE_SWALLOW
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -13938,10 +13936,6 @@ species {
       move: MOVE_GLACIATE
       move: MOVE_HORN_DRILL
       move: MOVE_SHEER_COLD
-    }
-    level {
-      level: 56
-      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_BASH
     tutor: MOVE_AQUA_RING
@@ -27081,18 +27075,12 @@ species {
       move: MOVE_SCALD
       move: MOVE_SHOCK_WAVE
       move: MOVE_MERCULIGHT
+      move: MOVE_SPARKLE_BLAST
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
       move: MOVE_RISING_VOLTAGE
-    }
-    level {
-      level: 51
-      move: MOVE_SPARKLE_BLAST
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AURORA_BEAM
@@ -27252,6 +27240,8 @@ species {
       move: MOVE_SHOCK_WAVE
       move: MOVE_WATER_GUN
       move: MOVE_MERCULIGHT
+      move: MOVE_SPARKLE_BLAST
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -27261,11 +27251,6 @@ species {
       level: 51
       move: MOVE_ELECTRO_SHOT
       move: MOVE_PARABOLIC_CHARGE
-      move: MOVE_SPARKLE_BLAST
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
@@ -28924,6 +28909,7 @@ species {
       move: MOVE_ZIPPY_ZAP
       move: MOVE_PLASMA_PULSE
       move: MOVE_MERCULIGHT
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -28932,10 +28918,6 @@ species {
       move: MOVE_TAIL_GLOW
       move: MOVE_ZAP_CANNON
       move: MOVE_GLITTER_BEAM
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BREAKING_SWIPE
@@ -29279,6 +29261,7 @@ species {
       move: MOVE_MUDDY_WATER
       move: MOVE_SUPERPOWER
       move: MOVE_WATERFALL
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
@@ -29288,10 +29271,6 @@ species {
     level {
       level: 46
       move: MOVE_WAVE_CRASH
-    }
-    level {
-      level: 56
-      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
@@ -29427,6 +29406,7 @@ species {
       move: MOVE_MUDDY_WATER
       move: MOVE_SUPERPOWER
       move: MOVE_WATERFALL
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
@@ -29437,10 +29417,6 @@ species {
       level: 46
       move: MOVE_STAR_CRASH
       move: MOVE_WAVE_CRASH
-    }
-    level {
-      level: 56
-      move: MOVE_SPARKLE_BLAST
     }
     tutor: MOVE_AQUA_RING
     tutor: MOVE_AQUA_TAIL
@@ -48739,13 +48715,13 @@ species {
       move: MOVE_SHOCK_WAVE
       move: MOVE_SMITE
       move: MOVE_SCORCHING_RAY
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
       move: MOVE_NATURAL_GIFT
       move: MOVE_OVERHEAT
       move: MOVE_THUNDERCLAP
-      move: MOVE_ARC_BLAST
     }
     level {
       level: 51
@@ -48899,6 +48875,7 @@ species {
       move: MOVE_SHOCK_WAVE
       move: MOVE_SMITE
       move: MOVE_SCORCHING_RAY
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -48906,7 +48883,6 @@ species {
       move: MOVE_OVERHEAT
       move: MOVE_THUNDERCLAP
       move: MOVE_RISING_VOLTAGE
-      move: MOVE_ARC_BLAST
     }
     level {
       level: 51
@@ -49380,7 +49356,6 @@ species {
       move: MOVE_RIDER_KICK
       move: MOVE_SILVER_WIND
       move: MOVE_ZING_ZAP
-      move: MOVE_ZIPPY_ZAP
     }
     level {
       level: 37
@@ -49392,6 +49367,7 @@ species {
       move: MOVE_BATON_PASS
       move: MOVE_BUZZY_BUZZ
       move: MOVE_REVERSAL
+      move: MOVE_ZIPPY_ZAP
     }
     level {
       level: 51
@@ -49865,7 +49841,6 @@ species {
       level: 51
       move: MOVE_BELCH
       move: MOVE_KARMA
-      move: MOVE_RECOVER
       move: MOVE_WRING_OUT
     }
     level {
@@ -50024,7 +49999,6 @@ species {
       level: 51
       move: MOVE_BELCH
       move: MOVE_KARMA
-      move: MOVE_RECOVER
       move: MOVE_WRING_OUT
     }
     level {
@@ -64113,6 +64087,7 @@ species {
       move: MOVE_ZING_ZAP
       move: MOVE_CRUNCH
       move: MOVE_MEAN_LOOK
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 37
@@ -64123,10 +64098,6 @@ species {
       level: 46
       move: MOVE_SCARY_FACE
       move: MOVE_VOLT_TACKLE
-    }
-    level {
-      level: 51
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
@@ -64245,6 +64216,7 @@ species {
       move: MOVE_CRUNCH
       move: MOVE_JAW_LOCK
       move: MOVE_MEAN_LOOK
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 37
@@ -64263,7 +64235,6 @@ species {
     level {
       level: 51
       move: MOVE_RIP_AND_TEAR
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BABY_DOLL_EYES
@@ -72179,15 +72150,12 @@ species {
       move: MOVE_GUST
       move: MOVE_OMINOUS_WIND
       move: MOVE_SILVER_WIND
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 37
       move: MOVE_CHILLING_WATER
       move: MOVE_SPARKLE_BLAST
-    }
-    level {
-      level: 46
-      move: MOVE_GLITTER_BEAM
     }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
@@ -82396,6 +82364,7 @@ species {
       move: MOVE_DOUBLE_EDGE
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_SUPERCELL_SLAM
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 37
@@ -82411,10 +82380,6 @@ species {
       level: 51
       move: MOVE_VOLT_TACKLE
       move: MOVE_ZIPPY_ZAP
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_CHARGE_BEAM
@@ -82542,6 +82507,7 @@ species {
       move: MOVE_DOUBLE_EDGE
       move: MOVE_HIGH_HORSEPOWER
       move: MOVE_SUPERCELL_SLAM
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 37
@@ -82558,10 +82524,6 @@ species {
       move: MOVE_VOLT_TACKLE
       move: MOVE_ZIPPY_ZAP
       move: MOVE_OVERHEAT
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_CHARGE_BEAM
@@ -108212,14 +108174,11 @@ species {
       move: MOVE_MUD_SLAP
       move: MOVE_PARABOLIC_CHARGE
       move: MOVE_SHOCK_WAVE
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
       move: MOVE_RISING_VOLTAGE
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     level {
       level: 61
@@ -108357,6 +108316,7 @@ species {
       move: MOVE_MUD_SLAP
       move: MOVE_PARABOLIC_CHARGE
       move: MOVE_SHOCK_WAVE
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -108367,10 +108327,6 @@ species {
     level {
       level: 51
       move: MOVE_SHED_TAIL
-    }
-    level {
-      level: 56
-      move: MOVE_ARC_BLAST
     }
     level {
       level: 61
@@ -150568,6 +150524,7 @@ species {
       move: MOVE_MUD_SLAP
       move: MOVE_PARABOLIC_CHARGE
       move: MOVE_SHOCK_WAVE
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -150584,7 +150541,6 @@ species {
     level {
       level: 56
       move: MOVE_OVERHEAT
-      move: MOVE_ARC_BLAST
     }
     level {
       level: 61
@@ -154697,16 +154653,13 @@ species {
       move: MOVE_GUST
       move: MOVE_OMINOUS_WIND
       move: MOVE_SILVER_WIND
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 37
       move: MOVE_CHILLING_WATER
       move: MOVE_FREEZE_DRY
       move: MOVE_SPARKLE_BLAST
-    }
-    level {
-      level: 46
-      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 51
@@ -155969,6 +155922,7 @@ species {
       move: MOVE_CHILLING_WATER
       move: MOVE_GIGA_DRAIN
       move: MOVE_TICKLE
+      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 37
@@ -155984,7 +155938,6 @@ species {
       move: MOVE_BRINE
       move: MOVE_KARMA
       move: MOVE_TOXIC_PLUNGE
-      move: MOVE_SPARKLE_BLAST
     }
     level {
       level: 51
@@ -194640,6 +194593,7 @@ species {
       move: MOVE_PYRO_BALL
       move: MOVE_ATOMIC_FIRE
       move: MOVE_OVERHEAT
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 37
@@ -194647,18 +194601,17 @@ species {
       move: MOVE_PLASMA_PULSE
       move: MOVE_RAGING_SOULS
       move: MOVE_SCORCHING_RAY
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
       move: MOVE_OMINOUS_WIND
       move: MOVE_INFERNAL_PARADE
       move: MOVE_METAL_BURST
-      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 56
       move: MOVE_LAST_RESPECTS
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_CURSE
@@ -194769,6 +194722,7 @@ species {
       move: MOVE_PYRO_BALL
       move: MOVE_ATOMIC_FIRE
       move: MOVE_OVERHEAT
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 37
@@ -194776,6 +194730,7 @@ species {
       move: MOVE_PLASMA_PULSE
       move: MOVE_RAGING_SOULS
       move: MOVE_SCORCHING_RAY
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -194783,7 +194738,6 @@ species {
       move: MOVE_INFERNAL_PARADE
       move: MOVE_METAL_BURST
       move: MOVE_POLTERGEIST
-      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 51
@@ -194792,7 +194746,6 @@ species {
     level {
       level: 56
       move: MOVE_LAST_RESPECTS
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_CURSE
@@ -194894,6 +194847,7 @@ species {
       move: MOVE_PYRO_BALL
       move: MOVE_ATOMIC_FIRE
       move: MOVE_OVERHEAT
+      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 37
@@ -194903,6 +194857,7 @@ species {
       move: MOVE_ZIPPY_ZAP
       move: MOVE_RISING_VOLTAGE
       move: MOVE_SCORCHING_RAY
+      move: MOVE_ARC_BLAST
     }
     level {
       level: 46
@@ -194911,7 +194866,6 @@ species {
       move: MOVE_METAL_BURST
       move: MOVE_POLTERGEIST
       move: MOVE_THUNDER_CAGE
-      move: MOVE_GLITTER_BEAM
     }
     level {
       level: 51
@@ -194920,7 +194874,6 @@ species {
     level {
       level: 56
       move: MOVE_LAST_RESPECTS
-      move: MOVE_ARC_BLAST
     }
     tutor: MOVE_CONFUSE_RAY
     tutor: MOVE_CURSE
