@@ -16963,6 +16963,27 @@ trainer {
       move: MOVE_PSYCHIC
       move: MOVE_HEX
     }
+    # TODO: Tailwind on player miss
+    inline_skill {
+      name: "Bright Powder"
+      extra_item {
+        item: ITEM_BRIGHT_POWDER
+        strength: 10
+      }
+    }
+    inline_skill {
+      name: "Acupressure"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuse Acupressure on turn end!"
+      on {
+        end_turn {
+        }
+        effect {
+          use_move {
+            move: MOVE_ACUPRESSURE
+          }
+        }
+      }
+    }
   }
 }
 trainer {
@@ -58574,6 +58595,19 @@ trainer {
         side: PLAYER
       }
     }
+    inline_skill {
+      name: "Gust"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nblows a gust of wind!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_GUST
+          }
+        }
+        faint {
+        }
+      }
+    }
   }
 }
 trainer {
@@ -58797,6 +58831,7 @@ trainer {
       move: MOVE_DRAGON_ASCENT
       move: MOVE_EARTHQUAKE
     }
+    # TODO: All skills lol
   }
 }
 trainer {
@@ -62533,6 +62568,48 @@ trainer {
       move: MOVE_WATER_GUN
       move: MOVE_AGILITY
     }
+    inline_skill {
+      name: "Rainbow"
+      announce_string: "A rainbow appears in the sky over \\n{B_TRAINER1_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: RAINBOW
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Tailwind"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Tailwind!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_TAILWIND
+          }
+        }
+        switch_out {
+        }
+        side: PLAYER
+      }
+    }
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
+    }
   }
 }
 trainer {
@@ -62753,6 +62830,23 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_THUNDER
     }
+    # TODO: Player gets lagging tail
+    inline_skill {
+      name: "Perma Rain"
+      announce_string: "The rain pours."
+      on {
+        entry {
+        }
+        effect {
+          weather {
+            weather: WEATHER_RAIN
+            permanent: true
+          }
+        }
+      }
+    }
+    # Skill says up highest stat in Rain, Sea Guardian close enough (?) but weaker since only entry
+    inline_skill { extra_ability: ABILITY_SEA_GUARDIAN }
   }
 }
 trainer {
@@ -76394,6 +76488,43 @@ trainer {
       move: MOVE_EARTHQUAKE
       move: MOVE_ROOST
       move: MOVE_ZEPHYR_RUSH
+    }
+    inline_skill {
+      name: "Stat Swap"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nswitches stats with {B_PLAYER_NAME}'s Pok\303\251mon!"
+      on {
+        entry {
+        }
+        effect {
+          use_move {
+            move: MOVE_POWER_SWAP
+          }
+        }
+        effect {
+          use_move {
+            move: MOVE_GUARD_SWAP
+          }
+        }
+        effect {
+          use_move {
+            move: MOVE_SPEED_SWAP
+          }
+        }
+      }
+    }
+    inline_skill {
+      name: "Block"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nwon\'t let you go!"
+      on {
+        end_turn {
+          every: 2
+        }
+        effect {
+          use_move {
+            move: MOVE_BLOCK
+          }
+        }
+      }
     }
   }
 }
@@ -90436,6 +90567,35 @@ trainer {
       move: MOVE_SHADOW_CLAW
       move: MOVE_LEAF_BLADE
     }
+    inline_skill {
+      name: "Caltrops + Toxic Spikes"
+      announce_string: "Caltrops and toxic spikes\\nspread around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: CALTROPS
+            type: TOXIC_SPIKES
+            who: FOE
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    # TODO: Check what exactly the Red Card skill description in the doc is referring to?
+    inline_skill {
+      name: "Red Card"
+      on {
+        effect {
+          use_move {
+            move: MOVE_ROAR
+          }
+        }
+        hit {
+        }
+      }
+    }
   }
 }
 trainer {
@@ -90660,6 +90820,7 @@ trainer {
       move: MOVE_BODY_PRESS
       move: MOVE_SUCKER_PUNCH
     }
+    # TODO: All skills
   }
 }
 trainer {
@@ -107875,8 +108036,7 @@ trainer {
         }
         effect {
           use_move {
-            move: MOVE_BUBBLE
-            power: 10
+            move: MOVE_FIRE_SPIN
           }
         }
       }
@@ -108291,6 +108451,7 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_DRAGON_PULSE
     }
+    # TODO: All skills
   }
 }
 trainer {
@@ -108512,6 +108673,54 @@ trainer {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_NASTY_PLOT
       move: MOVE_FLAME_BURST
+    }
+    inline_skill {
+      name: "Cosmic Power"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nuses Cosmic Power on hit!"
+      on {
+        effect {
+          use_move {
+            move: MOVE_COSMIC_POWER
+          }
+        }
+        hit {
+        }
+      }
+    }
+    inline_skill {
+      name: "Toxic Spikes"
+      announce_string: "Two layers of Toxic Spikes scatter on the\\nground around {B_PLAYER_NAME}\'s team!"
+      on {
+        effect {
+          side_condition {
+            type: TOXIC_SPIKES
+            who: FOE
+            layers: 2
+            permanent: true
+          }
+        }
+        battle_start {
+        }
+      }
+    }
+    inline_skill {
+      name: "Omniboost"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\ngains a +2 omniboost!"
+      on {
+        entry {
+          when: LAST
+        }
+        effect {
+          stat_change {
+            stat: STAT_ATK
+            stat: STAT_DEF
+            stat: STAT_SPATK
+            stat: STAT_SPDEF
+            stat: STAT_SPEED
+            amount: 2
+          }
+        }
+      }
     }
   }
 }
