@@ -16963,7 +16963,6 @@ trainer {
       move: MOVE_PSYCHIC
       move: MOVE_HEX
     }
-    # TODO: Tailwind on player miss
     inline_skill {
       name: "Bright Powder"
       extra_item {
@@ -36565,6 +36564,7 @@ trainer {
       nature: NATURE_MODEST
       ability: ABILITY_RHYTHMIC
       hp_ev: 4
+      spatk_ev: 252
       spe_ev: 252
       move: MOVE_OVERDRIVE
       move: MOVE_SNARL
@@ -37700,6 +37700,8 @@ trainer {
       move: MOVE_SHEER_COLD
       move: MOVE_BITTER_MALICE
       move: MOVE_DOUBLE_TEAM
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_FIGHTING
     }
   }
   elite {
@@ -38160,59 +38162,60 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR
   ace {
     mon {
-      species: SPECIES_WALKING_WAKE
-      item: ITEM_CHOICE_SPECS
-      nature: NATURE_MODEST
-      ability: ABILITY_DROUGHT
-      hp_ev: 36
-      spatk_ev: 252
-      spe_ev: 220
-      move: MOVE_HYDRO_STEAM
-      move: MOVE_DRACO_METEOR
-      move: MOVE_SOLAR_BEAM
-      move: MOVE_OVERHEAT
-    }
-    mon {
-      species: SPECIES_FUJIFLAP
-      item: ITEM_YACHE_BERRY
+      species: SPECIES_DEWGONG_REDUX
+      item: ITEM_EVIOLITE
       nature: NATURE_JOLLY
-      ability: ABILITY_HUSTLE
+      ability: ABILITY_COLD_REBOUND
+      hp_ev: 4
       atk_ev: 252
       spe_ev: 252
-      move: MOVE_DRAGON_CLAW
-      move: MOVE_GRAV_APPLE
-      move: MOVE_POISON_JAB
-      move: MOVE_WING_ATTACK
+      move: MOVE_ICICLE_IMPALE
+      move: MOVE_DRAGON_RUSH
+      move: MOVE_LIQUIDATION
+      move: MOVE_DRILL_RUN
     }
     mon {
-      species: SPECIES_REGIDRAGO
-      item: ITEM_DRAGON_FANG
-      nature: NATURE_TIMID
-      ability: ABILITY_PREDATOR
-      hp_ev: 4
+      species: SPECIES_DRAGALGE
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_MODEST
+      ability: ABILITY_CONTRARY
+      hp_ev: 252
       spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_DRAGON_ENERGY
-      move: MOVE_DRAGON_PULSE
-      move: MOVE_MYSTIC_DANCE
-      move: MOVE_SEARING_SHOT
+      spe_ev: 4
+      move: MOVE_SLUDGE_WAVE
+      move: MOVE_CLANGING_SCALES
+      move: MOVE_THUNDERBOLT
+      move: MOVE_DRAGON_BREATH
     }
     mon {
-      species: SPECIES_KYUREM_BLACK
-      item: ITEM_HEAVY_DUTY_BOOTS
-      nature: NATURE_JOLLY
-      ability: ABILITY_REFRIGERATE
+      species: SPECIES_GOUGING_FIRE
+      item: ITEM_LIFE_ORB
+      nature: NATURE_ADAMANT
+      ability: ABILITY_FEARMONGER
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_SACRED_FIRE
+      move: MOVE_BREAKING_SWIPE
+      move: MOVE_EARTHQUAKE
+    }
+    mon {
+      species: SPECIES_WHISCASH
+      item: ITEM_WIDE_LENS
+      nature: NATURE_ADAMANT
+      ability: ABILITY_UNAWARE
+      hp_ev: 252
       atk_ev: 252
       def_ev: 4
-      spe_ev: 252
-      move: MOVE_ZEN_HEADBUTT
-      move: MOVE_FUSION_BOLT
-      move: MOVE_EARTHQUAKE
-      move: MOVE_SLASH
+      move: MOVE_TRIPLE_DIVE
+      move: MOVE_SMITE
+      move: MOVE_FISSURE
+      move: MOVE_SWALLOW
     }
     mon {
       species: SPECIES_ARCHALUDON
-      item: ITEM_POWER_HERB
+      item: ITEM_WISE_GLASSES
       nature: NATURE_TIMID
       ability: ABILITY_LIGHT_METAL
       hp_ev: 4
@@ -38220,21 +38223,21 @@ trainer {
       spe_ev: 252
       move: MOVE_STEEL_BEAM
       move: MOVE_DRAGON_PULSE
-      move: MOVE_ELECTRO_SHOT
+      move: MOVE_FOCUS_BLAST
       move: MOVE_DARK_PULSE
     }
     mon {
-      species: SPECIES_MACHAMP_REDUX
-      item: ITEM_MACHAMPITE_R
-      nature: NATURE_MODEST
-      ability: ABILITY_REGENERATOR
+      species: SPECIES_SALAMENCE
+      item: ITEM_SALAMENCITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_ANGER_POINT
       hp_ev: 252
-      def_ev: 4
-      spatk_ev: 252
-      move: MOVE_SKY_UPPERCUT
-      move: MOVE_BULLET_PUNCH
-      move: MOVE_DRAIN_PUNCH
-      move: MOVE_DRAGON_HAMMER
+      atk_ev: 128
+      spe_ev: 128
+      move: MOVE_DOUBLE_EDGE
+      move: MOVE_EARTHQUAKE
+      move: MOVE_ROOST
+      move: MOVE_DRAGON_DANCE
     }
   }
   elite {
@@ -41396,6 +41399,8 @@ trainer {
       move: MOVE_RAZOR_WIND
       move: MOVE_ENERGY_BALL
       move: MOVE_EARTH_POWER
+      move: MOVE_HIDDEN_POWER
+      hidden_power_type: TYPE_FIGHTING
     }
     mon {
       species: SPECIES_SKARMORY_REDUX
@@ -58831,7 +58836,6 @@ trainer {
       move: MOVE_DRAGON_ASCENT
       move: MOVE_EARTHQUAKE
     }
-    # TODO: All skills lol
   }
 }
 trainer {
@@ -62830,7 +62834,6 @@ trainer {
       move: MOVE_EARTH_POWER
       move: MOVE_THUNDER
     }
-    # TODO: Player gets lagging tail
     inline_skill {
       name: "Perma Rain"
       announce_string: "The rain pours."
@@ -62845,8 +62848,9 @@ trainer {
         }
       }
     }
-    # Skill says up highest stat in Rain, Sea Guardian close enough (?) but weaker since only entry
-    inline_skill { extra_ability: ABILITY_SEA_GUARDIAN }
+    inline_skill {
+      extra_ability: ABILITY_SEA_GUARDIAN
+    }
   }
 }
 trainer {
@@ -76491,7 +76495,7 @@ trainer {
     }
     inline_skill {
       name: "Stat Swap"
-      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nswitches stats with {B_PLAYER_NAME}'s Pok\303\251mon!"
+      announce_string: "{B_TRAINER1_NAME}\'s Pok\303\251mon\\nswitches stats with {B_PLAYER_NAME}\'s Pok\303\251mon!"
       on {
         entry {
         }
@@ -90583,7 +90587,6 @@ trainer {
         }
       }
     }
-    # TODO: Check what exactly the Red Card skill description in the doc is referring to?
     inline_skill {
       name: "Red Card"
       on {
@@ -90820,7 +90823,6 @@ trainer {
       move: MOVE_BODY_PRESS
       move: MOVE_SUCKER_PUNCH
     }
-    # TODO: All skills
   }
 }
 trainer {
@@ -108451,7 +108453,6 @@ trainer {
       move: MOVE_VOLT_SWITCH
       move: MOVE_DRAGON_PULSE
     }
-    # TODO: All skills
   }
 }
 trainer {
