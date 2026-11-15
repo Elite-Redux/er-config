@@ -6457,5 +6457,5 @@ ability {
 ability {
   id: ABILITY_MAGIC_BLANKET
   name: "Magic Blanket"
-  description: "At the end of your turn use Inverse Room."
+  description: "End of turn use Inverse Room."
 }
