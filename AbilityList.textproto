@@ -6448,3 +6448,8 @@ ability {
   description: "Attacks hit the foe's lower defense."
   expanded_description: "The user's attacks target whichever of the foe's Defense and Sp. Def is lower."
 }
+ability {
+  id: ABILITY_POWER_HORNS
+  name: "Power Horns"
+  description: "Horn moves target Special Defense and get a 1.3x boost." 
+}
