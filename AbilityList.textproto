@@ -6453,3 +6453,9 @@ ability {
   name: "Power Horns"
   description: "Horn moves target Special Defense and get a 1.3x boost." 
 }
+
+ability {
+  id: ABILITY_MAGIC_BLANKET
+  name: "Magic Blanket"
+  description: "At the end of your turn use Inverse Room."
+}
