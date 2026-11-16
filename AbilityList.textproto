@@ -6483,3 +6483,8 @@ ability {
   name: "Electric Current"
   description: "Static + Grip Pincer"
 }
+ability {
+  id: ABILITY_CRASHOUT
+  name: "Crashout"
+  description: "5% chance to use Explosion when hit"
+}
