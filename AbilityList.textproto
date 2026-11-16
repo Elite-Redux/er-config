@@ -6488,8 +6488,13 @@ ability {
   name: "Crashout"
   description: "5% chance to use Explosion when hit"
 }
-ability{
+ability {
   id: ABILITY_BEACHBALL
   name: "Beachball"
   description: "Take 0.5x dmg and +1 Speed when hit by Fighting-types moves."
+}
+ability {
+  id: ABILITY_PUFFED_OUT
+  name: "Puffed Out"
+  description: "At 1/2 of max HP or below, transforms into Inflated form."
 }
