@@ -200248,7 +200248,7 @@ species {
   innate: ABILITY_BRAIN_FREEZE
   innate: ABILITY_PERMAFROST
   innate: ABILITY_CLEAR_BODY
-  percent_female: 50
+  genderless: true
   tier: 3
   evo {
     to: SPECIES_METANG_REDUX
@@ -200310,7 +200310,7 @@ species {
   innate: ABILITY_BRAIN_FREEZE
   innate: ABILITY_PERMAFROST
   innate: ABILITY_PSYCHIC_MIND
-  percent_female: 50
+  genderless: true
   tier: 3
   evo {
     to: SPECIES_METAGROSS_REDUX
@@ -200444,7 +200444,7 @@ species {
   innate: ABILITY_BRAIN_FREEZE
   innate: ABILITY_PERMAFROST
   innate: ABILITY_MAGICAL_FISTS
-  percent_female: 50
+  genderless: true
   tier: 3
   learnset {
     level {
@@ -200580,7 +200580,7 @@ species {
   innate: ABILITY_BLUESCREEN
   innate: ABILITY_MAGICAL_FISTS
   innate: ABILITY_CRYOMANCY
-  percent_female: 50
+  genderless: true
   tier: 3
   mega {
     from: SPECIES_METAGROSS_REDUX
@@ -201945,6 +201945,143 @@ species {
     }
     palette: "camoudon/normal"
     shiny: "camoudon/shiny"
+  }
+}
+species {
+  id: SPECIES_MINIOR_REDUX
+  form_of: SPECIES_MINIOR
+  type: TYPE_WATER
+  type2: TYPE_FLYING
+  hp: 120
+  atk: 60
+  def: 70
+  spatk: 70
+  spdef: 80
+  spe: 40
+  ability: ABILITY_PICKUP
+  ability: ABILITY_RETRIEVER
+  ability: ABILITY_PERMAFROST_CLONE
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_VOLT_ABSORB
+  innate: ABILITY_INFLATABLE
+  genderless: true
+  no_flip: true
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FROST_BRAND
+    }
+    level {
+      level: 17
+      move: MOVE_SKETCH
+    }
+    level {
+      level: 24
+      move: MOVE_BIND
+    }
+    level {
+      level: 37
+      move: MOVE_ICICLE_SPEAR
+    }
+    level {
+      level: 46
+      move: MOVE_TRIPLE_AXEL
+    }
+    level {
+      level: 51
+      move: MOVE_GIGATON_HAMMER
+    }
+    level {
+      level: 56
+      move: MOVE_DRAGON_HAMMER
+    }
+    level {
+      level: 61
+      move: MOVE_KOWTOW_CLEAVE
+    }
+    level {
+      level: 71
+      move: MOVE_SCRATCH
+    }
+    level {
+      level: 81
+      move: MOVE_TACKLE
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
+    tutor: MOVE_BUBBLE
+  }
+  visuals {
+    icon {
+      path: "minior/redux/icon"
+    }
+    front {
+      path: "minior/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "minior/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "minior/redux/normal"
+    shiny: "minior/redux/shiny"
+  }
+}
+
+species {
+  id: SPECIES_MINIOR_REDUX_INFLATE
+  form_of: SPECIES_MINIOR_REDUX
+  type: TYPE_WATER
+  type2: TYPE_FLYING
+  hp: 120
+  atk: 60
+  def: 65
+  spatk: 90
+  spdef: 105
+  spe: 60
+  ability: ABILITY_MAGIC_BOUNCE
+  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_BLUR
+  innate: ABILITY_TECHNICIAN
+  innate: ABILITY_WIND_RIDER
+  innate: ABILITY_BEACHBALL
+  genderless: true
+  tier: 3
+  uses_learnset: SPECIES_MINIOR_REDUX
+  visuals {
+    icon {
+      path: "minior/inflated/icon"
+    }
+    front {
+      path: "minior/inflated/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "minior/inflated/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "minior/inflated/normal"
+    shiny: "minior/inflated/shiny"
+  }
+  battle_form {
+    of: SPECIES_MINIOR_REDUX
   }
 }
 species {
