@@ -6140,8 +6140,8 @@ ability {
 }
 
 ability {
-  id: ABILITY_INSECTEATER
-  name: "Insectivores"
+  id: ABILITY_INSECTIVORE
+  name: "Insectivore"
 description: "Deal 1.5x dmg to Bug-types. Take 0.5x dmg from Bug-types."
 expanded_description: "Deals 1.5x damage to Bug-type Pokemon and takes 0.5x damage when attacked by Bug-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
@@ -6477,4 +6477,9 @@ ability {
   id: ABILITY_HIGH_TEMPERATURE
   name: "High Temperature"
   description: "Deal 1.5x dmg to Steel-types. Take 0.5x dmg from Steel-types."
+}
+ability {
+  id: ABILITY_ELECTRIC_CURRENT
+  name: "Electric Current"
+  description: "Static + Grip Pincer"
 }
