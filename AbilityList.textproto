@@ -6488,3 +6488,8 @@ ability {
   name: "Crashout"
   description: "5% chance to use Explosion when hit"
 }
+ability{
+  id: ABILITY_BEACHBALL
+  name: "Beachball"
+  description: "Take 0.5x dmg from Fighting-types moves. Increase Speed by one when hit by one."
+}
