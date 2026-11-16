@@ -6459,3 +6459,9 @@ ability {
   name: "Magic Blanket"
   description: "End of turn use Inverse Room."
 }
+
+ability {
+  id: ABILITY_RABBIT_HAT
+  name: "Rabbit Hat"
+  description: "At 1/3 of max HP or below, instantly switches out."
+}
