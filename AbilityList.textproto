@@ -6141,7 +6141,7 @@ ability {
 
 ability {
   id: ABILITY_INSECTEATER
-  name: "Insect Eater"
+  name: "Insectivores"
 description: "Deal 1.5x dmg to Bug-types. Take 0.5x dmg from Bug-types."
 expanded_description: "Deals 1.5x damage to Bug-type Pokemon and takes 0.5x damage when attacked by Bug-type Pokemon. Based on attacker/defender Pokemon types, not move types. The damage reduction is multiplicative with other sources."
 }
@@ -6453,27 +6453,28 @@ ability {
   name: "Power Horns"
   description: "Horn moves target Special Defense and get a 1.3x boost." 
 }
-
 ability {
   id: ABILITY_MAGIC_BLANKET
   name: "Magic Blanket"
   description: "End of turn use Inverse Room."
 }
-
 ability {
   id: ABILITY_RABBIT_HAT
   name: "Rabbit Hat"
   description: "At 1/3 of max HP or below, use Teleport."
 }
-
 ability {
   id: ABILITY_HOCUS
   name: "Hocus"
   description: "Take 50% less damage if an ally Pokémon has Hocus or Pocus."
 }
-
 ability {
   id: ABILITY_POCUS
   name: "Pocus"
   description: "Take 50% less damage if an ally Pokémon has Hocus or Pocus."
+}
+ability {
+  id: ABILITY_HIGH_TEMPERATURE
+  name: "High Temperature"
+  description: "Deal 1.5x dmg to Steel-types. Take 0.5x dmg from Steel-types."
 }
