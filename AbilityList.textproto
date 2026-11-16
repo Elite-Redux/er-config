@@ -6493,3 +6493,8 @@ ability{
   name: "Beachball"
   description: "Take 0.5x dmg from Fighting-types moves. Increase Speed by one when hit by one."
 }
+ability{
+  id: ABILITY_PUFFED_OUT
+  name: "Puffed Out"
+  description: "At 1/2 of max HP or below, transforms into Inflated form"
+}
