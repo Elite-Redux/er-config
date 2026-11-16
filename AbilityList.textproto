@@ -6463,5 +6463,5 @@ ability {
 ability {
   id: ABILITY_RABBIT_HAT
   name: "Rabbit Hat"
-  description: "At 1/3 of max HP or below, instantly switches out."
+  description: "At 1/3 of max HP or below, use Teleport."
 }
