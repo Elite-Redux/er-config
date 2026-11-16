@@ -6491,5 +6491,5 @@ ability {
 ability{
   id: ABILITY_BEACHBALL
   name: "Beachball"
-  description: "Take 0.5x dmg from Fighting-types moves. Increase Speed by one when hit by one."
+  description: "Take 0.5x dmg and +1 Speed when hit by Fighting-types moves."
 }

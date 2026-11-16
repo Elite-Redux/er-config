@@ -5072,7 +5072,7 @@ moves {
   id: MOVE_CRUSH_CLAW
   name: "Crush Claw"
   short_name: "Crush Claw"
-  description: "The foe is attacked with sharp claws. 50% chance to lower foe\'s Defense. Ignore abilties."
+  description: "Attacks with sharp claws. 50% chance to lower Defense. Ignores abilities."
   short_description: "Ignores abilties. May lower Defense."
   effect: EFFECT_DEFENSE_DOWN_HIT
   split: PHYSICAL
