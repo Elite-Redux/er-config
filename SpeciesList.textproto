@@ -152754,7 +152754,6 @@ species {
       level: 37
       move: MOVE_PARTING_SHOT
       move: MOVE_THROAT_CHOP
-      move: MOVE_CROSS_POISON
     }
     level {
       level: 46
