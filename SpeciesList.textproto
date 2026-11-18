@@ -202409,7 +202409,7 @@ species {
     palette: "plusle/redux/normal"
     shiny: "plusle/redux/shiny"
   }
-  adoption: 2
+  adoption_center_badge: 2
 }
 species {
   id: SPECIES_AERODACTYL_REDUX
