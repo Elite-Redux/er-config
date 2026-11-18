@@ -99,7 +99,7 @@ ability {
 ability {
   id: ABILITY_COLOR_CHANGE
   name: "Color Change"
-  description: "Changes type to a resist or an immunity before getting hit."
+  description: "Changes type to a resist or an immunity before getting hit. Once per turn."
   expanded_description: "Transforms the user into the best defensive type before taking damage. Prioritizes immunities over resistances. Only changes to a pure type. Once per turn."
 }
 ability {
@@ -483,8 +483,8 @@ ability {
 ability {
   id: ABILITY_STEADFAST
   name: "Steadfast"
-  description: "Raises Speed by one stage if this Pokémon flinches."
-  expanded_description: "Getting flinched raises Speed by one stage."
+  description: "Raises Speed by one stage if this Pokémon flinches. Immune to Status"
+  expanded_description: "Getting flinched raises Speed by one stage. Immune to status"
 }
 ability {
   id: ABILITY_SNOW_CLOAK
@@ -3493,7 +3493,7 @@ ability {
 ability {
   id: ABILITY_GALLANTRY
   name: "Gallantry"
-  description: "Gets no damage for first hit."
+  description: "King's Shield on entry."
   expanded_description: "Negates the first instance of damage received. Moves still connect and secondary effects apply, but damage becomes 0."
 }
 ability {
@@ -3973,7 +3973,7 @@ ability {
 ability {
   id: ABILITY_FUNERAL_PYRE
   name: "Funeral Pyre"
-  description: "Non-Ghost and Dark-types take 1/4 damage every turn."
+  description: "Non-Ghost and Dark-types take 1/8 damage every turn."
 }
 ability {
   id: ABILITY_FLAME_BUBBLE
@@ -6250,7 +6250,7 @@ ability {
 ability {
   id: ABILITY_RIPPLING_PUNCH
   name: "Rippling Punch"
-  description: "Punching moves are also Sound moves as well."
+  description: "Punching moves are also Sound moves as well. Sound moves has a 50% chance to lower attack."
 }
 
 ability {
