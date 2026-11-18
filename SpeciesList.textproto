@@ -202017,7 +202017,8 @@ species {
       level: 56
       move: MOVE_RAIN_FLUSH
       move: MOVE_FILLET_AWAY
-    }level {
+    }
+    level {
       level: 61
       move: MOVE_WATER_SPOUT
     }
@@ -202121,6 +202122,289 @@ species {
   }
   battle_form {
     of: SPECIES_MINIOR_REDUX
+  }
+}
+species {
+  id: SPECIES_MINUN_REDUX
+  form_of: SPECIES_MINUN
+  type: TYPE_PSYCHIC
+  type2: TYPE_FAIRY
+  hp: 61
+  atk: 69
+  def: 96
+  spatk: 74
+  spdef: 73
+  spe: 72
+  ability: ABILITY_MAGIC_BLANKET
+  ability: ABILITY_DREAM_WHIMSY
+  ability: ABILITY_SWEET_DREAMS
+  innate: ABILITY_FOREWARN
+  innate: ABILITY_POCUS
+  innate: ABILITY_INNER_FOCUS
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_MIRACLE_EYE
+      move: MOVE_DISARMING_VOICE
+      move: MOVE_FAIRY_WIND
+      move: MOVE_FAIRY_SPHERES
+      move: MOVE_CUTSIE_SLAP
+    }
+    level {
+      level: 17
+      move: MOVE_IMPRISON
+      move: MOVE_SNATCH
+      move: MOVE_YAWN
+      move: MOVE_CONFUSION
+      move: MOVE_STRANGE_STEAM
+    }
+    level {
+      level: 24
+      move: MOVE_ROLE_PLAY
+      move: MOVE_PERISH_SONG
+      move: MOVE_MAGIC_COAT
+      move: MOVE_PAYBACK
+      move: MOVE_FUTURE_SIGHT
+      move: MOVE_PAIN_SPLIT
+    }
+    level {
+      level: 37
+      move: MOVE_MAGIC_ROOM
+      move: MOVE_INSTRUCT
+      move: MOVE_TELEPORT
+      move: MOVE_SWAGGER
+      move: MOVE_TRUMP_CARD
+      move: MOVE_MISTY_EXPLOSION
+    }
+    level {
+      level: 46
+      move: MOVE_HEAL_PULSE
+      move: MOVE_ASSURANCE
+      move: MOVE_SPIRIT_BREAK
+      move: MOVE_WONDER_ROOM
+      move: MOVE_HYPNOSIS
+      move: MOVE_EXPANDING_FORCE
+    }
+    level {
+      level: 51
+      move: MOVE_SHOWTIME
+      move: MOVE_MIND_READER
+      move: MOVE_TRANSMUTE
+      move: MOVE_DREAM_EATER
+    }
+    level {
+      level: 56
+      move: MOVE_HEALING_WISH
+      move: MOVE_MEMENTO
+      move: MOVE_WISH
+      move: MOVE_SPARKLY_SWIRL
+    }
+    level {
+      level: 61
+      move: MOVE_DRAIN_BRAIN
+    }
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_COVET
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_MIST
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_PSYCHO_CUT
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_WIDE_GUARD
+  }
+  visuals {
+    icon {
+      path: "minun/redux/icon"
+    }
+    front {
+      path: "minun/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "minun/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "minun/redux/normal"
+    shiny: "minun/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_PLUSLE_REDUX
+  form_of: SPECIES_PLUSLE
+  type: TYPE_PSYCHIC
+  type2: TYPE_DARK
+  hp: 61
+  atk: 69
+  def: 73
+  spatk: 74
+  spdef: 96
+  spe: 72
+  ability: ABILITY_RABBIT_HAT
+  ability: ABILITY_TRICKSTER
+  ability: ABILITY_PASTEL_VEIL
+  innate: ABILITY_MAGICIAN
+  innate: ABILITY_HOCUS
+  innate: ABILITY_MAGICAL_DUST
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_MAGIC_POWDER
+      move: MOVE_TELEPORT
+      move: MOVE_DISARMING_VOICE
+      move: MOVE_NIGHT_DAZE
+      move: MOVE_FLING
+      move: MOVE_CUTSIE_SLAP
+    }
+    level {
+      level: 17
+      move: MOVE_IMPRISON
+      move: MOVE_SNATCH
+      move: MOVE_BESTOW
+      move: MOVE_CONFUSION
+      move: MOVE_STRANGE_STEAM
+    }
+    level {
+      level: 24
+      move: MOVE_ROLE_PLAY
+      move: MOVE_POWER_SPLIT
+      move: MOVE_GUARD_SPLIT
+      move: MOVE_PAYBACK
+      move: MOVE_FUTURE_SIGHT
+      move: MOVE_PAIN_SPLIT
+    }
+    level {
+      level: 37
+      move: MOVE_POWER_TRICK
+      move: MOVE_INSTRUCT
+      move: MOVE_INVERSE_ROOM
+      move: MOVE_FLATTER
+      move: MOVE_TRUMP_CARD
+      move: MOVE_MISTY_EXPLOSION
+    }
+    level {
+      level: 46
+      move: MOVE_HEAL_PULSE
+      move: MOVE_ASSURANCE
+      move: MOVE_POWER_SWAP
+      move: MOVE_GUARD_SWAP
+      move: MOVE_SPEED_SWAP
+      move: MOVE_EXPANDING_FORCE
+    }
+    level {
+      level: 51
+      move: MOVE_SHOWTIME
+      move: MOVE_MIND_READER
+      move: MOVE_TRANSMUTE
+      move: MOVE_ESPER_WALTZ
+    }
+    level {
+      level: 56
+      move: MOVE_HEALING_WISH
+      move: MOVE_MEMENTO
+      move: MOVE_WISH
+      move: MOVE_OBSCURED_SHOT
+    }
+    level {
+      level: 61
+      move: MOVE_KINESIS
+    }
+    tutor: MOVE_ATTRACT
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_COVET
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_EERIE_SPELL
+    tutor: MOVE_FOUL_PLAY
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_HEAL_BLOCK
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_KNOCK_OFF
+    tutor: MOVE_LIFE_DEW
+    tutor: MOVE_MIND_BREAK
+    tutor: MOVE_MIST
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_MIRACLE_EYE
+    tutor: MOVE_MIRROR_COAT
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_PSYCHIC
+    tutor: MOVE_PSYCHIC_TERRAIN
+    tutor: MOVE_PSYCHO_CUT
+    tutor: MOVE_PSYSHOCK
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_SAFEGUARD
+    tutor: MOVE_SKILL_SWAP
+    tutor: MOVE_SPOTLIGHT
+    tutor: MOVE_TAUNT
+    tutor: MOVE_TRICK
+    tutor: MOVE_TRICK_ROOM
+    tutor: MOVE_WIDE_GUARD
+  }
+  visuals {
+    icon {
+      path: "plusle/redux/icon"
+    }
+    front {
+      path: "plusle/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "plusle/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "plusle/redux/normal"
+    shiny: "plusle/redux/shiny"
   }
 }
 species {
