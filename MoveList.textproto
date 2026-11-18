@@ -2427,7 +2427,7 @@ moves {
   id: MOVE_SKY_ATTACK
   name: "Sky Attack"
   short_name: "Sky Attack"
-  description: "Raises its Attack on the first turn, then makes a brutal strike on the second."
+  description: "A second-turn attack move with a high critical-hit ratio. The foe may flinch."
   short_description: "Searches out weak spots, then strikes the next turn."
   effect: EFFECT_TWO_TURN_SECONDARY
   split: PHYSICAL
@@ -2438,10 +2438,12 @@ moves {
   pp: 5
   argument {
     effect {
-      effect: MOVE_EFFECT_ATK_PLUS_1
-      affects_user: true
+      effect: MOVE_EFFECT_FLINCH
+      target: SELECTED
     }
   }
+  crit: HIGH
+  effect_chance: 30
   contact: true
   mirror_move_affected: true
 }

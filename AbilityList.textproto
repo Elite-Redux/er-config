@@ -5239,7 +5239,7 @@ ability {
 ability {
   id: ABILITY_ENERGY_TAP
   name: "Energy Tap"
-  description: "Heals the user for 1/8 of the damage they deal."
+  description: "Heals the user for 1/6 of the damage they deal."
   expanded_description: "Heals the user for 1/8 of all damage they deal to opponents. Healing occurs immediately after damage is dealt. Minimum healing of 1 HP."
 }
 ability {
@@ -6280,7 +6280,7 @@ ability {
 ability {
   id: ABILITY_BLINKING_FLASH
   name: "Blinking Flash"
-  description: "Light moves have a 10% chance to lower accuracy."
+  description: "Light moves have a 25% chance to lower accuracy."
 }
 
 ability {

@@ -184490,7 +184490,7 @@ species {
   ability: ABILITY_LIGHTNING_ROD
   innate: ABILITY_TOXIC_DEBRIS
   innate: ABILITY_PETAL_SHIELD
-  innate: ABILITY_ACCELERATE
+  innate: ABILITY_SOLID_ROCK
   percent_female: 50
   mega {
     from: SPECIES_GLIMMORA
