@@ -202572,6 +202572,410 @@ species {
   }
 }
 species {
+  id: SPECIES_PICHU_REDUX
+  form_of: SPECIES_PICHU
+  type: TYPE_FLYING
+  hp: 30
+  atk: 30
+  def: 15
+  spatk: 40
+  spdef: 45
+  spe: 50
+  ability: ABILITY_WIND_RIDER
+  ability: ABILITY_SUPER_LUCK
+  ability: ABILITY_SYNCHRONIZE
+  innate: ABILITY_FLOCK
+  innate: ABILITY_GUILT_TRIP
+  innate: ABILITY_ENCHANTED
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_PIKACHU_REDUX
+    level: 10
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FLOATY_FALL
+      move: MOVE_DISARMING_VOICE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_ENCORE
+    }
+    level {
+      level: 17
+      move: MOVE_FAKE_OUT
+      move: MOVE_WISH
+      move: MOVE_FLATTER
+      move: MOVE_TRI_ATTACK
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_FAIRY_WIND
+      move: MOVE_RAZOR_WIND
+      move: MOVE_ENTRAINMENT
+      move: MOVE_ROUND
+    }
+    level {
+      level: 37
+      move: MOVE_HEAL_BELL
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ALLURING_VOICE
+    }
+    level {
+      level: 46
+      move: MOVE_SING
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_GLITTER_BEAM
+      move: MOVE_LUSTER_GLOW
+    }
+    level {
+      level: 51
+      move: MOVE_BOOMBURST
+      move: MOVE_HEALING_WISH
+    }
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CHARM
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DEFOG
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_FLY
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_ROOST
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SAFE_PASSAGE
+   }
+  visuals {
+    icon {
+      path: "pichu/redux/icon"
+    }
+    front {
+      path: "pichu/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "pichu/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "pichu/redux/normal"
+    shiny: "pichu/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_PIKACHU_REDUX
+  form_of: SPECIES_PIKACHU
+  type: TYPE_FLYING
+  hp: 45
+  atk: 66
+  def: 39
+  spatk: 53
+  spdef: 52
+  spe: 75
+  ability: ABILITY_WIND_RIDER
+  ability: ABILITY_CLOUD_NINE
+  ability: ABILITY_PIXILATE
+  innate: ABILITY_PURE_POWER
+  innate: ABILITY_PASTEL_VEIL
+  innate: ABILITY_ENCHANTED
+  percent_female: 50
+  tier: 3
+  evo {
+    to: SPECIES_RAICHU_REDUX
+    level: 30
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FLOATY_FALL
+      move: MOVE_DISARMING_VOICE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_SIMPLE_BEAM
+      move: MOVE_ENCORE
+    }
+    level {
+      level: 17
+      move: MOVE_FAKE_OUT
+      move: MOVE_WISH
+      move: MOVE_FLATTER
+      move: MOVE_TRI_ATTACK
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_FAIRY_WIND
+      move: MOVE_RAZOR_WIND
+      move: MOVE_ENTRAINMENT
+      move: MOVE_ROUND
+    }
+    level {
+      level: 37
+      move: MOVE_HEAL_BELL
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ALLURING_VOICE
+    }
+    level {
+      level: 46
+      move: MOVE_SING
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_GLITTER_BEAM
+      move: MOVE_LUSTER_GLOW
+    }
+    level {
+      level: 51
+      move: MOVE_BOOMBURST
+      move: MOVE_HEALING_WISH
+    }
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CHARM
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DEFOG
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_FLY
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_ROOST
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SAFE_PASSAGE
+   }
+  visuals {
+    icon {
+      path: "pikachu/redux/icon"
+    }
+    front {
+      path: "pikachu/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "pikachu/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "pikachu/redux/normal"
+    shiny: "pikachu/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_RAICHU_REDUX
+  form_of: SPECIES_RAICHU
+  type: TYPE_FLYING
+  type2: TYPE_FAIRY
+  hp: 73
+  atk: 60
+  def: 55
+  spatk: 100
+  spdef: 80
+  spe: 122
+  ability: ABILITY_WIND_RIDER
+  ability: ABILITY_DETERMINATION
+  ability: ABILITY_DAZZLING
+  innate: ABILITY_ENCHANTED
+  innate: ABILITY_PASTEL_VEIL
+  innate: ABILITY_RADIANCE
+  percent_female: 50
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_FLOATY_FALL
+      move: MOVE_DISARMING_VOICE
+      move: MOVE_DOUBLE_SLAP
+      move: MOVE_FOCUS_ENERGY
+      move: MOVE_SIMPLE_BEAM
+      move: MOVE_ENCORE
+    }
+    level {
+      level: 17
+      move: MOVE_FAKE_OUT
+      move: MOVE_WISH
+      move: MOVE_FLATTER
+      move: MOVE_TRI_ATTACK
+      move: MOVE_TICKLE
+    }
+    level {
+      level: 24
+      move: MOVE_FAIRY_WIND
+      move: MOVE_RAZOR_WIND
+      move: MOVE_ENTRAINMENT
+      move: MOVE_ROUND
+      move: MOVE_NATURAL_GIFT
+    }
+    level {
+      level: 37
+      move: MOVE_HEAL_BELL
+      move: MOVE_PAIN_SPLIT
+      move: MOVE_MAGICAL_LEAF
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_ALLURING_VOICE
+    }
+    level {
+      level: 46
+      move: MOVE_SING
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_GLITTER_BEAM
+      move: MOVE_LUSTER_GLOW
+      move: MOVE_MISTY_EXPLOSION
+    }
+    level {
+      level: 51
+      move: MOVE_PERISH_SONG
+      move: MOVE_BOOMBURST
+      move: MOVE_HEALING_WISH
+    }
+    level {
+      level: 56
+      move: MOVE_REVIVAL_BLESSING
+      move: MOVE_FLEUR_CANNON
+      move: MOVE_HEART_SWAP
+    }
+    level {
+      level: 61
+      move: MOVE_JUDGMENT
+    }
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BABY_DOLL_EYES
+    tutor: MOVE_AURA_SPHERE
+    tutor: MOVE_CALM_MIND
+    tutor: MOVE_CHARM
+    tutor: MOVE_DAZZLING_GLEAM
+    tutor: MOVE_DEFOG
+    tutor: MOVE_DRAINING_KISS
+    tutor: MOVE_EXTRASENSORY
+    tutor: MOVE_FLY
+    tutor: MOVE_MISTY_TERRAIN
+    tutor: MOVE_PSYCHIC_NOISE
+    tutor: MOVE_PLAY_ROUGH
+    tutor: MOVE_MOONBLAST
+    tutor: MOVE_PIXIE_BEAM
+    tutor: MOVE_ROOST
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_SWEET_KISS
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_TAKE_FLIGHT
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WING_ATTACK
+    tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_SAFE_PASSAGE
+   }
+  visuals {
+    icon {
+      path: "raichu/redux/icon"
+    }
+    front {
+      path: "raichu/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "raichu/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "raichu/redux/normal"
+    shiny: "raichu/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_RAICHU_MEGA_REDUX
+  form_of: SPECIES_RAICHU
+  type: TYPE_FLYING
+  type2: TYPE_FAIRY
+  hp: 73
+  atk: 77
+  def: 75
+  spatk: 110
+  spdef: 110
+  spe: 145
+  ability: ABILITY_WISHMAKER
+  ability: ABILITY_TERMINAL_VELOCITY
+  ability: ABILITY_DAZZLING
+  innate: ABILITY_CRESTOFHOPE
+  innate: ABILITY_MISTY_SURGE
+  innate: ABILITY_RADIANCE
+  percent_female: 50
+  tier: 3
+  mega {
+    from: SPECIES_RAICHU_REDUX
+    item: ITEM_RAICHUNITE_R
+  }
+  uses_learnset: SPECIES_RAICHU_REDUX
+  visuals {
+    icon {
+      path: "raichu/mr/icon"
+    }
+    front {
+      path: "raichu/mr/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "raichu/mr/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "raichu/mr/normal"
+    shiny: "raichu/mr/shiny"
+  }
+}
+species {
   id: SPECIES_KECLEONG
   form_of: SPECIES_DEWGONG
   type: TYPE_ICE
