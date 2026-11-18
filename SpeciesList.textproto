@@ -29024,7 +29024,7 @@ species {
   spatk: 90
   spdef: 119
   spe: 50
-  ability: ABILITY_ENERGY_TAP
+  ability: ABILITY_SUN_DANCE
   ability: ABILITY_SUNS_BOUNTY
   ability: ABILITY_REGENERATOR
   innate: ABILITY_OWN_TEMPO
@@ -148511,7 +148511,7 @@ species {
   ability: ABILITY_EGOIST
   ability: ABILITY_REGENERATOR
   ability: ABILITY_FRAGRANT_DAZE
-  innate: ABILITY_MULTI_HEADED
+  innate: ABILITY_BIG_APPLE
   innate: ABILITY_SUPERSWEET_SYRUP
   innate: ABILITY_SUPER_HOT_GOO
   percent_female: 50

@@ -6520,3 +6520,13 @@ ability {
   name: "Metachrosis" 
   description: "Changes type to a resist or an immunity before getting hit."
 }
+ability {
+  id: ABILITY_SUN_DANCE
+  name: "Sun Dance"
+  description: "Use Sunny Day after using a Dance move."
+}
+ability {
+  id: ABILITY_BIG_APPLE
+  name: "Big Apple"
+  description: "Multi-Headed + Aroma Veil."
+}
