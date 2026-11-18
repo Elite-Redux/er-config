@@ -5769,9 +5769,9 @@ species {
   ability: ABILITY_FLAMING_SOUL
   ability: ABILITY_SPECTRALIZE
   ability: ABILITY_SET_ABLAZE
-  innate: ABILITY_DROUGHT
-  innate: ABILITY_MAGIC_GUARD
   innate: ABILITY_CURSED_BODY
+  innate: ABILITY_MAGIC_GUARD
+  innate: ABILITY_DROUGHT
   percent_female: 75
   learnset {
     level {
