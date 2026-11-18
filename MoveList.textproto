@@ -2439,7 +2439,6 @@ moves {
   argument {
     effect {
       effect: MOVE_EFFECT_FLINCH
-      target: SELECTED
     }
   }
   crit: HIGH
