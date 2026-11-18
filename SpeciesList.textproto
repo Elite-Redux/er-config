@@ -202058,6 +202058,7 @@ species {
   visuals {
     icon {
       path: "minior/redux/icon"
+      palette: 4
     }
     front {
       path: "minior/redux/front"
@@ -202102,6 +202103,7 @@ species {
   visuals {
     icon {
       path: "minior/inflated/icon"
+      palette: 4
     }
     front {
       path: "minior/inflated/front"
@@ -202982,6 +202984,350 @@ species {
     }
     palette: "raichu/mr/normal"
     shiny: "raichu/mr/shiny"
+  }
+}
+species {
+  id: SPECIES_KLINK_REDUX
+  form_of: SPECIES_KLINK
+  type: TYPE_GRASS
+  type2: TYPE_NORMAL
+  hp: 50
+  atk: 70
+  def: 55
+  spatk: 60
+  spdef: 45
+  spe: 50
+  ability: ABILITY_STURDY
+  ability: ABILITY_UNBURDEN
+  ability: ABILITY_LETS_ROLL
+  innate: ABILITY_RAW_WOOD
+  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_LIMBER
+  genderless: true
+  tier: 3
+  evo {
+    to: SPECIES_KLANG_REDUX
+    level: 23
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WATER_SPORT
+      move: MOVE_BULLET_SEED
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_QUICK_GUARD
+    }
+    level {
+      level: 17
+      move: MOVE_LEAFAGE
+      move: MOVE_TRAILBLAZE
+      move: MOVE_WISH
+    }
+    level {
+      level: 24
+      move: MOVE_RAPID_RIVER
+      move: MOVE_EXPLOSION
+    }
+    level {
+      level: 37
+      move: MOVE_SHIFT_GEAR
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_GEAR_UP
+      move: MOVE_DOUBLE_EDGE
+    }
+    level {
+      level: 46
+      move: MOVE_MEMENTO
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_RAIN_FLUSH
+    }
+    level {
+      level: 51
+      move: MOVE_WAVE_CRASH
+      move: MOVE_YGGDRASIL_FORCE
+    }
+    level {
+      level: 56
+      move: MOVE_EXTREME_SPEED
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_DIG
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CLEAR_SKIES
+   }
+  visuals {
+    icon {
+      path: "klink/redux/icon"
+      palette: 2
+    }
+    front {
+      path: "klink/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "klink/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "klink/redux/normal"
+    shiny: "klink/redux/shiny"
+  }
+  adoption_center_badge: 0
+}
+species {
+  id: SPECIES_KLANG_REDUX
+  form_of: SPECIES_KLANG
+  type: TYPE_GRASS
+  type2: TYPE_NORMAL
+  hp: 60
+  atk: 90
+  def: 74
+  spatk: 90
+  spdef: 65
+  spe: 81
+  ability: ABILITY_STURDY
+  ability: ABILITY_HUSTLE
+  ability: ABILITY_LETS_ROLL
+  innate: ABILITY_RAW_WOOD
+  innate: ABILITY_INNER_FOCUS
+  innate: ABILITY_LIMBER
+  genderless: true
+  tier: 3
+  evo {
+    to: SPECIES_KLIFTOFF
+    level: 36
+  }
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WATER_SPORT
+      move: MOVE_BULLET_SEED
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_QUICK_GUARD
+    }
+    level {
+      level: 17
+      move: MOVE_LEAFAGE
+      move: MOVE_TRAILBLAZE
+      move: MOVE_WISH
+    }
+    level {
+      level: 24
+      move: MOVE_RAPID_RIVER
+      move: MOVE_EXPLOSION
+    }
+    level {
+      level: 37
+      move: MOVE_SHIFT_GEAR
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_GEAR_UP
+      move: MOVE_DOUBLE_EDGE
+    }
+    level {
+      level: 46
+      move: MOVE_MEMENTO
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_RAIN_FLUSH
+    }
+    level {
+      level: 51
+      move: MOVE_WAVE_CRASH
+      move: MOVE_YGGDRASIL_FORCE
+    }
+    level {
+      level: 56
+      move: MOVE_EXTREME_SPEED
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_DIG
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CLEAR_SKIES
+   }
+  visuals {
+    icon {
+      path: "klang/redux/icon"
+      palette: 2
+    }
+    front {
+      path: "klang/redux/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "klang/redux/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "klang/redux/normal"
+    shiny: "klang/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_KLIFTOFF
+  dex {
+    name: "Kliftoff"
+    category: "???"
+    description: "Hi i use this for implementing."
+    national_dex_num: 1213
+    body_color: BODY_COLOR_GREEN
+    egg_group: FIELD
+    egg_group_2: FIELD
+    height: 7
+    weight: 69
+    pokemon_scale: 356
+    trainer_scale: 256
+    pokemon_offset: 17
+  }
+  type: TYPE_GRASS
+  type2: TYPE_FLYING
+  hp: 70
+  atk: 125
+  def: 75
+  spatk: 105
+  spdef: 75
+  spe: 100
+  ability: ABILITY_CRASHOUT
+  ability: ABILITY_AERODYNAMICS
+  ability: ABILITY_AIRBORNE
+  innate: ABILITY_WIND_RIDER
+  innate: ABILITY_RAW_WOOD
+  innate: ABILITY_LIMBER
+  genderless: true
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_WATER_SPORT
+      move: MOVE_BULLET_SEED
+      move: MOVE_DOUBLE_HIT
+      move: MOVE_QUICK_GUARD
+    }
+    level {
+      level: 17
+      move: MOVE_LEAFAGE
+      move: MOVE_FLOATY_FALL
+      move: MOVE_TRAILBLAZE
+      move: MOVE_WISH
+    }
+    level {
+      level: 24
+      move: MOVE_PETAL_BLIZZARD
+      move: MOVE_RAPID_RIVER
+      move: MOVE_GIANT_GALE
+      move: MOVE_EXPLOSION
+    }
+    level {
+      level: 37
+      move: MOVE_SHIFT_GEAR
+      move: MOVE_HIGH_HORSEPOWER
+      move: MOVE_GEAR_UP
+      move: MOVE_DOUBLE_EDGE
+    }
+    level {
+      level: 46
+      move: MOVE_MEMENTO
+      move: MOVE_WOOD_HAMMER
+      move: MOVE_BRAVE_BIRD
+      move: MOVE_RAIN_FLUSH
+    }
+    level {
+      level: 51
+      move: MOVE_LEECH_BLADE
+      move: MOVE_WAVE_CRASH
+      move: MOVE_YGGDRASIL_FORCE
+    }
+    level {
+      level: 56
+      move: MOVE_EXTREME_SPEED
+    }
+    tutor: MOVE_AGILITY
+    tutor: MOVE_ACROBATICS
+    tutor: MOVE_AIR_SLASH
+    tutor: MOVE_AQUA_RING
+    tutor: MOVE_DEFOG
+    tutor: MOVE_FLUTTERING_LEAF
+    tutor: MOVE_DIG
+    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_DRILL_RUN
+    tutor: MOVE_ENERGY_BALL
+    tutor: MOVE_FLY
+    tutor: MOVE_GRASSY_TERRAIN
+    tutor: MOVE_LEAF_TORNADO
+    tutor: MOVE_HURRICANE
+    tutor: MOVE_LEECH_SEED
+    tutor: MOVE_LIQUIDATION
+    tutor: MOVE_RAPID_SPIN
+    tutor: MOVE_RAZOR_LEAF
+    tutor: MOVE_RETALIATE
+    tutor: MOVE_SEED_BOMB
+    tutor: MOVE_SKY_DROP
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_WHIRLWIND
+    tutor: MOVE_WORRY_SEED
+    tutor: MOVE_CREEPING_THORNS
+    tutor: MOVE_CLEAR_SKIES
+   }
+  visuals {
+    icon {
+      path: "kliftoff/icon"
+      palette: 2
+    }
+    front {
+      path: "kliftoff/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "kliftoff/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "kliftoff/normal"
+    shiny: "kliftoff/shiny"
   }
 }
 species {
