@@ -17352,6 +17352,7 @@ moves {
   power: 90
   accuracy: 100
   pp: 10
+  throwing: true
   effect_chance: 20
   mirror_move_affected: true
   uses_animation: MOVE_EXPLOSION
