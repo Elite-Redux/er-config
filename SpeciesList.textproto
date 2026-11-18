@@ -202526,7 +202526,8 @@ species {
 species {
   id: SPECIES_AERODACTYL_MEGA_REDUX
   form_of: SPECIES_AERODACTYL
-  type: TYPE_NORMAL
+  type: TYPE_ELECTRIC
+  type2: TYPE_BUG
   hp: 80
   atk: 134
   def: 89
