@@ -8804,11 +8804,11 @@ species {
   spdef: 80
   spe: 85
   ability: ABILITY_CLOUD_NINE
-  ability: ABILITY_SAGE_POWER
+  ability: ABILITY_SWIFT_SWIM
   ability: ABILITY_DRIZZLE
   innate: ABILITY_WEATHER_CONTROL
-  innate: ABILITY_PSYCHIC_MIND
-  innate: ABILITY_SWIFT_SWIM
+  innate: ABILITY_EMANATE
+  innate: ABILITY_WONDER_SKIN
   percent_female: 50
   learnset {
     level {
@@ -10721,7 +10721,7 @@ species {
   ability: ABILITY_POWER_FISTS
   ability: ABILITY_SHEER_FORCE
   innate: ABILITY_NO_GUARD
-  innate: ABILITY_STEADFAST
+  innate: ABILITY_INNER_FOCUS
   innate: ABILITY_GUTS
   percent_female: 25
   no_flip: true
@@ -29018,18 +29018,18 @@ species {
     pokemon_offset: 21
   }
   type: TYPE_GRASS
-  hp: 80
-  atk: 60
-  def: 110
-  spatk: 100
-  spdef: 80
-  spe: 100
+  hp: 98
+  atk: 72
+  def: 101
+  spatk: 90
+  spdef: 119
+  spe: 50
   ability: ABILITY_ENERGY_TAP
-  ability: ABILITY_SUN_BASKING
-  ability: ABILITY_SUN_WORSHIP
-  innate: ABILITY_FLOWER_VEIL
+  ability: ABILITY_SUNS_BOUNTY
+  ability: ABILITY_REGENERATOR
+  innate: ABILITY_OWN_TEMPO
   innate: ABILITY_POISON_ABSORB
-  innate: ABILITY_TRIAGE
+  innate: ABILITY_PIXILATE
   percent_female: 50
   learnset {
     level {
@@ -37501,7 +37501,7 @@ species {
   spatk: 35
   spdef: 55
   spe: 55
-  ability: ABILITY_STEADFAST
+  ability: ABILITY_INNER_FOCUS
   ability: ABILITY_TECHNICIAN
   ability: ABILITY_IRON_FIST
   innate: ABILITY_GUTS
@@ -73347,12 +73347,12 @@ species {
   spatk: 110
   spdef: 50
   spe: 50
-  ability: ABILITY_TANGLING_HAIR
+  ability: ABILITY_LONG_REACH
   ability: ABILITY_BATTLE_ARMOR
   ability: ABILITY_RAIN_DISH
   innate: ABILITY_REGENERATOR
   innate: ABILITY_SEAWEED
-  innate: ABILITY_SELF_SUFFICIENT
+  innate: ABILITY_TANGLING_HAIR
   percent_female: 50
   learnset {
     level {
@@ -84596,8 +84596,8 @@ species {
   spdef: 75
   spe: 74
   ability: ABILITY_SWIFT_SWIM
-  ability: ABILITY_SAND_SONG
-  ability: ABILITY_POWER_FISTS
+  ability: ABILITY_INTOXICATE
+  ability: ABILITY_PUNK_ROCK
   innate: ABILITY_WATER_ABSORB
   innate: ABILITY_RIPPLING_PUNCH
   innate: ABILITY_AFTERSHOCK
@@ -94668,7 +94668,7 @@ species {
   spdef: 90
   spe: 50
   ability: ABILITY_ARTILLERY
-  ability: ABILITY_NOSFERATU
+  ability: ABILITY_ENERGY_TAP
   ability: ABILITY_DAMP
   innate: ABILITY_LEVITATE
   innate: ABILITY_ELECTROCYTES
@@ -96137,7 +96137,7 @@ species {
   ability: ABILITY_PREDATOR
   ability: ABILITY_INTIMIDATE
   innate: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_IMMUNITY
+  innate: ABILITY_GRIMACE
   innate: ABILITY_MOUNTAINEER
   percent_female: 50
   evo {
@@ -123899,7 +123899,7 @@ species {
   spatk: 65
   spdef: 75
   spe: 120
-  ability: ABILITY_SHEER_FORCE
+  ability: ABILITY_QUICK_FEET
   ability: ABILITY_LIBERO
   ability: ABILITY_PYROMANCY
   innate: ABILITY_BLAZE
@@ -139553,7 +139553,7 @@ species {
   ability: ABILITY_LOOSE_QUILLS
   innate: ABILITY_WIND_RIDER
   innate: ABILITY_LETS_ROLL
-  innate: ABILITY_NOSFERATU
+  innate: ABILITY_ENERGY_TAP
   percent_female: 50
   tier: 2
   evo {
@@ -139673,7 +139673,7 @@ species {
   ability: ABILITY_LOOSE_QUILLS
   innate: ABILITY_WIND_RIDER
   innate: ABILITY_DESERT_CLOAK
-  innate: ABILITY_NOSFERATU
+  innate: ABILITY_ENERGY_TAP
   percent_female: 50
   learnset {
     level {
@@ -147385,17 +147385,17 @@ species {
   type: TYPE_GRASS
   type2: TYPE_PSYCHIC
   hp: 90
-  atk: 104
+  atk: 130
   def: 88
-  spatk: 108
-  spdef: 70
-  spe: 130
+  spatk: 70
+  spdef: 108
+  spe: 104
   ability: ABILITY_SWEEPING_EDGE_PLUS
   ability: ABILITY_DAZZLING
-  ability: ABILITY_FILTER
+  ability: ABILITY_GALVANIZE
   innate: ABILITY_QUARK_DRIVE
-  innate: ABILITY_SURGE_SURFER
-  innate: ABILITY_MOMENTUM
+  innate: ABILITY_DAZZLING
+  innate: ABILITY_FILTER
   genderless: true
   tier: 5
   learnset {
@@ -148505,11 +148505,11 @@ species {
   spatk: 135
   spdef: 80
   spe: 44
-  ability: ABILITY_SELF_SUFFICIENT
+  ability: ABILITY_EGOIST
   ability: ABILITY_REGENERATOR
-  ability: ABILITY_SUPERSWEET_SYRUP
+  ability: ABILITY_FRAGRANT_DAZE
   innate: ABILITY_MULTI_HEADED
-  innate: ABILITY_SHELL_ARMOR
+  innate: ABILITY_SUPERSWEET_SYRUP
   innate: ABILITY_SUPER_HOT_GOO
   percent_female: 50
   heads: 3
@@ -153497,7 +153497,7 @@ species {
   spatk: 135
   spdef: 85
   spe: 65
-  ability: ABILITY_SPEED_BOOST
+  ability: ABILITY_FLAME_BODY
   ability: ABILITY_SCARE
   ability: ABILITY_SOUL_EATER
   innate: ABILITY_IGNITION
@@ -161502,7 +161502,7 @@ species {
   ability: ABILITY_SPEED_BOOST
   ability: ABILITY_SPEED_BOOST
   innate: ABILITY_HELLBLAZE
-  innate: ABILITY_ROUNDHOUSE
+  innate: ABILITY_DEADLY_PRECISION
   innate: ABILITY_STRIKER
   percent_female: 50
   mega {
@@ -183952,7 +183952,7 @@ species {
   spdef: 90
   spe: 110
   ability: ABILITY_BRUTEFORCE
-  ability: ABILITY_FEARLESS
+  ability: ABILITY_AIR_BLOWER
   ability: ABILITY_BLUR
   innate: ABILITY_BIRD_OF_PREY
   innate: ABILITY_FEATHERCOAT
@@ -184980,7 +184980,7 @@ species {
   ability: ABILITY_ROUNDHOUSE
   ability: ABILITY_ROUNDHOUSE
   ability: ABILITY_ROUNDHOUSE
-  innate: ABILITY_HUSTLE
+  innate: ABILITY_INNER_FOCUS
   innate: ABILITY_MINERALIZE
   innate: ABILITY_STRIKER
   percent_female: 0
@@ -188833,7 +188833,7 @@ species {
   spatk: 95
   spdef: 85
   spe: 140
-  ability: ABILITY_BLUR
+  ability: ABILITY_FLAME_SHIELD
   ability: ABILITY_VERSATILE
   ability: ABILITY_STRIKER
   innate: ABILITY_HELLBLAZE
@@ -190437,7 +190437,7 @@ species {
   ability: ABILITY_CHLOROPLAST
   innate: ABILITY_ROSE_GARDEN
   innate: ABILITY_TECHNICIAN
-  innate: ABILITY_INFILTRATOR
+  innate: ABILITY_SHIELD_DUST
   percent_female: 50
   no_flip: true
   mega {
@@ -191284,14 +191284,14 @@ species {
   type: TYPE_GHOST
   type2: TYPE_FIRE
   hp: 80
-  atk: 65
-  def: 100
-  spatk: 190
-  spdef: 115
-  spe: 90
-  ability: ABILITY_FRIEND_GUARD
+  atk: 183
+  def: 111
+  spatk: 65
+  spdef: 119
+  spe: 82
+  ability: ABILITY_SET_ABLAZE
   ability: ABILITY_FLAME_SHIELD
-  ability: ABILITY_HELLBLAZE
+  ability: ABILITY_PERMANENCE
   innate: ABILITY_CHANDELIER
   innate: ABILITY_MULTI_HEADED
   innate: ABILITY_FLAME_BODY
@@ -197055,7 +197055,7 @@ species {
   spatk: 60
   spdef: 100
   spe: 70
-  ability: ABILITY_STEADFAST
+  ability: ABILITY_STALL
   ability: ABILITY_FIGHT_SPIRIT
   ability: ABILITY_STALWART
   innate: ABILITY_SUMO_GUARD
@@ -201053,7 +201053,7 @@ species {
   }
   type: TYPE_POISON
   type2: TYPE_GHOST
-  hp: 80
+  hp: 90
   atk: 55
   def: 80
   spatk: 110
@@ -209043,7 +209043,7 @@ species {
   spe: 80
   ability: ABILITY_ADAPTABILITY
   ability: ABILITY_DAZZLING
-  ability: ABILITY_NOSFERATU
+  ability: ABILITY_ENERGY_TAP
   innate: ABILITY_STRONG_JAW
   innate: ABILITY_OPPORTUNIST
   innate: ABILITY_JAWS_OF_CARNAGE
@@ -219337,7 +219337,7 @@ species {
   ability: ABILITY_HEAVY_METAL
   innate: ABILITY_GROUNDED
   innate: ABILITY_SUPERHEAVY
-  innate: ABILITY_INSOMNIA
+  innate: ABILITY_FLASH_FIRE
   percent_female: 25
   evo {
     to: SPECIES_KILOZUNA
