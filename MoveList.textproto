@@ -17512,6 +17512,7 @@ moves {
   power: 80
   accuracy: 100
   pp: 15
+  keen_edge: true
   mirror_move_affected: true
   uses_animation: MOVE_DISCHARGE
 }
@@ -17596,6 +17597,7 @@ moves {
   power: 60
   accuracy: 95
   pp: 10
+  effect_chance: 100
   mirror_move_affected: true
   uses_animation: MOVE_BARRIER
   tutor: TUTOR_ATTACK
