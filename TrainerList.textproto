@@ -49342,8 +49342,9 @@ trainer {
       spe_ev: 252
       move: MOVE_SUPERPOWER
       move: MOVE_WICKED_BLOW
-      move: MOVE_CROSS_POISON
+      move: MOVE_SECRET_POWER
       move: MOVE_SHADOW_CLAW
+      hidden_power_type: TYPE_POISON
     }
   }
 }
@@ -58807,8 +58808,9 @@ trainer {
       spe_ev: 252
       move: MOVE_KNOCK_OFF
       move: MOVE_WICKED_BLOW
-      move: MOVE_CROSS_POISON
+      move: MOVE_SECRET_POWER
       move: MOVE_KARATE_CHOP
+      hidden_power_type: TYPE_POISON
     }
     mon {
       species: SPECIES_WHISCASH
@@ -114990,7 +114992,8 @@ trainer {
       move: MOVE_BRICK_BREAK
       move: MOVE_WICKED_BLOW
       move: MOVE_SHADOW_CLAW
-      move: MOVE_CROSS_POISON
+      move: MOVE_SECRET_POWER
+      hidden_power_type: TYPE_POISON
     }
     mon {
       species: SPECIES_NECROZMA_DAWN_WINGS
@@ -115590,16 +115593,16 @@ trainer {
       species: SPECIES_MEOWSTIC
       item: ITEM_LIGHT_CLAY
       nature: NATURE_TIMID
-      ability: ABILITY_PRANKSTER
+      ability: ABILITY_PSYCHIC_SURGE
       hp_ev: 252
       atk_ev: 252
       def_ev: 252
       spatk_ev: 252
       spdef_ev: 252
       spe_ev: 252
-      move: MOVE_LIGHT_SCREEN
+      move: MOVE_THUNDERBOLT
       move: MOVE_CHARM
-      move: MOVE_REFLECT
+      move: MOVE_BARRIER
       move: MOVE_PSYCHIC
     }
     mon {
@@ -115710,9 +115713,10 @@ trainer {
       spdef_ev: 252
       spe_ev: 252
       move: MOVE_WICKED_BLOW
-      move: MOVE_CROSS_POISON
+      move: MOVE_SECRET_POWER
       move: MOVE_SHADOW_CLAW
       move: MOVE_KARATE_CHOP
+      hidden_power_type: TYPE_POISON
     }
     mon {
       species: SPECIES_TOXTRICITY_REDUX_FUZZ
