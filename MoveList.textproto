@@ -16703,7 +16703,7 @@ moves {
   id: MOVE_ESPER_WALTZ
   name: "Esper Waltz"
   short_name: "Esper Waltz"
-  description: "50% chance to raise Special Attack. Dance move."
+  description: "30% chance to raise Special Attack. Dance move."
   short_description: "A mesmerizing waltz that may raise Special Attack."
   effect: EFFECT_SP_ATTACK_UP_HIT
   split: SPECIAL
@@ -16712,7 +16712,7 @@ moves {
   power: 80
   accuracy: 100
   pp: 10
-  effect_chance: 50
+  effect_chance: 30
   mirror_move_affected: true
   dance: true
   uses_animation: MOVE_REVELATION_DANCE
@@ -16721,7 +16721,7 @@ moves {
   id: MOVE_ZAP_JIVE
   name: "Zap Jive"
   short_name: "Zap Jive"
-  description: "50% chance to raise Speed. Dance move."
+  description: "30% chance to raise Speed. Dance move."
   short_description: "An electrifying dance that may raise Speed."
   effect: EFFECT_SPEED_UP_HIT
   split: SPECIAL
@@ -16730,7 +16730,7 @@ moves {
   power: 80
   accuracy: 100
   pp: 10
-  effect_chance: 50
+  effect_chance: 30
   mirror_move_affected: true
   dance: true
   uses_animation: MOVE_REVELATION_DANCE
@@ -16739,7 +16739,7 @@ moves {
   id: MOVE_HEX_TROT
   name: "Hex Trot"
   short_name: "Hex Trot"
-  description: "50% chance to raise Speed. Dance move."
+  description: "30% chance to raise Speed. Dance move."
   short_description: "A lively yet haunting dance that may raise Speed."
   effect: EFFECT_SPEED_UP_HIT
   split: SPECIAL
@@ -16748,7 +16748,7 @@ moves {
   power: 80
   accuracy: 100
   pp: 10
-  effect_chance: 50
+  effect_chance: 30
   mirror_move_affected: true
   dance: true
   uses_animation: MOVE_REVELATION_DANCE
