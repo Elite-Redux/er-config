@@ -202035,8 +202035,10 @@ species {
     tutor: MOVE_DAZZLING_GLEAM
     tutor: MOVE_DEFOG
     tutor: MOVE_FOCUS_BLAST
+    tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HURRICANE
     tutor: MOVE_HYDRO_PUMP
+    tutor: MOVE_HYPER_BEAM
     tutor: MOVE_PIXIE_BEAM
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RAIN_DANCE
@@ -202405,6 +202407,167 @@ species {
     }
     palette: "plusle/redux/normal"
     shiny: "plusle/redux/shiny"
+  }
+}
+species {
+  id: SPECIES_AERODACTYL_REDUX
+  form_of: SPECIES_AERODACTYL
+  type: TYPE_ELECTRIC
+  type2: TYPE_BUG
+  hp: 80
+  atk: 104
+  def: 74
+  spatk: 84
+  spdef: 61
+  spe: 112
+  ability: ABILITY_POWER_HORNS
+  ability: ABILITY_STATIC
+  ability: ABILITY_GENERATOR
+  innate: ABILITY_DRAGONFLY
+  innate: ABILITY_OVERCHARGE
+  innate: ABILITY_PRISM_SCALES
+  percent_female: 12.5
+  tier: 3
+  learnset {
+    level {
+      level: 1
+      move: MOVE_THUNDER_FANG
+      move: MOVE_ION_DELUGE
+      move: MOVE_CHARGE
+      move: MOVE_SIGNAL_BEAM
+      move: MOVE_EERIE_IMPULSE
+    }
+    level {
+      level: 17
+      move: MOVE_MAGNET_BOMB
+      move: MOVE_ROAR
+      move: MOVE_SHARPEN
+      move: MOVE_SILVER_WIND
+      move: MOVE_NOBLE_ROAR
+    }
+    level {
+      level: 24
+      move: MOVE_SHOCKING_JAB
+      move: MOVE_DRAGON_DANCE
+      move: MOVE_DRAGON_JAB
+      move: MOVE_ELECTRIFY
+    }
+    level {
+      level: 37
+      move: MOVE_THUNDERCLAP
+      move: MOVE_FICKLE_BEAM
+      move: MOVE_SPARK
+      move: MOVE_VOLT_BOLT
+    }
+    level {
+      level: 46
+      move: MOVE_EXCALIBUR
+      move: MOVE_MEGAHORN
+      move: MOVE_FELL_STINGER
+      move: MOVE_DRACO_METEOR
+    }
+    level {
+      level: 51
+      move: MOVE_GLAIVE_RUSH
+      move: MOVE_SABER_SLASHES
+      move: MOVE_TAIL_GLOW
+    }
+    level {
+      level: 56
+      move: MOVE_MERCULIGHT
+    }
+    tutor: MOVE_FLASH_CANNON
+    tutor: MOVE_AGILITY
+    tutor: MOVE_BREAKING_SWIPE
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_CHARGE_BEAM
+    tutor: MOVE_DISCHARGE
+    tutor: MOVE_DEFOG
+    tutor: MOVE_DRAGON_CHEER
+    tutor: MOVE_DRAGON_CLAW
+    tutor: MOVE_DRAGON_PULSE
+    tutor: MOVE_ELECTRIC_TERRAIN
+    tutor: MOVE_ELECTROWEB
+    tutor: MOVE_HEAT_WAVE
+    tutor: MOVE_FLASH
+    tutor: MOVE_ROOST
+    tutor: MOVE_RAIN_DANCE
+    tutor: MOVE_TAILWIND
+    tutor: MOVE_THUNDER
+    tutor: MOVE_THUNDERBOLT
+    tutor: MOVE_THUNDER_WAVE
+    tutor: MOVE_VOLT_SWITCH
+   }
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
+  }
+}
+species {
+  id: SPECIES_AERODACTYL_MEGA_REDUX
+  form_of: SPECIES_AERODACTYL
+  type: TYPE_NORMAL
+  hp: 80
+  atk: 134
+  def: 89
+  spatk: 94
+  spdef: 81
+  spe: 137
+  ability: ABILITY_POWER_HORNS
+  ability: ABILITY_HIGH_TEMPERATURE
+  ability: ABILITY_ELECTROMORPHOSIS
+  innate: ABILITY_DRAGONFLY
+  innate: ABILITY_ELECTRIC_CURRENT
+  innate: ABILITY_PRISM_SCALES
+  percent_female: 12.5
+  tier: 3
+  mega {
+    from: SPECIES_AERODACTYL_REDUX
+    item: ITEM_AERODACTYLITE_R
+  }
+  uses_learnset: SPECIES_AERODACTYL_REDUX
+  visuals {
+    icon {
+      path: "question_mark/icon"
+    }
+    front {
+      path: "question_mark/circled/front"
+      anim: ANIM_V_JUMPS_H_JUMPS
+      coords {
+        size: 69
+        y_offset: 13
+      }
+    }
+    back {
+      path: "question_mark/circled/back"
+      anim: BACK_ANIM_DIP_RIGHT_SIDE
+      coords {
+        size: 117
+        y_offset: 13
+      }
+    }
+    palette: "question_mark/circled/normal"
+    shiny: "question_mark/circled/shiny"
   }
 }
 species {
