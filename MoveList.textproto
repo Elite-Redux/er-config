@@ -3301,7 +3301,7 @@ moves {
   type: TYPE_ICE
   target: BOTH
   power: 60
-  accuracy: 100
+  accuracy: 95
   pp: 15
   effect_chance: 100
   mirror_move_affected: true
