@@ -202503,10 +202503,11 @@ species {
    }
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "aerodactyl/redux/icon"
+      palette: 5
     }
     front {
-      path: "question_mark/circled/front"
+      path: "aerodactyl/redux/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -202514,15 +202515,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "aerodactyl/redux/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "aerodactyl/redux/normal"
+    shiny: "aerodactyl/redux/shiny"
   }
   adoption_center_badge: 5
 }
@@ -202552,10 +202553,11 @@ species {
   uses_learnset: SPECIES_AERODACTYL_REDUX
   visuals {
     icon {
-      path: "question_mark/icon"
+      path: "aerodactyl/mr/icon"
+      palette: 5
     }
     front {
-      path: "question_mark/circled/front"
+      path: "aerodactyl/mr/front"
       anim: ANIM_V_JUMPS_H_JUMPS
       coords {
         size: 69
@@ -202563,15 +202565,15 @@ species {
       }
     }
     back {
-      path: "question_mark/circled/back"
+      path: "aerodactyl/mr/back"
       anim: BACK_ANIM_DIP_RIGHT_SIDE
       coords {
         size: 117
         y_offset: 13
       }
     }
-    palette: "question_mark/circled/normal"
-    shiny: "question_mark/circled/shiny"
+    palette: "aerodactyl/mr/normal"
+    shiny: "aerodactyl/mr/shiny"
   }
 }
 species {
@@ -202781,6 +202783,7 @@ species {
   visuals {
     icon {
       path: "pikachu/redux/icon"
+      palette: 3
     }
     front {
       path: "pikachu/redux/front"
@@ -202910,6 +202913,7 @@ species {
   visuals {
     icon {
       path: "raichu/redux/icon"
+      palette: 3
     }
     front {
       path: "raichu/redux/front"
@@ -202958,6 +202962,7 @@ species {
   visuals {
     icon {
       path: "raichu/mr/icon"
+      palette: 3 
     }
     front {
       path: "raichu/mr/front"
