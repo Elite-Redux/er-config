@@ -29706,6 +29706,7 @@ species {
       move: MOVE_MUD_BOMB
       move: MOVE_MUD_SHOT
       move: MOVE_MUD_SPORT
+      move: MOVE_DISARMING_VOICE
     }
     level {
       level: 24
@@ -29721,6 +29722,8 @@ species {
       move: MOVE_SMELLING_SALTS
       move: MOVE_SUBMISSION
       move: MOVE_SHATTERNOTE
+      move: MOVE_ALLURING_VOICE
+      move: MOVE_SING
     }
     level {
       level: 46
