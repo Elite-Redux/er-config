@@ -3799,7 +3799,7 @@ species {
     pokemon_offset: 13
   }
   type: TYPE_ELECTRIC
-  hp: 60
+  hp: 81
   atk: 90
   def: 55
   spatk: 90
@@ -162869,7 +162869,7 @@ species {
   form_of: SPECIES_RAICHU
   type: TYPE_ELECTRIC
   type2: TYPE_PSYCHIC
-  hp: 60
+  hp: 81
   atk: 85
   def: 50
   spatk: 95
@@ -182214,7 +182214,7 @@ species {
   id: SPECIES_RAICHU_MEGA_Y
   form_of: SPECIES_RAICHU
   type: TYPE_ELECTRIC
-  hp: 60
+  hp: 81
   atk: 100
   def: 60
   spatk: 160
@@ -183817,7 +183817,7 @@ species {
   id: SPECIES_RAICHU_MEGA_X
   form_of: SPECIES_RAICHU
   type: TYPE_ELECTRIC
-  hp: 60
+  hp: 81
   atk: 135
   def: 95
   spatk: 90
@@ -202807,17 +202807,17 @@ species {
   form_of: SPECIES_RAICHU
   type: TYPE_FLYING
   type2: TYPE_FAIRY
-  hp: 73
+  hp: 84
   atk: 60
-  def: 55
+  def: 60
   spatk: 100
-  spdef: 80
+  spdef: 85
   spe: 122
   ability: ABILITY_WIND_RIDER
   ability: ABILITY_DETERMINATION
   ability: ABILITY_DAZZLING
   innate: ABILITY_ENCHANTED
-  innate: ABILITY_PASTEL_VEIL
+  innate: ABILITY_SYNCHRONIZE
   innate: ABILITY_RADIANCE
   percent_female: 50
   tier: 3
@@ -202937,11 +202937,11 @@ species {
   form_of: SPECIES_RAICHU
   type: TYPE_FLYING
   type2: TYPE_FAIRY
-  hp: 73
+  hp: 84
   atk: 77
   def: 75
-  spatk: 110
-  spdef: 110
+  spatk: 115
+  spdef: 115
   spe: 145
   ability: ABILITY_WISHMAKER
   ability: ABILITY_TERMINAL_VELOCITY

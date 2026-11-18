@@ -17739,7 +17739,7 @@ moves {
   mirror_move_affected: true
   horn: true
   ignores_ability: true
-  uses_animation: MOVE_PHANTOM_FORCE
+  uses_animation: MOVE_ASTONISH
 }
 moves {
   id: MOVE_GLITTER_BEAM
@@ -17845,4 +17845,5 @@ moves {
   effect_chance: 30
   mirror_move_affected: true
   sound: true
+  uses_animation: MOVE_UPROAR
 }
