@@ -202947,7 +202947,7 @@ species {
   ability: ABILITY_TERMINAL_VELOCITY
   ability: ABILITY_DAZZLING
   innate: ABILITY_CRESTOFHOPE
-  innate: ABILITY_MISTY_SURGE
+  innate: ABILITY_FAE_DOMAIN
   innate: ABILITY_RADIANCE
   percent_female: 50
   tier: 3
