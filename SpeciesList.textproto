@@ -3805,12 +3805,12 @@ species {
   spatk: 90
   spdef: 80
   spe: 115
-  ability: ABILITY_EARTHBOUND
-  ability: ABILITY_GENERATOR
-  ability: ABILITY_ELECTRIC_BURST
-  innate: ABILITY_SHORT_CIRCUIT
-  innate: ABILITY_STATIC
-  innate: ABILITY_GROUND_SHOCK
+  ability: ABILITY_BACKUP_POWER
+  ability: ABILITY_STATIC
+  ability: ABILITY_HYPER_AGGRESSIVE
+  innate: ABILITY_GENERATOR
+  innate: ABILITY_LIGHTNING_ROD
+  innate: ABILITY_OVERCHARGE
   percent_female: 50
   learnset {
     level {
@@ -29669,17 +29669,17 @@ species {
     pokemon_offset: 6
   }
   type: TYPE_WATER
-  hp: 110
-  atk: 75
-  def: 80
-  spatk: 100
-  spdef: 100
-  spe: 70
-  ability: ABILITY_STORM_DRAIN
-  ability: ABILITY_UNAWARE
-  ability: ABILITY_HYDRATE
-  innate: ABILITY_DAMP
-  innate: ABILITY_HYDRATION
+  hp: 117
+  atk: 68
+  def: 81
+  spatk: 99
+  spdef: 102
+  spe: 68
+  ability: ABILITY_LULLABY
+  ability: ABILITY_RAIN_SHROUD
+  ability: ABILITY_BEAUTIFUL_MUSIC
+  innate: ABILITY_RAIN_DISH
+  innate: ABILITY_LIQUID_VOICE
   innate: ABILITY_DRIZZLE
   percent_female: 50
   no_flip: true
@@ -97184,17 +97184,17 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_DRAGON
-  hp: 97
-  atk: 120
-  def: 90
+  hp: 107
+  atk: 121
+  def: 93
   spatk: 60
-  spdef: 90
+  spdef: 93
   spe: 48
   ability: ABILITY_IMPENETRABLE
+  ability: ABILITY_SHEER_FORCE
   ability: ABILITY_SUN_WORSHIP
-  ability: ABILITY_SUN_BASKING
   innate: ABILITY_TOUGH_CLAWS
-  innate: ABILITY_SOLID_ROCK
+  innate: ABILITY_ROUGH_SKIN
   innate: ABILITY_MOLD_BREAKER
   percent_female: 50
   tier: 3
@@ -162879,12 +162879,12 @@ species {
   spatk: 95
   spdef: 85
   spe: 115
-  ability: ABILITY_PSYCHIC_MIND
-  ability: ABILITY_SHORT_CIRCUIT
-  ability: ABILITY_ELECTRIC_SURGE
+  ability: ABILITY_MAGICIAN
+  ability: ABILITY_TERMINAL_VELOCITY
+  ability: ABILITY_VOLT_ABSORB
   innate: ABILITY_SURGE_SURFER
-  innate: ABILITY_LEVITATE
-  innate: ABILITY_GROUND_SHOCK
+  innate: ABILITY_HOVER
+  innate: ABILITY_MAGIC_GUARD
   percent_female: 50
   bp_cost: 25
   learnset {

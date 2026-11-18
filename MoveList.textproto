@@ -3139,13 +3139,13 @@ moves {
   id: MOVE_SWEET_KISS
   name: "Sweet Kiss"
   short_name: "Sweet Kiss"
-  description: "Kisses the foe with a sweet cuteness that causes confusion and infatuation."
-  short_description: "Demands a kiss, causing confusion and infatuation."
-  effect: EFFECT_SWEET_KISS
+  description: "Kisses the foe with a sweet cuteness that causes confusion."
+  short_description: "Demands a kiss, causing confusion."
+  effect: EFFECT_CONFUSE
   split: STATUS
   type: TYPE_FAIRY
   target: SELECTED
-  accuracy: 75
+  accuracy: 85
   pp: 10
   magic_coat_affected: true
   mirror_move_affected: true
@@ -17353,7 +17353,7 @@ moves {
   accuracy: 100
   pp: 10
   throwing: true
-  effect_chance: 20
+  effect_chance: 30
   mirror_move_affected: true
   uses_animation: MOVE_EXPLOSION
 }
@@ -17370,6 +17370,7 @@ moves {
   power: 90
   accuracy: 100
   pp: 15
+  effect_chance: 20
   mirror_move_affected: true
   throwing: true
   uses_animation: MOVE_BARRAGE
@@ -17404,6 +17405,7 @@ moves {
   power: 85
   accuracy: 100
   pp: 15
+  effect_chance: 30
   mirror_move_affected: true
   throwing: true
   uses_animation: MOVE_BARRAGE
@@ -17640,7 +17642,7 @@ moves {
   id: MOVE_RUMBLE_KICK
   name: "Rumble Kick"
   short_name: "RumbleKick"
-  description: "A kick from a reinforced leg. 20% Atk drop. Striker."
+  description: "A kick from a reinforced leg. 30% Atk drop. Striker."
   short_description: "May down attack. Striker."
   effect: EFFECT_ATTACK_DOWN_HIT
   split: PHYSICAL
@@ -17675,7 +17677,7 @@ moves {
   id: MOVE_BANEFUL_KICK
   name: "Baneful Kick"
   short_name: "BanefulKick"
-  description: "A poisonous kick that strikes at a weak spot. Kicking."
+  description: "A poisonous kick that strikes at a weak spot. Kicking. 10% Poison"
   effect: EFFECT_POISON_HIT
   split: PHYSICAL
   type: TYPE_POISON
@@ -17777,7 +17779,7 @@ moves {
   id: MOVE_SPARKLE_BLAST
   name: "Sparkling Blast"
   short_name: "SparkleBlast"
-  description: "Sparkling water that once in contact glows in pure light. Light Based."
+  description: "Sparkling water that once in contact glows in pure light. Light Based. 30% lower accuracy"
   effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_WATER
@@ -17802,7 +17804,7 @@ moves {
   power: 85
   accuracy: 100
   pp: 10
-  effect_chance: 20
+  effect_chance: 30
   mirror_move_affected: true
   light: true
   uses_animation: MOVE_OVERHEAT
@@ -17826,4 +17828,21 @@ moves {
   air: true
   uses_animation: MOVE_WEATHER_BALL
   tutor: TUTOR_ATTACK
+}
+moves {
+  id: MOVE_SHATTERNOTE
+  name: "Shatter Note"
+  short_name: "Shatter Note"
+  description: "A chilly sound that burts through anything. 30% chance to frostbite."
+  short_description: "A chance to cause frostbite. Sound based."
+  effect: EFFECT_FROSTBITE_HIT
+  split: SPECIAL
+  type: TYPE_ICE
+  target: SELECTED
+  power: 85
+  accuracy: 100
+  pp: 10
+  effect_chance: 30
+  mirror_move_affected: true
+  sound: true
 }
