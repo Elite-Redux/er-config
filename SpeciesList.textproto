@@ -202266,6 +202266,7 @@ species {
     palette: "minun/redux/normal"
     shiny: "minun/redux/shiny"
   }
+  adoption_center_badge: 2
 }
 species {
   id: SPECIES_PLUSLE_REDUX
@@ -202408,6 +202409,7 @@ species {
     palette: "plusle/redux/normal"
     shiny: "plusle/redux/shiny"
   }
+  adoption: 2
 }
 species {
   id: SPECIES_AERODACTYL_REDUX
@@ -202522,6 +202524,7 @@ species {
     palette: "question_mark/circled/normal"
     shiny: "question_mark/circled/shiny"
   }
+  adoption_center_badge: 5
 }
 species {
   id: SPECIES_AERODACTYL_MEGA_REDUX
@@ -202683,6 +202686,7 @@ species {
     palette: "pichu/redux/normal"
     shiny: "pichu/redux/shiny"
   }
+  adoption_center_badge: 0
 }
 species {
   id: SPECIES_PIKACHU_REDUX
