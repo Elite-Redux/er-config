@@ -17780,7 +17780,7 @@ moves {
   id: MOVE_SPARKLE_BLAST
   name: "Sparkling Blast"
   short_name: "SparkleBlast"
-  description: "Sparkling water that once in contact glows in pure light. Light Based. 30% lower accuracy"
+  description: "Sparkling water glows in pure light. Light Based. 30% chance to drop accuracy."
   effect: EFFECT_ACCURACY_DOWN_HIT
   split: SPECIAL
   type: TYPE_WATER

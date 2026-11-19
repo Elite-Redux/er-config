@@ -99,7 +99,7 @@ ability {
 ability {
   id: ABILITY_COLOR_CHANGE
   name: "Color Change"
-  description: "Changes type to a resist or an immunity before getting hit. Once per turn."
+  description: "Once per turn, change type to resist or immunity before hit."
   expanded_description: "Transforms the user into the best defensive type before taking damage. Prioritizes immunities over resistances. Only changes to a pure type. Once per turn."
 }
 ability {
@@ -483,7 +483,7 @@ ability {
 ability {
   id: ABILITY_STEADFAST
   name: "Steadfast"
-  description: "Raises Speed by one stage if this Pokémon flinches. Immune to Status"
+  description: "Speed +1 if this Pokémon flinches. Immune to status."
   expanded_description: "Getting flinched raises Speed by one stage. Immune to status"
 }
 ability {
@@ -6250,7 +6250,7 @@ ability {
 ability {
   id: ABILITY_RIPPLING_PUNCH
   name: "Rippling Punch"
-  description: "Punching moves are also Sound moves as well. Sound moves has a 50% chance to lower attack."
+  description: "Sound moves 50% chance to drop Atk, punch moves are also sound."
 }
 
 ability {
