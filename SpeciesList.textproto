@@ -95197,6 +95197,7 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
+      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
@@ -95210,6 +95211,7 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_OVERHEAT
       move: MOVE_RAGING_SOULS
+      move: MOVE_PHANTOM_FORCE
     }
     level {
       level: 46
@@ -95229,20 +95231,20 @@ species {
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HEX
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TOXIC
     tutor: MOVE_TRICK
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
@@ -95343,12 +95345,14 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
+      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
       move: MOVE_ASTONISH
       move: MOVE_FLAME_BURST
       move: MOVE_SCORCHING_RAY
+      move: MOVE_GHOULISH_GORE
     }
     level {
       level: 37
@@ -95356,6 +95360,8 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_OVERHEAT
       move: MOVE_RAGING_SOULS
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_PHANTOM_FORCE
     }
     level {
       level: 46
@@ -95375,20 +95381,19 @@ species {
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAT_WAVE
     tutor: MOVE_HEX
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SPOTLIGHT
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_TOXIC
     tutor: MOVE_TRICK
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_ZEN_HEADBUTT
   }
   visuals {
     icon {
@@ -95479,12 +95484,14 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
+      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
       move: MOVE_ASTONISH
       move: MOVE_FLAME_BURST
       move: MOVE_SCORCHING_RAY
+      move: MOVE_GHOULISH_GORE
     }
     level {
       level: 37
@@ -95492,14 +95499,27 @@ species {
       move: MOVE_GIGA_DRAIN
       move: MOVE_OVERHEAT
       move: MOVE_RAGING_SOULS
+      move: MOVE_FLAME_TONGUE
+      move: MOVE_PHANTOM_GLOVES
+      move: MOVE_VENOM_BOLT
+      move: MOVE_PHANTOM_FORCE
     }
     level {
       level: 46
       move: MOVE_INFERNAL_PARADE
+      move: MOVE_TEMPER_FLARE
     }
     level {
       level: 51
       move: MOVE_SYNCHRONOISE
+    }
+    level {
+      level: 56
+      move: MOVE_POLTERGEIST
+    }
+    level {
+      level: 61
+      move: MOVE_PYRO_BALL
     }
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_CALM_MIND
@@ -95511,7 +95531,6 @@ species {
     tutor: MOVE_FIRE_BLAST
     tutor: MOVE_FIRE_SPIN
     tutor: MOVE_FLAMETHROWER
-    tutor: MOVE_FLAME_CHARGE
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_GRUDGE
     tutor: MOVE_HEAT_WAVE
@@ -95519,7 +95538,6 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_NASTY_PLOT
     tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_RAPID_SPIN
     tutor: MOVE_SHADOW_BALL
     tutor: MOVE_SLUDGE_BOMB
     tutor: MOVE_SPOTLIGHT
@@ -95528,7 +95546,11 @@ species {
     tutor: MOVE_TRICK
     tutor: MOVE_TRICK_ROOM
     tutor: MOVE_WILL_O_WISP
-    tutor: MOVE_METRONOME
+    tutor: MOVE_HEAT_CRASH
+    tutor: MOVE_POISON_JAB
+    tutor: MOVE_GUNK_SHOT
+    tutor: MOVE_ZEN_HEADBUTT
+    tutor: MOVE_MIND_BREAK
   }
   visuals {
     icon {
