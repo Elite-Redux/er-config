@@ -6324,7 +6324,7 @@ ability {
 ability {
   id: ABILITY_FEARLESS
   name: "Fearless"
-  description: "Immune to fear. Immune to Intimidate."
+  description: "Immune to fear and enemy stat drops. Resist Ghost-type moves."
 }
 
 ability {
