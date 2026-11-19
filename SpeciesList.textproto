@@ -147416,7 +147416,7 @@ species {
   spdef: 108
   spe: 104
   ability: ABILITY_SWEEPING_EDGE_PLUS
-  ability: ABILITY_DAZZLING
+  ability: ABILITY_SURGE_SURFER
   ability: ABILITY_GALVANIZE
   innate: ABILITY_QUARK_DRIVE
   innate: ABILITY_DAZZLING
