@@ -484,7 +484,7 @@ ability {
   id: ABILITY_STEADFAST
   name: "Steadfast"
   description: "Speed +1 if this Pokémon flinches. Immune to status."
-  expanded_description: "Getting flinched raises Speed by one stage. Immune to status"
+  expanded_description: "Getting flinched raises Speed by one stage. Immune to status."
 }
 ability {
   id: ABILITY_SNOW_CLOAK
@@ -3494,7 +3494,7 @@ ability {
   id: ABILITY_GALLANTRY
   name: "Gallantry"
   description: "King's Shield on entry."
-  expanded_description: "Negates the first instance of damage received. Moves still connect and secondary effects apply, but damage becomes 0."
+  expanded_description: "Automatically uses King's Shield when switching into battle."
 }
 ability {
   id: ABILITY_ORICHALCUM_PULSE
@@ -5080,7 +5080,7 @@ ability {
   id: ABILITY_SUPERHEAVY
   name: "Superheavy"
   description: "Steadfast + can't be forced to switch out."
-  expanded_description: "Getting flinched raises Speed by one stage. Prevents forced switching from moves and Red Card."
+  expanded_description: "Getting flinched raises Speed by one stage. Immune to status. Prevents forced switching from moves and Red Card."
 }
 ability {
   id: ABILITY_WORLD_SERPENT
@@ -5939,8 +5939,8 @@ ability {
 ability {
   id: ABILITY_PETAL_SHIELD
   name: "Petal Shield"
-  description: "Enters with +6 Defense, reduces Defense by -1 after each hit."
-  expanded_description: "Sets Defense to +6 when it enters. After it is hit lowers its Defense by 1 stage. Multi-hit attacks lower Defense multiple times."
+  description: "Enters with +3 Defense, reduces Defense by -1 after each hit."
+  expanded_description: "Sets Defense to +3 when it enters. After it is hit lowers its Defense by 1 stage. Multi-hit attacks lower Defense multiple times."
 }
 ability {
   id: ABILITY_MOB_BOSS
