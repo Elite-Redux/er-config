@@ -95199,7 +95199,6 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
-      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
@@ -95347,7 +95346,6 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
-      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
@@ -95486,7 +95484,6 @@ species {
       move: MOVE_MYSTICAL_FIRE
       move: MOVE_OMINOUS_WIND
       move: MOVE_TRICK_OR_TREAT
-      move: MOVE_FLAME_WHEEL
     }
     level {
       level: 24
