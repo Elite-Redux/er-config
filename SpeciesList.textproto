@@ -28621,10 +28621,6 @@ species {
       move: MOVE_ZIPPY_ZAP
       move: MOVE_MERCULIGHT
     }
-    level {
-      level: 46
-      move: MOVE_TAIL_GLOW
-    }
     tutor: MOVE_AGILITY
     tutor: MOVE_BREAKING_SWIPE
     tutor: MOVE_CHARGE_BEAM
@@ -28770,10 +28766,6 @@ species {
       move: MOVE_RISING_VOLTAGE
       move: MOVE_ZIPPY_ZAP
       move: MOVE_MERCULIGHT
-    }
-    level {
-      level: 46
-      move: MOVE_TAIL_GLOW
     }
     tutor: MOVE_AGILITY
     tutor: MOVE_BREAKING_SWIPE
