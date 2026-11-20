@@ -114369,6 +114369,61 @@ trainer {
       move: MOVE_DRAGON_DANCE
     }
   }
+  elite {
+    mon {
+      species: SPECIES_RAICHU_ALOLAN
+      item: ITEM_FOCUS_SASH
+      nature: NATURE_TIMID
+      ability: ABILITY_TERMINAL_VELOCITY
+      hp_ev: 4
+      spatk_ev: 252
+      spe_ev: 252
+      move: MOVE_ELECTRO_BALL
+      move: MOVE_PSYCHIC
+      move: MOVE_HIDDEN_POWER
+      move: MOVE_FOCUS_BLAST
+      hidden_power_type: TYPE_DARK
+    }
+    mon {
+      species: SPECIES_ZEKROM
+      item: ITEM_SHELL_BELL
+      nature: NATURE_JOLLY
+      ability: ABILITY_DRAGONS_MAW
+      hp_ev: 4
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_THUNDEROUS_KICK
+      move: MOVE_SCALE_SHOT
+      move: MOVE_VOLT_SWITCH
+    }
+    mon {
+      species: SPECIES_IRON_LEAVES
+      item: ITEM_LIFE_ORB
+      nature: NATURE_TIMID
+      ability: ABILITY_SWEEPING_EDGE_PLUS
+      hp_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_SHOCKING_EDGE
+      move: MOVE_PSYBLADE
+      move: MOVE_TACHYON_CUTTER
+      move: MOVE_SACRED_SWORD
+    }
+    mon {
+      species: SPECIES_DRAGONITE
+      item: ITEM_DRAGONINITE
+      nature: NATURE_JOLLY
+      ability: ABILITY_PRISM_SCALES
+      atk_ev: 252
+      def_ev: 4
+      spe_ev: 252
+      move: MOVE_EXTREME_SPEED
+      move: MOVE_OUTRAGE
+      move: MOVE_THRASH
+      move: MOVE_DRAGON_DANCE
+    }
+  }
 }
 trainer {
   id: TRAINER_DRAGONITENITE_SAGE_2
