@@ -114330,43 +114330,30 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
-      species: SPECIES_RAICHU_ALOLAN
-      item: ITEM_FOCUS_SASH
-      nature: NATURE_TIMID
+      species: SPECIES_STUNFISK
+      item: ITEM_TACTICAL_VEST
+      nature: NATURE_RELAXED
       ability: ABILITY_ELECTRIC_SURGE
-      hp_ev: 4
+      hp_ev: 120
       spatk_ev: 252
-      spe_ev: 252
-      move: MOVE_ELECTRO_BALL
-      move: MOVE_PSYCHIC
-      move: MOVE_HIDDEN_POWER
-      move: MOVE_FOCUS_BLAST
+      spe_ev: 136
+      move: MOVE_SURF
+      move: MOVE_THUNDER_CAGE
+      move: MOVE_NUZZLE
+      move: MOVE_MUD_BOMB
     }
     mon {
-      species: SPECIES_ZEKROM
-      item: ITEM_SHELL_BELL
-      nature: NATURE_JOLLY
-      ability: ABILITY_DRAGONS_MAW
-      hp_ev: 4
+      species: SPECIES_ELECTIVIRE
+      item: ITEM_BLACK_BELT
+      nature: NATURE_BRAVE
+      ability: ABILITY_WHIPLASH
       atk_ev: 252
-      spe_ev: 252
-      move: MOVE_EXTREME_SPEED
-      move: MOVE_THUNDEROUS_KICK
-      move: MOVE_SCALE_SHOT
+      def_ev: 128
+      spdef_ev: 128
+      move: MOVE_DRAIN_PUNCH
+      move: MOVE_THUNDER_PUNCH
       move: MOVE_VOLT_SWITCH
-    }
-    mon {
-      species: SPECIES_IRON_LEAVES
-      item: ITEM_LIFE_ORB
-      nature: NATURE_TIMID
-      ability: ABILITY_SWEEPING_EDGE_PLUS
-      hp_ev: 252
-      def_ev: 4
-      spe_ev: 252
-      move: MOVE_SHOCKING_EDGE
-      move: MOVE_PSYBLADE
-      move: MOVE_TACHYON_CUTTER
-      move: MOVE_SACRED_SWORD
+      move: MOVE_PROTECT
     }
     mon {
       species: SPECIES_DRAGONITE
@@ -114376,10 +114363,21 @@ trainer {
       atk_ev: 252
       def_ev: 4
       spe_ev: 252
-      move: MOVE_EXTREME_SPEED
-      move: MOVE_OUTRAGE
+      move: MOVE_SPARK
+      move: MOVE_TAKE_FLIGHT
       move: MOVE_THRASH
       move: MOVE_DRAGON_DANCE
+    }
+  }
+  elite {
+    mon {
+      species: SPECIES_BULBASAUR
+      nature: NATURE_IMPISH
+      ability: ABILITY_CHLOROPLAST
+      move: MOVE_NONE
+      move: MOVE_NONE
+      move: MOVE_NONE
+      move: MOVE_NONE
     }
   }
 }
@@ -114392,6 +114390,44 @@ trainer {
   pic: TRAINER_PIC_EXPERT_F
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
+    mon {
+      species: SPECIES_FROSMOTH
+      item: ITEM_LIGHT_CLAY
+      nature: NATURE_CALM
+      ability: ABILITY_SNOW_WARNING
+      hp_ev: 252
+      spe_ev: 252
+      move: MOVE_STICKY_WEB
+      move: MOVE_AURORA_VEIL
+      move: MOVE_SKITTER_SMACK
+      move: MOVE_SHEER_COLD
+    }
+    mon {
+      species: SPECIES_SOPRANICE
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_MODEST
+      ability: ABILITY_REVERBATE
+      hp_ev: 252
+      spatk_ev: 252
+      move: MOVE_SHATTERNOTE
+      move: MOVE_DRAINING_KISS
+      move: MOVE_SWIFT
+      move: MOVE_SYNCHRONOISE
+    }
+    mon {
+      species: SPECIES_BAXCALIBUR
+      item: ITEM_LOADED_DICE
+      nature: NATURE_ADAMANT
+      ability: ABILITY_WHITEOUT
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_ICICLE_SPEAR
+      move: MOVE_SCALE_SHOT
+      move: MOVE_SHARPEN
+      move: MOVE_ICE_SHARD
+    }
+  }
+  elite {
     mon {
       species: SPECIES_NINETALES_ALOLAN
       item: ITEM_ICY_ROCK
@@ -114456,10 +114492,49 @@ trainer {
   music: TRAINER_ENCOUNTER_MUSIC_INTENSE
   ace {
     mon {
+      species: SPECIES_SOLROCK
+      item: ITEM_FIRE_GEM
+      nature: NATURE_ADAMANT
+      ability: ABILITY_DROUGHT
+      atk_ev: 252
+      spe_ev: 252
+      move: MOVE_STEALTH_ROCK
+      move: MOVE_ASTEROID_DOWNFALL
+      move: MOVE_EXPLOSION
+      move: MOVE_MIND_BREAK
+    }
+    mon {
+      species: SPECIES_MAGMORTAR
+      item: ITEM_ASSAULT_VEST
+      nature: NATURE_MODEST
+      ability: ABILITY_FLAMING_SOUL
+      hp_ev: 128
+      spatk_ev: 252
+      spdef_ev: 128
+      move: MOVE_LAVA_PLUME
+      move: MOVE_SLUDGE
+      move: MOVE_FLAME_BURST
+      move: MOVE_SOLAR_BEAM
+    }
+    mon {
+      species: SPECIES_TURTONATOR
+      item: ITEM_ROCKY_HELMET
+      nature: NATURE_IMPISH
+      ability: ABILITY_FLAME_BODY
+      hp_ev: 252
+      def_ev: 252
+      move: MOVE_BURNING_BULWARK
+      move: MOVE_SHELL_TRAP
+      move: MOVE_BODY_PRESS
+      move: MOVE_DRAGON_RAGE
+    }
+  }
+  elite {
+    mon {
       species: SPECIES_NINETALES
       item: ITEM_HEAT_ROCK
       nature: NATURE_TIMID
-      ability: ABILITY_DROUGHT
+      ability: ABILITY_FLAMING_SOUL
       spatk_ev: 252
       spdef_ev: 4
       spe_ev: 252
@@ -114469,7 +114544,6 @@ trainer {
       move: MOVE_SOLAR_BEAM
     }
     mon {
-      nonstandard: "Invalid moves: [MOVE_SCORCHING_SANDS]"
       species: SPECIES_RESHIRAM
       item: ITEM_ASSAULT_VEST
       nature: NATURE_TIMID
