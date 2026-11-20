@@ -5445,6 +5445,7 @@ species {
       move: MOVE_HEALING_WISH
       move: MOVE_MAGIC_ROOM
       move: MOVE_WONDER_ROOM
+      move: MOVE_SILVER_WIND
     }
     tutor: MOVE_AIR_SLASH
     tutor: MOVE_AURA_SPHERE
@@ -132381,6 +132382,7 @@ species {
       move: MOVE_AUTOTOMIZE
       move: MOVE_STEEL_BEAM
       move: MOVE_ZAP_CANNON
+      move: MOVE_STARBURST
     }
     tutor: MOVE_AURA_SPHERE
     tutor: MOVE_BREAKING_SWIPE
@@ -148458,6 +148460,7 @@ species {
       move: MOVE_STEEL_BEAM
       move: MOVE_THUNDER_CAGE
       move: MOVE_ZAP_CANNON
+      move: MOVE_STARBURST
     }
     level {
       level: 61
@@ -157109,30 +157112,31 @@ species {
       move: MOVE_RAGING_SOULS
       move: MOVE_POPULATION_BOMB
     }
-    tutor: MOVE_LEECH_LIFE
-    tutor: MOVE_GIGA_IMPACT
-    tutor: MOVE_HYPER_BEAM
-    tutor: MOVE_X_SCISSOR
-    tutor: MOVE_SHADOW_CLAW
-    tutor: MOVE_SHADOW_BALL
-    tutor: MOVE_EARTHQUAKE
-    tutor: MOVE_PURSUIT
-    tutor: MOVE_DARK_PULSE
-    tutor: MOVE_BUG_BITE
-    tutor: MOVE_FACADE
-    tutor: MOVE_NIGHT_SHADE
-    tutor: MOVE_EERIE_FOG
-    tutor: MOVE_CURSE
-    tutor: MOVE_SPITE
-    tutor: MOVE_BUG_BUZZ
-    tutor: MOVE_HEX
     tutor: MOVE_ABSORB
-    tutor: MOVE_RAGE_POWDER
-    tutor: MOVE_GRUDGE
     tutor: MOVE_BRAVADO
-    tutor: MOVE_SUPERSONIC
+    tutor: MOVE_BUG_BITE
+    tutor: MOVE_BUG_BUZZ
+    tutor: MOVE_CURSE
+    tutor: MOVE_DARK_PULSE
+    tutor: MOVE_EARTHQUAKE
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_FACADE
     tutor: MOVE_FALSE_SWIPE
+    tutor: MOVE_GIGA_IMPACT
+    tutor: MOVE_GRUDGE
+    tutor: MOVE_HEX
+    tutor: MOVE_HYPER_BEAM
+    tutor: MOVE_LEECH_LIFE
+    tutor: MOVE_NIGHT_SHADE
+    tutor: MOVE_PURSUIT
+    tutor: MOVE_RAGE_POWDER
+    tutor: MOVE_SHADOW_BALL
+    tutor: MOVE_SHADOW_CLAW
+    tutor: MOVE_SPITE
+    tutor: MOVE_SUPERSONIC
     tutor: MOVE_WIDE_GUARD
+    tutor: MOVE_X_SCISSOR
+    tutor: MOVE_U_TURN
   }
   visuals {
     icon {
@@ -170371,6 +170375,7 @@ species {
       level: 56
       move: MOVE_SILK_TRAP
     }
+    tutor: MOVE_ABSORB
     tutor: MOVE_BUG_BITE
     tutor: MOVE_BUG_BUZZ
     tutor: MOVE_BULLDOZE
@@ -170382,21 +170387,21 @@ species {
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_LEECH_LIFE
     tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_PEBBLE_SHOWER
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_ROCK_SLIDE
     tutor: MOVE_ROCK_THROW
     tutor: MOVE_ROCK_TOMB
     tutor: MOVE_SANDSTORM
+    tutor: MOVE_SAND_TOMB
     tutor: MOVE_SPIKES
     tutor: MOVE_STEALTH_ROCK
     tutor: MOVE_STONE_EDGE
     tutor: MOVE_STRING_SHOT
     tutor: MOVE_SWORDS_DANCE
     tutor: MOVE_WEATHER_BALL
-    tutor: MOVE_ABSORB
     tutor: MOVE_X_SCISSOR
-    tutor: MOVE_PEBBLE_SHOWER
-    tutor: MOVE_SAND_TOMB
+    tutor: MOVE_BODY_PRESS
   }
   visuals {
     icon {
@@ -202114,6 +202119,7 @@ species {
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WHIRLPOOL
     tutor: MOVE_WHIRLWIND
+    tutor: MOVE_TAKE_FLIGHT
   }
   visuals {
     icon {
@@ -211228,7 +211234,7 @@ species {
   id: SPECIES_FLYGON_REDUX_B
   randomizer_banned: MONOTYPE
   form_of: SPECIES_FLYGON
-  long_name: "Flygon Champ" 
+  long_name: "Flygon Champ"
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
   hp: 88
