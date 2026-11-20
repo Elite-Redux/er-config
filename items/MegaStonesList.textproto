@@ -1844,7 +1844,7 @@ item {
 item {
   id: ITEM_PHANTOM_METEOR
   name: "Phantom Meteor"
-  description: "Enables MimikyuApex to Primal Revert."
+  description: "Enables Mimikyu C to Primal Revert."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "meteorite"
@@ -1873,7 +1873,7 @@ item {
 }
 item {
   id: ITEM_CHIEN_PAOITE
-  name: "Chien-Paoite"
+  name: "Chien-Paoite C"
   description: "Enables Chien-Pao to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -1883,7 +1883,7 @@ item {
 }
 item {
   id: ITEM_DRACOVISHITE
-  name: "Dracovishite"
+  name: "Dracovishite C"
   description: "Enables Dracovish to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -1893,8 +1893,8 @@ item {
 }
 item {
   id: ITEM_MAWILITE_R_B
-  name: "Mawilite P"
-  description: "Enables Mawile R to Mega Evolve."
+  name: "Mawilite C"
+  description: "Enables Mawile C to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
@@ -1903,7 +1903,7 @@ item {
 }
 item {
   id: ITEM_RIBOMBITE_R
-  name: "Ribombite R"
+  name: "Ribombite C"
   description: "Enables Ribombee R to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
@@ -1913,8 +1913,8 @@ item {
 }
 item {
   id: ITEM_WEAVILEITE_R
-  name: "Weavilite R"
-  description: "Enables Weavile R to Mega Evolve."
+  name: "Weavilite C"
+  description: "Enables Weavile C to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
@@ -1923,8 +1923,8 @@ item {
 }
 item {
   id: ITEM_FLYGONITE_R_B
-  name: "Flygonite E"
-  description: "Enables Flygon R to Mega Evolve."
+  name: "Flygonite C"
+  description: "Enables Flygon C to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE
   image: "generic_megastone"
@@ -1954,7 +1954,7 @@ item {
 item {
   id: ITEM_WIGGLITUFF_ORB
   name: "Ancient Apple"
-  description: "Enables Wigglytuff-A to Primal Reverse."
+  description: "Enables Wigglytuff-C to Primal Reverse."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_PRIMAL_ORB
   image: "tart_apple"
@@ -1963,7 +1963,7 @@ item {
 }
 item {
   id: ITEM_ABOMASITE_S
-  name: "Abomasite S"
+  name: "Abomasite C"
   description: "Enables Abomasnow to Mega Evolve."
   grouping: POCKET_MEGA_STONES
   hold_effect: HOLD_EFFECT_MEGA_STONE

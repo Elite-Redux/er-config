@@ -170328,7 +170328,6 @@ species {
   innate: ABILITY_BATTLE_ARMOR
   innate: ABILITY_SAND_VEIL
   percent_female: 100
-  form_shift_of: SPECIES_WORMADAM
   learnset {
     level {
       level: 1
@@ -170442,7 +170441,6 @@ species {
   innate: ABILITY_BATTLE_ARMOR
   innate: ABILITY_SCRAPYARD
   percent_female: 100
-  form_shift_of: SPECIES_WORMADAM
   learnset {
     level {
       level: 1
@@ -202144,7 +202142,7 @@ species {
 }
 species {
   id: SPECIES_MINIOR_REDUX_INFLATE
-  form_of: SPECIES_MINIOR_REDUX
+  form_of: SPECIES_MINIOR
   type: TYPE_WATER
   type2: TYPE_FLYING
   hp: 120
@@ -203002,6 +203000,7 @@ species {
 species {
   id: SPECIES_RAICHU_MEGA_REDUX
   form_of: SPECIES_RAICHU
+  long_name: "Raichu Redux Mega"
   type: TYPE_FLYING
   type2: TYPE_FAIRY
   hp: 84
@@ -210771,6 +210770,7 @@ species {
   id: SPECIES_DRAGONITE_DELIVERY
   randomizer_banned: MONOTYPE
   form_of: SPECIES_DRAGONITE
+  long_name: "Dragonite Champ"
   type: TYPE_DRAGON
   type2: TYPE_FLYING
   hp: 91
@@ -210892,6 +210892,7 @@ species {
 species {
   id: SPECIES_CHIEN_PAO_MEGA
   form_of: SPECIES_CHIEN_PAO
+  long_name: "Chien Pao Champ Mega"
   type: TYPE_DARK
   type2: TYPE_ICE
   hp: 80
@@ -210935,6 +210936,7 @@ species {
 species {
   id: SPECIES_DRACOVISH_MEGA
   form_of: SPECIES_DRACOVISH
+  long_name: "Dracovish Champ Mega"
   type: TYPE_WATER
   type2: TYPE_DRAGON
   hp: 90
@@ -210979,7 +210981,7 @@ species {
   id: SPECIES_LEDIAN_PARADOX
   randomizer_banned: MONOTYPE
   dex {
-    name: "Iron Heart"
+    name: "Iron Heart Champ"
     category: "Paradox"
     national_dex_num: 1066
     body_color: BODY_COLOR_RED
@@ -211092,6 +211094,7 @@ species {
 species {
   id: SPECIES_SNORLAX_PRIMAL
   form_of: SPECIES_SNORLAX
+  long_name: "Snorlax Champ"
   type: TYPE_NORMAL
   hp: 160
   atk: 130
@@ -211134,6 +211137,7 @@ species {
 species {
   id: SPECIES_VICTINI_PRIMAL
   form_of: SPECIES_VICTINI
+  long_name: "Victini Champ"
   type: TYPE_PSYCHIC
   type2: TYPE_FIRE
   hp: 100
@@ -211178,6 +211182,7 @@ species {
 species {
   id: SPECIES_WIGGLYTUFF_PRIMAL
   form_of: SPECIES_WIGGLYTUFF
+  long_name: "Wigglytuff Champ Primal"
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
   hp: 120
@@ -211223,6 +211228,7 @@ species {
   id: SPECIES_FLYGON_REDUX_B
   randomizer_banned: MONOTYPE
   form_of: SPECIES_FLYGON
+  long_name: "Flygon Champ" 
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
   hp: 88
@@ -211338,6 +211344,7 @@ species {
 species {
   id: SPECIES_FLYGON_REDUX_B_MEGA
   form_of: SPECIES_FLYGON
+  long_name: "Flygon Champ Mega"
   type: TYPE_ELECTRIC
   type2: TYPE_DRAGON
   hp: 88
@@ -211383,6 +211390,7 @@ species {
   id: SPECIES_RIBOMBEE_REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_RIBOMBEE
+  long_name: "Ribombee Champ"
   type: TYPE_BUG
   type2: TYPE_ELECTRIC
   hp: 60
@@ -211489,6 +211497,7 @@ species {
 species {
   id: SPECIES_RIBOMBEE_REDUX_MEGA
   form_of: SPECIES_RIBOMBEE
+  long_name: "Ribombee Champ Mega"
   type: TYPE_BUG
   type2: TYPE_ELECTRIC
   hp: 60
@@ -211534,6 +211543,7 @@ species {
   id: SPECIES_WEAVILE_REDUX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_WEAVILE
+  long_name: "Weavile Champ"
   type: TYPE_GROUND
   type2: TYPE_DARK
   hp: 80
@@ -211638,6 +211648,7 @@ species {
 species {
   id: SPECIES_WEAVILE_REDUX_MEGA
   form_of: SPECIES_WEAVILE
+  long_name: "Weavile Champ Mega"
   type: TYPE_GROUND
   type2: TYPE_DARK
   hp: 80
@@ -211725,6 +211736,7 @@ species {
   id: SPECIES_BEWEAR_ANGRY
   randomizer_banned: MONOTYPE
   form_of: SPECIES_BEWEAR
+  long_name: "Bewear Champ"
   type: TYPE_NORMAL
   type2: TYPE_FIGHTING
   hp: 120
@@ -211851,6 +211863,7 @@ species {
   id: SPECIES_MIMIKYU_RAYQUAZA
   randomizer_banned: MONOTYPE
   form_of: SPECIES_MIMIKYU
+  long_name: "Mimikyu Champ Primal"
   type: TYPE_GHOST
   type2: TYPE_FAIRY
   hp: 79
@@ -211894,6 +211907,7 @@ species {
   id: SPECIES_ESPEON_GALAXY
   randomizer_banned: MONOTYPE
   form_of: SPECIES_ESPEON
+  long_name: "Espeon Champ"
   type: TYPE_PSYCHIC
   hp: 65
   atk: 90
@@ -211937,6 +211951,7 @@ species {
   id: SPECIES_DARKRAI_NIGHTMARE
   randomizer_banned: MONOTYPE
   form_of: SPECIES_DARKRAI
+  long_name: "Darkrai Champ"
   type: TYPE_DARK
   hp: 70
   atk: 110
@@ -211976,6 +211991,7 @@ species {
   id: SPECIES_SOLROCK_SYSTEM
   randomizer_banned: MONOTYPE
   form_of: SPECIES_SOLROCK
+  long_name: "Solrock Champ"
   type: TYPE_ROCK
   type2: TYPE_PSYCHIC
   hp: 90
@@ -212136,6 +212152,7 @@ species {
   id: SPECIES_SPECTRIER_CLOUD
   randomizer_banned: MONOTYPE
   form_of: SPECIES_SPECTRIER
+  long_name: "Spectrier Champ"
   type: TYPE_FLYING
   hp: 100
   atk: 80
@@ -212236,6 +212253,7 @@ species {
   id: SPECIES_CALYREX_CLOUD_RIDER
   randomizer_banned: MONOTYPE
   form_of: SPECIES_CALYREX
+  long_name: "Calyrex Champ Rider"
   type: TYPE_PSYCHIC
   type2: TYPE_FLYING
   hp: 100
@@ -212353,6 +212371,7 @@ species {
   id: SPECIES_MAWILE_REDUX_B
   randomizer_banned: MONOTYPE
   form_of: SPECIES_MAWILE
+  long_name: "Mawile Champ"
   type: TYPE_GRASS
   type2: TYPE_POISON
   hp: 70
@@ -212506,6 +212525,7 @@ species {
 species {
   id: SPECIES_MAWILE_REDUX_B_MEGA
   form_of: SPECIES_MAWILE
+  long_name: "Mawile Champ Mega"
   type: TYPE_GRASS
   type2: TYPE_POISON
   hp: 70
@@ -212551,6 +212571,7 @@ species {
   id: SPECIES_WIGGLYTUFF_APEX
   randomizer_banned: MONOTYPE
   form_of: SPECIES_WIGGLYTUFF
+  long_name: "Wigglytuff Champ"
   type: TYPE_NORMAL
   type2: TYPE_FAIRY
   hp: 120
@@ -217168,6 +217189,7 @@ species {
 species {
   id: SPECIES_MIMIKYU_APEX
   form_of: SPECIES_MIMIKYU
+  long_name: "Mimikyu Champ"
   type: TYPE_GHOST
   type2: TYPE_FAIRY
   hp: 79
