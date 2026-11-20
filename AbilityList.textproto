@@ -339,7 +339,7 @@ ability {
 ability {
   id: ABILITY_CUTE_CHARM
   name: "Cute Charm"
-  description: "50% chance to infatuate on contact. Also works on offense."
+  description: "25% chance to infatuate on contact. Also works on offense."
   expanded_description: "When hit by making contact (offensively or defensively), has a 50% chance to infatuate the attacker (cuts their Attack and Special Attack in half)."
 }
 ability {
