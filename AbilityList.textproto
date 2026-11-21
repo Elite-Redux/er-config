@@ -6528,5 +6528,5 @@ ability {
 ability {
   id: ABILITY_BIG_APPLE
   name: "Big Apple"
-  description: "Multi-Headed + Aroma Veil."
+  description: "Multi-Headed + Self Sufficient."
 }
