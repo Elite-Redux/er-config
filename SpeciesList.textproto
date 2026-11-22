@@ -24730,7 +24730,6 @@ species {
     }
     tutor: MOVE_AROMATHERAPY
     tutor: MOVE_BODY_PRESS
-    tutor: MOVE_CALM_MIND
     tutor: MOVE_CHARM
     tutor: MOVE_COUNTER
     tutor: MOVE_CREEPING_THORNS
@@ -24753,6 +24752,7 @@ species {
     tutor: MOVE_METEOROPATH_BALL
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_PLAY_ROUGH
     tutor: MOVE_RAGE_POWDER
     tutor: MOVE_RAZOR_LEAF
@@ -24768,7 +24768,6 @@ species {
     tutor: MOVE_TORMENT
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_NATURE_POWER
   }
   visuals {
     icon {
@@ -137528,7 +137527,6 @@ species {
     level {
       level: 1
       move: MOVE_GRASS_KNOT
-      move: MOVE_GROWTH
       move: MOVE_MEGA_DRAIN
       move: MOVE_SWEET_SCENT
     }
@@ -137636,7 +137634,6 @@ species {
     level {
       level: 1
       move: MOVE_GRASS_KNOT
-      move: MOVE_GROWTH
       move: MOVE_MEGA_DRAIN
       move: MOVE_SWEET_SCENT
     }
@@ -137666,6 +137663,10 @@ species {
       level: 51
       move: MOVE_NATURAL_GIFT
       move: MOVE_STRENGTH_SAP
+    }
+    level {
+      level: 61
+      move: MOVE_GROWTH
     }
     tutor: MOVE_ABSORB
     tutor: MOVE_ENERGY_BALL
@@ -137732,7 +137733,6 @@ species {
     level {
       level: 1
       move: MOVE_GRASS_KNOT
-      move: MOVE_GROWTH
       move: MOVE_MEGA_DRAIN
       move: MOVE_SWEET_SCENT
     }
@@ -137769,6 +137769,10 @@ species {
       level: 56
       move: MOVE_CHLOROBLAST
     }
+    level {
+      level: 61
+      move: MOVE_GROWTH
+    }
     tutor: MOVE_ABSORB
     tutor: MOVE_AROMATHERAPY
     tutor: MOVE_CREEPING_THORNS
@@ -137782,7 +137786,7 @@ species {
     tutor: MOVE_INGRAIN
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_LIGHT_SCREEN
-    tutor: MOVE_ROTOTILLER
+    tutor: MOVE_NATURE_POWER
     tutor: MOVE_SAFEGUARD
     tutor: MOVE_SEED_BOMB
     tutor: MOVE_SOAK
@@ -137791,7 +137795,6 @@ species {
     tutor: MOVE_TERRAIN_PULSE
     tutor: MOVE_WIDE_GUARD
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_NATURE_POWER
   }
   visuals {
     icon {
