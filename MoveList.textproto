@@ -6820,7 +6820,7 @@ moves {
   id: MOVE_FOCUS_BLAST
   name: "Focus Blast"
   short_name: "Focus Blast"
-  description: "Mental power is un-leashed. 65% chance to lower foe\'s SpDef. Mega Launcher boost"
+  description: "Mental power is un-leashed. 10% chance to lower foe\'s SpDef. Mega Launcher boost"
   short_description: "Attacks at full power. May lower Sp. Def."
   effect: EFFECT_SPECIAL_DEFENSE_DOWN_HIT
   split: SPECIAL
@@ -6829,7 +6829,7 @@ moves {
   power: 120
   accuracy: 75
   pp: 5
-  effect_chance: 65
+  effect_chance: 10
   mirror_move_affected: true
   mega_launcher: true
   ballistic: true
