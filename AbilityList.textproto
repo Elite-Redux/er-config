@@ -6530,3 +6530,8 @@ ability {
   name: "Big Apple"
   description: "Multi-Headed + Self Sufficient."
 }
+ability {
+  id: ABILITY_DOWNPOUR
+  name: "Downpour"
+  description: "Summons a specialized rain that deals damage at the end of the turn."
+}
