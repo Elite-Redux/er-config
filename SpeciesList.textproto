@@ -203287,7 +203287,7 @@ species {
     pokemon_offset: 17
   }
   type: TYPE_GRASS
-  type2: TYPE_FLYING
+  type2: TYPE_NORMAL
   hp: 70
   atk: 125
   def: 75
@@ -203297,7 +203297,7 @@ species {
   ability: ABILITY_CRASHOUT
   ability: ABILITY_AERODYNAMICS
   ability: ABILITY_AIRBORNE
-  innate: ABILITY_WIND_RIDER
+  innate: ABILITY_DA_VINCI
   innate: ABILITY_RAW_WOOD
   innate: ABILITY_LIMBER
   genderless: true

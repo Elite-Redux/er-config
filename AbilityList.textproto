@@ -6535,3 +6535,8 @@ ability {
   name: "Downpour"
   description: "Summons a specialized rain that deals damage at the end of the turn."
 }
+ability {
+  id: ABILITY_DA_VINCI
+  name: "Da Vinci"
+  description: "Adds Flying-Type + Wind Rider"
+}
