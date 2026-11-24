@@ -6533,7 +6533,8 @@ ability {
 ability {
   id: ABILITY_DOWNPOUR
   name: "Downpour"
-  description: "Summons a specialized rain that deals damage at the end of the turn."
+  description: "Summons a downpour on entry. Lasts 8 turns."
+  expanded_description: "Summons a downpour for 8 turns (12 with Damp Rock) on entry. Damages non-Water types by 1/16 HP per turn, boosts Water moves by 50% and reduces Fire damage by 50%. Moves and abilities that interact with rain also interact with downpour. Cannot override primal weather conditions."
 }
 ability {
   id: ABILITY_DA_VINCI
