@@ -29706,6 +29706,7 @@ species {
       move: MOVE_MEDITATE
       move: MOVE_SEISMIC_FIST
       move: MOVE_WATERFALL
+      move: MOVE_ROUND
     }
     level {
       level: 37
@@ -40074,7 +40075,6 @@ species {
     level {
       level: 24
       move: MOVE_AERIAL_ACE
-      move: MOVE_DRAGON_DANCE
       move: MOVE_GROWTH
       move: MOVE_RAZOR_WIND
     }
@@ -40226,7 +40226,6 @@ species {
     level {
       level: 24
       move: MOVE_AERIAL_ACE
-      move: MOVE_DRAGON_DANCE
       move: MOVE_GROWTH
       move: MOVE_RAZOR_WIND
       move: MOVE_SCALE_SHOT
@@ -50487,6 +50486,7 @@ species {
     tutor: MOVE_EARTHQUAKE
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
     tutor: MOVE_MIST
@@ -50495,9 +50495,9 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -50627,6 +50627,7 @@ species {
       move: MOVE_CHILLING_WATER
       move: MOVE_ECHOED_VOICE
       move: MOVE_GRAVITY
+      move: MOVE_OUTBURST
     }
     level {
       level: 51
@@ -50646,6 +50647,7 @@ species {
     tutor: MOVE_FLIP_TURN
     tutor: MOVE_GIGA_IMPACT
     tutor: MOVE_HEAVY_SLAM
+    tutor: MOVE_HYDRO_PUMP
     tutor: MOVE_HYPER_BEAM
     tutor: MOVE_HYPER_VOICE
     tutor: MOVE_ICE_BEAM
@@ -50655,9 +50657,9 @@ species {
     tutor: MOVE_SURF
     tutor: MOVE_WATER_PULSE
     tutor: MOVE_WHIRLPOOL
-    tutor: MOVE_HYDRO_PUMP
-    tutor: MOVE_METRONOME
-    tutor: MOVE_SNORE
+    tutor: MOVE_WEATHER_BALL
+    tutor: MOVE_EERIE_FOG
+    tutor: MOVE_METEOROPATH_BALL
   }
   visuals {
     icon {
@@ -67659,7 +67661,6 @@ species {
     }
     level {
       level: 24
-      move: MOVE_COSMIC_POWER
       move: MOVE_DIZZY_PUNCH
       move: MOVE_DOUBLE_KICK
       move: MOVE_HEALING_WISH
@@ -67675,8 +67676,8 @@ species {
       level: 46
       move: MOVE_RIDER_KICK
       move: MOVE_TRIPLE_KICK
-      move: MOVE_VICTORY_DANCE
       move: MOVE_CLOSE_COMBAT
+      move: MOVE_DOUBLE_EDGE
     }
     level {
       level: 51
@@ -86283,6 +86284,7 @@ species {
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_METEOROPATH_BALL
     tutor: MOVE_RAPID_SPIN
     tutor: MOVE_RAZOR_LEAF
     tutor: MOVE_REFLECT
@@ -86291,7 +86293,9 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
   }
   visuals {
     icon {
@@ -86395,12 +86399,14 @@ species {
       move: MOVE_FAIRY_WIND
       move: MOVE_PETAL_DANCE
       move: MOVE_SYNTHESIS
+      move: MOVE_BIND
     }
     level {
       level: 24
       move: MOVE_ENCORE
       move: MOVE_GRASS_PLEDGE
       move: MOVE_MAGICAL_LEAF
+      move: MOVE_ROUND
     }
     level {
       level: 37
@@ -86438,6 +86444,7 @@ species {
     tutor: MOVE_LEECH_SEED
     tutor: MOVE_LIFE_DEW
     tutor: MOVE_LIGHT_SCREEN
+    tutor: MOVE_METEOROPATH_BALL
     tutor: MOVE_MISTY_TERRAIN
     tutor: MOVE_MOONBLAST
     tutor: MOVE_PIXIE_BEAM
@@ -86451,7 +86458,9 @@ species {
     tutor: MOVE_SUNNY_DAY
     tutor: MOVE_WEATHER_BALL
     tutor: MOVE_WORRY_SEED
-    tutor: MOVE_METEOROPATH_BALL
+    tutor: MOVE_HYPER_VOICE
+    tutor: MOVE_BRAVADO
+    tutor: MOVE_FACADE
   }
   visuals {
     icon {
@@ -91723,10 +91732,6 @@ species {
       level: 51
       move: MOVE_DRAIN_BRAIN
       move: MOVE_OUTBURST
-    }
-    level {
-      level: 56
-      move: MOVE_GLACIAL_LANCE
     }
     tutor: MOVE_ACID_ARMOR
     tutor: MOVE_AURORA_BEAM
@@ -154729,10 +154734,6 @@ species {
       level: 51
       move: MOVE_SHEER_COLD
     }
-    level {
-      level: 71
-      move: MOVE_ORIGIN_PULSE
-    }
     tutor: MOVE_ACROBATICS
     tutor: MOVE_AGILITY
     tutor: MOVE_AIR_SLASH
@@ -195308,7 +195309,6 @@ species {
     }
     level {
       level: 46
-      move: MOVE_GLACIAL_LANCE
       move: MOVE_DRAGON_RUSH
       move: MOVE_SEISMIC_SLAM
     }
