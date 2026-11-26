@@ -15414,6 +15414,7 @@ moves {
   contact: true
   mirror_move_affected: true
   reckless: true
+  hammer: true
   uses_animation: MOVE_SMITE
 }
 moves {
@@ -17225,6 +17226,7 @@ moves {
   power: 90
   accuracy: 100
   pp: 15
+  sound: true
   mirror_move_affected: true
   uses_animation: MOVE_NONE
 }
